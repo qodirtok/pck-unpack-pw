@@ -1,0 +1,12 @@
+AFile Dialog Dll module Init
+Created(or opened) on 13/12/2013 14:15:41
+
+[14:15:41.875] AFDll Init in Z:\Surfaces\MiniMaps
+[14:15:41.921] <!> AFD_DllInitialize() started
+
+[14:15:43.218] <!> CRender::InitA3DEngine: Failed to load skinmodelvs.cfg
+
+[14:15:59.437] <!> CRender::Init, Failed to initialize A3D engine!
+
+[14:15:59.437] <!> Error in AFD_DllInitialize(), AFileDialog could not init the engine.
+
