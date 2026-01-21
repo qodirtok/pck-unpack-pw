@@ -1,1679 +1,1679 @@
 math.randomseed(os.time())
 
----10ÔÂ8ÈÕÎªÖ÷º¯ÊýÐÂÔö¼ÓÁËÒ»¸ö²ÎÊý£¬Á½¸ö·µ»ØÖµÒÔ¼°Ò»¶ÎÅÐ¶ÏÊÇ·ñÇ¿ÖÆÌæ»»µÄÅÐ¶Ï´úÂë£¨223¡«228£©
----Ò»¸ö²ÎÊý "sta" ÓÃÀ´´«Èëµ±Ç°µÄ×´Ì¬£¨0.ÎÞ,1.´¦ÓÚÕ¾Á¢×´Ì¬,2.......£©
----Á½¸ö·µ»ØÖµ "forceup" "forcedown" ÓÃÀ´´«»ØÊÇ·ñÇ¿ÖÆÌæ»»ÉÏ¡¢ÏÂ°ëÉíµÄ¶¯»­
----10ÔÂ25ÈÕ×¢µôÁËÎäÆ÷Î»ÖÃÏà¹ØµÄ²ÎÊý¼°ÐÅÏ¢
----11ÔÂ1ÈÕÎªÖ÷º¯ÊýÐÂÔö¼ÓÁË2¸ö²ÎÊý£¬¼°Ò»¶Î·µ»Ø¼¼ÄÜ¶¯×÷µÄ´úÂë
+---10æœˆ8æ—¥ä¸ºä¸»å‡½æ•°æ–°å¢žåŠ äº†ä¸€ä¸ªå‚æ•°ï¼Œä¸¤ä¸ªè¿”å›žå€¼ä»¥åŠä¸€æ®µåˆ¤æ–­æ˜¯å¦å¼ºåˆ¶æ›¿æ¢çš„åˆ¤æ–­ä»£ç ï¼ˆ223ï½ž228ï¼‰
+---ä¸€ä¸ªå‚æ•° "sta" ç”¨æ¥ä¼ å…¥å½“å‰çš„çŠ¶æ€ï¼ˆ0.æ— ,1.å¤„äºŽç«™ç«‹çŠ¶æ€,2.......ï¼‰
+---ä¸¤ä¸ªè¿”å›žå€¼ "forceup" "forcedown" ç”¨æ¥ä¼ å›žæ˜¯å¦å¼ºåˆ¶æ›¿æ¢ä¸Šã€ä¸‹åŠèº«çš„åŠ¨ç”»
+---10æœˆ25æ—¥æ³¨æŽ‰äº†æ­¦å™¨ä½ç½®ç›¸å…³çš„å‚æ•°åŠä¿¡æ¯
+---11æœˆ1æ—¥ä¸ºä¸»å‡½æ•°æ–°å¢žåŠ äº†2ä¸ªå‚æ•°ï¼ŒåŠä¸€æ®µè¿”å›žæŠ€èƒ½åŠ¨ä½œçš„ä»£ç 
 
----³ÌÐòÔ¤¶¨ÒåÐÐÎªµ÷ÓÃµÄ¶¯×÷ÐòÁÐÃû³Æ¼°Ïà¹ØÐÅÏ¢ 
----        name£ºµ÷ÓÃµÄECMÐòÁÐÃû³Æ
----   logictype£ºÂß¼­ÀàÐÍ£º1.ÒÆ¶¯Àà¶¯×÷£»2.·ÇÒÆ¶¯Àà¶¯×÷£¨°üÀ¨ÆÕÍ¨ÐÐÎª¡¢ÑÝÎä¡¢µþ¼ÓµÈ£©£»
----  forcespeed£ºÇ¿ÐÐµ÷Õû¶¯×÷²¥·ÅËÙ¶È£¬½ö¶Ô1.2.4.Àà¶¯×÷ÇÒ·ÇË«ÈË×´Ì¬ÏÂÓÐÐ§£¬±¾ÏîÄ¿Ç°ÎÞÐ§ 
----              ²»Ö¸¶¨Ê±Îª±ê×¼Öµ100£¬Ö¸¶¨Ê±È¡Öµ·¶Î§50~300£¬Ð¡ÓÚ100Îª¼õËÙ£¬´óÓÚ100Îª¼ÓËÙ(ÎÞÐ§)
----ÒÔÏÂÎª·¶Àý 123
----ACTION_TYPE[1] = {name = "ÑÝÎä¶¯×÷" , logictype = 2 , forcespeed = 120}
----ACTION_TYPE[2] = {name = "Õ¾Á¢" , logictype = 1}
----ACTION_TYPE[3] = {name = "±íÇé»ÓÊÖ" , logictype = 2}
----ACTION_TYPE[4] = {name = "ÊÜÉË" , logictype = 2}
----ACTION_TYPE[5] = {name = "»Ø×ªÎèµ¸" , logictype = 2}
+---ç¨‹åºé¢„å®šä¹‰è¡Œä¸ºè°ƒç”¨çš„åŠ¨ä½œåºåˆ—åç§°åŠç›¸å…³ä¿¡æ¯
+---        nameï¼šè°ƒç”¨çš„ECMåºåˆ—åç§°
+---   logictypeï¼šé€»è¾‘ç±»åž‹ï¼š1.ç§»åŠ¨ç±»åŠ¨ä½œï¼›2.éžç§»åŠ¨ç±»åŠ¨ä½œï¼ˆåŒ…æ‹¬æ™®é€šè¡Œä¸ºã€æ¼”æ­¦ã€å åŠ ç­‰ï¼‰ï¼›
+---  forcespeedï¼šå¼ºè¡Œè°ƒæ•´åŠ¨ä½œæ’­æ”¾é€Ÿåº¦ï¼Œä»…å¯¹1.2.4.ç±»åŠ¨ä½œä¸”éžåŒäººçŠ¶æ€ä¸‹æœ‰æ•ˆï¼Œæœ¬é¡¹ç›®å‰æ— æ•ˆ
+---              ä¸æŒ‡å®šæ—¶ä¸ºæ ‡å‡†å€¼100ï¼ŒæŒ‡å®šæ—¶å–å€¼èŒƒå›´50~300ï¼Œå°äºŽ100ä¸ºå‡é€Ÿï¼Œå¤§äºŽ100ä¸ºåŠ é€Ÿ(æ— æ•ˆ)
+---ä»¥ä¸‹ä¸ºèŒƒä¾‹ 123
+---ACTION_TYPE[1] = {name = "æ¼”æ­¦åŠ¨ä½œ" , logictype = 2 , forcespeed = 120}
+---ACTION_TYPE[2] = {name = "ç«™ç«‹" , logictype = 1}
+---ACTION_TYPE[3] = {name = "è¡¨æƒ…æŒ¥æ‰‹" , logictype = 2}
+---ACTION_TYPE[4] = {name = "å—ä¼¤" , logictype = 2}
+---ACTION_TYPE[5] = {name = "å›žè½¬èˆžè¹ˆ" , logictype = 2}
 
 ACTION_TYPE = {}
-ACTION_TYPE[1] = {name = "Õ¾Á¢" , logictype = 1}
-ACTION_TYPE[2] = {name = "ÐÐ×ß" , logictype = 1}
-ACTION_TYPE[3] = {name = "±¼ÅÜ" , logictype = 1}
-ACTION_TYPE[4] = {name = "ºóÍË" , logictype = 1}
-ACTION_TYPE[5] = {name = "ÆðÌø" , logictype = 1}
-ACTION_TYPE[6] = {name = "ÌøÔ¾Ñ­»·" , logictype = 1}
-ACTION_TYPE[7] = {name = "ÌøÔ¾ÂäµØ" , logictype = 1}
-ACTION_TYPE[8] = {name = "ÆÕÍ¨¹¥»÷1" , logictype = 2}
-ACTION_TYPE[9] = {name = "ÆÕÍ¨¹¥»÷2" , logictype = 2}
-ACTION_TYPE[10] = {name = "Ô­µØÐý×ª" , logictype = 1}
-ACTION_TYPE[11] = {name = "Ê¹ÓÃ¼¼ÄÜ" , logictype = 2}
-ACTION_TYPE[12] = {name = "Ê°È¡" , logictype = 2}
-ACTION_TYPE[13] = {name = "¶×ÏÂ²Ù×÷" , logictype = 2}
-ACTION_TYPE[14] = {name = "ÑÝÎä¶¯×÷" , logictype = 2}
-ACTION_TYPE[15] = {name = "Õ¾Á¢" , logictype = 1}
-ACTION_TYPE[16] = {name = "Õ¾Á¢²Ù×÷" , logictype = 2}
-ACTION_TYPE[17] = {name = "µØÃæËÀÍö" , logictype = 2}
-ACTION_TYPE[18] = {name = "µØÃæËÀÍöÑ­»·" , logictype = 2}
-ACTION_TYPE[19] = {name = "ÊÜÉË" , logictype = 2}
-ACTION_TYPE[20] = {name = "±©»÷ÊÜÉË" , logictype = 2}
-ACTION_TYPE[21] = {name = "ÉÁ±Ü" , logictype = 2}
-ACTION_TYPE[22] = {name = "¸ñµ²" , logictype = 2}
-ACTION_TYPE[23] = {name = "¸´»î" , logictype = 2}
-ACTION_TYPE[24] = {name = "Ç×Ç×ÃÛÃÛ" , logictype = 2}
-ACTION_TYPE[25] = {name = "»Ø³Ç" , logictype = 2}
-ACTION_TYPE[26] = {name = "±íÇéËµ»°" , logictype = 2}
-ACTION_TYPE[27] = {name = "±íÇéÊÖÖ¸" , logictype = 2}
-ACTION_TYPE[28] = {name = "±íÇéÇëÇó" , logictype = 2}
-ACTION_TYPE[29] = {name = "±íÇé»ÓÊÖ" , logictype = 2}
-ACTION_TYPE[30] = {name = "±íÇéÆÕÍ¨" , logictype = 2}
-ACTION_TYPE[31] = {name = "±íÇéÏÂ¹ò±§È­" , logictype = 2}
-ACTION_TYPE[32] = {name = "±íÇé¹ÄÕÆ" , logictype = 2}
-ACTION_TYPE[33] = {name = "±íÇé»¶ºô" , logictype = 2}
-ACTION_TYPE[34] = {name = "±íÇéº¦Ðß" , logictype = 2}
-ACTION_TYPE[35] = {name = "±íÇéÇ×ÎÇ" , logictype = 2}
-ACTION_TYPE[36] = {name = "±íÇéÌøÎè" , logictype = 2}
-ACTION_TYPE[37] = {name = "¼ÝÊ»¶¯×÷_¿ÕÏÐ" , logictype = 2}
-ACTION_TYPE[38] = {name = "ÐÝÏÐ" , logictype = 2}		--Ä¿Ç°Ö»ÓÐ×Ô¼ºµÄÐÝÏÐ¶¯×÷»á´«Èë½Å±¾
-ACTION_TYPE[39] = {name = "¼ÝÊ»¶¯×÷_×ó×ª" , logictype = 2}
-ACTION_TYPE[40] = {name = "¼ÝÊ»¶¯×÷_ÓÒ×ª" , logictype = 2}
-ACTION_TYPE[41] = {name = "Ë®ÖÐÕõÔú" , logictype = 1}
-ACTION_TYPE[42] = {name = "Ë®ÖÐËÀÍö" , logictype = 2}
-ACTION_TYPE[43] = {name = "Ë®ÖÐËÀÍöÑ­»·" , logictype = 2}
-ACTION_TYPE[44] = {name = "±»»÷ÍË" , logictype = 1}
-ACTION_TYPE[45] = {name = "Ò×ÈÝ" , logictype = 2}
-ACTION_TYPE[46] = {name = "Ò»¼¶Ìø" , logictype = 1}
-ACTION_TYPE[47] = {name = "¶þ¼¶Ìø" , logictype = 1}
-ACTION_TYPE[48] = {name = "Èý¼¶Ìø" , logictype = 1}
-ACTION_TYPE[49] = {name = "ÌøÔ¾Ñ­»·" , logictype = 1}
-ACTION_TYPE[50] = {name = "ÌøÔ¾ÂäµØ" , logictype = 1}
-ACTION_TYPE[51] = {name = "Âé±Ô" , logictype = 1}
-ACTION_TYPE[52] = {name = "±»À­" , logictype = 1}
-ACTION_TYPE[53] = {name = "±»»÷µ¹" , logictype = 1}
-ACTION_TYPE[54] = {name = "±»¸¡¿Õ" , logictype = 1}
+ACTION_TYPE[1] = {name = "ç«™ç«‹" , logictype = 1}
+ACTION_TYPE[2] = {name = "è¡Œèµ°" , logictype = 1}
+ACTION_TYPE[3] = {name = "å¥”è·‘" , logictype = 1}
+ACTION_TYPE[4] = {name = "åŽé€€" , logictype = 1}
+ACTION_TYPE[5] = {name = "èµ·è·³" , logictype = 1}
+ACTION_TYPE[6] = {name = "è·³è·ƒå¾ªçŽ¯" , logictype = 1}
+ACTION_TYPE[7] = {name = "è·³è·ƒè½åœ°" , logictype = 1}
+ACTION_TYPE[8] = {name = "æ™®é€šæ”»å‡»1" , logictype = 2}
+ACTION_TYPE[9] = {name = "æ™®é€šæ”»å‡»2" , logictype = 2}
+ACTION_TYPE[10] = {name = "åŽŸåœ°æ—‹è½¬" , logictype = 1}
+ACTION_TYPE[11] = {name = "ä½¿ç”¨æŠ€èƒ½" , logictype = 2}
+ACTION_TYPE[12] = {name = "æ‹¾å–" , logictype = 2}
+ACTION_TYPE[13] = {name = "è¹²ä¸‹æ“ä½œ" , logictype = 2}
+ACTION_TYPE[14] = {name = "æ¼”æ­¦åŠ¨ä½œ" , logictype = 2}
+ACTION_TYPE[15] = {name = "ç«™ç«‹" , logictype = 1}
+ACTION_TYPE[16] = {name = "ç«™ç«‹æ“ä½œ" , logictype = 2}
+ACTION_TYPE[17] = {name = "åœ°é¢æ­»äº¡" , logictype = 2}
+ACTION_TYPE[18] = {name = "åœ°é¢æ­»äº¡å¾ªçŽ¯" , logictype = 2}
+ACTION_TYPE[19] = {name = "å—ä¼¤" , logictype = 2}
+ACTION_TYPE[20] = {name = "æš´å‡»å—ä¼¤" , logictype = 2}
+ACTION_TYPE[21] = {name = "é—ªé¿" , logictype = 2}
+ACTION_TYPE[22] = {name = "æ ¼æŒ¡" , logictype = 2}
+ACTION_TYPE[23] = {name = "å¤æ´»" , logictype = 2}
+ACTION_TYPE[24] = {name = "äº²äº²èœœèœœ" , logictype = 2}
+ACTION_TYPE[25] = {name = "å›žåŸŽ" , logictype = 2}
+ACTION_TYPE[26] = {name = "è¡¨æƒ…è¯´è¯" , logictype = 2}
+ACTION_TYPE[27] = {name = "è¡¨æƒ…æ‰‹æŒ‡" , logictype = 2}
+ACTION_TYPE[28] = {name = "è¡¨æƒ…è¯·æ±‚" , logictype = 2}
+ACTION_TYPE[29] = {name = "è¡¨æƒ…æŒ¥æ‰‹" , logictype = 2}
+ACTION_TYPE[30] = {name = "è¡¨æƒ…æ™®é€š" , logictype = 2}
+ACTION_TYPE[31] = {name = "è¡¨æƒ…ä¸‹è·ªæŠ±æ‹³" , logictype = 2}
+ACTION_TYPE[32] = {name = "è¡¨æƒ…é¼“æŽŒ" , logictype = 2}
+ACTION_TYPE[33] = {name = "è¡¨æƒ…æ¬¢å‘¼" , logictype = 2}
+ACTION_TYPE[34] = {name = "è¡¨æƒ…å®³ç¾ž" , logictype = 2}
+ACTION_TYPE[35] = {name = "è¡¨æƒ…äº²å»" , logictype = 2}
+ACTION_TYPE[36] = {name = "è¡¨æƒ…è·³èˆž" , logictype = 2}
+ACTION_TYPE[37] = {name = "é©¾é©¶åŠ¨ä½œ_ç©ºé—²" , logictype = 2}
+ACTION_TYPE[38] = {name = "ä¼‘é—²" , logictype = 2}		--ç›®å‰åªæœ‰è‡ªå·±çš„ä¼‘é—²åŠ¨ä½œä¼šä¼ å…¥è„šæœ¬
+ACTION_TYPE[39] = {name = "é©¾é©¶åŠ¨ä½œ_å·¦è½¬" , logictype = 2}
+ACTION_TYPE[40] = {name = "é©¾é©¶åŠ¨ä½œ_å³è½¬" , logictype = 2}
+ACTION_TYPE[41] = {name = "æ°´ä¸­æŒ£æ‰Ž" , logictype = 1}
+ACTION_TYPE[42] = {name = "æ°´ä¸­æ­»äº¡" , logictype = 2}
+ACTION_TYPE[43] = {name = "æ°´ä¸­æ­»äº¡å¾ªçŽ¯" , logictype = 2}
+ACTION_TYPE[44] = {name = "è¢«å‡»é€€" , logictype = 1}
+ACTION_TYPE[45] = {name = "æ˜“å®¹" , logictype = 2}
+ACTION_TYPE[46] = {name = "ä¸€çº§è·³" , logictype = 1}
+ACTION_TYPE[47] = {name = "äºŒçº§è·³" , logictype = 1}
+ACTION_TYPE[48] = {name = "ä¸‰çº§è·³" , logictype = 1}
+ACTION_TYPE[49] = {name = "è·³è·ƒå¾ªçŽ¯" , logictype = 1}
+ACTION_TYPE[50] = {name = "è·³è·ƒè½åœ°" , logictype = 1}
+ACTION_TYPE[51] = {name = "éº»ç—¹" , logictype = 1}
+ACTION_TYPE[52] = {name = "è¢«æ‹‰" , logictype = 1}
+ACTION_TYPE[53] = {name = "è¢«å‡»å€’" , logictype = 1}
+ACTION_TYPE[54] = {name = "è¢«æµ®ç©º" , logictype = 1}
 
 
 
----Ô¤¶¨ÒåECMÖÐµÄ¶¯×÷ÐòÁÐÀàÐÍ¼°Ïà¹ØÐÅÏ¢
----     default£ºÄ¬ÈÏÎäÆ÷¶ÔÓ¦ºó×ºÀàÐÍ
+---é¢„å®šä¹‰ECMä¸­çš„åŠ¨ä½œåºåˆ—ç±»åž‹åŠç›¸å…³ä¿¡æ¯
+---     defaultï¼šé»˜è®¤æ­¦å™¨å¯¹åº”åŽç¼€ç±»åž‹
 
 SEQUENCE_TYPE = {}
-SEQUENCE_TYPE["Ê¹ÓÃ¼¼ÄÜ"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ¾Á¢"] = {default = "acttype"}
-SEQUENCE_TYPE["Ô­µØÐý×ª"] = {default = "acttype"}
-SEQUENCE_TYPE["ÐÐ×ß"] = {default = "acttype"}
-SEQUENCE_TYPE["ºóÍË"] = {default = "acttype"}
-SEQUENCE_TYPE["±¼ÅÜ"] = {default = "acttype"}
-SEQUENCE_TYPE["ÆðÌø"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌøÔ¾Ñ­»·"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌøÔ¾ÂäµØ"] = {default = "acttype"}
-SEQUENCE_TYPE["¼ÓËÙÅÜ"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ½¶·Õ¾Á¢"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ½¶·Ô­µØÐý×ª"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ½¶·ÐÐ×ß"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ½¶·ºóÍË"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ½¶·±¼ÅÜ"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ½¶·ÆðÌø"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ½¶·ÌøÔ¾Ñ­»·"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ½¶·ÌøÔ¾ÂäµØ"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ½¶·¼ÓËÙÅÜ"] = {default = "acttype"}
-SEQUENCE_TYPE["´ò×ø"] = {default = "cmntype"}
-SEQUENCE_TYPE["´ò×øÑ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["±³ºó°Îµ¶"] = {default = "hldtype"}
-SEQUENCE_TYPE["ÏÐÖÃ¶¯×÷"] = {default = "acttype"}
-SEQUENCE_TYPE["µØÃæËÀÍö"] = {default = "cmntype"}
-SEQUENCE_TYPE["µØÃæËÀÍöÑ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["¸´»î"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ê°È¡"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ê°È¡Ñ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["Õ¾Á¢²Ù×÷"] = {default = "cmntype"}
-SEQUENCE_TYPE["Õ¾Á¢²Ù×÷Ñ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["¶×ÏÂ²Ù×÷"] = {default = "cmntype"}
-SEQUENCE_TYPE["¶×ÏÂ²Ù×÷Ñ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÆÕÍ¨¹¥»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["ÆÕÍ¨¹¥»÷2"] = {default = "acttype"}
-SEQUENCE_TYPE["Çá»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["Çá»÷2"] = {default = "acttype"}
-SEQUENCE_TYPE["ÖØ»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["ÖØ»÷2"] = {default = "acttype"}
-SEQUENCE_TYPE["¸ñµ²"] = {default = "acttype"}
-SEQUENCE_TYPE["¸ñµ²Ñ­»·"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌØÊâ¶Üµ²Ñ­»·"] = {default = "acttype"}
-SEQUENCE_TYPE["°µÆ÷×¼±¸"] = {default = "cmntype"}
-SEQUENCE_TYPE["°µÆ÷Í¶ÖÀ"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­×¼±¸1"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­×¼±¸2"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­×¼±¸3"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­×¼±¸4"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­×¼±¸5"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­×¼±¸6"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­Éä»÷1"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­Éä»÷2"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­Éä»÷3"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­Éä»÷4"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­Éä»÷5"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­Éä»÷6"] = {default = "cmntype"}
-SEQUENCE_TYPE["·¨Æ÷×¼±¸"] = {default = "cmntype"}
-SEQUENCE_TYPE["·¨Æ÷Í¶ÖÀ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐÒ÷³ª"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÒ÷³ª"] = {default = "cmntype"}
-SEQUENCE_TYPE["×ÔÉíÒ÷³ª"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹ÄÎèÒ÷³ª"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ç¿»¯Ò÷³ª"] = {default = "cmntype"}
-SEQUENCE_TYPE["½üÉí×¼±¸"] = {default = "acttype"}
-SEQUENCE_TYPE["½üÉí×¼±¸1"] = {default = "acttype"}
-SEQUENCE_TYPE["Ç¿Á¦×¼±¸"] = {default = "acttype"}
-SEQUENCE_TYPE["ÐîÁ¦×¼±¸"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌØÊâ×¼±¸"] = {default = "acttype"}
-SEQUENCE_TYPE["·ÉÐÐÊ©·Å"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÊ©·Å"] = {default = "cmntype"}
-SEQUENCE_TYPE["×ÔÉíÊ©·Å"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹ÄÎèÊ©·Å"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ç¿»¯Ê©·Å"] = {default = "cmntype"}
-SEQUENCE_TYPE["»Ø×ª¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["Í»´Ì¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["»÷·É¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌøÔ¾¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ô¿Õ¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["¶ÔµØ¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["»Ø×ª¹¥»÷ÌØÊâ"] = {default = "acttype"}
-SEQUENCE_TYPE["Í»´Ì¹¥»÷ÌØÊâ"] = {default = "acttype"}
-SEQUENCE_TYPE["»÷·É¹¥»÷ÌØÊâ"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌøÔ¾¹¥»÷ÌØÊâ"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ô¿Õ¹¥»÷ÌØÊâ"] = {default = "acttype"}
-SEQUENCE_TYPE["¶ÔµØ¹¥»÷ÌØÊâ"] = {default = "acttype"}
-SEQUENCE_TYPE["·ÉÐÐ³ÖÐø"] = {default = "cmntype"}
-SEQUENCE_TYPE["×ÔÉí³ÖÐø"] = {default = "cmntype"}
-SEQUENCE_TYPE["»Ø×ª¹¥»÷³ÖÐø"] = {default = "cmntype"}
-SEQUENCE_TYPE["»Ø×ª¹¥»÷³ÖÐøÌØÊâ"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹ÄÎè³ÖÐø"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ç¿»¯³ÖÐø"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÉÁ±Ü"] = {default = "acttype"}
-SEQUENCE_TYPE["ÉÁ±Ü1"] = {default = "acttype"}
-SEQUENCE_TYPE["ÉÁ±ÜÌØÊâ"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÊÜÉË"] = {default = "cmntype"}
-SEQUENCE_TYPE["±©»÷ÊÜÉË"] = {default = "cmntype"}
-SEQUENCE_TYPE["±»ÔÎÑ£Ñ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["±»¶³½áÑ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["±»»÷µ¹"] = {default = "cmntype"}
-SEQUENCE_TYPE["±»»÷µ¹Ñ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["±»¸¡¿Õ"] = {default = "cmntype"}
-SEQUENCE_TYPE["±»¸¡¿ÕÑ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ë²¼äÆðÉí"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ç×ÎÇ"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇéÊÖÖ¸"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇé»ÓÊÖ"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇéÏÂ¹ò±§È­"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇé¹ÄÕÆ"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇé»¶ºô"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇéÇëÇó"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇéº¦Ðß"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇéËµ»°"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇéÌøÎè"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇéÆÕÍ¨"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇéÇ×ÎÇ"] = {default = "cmntype"}
-SEQUENCE_TYPE["¶¯×÷"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ç×Ç×ÃÛÃÛ"] = {default = "cmntype"}
-SEQUENCE_TYPE["³ÔºÈ¶¯×÷"] = {default = "cmntype"}
-SEQUENCE_TYPE["»Ø³Ç"] = {default = "cmntype"}
-SEQUENCE_TYPE["Õ£ÑÛ"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÑÝÎä¶¯×÷"] = {default = "name"}
-SEQUENCE_TYPE["ÑÝÎäÕ¾Á¢"] = {default = "name"}
-SEQUENCE_TYPE["¼²·çÇ¹"] = {default = "acttype"}
-SEQUENCE_TYPE["Ç¹Èº¹¥"] = {default = "acttype"}
-SEQUENCE_TYPE["°Ë·½±ùÓê"] = {default = "acttype"}
-SEQUENCE_TYPE["³¤ºç¹áÈÕ"] = {default = "name"}
-SEQUENCE_TYPE["³¤ºç¹áÈÕÒ÷³ª"] = {default = "name"}
-SEQUENCE_TYPE["³¤ºç¹áÈÕÊ©·Å"] = {default = "name"}
-SEQUENCE_TYPE["·ç¾í²ÐÔÆ"] = {default = "acttype"}
-SEQUENCE_TYPE["¹´»êË÷Ãü"] = {default = "acttype"}
-SEQUENCE_TYPE["º³É½ÕðÔÀ"] = {default = "acttype"}
-SEQUENCE_TYPE["ºáÉ¨Ç§¾ü"] = {default = "acttype"}
-SEQUENCE_TYPE["»¢ÈëÑòÈº"] = {default = "acttype"}
-SEQUENCE_TYPE["½ð¸Õ×¹µØ"] = {default = "acttype"}
-SEQUENCE_TYPE["¿ñ·ç±ÎÈÕ"] = {default = "acttype"}
-SEQUENCE_TYPE["À×¶¯¾ÅÌì"] = {default = "acttype"}
-SEQUENCE_TYPE["Á¦Åü»ªÉ½"] = {default = "acttype"}
-SEQUENCE_TYPE["Á÷ÐÇ¸ÏÔÂ"] = {default = "acttype"}
-SEQUENCE_TYPE["ÁúÑÀËé½ð"] = {default = "acttype"}
-SEQUENCE_TYPE["Ç§¾û°ôÆð"] = {default = "acttype"}
-SEQUENCE_TYPE["Ç¹À×Á¬´Ì"] = {default = "acttype"}
-SEQUENCE_TYPE["ÇàÁúÙÈÔÂ"] = {default = "acttype"}
-SEQUENCE_TYPE["ÉñÁú°ÚÎ²"] = {default = "acttype"}
-SEQUENCE_TYPE["Ë«Áú¾øÃü"] = {default = "acttype"}
-SEQUENCE_TYPE["Ìì¹¬ÐýÎè"] = {default = "acttype"}
-SEQUENCE_TYPE["ÐÇ»ðÁÇÔ­"] = {default = "acttype"}
-SEQUENCE_TYPE["Ò»¼ýË«µñ"] = {default = "acttype"}
-SEQUENCE_TYPE["·ÉÐÐÒ÷³ª»ðÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐÒ÷³ª±ùÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐÒ÷³ª·çÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐÒ÷³ªÀ×Ïµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐÊ©·Å»ðÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐÊ©·Å±ùÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐÊ©·Å·çÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐÊ©·ÅÀ×Ïµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐ³ÖÐø»ðÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐ³ÖÐø±ùÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐ³ÖÐø·çÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐ³ÖÐøÀ×Ïµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["·ÉÐÐ³ÖÐøÎè"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÒ÷³ª»ðÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÒ÷³ª±ùÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÒ÷³ª·çÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÒ÷³ªÀ×Ïµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÊ©·Å»ðÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÊ©·Å±ùÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÊ©·Å·çÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÊ©·ÅÀ×Ïµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸Ïò³ÖÐø»ðÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸Ïò³ÖÐø±ùÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸Ïò³ÖÐø·çÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸Ïò³ÖÐøÀ×Ïµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÊ©·ÅµÀ¾ß"] = {default = "cmntype"}
-SEQUENCE_TYPE["¼ÓËÙ"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌÚÔ¾"] = {default = "acttype"}
-SEQUENCE_TYPE["Ç¿»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["³å´Ì"] = {default = "acttype"}
-SEQUENCE_TYPE["³å´Ì1"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂÒÎè"] = {default = "acttype"}
-SEQUENCE_TYPE["êª¹¥»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["êª¹¥»÷2"] = {default = "acttype"}
-SEQUENCE_TYPE["êª¹¥»÷3"] = {default = "acttype"}
-SEQUENCE_TYPE["êª¹¥»÷4"] = {default = "acttype"}
-SEQUENCE_TYPE["êª¹¥»÷5"] = {default = "acttype"}
-SEQUENCE_TYPE["êª¹¥»÷6"] = {default = "acttype"}
-SEQUENCE_TYPE["êª¹¥»÷7"] = {default = "acttype"}
-SEQUENCE_TYPE["êª¹¥»÷8"] = {default = "acttype"}
-SEQUENCE_TYPE["êª¹¥»÷9"] = {default = "acttype"}
-SEQUENCE_TYPE["Îè¹¥»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["Îè¹¥»÷2"] = {default = "acttype"}
-SEQUENCE_TYPE["Îè¹¥»÷3"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌßÏä"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÌßÏäÑ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­×¼±¸6"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹­Éä»÷6"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÔÆÓêÖ®Îè"] = {default = "cmntype"}
-SEQUENCE_TYPE["µöÓã"] = {default = "cmntype"}
-SEQUENCE_TYPE["µöÓãÑ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["²ÉÒ©"] = {default = "cmntype"}
-SEQUENCE_TYPE["²ÉÒ©Ñ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÌßÏä"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÌßÏäÑ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["Îèµ¸"] = {default = "cmntype"}
-SEQUENCE_TYPE["Îèµ¸_ÑÝÎä¶¯×÷"] = {default = "cmntype"}
-SEQUENCE_TYPE["¶Ô¿Õ¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ô¿ÕÒýÀ×"] = {default = "acttype"}
-SEQUENCE_TYPE["¹¥»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["¹¥»÷2"] = {default = "acttype"}
-SEQUENCE_TYPE["¹¥»÷3"] = {default = "acttype"}
-SEQUENCE_TYPE["Ç°Í»¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["ÊÕÊÖÊ½"] = {default = "acttype"}
-SEQUENCE_TYPE["Ë«Ðý×ª1"] = {default = "acttype"}
-SEQUENCE_TYPE["Ë«Ðý×ª2"] = {default = "acttype"}
-SEQUENCE_TYPE["Ë«Ðý×ª3"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌøÔ¾³å·æ"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌøÔ¾³å·æÆð"] = {default = "acttype"}
-SEQUENCE_TYPE["Í¶ÖÀ"] = {default = "acttype"}
-SEQUENCE_TYPE["Ðý·ç³å×²"] = {default = "acttype"}
-SEQUENCE_TYPE["Ðý×ª¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["Ðý×ª¹¥»÷Æð"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ½»ê¼¤·¢"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÐÝÏÐ"] = {default = "acttype"}
-SEQUENCE_TYPE["¼ÝÊ»¶¯×÷_¿ÕÏÐ"] = {default = "cmntype"}
-SEQUENCE_TYPE["¼ÝÊ»¶¯×÷_×ó×ª"] = {default = "cmntype"}
-SEQUENCE_TYPE["¼ÝÊ»¶¯×÷_ÓÒ×ª"] = {default = "cmntype"}
-SEQUENCE_TYPE["·É²æÍ¶ÖÀ"] = {default = "acttype"}
-SEQUENCE_TYPE["Ç°Í»×¼±¸"] = {default = "acttype"}
-SEQUENCE_TYPE["Ç°Í»"] = {default = "acttype"}
-SEQUENCE_TYPE["»ØÐýµ¶Í¶ÖÀ1"] = {default = "acttype"}
-SEQUENCE_TYPE["»ØÐýµ¶Í¶ÖÀ2"] = {default = "acttype"}
-SEQUENCE_TYPE["»ØÐýµ¶Í¶ÖÀ3"] = {default = "acttype"}
-SEQUENCE_TYPE["»ØÐýµ¶Í¶ÖÀ4"] = {default = "acttype"}
-SEQUENCE_TYPE["»ÃÓ°»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["³å×²"] = {default = "acttype"}
-SEQUENCE_TYPE["Ç¿¹¥ÐîÁ¦"] = {default = "acttype"}
-SEQUENCE_TYPE["³å´ÌÐîÁ¦"] = {default = "acttype"}
-SEQUENCE_TYPE["´óºÈ¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂÒÎè¹¥»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂÒÎè¹¥»÷2"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂÒÎèÁ¬»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂÒÎèÁ¬»÷2"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂÒÎèÁ¬»÷3"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌøÔ¾Õð»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["Ô­µØÕð»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["³å»÷²¨"] = {default = "acttype"}
-SEQUENCE_TYPE["Í¶ÖÀÕ¨µ¯"] = {default = "acttype"}
-SEQUENCE_TYPE["Öî¸ðÁ¬åó"] = {default = "acttype"}
-SEQUENCE_TYPE["Ë®ÖÐÕõÔú"] = {default = "acttype"}
-SEQUENCE_TYPE["Ë®ÖÐËÀÍö"] = {default = "acttype"}
-SEQUENCE_TYPE["Ë®ÖÐËÀÍöÑ­»·"] = {default = "acttype"}
-SEQUENCE_TYPE["¹í÷ÈÖ®Îè"] = {default = "acttype"}
-SEQUENCE_TYPE["±íÇéÇóÇ©"] = {default = "acttype"}
-SEQUENCE_TYPE["±íÇéÃÔÏã"] = {default = "acttype"}
-SEQUENCE_TYPE["±íÇé¾Æºø"] = {default = "acttype"}
-SEQUENCE_TYPE["±íÇéËÍÌÇ¹û"] = {default = "acttype"}
-SEQUENCE_TYPE["±íÇé³ª¸è"] = {default = "acttype"}
-SEQUENCE_TYPE["ÕÙ»½"] = {default = "acttype"}
-SEQUENCE_TYPE["´òÑ©ÕÌ"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌôÆð¸ÇÍ·"] = {default = "acttype"}
-SEQUENCE_TYPE["±íÇéÄÏÂù¶Ì¿ãÄÐÎèµ¸"] = {default = "cmntype"}
-SEQUENCE_TYPE["±íÇéÄÏÂù¶ÌÈ¹Å®Îèµ¸"] = {default = "cmntype"}
-SEQUENCE_TYPE["×í¾Æ"] = {default = "cmntype"}
-SEQUENCE_TYPE["»¨»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["Îèµ¸É¡"] = {default = "cmntype"}
-SEQUENCE_TYPE["Îèµ¸µÑ"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÊÎÆ·ÇÐ»»"] = {default = "acttype"}
-SEQUENCE_TYPE["Ö¸ÏòÒ÷³ª1·çÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÒ÷³ª1±ùÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÒ÷³ª2»ðÏµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÒ÷³ª2À×Ïµ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÊ©·Å1"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ö¸ÏòÊ©·Å2"] = {default = "cmntype"}
-SEQUENCE_TYPE["Îèµ¸ÇÙ"] = {default = "cmntype"}
-SEQUENCE_TYPE["Îèµ¸ÉÈ"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÐÝÏÐ2"] = {default = "acttype"}
-SEQUENCE_TYPE["±»»÷ÍË"] = {default = "cmntype"}
-SEQUENCE_TYPE["±»²øÈÆË¤"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÐÝÏÐ¶¯×÷"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÐÂÇá»÷3"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÖØ»÷3"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÐÂÖØ»÷3"] = {default = "cmntype"}
-SEQUENCE_TYPE["Çá»÷3"] = {default = "cmntype"}
-SEQUENCE_TYPE["Çá»÷4"] = {default = "cmntype"}
-SEQUENCE_TYPE["Ò×ÈÝ"] = {default = "cmntype"}
-SEQUENCE_TYPE["°ÙÁÑÁ¬¹÷ÐÂ"] = {default = "acttype"}
-SEQUENCE_TYPE["Ìô´ò"] = {default = "acttype"}
-SEQUENCE_TYPE["Äæ´ò"] = {default = "acttype"}
-SEQUENCE_TYPE["·æ´Ì"] = {default = "acttype"}
-SEQUENCE_TYPE["ºú¹á"] = {default = "acttype"}
-SEQUENCE_TYPE["¶ÜÔÒ"] = {default = "acttype"}
-SEQUENCE_TYPE["¶ÜÍ»"] = {default = "acttype"}
-SEQUENCE_TYPE["Ô®»¤"] = {default = "acttype"}
-SEQUENCE_TYPE["±»¸¡¿ÕË¤"] = {default = "cmntype"}
-SEQUENCE_TYPE["´ó·ç³µ"] = {default = "acttype"}
-SEQUENCE_TYPE["Ò»½£Áè·ç"] = {default = "acttype"}
-SEQUENCE_TYPE["Óù·ïÏèÁú"] = {default = "acttype"}
-SEQUENCE_TYPE["ÖèÓêÇàºÉ"] = {default = "acttype"}
-SEQUENCE_TYPE["Ò»¼¶Ìø"] = {default = "acttype"}
-SEQUENCE_TYPE["¶þ¼¶Ìø"] = {default = "acttype"}
-SEQUENCE_TYPE["Èý¼¶Ìø"] = {default = "acttype"}
-SEQUENCE_TYPE["ËÙ¹¥"] = {default = "acttype"}
-SEQUENCE_TYPE["ÏÈ¹¥"] = {default = "acttype"}
-SEQUENCE_TYPE["ÏÈ¹¥Î»ÒÆ"] = {default = "acttype"}
-SEQUENCE_TYPE["»ì»·Ê½"] = {default = "acttype"}
-SEQUENCE_TYPE["Á¬»·»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["Á¬»·»÷2"] = {default = "acttype"}
-SEQUENCE_TYPE["Á¬»·»÷3"] = {default = "acttype"}
-SEQUENCE_TYPE["Á¬»·»÷1Ô¶³Ì"] = {default = "acttype"}
-SEQUENCE_TYPE["Á¬»·»÷2Ô¶³Ì"] = {default = "acttype"}
-SEQUENCE_TYPE["Á¬»·»÷3Ô¶³Ì"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂÒ»·Ê½"] = {default = "acttype"}
-SEQUENCE_TYPE["ÈöÊÖ»·Æð"] = {default = "acttype"}
-SEQUENCE_TYPE["ÈöÊÖ»·ÊÕ"] = {default = "acttype"}
-SEQUENCE_TYPE["Ðý·çÊ½"] = {default = "acttype"}
-SEQUENCE_TYPE["Óù»·Ê½"] = {default = "acttype"}
-SEQUENCE_TYPE["ÖØ»÷1ÐÂ"] = {default = "acttype"}
-SEQUENCE_TYPE["ÖØ»÷1ÐîÁ¦"] = {default = "acttype"}
-SEQUENCE_TYPE["ÆÆ»·Ê½"] = {default = "acttype"}
-SEQUENCE_TYPE["·É»·Ê½"] = {default = "acttype"}
-SEQUENCE_TYPE["¶þÌß½Å1"] = {default = "acttype"}
-SEQUENCE_TYPE["¶þÌß½Å2"] = {default = "acttype"}
-SEQUENCE_TYPE["Âé±Ô"] = {default = "acttype"}
-SEQUENCE_TYPE["ÉÈ·ç"] = {default = "cmntype"}
-SEQUENCE_TYPE["³°·í¼¼ÄÜ¹âÐ§"] = {default = "cmntype"}
-SEQUENCE_TYPE["»Ø·æÕ¶"] = {default = "acttype"}
-SEQUENCE_TYPE["ÁÒ·çÖØÕ¶"] = {default = "acttype"}
-SEQUENCE_TYPE["·ç»ðÂÖ"] = {default = "cmntype"}
-SEQUENCE_TYPE["±»¸¡¿Õ"] = {default = "cmntype"}
-SEQUENCE_TYPE["±»¸¡¿ÕÑ­»·"] = {default = "cmntype"}
-SEQUENCE_TYPE["±»»÷µ¹"] = {default = "cmntype"}
-SEQUENCE_TYPE["½ðË¿²ø"] = {default = "acttype"}
-SEQUENCE_TYPE["ÒøÉß¸¿"] = {default = "acttype"}
-SEQUENCE_TYPE["»ØÁúÂÒ"] = {default = "acttype"}
-SEQUENCE_TYPE["²ø¾±´òÎ»ÒÆ"] = {default = "acttype"}
-SEQUENCE_TYPE["²ø¾±´òÎ»ÒÆ´ò"] = {default = "acttype"}
-SEQUENCE_TYPE["ËéÊ¯±Þ"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ï»ê±Þ"] = {default = "acttype"}
-SEQUENCE_TYPE["ÐîÁ¦"] = {default = "acttype"}
-SEQUENCE_TYPE["÷ÈÓ°±Þ"] = {default = "acttype"}
-SEQUENCE_TYPE["ÃÔÓ°±Þ"] = {default = "acttype"}
-SEQUENCE_TYPE["Çï·çÉ¨"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂäÑãÉ¨"] = {default = "acttype"}
-SEQUENCE_TYPE["Ó­ÃæÉ¨"] = {default = "acttype"}
-SEQUENCE_TYPE["Éã»êÉ¨"] = {default = "acttype"}
-SEQUENCE_TYPE["·ÉÝÓÈÆ"] = {default = "acttype"}
-SEQUENCE_TYPE["²ÐÃÎÁÃ"] = {default = "acttype"}
-SEQUENCE_TYPE["¹áµØ»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["ÉýÁú»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂÒÎè"] = {default = "acttype"}
-SEQUENCE_TYPE["ÀëÐÄ´Ì"] = {default = "acttype"}
-SEQUENCE_TYPE["±Þµ²"] = {default = "acttype"}
-SEQUENCE_TYPE["±Þµ²·´»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["Ç°¹ö¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ü·À"] = {default = "acttype"}
-SEQUENCE_TYPE["ÖØÕ¶"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ü·ÀÇá»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ü·ÀÁÑµØ"] = {default = "acttype"}
-SEQUENCE_TYPE["ºáÉ¨Á¬»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["ÖØ»÷ÐîÁ¦"] = {default = "acttype"}
-SEQUENCE_TYPE["ÖØ»÷»ìÂÒ"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ü·´ÖØ»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["ÔÒ»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ü·À¶ÜÉ¨"] = {default = "acttype"}
-SEQUENCE_TYPE["µ´¿Ü"] = {default = "acttype"}
-SEQUENCE_TYPE["ºáÅü"] = {default = "acttype"}
-SEQUENCE_TYPE["±¬ÆÆ"] = {default = "acttype"}
-SEQUENCE_TYPE["Ó°ÉÁ"] = {default = "acttype"}
-SEQUENCE_TYPE["Å­´Ì"] = {default = "acttype"}
-SEQUENCE_TYPE["Í»½ø"] = {default = "acttype"}
-SEQUENCE_TYPE["¿ñ·ç"] = {default = "acttype"}
-SEQUENCE_TYPE["±ù·â"] = {default = "acttype"}
-SEQUENCE_TYPE["Ëª¶³"] = {default = "acttype"}
-SEQUENCE_TYPE["¹á´Ì"] = {default = "acttype"}
-SEQUENCE_TYPE["É¨Ï®"] = {default = "acttype"}
-SEQUENCE_TYPE["·æÕ¶"] = {default = "acttype"}
-SEQUENCE_TYPE["Çå·ç"] = {default = "acttype"}
-SEQUENCE_TYPE["Éñ»ð"] = {default = "acttype"}
-SEQUENCE_TYPE["Å­ÔÒ"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ô¿ÕËÙ»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["Ìô´Ì"] = {default = "acttype"}
-SEQUENCE_TYPE["Ë¦Ç¹"] = {default = "acttype"}
-SEQUENCE_TYPE["½µÁú"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ï³î¾ü"] = {default = "acttype"}
-SEQUENCE_TYPE["¶Ï³îÆÆ"] = {default = "acttype"}
-SEQUENCE_TYPE["´ç¾ø¾ü"] = {default = "acttype"}
-SEQUENCE_TYPE["´ç¾øÆÆ"] = {default = "acttype"}
-SEQUENCE_TYPE["»ðÏ®Å­"] = {default = "acttype"}
-SEQUENCE_TYPE["»ðÏ®ÆÆ"] = {default = "acttype"}
-SEQUENCE_TYPE["¼ÅÃð"] = {default = "acttype"}
-SEQUENCE_TYPE["Õ¶Ìú"] = {default = "acttype"}
-SEQUENCE_TYPE["ÉßÓ°"] = {default = "acttype"}
-SEQUENCE_TYPE["ËÙÉä"] = {default = "acttype"}
-SEQUENCE_TYPE["Á¦Éä"] = {default = "acttype"}
-SEQUENCE_TYPE["Æ½Éä2"] = {default = "acttype"}
-SEQUENCE_TYPE["ÉñÉäÍ·"] = {default = "acttype"}
-SEQUENCE_TYPE["É¢Éä"] = {default = "acttype"}
-SEQUENCE_TYPE["ÉñÉä"] = {default = "acttype"}
-SEQUENCE_TYPE["Ç°¹ö¹¥»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["´óÕÐ"] = {default = "acttype"}
-SEQUENCE_TYPE["ºóÔ¾Éä»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["¸¡¿ÕÉä"] = {default = "acttype"}
-SEQUENCE_TYPE["»ÃÓ°Éä"] = {default = "acttype"}
-SEQUENCE_TYPE["Çáåó"] = {default = "acttype"}
-SEQUENCE_TYPE["¾¢åó"] = {default = "acttype"}
-SEQUENCE_TYPE["ËÙÉä×¼±¸"] = {default = "acttype"}
-SEQUENCE_TYPE["Éä»÷×¼±¸"] = {default = "ridetype"}
-SEQUENCE_TYPE["åóÉä»÷"] = {default = "ridetype"}
-SEQUENCE_TYPE["ÆïÉäÕ¾Á¢"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÆïÕ½Éä»÷1"] = {default = "ridetype"}
-SEQUENCE_TYPE["ÆïÕ½Éä»÷2"] = {default = "ridetype"}
-SEQUENCE_TYPE["ÆïÕ½Éä»÷3"] = {default = "ridetype"}
-SEQUENCE_TYPE["ÆïÕ½Éä»÷4"] = {default = "ridetype"}
-SEQUENCE_TYPE["Ë²É±Å­"] = {default = "acttype"}
-SEQUENCE_TYPE["Ë²É±ÆÆ"] = {default = "acttype"}
-SEQUENCE_TYPE["Ë²É±¾ü"] = {default = "acttype"}
-SEQUENCE_TYPE["Ó­ÃæÕ¶"] = {default = "acttype"}
-SEQUENCE_TYPE["¶ÏÔÂÕ¶"] = {default = "acttype"}
-SEQUENCE_TYPE["°ëÔÂÕ¶"] = {default = "acttype"}
-SEQUENCE_TYPE["ÃÍÅü"] = {default = "acttype"}
-SEQUENCE_TYPE["ÃÍ»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["Îè±ø"] = {default = "ridetype"}
-SEQUENCE_TYPE["ÐîÊÆÑ­»·"] = {default = "acttype"}
-SEQUENCE_TYPE["×óÐý»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂÒÎè¹¥»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["ÆïÕ½°µÆ÷"] = {default = "ridetype"}
-SEQUENCE_TYPE["ÂíÉÏ³°·í"] = {default = "acttype"}
-SEQUENCE_TYPE["ÁÒ·çÖØÕ¶"] = {default = "ridetype"}
-SEQUENCE_TYPE["´Ì»÷"] = {default = "ridetype"}
-SEQUENCE_TYPE["Ë²»÷"] = {default = "ridetype"}
-SEQUENCE_TYPE["ÐýïÚ"] = {default = "ridetype"}
-SEQUENCE_TYPE["ÂíÉÏÍ¶ÖÀ"] = {default = "ridetype"}
-SEQUENCE_TYPE["³å´Ì"] = {default = "acttype"}
-SEQUENCE_TYPE["²øÈÆ"] = {default = "acttype"}
-SEQUENCE_TYPE["ÌøÅü"] = {default = "acttype"}
-SEQUENCE_TYPE["Ë²»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["´ÌÉ±"] = {default = "acttype"}
-SEQUENCE_TYPE["¿³·­"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂíÉÏ¹ÄÎè1"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂíÉÏ¹ÄÎè2"] = {default = "acttype"}
-SEQUENCE_TYPE["ÂíÉÏ¹ÄÎè3"] = {default = "acttype"}
-SEQUENCE_TYPE["Õð´¸"] = {default = "acttype"}
-SEQUENCE_TYPE["ÔÒ»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["Ðý·ç"] = {default = "acttype"}
-SEQUENCE_TYPE["±ÞÇ¹¾ö"] = {default = "ridetype"}
-SEQUENCE_TYPE["»ØÐý"] = {default = "ridetype"}
-SEQUENCE_TYPE["¼ÅÃð"] = {default = "ridetype"}
-SEQUENCE_TYPE["Áé·ïÏ®"] = {default = "acttype"}
-SEQUENCE_TYPE["Äý¾¢»÷"] = {default = "ridetype"}
-SEQUENCE_TYPE["ÃÍ´Ì"] = {default = "ridetype"}
-SEQUENCE_TYPE["¹ÄÎèÊ©·Å1"] = {default = "cmntype"}
-SEQUENCE_TYPE["¹ÄÎèÊ©·Å2"] = {default = "cmntype"}
-SEQUENCE_TYPE["ÃÍ»÷1"] = {default = "acttype"}
-SEQUENCE_TYPE["ÐîÊÆÑ­»·1"] = {default = "acttype"}
-SEQUENCE_TYPE["³Ë·ç½£·É½£"] = {default = "acttype"}
-SEQUENCE_TYPE["³Ë·ç½£Âä½£"] = {default = "acttype"}
-SEQUENCE_TYPE["×··ç"] = {default = "acttype"}
-SEQUENCE_TYPE["½ØÂö·´»÷"] = {default = "acttype"}
-SEQUENCE_TYPE["Âä½£ß±"] = {default = "acttype"}
-SEQUENCE_TYPE["Óù·ç½£"] = {default = "acttype"}
-SEQUENCE_TYPE["Ò»½£Áè·çÉÁ"] = {default = "acttype"}
-SEQUENCE_TYPE["Ò»½£Áè·çÐîÁ¦"] = {default = "acttype"}
+SEQUENCE_TYPE["ä½¿ç”¨æŠ€èƒ½"] = {default = "acttype"}
+SEQUENCE_TYPE["ç«™ç«‹"] = {default = "acttype"}
+SEQUENCE_TYPE["åŽŸåœ°æ—‹è½¬"] = {default = "acttype"}
+SEQUENCE_TYPE["è¡Œèµ°"] = {default = "acttype"}
+SEQUENCE_TYPE["åŽé€€"] = {default = "acttype"}
+SEQUENCE_TYPE["å¥”è·‘"] = {default = "acttype"}
+SEQUENCE_TYPE["èµ·è·³"] = {default = "acttype"}
+SEQUENCE_TYPE["è·³è·ƒå¾ªçŽ¯"] = {default = "acttype"}
+SEQUENCE_TYPE["è·³è·ƒè½åœ°"] = {default = "acttype"}
+SEQUENCE_TYPE["åŠ é€Ÿè·‘"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆ˜æ–—ç«™ç«‹"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆ˜æ–—åŽŸåœ°æ—‹è½¬"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆ˜æ–—è¡Œèµ°"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆ˜æ–—åŽé€€"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆ˜æ–—å¥”è·‘"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆ˜æ–—èµ·è·³"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆ˜æ–—è·³è·ƒå¾ªçŽ¯"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆ˜æ–—è·³è·ƒè½åœ°"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆ˜æ–—åŠ é€Ÿè·‘"] = {default = "acttype"}
+SEQUENCE_TYPE["æ‰“å"] = {default = "cmntype"}
+SEQUENCE_TYPE["æ‰“åå¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["èƒŒåŽæ‹”åˆ€"] = {default = "hldtype"}
+SEQUENCE_TYPE["é—²ç½®åŠ¨ä½œ"] = {default = "acttype"}
+SEQUENCE_TYPE["åœ°é¢æ­»äº¡"] = {default = "cmntype"}
+SEQUENCE_TYPE["åœ°é¢æ­»äº¡å¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¤æ´»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æ‹¾å–"] = {default = "cmntype"}
+SEQUENCE_TYPE["æ‹¾å–å¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["ç«™ç«‹æ“ä½œ"] = {default = "cmntype"}
+SEQUENCE_TYPE["ç«™ç«‹æ“ä½œå¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¹²ä¸‹æ“ä½œ"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¹²ä¸‹æ“ä½œå¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["æ™®é€šæ”»å‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["æ™®é€šæ”»å‡»2"] = {default = "acttype"}
+SEQUENCE_TYPE["è½»å‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["è½»å‡»2"] = {default = "acttype"}
+SEQUENCE_TYPE["é‡å‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["é‡å‡»2"] = {default = "acttype"}
+SEQUENCE_TYPE["æ ¼æŒ¡"] = {default = "acttype"}
+SEQUENCE_TYPE["æ ¼æŒ¡å¾ªçŽ¯"] = {default = "acttype"}
+SEQUENCE_TYPE["ç‰¹æ®Šç›¾æŒ¡å¾ªçŽ¯"] = {default = "acttype"}
+SEQUENCE_TYPE["æš—å™¨å‡†å¤‡"] = {default = "cmntype"}
+SEQUENCE_TYPE["æš—å™¨æŠ•æŽ·"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å‡†å¤‡1"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å‡†å¤‡2"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å‡†å¤‡3"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å‡†å¤‡4"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å‡†å¤‡5"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å‡†å¤‡6"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å°„å‡»1"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å°„å‡»2"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å°„å‡»3"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å°„å‡»4"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å°„å‡»5"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å°„å‡»6"] = {default = "cmntype"}
+SEQUENCE_TYPE["æ³•å™¨å‡†å¤‡"] = {default = "cmntype"}
+SEQUENCE_TYPE["æ³•å™¨æŠ•æŽ·"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡ŒåŸå”±"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘åŸå”±"] = {default = "cmntype"}
+SEQUENCE_TYPE["è‡ªèº«åŸå”±"] = {default = "cmntype"}
+SEQUENCE_TYPE["é¼“èˆžåŸå”±"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼ºåŒ–åŸå”±"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¿‘èº«å‡†å¤‡"] = {default = "acttype"}
+SEQUENCE_TYPE["è¿‘èº«å‡†å¤‡1"] = {default = "acttype"}
+SEQUENCE_TYPE["å¼ºåŠ›å‡†å¤‡"] = {default = "acttype"}
+SEQUENCE_TYPE["è“„åŠ›å‡†å¤‡"] = {default = "acttype"}
+SEQUENCE_TYPE["ç‰¹æ®Šå‡†å¤‡"] = {default = "acttype"}
+SEQUENCE_TYPE["é£žè¡Œæ–½æ”¾"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æ–½æ”¾"] = {default = "cmntype"}
+SEQUENCE_TYPE["è‡ªèº«æ–½æ”¾"] = {default = "cmntype"}
+SEQUENCE_TYPE["é¼“èˆžæ–½æ”¾"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼ºåŒ–æ–½æ”¾"] = {default = "cmntype"}
+SEQUENCE_TYPE["å›žè½¬æ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["çªåˆºæ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["å‡»é£žæ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["è·³è·ƒæ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["å¯¹ç©ºæ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["å¯¹åœ°æ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["å›žè½¬æ”»å‡»ç‰¹æ®Š"] = {default = "acttype"}
+SEQUENCE_TYPE["çªåˆºæ”»å‡»ç‰¹æ®Š"] = {default = "acttype"}
+SEQUENCE_TYPE["å‡»é£žæ”»å‡»ç‰¹æ®Š"] = {default = "acttype"}
+SEQUENCE_TYPE["è·³è·ƒæ”»å‡»ç‰¹æ®Š"] = {default = "acttype"}
+SEQUENCE_TYPE["å¯¹ç©ºæ”»å‡»ç‰¹æ®Š"] = {default = "acttype"}
+SEQUENCE_TYPE["å¯¹åœ°æ”»å‡»ç‰¹æ®Š"] = {default = "acttype"}
+SEQUENCE_TYPE["é£žè¡ŒæŒç»­"] = {default = "cmntype"}
+SEQUENCE_TYPE["è‡ªèº«æŒç»­"] = {default = "cmntype"}
+SEQUENCE_TYPE["å›žè½¬æ”»å‡»æŒç»­"] = {default = "cmntype"}
+SEQUENCE_TYPE["å›žè½¬æ”»å‡»æŒç»­ç‰¹æ®Š"] = {default = "cmntype"}
+SEQUENCE_TYPE["é¼“èˆžæŒç»­"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼ºåŒ–æŒç»­"] = {default = "cmntype"}
+SEQUENCE_TYPE["é—ªé¿"] = {default = "acttype"}
+SEQUENCE_TYPE["é—ªé¿1"] = {default = "acttype"}
+SEQUENCE_TYPE["é—ªé¿ç‰¹æ®Š"] = {default = "cmntype"}
+SEQUENCE_TYPE["å—ä¼¤"] = {default = "cmntype"}
+SEQUENCE_TYPE["æš´å‡»å—ä¼¤"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¢«æ™•çœ©å¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¢«å†»ç»“å¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¢«å‡»å€’"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¢«å‡»å€’å¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¢«æµ®ç©º"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¢«æµ®ç©ºå¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["çž¬é—´èµ·èº«"] = {default = "cmntype"}
+SEQUENCE_TYPE["äº²å»"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…æ‰‹æŒ‡"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…æŒ¥æ‰‹"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…ä¸‹è·ªæŠ±æ‹³"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…é¼“æŽŒ"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…æ¬¢å‘¼"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…è¯·æ±‚"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…å®³ç¾ž"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…è¯´è¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…è·³èˆž"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…æ™®é€š"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…äº²å»"] = {default = "cmntype"}
+SEQUENCE_TYPE["åŠ¨ä½œ"] = {default = "cmntype"}
+SEQUENCE_TYPE["äº²äº²èœœèœœ"] = {default = "cmntype"}
+SEQUENCE_TYPE["åƒå–åŠ¨ä½œ"] = {default = "cmntype"}
+SEQUENCE_TYPE["å›žåŸŽ"] = {default = "cmntype"}
+SEQUENCE_TYPE["çœ¨çœ¼"] = {default = "cmntype"}
+SEQUENCE_TYPE["æ¼”æ­¦åŠ¨ä½œ"] = {default = "name"}
+SEQUENCE_TYPE["æ¼”æ­¦ç«™ç«‹"] = {default = "name"}
+SEQUENCE_TYPE["ç–¾é£Žæžª"] = {default = "acttype"}
+SEQUENCE_TYPE["æžªç¾¤æ”»"] = {default = "acttype"}
+SEQUENCE_TYPE["å…«æ–¹å†°é›¨"] = {default = "acttype"}
+SEQUENCE_TYPE["é•¿è™¹è´¯æ—¥"] = {default = "name"}
+SEQUENCE_TYPE["é•¿è™¹è´¯æ—¥åŸå”±"] = {default = "name"}
+SEQUENCE_TYPE["é•¿è™¹è´¯æ—¥æ–½æ”¾"] = {default = "name"}
+SEQUENCE_TYPE["é£Žå·æ®‹äº‘"] = {default = "acttype"}
+SEQUENCE_TYPE["å‹¾é­‚ç´¢å‘½"] = {default = "acttype"}
+SEQUENCE_TYPE["æ’¼å±±éœ‡å²³"] = {default = "acttype"}
+SEQUENCE_TYPE["æ¨ªæ‰«åƒå†›"] = {default = "acttype"}
+SEQUENCE_TYPE["è™Žå…¥ç¾Šç¾¤"] = {default = "acttype"}
+SEQUENCE_TYPE["é‡‘åˆšå åœ°"] = {default = "acttype"}
+SEQUENCE_TYPE["ç‹‚é£Žè”½æ—¥"] = {default = "acttype"}
+SEQUENCE_TYPE["é›·åŠ¨ä¹å¤©"] = {default = "acttype"}
+SEQUENCE_TYPE["åŠ›åŠˆåŽå±±"] = {default = "acttype"}
+SEQUENCE_TYPE["æµæ˜Ÿèµ¶æœˆ"] = {default = "acttype"}
+SEQUENCE_TYPE["é¾™ç‰™ç¢Žé‡‘"] = {default = "acttype"}
+SEQUENCE_TYPE["åƒé’§æ£’èµ·"] = {default = "acttype"}
+SEQUENCE_TYPE["æžªé›·è¿žåˆº"] = {default = "acttype"}
+SEQUENCE_TYPE["é’é¾™åƒæœˆ"] = {default = "acttype"}
+SEQUENCE_TYPE["ç¥žé¾™æ‘†å°¾"] = {default = "acttype"}
+SEQUENCE_TYPE["åŒé¾™ç»å‘½"] = {default = "acttype"}
+SEQUENCE_TYPE["å¤©å®«æ—‹èˆž"] = {default = "acttype"}
+SEQUENCE_TYPE["æ˜Ÿç«ç‡ŽåŽŸ"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¸€ç®­åŒé›•"] = {default = "acttype"}
+SEQUENCE_TYPE["é£žè¡ŒåŸå”±ç«ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡ŒåŸå”±å†°ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡ŒåŸå”±é£Žç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡ŒåŸå”±é›·ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡Œæ–½æ”¾ç«ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡Œæ–½æ”¾å†°ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡Œæ–½æ”¾é£Žç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡Œæ–½æ”¾é›·ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡ŒæŒç»­ç«ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡ŒæŒç»­å†°ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡ŒæŒç»­é£Žç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡ŒæŒç»­é›·ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žè¡ŒæŒç»­èˆž"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘åŸå”±ç«ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘åŸå”±å†°ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘åŸå”±é£Žç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘åŸå”±é›·ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æ–½æ”¾ç«ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æ–½æ”¾å†°ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æ–½æ”¾é£Žç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æ–½æ”¾é›·ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æŒç»­ç«ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æŒç»­å†°ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æŒç»­é£Žç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æŒç»­é›·ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æ–½æ”¾é“å…·"] = {default = "cmntype"}
+SEQUENCE_TYPE["åŠ é€Ÿ"] = {default = "acttype"}
+SEQUENCE_TYPE["è…¾è·ƒ"] = {default = "acttype"}
+SEQUENCE_TYPE["å¼ºå‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["å†²åˆº"] = {default = "acttype"}
+SEQUENCE_TYPE["å†²åˆº1"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¹±èˆž"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆŸæ”»å‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆŸæ”»å‡»2"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆŸæ”»å‡»3"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆŸæ”»å‡»4"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆŸæ”»å‡»5"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆŸæ”»å‡»6"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆŸæ”»å‡»7"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆŸæ”»å‡»8"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆŸæ”»å‡»9"] = {default = "acttype"}
+SEQUENCE_TYPE["èˆžæ”»å‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["èˆžæ”»å‡»2"] = {default = "acttype"}
+SEQUENCE_TYPE["èˆžæ”»å‡»3"] = {default = "acttype"}
+SEQUENCE_TYPE["è¸¢ç®±"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¸¢ç®±å¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å‡†å¤‡6"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¼“å°„å‡»6"] = {default = "cmntype"}
+SEQUENCE_TYPE["äº‘é›¨ä¹‹èˆž"] = {default = "cmntype"}
+SEQUENCE_TYPE["é’“é±¼"] = {default = "cmntype"}
+SEQUENCE_TYPE["é’“é±¼å¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["é‡‡è¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["é‡‡è¯å¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¸¢ç®±"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¸¢ç®±å¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["èˆžè¹ˆ"] = {default = "cmntype"}
+SEQUENCE_TYPE["èˆžè¹ˆ_æ¼”æ­¦åŠ¨ä½œ"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¯¹ç©ºæ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["å¯¹ç©ºå¼•é›·"] = {default = "acttype"}
+SEQUENCE_TYPE["æ”»å‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["æ”»å‡»2"] = {default = "acttype"}
+SEQUENCE_TYPE["æ”»å‡»3"] = {default = "acttype"}
+SEQUENCE_TYPE["å‰çªæ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["æ”¶æ‰‹å¼"] = {default = "acttype"}
+SEQUENCE_TYPE["åŒæ—‹è½¬1"] = {default = "acttype"}
+SEQUENCE_TYPE["åŒæ—‹è½¬2"] = {default = "acttype"}
+SEQUENCE_TYPE["åŒæ—‹è½¬3"] = {default = "acttype"}
+SEQUENCE_TYPE["è·³è·ƒå†²é”‹"] = {default = "acttype"}
+SEQUENCE_TYPE["è·³è·ƒå†²é”‹èµ·"] = {default = "acttype"}
+SEQUENCE_TYPE["æŠ•æŽ·"] = {default = "acttype"}
+SEQUENCE_TYPE["æ—‹é£Žå†²æ’ž"] = {default = "acttype"}
+SEQUENCE_TYPE["æ—‹è½¬æ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["æ—‹è½¬æ”»å‡»èµ·"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆ˜é­‚æ¿€å‘"] = {default = "cmntype"}
+SEQUENCE_TYPE["ä¼‘é—²"] = {default = "acttype"}
+SEQUENCE_TYPE["é©¾é©¶åŠ¨ä½œ_ç©ºé—²"] = {default = "cmntype"}
+SEQUENCE_TYPE["é©¾é©¶åŠ¨ä½œ_å·¦è½¬"] = {default = "cmntype"}
+SEQUENCE_TYPE["é©¾é©¶åŠ¨ä½œ_å³è½¬"] = {default = "cmntype"}
+SEQUENCE_TYPE["é£žå‰æŠ•æŽ·"] = {default = "acttype"}
+SEQUENCE_TYPE["å‰çªå‡†å¤‡"] = {default = "acttype"}
+SEQUENCE_TYPE["å‰çª"] = {default = "acttype"}
+SEQUENCE_TYPE["å›žæ—‹åˆ€æŠ•æŽ·1"] = {default = "acttype"}
+SEQUENCE_TYPE["å›žæ—‹åˆ€æŠ•æŽ·2"] = {default = "acttype"}
+SEQUENCE_TYPE["å›žæ—‹åˆ€æŠ•æŽ·3"] = {default = "acttype"}
+SEQUENCE_TYPE["å›žæ—‹åˆ€æŠ•æŽ·4"] = {default = "acttype"}
+SEQUENCE_TYPE["å¹»å½±å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["å†²æ’ž"] = {default = "acttype"}
+SEQUENCE_TYPE["å¼ºæ”»è“„åŠ›"] = {default = "acttype"}
+SEQUENCE_TYPE["å†²åˆºè“„åŠ›"] = {default = "acttype"}
+SEQUENCE_TYPE["å¤§å–æ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¹±èˆžæ”»å‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¹±èˆžæ”»å‡»2"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¹±èˆžè¿žå‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¹±èˆžè¿žå‡»2"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¹±èˆžè¿žå‡»3"] = {default = "acttype"}
+SEQUENCE_TYPE["è·³è·ƒéœ‡å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["åŽŸåœ°éœ‡å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["å†²å‡»æ³¢"] = {default = "acttype"}
+SEQUENCE_TYPE["æŠ•æŽ·ç‚¸å¼¹"] = {default = "acttype"}
+SEQUENCE_TYPE["è¯¸è‘›è¿žå¼©"] = {default = "acttype"}
+SEQUENCE_TYPE["æ°´ä¸­æŒ£æ‰Ž"] = {default = "acttype"}
+SEQUENCE_TYPE["æ°´ä¸­æ­»äº¡"] = {default = "acttype"}
+SEQUENCE_TYPE["æ°´ä¸­æ­»äº¡å¾ªçŽ¯"] = {default = "acttype"}
+SEQUENCE_TYPE["é¬¼é­…ä¹‹èˆž"] = {default = "acttype"}
+SEQUENCE_TYPE["è¡¨æƒ…æ±‚ç­¾"] = {default = "acttype"}
+SEQUENCE_TYPE["è¡¨æƒ…è¿·é¦™"] = {default = "acttype"}
+SEQUENCE_TYPE["è¡¨æƒ…é…’å£¶"] = {default = "acttype"}
+SEQUENCE_TYPE["è¡¨æƒ…é€ç³–æžœ"] = {default = "acttype"}
+SEQUENCE_TYPE["è¡¨æƒ…å”±æ­Œ"] = {default = "acttype"}
+SEQUENCE_TYPE["å¬å”¤"] = {default = "acttype"}
+SEQUENCE_TYPE["æ‰“é›ªä»—"] = {default = "acttype"}
+SEQUENCE_TYPE["æŒ‘èµ·ç›–å¤´"] = {default = "acttype"}
+SEQUENCE_TYPE["è¡¨æƒ…å—è›®çŸ­è£¤ç”·èˆžè¹ˆ"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¡¨æƒ…å—è›®çŸ­è£™å¥³èˆžè¹ˆ"] = {default = "cmntype"}
+SEQUENCE_TYPE["é†‰é…’"] = {default = "cmntype"}
+SEQUENCE_TYPE["èŠ±çŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["èˆžè¹ˆä¼ž"] = {default = "cmntype"}
+SEQUENCE_TYPE["èˆžè¹ˆç¬›"] = {default = "cmntype"}
+SEQUENCE_TYPE["é¥°å“åˆ‡æ¢"] = {default = "acttype"}
+SEQUENCE_TYPE["æŒ‡å‘åŸå”±1é£Žç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘åŸå”±1å†°ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘åŸå”±2ç«ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘åŸå”±2é›·ç³»"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æ–½æ”¾1"] = {default = "cmntype"}
+SEQUENCE_TYPE["æŒ‡å‘æ–½æ”¾2"] = {default = "cmntype"}
+SEQUENCE_TYPE["èˆžè¹ˆç´"] = {default = "cmntype"}
+SEQUENCE_TYPE["èˆžè¹ˆæ‰‡"] = {default = "cmntype"}
+SEQUENCE_TYPE["ä¼‘é—²2"] = {default = "acttype"}
+SEQUENCE_TYPE["è¢«å‡»é€€"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¢«ç¼ ç»•æ‘”"] = {default = "cmntype"}
+SEQUENCE_TYPE["ä¼‘é—²åŠ¨ä½œ"] = {default = "cmntype"}
+SEQUENCE_TYPE["æ–°è½»å‡»3"] = {default = "cmntype"}
+SEQUENCE_TYPE["é‡å‡»3"] = {default = "cmntype"}
+SEQUENCE_TYPE["æ–°é‡å‡»3"] = {default = "cmntype"}
+SEQUENCE_TYPE["è½»å‡»3"] = {default = "cmntype"}
+SEQUENCE_TYPE["è½»å‡»4"] = {default = "cmntype"}
+SEQUENCE_TYPE["æ˜“å®¹"] = {default = "cmntype"}
+SEQUENCE_TYPE["ç™¾è£‚è¿žæ£æ–°"] = {default = "acttype"}
+SEQUENCE_TYPE["æŒ‘æ‰“"] = {default = "acttype"}
+SEQUENCE_TYPE["é€†æ‰“"] = {default = "acttype"}
+SEQUENCE_TYPE["é”‹åˆº"] = {default = "acttype"}
+SEQUENCE_TYPE["èƒ¡è´¯"] = {default = "acttype"}
+SEQUENCE_TYPE["ç›¾ç ¸"] = {default = "acttype"}
+SEQUENCE_TYPE["ç›¾çª"] = {default = "acttype"}
+SEQUENCE_TYPE["æ´æŠ¤"] = {default = "acttype"}
+SEQUENCE_TYPE["è¢«æµ®ç©ºæ‘”"] = {default = "cmntype"}
+SEQUENCE_TYPE["å¤§é£Žè½¦"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¸€å‰‘å‡Œé£Ž"] = {default = "acttype"}
+SEQUENCE_TYPE["å¾¡å‡¤ç¿”é¾™"] = {default = "acttype"}
+SEQUENCE_TYPE["éª¤é›¨é’è·"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¸€çº§è·³"] = {default = "acttype"}
+SEQUENCE_TYPE["äºŒçº§è·³"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¸‰çº§è·³"] = {default = "acttype"}
+SEQUENCE_TYPE["é€Ÿæ”»"] = {default = "acttype"}
+SEQUENCE_TYPE["å…ˆæ”»"] = {default = "acttype"}
+SEQUENCE_TYPE["å…ˆæ”»ä½ç§»"] = {default = "acttype"}
+SEQUENCE_TYPE["æ··çŽ¯å¼"] = {default = "acttype"}
+SEQUENCE_TYPE["è¿žçŽ¯å‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["è¿žçŽ¯å‡»2"] = {default = "acttype"}
+SEQUENCE_TYPE["è¿žçŽ¯å‡»3"] = {default = "acttype"}
+SEQUENCE_TYPE["è¿žçŽ¯å‡»1è¿œç¨‹"] = {default = "acttype"}
+SEQUENCE_TYPE["è¿žçŽ¯å‡»2è¿œç¨‹"] = {default = "acttype"}
+SEQUENCE_TYPE["è¿žçŽ¯å‡»3è¿œç¨‹"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¹±çŽ¯å¼"] = {default = "acttype"}
+SEQUENCE_TYPE["æ’’æ‰‹çŽ¯èµ·"] = {default = "acttype"}
+SEQUENCE_TYPE["æ’’æ‰‹çŽ¯æ”¶"] = {default = "acttype"}
+SEQUENCE_TYPE["æ—‹é£Žå¼"] = {default = "acttype"}
+SEQUENCE_TYPE["å¾¡çŽ¯å¼"] = {default = "acttype"}
+SEQUENCE_TYPE["é‡å‡»1æ–°"] = {default = "acttype"}
+SEQUENCE_TYPE["é‡å‡»1è“„åŠ›"] = {default = "acttype"}
+SEQUENCE_TYPE["ç ´çŽ¯å¼"] = {default = "acttype"}
+SEQUENCE_TYPE["é£žçŽ¯å¼"] = {default = "acttype"}
+SEQUENCE_TYPE["äºŒè¸¢è„š1"] = {default = "acttype"}
+SEQUENCE_TYPE["äºŒè¸¢è„š2"] = {default = "acttype"}
+SEQUENCE_TYPE["éº»ç—¹"] = {default = "acttype"}
+SEQUENCE_TYPE["æ‰‡é£Ž"] = {default = "cmntype"}
+SEQUENCE_TYPE["å˜²è®½æŠ€èƒ½å…‰æ•ˆ"] = {default = "cmntype"}
+SEQUENCE_TYPE["å›žé”‹æ–©"] = {default = "acttype"}
+SEQUENCE_TYPE["çƒˆé£Žé‡æ–©"] = {default = "acttype"}
+SEQUENCE_TYPE["é£Žç«è½®"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¢«æµ®ç©º"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¢«æµ®ç©ºå¾ªçŽ¯"] = {default = "cmntype"}
+SEQUENCE_TYPE["è¢«å‡»å€’"] = {default = "cmntype"}
+SEQUENCE_TYPE["é‡‘ä¸ç¼ "] = {default = "acttype"}
+SEQUENCE_TYPE["é“¶è›‡ç¼š"] = {default = "acttype"}
+SEQUENCE_TYPE["å›žé¾™ä¹±"] = {default = "acttype"}
+SEQUENCE_TYPE["ç¼ é¢ˆæ‰“ä½ç§»"] = {default = "acttype"}
+SEQUENCE_TYPE["ç¼ é¢ˆæ‰“ä½ç§»æ‰“"] = {default = "acttype"}
+SEQUENCE_TYPE["ç¢ŽçŸ³éž­"] = {default = "acttype"}
+SEQUENCE_TYPE["æ–­é­‚éž­"] = {default = "acttype"}
+SEQUENCE_TYPE["è“„åŠ›"] = {default = "acttype"}
+SEQUENCE_TYPE["é­…å½±éž­"] = {default = "acttype"}
+SEQUENCE_TYPE["è¿·å½±éž­"] = {default = "acttype"}
+SEQUENCE_TYPE["ç§‹é£Žæ‰«"] = {default = "acttype"}
+SEQUENCE_TYPE["è½é›æ‰«"] = {default = "acttype"}
+SEQUENCE_TYPE["è¿Žé¢æ‰«"] = {default = "acttype"}
+SEQUENCE_TYPE["æ‘„é­‚æ‰«"] = {default = "acttype"}
+SEQUENCE_TYPE["é£žè¦ç»•"] = {default = "acttype"}
+SEQUENCE_TYPE["æ®‹æ¢¦æ’©"] = {default = "acttype"}
+SEQUENCE_TYPE["è´¯åœ°å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["å‡é¾™å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¹±èˆž"] = {default = "acttype"}
+SEQUENCE_TYPE["ç¦»å¿ƒåˆº"] = {default = "acttype"}
+SEQUENCE_TYPE["éž­æŒ¡"] = {default = "acttype"}
+SEQUENCE_TYPE["éž­æŒ¡åå‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["å‰æ»šæ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["ç›¾é˜²"] = {default = "acttype"}
+SEQUENCE_TYPE["é‡æ–©"] = {default = "acttype"}
+SEQUENCE_TYPE["ç›¾é˜²è½»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["ç›¾é˜²è£‚åœ°"] = {default = "acttype"}
+SEQUENCE_TYPE["æ¨ªæ‰«è¿žå‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["é‡å‡»è“„åŠ›"] = {default = "acttype"}
+SEQUENCE_TYPE["é‡å‡»æ··ä¹±"] = {default = "acttype"}
+SEQUENCE_TYPE["ç›¾åé‡å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["ç ¸å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["ç›¾é˜²ç›¾æ‰«"] = {default = "acttype"}
+SEQUENCE_TYPE["è¡å¯‡"] = {default = "acttype"}
+SEQUENCE_TYPE["æ¨ªåŠˆ"] = {default = "acttype"}
+SEQUENCE_TYPE["çˆ†ç ´"] = {default = "acttype"}
+SEQUENCE_TYPE["å½±é—ª"] = {default = "acttype"}
+SEQUENCE_TYPE["æ€’åˆº"] = {default = "acttype"}
+SEQUENCE_TYPE["çªè¿›"] = {default = "acttype"}
+SEQUENCE_TYPE["ç‹‚é£Ž"] = {default = "acttype"}
+SEQUENCE_TYPE["å†°å°"] = {default = "acttype"}
+SEQUENCE_TYPE["éœœå†»"] = {default = "acttype"}
+SEQUENCE_TYPE["è´¯åˆº"] = {default = "acttype"}
+SEQUENCE_TYPE["æ‰«è¢­"] = {default = "acttype"}
+SEQUENCE_TYPE["é”‹æ–©"] = {default = "acttype"}
+SEQUENCE_TYPE["æ¸…é£Ž"] = {default = "acttype"}
+SEQUENCE_TYPE["ç¥žç«"] = {default = "acttype"}
+SEQUENCE_TYPE["æ€’ç ¸"] = {default = "acttype"}
+SEQUENCE_TYPE["å¯¹ç©ºé€Ÿå‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["æŒ‘åˆº"] = {default = "acttype"}
+SEQUENCE_TYPE["ç”©æžª"] = {default = "acttype"}
+SEQUENCE_TYPE["é™é¾™"] = {default = "acttype"}
+SEQUENCE_TYPE["æ–­æ„å†›"] = {default = "acttype"}
+SEQUENCE_TYPE["æ–­æ„ç ´"] = {default = "acttype"}
+SEQUENCE_TYPE["å¯¸ç»å†›"] = {default = "acttype"}
+SEQUENCE_TYPE["å¯¸ç»ç ´"] = {default = "acttype"}
+SEQUENCE_TYPE["ç«è¢­æ€’"] = {default = "acttype"}
+SEQUENCE_TYPE["ç«è¢­ç ´"] = {default = "acttype"}
+SEQUENCE_TYPE["å¯‚ç­"] = {default = "acttype"}
+SEQUENCE_TYPE["æ–©é“"] = {default = "acttype"}
+SEQUENCE_TYPE["è›‡å½±"] = {default = "acttype"}
+SEQUENCE_TYPE["é€Ÿå°„"] = {default = "acttype"}
+SEQUENCE_TYPE["åŠ›å°„"] = {default = "acttype"}
+SEQUENCE_TYPE["å¹³å°„2"] = {default = "acttype"}
+SEQUENCE_TYPE["ç¥žå°„å¤´"] = {default = "acttype"}
+SEQUENCE_TYPE["æ•£å°„"] = {default = "acttype"}
+SEQUENCE_TYPE["ç¥žå°„"] = {default = "acttype"}
+SEQUENCE_TYPE["å‰æ»šæ”»å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["å¤§æ‹›"] = {default = "acttype"}
+SEQUENCE_TYPE["åŽè·ƒå°„å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["æµ®ç©ºå°„"] = {default = "acttype"}
+SEQUENCE_TYPE["å¹»å½±å°„"] = {default = "acttype"}
+SEQUENCE_TYPE["è½»å¼©"] = {default = "acttype"}
+SEQUENCE_TYPE["åŠ²å¼©"] = {default = "acttype"}
+SEQUENCE_TYPE["é€Ÿå°„å‡†å¤‡"] = {default = "acttype"}
+SEQUENCE_TYPE["å°„å‡»å‡†å¤‡"] = {default = "ridetype"}
+SEQUENCE_TYPE["å¼©å°„å‡»"] = {default = "ridetype"}
+SEQUENCE_TYPE["éª‘å°„ç«™ç«‹"] = {default = "cmntype"}
+SEQUENCE_TYPE["éª‘æˆ˜å°„å‡»1"] = {default = "ridetype"}
+SEQUENCE_TYPE["éª‘æˆ˜å°„å‡»2"] = {default = "ridetype"}
+SEQUENCE_TYPE["éª‘æˆ˜å°„å‡»3"] = {default = "ridetype"}
+SEQUENCE_TYPE["éª‘æˆ˜å°„å‡»4"] = {default = "ridetype"}
+SEQUENCE_TYPE["çž¬æ€æ€’"] = {default = "acttype"}
+SEQUENCE_TYPE["çž¬æ€ç ´"] = {default = "acttype"}
+SEQUENCE_TYPE["çž¬æ€å†›"] = {default = "acttype"}
+SEQUENCE_TYPE["è¿Žé¢æ–©"] = {default = "acttype"}
+SEQUENCE_TYPE["æ–­æœˆæ–©"] = {default = "acttype"}
+SEQUENCE_TYPE["åŠæœˆæ–©"] = {default = "acttype"}
+SEQUENCE_TYPE["çŒ›åŠˆ"] = {default = "acttype"}
+SEQUENCE_TYPE["çŒ›å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["èˆžå…µ"] = {default = "ridetype"}
+SEQUENCE_TYPE["è“„åŠ¿å¾ªçŽ¯"] = {default = "acttype"}
+SEQUENCE_TYPE["å·¦æ—‹å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¹±èˆžæ”»å‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["éª‘æˆ˜æš—å™¨"] = {default = "ridetype"}
+SEQUENCE_TYPE["é©¬ä¸Šå˜²è®½"] = {default = "acttype"}
+SEQUENCE_TYPE["çƒˆé£Žé‡æ–©"] = {default = "ridetype"}
+SEQUENCE_TYPE["åˆºå‡»"] = {default = "ridetype"}
+SEQUENCE_TYPE["çž¬å‡»"] = {default = "ridetype"}
+SEQUENCE_TYPE["æ—‹é•–"] = {default = "ridetype"}
+SEQUENCE_TYPE["é©¬ä¸ŠæŠ•æŽ·"] = {default = "ridetype"}
+SEQUENCE_TYPE["å†²åˆº"] = {default = "acttype"}
+SEQUENCE_TYPE["ç¼ ç»•"] = {default = "acttype"}
+SEQUENCE_TYPE["è·³åŠˆ"] = {default = "acttype"}
+SEQUENCE_TYPE["çž¬å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["åˆºæ€"] = {default = "acttype"}
+SEQUENCE_TYPE["ç ç¿»"] = {default = "acttype"}
+SEQUENCE_TYPE["é©¬ä¸Šé¼“èˆž1"] = {default = "acttype"}
+SEQUENCE_TYPE["é©¬ä¸Šé¼“èˆž2"] = {default = "acttype"}
+SEQUENCE_TYPE["é©¬ä¸Šé¼“èˆž3"] = {default = "acttype"}
+SEQUENCE_TYPE["éœ‡é”¤"] = {default = "acttype"}
+SEQUENCE_TYPE["ç ¸å‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["æ—‹é£Ž"] = {default = "acttype"}
+SEQUENCE_TYPE["éž­æžªå†³"] = {default = "ridetype"}
+SEQUENCE_TYPE["å›žæ—‹"] = {default = "ridetype"}
+SEQUENCE_TYPE["å¯‚ç­"] = {default = "ridetype"}
+SEQUENCE_TYPE["çµå‡¤è¢­"] = {default = "acttype"}
+SEQUENCE_TYPE["å‡åŠ²å‡»"] = {default = "ridetype"}
+SEQUENCE_TYPE["çŒ›åˆº"] = {default = "ridetype"}
+SEQUENCE_TYPE["é¼“èˆžæ–½æ”¾1"] = {default = "cmntype"}
+SEQUENCE_TYPE["é¼“èˆžæ–½æ”¾2"] = {default = "cmntype"}
+SEQUENCE_TYPE["çŒ›å‡»1"] = {default = "acttype"}
+SEQUENCE_TYPE["è“„åŠ¿å¾ªçŽ¯1"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¹˜é£Žå‰‘é£žå‰‘"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¹˜é£Žå‰‘è½å‰‘"] = {default = "acttype"}
+SEQUENCE_TYPE["è¿½é£Ž"] = {default = "acttype"}
+SEQUENCE_TYPE["æˆªè„‰åå‡»"] = {default = "acttype"}
+SEQUENCE_TYPE["è½å‰‘å¼‘"] = {default = "acttype"}
+SEQUENCE_TYPE["å¾¡é£Žå‰‘"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¸€å‰‘å‡Œé£Žé—ª"] = {default = "acttype"}
+SEQUENCE_TYPE["ä¸€å‰‘å‡Œé£Žè“„åŠ›"] = {default = "acttype"}
 
 
----Ô¤¶¨ÒåÎäÆ÷¶ÔÓ¦µÄÃû³Æ¼°Ïà¹ØÐÅÏ¢ 
----        name£ºÎäÆ÷ÀàÐÍºó×º
----     acttype£º¶¯×÷ÀàÐÍºó×º
----     hldtype£ºÊÖ³ÖÀàÐÍºó×º
----     cmntype£ºÍ¨ÓÃÀàÐÍºó×º
+---é¢„å®šä¹‰æ­¦å™¨å¯¹åº”çš„åç§°åŠç›¸å…³ä¿¡æ¯
+---        nameï¼šæ­¦å™¨ç±»åž‹åŽç¼€
+---     acttypeï¼šåŠ¨ä½œç±»åž‹åŽç¼€
+---     hldtypeï¼šæ‰‹æŒç±»åž‹åŽç¼€
+---     cmntypeï¼šé€šç”¨ç±»åž‹åŽç¼€
 
 WEAPON_TYPE	=	{}
-WEAPON_TYPE[1] = {name = "¿ÕÊÖ" , acttype = "¿ÕÊÖ" , hldtype = "Ë«ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "¿ÕÊÖ"}
-WEAPON_TYPE[2] = {name = "µ¶" , acttype = "³¤ÖØ" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "³¤ÖØ"}
-WEAPON_TYPE[3] = {name = "Ç¹" , acttype = "³¤Çá" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "³¤Çá"}
-WEAPON_TYPE[4] = {name = "êª" , acttype = "³¤Çá" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "³¤Çá"}
-WEAPON_TYPE[5] = {name = "îá" , acttype = "³¤ÖØ" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "³¤ÖØ"}
-WEAPON_TYPE[6] = {name = "²æ" , acttype = "Ë«¶Ì" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "²æ"}
-WEAPON_TYPE[7] = {name = "¹÷" , acttype = "³¤Çá" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "³¤Çá"}
-WEAPON_TYPE[8] = {name = "½£" , acttype = "µ¥¶Ì" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "µ¥¶Ì"}
-WEAPON_TYPE[9] = {name = "¸«" , acttype = "Ë«¶Ì" , hldtype = "Ë«ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "Ë«¶Ì"}
----ÒÔÏÂÈý¸öË«¶Ì²¿·Ö¸ÄÎªµ¥¶Ì£¬¹³>ïµ>´¸
----WEAPON_TYPE[10] = {name = "¹³" , acttype = "µ¥¶Ì" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "µ¥¶Ì"}
----WEAPON_TYPE[11] = {name = "ïµ" , acttype = "Ë«¶Ì" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "Ë«¶Ì"}
----WEAPON_TYPE[12] = {name = "´¸" , acttype = "Ë«¶Ì" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "´¸"}
-WEAPON_TYPE[10] = {name = "¹³" , acttype = "Ë«¶Ì" , hldtype = "Ë«ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "Ë«¶Ì"}
-WEAPON_TYPE[11] = {name = "ïµ" , acttype = "Ë«¶Ì" , hldtype = "Ë«ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "Ë«¶Ì"}
-WEAPON_TYPE[12] = {name = "´¸" , acttype = "Ë«¶Ì" , hldtype = "Ë«ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "´¸"}
-WEAPON_TYPE[13] = {name = "×¦" , acttype = "¿ÕÊÖ" , hldtype = "Ë«ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "¿ÕÊÖ"}
-WEAPON_TYPE[14] = {name = "¶Ü" , acttype = "¿ÕÊÖ" , hldtype = "Ë«ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "¶Ü"}
---»·µÄhldtype 2012-10-22¸ÄÎªÁËµ¥ÊÖ
-WEAPON_TYPE[15] = {name = "»·" , acttype = "ÒìÀà" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "ÒìÀà"}
-WEAPON_TYPE[16] = {name = "ÕÈ" , acttype = "µ¥¶Ì" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "µ¥¶Ì"}
-WEAPON_TYPE[17] = {name = "Îè" , acttype = "ÒìÀà" , hldtype = "Ë«ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "Îè"}
-WEAPON_TYPE[18] = {name = "ÉÈ" , acttype = "µ¥¶Ì" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "µ¥¶Ì"}
-WEAPON_TYPE[19] = {name = "¹­" , acttype = "¿ÕÊÖ" , hldtype = "Ë«ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "¹­"}
-WEAPON_TYPE[20] = {name = "±Þ" , acttype = "µ¥¶Ì" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "´¸"}
-WEAPON_TYPE[21] = {name = "åó" , acttype = "µ¥¶Ì" , hldtype = "µ¥ÊÖ" , cmntype = "Í¨ÓÃ" , ridetype = "åó"}
+WEAPON_TYPE[1] = {name = "ç©ºæ‰‹" , acttype = "ç©ºæ‰‹" , hldtype = "åŒæ‰‹" , cmntype = "é€šç”¨" , ridetype = "ç©ºæ‰‹"}
+WEAPON_TYPE[2] = {name = "åˆ€" , acttype = "é•¿é‡" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "é•¿é‡"}
+WEAPON_TYPE[3] = {name = "æžª" , acttype = "é•¿è½»" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "é•¿è½»"}
+WEAPON_TYPE[4] = {name = "æˆŸ" , acttype = "é•¿è½»" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "é•¿è½»"}
+WEAPON_TYPE[5] = {name = "é’º" , acttype = "é•¿é‡" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "é•¿é‡"}
+WEAPON_TYPE[6] = {name = "å‰" , acttype = "åŒçŸ­" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "å‰"}
+WEAPON_TYPE[7] = {name = "æ£" , acttype = "é•¿è½»" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "é•¿è½»"}
+WEAPON_TYPE[8] = {name = "å‰‘" , acttype = "å•çŸ­" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "å•çŸ­"}
+WEAPON_TYPE[9] = {name = "æ–§" , acttype = "åŒçŸ­" , hldtype = "åŒæ‰‹" , cmntype = "é€šç”¨" , ridetype = "åŒçŸ­"}
+---ä»¥ä¸‹ä¸‰ä¸ªåŒçŸ­éƒ¨åˆ†æ”¹ä¸ºå•çŸ­ï¼Œé’©>é”>é”¤
+---WEAPON_TYPE[10] = {name = "é’©" , acttype = "å•çŸ­" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "å•çŸ­"}
+---WEAPON_TYPE[11] = {name = "é”" , acttype = "åŒçŸ­" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "åŒçŸ­"}
+---WEAPON_TYPE[12] = {name = "é”¤" , acttype = "åŒçŸ­" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "é”¤"}
+WEAPON_TYPE[10] = {name = "é’©" , acttype = "åŒçŸ­" , hldtype = "åŒæ‰‹" , cmntype = "é€šç”¨" , ridetype = "åŒçŸ­"}
+WEAPON_TYPE[11] = {name = "é”" , acttype = "åŒçŸ­" , hldtype = "åŒæ‰‹" , cmntype = "é€šç”¨" , ridetype = "åŒçŸ­"}
+WEAPON_TYPE[12] = {name = "é”¤" , acttype = "åŒçŸ­" , hldtype = "åŒæ‰‹" , cmntype = "é€šç”¨" , ridetype = "é”¤"}
+WEAPON_TYPE[13] = {name = "çˆª" , acttype = "ç©ºæ‰‹" , hldtype = "åŒæ‰‹" , cmntype = "é€šç”¨" , ridetype = "ç©ºæ‰‹"}
+WEAPON_TYPE[14] = {name = "ç›¾" , acttype = "ç©ºæ‰‹" , hldtype = "åŒæ‰‹" , cmntype = "é€šç”¨" , ridetype = "ç›¾"}
+--çŽ¯çš„hldtype 2012-10-22æ”¹ä¸ºäº†å•æ‰‹
+WEAPON_TYPE[15] = {name = "çŽ¯" , acttype = "å¼‚ç±»" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "å¼‚ç±»"}
+WEAPON_TYPE[16] = {name = "æ–" , acttype = "å•çŸ­" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "å•çŸ­"}
+WEAPON_TYPE[17] = {name = "èˆž" , acttype = "å¼‚ç±»" , hldtype = "åŒæ‰‹" , cmntype = "é€šç”¨" , ridetype = "èˆž"}
+WEAPON_TYPE[18] = {name = "æ‰‡" , acttype = "å•çŸ­" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "å•çŸ­"}
+WEAPON_TYPE[19] = {name = "å¼“" , acttype = "ç©ºæ‰‹" , hldtype = "åŒæ‰‹" , cmntype = "é€šç”¨" , ridetype = "å¼“"}
+WEAPON_TYPE[20] = {name = "éž­" , acttype = "å•çŸ­" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "é”¤"}
+WEAPON_TYPE[21] = {name = "å¼©" , acttype = "å•çŸ­" , hldtype = "å•æ‰‹" , cmntype = "é€šç”¨" , ridetype = "å¼©"}
 
----Ô¤¶¨Òå¼¼ÄÜµ÷ÓÃ¶¯×÷Ãû£¬
----×Ô¶¯¹¥»÷Ö¸¶¯×÷ÃûÎÞÓÃ£¬ÏÖÔÚ°üÀ¨1,21,41,61,81,101,121,141,161,181,201,221,241,261,281,301,321,341,362
----        name£º¼¼ÄÜÃû
----         act£º¶¯×÷Ãû±í
----           ¡¡ Ã¿Ò»¶Î¶¯×÷¾ùÎª×Ö·û´®£¬Ã»ÓÐ¶¯×÷ÓÃ¿Õ×Ö·û´®""£¬
----forceextword£ºÇ¿ÐÐÖ¸¶¯¸Ã¶¯×÷ÖÐ¼ä´Ê£¨ÓÃµÃ½ÏÉÙ£¬ÖÐ¼ä´ÊÎª¿ÕÊ±ÐèÒªÊÖÐ´""£©£¨½ö¶Ô·ÇË«ÈË×´Ì¬ÏÂÓÐÐ§£©
----              ²»Ö¸¶¨Çé¿öÏÂ»áÈËÎïµÄÆï³Ë¡¢Ë«ÈË×´Ì¬½øÐÐµ÷ÓÃ
---- forcesuffix£ºÇ¿ÐÐÖ¸¶¯¸Ã¶¯×÷ºó×º£¨Èç¹ûµ÷ÓÃ»»ÆäËüÀàÎäÆ÷µÄ¶¯×÷£©£¨½ö¶Ô·ÇË«ÈË×´Ì¬ÏÂÓÐÐ§£©
----              ²»Ö¸¶¨Çé¿öÏÂ»á°´ÕÕ¶¯×÷¶ÔÓ¦×°±¸ÎäÆ÷µÄÃû×Ö½øÐÐµ÷ÓÃ
----        ÀýÈç£º{"ÖØ»÷1"}£¬{"½üÉí×¼±¸","»Ø×ª¹¥»÷"}£¬{"½üÉí×¼±¸","»Ø×ª¹¥»÷",""}£¬{"½üÉí×¼±¸","»Ø×ª¹¥»÷","","ÆÕÍ¨¹¥»÷1"}
----        ÀýÈç£ºforceextword = "" , forcesuffix = "³¤ÖØ"
+---é¢„å®šä¹‰æŠ€èƒ½è°ƒç”¨åŠ¨ä½œåï¼Œ
+---è‡ªåŠ¨æ”»å‡»æŒ‡åŠ¨ä½œåæ— ç”¨ï¼ŒçŽ°åœ¨åŒ…æ‹¬1,21,41,61,81,101,121,141,161,181,201,221,241,261,281,301,321,341,362
+---        nameï¼šæŠ€èƒ½å
+---         actï¼šåŠ¨ä½œåè¡¨
+---           ã€€ æ¯ä¸€æ®µåŠ¨ä½œå‡ä¸ºå­—ç¬¦ä¸²ï¼Œæ²¡æœ‰åŠ¨ä½œç”¨ç©ºå­—ç¬¦ä¸²""ï¼Œ
+---forceextwordï¼šå¼ºè¡ŒæŒ‡åŠ¨è¯¥åŠ¨ä½œä¸­é—´è¯ï¼ˆç”¨å¾—è¾ƒå°‘ï¼Œä¸­é—´è¯ä¸ºç©ºæ—¶éœ€è¦æ‰‹å†™""ï¼‰ï¼ˆä»…å¯¹éžåŒäººçŠ¶æ€ä¸‹æœ‰æ•ˆï¼‰
+---              ä¸æŒ‡å®šæƒ…å†µä¸‹ä¼šäººç‰©çš„éª‘ä¹˜ã€åŒäººçŠ¶æ€è¿›è¡Œè°ƒç”¨
+--- forcesuffixï¼šå¼ºè¡ŒæŒ‡åŠ¨è¯¥åŠ¨ä½œåŽç¼€ï¼ˆå¦‚æžœè°ƒç”¨æ¢å…¶å®ƒç±»æ­¦å™¨çš„åŠ¨ä½œï¼‰ï¼ˆä»…å¯¹éžåŒäººçŠ¶æ€ä¸‹æœ‰æ•ˆï¼‰
+---              ä¸æŒ‡å®šæƒ…å†µä¸‹ä¼šæŒ‰ç…§åŠ¨ä½œå¯¹åº”è£…å¤‡æ­¦å™¨çš„åå­—è¿›è¡Œè°ƒç”¨
+---        ä¾‹å¦‚ï¼š{"é‡å‡»1"}ï¼Œ{"è¿‘èº«å‡†å¤‡","å›žè½¬æ”»å‡»"}ï¼Œ{"è¿‘èº«å‡†å¤‡","å›žè½¬æ”»å‡»",""}ï¼Œ{"è¿‘èº«å‡†å¤‡","å›žè½¬æ”»å‡»","","æ™®é€šæ”»å‡»1"}
+---        ä¾‹å¦‚ï¼šforceextword = "" , forcesuffix = "é•¿é‡"
 
 SKILL_TYPE = {}
----ÆÕÍ¨¹¥»÷
-SKILL_TYPE[1] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[21] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[41] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[61] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[81] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[101] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[121] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[141] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[161] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[181] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[201] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[221] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[241] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[261] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[281] = {name = "×Ô¶¯¹¥»÷" , act = {"·ÉÐÐÒ÷³ª»ðÏµ" , "·ÉÐÐÊ©·Å"}}
-SKILL_TYPE[301] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[321] = {name = "×Ô¶¯¹¥»÷" , act = {"·ÉÐÐÒ÷³ª±ùÏµ" , "·ÉÐÐÊ©·Å"}}
-SKILL_TYPE[341] = {name = "×Ô¶¯¹¥»÷" , act = {"¹­×¼±¸1" , "¹­Éä»÷1"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[362] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[5109] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5276] = {name = "×Ô¶¯¹¥»÷" , act = {"" , "ÆÕÍ¨¹¥»÷1"}, forcesuffix = "åó"}
----µ¶
-SKILL_TYPE[2] = {name = "ÌôÕ½" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[3] = {name = "ËÙ¿³" , act = {"" , "Çá»÷2"}}
-SKILL_TYPE[4] = {name = "ÃÍÅü" , act = {"½üÉí×¼±¸" , "ÃÍÅü" , ""} , forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[5] = {name = "¶ÏÔÂÕ¶" , act = {"" , "¶ÏÔÂÕ¶"} , forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[6] = {name = "°ëÔÂÕ¶" , act = {"½üÉí×¼±¸" , "°ëÔÂÕ¶"} , forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[7] = {name = "Ô²ÔÂÕ¶" , act = {"ÌØÊâ×¼±¸" , "ÖØ»÷2"}}
-SKILL_TYPE[8] = {name = "ÇàÁúÙÈÔÂ" , act = {"" , "ÇàÁúÙÈÔÂ"} , forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[9] = {name = "Ç¿¹¥" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[10] = {name = "¹ÄÎè" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[11] = {name = "»¡ÔÂÕ¶" , act = {"Ç¿Á¦×¼±¸" , "ÖØ»÷1"}}
-SKILL_TYPE[12] = {name = "ÐîÁ¦" , act = {"ÐîÁ¦×¼±¸" , "" , "" , ""}}
-SKILL_TYPE[13] = {name = "¿ìÅÜ" , act = {"" , ""}}
-SKILL_TYPE[14] = {name = "¸ñµ²" , act = {"" , "¸ñµ²Ñ­»·"}}
-SKILL_TYPE[15] = {name = "Í»»÷" , act = {"Ç¿Á¦×¼±¸" , "¼ÓËÙÅÜ" , "Çá»÷1"} , forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[16] = {name = "ºáÂÕ" , act = {"" , "Çá»÷1"}}
-SKILL_TYPE[17] = {name = "Ó­ÃæÕ¶" , act = {"ÐîÁ¦×¼±¸" , "Ó­ÃæÕ¶" , ""} , forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[18] = {name = "ÕÐ¼Ü" , act = {"" , "¸ñµ²Ñ­»·"}}
-SKILL_TYPE[19] = {name = "ËÙ¿³" , act = {"" , "Çá»÷2"}}
-SKILL_TYPE[1703] = {name = "Áú×¦Õó" , act = {"·ÉÐÐÒ÷³ªÀ×Ïµ" , "·ÉÐÐÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[1704] = {name = "¶·ÆøÖ®¶Ü" , act = {"¹ÄÎèÊ©·Å" , ""} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1705] = {name = "´ç²Ý²»Éú" , act = {"" , "ÆÕÍ¨¹¥»÷2"}}
-SKILL_TYPE[1706] = {name = "Í»ÆÆ¼«ÏÞ" , act = {"¹ÄÎèÊ©·Å" , ""} , forcesuffix = "Í¨ÓÃ"}
----Ç¹
-SKILL_TYPE[22] = {name = "ÌôÕ½" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[23] = {name = "Ìô»÷" , act = {"" , "Çá»÷1"}}
-SKILL_TYPE[24] = {name = "ÅüÔÒ" , act = {"ÐîÁ¦×¼±¸" , "¶ÔµØ¹¥»÷"}}
-SKILL_TYPE[25] = {name = "ÉñÍþÇ¹" , act = {"" , "ÌøÔ¾¹¥»÷" }}
-SKILL_TYPE[26] = {name = "¼²·çÇ¹" , act = {"¼²·çÇ¹" , ""}}
-SKILL_TYPE[27] = {name = "»ØÂíÇ¹" , act = {"ÐîÁ¦×¼±¸" , "Çá»÷2"}}
-SKILL_TYPE[28] = {name = "ÖèÓêÇàºÉ" , act = {"" , "ÖèÓêÇàºÉ" } , forcesuffix = "³¤Çá"}
-SKILL_TYPE[29] = {name = "Èñ½ð" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[30] = {name = "¼¤Àø" , act = {"" , "½üÉí×¼±¸"}}
-SKILL_TYPE[31] = {name = "±©ÓêÀæ»¨" , act = {"" , "Ç¹Èº¹¥" , "" , "Ç¹Èº¹¥" , "" , "Ç¹Èº¹¥" , "" , "Ç¹Èº¹¥" , "" , "Ç¹Èº¹¥" , ""}}
-SKILL_TYPE[32] = {name = "Á¬»÷" , act = {"" , ""}}
-SKILL_TYPE[33] = {name = "¿ìÅÜ" , act = {"" , ""}}
-SKILL_TYPE[34] = {name = "¸ñµ²" , act = {"" , "¸ñµ²Ñ­»·"}}
-SKILL_TYPE[35] = {name = "Í»»÷" , act = {"ÌØÊâ×¼±¸" , "ÆÕÍ¨¹¥»÷1" , ""}}
-SKILL_TYPE[36] = {name = "Í»´Ì" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[37] = {name = "²¦Âí»ØÉí" , act = {"" , "ÉÁ¶ã"}}
-SKILL_TYPE[38] = {name = "·çÀ×Á¬´Ì" , act = {"" , "Çá»÷1" , "ÖØ»÷1" , "ÆÕÍ¨¹¥»÷1" , "¶ÔµØ¹¥»÷" , ""}}
-SKILL_TYPE[39] = {name = "¿Õ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[40] = {name = "·çÀ×Á¬´Ì" , act = {"" , "Çá»÷1" , "ÖØ»÷1" , "ÆÕÍ¨¹¥»÷1" , "¶ÔµØ¹¥»÷"}}
-SKILL_TYPE[1707] = {name = "¾«×¼´Ì»÷" , act = {"¶Ô¿Õ¹¥»÷" , ""} , forcesuffix = "³¤Çá"}
-SKILL_TYPE[1708] = {name = "¼¯ÖÐ»ðÁ¦" , act = {"·ÉÐÐÒ÷³ªÀ×Ïµ" , "·ÉÐÐÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[1709] = {name = "¼²·ç²½" , act = {"" , "ÆðÌø"}}
-SKILL_TYPE[1710] = {name = "Áè²¨Î¢²½" , act = {"Ö¸ÏòÊ©·ÅÀ×Ïµ" , ""} , forcesuffix = "Í¨ÓÃ"}
----êª
-SKILL_TYPE[42]={name="ÌôÕ½",act={"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[43]={name="Ìô´ò",act={"" , "Ìô´ò"},forcesuffix = "êª"}
-SKILL_TYPE[44]={name="Äæ´ò",act={"" , "Äæ´ò"},forcesuffix = "êª"}
-SKILL_TYPE[45]={name="·æ´Ì",act={"" , "·æ´Ì"} , forcesuffix = "êª"}
-SKILL_TYPE[46]={name="ºú¹á",act={"" , "ºú¹á"}, forcesuffix = "êª"}
-SKILL_TYPE[47]={name="ËÄ·½É±",act={"" , "ÖØ»÷2"}}
-SKILL_TYPE[48]={name="ÓÂÕ½ÈýÓ¢",act={"" , "êª¹¥»÷4" , "" , "" }}
-SKILL_TYPE[49]={name="ÎÞÎ·",act={"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[50]={name="¶áÃüêª",act={"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[51]={name="Å­ÆÆÕ¶",act={"ÐîÁ¦×¼±¸" , "ÖØ»÷1"}}
-SKILL_TYPE[52]={name="×·»êêª",act={"êª¹¥»÷8" , ""}}
-SKILL_TYPE[53]={name="»¢»¢Éú·ç",act={"" , ""}}
-SKILL_TYPE[54]={name="¸ñµ²",act={"" , "¸ñµ²"}}
-SKILL_TYPE[55] = {name = "Í»»÷" , act = {"Ç¿Á¦×¼±¸" , "ÆÕÍ¨¹¥»÷1" , ""}}
-SKILL_TYPE[56]={name="¼¤Àø",act={"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[57]={name="³Ð½Ó",act={"" , ""}}
-SKILL_TYPE[1219]={name="Íþ·ç°ËÃæ",act={"" , "ÌøÔ¾¹¥»÷"}}
-SKILL_TYPE[1711] = {name = "·É½«Ö®Å­" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[1712] = {name = "Ò¹Õ½°Ë·½" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[1713] = {name = "¼«ÏÞ³å·æ" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[1714] = {name = "ÆøÊÆÁèÈË" , act = {"Ë«Áú¾øÃü" , ""} , forcesuffix = "¿ÕÊÖ"}
----îá
-SKILL_TYPE[62] = {name = "ÌôÕ½" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[63] = {name = "ÆÆÕ¶" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[64] = {name = "¸îÁÑ" , act = {"","¹¥»÷1"},forcesuffix = "îá"}
-SKILL_TYPE[65] = {name = "»Ø·æÕ¶" , act = {"" , "»Ø×ª¹¥»÷ÌØÊâ"}}
-SKILL_TYPE[66] = {name = "ÁÒ·çÕ¶" , act = {"","¹¥»÷2" , "¹¥»÷3","¶Ô¿ÕÒýÀ×",""} , forcesuffix = "îá"}
-SKILL_TYPE[67] = {name = "ÆÆÔª»÷" , act = {"" , "Çá»÷2"}}
-SKILL_TYPE[68] = {name = "ÁúÑÀËé½ð" , act = {"" , "ÁúÑÀËé½ð"} , forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[69] = {name = "¾ÛÔª»¯Æø" , act = {"" , "Ö¸ÏòÊ©·Å±ùÏµ"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[70] = {name = "¹ÄÃü" , act = {"" , "Ç¿»¯Ê©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[71] = {name = "Îü»ê" , act = {"" , "·ÉÐÐÊ©·Å·çÏµ"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[72] = {name = "ÊÉÑª" , act = {"" , "Ç¿»¯Ê©·Å","Ç¿»¯Ê©·Å","Ç¿»¯Ê©·Å","Ç¿»¯Ê©·Å","Ç¿»¯Ê©·Å","Ç¿»¯Ê©·Å","Ç¿»¯Ê©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[73] = {name = "Ëé±ø" , act = {"" , "ÖØ»÷2"}}
-SKILL_TYPE[74] = {name = "¸ñµ²" , act = {"" , "¸ñµ²"}}
-SKILL_TYPE[75] = {name = "¼±³å" , act = {"" , "Ðý·ç³å×²"},forcesuffix = "îá"}
-SKILL_TYPE[76] = {name = "¹³Á­" , act = {"" , "Ö¸ÏòÊ©·Å»ðÏµ"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[77] = {name = "Àë¼×" , act = {"" , "»Ø×ª¹¥»÷"}}
-SKILL_TYPE[78] = {name = "ÐéÉ±Ê½" , act = {"" , "ÉñÁú°ÚÎ²"},forcesuffix = "³¤Çá"}
-SKILL_TYPE[4941] = {name = "Äæ·æÕ¶" , act = {"" , "»Ø·æÕ¶"},forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[4944] = {name = "ÁÒ·çÖØÕ¶" , act = {"" , "ÁÒ·çÖØÕ¶"},forcesuffix = "îá"}
----¹÷
-SKILL_TYPE[102] = {name = "ÌôÕ½" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[103] = {name = "ËÙ´ò" , act = {"" , "Çá»÷1"}}
-SKILL_TYPE[104] = {name = "Á¬´ò" , act = {"" , "¶Ô¿Õ¹¥»÷" , "" , "" , "" , "" , ""}}
-SKILL_TYPE[105] = {name = "Ç¿Ï®¹÷" , act = {"" , "Çá»÷2"}}
-SKILL_TYPE[106] = {name = "·ç»ðÂÖ" , act = {"Ç¿Á¦×¼±¸" , "·ç»ðÂÖ" , "·ç»ðÂÖ" , "·ç»ðÂÖ" , "·ç»ðÂÖ" , "·ç»ðÂÖ"}}
-SKILL_TYPE[107] = {name = "ÄæÏ®¹÷" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[108] = {name = "ºáÉ¨Ç§¾ü" , act = {"" , "´ó·ç³µ" , "" , "" , "" , ""} , forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[109] = {name = "Ç¿¹¥" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[110] = {name = "°ºÑï" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[111] = {name = "È¸Âä¹÷" , act = {"Ç¿Á¦×¼±¸" , "»Ø×ª¹¥»÷"}}
-SKILL_TYPE[112] = {name = "Á¬»÷" , act = {"" , ""}}
-SKILL_TYPE[113] = {name = "¿ìÅÜ" , act = {"" , ""}}
-SKILL_TYPE[114] = {name = "¸ñµ²" , act = {"" , "¸ñµ²Ñ­»·"}}
-SKILL_TYPE[115] = {name = "Ñ¹ÖÆ" , act = {"ÌØÊâ×¼±¸" , "ÆÕÍ¨¹¥»÷1"} , forcesuffix = "³¤Çá"}
-SKILL_TYPE[116] = {name = "Ö±´Ì" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[117] = {name = "¹÷Á¬ÕÐ" , act = {"" , "Çá»÷1" , "ÖØ»÷1" , "Çá»÷2" , "¶ÔµØ¹¥»÷"}}
-SKILL_TYPE[118] = {name = "Ç¿Ï®¹÷£­É¨" , act = {"" , "Çá»÷1"}}
-SKILL_TYPE[119] = {name = "¸ñµ²" , act = {"" , "¸ñµ²Ñ­»·"}}
-SKILL_TYPE[120] = {name = "°ÙÁÑÁ¬¹÷" , act = {"°ÙÁÑÁ¬¹÷ÐÂ" , "" , "" , "", forcesuffix = "³¤Çá"}}
-SKILL_TYPE[1715] = {name = "¼á±Ú¹ÄÎè" , act = {"" , "Ö¸ÏòÊ©·Å±ùÏµ"}}
-SKILL_TYPE[1716] = {name = "°ÙÀï»ÄÎß" , act = {"Ç¿Á¦×¼±¸" , "»Ø×ª¹¥»÷³ÖÐø" , "" , "" , "" , "" , "" , "" , "" , "" , "Õ½¶·Õ¾Á¢"}}
-SKILL_TYPE[1717] = {name = "²»¿ÉÇÖ·¸" , act = {"" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[1718] = {name = "Å­ÆøÉóÅÐ" , act = {"·ÉÐÐÒ÷³ª»ðÏµ" , "·ÉÐÐÊ©·Å»ðÏµ"}}
----½£
-SKILL_TYPE[122] = {name = "ÌôÕ½" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[123] = {name = "ËÙ»÷" , act = {"" , "Çá»÷2"}}
-SKILL_TYPE[124] = {name = "ÖØÅü" , act = {"" , "ÆÕÍ¨¹¥»÷2" , "¶ÔµØ¹¥»÷"}}
-SKILL_TYPE[125] = {name = "³Ë·ç´Ì" , act = {"½üÉí×¼±¸" , "Çá»÷1"} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[126] = {name = "ÃÙÐÄ´Ì" , act = {"" , "Çá»÷1"}}
-SKILL_TYPE[127] = {name = "·âºí´Ì" , act = {"ÐîÁ¦×¼±¸" , "Çá»÷1"}}
-SKILL_TYPE[128] = {name = "Á÷ÐÇ¸ÏÔÂ" , act = {"Ò»½£Áè·ç" , ""} , forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[129] = {name = "Ç¿¹¥" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[130] = {name = "Á¬É±" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[131] = {name = "½ØÂö´Ì" , act = {"ÐîÁ¦×¼±¸" , "Çá»÷1"}}
-SKILL_TYPE[132] = {name = "Á¬»÷" , act = {"" , ""}}
-SKILL_TYPE[133] = {name = "¿ìÅÜ" , act = {"" , ""}}
-SKILL_TYPE[134] = {name = "¸ñµ²" , act = {"" , "¸ñµ²Ñ­»·"}}
---SKILL_TYPE[135] = {name = "Í»Ï®" , act = {"Í»´Ì¹¥»÷" , "" , ""} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[135] = {name = "Í»Ï®" , act = {"" , "³Ë·ç½£·É½£"} , forcesuffix = "½£"}
-SKILL_TYPE[136] = {name = "Ö±´Ì" , act = {"" , "Çá»÷1"}}
---SKILL_TYPE[137] = {name = "Óù·ç´Ì" , act = {"½üÉí×¼±¸" , "Çá»÷1"} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[138] = {name = "½£Á¬ÕÐ" , act = {"" , "Çá»÷1" , "Çá»÷2" , "ÆÕÍ¨¹¥»÷2" , "¶ÔµØ¹¥»÷"} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[139] = {name = "½£î¸" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"} }
-SKILL_TYPE[140] = {name = "½£Á¬ÕÐ" , act = {"" , "Çá»÷1" , "Çá»÷2" , "ÆÕÍ¨¹¥»÷2" , "»Ø×ª¹¥»÷"} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[1719] = {name = "½£Æø½ûÑÔ" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[1720] = {name = "ÁúÑÀÊ®×ÖÕ¶" , act = {"" , "¶Ô¿Õ¹¥»÷ÌØÊâ"} , forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[1721] = {name = "¾Å½£ÃðÉ±Õó" , act = {"Ç¿Á¦×¼±¸" , "»Ø×ª¹¥»÷³ÖÐøÌØÊâ" , "" , "" , "", "" , "¶ÔµØ¹¥»÷ÌØÊâ"} , forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[1722] = {name = "ÎÞµÐÕ¶" , act = {"Í»´Ì¹¥»÷" , "¶ÔµØ¹¥»÷" , "¶Ô¿Õ¹¥»÷" , "»Ø×ª¹¥»÷" , "»÷·É¹¥»÷" , "ÌøÔ¾¹¥»÷" , "¶Ô¿Õ¹¥»÷ÌØÊâ" , ""} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[5900] = {name = "½£î¸¡¤ÓùÐÄ" , act = {"" , "¶Ô¿Õ¹¥»÷ÌØÊâ"}, forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[5901] = {name = "½£î¸¡¤Óù½£" , act = {"","Ö¸ÏòÊ©·Å1" , "" ,"" ,"" , "" ,"" , "" , "" ,  "" ,  "" , ""}}
-SKILL_TYPE[5902] = {name = "×··ç" , act = {"","×··ç"},forcesuffix = "½£"}
-SKILL_TYPE[5903] = {name = "×··çÉýÁú" , act = {"","½ØÂö·´»÷"},forcesuffix = "½£"}
-SKILL_TYPE[5908] = {name = "Í»Ï®Õ¶" , act = {"Í»´Ì¹¥»÷" , "" , ""} , forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[5909] = {name = "½£Âäß±" , act = {"","Âä½£ß±"},forcesuffix = "½£"}
-SKILL_TYPE[137] = {name = "Óù·ç´Ì" , act = {"Óù·ç½£" , ""} , forcesuffix = "½£"}
----¸«
-SKILL_TYPE[142] = {name = "ÐîÆø" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[143] = {name = "ËÙ´ò" , act = {"" , "Çá»÷2"}}
-SKILL_TYPE[144] = {name = "Ê®×ÖÅü" , act = {"ÐîÁ¦×¼±¸" , "¶ÔµØ¹¥»÷" , ""}}
-SKILL_TYPE[145] = {name = "Ðý·ç¸«" , act = {"" , "Ë«Ðý×ª3"} , forcesuffix = "¸«"}
-SKILL_TYPE[146] = {name = "È¼Å­Åü" , act = {"" , "Í»´Ì¹¥»÷"}}
-SKILL_TYPE[147] = {name = "½âÅ£Åü" , act = {"" , "¶ÔµØ¹¥»÷"} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[148] = {name = "Á¦Åü»ªÉ½" , act = {"" , "Á¦Åü»ªÉ½"} , forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[149] = {name = "Ç¿¹¥" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[150] = {name = "Èñ½ð" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[151] = {name = "µ±Í·¸«" , act = {"ÐîÁ¦×¼±¸" , "Í»´Ì¹¥»÷"}}
-SKILL_TYPE[152] = {name = "´ý·ü" , act = {"" , ""}}
-SKILL_TYPE[153] = {name = "¿ìÅÜ" , act = {"" , ""}}
-SKILL_TYPE[154] = {name = "¸ñµ²" , act = {"" , "¸ñµ²Ñ­»·"}}
-SKILL_TYPE[155] = {name = "Í»»÷" , act = {"½üÉí×¼±¸" , "¼ÓËÙÅÜ" , "ÖØ»÷2"} , forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[156] = {name = "ÖØ¿³" , act = {"" , "Çá»÷1"}}
-SKILL_TYPE[157] = {name = "ÌìÉñÏÂ·²" , act = {"" , "ÌøÔ¾¹¥»÷" , ""} , forcesuffix = "¸«"}
-SKILL_TYPE[159] = {name = "¼á±Ú" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"} }
-SKILL_TYPE[1723] = {name = "ÊÈÉ±ÈçÃü" , act = {"·ÉÐÐÒ÷³ª»ðÏµ" , "·ÉÐÐÊ©·Å»ðÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1724] = {name = "¿ñÕ½Ê¿Ö®Å­" , act = {"" , "¹ÄÎèÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1725] = {name = "Å­Òâ·ÙÉÕ" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[1726] = {name = "Å­Õ¶" , act = {"½ð¸Õ×¹µØ" , ""} , forcesuffix = "³¤ÖØ"}
----¹³
-SKILL_TYPE[162] = {name = "ÌôÕ½" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[163] = {name = "ÅÍÊ¯ÎÆÉí" , act = {"" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[164] = {name = "¼²·çÎÆÉí" , act = {"" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[165] = {name = "Ñª·ÐÎÆÉí" , act = {"" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[166] = {name = "ÒýÀ×¹³" , act = {"¶ÔµØ¹¥»÷ÌØÊâ"}}
-SKILL_TYPE[167] = {name = "°Ù¶¾ÈëËè" , act = {"" , "·ÉÐÐÊ©·Å»ðÏµ"}}
-SKILL_TYPE[168] = {name = "Îâºèìè»ü" , act = {"" , "¶Ô¿Õ¹¥»÷ÌØÊâ"} , forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[169] = {name = "ÑªÖ®¼¢¿Ê" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[170] = {name = "´óÐ¶°Ë¿é" , act = {"¶ÔµØ¹¥»÷ÌØÊâ" , ""} , forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[171] = {name = "¶¾ÑªÖ®ÈÐ" , act = {"" , "°µÆ÷Í¶ÖÀ"}}
-SKILL_TYPE[172] = {name = "Îâ¹³ËªÑ©Ã÷" , act = {"ÌøÔ¾¹¥»÷ÌØÊâ" , ""} , forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[173] = {name = "Ç±·üÕ½·¨" , act = {"" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[174] = {name = "Õ½¶·ÎÆÉí" , act = {"" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[175] = {name = "¹³Ï®" , act = {"Í»´Ì¹¥»÷" , ""}}
-SKILL_TYPE[176] = {name = "Ï­Ðµ" , act = {"" , "Çá»÷1"}}
-SKILL_TYPE[177] = {name = "¶ñ¹í½µÁÙ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[1841] = {name = "¹í÷ÈÐÐ×Ù" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[1844] = {name = "¼¤·¢³ðºÞ" , act = {"" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[1847] = {name = "¼²·çÖ®ËÙ" , act = {"" , "·ÉÐÐÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[1863] = {name = "³ðÊÓ" , act = {"" , "Ö¸ÏòÊ©·Å»ðÏµ"}}
-SKILL_TYPE[1866] = {name = "²»¹²´÷Ìì" , act = {"" , "Ö¸ÏòÊ©·Å»ðÏµ"}}
-SKILL_TYPE[1953] = {name = "ÉÁµç¶Ü" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[1954] = {name = "Óù¹³¾ö" , act = {"" , "ÌøÔ¾¹¥»÷ÌØÊâ"} , forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[1955] = {name = "Âù»ÄÖ®À×" , act = {"Ö¸Ïò³ÖÐøÀ×Ïµ" , "" , "" , "" , "" , "" , ""}}
-SKILL_TYPE[1956] = {name = "°Ù¹í½û×ã" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
----ïµ
-SKILL_TYPE[182] = {name = "ÌôÐÆ" , act = {"Í»´Ì¹¥»÷" } , forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[183] = {name = "Óù¹í" , act = {"" , "Ë«Ðý×ª2"} , forcesuffix = "Ë«ïµ"}
-SKILL_TYPE[184] = {name = "·çÀ×ÁÑ" , act = {"" , "Ë«Ðý×ª1"} , forcesuffix = "Ë«ïµ"}
-SKILL_TYPE[185] = {name = "ÂÒ»¨ÆëÕÀ" , act = {"" , "Ðý×ª¹¥»÷Æð"} , forcesuffix = "Ë«ïµ"}
-SKILL_TYPE[186] = {name = "ÈöÊÖïµ" , act = {"Í¶ÖÀ" , ""} , forcesuffix = "Ë«ïµ"}
-SKILL_TYPE[187] = {name = "Õ¶ÁúÊ½" , act = {"ÌøÔ¾³å·æÆð" , "ÌøÔ¾³å·æ"} , forcesuffix = "Ë«ïµ"}
-SKILL_TYPE[188] = {name = "Ðý·çÊ½" , act = {"" , "Ë«Ðý×ª3"} , forcesuffix = "Ë«ïµ"}
-SKILL_TYPE[189] = {name = "ºóÔ¾Ê½" , act = {"" , "ÆðÌø"}}
-SKILL_TYPE[190] = {name = "¾ÛÀ×Ê½" , act = {"" , "ÖØ»÷2"} , forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[191] = {name = "Óù·ïÏèÁú" , act = {"Ç°Í»¹¥»÷" , ""} , forcesuffix = "Ë«ïµ"}
-SKILL_TYPE[192] = {name = "»¤¼Ý" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[193] = {name = "Òþ¶ø²»·¢" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[194] = {name = "Ò¹Õ½°Ë·½" , act = {"" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[195] = {name = "¹í÷ÈÐÐ×Ù" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[2285] = {name = "²©ÔË" , act = {"" , "·ÉÐÐÊ©·Å»ðÏµ"}}
-SKILL_TYPE[2293] = {name = "ÖÂÉËÖ®¼«" , act = {"" , "Ðý·ç³å×²"} , forcesuffix = "îá"}
-SKILL_TYPE[2309] = {name = "ÖÂÉËÖ®Óü" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[2390] = {name = "¸ñµ²" , act = {"" , "¸ñµ²Ñ­»·"}}
----×¦
-SKILL_TYPE[222] = {name = "ÌôÕ½" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[223] = {name = "´Ì»÷" , act = {"" , "ÐÂÇá»÷3"}, forcesuffix = "¿ÕÊÖ"}
-SKILL_TYPE[224] = {name = "Ë«´Ì" , act = {"" , "ÖØ»÷3" , ""}, forcesuffix = "¿ÕÊÖ"}
-SKILL_TYPE[225] = {name = "Ë²Ï®×¦" , act = {"" , "ÐÂÖØ»÷3"}, forcesuffix = "¿ÕÊÖ"}
-SKILL_TYPE[226] = {name = "´ÝÐÄ×¦" , act = {"" , "Çá»÷3"}, forcesuffix = "¿ÕÊÖ"}
-SKILL_TYPE[227] = {name = "ÂÓÓ°×¦" , act = {"" , "Çá»÷4"}, forcesuffix = "¿ÕÊÖ"}
-SKILL_TYPE[228] = {name = "Ë«Áú¾øÃü" , act = {"" , "Ë«Áú¾øÃü"} , forcesuffix = "¿ÕÊÖ"}
-SKILL_TYPE[229] = {name = "Ç¿Ãü" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[230] = {name = "ÉÁ±Ü" , act = {"" , "ÉÁ±ÜÌØÊâ" , "" , ""}}
-SKILL_TYPE[231] = {name = "´©³¦×¦" , act = {"ÐîÁ¦×¼±¸" , "ÖØ»÷1"}}
-SKILL_TYPE[232] = {name = "±³Ï®" , act = {"" , ""}}
-SKILL_TYPE[233] = {name = "Ë²²½" , act = {"" , "¼ÓËÙÅÜ"}}
-SKILL_TYPE[234] = {name = "´ÌÉ±" , act = {"" , ""}}
-SKILL_TYPE[235] = {name = "°µÏ®" , act = {"°µÆ÷×¼±¸" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[236] = {name = "»¬²½´Ì" , act = {"" , "ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[237] = {name = "Ë²Ï®×¦·ü»÷" , act = {"" , "ÌøÔ¾¹¥»÷"}}
-SKILL_TYPE[238] = {name = "°µÏ®" , act = {"°µÆ÷×¼±¸" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[239] = {name = "´©³¦×¦·ü»÷" , act = {"" , "ÖØ»÷1"}}
-SKILL_TYPE[240] = {name = "Òþ·ü" , act = {"" , "Çá»÷2"} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[891] = {name = "×¦´ÌÂÒÎè" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[892] = {name = "¶ÝÐÎ" , act = {"" , "Çá»÷2"} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[1727] = {name = "·ÉÉ³ëÊÓ°Õó" , act = {"" , "Çá»÷1"}}
-SKILL_TYPE[1728] = {name = "×·»ê" , act = {"" , "ÌøÔ¾¹¥»÷"} , forcesuffix = "ÒìÀà"}
-SKILL_TYPE[1729] = {name = "ÀäÑª" , act = {"" , "Ö¸ÏòÊ©·Å±ùÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1730] = {name = "ËÀÖ®ÂÒÎè" , act = {"" , "Ç¿»¯Ê©·Å"} , forcesuffix = "Í¨ÓÃ"}
----¶Ü
-SKILL_TYPE[242] = {name = "³°·í" , act = {"³°·í¼¼ÄÜ¹âÐ§" , ""}}
-SKILL_TYPE[243] = {name = "ÆÆÔÆÕ¶" , act = {"" , "ºáÉ¨Á¬»÷1",""},forcesuffix = "¶Ü"}
-SKILL_TYPE[244] = {name = "ÁÑÔÆ»÷" , act = {"","¶Ü·À"},forcesuffix = "¶Ü"}
-SKILL_TYPE[245] = {name = "Ò°Âù³å×²" , act = {"ÐóÁ¦×¼±¸","¶ÔµØ¹¥»÷"},forcesuffix="ÒìÀà"}
-SKILL_TYPE[246] = {name = "·âÓ°Õ¶" , act = { "","¶ÜÍ»"},forcesuffix="¶Ü"}
-SKILL_TYPE[247] = {name = "·âÔÂ»÷" , act = {"ÖØ»÷ÐîÁ¦" , "ÖØ»÷»ìÂÒ"},forcesuffix="¶Ü"}
-SKILL_TYPE[248] = {name = "ÁÑÓ°Ï®" , act = {"","¶Ü·ÀÁÑµØ"},forcesuffix="¶Ü"}
-SKILL_TYPE[249] = {name = "ÆÆÔÂÏ®" , act = {"","¶Ü·ÀÇá»÷"},forcesuffix="¶Ü"}
-SKILL_TYPE[250] = {name = "·À»¤" , act = {"" , "¹ÄÎèÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[251] = {name = "Å­ºð" , act = {"", "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[252] = {name = "»¢ÈëÑòÈº" , act = {"»¢ÈëÑòÈº" , ""},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[253] = {name = "¿ñ¼×" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"},forcesuffix="Í¨ÓÃ"}
-SKILL_TYPE[254] = {name = "¶Üµ²" , act = {"" , "ÌØÊâ¶Üµ²Ñ­»·"},forcesuffix="Í¨ÓÃ"}
-SKILL_TYPE[255] = {name = "¸ÕÁÒ" , act = {"","Ö¸ÏòÊ©·Å·çÏµ"},forcesuffix="Í¨ÓÃ"}
-SKILL_TYPE[256] = {name = "Âä·ç±ä" , act = {"","¶Ü·´ÖØ»÷"},forcesuffix="¶Ü"}
-SKILL_TYPE[257] = {name = "Í­Ç½Ìú±Ú" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[1877] = {name = "ÁÑÔÂÕ¶" , act = {"" , "ÔÒ»÷"},forcesuffix="¶Ü"}
-SKILL_TYPE[1945] = {name = "ÆÆÓ°»÷" , act = {"","¶Ü·À¶ÜÉ¨"},forcesuffix="¶Ü"}
-SKILL_TYPE[1979] = {name = "·âÔÆÏ®" , act = {"" , "ÖØÕ¶"},forcesuffix="¶Ü"}
-SKILL_TYPE[1959] = {name = "¹öµØ»÷" , act = {"" , "Ç°¹ö¹¥»÷"}, forcesuffix = "¶Ü"}
----»·
-SKILL_TYPE[275] = {name = "Ëé»·Ê½" , act = {"¶þÌß½Å1"},forcesuffix = "»·"}
-SKILL_TYPE[263] = {name = "Á¬»·Ê½" , act = {"" , "Á¬»·»÷1", "Á¬»·»÷2", "Á¬»·»÷3"} , forcesuffix = "»·"}
-SKILL_TYPE[264] = {name = "»ì»·Ê½" , act = {"ÖØ»÷1ÐîÁ¦" , "ÖØ»÷1ÐÂ" } , forcesuffix = "»·"}
-SKILL_TYPE[265] = {name = "·É»·Ê½" , act = {"·É»·Ê½"} , forcesuffix = "»·"}
-SKILL_TYPE[266] = {name = "ÆÆ»·Ê½" , act = {"","ÆÆ»·Ê½","",""} , forcesuffix = "»·"}
-SKILL_TYPE[267] = {name = "Ðý·çÊ½" , act = {"","Ðý·çÊ½","","","","","","",""} , forcesuffix = "»·"}
-SKILL_TYPE[268] = {name = "·ç¾í²ÐÔÆ" , act = {"" , "Óù»·Ê½" , "" , ""} , forcesuffix = "»·"}
-SKILL_TYPE[269] = {name = "·çÐÐ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[270] = {name = "ÂÒ»·Ê½" , act = {"" , "ÂÒ»·Ê½",""}, forcesuffix = "»·"}
-SKILL_TYPE[271] = {name = "½Áº£ÊÆ" , act = {"" , "Á¬»·»÷1Ô¶³Ì"}, forcesuffix = "»·"}
-SKILL_TYPE[272] = {name = "ÈöÊÖ»·" , act = {"" , "ÈöÊÖ»·Æð" }, forcesuffix = "»·"}
-SKILL_TYPE[273] = {name = "¼²×ß" , act = {"" , ""}}
-SKILL_TYPE[274] = {name = "»¤Ìå" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[276] = {name = "ÏÈ¹¥" , act = {"ÏÈ¹¥"} , forcesuffix = "»·"}
-SKILL_TYPE[262] = {name = "ËÙ¹¥" , act = {"ËÙ¹¥"} , forcesuffix = "»·"}
-SKILL_TYPE[277] = {name = "¶Ý×ß" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[280] = {name = "·ÉºèÈÆ" , act = {"" , "Ö¸ÏòÊ©·Å"}} 
-SKILL_TYPE[548] = {name = "ÏÈ¹¥¡¤¼²" , act = {"" , "ÏÈ¹¥Î»ÒÆ"}, forcesuffix = "»·"}
-SKILL_TYPE[668] = {name = "½Áº£Ê½¶þÊ½" , act = {"" , "Á¬»·»÷2Ô¶³Ì"} , forcesuffix = "»·"}
-SKILL_TYPE[669] = {name = "½Áº£Ê½ÈýÊ½" , act = {"" , "Á¬»·»÷3Ô¶³Ì"} , forcesuffix = "»·"}
-SKILL_TYPE[671] = {name = "ÈöÊÖ»·¡¤»ØÐý" , act = {"ÈöÊÖ»·ÊÕ"} , forcesuffix = "»·"}
-SKILL_TYPE[667] = {name = "Ëé»·Ê½¡¤µ¹µØ" , act = {"¶þÌß½Å2"} , forcesuffix = "»·"}
+---æ™®é€šæ”»å‡»
+SKILL_TYPE[1] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[21] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[41] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[61] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[81] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[101] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[121] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[141] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[161] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[181] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[201] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[221] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[241] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[261] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[281] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"é£žè¡ŒåŸå”±ç«ç³»" , "é£žè¡Œæ–½æ”¾"}}
+SKILL_TYPE[301] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[321] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"é£žè¡ŒåŸå”±å†°ç³»" , "é£žè¡Œæ–½æ”¾"}}
+SKILL_TYPE[341] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"å¼“å‡†å¤‡1" , "å¼“å°„å‡»1"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[362] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[5109] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}, forcesuffix = "éž­"}
+SKILL_TYPE[5276] = {name = "è‡ªåŠ¨æ”»å‡»" , act = {"" , "æ™®é€šæ”»å‡»1"}, forcesuffix = "å¼©"}
+---åˆ€
+SKILL_TYPE[2] = {name = "æŒ‘æˆ˜" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[3] = {name = "é€Ÿç " , act = {"" , "è½»å‡»2"}}
+SKILL_TYPE[4] = {name = "çŒ›åŠˆ" , act = {"è¿‘èº«å‡†å¤‡" , "çŒ›åŠˆ" , ""} , forcesuffix = "é•¿é‡"}
+SKILL_TYPE[5] = {name = "æ–­æœˆæ–©" , act = {"" , "æ–­æœˆæ–©"} , forcesuffix = "é•¿é‡"}
+SKILL_TYPE[6] = {name = "åŠæœˆæ–©" , act = {"è¿‘èº«å‡†å¤‡" , "åŠæœˆæ–©"} , forcesuffix = "é•¿é‡"}
+SKILL_TYPE[7] = {name = "åœ†æœˆæ–©" , act = {"ç‰¹æ®Šå‡†å¤‡" , "é‡å‡»2"}}
+SKILL_TYPE[8] = {name = "é’é¾™åƒæœˆ" , act = {"" , "é’é¾™åƒæœˆ"} , forcesuffix = "é•¿é‡"}
+SKILL_TYPE[9] = {name = "å¼ºæ”»" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[10] = {name = "é¼“èˆž" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[11] = {name = "å¼§æœˆæ–©" , act = {"å¼ºåŠ›å‡†å¤‡" , "é‡å‡»1"}}
+SKILL_TYPE[12] = {name = "è“„åŠ›" , act = {"è“„åŠ›å‡†å¤‡" , "" , "" , ""}}
+SKILL_TYPE[13] = {name = "å¿«è·‘" , act = {"" , ""}}
+SKILL_TYPE[14] = {name = "æ ¼æŒ¡" , act = {"" , "æ ¼æŒ¡å¾ªçŽ¯"}}
+SKILL_TYPE[15] = {name = "çªå‡»" , act = {"å¼ºåŠ›å‡†å¤‡" , "åŠ é€Ÿè·‘" , "è½»å‡»1"} , forcesuffix = "é•¿é‡"}
+SKILL_TYPE[16] = {name = "æ¨ªæŠ¡" , act = {"" , "è½»å‡»1"}}
+SKILL_TYPE[17] = {name = "è¿Žé¢æ–©" , act = {"è“„åŠ›å‡†å¤‡" , "è¿Žé¢æ–©" , ""} , forcesuffix = "é•¿é‡"}
+SKILL_TYPE[18] = {name = "æ‹›æž¶" , act = {"" , "æ ¼æŒ¡å¾ªçŽ¯"}}
+SKILL_TYPE[19] = {name = "é€Ÿç " , act = {"" , "è½»å‡»2"}}
+SKILL_TYPE[1703] = {name = "é¾™çˆªé˜µ" , act = {"é£žè¡ŒåŸå”±é›·ç³»" , "é£žè¡Œæ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[1704] = {name = "æ–—æ°”ä¹‹ç›¾" , act = {"é¼“èˆžæ–½æ”¾" , ""} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1705] = {name = "å¯¸è‰ä¸ç”Ÿ" , act = {"" , "æ™®é€šæ”»å‡»2"}}
+SKILL_TYPE[1706] = {name = "çªç ´æžé™" , act = {"é¼“èˆžæ–½æ”¾" , ""} , forcesuffix = "é€šç”¨"}
+---æžª
+SKILL_TYPE[22] = {name = "æŒ‘æˆ˜" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[23] = {name = "æŒ‘å‡»" , act = {"" , "è½»å‡»1"}}
+SKILL_TYPE[24] = {name = "åŠˆç ¸" , act = {"è“„åŠ›å‡†å¤‡" , "å¯¹åœ°æ”»å‡»"}}
+SKILL_TYPE[25] = {name = "ç¥žå¨æžª" , act = {"" , "è·³è·ƒæ”»å‡»" }}
+SKILL_TYPE[26] = {name = "ç–¾é£Žæžª" , act = {"ç–¾é£Žæžª" , ""}}
+SKILL_TYPE[27] = {name = "å›žé©¬æžª" , act = {"è“„åŠ›å‡†å¤‡" , "è½»å‡»2"}}
+SKILL_TYPE[28] = {name = "éª¤é›¨é’è·" , act = {"" , "éª¤é›¨é’è·" } , forcesuffix = "é•¿è½»"}
+SKILL_TYPE[29] = {name = "é”é‡‘" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[30] = {name = "æ¿€åŠ±" , act = {"" , "è¿‘èº«å‡†å¤‡"}}
+SKILL_TYPE[31] = {name = "æš´é›¨æ¢¨èŠ±" , act = {"" , "æžªç¾¤æ”»" , "" , "æžªç¾¤æ”»" , "" , "æžªç¾¤æ”»" , "" , "æžªç¾¤æ”»" , "" , "æžªç¾¤æ”»" , ""}}
+SKILL_TYPE[32] = {name = "è¿žå‡»" , act = {"" , ""}}
+SKILL_TYPE[33] = {name = "å¿«è·‘" , act = {"" , ""}}
+SKILL_TYPE[34] = {name = "æ ¼æŒ¡" , act = {"" , "æ ¼æŒ¡å¾ªçŽ¯"}}
+SKILL_TYPE[35] = {name = "çªå‡»" , act = {"ç‰¹æ®Šå‡†å¤‡" , "æ™®é€šæ”»å‡»1" , ""}}
+SKILL_TYPE[36] = {name = "çªåˆº" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[37] = {name = "æ‹¨é©¬å›žèº«" , act = {"" , "é—ªèº²"}}
+SKILL_TYPE[38] = {name = "é£Žé›·è¿žåˆº" , act = {"" , "è½»å‡»1" , "é‡å‡»1" , "æ™®é€šæ”»å‡»1" , "å¯¹åœ°æ”»å‡»" , ""}}
+SKILL_TYPE[39] = {name = "ç©º" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[40] = {name = "é£Žé›·è¿žåˆº" , act = {"" , "è½»å‡»1" , "é‡å‡»1" , "æ™®é€šæ”»å‡»1" , "å¯¹åœ°æ”»å‡»"}}
+SKILL_TYPE[1707] = {name = "ç²¾å‡†åˆºå‡»" , act = {"å¯¹ç©ºæ”»å‡»" , ""} , forcesuffix = "é•¿è½»"}
+SKILL_TYPE[1708] = {name = "é›†ä¸­ç«åŠ›" , act = {"é£žè¡ŒåŸå”±é›·ç³»" , "é£žè¡Œæ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[1709] = {name = "ç–¾é£Žæ­¥" , act = {"" , "èµ·è·³"}}
+SKILL_TYPE[1710] = {name = "å‡Œæ³¢å¾®æ­¥" , act = {"æŒ‡å‘æ–½æ”¾é›·ç³»" , ""} , forcesuffix = "é€šç”¨"}
+---æˆŸ
+SKILL_TYPE[42]={name="æŒ‘æˆ˜",act={"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[43]={name="æŒ‘æ‰“",act={"" , "æŒ‘æ‰“"},forcesuffix = "æˆŸ"}
+SKILL_TYPE[44]={name="é€†æ‰“",act={"" , "é€†æ‰“"},forcesuffix = "æˆŸ"}
+SKILL_TYPE[45]={name="é”‹åˆº",act={"" , "é”‹åˆº"} , forcesuffix = "æˆŸ"}
+SKILL_TYPE[46]={name="èƒ¡è´¯",act={"" , "èƒ¡è´¯"}, forcesuffix = "æˆŸ"}
+SKILL_TYPE[47]={name="å››æ–¹æ€",act={"" , "é‡å‡»2"}}
+SKILL_TYPE[48]={name="å‹‡æˆ˜ä¸‰è‹±",act={"" , "æˆŸæ”»å‡»4" , "" , "" }}
+SKILL_TYPE[49]={name="æ— ç•",act={"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[50]={name="å¤ºå‘½æˆŸ",act={"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[51]={name="æ€’ç ´æ–©",act={"è“„åŠ›å‡†å¤‡" , "é‡å‡»1"}}
+SKILL_TYPE[52]={name="è¿½é­‚æˆŸ",act={"æˆŸæ”»å‡»8" , ""}}
+SKILL_TYPE[53]={name="è™Žè™Žç”Ÿé£Ž",act={"" , ""}}
+SKILL_TYPE[54]={name="æ ¼æŒ¡",act={"" , "æ ¼æŒ¡"}}
+SKILL_TYPE[55] = {name = "çªå‡»" , act = {"å¼ºåŠ›å‡†å¤‡" , "æ™®é€šæ”»å‡»1" , ""}}
+SKILL_TYPE[56]={name="æ¿€åŠ±",act={"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[57]={name="æ‰¿æŽ¥",act={"" , ""}}
+SKILL_TYPE[1219]={name="å¨é£Žå…«é¢",act={"" , "è·³è·ƒæ”»å‡»"}}
+SKILL_TYPE[1711] = {name = "é£žå°†ä¹‹æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[1712] = {name = "å¤œæˆ˜å…«æ–¹" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[1713] = {name = "æžé™å†²é”‹" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[1714] = {name = "æ°”åŠ¿å‡Œäºº" , act = {"åŒé¾™ç»å‘½" , ""} , forcesuffix = "ç©ºæ‰‹"}
+---é’º
+SKILL_TYPE[62] = {name = "æŒ‘æˆ˜" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[63] = {name = "ç ´æ–©" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[64] = {name = "å‰²è£‚" , act = {"","æ”»å‡»1"},forcesuffix = "é’º"}
+SKILL_TYPE[65] = {name = "å›žé”‹æ–©" , act = {"" , "å›žè½¬æ”»å‡»ç‰¹æ®Š"}}
+SKILL_TYPE[66] = {name = "çƒˆé£Žæ–©" , act = {"","æ”»å‡»2" , "æ”»å‡»3","å¯¹ç©ºå¼•é›·",""} , forcesuffix = "é’º"}
+SKILL_TYPE[67] = {name = "ç ´å…ƒå‡»" , act = {"" , "è½»å‡»2"}}
+SKILL_TYPE[68] = {name = "é¾™ç‰™ç¢Žé‡‘" , act = {"" , "é¾™ç‰™ç¢Žé‡‘"} , forcesuffix = "é•¿é‡"}
+SKILL_TYPE[69] = {name = "èšå…ƒåŒ–æ°”" , act = {"" , "æŒ‡å‘æ–½æ”¾å†°ç³»"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[70] = {name = "é¼“å‘½" , act = {"" , "å¼ºåŒ–æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[71] = {name = "å¸é­‚" , act = {"" , "é£žè¡Œæ–½æ”¾é£Žç³»"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[72] = {name = "å™¬è¡€" , act = {"" , "å¼ºåŒ–æ–½æ”¾","å¼ºåŒ–æ–½æ”¾","å¼ºåŒ–æ–½æ”¾","å¼ºåŒ–æ–½æ”¾","å¼ºåŒ–æ–½æ”¾","å¼ºåŒ–æ–½æ”¾","å¼ºåŒ–æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[73] = {name = "ç¢Žå…µ" , act = {"" , "é‡å‡»2"}}
+SKILL_TYPE[74] = {name = "æ ¼æŒ¡" , act = {"" , "æ ¼æŒ¡"}}
+SKILL_TYPE[75] = {name = "æ€¥å†²" , act = {"" , "æ—‹é£Žå†²æ’ž"},forcesuffix = "é’º"}
+SKILL_TYPE[76] = {name = "é’©é•°" , act = {"" , "æŒ‡å‘æ–½æ”¾ç«ç³»"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[77] = {name = "ç¦»ç”²" , act = {"" , "å›žè½¬æ”»å‡»"}}
+SKILL_TYPE[78] = {name = "è™šæ€å¼" , act = {"" , "ç¥žé¾™æ‘†å°¾"},forcesuffix = "é•¿è½»"}
+SKILL_TYPE[4941] = {name = "é€†é”‹æ–©" , act = {"" , "å›žé”‹æ–©"},forcesuffix = "é•¿é‡"}
+SKILL_TYPE[4944] = {name = "çƒˆé£Žé‡æ–©" , act = {"" , "çƒˆé£Žé‡æ–©"},forcesuffix = "é’º"}
+---æ£
+SKILL_TYPE[102] = {name = "æŒ‘æˆ˜" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[103] = {name = "é€Ÿæ‰“" , act = {"" , "è½»å‡»1"}}
+SKILL_TYPE[104] = {name = "è¿žæ‰“" , act = {"" , "å¯¹ç©ºæ”»å‡»" , "" , "" , "" , "" , ""}}
+SKILL_TYPE[105] = {name = "å¼ºè¢­æ£" , act = {"" , "è½»å‡»2"}}
+SKILL_TYPE[106] = {name = "é£Žç«è½®" , act = {"å¼ºåŠ›å‡†å¤‡" , "é£Žç«è½®" , "é£Žç«è½®" , "é£Žç«è½®" , "é£Žç«è½®" , "é£Žç«è½®"}}
+SKILL_TYPE[107] = {name = "é€†è¢­æ£" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[108] = {name = "æ¨ªæ‰«åƒå†›" , act = {"" , "å¤§é£Žè½¦" , "" , "" , "" , ""} , forcesuffix = "é•¿é‡"}
+SKILL_TYPE[109] = {name = "å¼ºæ”»" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[110] = {name = "æ˜‚æ‰¬" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[111] = {name = "é›€è½æ£" , act = {"å¼ºåŠ›å‡†å¤‡" , "å›žè½¬æ”»å‡»"}}
+SKILL_TYPE[112] = {name = "è¿žå‡»" , act = {"" , ""}}
+SKILL_TYPE[113] = {name = "å¿«è·‘" , act = {"" , ""}}
+SKILL_TYPE[114] = {name = "æ ¼æŒ¡" , act = {"" , "æ ¼æŒ¡å¾ªçŽ¯"}}
+SKILL_TYPE[115] = {name = "åŽ‹åˆ¶" , act = {"ç‰¹æ®Šå‡†å¤‡" , "æ™®é€šæ”»å‡»1"} , forcesuffix = "é•¿è½»"}
+SKILL_TYPE[116] = {name = "ç›´åˆº" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[117] = {name = "æ£è¿žæ‹›" , act = {"" , "è½»å‡»1" , "é‡å‡»1" , "è½»å‡»2" , "å¯¹åœ°æ”»å‡»"}}
+SKILL_TYPE[118] = {name = "å¼ºè¢­æ£ï¼æ‰«" , act = {"" , "è½»å‡»1"}}
+SKILL_TYPE[119] = {name = "æ ¼æŒ¡" , act = {"" , "æ ¼æŒ¡å¾ªçŽ¯"}}
+SKILL_TYPE[120] = {name = "ç™¾è£‚è¿žæ£" , act = {"ç™¾è£‚è¿žæ£æ–°" , "" , "" , "", forcesuffix = "é•¿è½»"}}
+SKILL_TYPE[1715] = {name = "åšå£é¼“èˆž" , act = {"" , "æŒ‡å‘æ–½æ”¾å†°ç³»"}}
+SKILL_TYPE[1716] = {name = "ç™¾é‡Œè’èŠœ" , act = {"å¼ºåŠ›å‡†å¤‡" , "å›žè½¬æ”»å‡»æŒç»­" , "" , "" , "" , "" , "" , "" , "" , "" , "æˆ˜æ–—ç«™ç«‹"}}
+SKILL_TYPE[1717] = {name = "ä¸å¯ä¾µçŠ¯" , act = {"" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[1718] = {name = "æ€’æ°”å®¡åˆ¤" , act = {"é£žè¡ŒåŸå”±ç«ç³»" , "é£žè¡Œæ–½æ”¾ç«ç³»"}}
+---å‰‘
+SKILL_TYPE[122] = {name = "æŒ‘æˆ˜" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[123] = {name = "é€Ÿå‡»" , act = {"" , "è½»å‡»2"}}
+SKILL_TYPE[124] = {name = "é‡åŠˆ" , act = {"" , "æ™®é€šæ”»å‡»2" , "å¯¹åœ°æ”»å‡»"}}
+SKILL_TYPE[125] = {name = "ä¹˜é£Žåˆº" , act = {"è¿‘èº«å‡†å¤‡" , "è½»å‡»1"} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[126] = {name = "è§…å¿ƒåˆº" , act = {"" , "è½»å‡»1"}}
+SKILL_TYPE[127] = {name = "å°å–‰åˆº" , act = {"è“„åŠ›å‡†å¤‡" , "è½»å‡»1"}}
+SKILL_TYPE[128] = {name = "æµæ˜Ÿèµ¶æœˆ" , act = {"ä¸€å‰‘å‡Œé£Ž" , ""} , forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[129] = {name = "å¼ºæ”»" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[130] = {name = "è¿žæ€" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[131] = {name = "æˆªè„‰åˆº" , act = {"è“„åŠ›å‡†å¤‡" , "è½»å‡»1"}}
+SKILL_TYPE[132] = {name = "è¿žå‡»" , act = {"" , ""}}
+SKILL_TYPE[133] = {name = "å¿«è·‘" , act = {"" , ""}}
+SKILL_TYPE[134] = {name = "æ ¼æŒ¡" , act = {"" , "æ ¼æŒ¡å¾ªçŽ¯"}}
+--SKILL_TYPE[135] = {name = "çªè¢­" , act = {"çªåˆºæ”»å‡»" , "" , ""} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[135] = {name = "çªè¢­" , act = {"" , "ä¹˜é£Žå‰‘é£žå‰‘"} , forcesuffix = "å‰‘"}
+SKILL_TYPE[136] = {name = "ç›´åˆº" , act = {"" , "è½»å‡»1"}}
+--SKILL_TYPE[137] = {name = "å¾¡é£Žåˆº" , act = {"è¿‘èº«å‡†å¤‡" , "è½»å‡»1"} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[138] = {name = "å‰‘è¿žæ‹›" , act = {"" , "è½»å‡»1" , "è½»å‡»2" , "æ™®é€šæ”»å‡»2" , "å¯¹åœ°æ”»å‡»"} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[139] = {name = "å‰‘ç½¡" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"} }
+SKILL_TYPE[140] = {name = "å‰‘è¿žæ‹›" , act = {"" , "è½»å‡»1" , "è½»å‡»2" , "æ™®é€šæ”»å‡»2" , "å›žè½¬æ”»å‡»"} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[1719] = {name = "å‰‘æ°”ç¦è¨€" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[1720] = {name = "é¾™ç‰™åå­—æ–©" , act = {"" , "å¯¹ç©ºæ”»å‡»ç‰¹æ®Š"} , forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[1721] = {name = "ä¹å‰‘ç­æ€é˜µ" , act = {"å¼ºåŠ›å‡†å¤‡" , "å›žè½¬æ”»å‡»æŒç»­ç‰¹æ®Š" , "" , "" , "", "" , "å¯¹åœ°æ”»å‡»ç‰¹æ®Š"} , forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[1722] = {name = "æ— æ•Œæ–©" , act = {"çªåˆºæ”»å‡»" , "å¯¹åœ°æ”»å‡»" , "å¯¹ç©ºæ”»å‡»" , "å›žè½¬æ”»å‡»" , "å‡»é£žæ”»å‡»" , "è·³è·ƒæ”»å‡»" , "å¯¹ç©ºæ”»å‡»ç‰¹æ®Š" , ""} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[5900] = {name = "å‰‘ç½¡Â·å¾¡å¿ƒ" , act = {"" , "å¯¹ç©ºæ”»å‡»ç‰¹æ®Š"}, forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[5901] = {name = "å‰‘ç½¡Â·å¾¡å‰‘" , act = {"","æŒ‡å‘æ–½æ”¾1" , "" ,"" ,"" , "" ,"" , "" , "" ,  "" ,  "" , ""}}
+SKILL_TYPE[5902] = {name = "è¿½é£Ž" , act = {"","è¿½é£Ž"},forcesuffix = "å‰‘"}
+SKILL_TYPE[5903] = {name = "è¿½é£Žå‡é¾™" , act = {"","æˆªè„‰åå‡»"},forcesuffix = "å‰‘"}
+SKILL_TYPE[5908] = {name = "çªè¢­æ–©" , act = {"çªåˆºæ”»å‡»" , "" , ""} , forcesuffix = "é•¿é‡"}
+SKILL_TYPE[5909] = {name = "å‰‘è½å¼‘" , act = {"","è½å‰‘å¼‘"},forcesuffix = "å‰‘"}
+SKILL_TYPE[137] = {name = "å¾¡é£Žåˆº" , act = {"å¾¡é£Žå‰‘" , ""} , forcesuffix = "å‰‘"}
+---æ–§
+SKILL_TYPE[142] = {name = "è“„æ°”" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[143] = {name = "é€Ÿæ‰“" , act = {"" , "è½»å‡»2"}}
+SKILL_TYPE[144] = {name = "åå­—åŠˆ" , act = {"è“„åŠ›å‡†å¤‡" , "å¯¹åœ°æ”»å‡»" , ""}}
+SKILL_TYPE[145] = {name = "æ—‹é£Žæ–§" , act = {"" , "åŒæ—‹è½¬3"} , forcesuffix = "æ–§"}
+SKILL_TYPE[146] = {name = "ç‡ƒæ€’åŠˆ" , act = {"" , "çªåˆºæ”»å‡»"}}
+SKILL_TYPE[147] = {name = "è§£ç‰›åŠˆ" , act = {"" , "å¯¹åœ°æ”»å‡»"} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[148] = {name = "åŠ›åŠˆåŽå±±" , act = {"" , "åŠ›åŠˆåŽå±±"} , forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[149] = {name = "å¼ºæ”»" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[150] = {name = "é”é‡‘" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[151] = {name = "å½“å¤´æ–§" , act = {"è“„åŠ›å‡†å¤‡" , "çªåˆºæ”»å‡»"}}
+SKILL_TYPE[152] = {name = "å¾…ä¼" , act = {"" , ""}}
+SKILL_TYPE[153] = {name = "å¿«è·‘" , act = {"" , ""}}
+SKILL_TYPE[154] = {name = "æ ¼æŒ¡" , act = {"" , "æ ¼æŒ¡å¾ªçŽ¯"}}
+SKILL_TYPE[155] = {name = "çªå‡»" , act = {"è¿‘èº«å‡†å¤‡" , "åŠ é€Ÿè·‘" , "é‡å‡»2"} , forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[156] = {name = "é‡ç " , act = {"" , "è½»å‡»1"}}
+SKILL_TYPE[157] = {name = "å¤©ç¥žä¸‹å‡¡" , act = {"" , "è·³è·ƒæ”»å‡»" , ""} , forcesuffix = "æ–§"}
+SKILL_TYPE[159] = {name = "åšå£" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"} }
+SKILL_TYPE[1723] = {name = "å—œæ€å¦‚å‘½" , act = {"é£žè¡ŒåŸå”±ç«ç³»" , "é£žè¡Œæ–½æ”¾ç«ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1724] = {name = "ç‹‚æˆ˜å£«ä¹‹æ€’" , act = {"" , "é¼“èˆžæ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1725] = {name = "æ€’æ„ç„šçƒ§" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[1726] = {name = "æ€’æ–©" , act = {"é‡‘åˆšå åœ°" , ""} , forcesuffix = "é•¿é‡"}
+---é’©
+SKILL_TYPE[162] = {name = "æŒ‘æˆ˜" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[163] = {name = "ç£çŸ³çº¹èº«" , act = {"" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[164] = {name = "ç–¾é£Žçº¹èº«" , act = {"" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[165] = {name = "è¡€æ²¸çº¹èº«" , act = {"" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[166] = {name = "å¼•é›·é’©" , act = {"å¯¹åœ°æ”»å‡»ç‰¹æ®Š"}}
+SKILL_TYPE[167] = {name = "ç™¾æ¯’å…¥é«“" , act = {"" , "é£žè¡Œæ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[168] = {name = "å´é¸¿æ‰ˆç¨½" , act = {"" , "å¯¹ç©ºæ”»å‡»ç‰¹æ®Š"} , forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[169] = {name = "è¡€ä¹‹é¥¥æ¸´" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[170] = {name = "å¤§å¸å…«å—" , act = {"å¯¹åœ°æ”»å‡»ç‰¹æ®Š" , ""} , forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[171] = {name = "æ¯’è¡€ä¹‹åˆƒ" , act = {"" , "æš—å™¨æŠ•æŽ·"}}
+SKILL_TYPE[172] = {name = "å´é’©éœœé›ªæ˜Ž" , act = {"è·³è·ƒæ”»å‡»ç‰¹æ®Š" , ""} , forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[173] = {name = "æ½œä¼æˆ˜æ³•" , act = {"" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[174] = {name = "æˆ˜æ–—çº¹èº«" , act = {"" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[175] = {name = "é’©è¢­" , act = {"çªåˆºæ”»å‡»" , ""}}
+SKILL_TYPE[176] = {name = "æª„æ¢°" , act = {"" , "è½»å‡»1"}}
+SKILL_TYPE[177] = {name = "æ¶é¬¼é™ä¸´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[1841] = {name = "é¬¼é­…è¡Œè¸ª" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[1844] = {name = "æ¿€å‘ä»‡æ¨" , act = {"" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[1847] = {name = "ç–¾é£Žä¹‹é€Ÿ" , act = {"" , "é£žè¡Œæ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[1863] = {name = "ä»‡è§†" , act = {"" , "æŒ‡å‘æ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[1866] = {name = "ä¸å…±æˆ´å¤©" , act = {"" , "æŒ‡å‘æ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[1953] = {name = "é—ªç”µç›¾" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[1954] = {name = "å¾¡é’©å†³" , act = {"" , "è·³è·ƒæ”»å‡»ç‰¹æ®Š"} , forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[1955] = {name = "è›®è’ä¹‹é›·" , act = {"æŒ‡å‘æŒç»­é›·ç³»" , "" , "" , "" , "" , "" , ""}}
+SKILL_TYPE[1956] = {name = "ç™¾é¬¼ç¦è¶³" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+---é”
+SKILL_TYPE[182] = {name = "æŒ‘è¡…" , act = {"çªåˆºæ”»å‡»" } , forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[183] = {name = "å¾¡é¬¼" , act = {"" , "åŒæ—‹è½¬2"} , forcesuffix = "åŒé”"}
+SKILL_TYPE[184] = {name = "é£Žé›·è£‚" , act = {"" , "åŒæ—‹è½¬1"} , forcesuffix = "åŒé”"}
+SKILL_TYPE[185] = {name = "ä¹±èŠ±é½ç»½" , act = {"" , "æ—‹è½¬æ”»å‡»èµ·"} , forcesuffix = "åŒé”"}
+SKILL_TYPE[186] = {name = "æ’’æ‰‹é”" , act = {"æŠ•æŽ·" , ""} , forcesuffix = "åŒé”"}
+SKILL_TYPE[187] = {name = "æ–©é¾™å¼" , act = {"è·³è·ƒå†²é”‹èµ·" , "è·³è·ƒå†²é”‹"} , forcesuffix = "åŒé”"}
+SKILL_TYPE[188] = {name = "æ—‹é£Žå¼" , act = {"" , "åŒæ—‹è½¬3"} , forcesuffix = "åŒé”"}
+SKILL_TYPE[189] = {name = "åŽè·ƒå¼" , act = {"" , "èµ·è·³"}}
+SKILL_TYPE[190] = {name = "èšé›·å¼" , act = {"" , "é‡å‡»2"} , forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[191] = {name = "å¾¡å‡¤ç¿”é¾™" , act = {"å‰çªæ”»å‡»" , ""} , forcesuffix = "åŒé”"}
+SKILL_TYPE[192] = {name = "æŠ¤é©¾" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[193] = {name = "éšè€Œä¸å‘" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[194] = {name = "å¤œæˆ˜å…«æ–¹" , act = {"" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[195] = {name = "é¬¼é­…è¡Œè¸ª" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[2285] = {name = "åšè¿" , act = {"" , "é£žè¡Œæ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[2293] = {name = "è‡´ä¼¤ä¹‹æž" , act = {"" , "æ—‹é£Žå†²æ’ž"} , forcesuffix = "é’º"}
+SKILL_TYPE[2309] = {name = "è‡´ä¼¤ä¹‹ç‹±" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[2390] = {name = "æ ¼æŒ¡" , act = {"" , "æ ¼æŒ¡å¾ªçŽ¯"}}
+---çˆª
+SKILL_TYPE[222] = {name = "æŒ‘æˆ˜" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[223] = {name = "åˆºå‡»" , act = {"" , "æ–°è½»å‡»3"}, forcesuffix = "ç©ºæ‰‹"}
+SKILL_TYPE[224] = {name = "åŒåˆº" , act = {"" , "é‡å‡»3" , ""}, forcesuffix = "ç©ºæ‰‹"}
+SKILL_TYPE[225] = {name = "çž¬è¢­çˆª" , act = {"" , "æ–°é‡å‡»3"}, forcesuffix = "ç©ºæ‰‹"}
+SKILL_TYPE[226] = {name = "æ‘§å¿ƒçˆª" , act = {"" , "è½»å‡»3"}, forcesuffix = "ç©ºæ‰‹"}
+SKILL_TYPE[227] = {name = "æŽ å½±çˆª" , act = {"" , "è½»å‡»4"}, forcesuffix = "ç©ºæ‰‹"}
+SKILL_TYPE[228] = {name = "åŒé¾™ç»å‘½" , act = {"" , "åŒé¾™ç»å‘½"} , forcesuffix = "ç©ºæ‰‹"}
+SKILL_TYPE[229] = {name = "å¼ºå‘½" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[230] = {name = "é—ªé¿" , act = {"" , "é—ªé¿ç‰¹æ®Š" , "" , ""}}
+SKILL_TYPE[231] = {name = "ç©¿è‚ çˆª" , act = {"è“„åŠ›å‡†å¤‡" , "é‡å‡»1"}}
+SKILL_TYPE[232] = {name = "èƒŒè¢­" , act = {"" , ""}}
+SKILL_TYPE[233] = {name = "çž¬æ­¥" , act = {"" , "åŠ é€Ÿè·‘"}}
+SKILL_TYPE[234] = {name = "åˆºæ€" , act = {"" , ""}}
+SKILL_TYPE[235] = {name = "æš—è¢­" , act = {"æš—å™¨å‡†å¤‡" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[236] = {name = "æ»‘æ­¥åˆº" , act = {"" , "æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[237] = {name = "çž¬è¢­çˆªä¼å‡»" , act = {"" , "è·³è·ƒæ”»å‡»"}}
+SKILL_TYPE[238] = {name = "æš—è¢­" , act = {"æš—å™¨å‡†å¤‡" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[239] = {name = "ç©¿è‚ çˆªä¼å‡»" , act = {"" , "é‡å‡»1"}}
+SKILL_TYPE[240] = {name = "éšä¼" , act = {"" , "è½»å‡»2"} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[891] = {name = "çˆªåˆºä¹±èˆž" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[892] = {name = "éå½¢" , act = {"" , "è½»å‡»2"} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[1727] = {name = "é£žæ²™èƒ§å½±é˜µ" , act = {"" , "è½»å‡»1"}}
+SKILL_TYPE[1728] = {name = "è¿½é­‚" , act = {"" , "è·³è·ƒæ”»å‡»"} , forcesuffix = "å¼‚ç±»"}
+SKILL_TYPE[1729] = {name = "å†·è¡€" , act = {"" , "æŒ‡å‘æ–½æ”¾å†°ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1730] = {name = "æ­»ä¹‹ä¹±èˆž" , act = {"" , "å¼ºåŒ–æ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+---ç›¾
+SKILL_TYPE[242] = {name = "å˜²è®½" , act = {"å˜²è®½æŠ€èƒ½å…‰æ•ˆ" , ""}}
+SKILL_TYPE[243] = {name = "ç ´äº‘æ–©" , act = {"" , "æ¨ªæ‰«è¿žå‡»1",""},forcesuffix = "ç›¾"}
+SKILL_TYPE[244] = {name = "è£‚äº‘å‡»" , act = {"","ç›¾é˜²"},forcesuffix = "ç›¾"}
+SKILL_TYPE[245] = {name = "é‡Žè›®å†²æ’ž" , act = {"ç•œåŠ›å‡†å¤‡","å¯¹åœ°æ”»å‡»"},forcesuffix="å¼‚ç±»"}
+SKILL_TYPE[246] = {name = "å°å½±æ–©" , act = { "","ç›¾çª"},forcesuffix="ç›¾"}
+SKILL_TYPE[247] = {name = "å°æœˆå‡»" , act = {"é‡å‡»è“„åŠ›" , "é‡å‡»æ··ä¹±"},forcesuffix="ç›¾"}
+SKILL_TYPE[248] = {name = "è£‚å½±è¢­" , act = {"","ç›¾é˜²è£‚åœ°"},forcesuffix="ç›¾"}
+SKILL_TYPE[249] = {name = "ç ´æœˆè¢­" , act = {"","ç›¾é˜²è½»å‡»"},forcesuffix="ç›¾"}
+SKILL_TYPE[250] = {name = "é˜²æŠ¤" , act = {"" , "é¼“èˆžæ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[251] = {name = "æ€’å¼" , act = {"", "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[252] = {name = "è™Žå…¥ç¾Šç¾¤" , act = {"è™Žå…¥ç¾Šç¾¤" , ""},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[253] = {name = "ç‹‚ç”²" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"},forcesuffix="é€šç”¨"}
+SKILL_TYPE[254] = {name = "ç›¾æŒ¡" , act = {"" , "ç‰¹æ®Šç›¾æŒ¡å¾ªçŽ¯"},forcesuffix="é€šç”¨"}
+SKILL_TYPE[255] = {name = "åˆšçƒˆ" , act = {"","æŒ‡å‘æ–½æ”¾é£Žç³»"},forcesuffix="é€šç”¨"}
+SKILL_TYPE[256] = {name = "è½é£Žå˜" , act = {"","ç›¾åé‡å‡»"},forcesuffix="ç›¾"}
+SKILL_TYPE[257] = {name = "é“œå¢™é“å£" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[1877] = {name = "è£‚æœˆæ–©" , act = {"" , "ç ¸å‡»"},forcesuffix="ç›¾"}
+SKILL_TYPE[1945] = {name = "ç ´å½±å‡»" , act = {"","ç›¾é˜²ç›¾æ‰«"},forcesuffix="ç›¾"}
+SKILL_TYPE[1979] = {name = "å°äº‘è¢­" , act = {"" , "é‡æ–©"},forcesuffix="ç›¾"}
+SKILL_TYPE[1959] = {name = "æ»šåœ°å‡»" , act = {"" , "å‰æ»šæ”»å‡»"}, forcesuffix = "ç›¾"}
+---çŽ¯
+SKILL_TYPE[275] = {name = "ç¢ŽçŽ¯å¼" , act = {"äºŒè¸¢è„š1"},forcesuffix = "çŽ¯"}
+SKILL_TYPE[263] = {name = "è¿žçŽ¯å¼" , act = {"" , "è¿žçŽ¯å‡»1", "è¿žçŽ¯å‡»2", "è¿žçŽ¯å‡»3"} , forcesuffix = "çŽ¯"}
+SKILL_TYPE[264] = {name = "æ··çŽ¯å¼" , act = {"é‡å‡»1è“„åŠ›" , "é‡å‡»1æ–°" } , forcesuffix = "çŽ¯"}
+SKILL_TYPE[265] = {name = "é£žçŽ¯å¼" , act = {"é£žçŽ¯å¼"} , forcesuffix = "çŽ¯"}
+SKILL_TYPE[266] = {name = "ç ´çŽ¯å¼" , act = {"","ç ´çŽ¯å¼","",""} , forcesuffix = "çŽ¯"}
+SKILL_TYPE[267] = {name = "æ—‹é£Žå¼" , act = {"","æ—‹é£Žå¼","","","","","","",""} , forcesuffix = "çŽ¯"}
+SKILL_TYPE[268] = {name = "é£Žå·æ®‹äº‘" , act = {"" , "å¾¡çŽ¯å¼" , "" , ""} , forcesuffix = "çŽ¯"}
+SKILL_TYPE[269] = {name = "é£Žè¡Œ" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[270] = {name = "ä¹±çŽ¯å¼" , act = {"" , "ä¹±çŽ¯å¼",""}, forcesuffix = "çŽ¯"}
+SKILL_TYPE[271] = {name = "æ…æµ·åŠ¿" , act = {"" , "è¿žçŽ¯å‡»1è¿œç¨‹"}, forcesuffix = "çŽ¯"}
+SKILL_TYPE[272] = {name = "æ’’æ‰‹çŽ¯" , act = {"" , "æ’’æ‰‹çŽ¯èµ·" }, forcesuffix = "çŽ¯"}
+SKILL_TYPE[273] = {name = "ç–¾èµ°" , act = {"" , ""}}
+SKILL_TYPE[274] = {name = "æŠ¤ä½“" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[276] = {name = "å…ˆæ”»" , act = {"å…ˆæ”»"} , forcesuffix = "çŽ¯"}
+SKILL_TYPE[262] = {name = "é€Ÿæ”»" , act = {"é€Ÿæ”»"} , forcesuffix = "çŽ¯"}
+SKILL_TYPE[277] = {name = "éèµ°" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[280] = {name = "é£žé¸¿ç»•" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[548] = {name = "å…ˆæ”»Â·ç–¾" , act = {"" , "å…ˆæ”»ä½ç§»"}, forcesuffix = "çŽ¯"}
+SKILL_TYPE[668] = {name = "æ…æµ·å¼äºŒå¼" , act = {"" , "è¿žçŽ¯å‡»2è¿œç¨‹"} , forcesuffix = "çŽ¯"}
+SKILL_TYPE[669] = {name = "æ…æµ·å¼ä¸‰å¼" , act = {"" , "è¿žçŽ¯å‡»3è¿œç¨‹"} , forcesuffix = "çŽ¯"}
+SKILL_TYPE[671] = {name = "æ’’æ‰‹çŽ¯Â·å›žæ—‹" , act = {"æ’’æ‰‹çŽ¯æ”¶"} , forcesuffix = "çŽ¯"}
+SKILL_TYPE[667] = {name = "ç¢ŽçŽ¯å¼Â·å€’åœ°" , act = {"äºŒè¸¢è„š2"} , forcesuffix = "çŽ¯"}
 
----ÕÈ
-SKILL_TYPE[282] = {name = "»ðÇò" , act = {"Ö¸ÏòÒ÷³ª2»ðÏµ" , "Ö¸ÏòÊ©·Å2"}}
-SKILL_TYPE[283] = {name = "¾ªÀ×Êõ" , act = {"","Ö¸ÏòÊ©·ÅÀ×Ïµ" , "Ö¸ÏòÊ©·Å" ,"Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[284] = {name = "¼²µç" , act = {"Ö¸ÏòÒ÷³ª2À×Ïµ" , "Ö¸ÏòÊ©·Å2"}}
-SKILL_TYPE[285] = {name = "Ñ×±¬Êõ" , act = {"·ÉÐÐÒ÷³ª»ðÏµ" , "·ÉÐÐÊ©·Å»ðÏµ"}}
-SKILL_TYPE[286] = {name = "ÂäÀ×Êõ" , act = {"Ö¸ÏòÒ÷³ªÀ×Ïµ" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[287] = {name = "ÐÇ»ðÊõ" , act = {"ÐÇ»ðÁÇÔ­" , ""} , forcesuffix = "ÒìÀà"}
-SKILL_TYPE[288] = {name = "À×¶¯¾ÅÌì" , act = {"À×¶¯¾ÅÌì" , ""} , forcesuffix = "ÒìÀà"}
-SKILL_TYPE[289] = {name = "»ðÓð" , act = {"" , "Çá»÷1"}}
-SKILL_TYPE[290] = {name = "ÃôÈñ" , act = {"·ÉÐÐÒ÷³ª" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[291] = {name = "±ÚÀÝ" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[292] = {name = "»ð¼×Êõ" , act = {"¹ÄÎèÒ÷³ª" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[293] = {name = "À×¼×Êõ" , act = {"¹ÄÎèÒ÷³ª" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[294] = {name = "ËõµØ" , act = {"Ç¿Á¦×¼±¸" , "ÌøÔ¾Ñ­»·"}}
-SKILL_TYPE[295] = {name = "Ç¿ÌåÊõ" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[296] = {name = "Ñ×»·Êõ" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[297] = {name = "µØÉ·À§¸¿" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[772] = {name = "ÌìÀ×Öä" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[797] = {name = "Òý±¬" , act = {"·ÉÐÐÒ÷³ª»ðÏµ" , "·ÉÐÐ³ÖÐø»ðÏµ"}}
-SKILL_TYPE[1735] = {name = "¶Ü·´×çÖä" , act = {"·ÉÐÐÒ÷³ª·çÏµ" , "·ÉÐÐÊ©·Å·çÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1736] = {name = "±ù·âÀÎÓü" , act = {"·ÉÐÐÒ÷³ª±ùÏµ" , "·ÉÐÐÊ©·Å±ùÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1737] = {name = "Ëªº®´Ì¹Ç" , act = {"" , "Ö¸ÏòÊ©·Å±ùÏµ"}}
-SKILL_TYPE[1738] = {name = "¹îÒìÊ©·¨" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[784] = {name = "¿ñÀ×Êõ" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
----Îè
-SKILL_TYPE[302] = {name = "äÈäÈÖ®Îè",act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[303] = {name = "Áé¶¯Ö®Îè",act = {"","Çá»÷2"},forcesuffix = "Îè"}
-SKILL_TYPE[304] = {name = "´ó·çÖ®Îè",act = {"","ÖØ»÷2",""},forcesuffix = "Îè"}
-SKILL_TYPE[305] = {name = "¹ãÐäÖ®Îè",act = {"","¶ÔµØ¹¥»÷"},forcesuffix = "Îè"}
-SKILL_TYPE[306] = {name = "¹ÄÕñÖ®Îè",act = {"","»Ø×ª¹¥»÷"},forcesuffix = "Îè"}
-SKILL_TYPE[307] = {name = "¸§Î¿Ö®Îè",act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[308] = {name = "±ØÊ¤Ö®Îè",act = {"","Ìì¹¬ÐýÎè"},forcesuffix = "ÒìÀà"}
-SKILL_TYPE[309] = {name = "ï£ï£Ö®Îè",act = {"Îè¹¥»÷1",""},forcesuffix = "Îè"}
-SKILL_TYPE[310] = {name = "ÔÆÓêÖ®Îè",act = {"ÐîÁ¦×¼±¸","ÔÆÓêÖ®Îè","","","","Õ½¶·Õ¾Á¢"},forcesuffix = "ÒìÀà"}
-SKILL_TYPE[311] = {name = "Çã¹úÖ®Îè",act = {"","·ÉÐÐ³ÖÐøÀ×Ïµ"}}
-SKILL_TYPE[312] = {name = "ÆÆÕóÖ®Îè",act = {"","»Ø×ª¹¥»÷"},forcesuffix = "Îè"}
-SKILL_TYPE[313] = {name = "¿Õ",act = {"",""}}
-SKILL_TYPE[314] = {name = "ÍË±Ü",act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[315] = {name = "µûÉÈÖ®Îè",act = {"ÐîÁ¦×¼±¸","Çá»÷1"},forcesuffix = "Îè"}
-SKILL_TYPE[316] = {name = "¸ÉÆÝÖ®Îè",act = {"","ÖØ»÷1"},forcesuffix = "Îè"}
-SKILL_TYPE[317] = {name = "¿Õ",act = {"",""}}
-SKILL_TYPE[318] = {name = "¿Õ",act = {"",""}}
-SKILL_TYPE[319] = {name = "¿Õ",act = {"",""}}
-SKILL_TYPE[320] = {name = "ä¸ä¸Ö®Îè",act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[1054] = {name = "ÓÂÍùÖ±Ç°",act = {"","Ö¸ÏòÊ©·Å·çÏµ"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1077] = {name = "¹í÷ÈÖ®Îè",act = {"","¹í÷ÈÖ®Îè","","","","Õ½¶·Õ¾Á¢","¹í÷ÈÖ®Îè","","","","Õ½¶·Õ¾Á¢"},forcesuffix = "ÒìÀà"}
-SKILL_TYPE[1741] = {name = "Ô¤Õ×Ö®Îè" , act = {"·ÉÐÐÒ÷³ª·çÏµ" , "·ÉÐÐÊ©·Å·çÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1742] = {name = "Ñ£¹â" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[1743] = {name = "¹í÷ÈÖ®Îè" , act = {"Ö¸ÏòÒ÷³ª»ðÏµ" , "Ö¸ÏòÊ©·Å»ðÏµ"}}
-SKILL_TYPE[1744] = {name = "÷ÈÑýÖ®Îè" , act = {"Ìì¹¬ÐýÎè" , ""} , forcesuffix = "ÒìÀà"}
-SKILL_TYPE[3546] = {name = "Äù˜„Ö®Îè",act = {"Ö¸ÏòÒ÷³ª»ðÏµ","Ö¸ÏòÊ©·Å", forcesuffix = "Í¨ÓÃ"}}
----ÉÈ
-SKILL_TYPE[322] = {name = "·çÇò" , act = {"Ö¸ÏòÒ÷³ª1·çÏµ" , "Ö¸ÏòÊ©·Å1"}}
-SKILL_TYPE[323] = {name = "·çµ¯" , act = {"","·ÉÐÐÊ©·Å·çÏµ" , "·ÉÐÐÊ©·Å" ,"·ÉÐÐÊ©·Å·çÏµ" ,"·ÉÐÐÊ©·Å" , "·ÉÐÐÊ©·Å·çÏµ" ,"·ÉÐÐÊ©·Å" , "·ÉÐÐÊ©·Å·çÏµ" ,"Õ½¶·Õ¾Á¢"}}
-SKILL_TYPE[324] = {name = "±ù´Ì" , act = {"Ö¸ÏòÒ÷³ª1±ùÏµ" , "Ö¸ÏòÊ©·Å1"}}
-SKILL_TYPE[325] = {name = "·çÏ®Êõ" , act = {"·ÉÐÐÒ÷³ª·çÏµ" , "·ÉÐÐÊ©·Å·çÏµ"}}
-SKILL_TYPE[326] = {name = "Áú¾íÊõ" , act = {"·ÉÐÐÒ÷³ª·çÏµ" , "·ÉÐÐÊ©·Å·çÏµ"}}
-SKILL_TYPE[327] = {name = "×¹±ùÊõ" , act = {"Ö¸Ïò³ÖÐø±ùÏµ" , "" , "" , "" , ""}}
-SKILL_TYPE[328] = {name = "°Ë·½±ùÓê" , act = {"°Ë·½±ùÓê" , ""} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[329] = {name = "×¨×¢" , act = {"Ç¿Á¦×¼±¸" , "½üÉí×¼±¸" , "ÌØÊâ×¼±¸" , "ÐîÁ¦×¼±¸" , "Õ½¶·Õ¾Á¢"}}
-SKILL_TYPE[330] = {name = "¾È»¤" , act = {"·ÉÐÐÒ÷³ª" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[331] = {name = "¸¨×ô" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[332] = {name = "·ç¼×Êõ" , act = {"¹ÄÎèÒ÷³ª" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[333] = {name = "±ù¼×Êõ" , act = {"¹ÄÎèÒ÷³ª" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[334] = {name = "´«ËÍ" , act = {"Ö¸ÏòÒ÷³ª·çÏµ" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[335] = {name = "Ç¿ÉúÊõ" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[336] = {name = "±ù»·Êõ" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[337] = {name = "ÌìÆôºãÃ÷" , act = {"" , ""}}
-SKILL_TYPE[841] = {name = "Ðþ±ùÕÖ" , act = {"" , "·ÉÐÐ³ÖÐø±ùÏµ" , "Õ½¶·Õ¾Á¢"}}
-SKILL_TYPE[1745] = {name = "Ëª¶³Ö®¼×" , act = {"Ö¸ÏòÒ÷³ª±ùÏµ" , "Ö¸ÏòÊ©·Å±ùÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1746] = {name = "ÌåÁ¦Ö®¶Ü" , act = {"¹ÄÎèÒ÷³ª" , "¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[1747] = {name = "À×Ö®±¼Ï®" , act = {"·ÉÐÐ³ÖÐø±ùÏµ" , "" , "" , "" , "" , "" , ""}}
-SKILL_TYPE[1748] = {name = "ÕÐ·ç»½Ñ©" , act = {"ÖØ»÷2" , ""} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[824] = {name = "Ï®·ç¶Ü" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
----¹­
-SKILL_TYPE[342] = {name = "ÐîÆø" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[343] = {name = "Á÷ÐÇ¼ý" , act = {"" , "¹­Éä»÷2"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[344] = {name = "Ô¯ÃÅÉä" , act = {"" , ""}}
-SKILL_TYPE[345] = {name = "ÂäÓ§Éä" , act = {"" , "¹­Éä»÷3"}}
-SKILL_TYPE[346] = {name = "Îå²½Éä" , act = {"¹­×¼±¸5" , "¹­Éä»÷5"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[347] = {name = "¹áÊ¸Éä" , act = {"¹­×¼±¸3" , "¹­Éä»÷3"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[348] = {name = "³¤ºç¹áÈÕ" , act = {"³¤ºç¹áÈÕÒ÷³ª" , "³¤ºç¹áÈÕÊ©·Å"} , forcesuffix = "¹­"}
-SKILL_TYPE[349] = {name = "¶´²ì" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[350] = {name = "¶´²ì" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[351] = {name = "Á¬Ê¸Éä" , act = {"" , "¹­Éä»÷2" , "¹­Éä»÷2"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[352] = {name = "Ãé×¼" , act = {"¹­×¼±¸3" , "" , "" , ""}}
-SKILL_TYPE[353] = {name = "¿ìÅÜ" , act = {"" , ""}}
-SKILL_TYPE[354] = {name = "Ô¶³Ì¸ñµ²" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[355] = {name = "Ãùïá¼ý" , act = {"¹­×¼±¸1" , "¹­Éä»÷3"}}
-SKILL_TYPE[356] = {name = "ÂúÏÒÉä" , act = {"¹­×¼±¸2" , "¹­Éä»÷2"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[357] = {name = "ÑïÉ³" , act = {"Ç¿Á¦×¼±¸" , "Çá»÷2"} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[358] = {name = "Á÷ÐÇ¼ý" , act = {"" , "¹­Éä»÷2"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[359] = {name = "ÃùïáÉä" , act = {"¹­×¼±¸1" , "¹­Éä»÷3"}}
-SKILL_TYPE[1749] = {name = "·´ÉäÖ®¹â" , act = {"·ÉÐÐÒ÷³ªÀ×Ïµ" , "·ÉÐÐÊ©·ÅÀ×Ïµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1750] = {name = "ÉÁµç´¢´æ" , act = {"Ö¸ÏòÒ÷³ª»ðÏµ" , "Ö¸ÏòÊ©·Å»ðÏµ"}}
-SKILL_TYPE[1751] = {name = "¹íÓ°ÖØÖØ" , act = {"Ö¸ÏòÒ÷³ªÀ×Ïµ" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[1752] = {name = "Ø¬ÃÎÖ®Ãß" , act = {"" , "³¤ºç¹áÈÕÊ©·Å"} , forcesuffix = "¹­"}
----´¸
-SKILL_TYPE[202] = {name = "ÔÒ»÷" , act = {"", "ÖØ»÷1"}, forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[203] = {name = "ËéÐÄ´¸" , act = {"³å´ÌÐîÁ¦" , "³å×²"}, forcesuffix = "´¸"}
-SKILL_TYPE[204] = {name = "¸ñµ²" , act = {"" , "¸ñµ²Ñ­»·"}}
-SKILL_TYPE[205] = {name = "±ÀÉ½´¸" , act = {"", "ÖØ»÷1"}, forcesuffix = "´¸"}
-SKILL_TYPE[206] = {name = "ºäÀ×´¸" , act = {"", "ÖØ»÷2"}, forcesuffix = "´¸"}
-SKILL_TYPE[208] = {name = "¼²·ç´¸" , act = {"" , "ÂÒÎè¹¥»÷1" , "" , "ÂÒÎè¹¥»÷2" , ""}, forcesuffix = "´¸"}
-SKILL_TYPE[209] = {name = "Ðý·ç´¸" , act = {"", "Ðý×ª¹¥»÷"}, forcesuffix = "´¸"}
-SKILL_TYPE[210] = {name = "º¶µØ´¸" , act = {"", "ÌøÔ¾Õð»÷"}, forcesuffix = "´¸"}
-SKILL_TYPE[211] = {name = "Ç¿Ï®" , act = {"Ç¿¹¥ÐîÁ¦" , "Ô­µØÕð»÷"}, forcesuffix = "´¸"}
-SKILL_TYPE[212] = {name = "Ç¿¹¥Õ½·¨" , act = {"", "¹ÄÎèÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[213] = {name = "ÂÒÎèÕ½·¨" , act = {"", "Ç¿»¯Ê©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[214] = {name = "µØâú»÷" , act = {"" , "´óºÈ¹¥»÷"}, forcesuffix = "´¸"}
-SKILL_TYPE[215] = {name = "²Ôñ·ÂÒÎè" , act = {"" , "ÂÒÎèÁ¬»÷1" , "ÂÒÎèÁ¬»÷2" , "ÂÒÎèÁ¬»÷3"}, forcesuffix = "´¸"}
-SKILL_TYPE[216] = {name = "º¶É½ÕðÔÀ" , act = {"" , "º³É½ÕðÔÀ"}, forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[217] = {name = "Å­²»¿É¶ô" , act = {"", "¹ÄÎèÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[218] = {name = "¾ÞÁéÉñÁ¦" , act = {"", "¹ÄÎèÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2667] = {name = "ÌôÕ½" , act = {"", "Ö¸ÏòÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
----²æ
-SKILL_TYPE[82] = {name = "¼²´Ì" , act = {"", "·É²æÍ¶ÖÀ"}, forcesuffix = "²æ"}
-SKILL_TYPE[83] = {name = "·´´ò" , act = {"", "Çá»÷2"}, forcesuffix = "²æ"}
-SKILL_TYPE[84] = {name = "Ö±Í»" , act = {"", "Ç°Í»"}, forcesuffix = "²æ"}
-SKILL_TYPE[85] = {name = "¶Ï»ê´Ì" , act = {"", "Çá»÷1"}, forcesuffix = "²æ"}
-SKILL_TYPE[86] = {name = "ËéÊ¯´ò" , act = {"" , "ÖØ»÷1"}, forcesuffix = "²æ"}
-SKILL_TYPE[87] = {name = "Á÷ÔÆ»÷" , act = {"", "Çá»÷2", "ÆÕÍ¨¹¥»÷2", "ÖØ»÷2", ""}, forcesuffix = "²æ"}
-SKILL_TYPE[88] = {name = "ÉÁ»÷»ØÐý" , act = {"" , "»ØÐýµ¶Í¶ÖÀ4"}, forcesuffix = "²æ"}
-SKILL_TYPE[89] = {name = "¶¾ÈÐ»ØÐý" , act = {"" , "»ØÐýµ¶Í¶ÖÀ4"}, forcesuffix = "²æ"}
-SKILL_TYPE[90] = {name = "»ØÐýµ¶Á¬ÖÀ" , act = {"", "»ØÐýµ¶Í¶ÖÀ4", "»ØÐýµ¶Í¶ÖÀ4"}, forcesuffix = "²æ"}
-SKILL_TYPE[92] = {name = "Ê®²½Ò»É±" , act = {"" , "»ÃÓ°»÷"}, forcesuffix = "²æ"}
-SKILL_TYPE[93] = {name = "Ã÷Íõ»¤Éí" , act = {"", "Ö¸ÏòÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[94] = {name = "»ÆÈªÚ¤Á÷" , act = {"", "·ÉÐÐÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[95] = {name = "ÑªÓÂ" , act = {"", "Ö¸ÏòÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[97] = {name = "ÎÈ¹Ì" , act = {"", "Ç¿»¯Ê©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[98] = {name = "·çÕó" , act = {"", "Ç¿»¯Ê©·Å"}, forcesuffix = "²æ"}
-SKILL_TYPE[100] = {name = "»ØÐýµ¶Í¶ÖÀ" , act = {"", "»ØÐýµ¶Í¶ÖÀ4"}, forcesuffix = "²æ"}
----±Þ
-SKILL_TYPE[5070] = {name = "½ðË¿²ø" , act = {"","½ðË¿²ø"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5071] = {name = "ÒøÉß¸¿" , act = {"", "ÒøÉß¸¿"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5072] = {name = "»ØÁúÂÒ" , act = {"", "»ØÁúÂÒ"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5073] = {name = "²ø¾±´ò" , act = {"", "²ø¾±´òÎ»ÒÆ","²ø¾±´òÎ»ÒÆ´ò"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5074] = {name = "ËéÊ¯±Þ" , act = {"","ËéÊ¯±Þ"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5075] = {name = "¶Ï»ê±Þ" , act = {"", "¶Ï»ê±Þ"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5076] = {name = "ÃÔÓ°±Þ" , act = {"ÐîÁ¦", "ÃÔÓ°±Þ"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5077] = {name = "÷ÈÓ°±Þ" , act = {"", "÷ÈÓ°±Þ",""}, forcesuffix = "±Þ"}
-SKILL_TYPE[5078] = {name = "Çï·çÉ¨" , act = {"","Çï·çÉ¨"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5079] = {name = "ÂäÑãÉ¨" , act = {"", "ÂäÑãÉ¨"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5080] = {name = "Ó­ÃæÉ¨" , act = {"", "Ó­ÃæÉ¨"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5081] = {name = "Éã»êÉ¨" , act = {"", "Éã»êÉ¨",""}, forcesuffix = "±Þ"}
-SKILL_TYPE[5082] = {name = "·ÉÝÓÈÆ" , act = {"","·ÉÝÓÈÆ"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5083] = {name = "²ÐÃÎÁÃ" , act = {"", "²ÐÃÎÁÃ"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5084] = {name = "¹áµØ»÷" , act = {"", "¹áµØ»÷"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5085] = {name = "ÉýÁú»÷" , act = {"", "ÉýÁú»÷","","",""}, forcesuffix = "±Þ"}
-SKILL_TYPE[5086] = {name = "¹úÉ«ÌìÏã" , act = {"", "¹ÄÎèÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5087] = {name = "ºìÑÕ" , act = {"", "¹ÄÎèÊ©·Å"}, forcesuffix = "ºìÑÕ"}
-SKILL_TYPE[5088] = {name = "½ðÉßÂÒÎè" , act = {"", "ÂÒÎè","","",""}, forcesuffix = "±Þ"}
-SKILL_TYPE[5097] = {name = "ÀëÓ°´Ì" , act = {"", "ÀëÐÄ´Ì"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5101] = {name = "±Þµ²" , act = {"", "±Þµ²"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5102] = {name = "·´ÖÆ¡¤÷È" , act = {"", "±Þµ²·´»÷"}, forcesuffix = "±Þ"}
----åó
-SKILL_TYPE[5277] = {name = "ÆÆ¾üåó" , act = {"","Æ½Éä2"}, forcesuffix = "åó"}
-SKILL_TYPE[5278] = {name = "¼²·çåó" , act = {"ËÙÉä×¼±¸","ËÙÉä","","","","","","","",""}, forcesuffix = "åó"}
-SKILL_TYPE[5279] = {name = "Á÷ÐÇÊ¸" , act = {"","Á¦Éä"}, forcesuffix = "åó"}
-SKILL_TYPE[5280] = {name = "È´ÔÂÊ¸" , act = {"ÐîÁ¦", "ÉñÉäÍ·"}, forcesuffix = "åó"}
-SKILL_TYPE[5281] = {name = "ÂÒÔÆåó" , act = {"","É¢Éä","",""}, forcesuffix = "åó"}
-SKILL_TYPE[5282] = {name = "ÄýÉñÊ¸" , act = {"","ÉñÉä"}, forcesuffix = "åó"}
-SKILL_TYPE[5283] = {name = "¾¢åó" , act = {"", "Çáåó"}, forcesuffix = "åó"}
-SKILL_TYPE[5284] = {name = "Çáåó" , act = {"", "¾¢åó"}, forcesuffix = "åó"}
-SKILL_TYPE[5285] = {name = "Í»½øÊ¸" , act = {"ÐîÁ¦","Ç°¹ö¹¥»÷",""}, forcesuffix = "åó"}
-SKILL_TYPE[5286] = {name = "ÂþÌì¼ýÓê" , act = {"´óÕÐ","","",""}, forcesuffix = "åó"}
-SKILL_TYPE[5297] = {name = "ºóÔ¾åó" , act = {"ÐîÁ¦","ºóÔ¾Éä»÷",""}, forcesuffix = "åó"}
-SKILL_TYPE[5299] = {name = "Áè¿Õ»÷" , act = {"","¸¡¿ÕÉä","",""}, forcesuffix = "åó"}
-SKILL_TYPE[5315] = {name = "»ÃÓ°»÷" , act = {"","»ÃÓ°Éä"}, forcesuffix = "åó"}
-SKILL_TYPE[5313] = {name = "¼²×ß" , act = {"" , ""}}
---- Í¨ÓÃ¼¼ÄÜ
-SKILL_TYPE[361] = {name = "»Ø³Ç" , act = {"»Ø³Ç","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[1563] = {name = "»Ø³Ç" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[363] = {name = "ÇÐ»»ÎäÆ÷" , act = {"","±³ºó°Îµ¶"}}
-SKILL_TYPE[427] = {name = "¸´»î¾íÖá" , act = {"¶×ÏÂ²Ù×÷",""}}
-SKILL_TYPE[433] = {name = "Ê³Îï1" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[434] = {name = "ºÈË®1" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[435] = {name = "Ê³Îï2" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[436] = {name = "Ê³Îï3" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[437] = {name = "Ê³Îï4" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[438] = {name = "ºÈË®2" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[439] = {name = "ºÈË®3" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[440] = {name = "ºÈË®4" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[447] = {name = "Ò©¸à1" , act = {"Õ¾Á¢²Ù×÷","","","","","","Õ¾Á¢²Ù×÷"}}
-SKILL_TYPE[448] = {name = "Ò©¸à2" , act = {"Õ¾Á¢²Ù×÷","","","","","","Õ¾Á¢²Ù×÷"}}
-SKILL_TYPE[453] = {name = "ÇýÉ¢Ò©¸àA1" , act = {"Õ¾Á¢²Ù×÷","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[454] = {name = "ÇýÉ¢Ò©¸àB1" , act = {"Õ¾Á¢²Ù×÷","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[455] = {name = "ÇýÉ¢Ò©¸àC1" , act = {"Õ¾Á¢²Ù×÷","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[456] = {name = "ÇýÉ¢Ò©¸àD1" , act = {"Õ¾Á¢²Ù×÷","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[457] = {name = "ÇýÉ¢Ò©¸àE1" , act = {"Õ¾Á¢²Ù×÷","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[458] = {name = "ÇýÉ¢Ò©¸àA2" , act = {"Õ¾Á¢²Ù×÷","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[459] = {name = "ÇýÉ¢Ò©¸àB2" , act = {"Õ¾Á¢²Ù×÷","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[460] = {name = "ÇýÉ¢Ò©¸àC2" , act = {"Õ¾Á¢²Ù×÷","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[461] = {name = "ÇýÉ¢Ò©¸àD2" , act = {"Õ¾Á¢²Ù×÷","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[462] = {name = "ÇýÉ¢Ò©¸àE2" , act = {"Õ¾Á¢²Ù×÷","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[603] = {name = "æçÓÂ" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[604] = {name = "¼áÕó" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[605] = {name = "ÈÊÍþ" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[606] = {name = "Ç¿±ø" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[607] = {name = "´Ý·æÏÝÕó" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[608] = {name = "ÉÉ¼×ÖÎ±ø" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[609] = {name = "ÂÄÈÊµ¸Òå" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[610] = {name = "À÷±øï÷Âí" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[611] = {name = "ºáÉ¨Ç§¾ü" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[612] = {name = "³¤àÎÔ¶Óù" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[613] = {name = "Ö¹¸êÐËÈÊ" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[614] = {name = "ÑïÆìÑÝ±ø" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[615] = {name = "¼²·çÇ§Àï" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[617] = {name = "¾ÅºÏÒ»¿ï" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[619] = {name = "Ì¤ÆÆ¹ØÉ½" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[621] = {name = "Íþ·ü°Ë»Ä" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[622] = {name = "ÌìÏÂÏ¢±ø" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[744] = {name = "Í»ÆÆ" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[745] = {name = "·É½«" , act = {"¼ÓËÙÅÜ","¼ÓËÙÅÜ"}}
-SKILL_TYPE[746] = {name = "ÓÂÃÍ" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[747] = {name = "ÎÞÎ·" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[748] = {name = "Õ÷·þ" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[749] = {name = "Í³Óù" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[750] = {name = "½ÁÂÒ" , act = {"·ÉÐÐÒ÷³ª","Ö¸ÏòÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[751] = {name = "¼áÒã" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[752] = {name = "¸¨×ô" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[753] = {name = "¾ö¶Ï" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[754] = {name = "Ö÷Ô×" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[756] = {name = "ÈÌÄÍµöÊõ" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[757] = {name = "²»Ë²Ö®Ä¿" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[897] = {name = "Ç×ÎÇ" , act = {"","Ç×ÎÇ"}}
-SKILL_TYPE[931] = {name = "¶´²ìÇïºÁ" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[932] = {name = "ÖìÈ¸ÁÒÑ×" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[933] = {name = "ÇàÁúÍ»½ø" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[934] = {name = "ÃîÊÖ»Ø´º" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[935] = {name = "ÖªÈËÖ®ÑÛ" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[936] = {name = "ÐþÎä»¤Ìå" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[937] = {name = "ÎÞÓÃ" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[938] = {name = "Îäºî½ð¹Ä" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[939] = {name = "°×»¢Å­ÅØ" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[940] = {name = "Ò©ÏãÍ¨Ìå" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[941] = {name = "´óÑÅÖ®Òô" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[986] = {name = "ÉÁ¹âµ¯" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[1021] = {name = "´ò×ø" , act = {"´ò×ø","´ò×øÑ­»·"}}
-SKILL_TYPE[1022] = {name = "ÌÉÏÂ" , act = {"´ò×ø","´ò×øÑ­»·"}}
-SKILL_TYPE[1341] = {name = "×Ô¶¯µöÓã" , act = {"","ÏÐÖÃ¶¯×÷","Õ¾Á¢²Ù×÷","µöÓã","Õ¾Á¢²Ù×÷Ñ­»·",""} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1440] = {name = "ÐÝÏ¢" , act = {"´ò×ø","´ò×øÑ­»·"}}
-SKILL_TYPE[1441] = {name = "ÇÐ»»×ËÌ¬" , act = {"","±³ºó°Îµ¶"}}
-SKILL_TYPE[1390] = {name = "µÀ¾ßÈº¹¥" , act = {"Ç¿Á¦×¼±¸" , "Çá»÷2"} , forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[1477] = {name = "Ñ©Çò" , act = {"°µÆ÷×¼±¸" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1496] = {name = "µ¥Ìå·¢½±" , act = {"Ö¸ÏòÒ÷³ª±ùÏµ" , "Ö¸ÏòÊ©·Å±ùÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1498] = {name = "ÈºÌå·¢½±±¾ÈË" , act = {"Ö¸Ïò³ÖÐø±ùÏµ" , "" , "" , "" , "" , "" , "Õ¾Á¢"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1503] = {name = "GMÖØÖÃÀäÈ´" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1505] = {name = "Ñ©Çò" , act = {"·ÉÐÐÒ÷³ª±ùÏµ" , "·ÉÐÐÊ©·Å±ùÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1517] = {name = "Ñ©Çò" , act = {"°µÆ÷×¼±¸" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1544] = {name = "¸£ÐÇ×£¸£" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1545] = {name = "ÊÙÐÇ×£¸£" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1546] = {name = "Â»ÐÇ×£¸£" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1547] = {name = "ÐÂÄê×£¸£" , act = {"Ö¸ÏòÒ÷³ª" , "Ö¸ÏòÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1767] = {name = "¿×Ã÷µÆ" , act = {"" , "Ö¸ÏòÊ©·Å±ùÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1768] = {name = "Öî¸ðÁ¬åó" , act = {"" , "·ÉÐÐÊ©·Å»ðÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1769] = {name = "´µ¼ýÍ²" , act = {"" , "·ÉÐÐÊ©·Å»ðÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1770] = {name = "»ðÁúµ¯" , act = {"" , "·ÉÐÐÊ©·Å»ðÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1770] = {name = "ÓæÍø" , act = {"" , "·ÉÐÐÊ©·Å±ùÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1786] = {name = "°®ÐÄÂåÉñÌÀ" , act = {"" , "·ÉÐÐÊ©·Å·çÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1787] = {name = "ÌØÀ±Ë®ÖóÓã" , act = {"" , "·ÉÐÐÊ©·Å·çÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1788] = {name = "»ÆìËòþÉßµ¨" , act = {"" , "·ÉÐÐÊ©·Å·çÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1789] = {name = "ºìÉÕÍÃ×ÓÍÈ" , act = {"" , "·ÉÐÐÊ©·Å·çÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1964] = {name = "¶ËÎç½Ú»î¶¯Æí¸£" , act = {"" , "±íÇéÏÂ¹ò±§È­"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1967] = {name = "Îèµ¸£­´º" , act = {"" , "Îèµ¸"} , forcesuffix = "´º"}
-SKILL_TYPE[1968] = {name = "Îèµ¸£­ÏÄ" , act = {"" , "Îèµ¸"} , forcesuffix = "ÏÄ"}
-SKILL_TYPE[1969] = {name = "Îèµ¸£­Çï" , act = {"" , "Îèµ¸"} , forcesuffix = "Çï"}
-SKILL_TYPE[1970] = {name = "Îèµ¸£­¶¬" , act = {"" , "Îèµ¸"} , forcesuffix = "¶¬"}
-SKILL_TYPE[1971] = {name = "Îèµ¸£­ÑÝÎä" , act = {"" , "Îèµ¸_ÑÝÎä¶¯×÷"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1985] = {name = "Óù·Éµ¶" , act = {"" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1984] = {name = "»ðÓÍÆ¿" , act = {"" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2014] = {name = "×ÓÎç¹ÈBUFFÒ©1" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2015] = {name = "×ÓÎç¹ÈBUFFÒ©2" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2016] = {name = "×ÓÎç¹ÈBUFFÒ©3" , act = {"" , "Ö¸ÏòÊ©·Å»ðÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2045] = {name = "±ùÐÄ¾÷" , act = {"" , "Ö¸ÏòÊ©·Å±ùÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2046] = {name = "²»¶¯×ð" , act = {"" , "Ö¸ÏòÊ©·ÅÍÁÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2048] = {name = "¿ñÐÄÊÆ" , act = {"" , "Ö¸ÏòÊ©·Å»ðÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2049] = {name = "Á÷¹â¾÷" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2050] = {name = "¶¨»ê¶Ü" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1568] = {name = "Âù»ÄÖ®À×" , act = {"Ö¸Ïò³ÖÐøÀ×Ïµ" , "" , "" , "" , "" , "" , ""}}
-SKILL_TYPE[1569] = {name = "ÆøÊÆÁèÈË" , act = {"·ÉÐÐÊ©·Å±ùÏµ" , ""} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1570] = {name = "ÊÈÉ±ÈçÃü" , act = {"" , "Ö¸ÏòÊ©·Å»ðÏµ"}}
-SKILL_TYPE[1571] = {name = "ÓùÆ÷¾ö" , act = {"" , "ÌøÔ¾¹¥»÷ÌØÊâ"} , forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[1572] = {name = "¿ñÕ½Ê¿Ö®Å­" , act = {"" , "¹ÄÎèÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1573] = {name = "¾Å½£ÃðÉ±Õó" , act = {"Ç¿Á¦×¼±¸" , "»Ø×ª¹¥»÷³ÖÐø" , "" , "" , "" , "" , "Õ½¶·Õ¾Á¢"}}
-SKILL_TYPE[1574] = {name = "¾µîø»¤Éí" , act = {"" , "·ÉÐÐÊ©·ÅÀ×Ïµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1575] = {name = "Ñ×¹í·ÉÇÐ" , act = {"" , "Ö¸ÏòÊ©·Å»ðÏµ"}}
-SKILL_TYPE[1576] = {name = "ÀäÑª" , act = {"" , "Ö¸ÏòÊ©·Å±ùÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1577] = {name = "ÉÁµç¶Ü" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[1578] = {name = "Ëª¶³Ö®¼×" , act = {"Ö¸ÏòÒ÷³ª±ùÏµ" , "Ö¸ÏòÊ©·Å±ùÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1579] = {name = "¹îÒìÊ©·¨" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[1604] = {name = "ÉñÉËÖ®Îè" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[1605] = {name = "À×Ö®±¼Ï®" , act = {"·ÉÐÐ³ÖÐø±ùÏµ" , "" , "" , "" , "" , "" , ""}}
-SKILL_TYPE[1606] = {name = "Ø¬ÃÎÖ®Ãß" , act = {"" , "·ÉÐÐÊ©·ÅÀ×Ïµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2246] = {name = "»éÀñÌÒ»¨°ê" , act = {"" , "·ÉÐÐÊ©·Å»ðÏµ"}}
-SKILL_TYPE[2247] = {name = "»éÀñÏòÈÕ¿û" , act = {"" , "·ÉÐÐÊ©·Å»ðÏµ"}}
-SKILL_TYPE[2249] = {name = "·¢ºì°ü" , act = {"" , "Ö¸ÏòÊ©·Å»ðÏµ"}}
-SKILL_TYPE[2255] = {name = "Îèµ¸£­Îè½£" , act = {"" , "Îèµ¸"},forcesuffix = "Îè½£"}
-SKILL_TYPE[2256] = {name = "Îèµ¸£­¸§ÇÙ" , act = {"" , "Îèµ¸"},forcesuffix = "¸§ÇÙ"}
-SKILL_TYPE[2461] = {name = "Îèµ¸£­ÁøÑÒ" , act = {"" , "Îèµ¸"},forcesuffix = "ËïÉÐÏã"}
-SKILL_TYPE[2394] = {name = "Õ½»ê¾üÉñ¾÷", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2395] = {name = "Õ½»êÕðÁÑ»÷", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2396] = {name = "Õ½»ê¼ÆÂÔÊõ", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2397] = {name = "Õ½»ê¶¨ÉíÖä", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Õ½»êÅ®ÉÈ"}
-SKILL_TYPE[2399] = {name = "Õ½»ê½ð¸Õ¾÷", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2400] = {name = "Õ½»êÁÒ»êÆÆ", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2402] = {name = "Õ½»ê¾ªºè¾÷", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2403] = {name = "Õ½»êÂåÉñÆÆ", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2405] = {name = "Õ½»ê»¢Ð¥¾÷", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2406] = {name = "Õ½»êµØâú»÷", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2408] = {name = "Õ½»êÎäÉñ¾÷", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2409] = {name = "Õ½»êÇàÁúÕ¶", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2410] = {name = "Õ½»ê¶Ý¼×Êõ", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2412] = {name = "Õ½»ê·üÁúÖä", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2414] = {name = "Õ½»ê¹­Éñ¾÷", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2415] = {name = "Õ½»êËéÐÄÉä", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Õ½»ê»ÆÖÒ"}
-SKILL_TYPE[2417] = {name = "Õ½»êÇã³Ç¾÷", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2418] = {name = "Õ½»ê¹¥ÐÄÖä", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2420] = {name = "Õ½»ê¼²ÐÐ¾÷", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2421] = {name = "Õ½»ê¶·»êÕ¶", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2422] = {name = "Õ½»êÔË³ïÊõ", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2424] = {name = "Õ½»êÆÆ¾üÕ¶", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[4603] = {name = "Õ½»êÖ´½ðÎá", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[4999] = {name = "Õ½»êÓðÉÈÒ¡", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5016] = {name = "Õ½»êÁ¬»·¼Æ", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5060] = {name = "Õ½»êÍ­È¸Ëø", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5245] = {name = "Õ½»êÑÀÆìÕ¶", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5251] = {name = "Õ½»ê¾øÇéÉ±", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5259] = {name = "Õ½»êÃðÊÀÕ¶", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5378] = {name = "Õ½»êÆÆµ¨Ï®", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5406] = {name = "Õ½»êË«¹É´Ì", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5412] = {name = "Õ½»êÒÐÌìÕ¶", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5418] = {name = "Õ½»ê¹Å¶§Õ¶", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5454] = {name = "Õ½»êÍò¾ü¼²", act = {"" , "Ö¸ÏòÊ©·Å"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2464] = {name = "Õ½»êÓÂÊ¿¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "ÓÂÊ¿"}
-SKILL_TYPE[2425] = {name = "Õ½»êÄ±Ê¿¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "Ä±Ê¿"}
-SKILL_TYPE[2426] = {name = "Õ½»êÏÄºî¶Ø¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "ÏÄºî¶Ø"}
-SKILL_TYPE[2427] = {name = "Õ½»êÕçåú¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "Õçåú"}
-SKILL_TYPE[2428] = {name = "Õ½»êÕÅÁÉ¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "ÕÅÁÉ"}
-SKILL_TYPE[2429] = {name = "Õ½»ê¹ØÓð¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "¹ØÓð"}
-SKILL_TYPE[2430] = {name = "Õ½»êÖî¸ðÁÁ¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "Öî¸ðÁÁ"}
-SKILL_TYPE[2431] = {name = "Õ½»ê»ÆÖÒ¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "»ÆÖÒ"}
-SKILL_TYPE[2432] = {name = "Õ½»êÐ¡ÇÇ¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "Ð¡ÇÇ"}
-SKILL_TYPE[2433] = {name = "Õ½»ê¸ÊÄþ¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "¸ÊÄþ"}
-SKILL_TYPE[2434] = {name = "Õ½»êÖÜè¤¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "ÖÜè¤"}
-SKILL_TYPE[2435] = {name = "Õ½»êÂÀ²¼¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "ÂÀ²¼"}
-SKILL_TYPE[2436] = {name = "Õ½»êÔÂÓ¢¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "»ÆÔÂÓ¢"}
-SKILL_TYPE[2437] = {name = "Õ½»êõõ²õ¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "õõ²õ"}
-SKILL_TYPE[2438] = {name = "Õ½»ê´óÇÇ¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "´óÇÇ"}
-SKILL_TYPE[2439] = {name = "Õ½»êµäÎ¤¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "µäÎ¤"}
-SKILL_TYPE[2440] = {name = "Õ½»êÕÅ´º»ª¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "ÕÅ´º»ª"}
-SKILL_TYPE[5258] = {name = "Õ½»ê»Æ½ð¼×¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "»Æ½ð¼×"}
-SKILL_TYPE[5384] = {name = "Õ½»êÕÅ·É¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "ÕÅ·É"}
-SKILL_TYPE[5385] = {name = "Õ½»êÂí³¬¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "Âí³¬"}
-SKILL_TYPE[5386] = {name = "Õ½»êÕÔÔÆ¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "ÕÔÔÆ"}
-SKILL_TYPE[5425] = {name = "Õ½»êÁõ±¸¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "Áõ±¸"}
-SKILL_TYPE[5426] = {name = "Õ½»ê²Ü²Ù¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "²Ü²Ù"}
-SKILL_TYPE[5427] = {name = "Õ½»êËïÈ¨¾õÐÑ¶¯×÷" , act = {"" , "Õ½»ê¼¤·¢"},forcesuffix = "ËïÈ¨"}
-SKILL_TYPE[2468] = {name = "Ê¥µ®¿¨Æ¬" , act = {"°µÆ÷×¼±¸" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2469] = {name = "Ê¥µ®¿¨Æ¬" , act = {"°µÆ÷×¼±¸" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2470] = {name = "Ê¥µ®¿¨Æ¬" , act = {"°µÆ÷×¼±¸" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2471] = {name = "Ê¥µ®¿¨Æ¬" , act = {"°µÆ÷×¼±¸" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2472] = {name = "Ê¥µ®¿¨Æ¬" , act = {"°µÆ÷×¼±¸" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2479] = {name = "Ê¥µ®¿¨Æ¬" , act = {"°µÆ÷×¼±¸" , "°µÆ÷Í¶ÖÀ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2480] = {name = "Ê¥µ®Îè»á" , act = {"" , "Îèµ¸"} , forcesuffix = "´º"}
-SKILL_TYPE[2481] = {name = "Ê¥µ®Ê±×°Îèµ¸" , act = {"" , "Îèµ¸"} , forcesuffix = "Ê¥µ®"}
-SKILL_TYPE[2482] = {name = "Ê¥µ®Ê±×°Îèµ¸" , act = {"" , "Îèµ¸"} , forcesuffix = "Ê¥µ®"}
-SKILL_TYPE[2494] = {name = "»¢ÄêÐÂ´º°ÝÄê" , act = {"" , "±íÇé»ÓÊÖ"}}
-SKILL_TYPE[2501] = {name = "2010´º½ÚÊ±×°Îèµ¸" , act = {"" , "Îèµ¸"} , forcesuffix = "ÐÂÄê"}
-SKILL_TYPE[2502] = {name = "2010´º½ÚÊ±×°Îèµ¸" , act = {"" , "Îèµ¸"} , forcesuffix = "ÐÂÄê"}
-SKILL_TYPE[2560] = {name = "õõ²õ×°ÌøÎè" , act = {"" , "±íÇéÌøÎè"} , forcesuffix = "õõ²õ×°"}
-SKILL_TYPE[2561] = {name = "ÂÀ²¼×°ÌøÎè" , act = {"" , "±íÇéÌøÎè"} , forcesuffix = "ÂÀ²¼×°"}
-SKILL_TYPE[2633] = {name = "¸£ÆøÔª±¦" , act = {"" , "·ÉÐÐÊ©·ÅÀ×Ïµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2634] = {name = "Ï²ÇìÔª±¦" , act = {"" , "·ÉÐÐÊ©·Å»ðÏµ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2678] = {name = "×Ô¶¯µöÓã" , act = {"","ÏÐÖÃ¶¯×÷","Õ¾Á¢²Ù×÷","µöÓã","Õ¾Á¢²Ù×÷Ñ­»·",""} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[2881] = {name = "³à±ÚÖ®Õ½Õ¨µ¯" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[2882] = {name = "³à±ÚÖ®Õ½Á¬åó" , act = {"" , "Öî¸ðÁ¬åó"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[2644] = {name = "Ò»×ªÊ³Îï1" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[2645] = {name = "Ò»×ªÊ³Îï2" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[2646] = {name = "Ò»×ªÊ³Îï3" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[2647] = {name = "Ò»×ªÊ³Îï4" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[2648] = {name = "Ò»×ªÊ³Îï5" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[2649] = {name = "Ò»×ªÊ³Îï6" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[2650] = {name = "Ò»×ªÊ³Îï7" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[2651] = {name = "Ò»×ªÊ³Îï8" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[2652] = {name = "Ò»×ªÊ³Îï9" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[2653] = {name = "Ò»×ªÊ³Îï10" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[2664] = {name = "Ò»×ªÊ³Îï11" , act = {"","³ÔºÈ¶¯×÷"}}
-SKILL_TYPE[3151] = {name = "1009Ò³Ãæ»î¶¯¼¦µ°Í¶ÖÀ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[2915] = {name = "»ðÀ×µ¯" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[2899] = {name = "ÁÒ»ð²»ÇÖ" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[2901] = {name = "³ý·çÁé" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[2902] = {name = "½â³ýÇàÉß¾ç¶¾" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[2910] = {name = "½â³ý³àÉß¾ç¶¾" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[2911] = {name = "½â³ý½ðÉß¾ç¶¾" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[2912] = {name = "½â³ýÇà»·Éß¶¾" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[2913] = {name = "½â³ý½ð°ßÉß¶¾" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[2916] = {name = "½ð¸ÕÉÈ" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[3235] = {name = "Ô¶³ÌÍ¶ÖÀÊÖÀ×" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3236] = {name = "Ô¶³ÌÍ¶ÖÀ¼õËÙµ¯" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3233] = {name = "ÒþÉí·û" , act = {"" , "Ö¸ÏòÊ©·ÅÀ×Ïµ"}}
-SKILL_TYPE[3234] = {name = "¼ÓËÙ·û" , act = {"" , "Ö¸ÏòÊ©·Å·çÏµ"}}
-SKILL_TYPE[3348] = {name = "Õ¼²·µÀ¾ß1" , act = { "±íÇéÇóÇ©"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3349] = {name = "Õ¼²·µÀ¾ß2" , act = { "±íÇéÃÔÏã"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3350] = {name = "Õ¼²·µÀ¾ß3" , act = { "±íÇé¾Æºø"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3351] = {name = "Õ¼²·µÀ¾ß4" , act = { "±íÇéËÍÌÇ¹û"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3352] = {name = "Õ¼²·µÀ¾ß5" , act = { "±íÇé³ª¸è"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3374] = {name = "°ÝÄêºì°ü" , act = { "±íÇéÇóÇ©"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3381] = {name = "´òÑ©ÕÌ" , act = { "´òÑ©ÕÌ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3375] = {name = "·ÖÏí»ð¼¦" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3377] = {name = "Ê¥µ®ËÌ¸è" , act = {"" , "±íÇé³ª¸è"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3378] = {name = "Ê¥µ®ÀñÎï" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3379] = {name = "ÅÝÅÝÑ©Çò" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3408] = {name = "ÕÙ»½»¤ÎÀ" , act = {"Õ¾Á¢²Ù×÷"}}
-SKILL_TYPE[3502] = {name = "´«Çé´ïÒâ" , act = {"±íÇéÇ×ÎÇ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3478] = {name = "±ÞÅÚÕ¨ÉËÄêÊÞ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3550] = {name = "ÐÐÔÆÖ®Îè" , act = {"±íÇéÌøÎè"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3551] = {name = "Ï²³Æ" , act = {"ÌôÆð¸ÇÍ·"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3552] = {name = "´«Çé´ïÒâ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3566] = {name = "ºÃÓÑ°Ý·Ã" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3609] = {name = "ÂäÓ£·×" , act = {"" , "±íÇéÄÏÂù¶Ì¿ãÄÐÎèµ¸"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3610] = {name = "²Ê»·Çú" , act = {"" , "±íÇéÄÏÂù¶ÌÈ¹Å®Îèµ¸"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3615] = {name = "ÐíÔ¸É°" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3647] = {name = "Õ¨µ¯" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3648] = {name = "Ò»ÊøÏÊ»¨" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3649] = {name = "Ð¢×ÓÀñ°ü£¨Ä¸Ç×½Ú£©" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3650] = {name = "Ð¢×ÓÀñ°ü£¨¸¸Ç×½Ú£©" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3653] = {name = "ÀÍ¶¯»¤Íó" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[2509] = {name = "²âÊÔÒÆ¶¯ÊÍ·¨" , act = {"Ö¸ÏòÒ÷³ª","´òÑ©ÕÌ",},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3678] = {name = "ºùÂ«" , act = {"" , "×í¾Æ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3679] = {name = "»¨»·" , act = {"" , "»¨»·"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3728] = {name = "µÑÒô¾ø" , act = {"" , "ÌøÎèµÑ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3729] = {name = "Ð¦ºì³¾" , act = {"" , "Îèµ¸É¡"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3731] = {name = "Ð¦ºì³¾" , act = {"" , "±íÇé³ª¸è"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3753] = {name = "ÌøÎèÇÙ" , act = {"" , "Îèµ¸ÇÙ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3754] = {name = "ÌøÎèÉÈ" , act = {"" , "Îèµ¸ÉÈ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[3766] = {name = "ÌøÎèÅýÅÃ" , act = {"" , "Îèµ¸"} , forcesuffix = "ÅýÅÃ"}
-SKILL_TYPE[3767] = {name = "ÌøÎèÐÜÃ¨" , act = {"" , "Îèµ¸"} , forcesuffix = "ÐÜÃ¨"}
-SKILL_TYPE[3794] = {name = "»î¶¯ÊÖÁñµ¯" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[3916] = {name = "ÌøÎè·çóÝÁú" , act = {"" , "Îèµ¸"} , forcesuffix = "Áú·çóÝ"}
-SKILL_TYPE[3982] = {name = "»¢ÀÎ¹ØÉÁµçÁ´" , act = {"" , "Ö¸ÏòÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[4005] = {name = "9ÔÂ»î¶¯ÓÃ" , act = { "·ÉÐÐÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[4006] = {name = "9ÔÂ»î¶¯ÓÃ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4007] = {name = "ÌøÎèÉú»¨±Ê" , act = {"" , "Îèµ¸"} , forcesuffix = "Éú»¨±Ê"}
-SKILL_TYPE[4008] = {name = "ÌøÎèÈýÏÒÇÙ" , act = {"" , "Îèµ¸"} , forcesuffix = "ÈýÏÒÇÙ"}
-SKILL_TYPE[4084] = {name = "½»ÓÑÁî" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4119] = {name = "PVPÕ½³µÕ½³¡¶¨Ê±ÕÙ¹Ö" , act = {"Õ¾Á¢²Ù×÷" , ""}}
-SKILL_TYPE[4144] = {name = "PVPÕ½³µÕ½³¡ÕÙÉÕ¶¾¹Ö" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4145] = {name = "PVPÕ½³µÕ½³¡Í¶ÖÀ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4009] = {name = "ÌøÎèÃ¨" , act = {"" , "Îèµ¸"} , forcesuffix = "Ã¨"}
-SKILL_TYPE[4063] = {name = "¾üÍÅ»ùµØ»ðÀ×" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4195] = {name = "ÎïÆ·¼¼ÄÜÑ©Çò" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4235] = {name = "ÐÂÄê±ÞÅÚ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4010] = {name = "ÌøÎèµÆÁý" , act = {"" , "Îèµ¸"} , forcesuffix = "µÆÁý"}
-SKILL_TYPE[4011] = {name = "ÌøÎèÊÖÌ×ÍÞÍÞ" , act = {"" , "Îèµ¸"} , forcesuffix = "ÊÖÌ×ÍÞÍÞ"}
-SKILL_TYPE[4315] = {name = "ÐíÔ¸É°" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4316] = {name = "ÐíÔ¸É°" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4380] = {name = "Î÷Á¹ÁÇÂÒ»ð¹Þ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4415] = {name = "»ðÑæµ¯ÉËº¦¼¼ÄÜ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4416] = {name = "ÃÀÎ¶ÖíÅÅ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4417] = {name = "ºú½·Å£ÅÅ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4360] = {name = "¹Ù¶É»î¶¯·Éµ¶" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4362] = {name = "¹Ù¶É»î¶¯¶¨Éí·û" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4363] = {name = "¹Ù¶É»î¶¯»ìÂÒ·û" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4364] = {name = "¹Ù¶É»î¶¯ºüÏÉ¼Ýµ½" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4365] = {name = "¹Ù¶É»î¶¯Ó×Í¯ÎÞ¹¼" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4366] = {name = "¹Ù¶É»î¶¯¶á»ê´Ì" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4367] = {name = "¹Ù¶É»î¶¯»ðÀ×µ¯" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4368] = {name = "¹Ù¶É»î¶¯ÓæÍøµ¯" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4369] = {name = "¹Ù¶É»î¶¯ÉúÃüÍè" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4370] = {name = "¹Ù¶É»î¶¯ÖúÈËÎªÀÖÍè" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4458] = {name = "ÆßÏ¦ÅÅÐÐ°ñ¼¼ÄÜ1" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4459] = {name = "ÆßÏ¦ÅÅÐÐ°ñ¼¼ÄÜ2" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4538] = {name = "ÆßÏ¦ÅÅÐÐ°ñ¼¼ÄÜ2" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4012] = {name = "ÌøÎèÓñÅå»¢" , act = {"" , "Îèµ¸"} , forcesuffix = "ÓñÅå»¢"}
-SKILL_TYPE[4608] = {name = "Ñ©Ö®×£Ô¸" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4013] = {name = "ÌøÎèÐ¡Ñ±Â¹" , act = {"" , "Îèµ¸"} , forcesuffix = "Ð¡Ñ±Â¹"}
-SKILL_TYPE[4014] = {name = "ÌøÎèÓñÅåÁú" , act = {"" , "Îèµ¸"} , forcesuffix = "ÓñÅåÁú"}
-SKILL_TYPE[4712] = {name = "ÕÙ»½»¤ÎÀ" , act = {"Õ¾Á¢²Ù×÷"}}
-SKILL_TYPE[4925] = {name = "ÉÈ·çµÀ¾ß¶¯×÷" , act = {"ÉÈ·ç"} }
-SKILL_TYPE[4962] = {name = "Ã¯ÁêµÁÄ¹ÔôÎïÆ·¼¼ÄÜ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4982] = {name = "»î¶¯¶ªÆúÔÓÎï" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[4983] = {name = "»î¶¯ÉÏ½»º£Óã" , act = {"Õ¾Á¢²Ù×÷"}}
-SKILL_TYPE[4971] = {name = "ÌøÎè°Ôº£" , act = {"" , "Îèµ¸"} , forcesuffix = "°Ôº£"}
-SKILL_TYPE[4972] = {name = "ÌøÎèÙÈÔÂ" , act = {"" , "Îèµ¸"} , forcesuffix = "ÙÈÔÂ"}
-SKILL_TYPE[4973] = {name = "ÌøÎèÂäÈÕ" , act = {"" , "Îèµ¸"} , forcesuffix = "ÂäÈÕ"}
-SKILL_TYPE[4974] = {name = "ÌøÎè÷è÷ë" , act = {"" , "Îèµ¸"} , forcesuffix = "÷è÷ë"}
-SKILL_TYPE[4975] = {name = "ÌøÎèÇã³Ç" , act = {"" , "Îèµ¸"} , forcesuffix = "Çã³Ç"}
-SKILL_TYPE[4976] = {name = "ÌøÎè°ÙÁ¶" , act = {"" , "Îèµ¸"} , forcesuffix = "°ÙÁ¶"}
-SKILL_TYPE[4977] = {name = "ÌøÎèÂåÉñ" , act = {"" , "Îèµ¸"} , forcesuffix = "ÂåÉñ"}
-SKILL_TYPE[4978] = {name = "ÌøÎèÕ¿Â¬" , act = {"" , "Îèµ¸"} , forcesuffix = "Õ¿Â¬"}
-SKILL_TYPE[4979] = {name = "ÌøÎèÎÔÁú" , act = {"" , "Îèµ¸"} , forcesuffix = "ÎÔÁú"}
-SKILL_TYPE[4980] = {name = "ÌøÎè·½Ìì" , act = {"" , "Îèµ¸"} , forcesuffix = "·½Ìì"}
-SKILL_TYPE[4994] = {name = "¶ÌÆÚ»î¶¯Õ¨Ò©¼õÑª" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5004] = {name = "ÌøÎè·üÄ§" , act = {"" , "Îèµ¸"} , forcesuffix = "·üÄ§"}
-SKILL_TYPE[5014] = {name = "ÐÛ»Æ¾Æ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5019] = {name = "·ïÒÇÎè" , act = {"" , "Îèµ¸"} , forcesuffix = "õõ²õ"}
-SKILL_TYPE[4015] = {name = "ÊéÏä" , act = {"" , "Îèµ¸"} , forcesuffix = "ÊéÏä"}
-SKILL_TYPE[4016] = {name = "»¨Àº" , act = {"" , "Îèµ¸"} , forcesuffix = "»¨Àº"}
-SKILL_TYPE[5068] = {name = "¹ËÅÎÉú×Ë" , act = {"" , "Îèµ¸"} , forcesuffix = "´óÇÇ"}
-SKILL_TYPE[5129] = {name = "Í¸ÐÄÁ¹ÐÄ·ÉÑï" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5131] = {name = "»î¶¯Ë®Çò" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5110] = {name = "¾öÐÄ¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5111] = {name = "¾öÐÄ¡¤ÆÆ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5112] = {name = "¾öÐÄ¡¤¾ü" , act = {"" , "µ´¿Ü"}, forcesuffix = "½£"}
-SKILL_TYPE[5113] = {name = "Ç¿¹¥¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5114] = {name = "Ç¿¹¥¡¤ÆÆ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5115] = {name = "Ç¿¹¥¡¤¾ü" , act = {"" , "ºáÅü"}, forcesuffix = "µ¶"}
-SKILL_TYPE[5116] = {name = "¶áÃü¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5117] = {name = "¶áÃü¡¤ÆÆ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5118] = {name = "¶áÃü¡¤¾ü" , act = {"" , "±¬ÆÆ"}, forcesuffix = "¸«"}
-SKILL_TYPE[5119] = {name = "Ìú±Ú¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5120] = {name = "Ìú±Ú¡¤ÆÆ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5121] = {name = "Ìú±Ú¡¤¾ü" , act = {"" , "Í»½ø"}, forcesuffix = "¶Ü"}
-SKILL_TYPE[5122] = {name = "Ó°Ï®¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5123] = {name = "Ó°Ï®¡¤ÆÆ" , act = {"" , "Ó°ÉÁ"}, forcesuffix = "×¦"}
-SKILL_TYPE[5124] = {name = "Ó°Ï®¡¤¾ü" , act = {"" , "Å­´Ì"}, forcesuffix = "×¦"}
-SKILL_TYPE[5125] = {name = "¼ÅÃð¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5126] = {name = "¼ÅÃð¡¤ÆÆ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5127] = {name = "¼ÅÃð¡¤¾ü" , act = {"" , "¼ÅÃð"}, forcesuffix = "¹÷"}
-SKILL_TYPE[5153] = {name = "Õ¶Ìú¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5154] = {name = "Õ¶Ìú¡¤ÆÆ" , act = {"" , "Õ¶Ìú"}, forcesuffix = "îá"}
-SKILL_TYPE[5155] = {name = "Õ¶Ìú¡¤¾ü" , act = {"" , "ÁÒ·çÖØÕ¶"}, forcesuffix = "îá"}
-SKILL_TYPE[5156] = {name = "Á¦Õ½¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5157] = {name = "Á¦Õ½¡¤ÆÆ" , act = {"" , "Ìô´Ì"}, forcesuffix = "Ç¹"}
-SKILL_TYPE[5158] = {name = "Á¦Õ½¡¤¾ü" , act = {"" , "Ë¦Ç¹"}, forcesuffix = "Ç¹"}
-SKILL_TYPE[5159] = {name = "Ç±Áú¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5160] = {name = "Ç±Áú¡¤ÆÆ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5161] = {name = "Ç±Áú¡¤¾ü" , act = {"" , "½µÁú"}, forcesuffix = "ïµ"}
-SKILL_TYPE[5165] = {name = "¶Ï³î¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5166] = {name = "¶Ï³î¡¤ÆÆ" , act = {"", "¶Ï³îÆÆ"}, forcesuffix = "²æ"}
-SKILL_TYPE[5167] = {name = "¶Ï³î¡¤¾ü" , act = {"", "¶Ï³î¾ü"}, forcesuffix = "²æ"}
-SKILL_TYPE[5168] = {name = "ÀÞÔÆ¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5169] = {name = "ÀÞÔÆ¡¤ÆÆ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5170] = {name = "ÀÞÔÆ¡¤¾ü" , act = {"" , "Å­ÔÒ"}, forcesuffix = "´¸"}
-SKILL_TYPE[5171] = {name = "Çå·ç¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5172] = {name = "Çå·ç¡¤ÆÆ" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5173] = {name = "Çå·ç¡¤¾ü" , act = {"" , "Çå·ç"}, forcesuffix = "Îè"}
-SKILL_TYPE[5175] = {name = "°ÔÍõ¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5176] = {name = "°ÔÍõ¡¤ÆÆ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5177] = {name = "°ÔÍõ¡¤¾ü" , act = {"" , "¹á´Ì"}, forcesuffix = "êª"}
-SKILL_TYPE[5178] = {name = "´ç¾ø¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5179] = {name = "´ç¾ø¡¤ÆÆ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5180] = {name = "´ç¾ø¡¤¾ü" , act = {"" , "´ç¾ø¾ü"}, forcesuffix = "¹³"}
-SKILL_TYPE[5181] = {name = "Çá¿ñ¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5182] = {name = "Çá¿ñ¡¤ÆÆ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5183] = {name = "Çá¿ñ¡¤¾ü" , act = {"" , "·æÕ¶"}, forcesuffix = "»·"}
-SKILL_TYPE[5187] = {name = "»ðÏ®¡¤Å­" , act = {"" , "»ðÏ®Å­"}, forcesuffix = "ÕÈ"}
-SKILL_TYPE[5188] = {name = "»ðÏ®¡¤ÆÆ" , act = {"" , "»ðÏ®ÆÆ"}, forcesuffix = "ÕÈ"}
-SKILL_TYPE[5189] = {name = "»ðÏ®¡¤¾ü" , act = {"" , "Éñ»ð"}, forcesuffix = "ÕÈ"}
-SKILL_TYPE[5190] = {name = "±ù·ç¡¤Å­" , act = {"" , "¿ñ·ç"}, forcesuffix = "ÉÈ"}
-SKILL_TYPE[5191] = {name = "±ù·ç¡¤ÆÆ" , act = {"" , "±ù·â"}, forcesuffix = "ÉÈ"}
-SKILL_TYPE[5192] = {name = "±ù·ç¡¤¾ü" , act = {"" , "Ëª¶³"}, forcesuffix = "ÉÈ"}
-SKILL_TYPE[5193] = {name = "Í¸Ê¸¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5194] = {name = "Í¸Ê¸¡¤ÆÆ" , act = {"" , "¹­Éä»÷2"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5195] = {name = "Í¸Ê¸¡¤¾ü" , act = {"¹­×¼±¸2" , "¹­Éä»÷2"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5196] = {name = "ÉßÓ°¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5197] = {name = "ÉßÓ°¡¤ÆÆ" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5198] = {name = "ÉßÓ°¡¤¾ü" , act = {"" , "ÉßÓ°"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5333] = {name = "Ë²É±¡¤Å­" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5334] = {name = "Ë²É±¡¤ÆÆ" , act = {"" , "Ë²É±Å­"} , forcesuffix = "åó"}
-SKILL_TYPE[5335] = {name = "Ë²É±¡¤¾ü" , act = {"" , "Ë²É±¾ü"} , forcesuffix = "åó"}
-SKILL_TYPE[5262] = {name = "ÌøÎèµäÎ¤" , act = {"" , "Îèµ¸"} , forcesuffix = "µäÎ¤"}
-SKILL_TYPE[5263] = {name = "ÌøÎèµäÎ¤" , act = {"" , "Îèµ¸"} , forcesuffix = "ÕÅ´º»ª"}
-SKILL_TYPE[5264] = {name = "ÌøÎèµäÎ¤" , act = {"" , "Îèµ¸"} , forceextra = "ÑÝÎä¶¯×÷" , forcesuffix = "µ¶"}
-SKILL_TYPE[5265] = {name = "ÌøÎèµäÎ¤" , act = {"" , "Îèµ¸"} , forcesuffix = "»Æ½ð¼×"}
-SKILL_TYPE[5266] = {name = "ÌøÎèµäÎ¤" , act = {"" , "Îèµ¸"} , forceextra = "ÑÝÎä¶¯×÷" , forcesuffix = "Îè"}
-SKILL_TYPE[5267] = {name = "ÌøÎèµäÎ¤" , act = {"" , "Îèµ¸"} , forcesuffix = "½ðË¿±Þ"}
-SKILL_TYPE[5268] = {name = "ÌøÎèµäÎ¤" , act = {"" , "Îèµ¸"} , forcesuffix = "ÁÒÑæ±Þ"}
-SKILL_TYPE[5271] = {name = "ÖÐÇïÐÑ¾Æ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5273] = {name = "¶ªÊÖÅÁ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5274] = {name = "¶ªÊÖÅÁ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5337] = {name = "¶ªÊÖÅÁ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5338] = {name = "¶ªÊÖÅÁ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5339] = {name = "¶ªÊÖÅÁ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5387] = {name = "ÌøÎèµäÎ¤" , act = {"" , "Îèµ¸"} , forcesuffix = "ÕÅ·É"}
-SKILL_TYPE[5388] = {name = "ÌøÎèµäÎ¤" , act = {"" , "Îèµ¸"} , forcesuffix = "Âí³¬"}
-SKILL_TYPE[5389] = {name = "ÌøÎèµäÎ¤" , act = {"" , "Îèµ¸"} , forcesuffix = "ÕÔÔÆ"}
-SKILL_TYPE[5435] = {name = "ÌøÎè²Ü²Ù" , act = {"" , "Îèµ¸"} , forcesuffix = "²Ü²Ù"}
-SKILL_TYPE[5436] = {name = "ÌøÎèÁõ±¸" , act = {"" , "Îèµ¸"} , forcesuffix = "Áõ±¸"}
-SKILL_TYPE[5437] = {name = "ÌøÎèËïÈ¨" , act = {"" , "Îèµ¸"} , forcesuffix = "ËïÈ¨"}
-SKILL_TYPE[5633] = {name = "·ÀÀÇÅçÎí" , act = {"" , "Ö¸ÏòÊ©·ÅµÀ¾ß"}}
-SKILL_TYPE[5635] = {name = "¶ªÊÖÅÁ" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5639] = {name = "ÌìÓÓ" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5640] = {name = "î¸»ê" , act = {"" , "Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5641] = {name = "ÃúÓ¡" , act = {"" , "Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5653] = {name = "ÉÕÏã" , act = {"" , "±íÇéÃÔÏã"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5732] = {name = "ÇóÇ©" , act = {"±íÇéÇóÇ©" , ""} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5861] = {name = "¶¨Ê±Õ¨µ¯" , act = {"Õ¾Á¢²Ù×÷" , ""}}
-SKILL_TYPE[5862] = {name = "Í¶ÖÀÕ¨µ¯" , act = {"" , "Í¶ÖÀÕ¨µ¯"} , forcesuffix = "Ë®Õ½"}
-SKILL_TYPE[5883] = {name = "±íÇéÇ×ÎÇ" , act = {"" , "±íÇéÇ×ÎÇ"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5891] = {name = "²»·²Îä" , act = {"" , "¹ÄÎèÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5892] = {name = "²»·²Îä" , act = {"" , "¹ÄÎèÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5893] = {name = "²»·²ÎÄ" , act = {"" , "Ö¸ÏòÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5895] = {name = "²»·²ÎÄ" , act = {"" , "Ö¸ÏòÊ©·Å"} , forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5911] = {name = "±§È­" , act = {"" , "±íÇéÏÂ¹ò±§È­"} , forcesuffix = "Í¨ÓÃ"}
-
-
-
----²âÊÔ¼¼ÄÜ
-SKILL_TYPE[364] = {name = "²âÊÔÆÕ¹¥1" , act = {"","ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[365] = {name = "²âÊÔÆÕ¹¥2" , act = {"","ÆÕÍ¨¹¥»÷2"}}
-SKILL_TYPE[366] = {name = "²âÊÔÇá»÷1" , act = {"","Çá»÷1"}}
-SKILL_TYPE[367] = {name = "²âÊÔÇá»÷2" , act = {"","Çá»÷2"}}
-SKILL_TYPE[368] = {name = "²âÊÔÖØ»÷1" , act = {"","ÖØ»÷1"}}
-SKILL_TYPE[369] = {name = "²âÊÔÖØ»÷2" , act = {"","ÖØ»÷2"}}
-SKILL_TYPE[370] = {name = "²âÊÔ¶ÔµØ¹¥»÷" , act = {"","¶ÔµØ¹¥»÷"}}
-SKILL_TYPE[401] = {name = "²âÊÔ¶Ô¿Õ¹¥»÷" , act = {"","¶Ô¿Õ¹¥»÷"}}
-SKILL_TYPE[402] = {name = "²âÊÔÌøÔ¾¹¥»÷" , act = {"","ÌøÔ¾¹¥»÷"}}
-SKILL_TYPE[403] = {name = "²âÊÔ»Ø×ª¹¥»÷" , act = {"","»Ø×ª¹¥»÷"}}
-SKILL_TYPE[404] = {name = "²âÊÔÍ»´Ì¹¥»÷" , act = {"","Í»´Ì¹¥»÷"}}
-SKILL_TYPE[417] = {name = "²âÊÔÆÕ¹¥1" , act = {"","ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[418] = {name = "²âÊÔÆÕ¹¥2" , act = {"","ÆÕÍ¨¹¥»÷2"}}
-SKILL_TYPE[419] = {name = "²âÊÔÇá»÷1" , act = {"","Çá»÷1"}}
-SKILL_TYPE[420] = {name = "²âÊÔÇá»÷2" , act = {"","Çá»÷2"}}
-SKILL_TYPE[421] = {name = "²âÊÔÖØ»÷1" , act = {"","ÖØ»÷1"}}
-SKILL_TYPE[422] = {name = "²âÊÔÖØ»÷2" , act = {"","ÖØ»÷2"}}
-SKILL_TYPE[423] = {name = "²âÊÔ·ÉÐÐÒ÷³ªÊ©·Å" , act = {"·ÉÐÐÒ÷³ª","·ÉÐÐÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[424] = {name = "²âÊÔÖ¸ÏòÒ÷³ªÊ©·Å" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[425] = {name = "²âÊÔ×ÔÉíÒ÷³ªÊ©·Å" , act = {"×ÔÉíÒ÷³ª","×ÔÉíÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[426] = {name = "²âÊÔ¹ÄÎèÒ÷³ªÊ©·Å" , act = {"¹ÄÎèÒ÷³ª","¹ÄÎèÊ©·Å"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[428] = {name = "²âÊÔ¹â»·1" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[429] = {name = "²âÊÔ¹â»·2" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[430] = {name = "²âÊÔ¹â»·3" , act = {"","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[450] = {name = "²âÊÔË²ÒÆ" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[451] = {name = "²âÊÔ³å·æ" , act = {"ÌØÊâ×¼±¸","¼ÓËÙÅÜ"}, forcesuffix = "ÒìÀà"}
-SKILL_TYPE[452] = {name = "²âÊÔÔÒ»÷" , act = {"ÐîÁ¦×¼±¸","ÌøÔ¾¹¥»÷"}}
-SKILL_TYPE[1127]={name="²âÊÔ",act={"°µÆ÷×¼±¸","°µÆ÷Í¶ÖÀ"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1128]={name="²âÊÔ",act={"","³å´Ì"}}
-SKILL_TYPE[1129]={name="²âÊÔ",act={"¹­×¼±¸1","¹­Éä»÷1"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1130]={name="²âÊÔ",act={"¹­×¼±¸2","¹­Éä»÷2"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1131]={name="²âÊÔ",act={"¹­×¼±¸3","¹­Éä»÷3"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1132]={name="²âÊÔ",act={"¹­×¼±¸4","¹­Éä»÷4"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[1133]={name="²âÊÔ",act={"","ÂÒÎè"}}
-SKILL_TYPE[1134]={name="²âÊÔ",act={"","ÆÕÍ¨¹¥»÷1"}}
-SKILL_TYPE[1135]={name="²âÊÔ",act={"","ÆÕÍ¨¹¥»÷2"}}
-SKILL_TYPE[1136]={name="²âÊÔ",act={"","Ç¿»÷"}}
-SKILL_TYPE[1137]={name="²âÊÔ",act={"","ÖØ»÷1"}}
-SKILL_TYPE[1138]={name="²âÊÔ",act={"","ÖØ»÷2"}}
-SKILL_TYPE[1139]={name="²âÊÔ",act={"","Îè¹¥»÷1"}, forcesuffix = "Îè"}
-SKILL_TYPE[1140]={name="²âÊÔ",act={"","Îè¹¥»÷2"}, forcesuffix = "Îè"}
-SKILL_TYPE[1141]={name="²âÊÔ",act={"","Îè¹¥»÷3"}, forcesuffix = "Îè"}
-SKILL_TYPE[1142]={name="²âÊÔ",act={"","êª¹¥»÷1"}, forcesuffix = "³¤Çá"}
-SKILL_TYPE[1143]={name="²âÊÔ",act={"","êª¹¥»÷2"}, forcesuffix = "³¤Çá"}
-SKILL_TYPE[1144]={name="²âÊÔ",act={"","êª¹¥»÷3"}, forcesuffix = "³¤Çá"}
-SKILL_TYPE[2861] = {name = "×ªÉúÒ©¸à" , act = {"Õ¾Á¢²Ù×÷","","","","","","Õ¾Á¢²Ù×÷"}}
+---æ–
+SKILL_TYPE[282] = {name = "ç«çƒ" , act = {"æŒ‡å‘åŸå”±2ç«ç³»" , "æŒ‡å‘æ–½æ”¾2"}}
+SKILL_TYPE[283] = {name = "æƒŠé›·æœ¯" , act = {"","æŒ‡å‘æ–½æ”¾é›·ç³»" , "æŒ‡å‘æ–½æ”¾" ,"æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[284] = {name = "ç–¾ç”µ" , act = {"æŒ‡å‘åŸå”±2é›·ç³»" , "æŒ‡å‘æ–½æ”¾2"}}
+SKILL_TYPE[285] = {name = "ç‚Žçˆ†æœ¯" , act = {"é£žè¡ŒåŸå”±ç«ç³»" , "é£žè¡Œæ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[286] = {name = "è½é›·æœ¯" , act = {"æŒ‡å‘åŸå”±é›·ç³»" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[287] = {name = "æ˜Ÿç«æœ¯" , act = {"æ˜Ÿç«ç‡ŽåŽŸ" , ""} , forcesuffix = "å¼‚ç±»"}
+SKILL_TYPE[288] = {name = "é›·åŠ¨ä¹å¤©" , act = {"é›·åŠ¨ä¹å¤©" , ""} , forcesuffix = "å¼‚ç±»"}
+SKILL_TYPE[289] = {name = "ç«ç¾½" , act = {"" , "è½»å‡»1"}}
+SKILL_TYPE[290] = {name = "æ•é”" , act = {"é£žè¡ŒåŸå”±" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[291] = {name = "å£åž’" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[292] = {name = "ç«ç”²æœ¯" , act = {"é¼“èˆžåŸå”±" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[293] = {name = "é›·ç”²æœ¯" , act = {"é¼“èˆžåŸå”±" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[294] = {name = "ç¼©åœ°" , act = {"å¼ºåŠ›å‡†å¤‡" , "è·³è·ƒå¾ªçŽ¯"}}
+SKILL_TYPE[295] = {name = "å¼ºä½“æœ¯" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[296] = {name = "ç‚ŽçŽ¯æœ¯" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[297] = {name = "åœ°ç…žå›°ç¼š" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[772] = {name = "å¤©é›·å’’" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[797] = {name = "å¼•çˆ†" , act = {"é£žè¡ŒåŸå”±ç«ç³»" , "é£žè¡ŒæŒç»­ç«ç³»"}}
+SKILL_TYPE[1735] = {name = "ç›¾åè¯…å’’" , act = {"é£žè¡ŒåŸå”±é£Žç³»" , "é£žè¡Œæ–½æ”¾é£Žç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1736] = {name = "å†°å°ç‰¢ç‹±" , act = {"é£žè¡ŒåŸå”±å†°ç³»" , "é£žè¡Œæ–½æ”¾å†°ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1737] = {name = "éœœå¯’åˆºéª¨" , act = {"" , "æŒ‡å‘æ–½æ”¾å†°ç³»"}}
+SKILL_TYPE[1738] = {name = "è¯¡å¼‚æ–½æ³•" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[784] = {name = "ç‹‚é›·æœ¯" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+---èˆž
+SKILL_TYPE[302] = {name = "æ·™æ·™ä¹‹èˆž",act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[303] = {name = "çµåŠ¨ä¹‹èˆž",act = {"","è½»å‡»2"},forcesuffix = "èˆž"}
+SKILL_TYPE[304] = {name = "å¤§é£Žä¹‹èˆž",act = {"","é‡å‡»2",""},forcesuffix = "èˆž"}
+SKILL_TYPE[305] = {name = "å¹¿è¢–ä¹‹èˆž",act = {"","å¯¹åœ°æ”»å‡»"},forcesuffix = "èˆž"}
+SKILL_TYPE[306] = {name = "é¼“æŒ¯ä¹‹èˆž",act = {"","å›žè½¬æ”»å‡»"},forcesuffix = "èˆž"}
+SKILL_TYPE[307] = {name = "æŠšæ…°ä¹‹èˆž",act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[308] = {name = "å¿…èƒœä¹‹èˆž",act = {"","å¤©å®«æ—‹èˆž"},forcesuffix = "å¼‚ç±»"}
+SKILL_TYPE[309] = {name = "é“®é“®ä¹‹èˆž",act = {"èˆžæ”»å‡»1",""},forcesuffix = "èˆž"}
+SKILL_TYPE[310] = {name = "äº‘é›¨ä¹‹èˆž",act = {"è“„åŠ›å‡†å¤‡","äº‘é›¨ä¹‹èˆž","","","","æˆ˜æ–—ç«™ç«‹"},forcesuffix = "å¼‚ç±»"}
+SKILL_TYPE[311] = {name = "å€¾å›½ä¹‹èˆž",act = {"","é£žè¡ŒæŒç»­é›·ç³»"}}
+SKILL_TYPE[312] = {name = "ç ´é˜µä¹‹èˆž",act = {"","å›žè½¬æ”»å‡»"},forcesuffix = "èˆž"}
+SKILL_TYPE[313] = {name = "ç©º",act = {"",""}}
+SKILL_TYPE[314] = {name = "é€€é¿",act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[315] = {name = "è¶æ‰‡ä¹‹èˆž",act = {"è“„åŠ›å‡†å¤‡","è½»å‡»1"},forcesuffix = "èˆž"}
+SKILL_TYPE[316] = {name = "å¹²æˆšä¹‹èˆž",act = {"","é‡å‡»1"},forcesuffix = "èˆž"}
+SKILL_TYPE[317] = {name = "ç©º",act = {"",""}}
+SKILL_TYPE[318] = {name = "ç©º",act = {"",""}}
+SKILL_TYPE[319] = {name = "ç©º",act = {"",""}}
+SKILL_TYPE[320] = {name = "æ¶“æ¶“ä¹‹èˆž",act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[1054] = {name = "å‹‡å¾€ç›´å‰",act = {"","æŒ‡å‘æ–½æ”¾é£Žç³»"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1077] = {name = "é¬¼é­…ä¹‹èˆž",act = {"","é¬¼é­…ä¹‹èˆž","","","","æˆ˜æ–—ç«™ç«‹","é¬¼é­…ä¹‹èˆž","","","","æˆ˜æ–—ç«™ç«‹"},forcesuffix = "å¼‚ç±»"}
+SKILL_TYPE[1741] = {name = "é¢„å…†ä¹‹èˆž" , act = {"é£žè¡ŒåŸå”±é£Žç³»" , "é£žè¡Œæ–½æ”¾é£Žç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1742] = {name = "çœ©å…‰" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[1743] = {name = "é¬¼é­…ä¹‹èˆž" , act = {"æŒ‡å‘åŸå”±ç«ç³»" , "æŒ‡å‘æ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[1744] = {name = "é­…å¦–ä¹‹èˆž" , act = {"å¤©å®«æ—‹èˆž" , ""} , forcesuffix = "å¼‚ç±»"}
+SKILL_TYPE[3546] = {name = "æ¶…æ§ƒä¹‹èˆž",act = {"æŒ‡å‘åŸå”±ç«ç³»","æŒ‡å‘æ–½æ”¾", forcesuffix = "é€šç”¨"}}
+---æ‰‡
+SKILL_TYPE[322] = {name = "é£Žçƒ" , act = {"æŒ‡å‘åŸå”±1é£Žç³»" , "æŒ‡å‘æ–½æ”¾1"}}
+SKILL_TYPE[323] = {name = "é£Žå¼¹" , act = {"","é£žè¡Œæ–½æ”¾é£Žç³»" , "é£žè¡Œæ–½æ”¾" ,"é£žè¡Œæ–½æ”¾é£Žç³»" ,"é£žè¡Œæ–½æ”¾" , "é£žè¡Œæ–½æ”¾é£Žç³»" ,"é£žè¡Œæ–½æ”¾" , "é£žè¡Œæ–½æ”¾é£Žç³»" ,"æˆ˜æ–—ç«™ç«‹"}}
+SKILL_TYPE[324] = {name = "å†°åˆº" , act = {"æŒ‡å‘åŸå”±1å†°ç³»" , "æŒ‡å‘æ–½æ”¾1"}}
+SKILL_TYPE[325] = {name = "é£Žè¢­æœ¯" , act = {"é£žè¡ŒåŸå”±é£Žç³»" , "é£žè¡Œæ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[326] = {name = "é¾™å·æœ¯" , act = {"é£žè¡ŒåŸå”±é£Žç³»" , "é£žè¡Œæ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[327] = {name = "å å†°æœ¯" , act = {"æŒ‡å‘æŒç»­å†°ç³»" , "" , "" , "" , ""}}
+SKILL_TYPE[328] = {name = "å…«æ–¹å†°é›¨" , act = {"å…«æ–¹å†°é›¨" , ""} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[329] = {name = "ä¸“æ³¨" , act = {"å¼ºåŠ›å‡†å¤‡" , "è¿‘èº«å‡†å¤‡" , "ç‰¹æ®Šå‡†å¤‡" , "è“„åŠ›å‡†å¤‡" , "æˆ˜æ–—ç«™ç«‹"}}
+SKILL_TYPE[330] = {name = "æ•‘æŠ¤" , act = {"é£žè¡ŒåŸå”±" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[331] = {name = "è¾…ä½" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[332] = {name = "é£Žç”²æœ¯" , act = {"é¼“èˆžåŸå”±" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[333] = {name = "å†°ç”²æœ¯" , act = {"é¼“èˆžåŸå”±" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[334] = {name = "ä¼ é€" , act = {"æŒ‡å‘åŸå”±é£Žç³»" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[335] = {name = "å¼ºç”Ÿæœ¯" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[336] = {name = "å†°çŽ¯æœ¯" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[337] = {name = "å¤©å¯æ’æ˜Ž" , act = {"" , ""}}
+SKILL_TYPE[841] = {name = "çŽ„å†°ç½©" , act = {"" , "é£žè¡ŒæŒç»­å†°ç³»" , "æˆ˜æ–—ç«™ç«‹"}}
+SKILL_TYPE[1745] = {name = "éœœå†»ä¹‹ç”²" , act = {"æŒ‡å‘åŸå”±å†°ç³»" , "æŒ‡å‘æ–½æ”¾å†°ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1746] = {name = "ä½“åŠ›ä¹‹ç›¾" , act = {"é¼“èˆžåŸå”±" , "é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[1747] = {name = "é›·ä¹‹å¥”è¢­" , act = {"é£žè¡ŒæŒç»­å†°ç³»" , "" , "" , "" , "" , "" , ""}}
+SKILL_TYPE[1748] = {name = "æ‹›é£Žå”¤é›ª" , act = {"é‡å‡»2" , ""} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[824] = {name = "è¢­é£Žç›¾" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+---å¼“
+SKILL_TYPE[342] = {name = "è“„æ°”" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[343] = {name = "æµæ˜Ÿç®­" , act = {"" , "å¼“å°„å‡»2"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[344] = {name = "è¾•é—¨å°„" , act = {"" , ""}}
+SKILL_TYPE[345] = {name = "è½ç¼¨å°„" , act = {"" , "å¼“å°„å‡»3"}}
+SKILL_TYPE[346] = {name = "äº”æ­¥å°„" , act = {"å¼“å‡†å¤‡5" , "å¼“å°„å‡»5"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[347] = {name = "è´¯çŸ¢å°„" , act = {"å¼“å‡†å¤‡3" , "å¼“å°„å‡»3"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[348] = {name = "é•¿è™¹è´¯æ—¥" , act = {"é•¿è™¹è´¯æ—¥åŸå”±" , "é•¿è™¹è´¯æ—¥æ–½æ”¾"} , forcesuffix = "å¼“"}
+SKILL_TYPE[349] = {name = "æ´žå¯Ÿ" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[350] = {name = "æ´žå¯Ÿ" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[351] = {name = "è¿žçŸ¢å°„" , act = {"" , "å¼“å°„å‡»2" , "å¼“å°„å‡»2"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[352] = {name = "çž„å‡†" , act = {"å¼“å‡†å¤‡3" , "" , "" , ""}}
+SKILL_TYPE[353] = {name = "å¿«è·‘" , act = {"" , ""}}
+SKILL_TYPE[354] = {name = "è¿œç¨‹æ ¼æŒ¡" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[355] = {name = "é¸£é•ç®­" , act = {"å¼“å‡†å¤‡1" , "å¼“å°„å‡»3"}}
+SKILL_TYPE[356] = {name = "æ»¡å¼¦å°„" , act = {"å¼“å‡†å¤‡2" , "å¼“å°„å‡»2"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[357] = {name = "æ‰¬æ²™" , act = {"å¼ºåŠ›å‡†å¤‡" , "è½»å‡»2"} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[358] = {name = "æµæ˜Ÿç®­" , act = {"" , "å¼“å°„å‡»2"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[359] = {name = "é¸£é•å°„" , act = {"å¼“å‡†å¤‡1" , "å¼“å°„å‡»3"}}
+SKILL_TYPE[1749] = {name = "åå°„ä¹‹å…‰" , act = {"é£žè¡ŒåŸå”±é›·ç³»" , "é£žè¡Œæ–½æ”¾é›·ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1750] = {name = "é—ªç”µå‚¨å­˜" , act = {"æŒ‡å‘åŸå”±ç«ç³»" , "æŒ‡å‘æ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[1751] = {name = "é¬¼å½±é‡é‡" , act = {"æŒ‡å‘åŸå”±é›·ç³»" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[1752] = {name = "å™©æ¢¦ä¹‹çœ " , act = {"" , "é•¿è™¹è´¯æ—¥æ–½æ”¾"} , forcesuffix = "å¼“"}
+---é”¤
+SKILL_TYPE[202] = {name = "ç ¸å‡»" , act = {"", "é‡å‡»1"}, forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[203] = {name = "ç¢Žå¿ƒé”¤" , act = {"å†²åˆºè“„åŠ›" , "å†²æ’ž"}, forcesuffix = "é”¤"}
+SKILL_TYPE[204] = {name = "æ ¼æŒ¡" , act = {"" , "æ ¼æŒ¡å¾ªçŽ¯"}}
+SKILL_TYPE[205] = {name = "å´©å±±é”¤" , act = {"", "é‡å‡»1"}, forcesuffix = "é”¤"}
+SKILL_TYPE[206] = {name = "è½°é›·é”¤" , act = {"", "é‡å‡»2"}, forcesuffix = "é”¤"}
+SKILL_TYPE[208] = {name = "ç–¾é£Žé”¤" , act = {"" , "ä¹±èˆžæ”»å‡»1" , "" , "ä¹±èˆžæ”»å‡»2" , ""}, forcesuffix = "é”¤"}
+SKILL_TYPE[209] = {name = "æ—‹é£Žé”¤" , act = {"", "æ—‹è½¬æ”»å‡»"}, forcesuffix = "é”¤"}
+SKILL_TYPE[210] = {name = "æ†¾åœ°é”¤" , act = {"", "è·³è·ƒéœ‡å‡»"}, forcesuffix = "é”¤"}
+SKILL_TYPE[211] = {name = "å¼ºè¢­" , act = {"å¼ºæ”»è“„åŠ›" , "åŽŸåœ°éœ‡å‡»"}, forcesuffix = "é”¤"}
+SKILL_TYPE[212] = {name = "å¼ºæ”»æˆ˜æ³•" , act = {"", "é¼“èˆžæ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[213] = {name = "ä¹±èˆžæˆ˜æ³•" , act = {"", "å¼ºåŒ–æ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[214] = {name = "åœ°æ¸å‡»" , act = {"" , "å¤§å–æ”»å‡»"}, forcesuffix = "é”¤"}
+SKILL_TYPE[215] = {name = "è‹ç©¹ä¹±èˆž" , act = {"" , "ä¹±èˆžè¿žå‡»1" , "ä¹±èˆžè¿žå‡»2" , "ä¹±èˆžè¿žå‡»3"}, forcesuffix = "é”¤"}
+SKILL_TYPE[216] = {name = "æ†¾å±±éœ‡å²³" , act = {"" , "æ’¼å±±éœ‡å²³"}, forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[217] = {name = "æ€’ä¸å¯é" , act = {"", "é¼“èˆžæ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[218] = {name = "å·¨çµç¥žåŠ›" , act = {"", "é¼“èˆžæ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2667] = {name = "æŒ‘æˆ˜" , act = {"", "æŒ‡å‘æ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+---å‰
+SKILL_TYPE[82] = {name = "ç–¾åˆº" , act = {"", "é£žå‰æŠ•æŽ·"}, forcesuffix = "å‰"}
+SKILL_TYPE[83] = {name = "åæ‰“" , act = {"", "è½»å‡»2"}, forcesuffix = "å‰"}
+SKILL_TYPE[84] = {name = "ç›´çª" , act = {"", "å‰çª"}, forcesuffix = "å‰"}
+SKILL_TYPE[85] = {name = "æ–­é­‚åˆº" , act = {"", "è½»å‡»1"}, forcesuffix = "å‰"}
+SKILL_TYPE[86] = {name = "ç¢ŽçŸ³æ‰“" , act = {"" , "é‡å‡»1"}, forcesuffix = "å‰"}
+SKILL_TYPE[87] = {name = "æµäº‘å‡»" , act = {"", "è½»å‡»2", "æ™®é€šæ”»å‡»2", "é‡å‡»2", ""}, forcesuffix = "å‰"}
+SKILL_TYPE[88] = {name = "é—ªå‡»å›žæ—‹" , act = {"" , "å›žæ—‹åˆ€æŠ•æŽ·4"}, forcesuffix = "å‰"}
+SKILL_TYPE[89] = {name = "æ¯’åˆƒå›žæ—‹" , act = {"" , "å›žæ—‹åˆ€æŠ•æŽ·4"}, forcesuffix = "å‰"}
+SKILL_TYPE[90] = {name = "å›žæ—‹åˆ€è¿žæŽ·" , act = {"", "å›žæ—‹åˆ€æŠ•æŽ·4", "å›žæ—‹åˆ€æŠ•æŽ·4"}, forcesuffix = "å‰"}
+SKILL_TYPE[92] = {name = "åæ­¥ä¸€æ€" , act = {"" , "å¹»å½±å‡»"}, forcesuffix = "å‰"}
+SKILL_TYPE[93] = {name = "æ˜ŽçŽ‹æŠ¤èº«" , act = {"", "æŒ‡å‘æ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[94] = {name = "é»„æ³‰å†¥æµ" , act = {"", "é£žè¡Œæ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[95] = {name = "è¡€å‹‡" , act = {"", "æŒ‡å‘æ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[97] = {name = "ç¨³å›º" , act = {"", "å¼ºåŒ–æ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[98] = {name = "é£Žé˜µ" , act = {"", "å¼ºåŒ–æ–½æ”¾"}, forcesuffix = "å‰"}
+SKILL_TYPE[100] = {name = "å›žæ—‹åˆ€æŠ•æŽ·" , act = {"", "å›žæ—‹åˆ€æŠ•æŽ·4"}, forcesuffix = "å‰"}
+---éž­
+SKILL_TYPE[5070] = {name = "é‡‘ä¸ç¼ " , act = {"","é‡‘ä¸ç¼ "}, forcesuffix = "éž­"}
+SKILL_TYPE[5071] = {name = "é“¶è›‡ç¼š" , act = {"", "é“¶è›‡ç¼š"}, forcesuffix = "éž­"}
+SKILL_TYPE[5072] = {name = "å›žé¾™ä¹±" , act = {"", "å›žé¾™ä¹±"}, forcesuffix = "éž­"}
+SKILL_TYPE[5073] = {name = "ç¼ é¢ˆæ‰“" , act = {"", "ç¼ é¢ˆæ‰“ä½ç§»","ç¼ é¢ˆæ‰“ä½ç§»æ‰“"}, forcesuffix = "éž­"}
+SKILL_TYPE[5074] = {name = "ç¢ŽçŸ³éž­" , act = {"","ç¢ŽçŸ³éž­"}, forcesuffix = "éž­"}
+SKILL_TYPE[5075] = {name = "æ–­é­‚éž­" , act = {"", "æ–­é­‚éž­"}, forcesuffix = "éž­"}
+SKILL_TYPE[5076] = {name = "è¿·å½±éž­" , act = {"è“„åŠ›", "è¿·å½±éž­"}, forcesuffix = "éž­"}
+SKILL_TYPE[5077] = {name = "é­…å½±éž­" , act = {"", "é­…å½±éž­",""}, forcesuffix = "éž­"}
+SKILL_TYPE[5078] = {name = "ç§‹é£Žæ‰«" , act = {"","ç§‹é£Žæ‰«"}, forcesuffix = "éž­"}
+SKILL_TYPE[5079] = {name = "è½é›æ‰«" , act = {"", "è½é›æ‰«"}, forcesuffix = "éž­"}
+SKILL_TYPE[5080] = {name = "è¿Žé¢æ‰«" , act = {"", "è¿Žé¢æ‰«"}, forcesuffix = "éž­"}
+SKILL_TYPE[5081] = {name = "æ‘„é­‚æ‰«" , act = {"", "æ‘„é­‚æ‰«",""}, forcesuffix = "éž­"}
+SKILL_TYPE[5082] = {name = "é£žè¦ç»•" , act = {"","é£žè¦ç»•"}, forcesuffix = "éž­"}
+SKILL_TYPE[5083] = {name = "æ®‹æ¢¦æ’©" , act = {"", "æ®‹æ¢¦æ’©"}, forcesuffix = "éž­"}
+SKILL_TYPE[5084] = {name = "è´¯åœ°å‡»" , act = {"", "è´¯åœ°å‡»"}, forcesuffix = "éž­"}
+SKILL_TYPE[5085] = {name = "å‡é¾™å‡»" , act = {"", "å‡é¾™å‡»","","",""}, forcesuffix = "éž­"}
+SKILL_TYPE[5086] = {name = "å›½è‰²å¤©é¦™" , act = {"", "é¼“èˆžæ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5087] = {name = "çº¢é¢œ" , act = {"", "é¼“èˆžæ–½æ”¾"}, forcesuffix = "çº¢é¢œ"}
+SKILL_TYPE[5088] = {name = "é‡‘è›‡ä¹±èˆž" , act = {"", "ä¹±èˆž","","",""}, forcesuffix = "éž­"}
+SKILL_TYPE[5097] = {name = "ç¦»å½±åˆº" , act = {"", "ç¦»å¿ƒåˆº"}, forcesuffix = "éž­"}
+SKILL_TYPE[5101] = {name = "éž­æŒ¡" , act = {"", "éž­æŒ¡"}, forcesuffix = "éž­"}
+SKILL_TYPE[5102] = {name = "ååˆ¶Â·é­…" , act = {"", "éž­æŒ¡åå‡»"}, forcesuffix = "éž­"}
+---å¼©
+SKILL_TYPE[5277] = {name = "ç ´å†›å¼©" , act = {"","å¹³å°„2"}, forcesuffix = "å¼©"}
+SKILL_TYPE[5278] = {name = "ç–¾é£Žå¼©" , act = {"é€Ÿå°„å‡†å¤‡","é€Ÿå°„","","","","","","","",""}, forcesuffix = "å¼©"}
+SKILL_TYPE[5279] = {name = "æµæ˜ŸçŸ¢" , act = {"","åŠ›å°„"}, forcesuffix = "å¼©"}
+SKILL_TYPE[5280] = {name = "å´æœˆçŸ¢" , act = {"è“„åŠ›", "ç¥žå°„å¤´"}, forcesuffix = "å¼©"}
+SKILL_TYPE[5281] = {name = "ä¹±äº‘å¼©" , act = {"","æ•£å°„","",""}, forcesuffix = "å¼©"}
+SKILL_TYPE[5282] = {name = "å‡ç¥žçŸ¢" , act = {"","ç¥žå°„"}, forcesuffix = "å¼©"}
+SKILL_TYPE[5283] = {name = "åŠ²å¼©" , act = {"", "è½»å¼©"}, forcesuffix = "å¼©"}
+SKILL_TYPE[5284] = {name = "è½»å¼©" , act = {"", "åŠ²å¼©"}, forcesuffix = "å¼©"}
+SKILL_TYPE[5285] = {name = "çªè¿›çŸ¢" , act = {"è“„åŠ›","å‰æ»šæ”»å‡»",""}, forcesuffix = "å¼©"}
+SKILL_TYPE[5286] = {name = "æ¼«å¤©ç®­é›¨" , act = {"å¤§æ‹›","","",""}, forcesuffix = "å¼©"}
+SKILL_TYPE[5297] = {name = "åŽè·ƒå¼©" , act = {"è“„åŠ›","åŽè·ƒå°„å‡»",""}, forcesuffix = "å¼©"}
+SKILL_TYPE[5299] = {name = "å‡Œç©ºå‡»" , act = {"","æµ®ç©ºå°„","",""}, forcesuffix = "å¼©"}
+SKILL_TYPE[5315] = {name = "å¹»å½±å‡»" , act = {"","å¹»å½±å°„"}, forcesuffix = "å¼©"}
+SKILL_TYPE[5313] = {name = "ç–¾èµ°" , act = {"" , ""}}
+--- é€šç”¨æŠ€èƒ½
+SKILL_TYPE[361] = {name = "å›žåŸŽ" , act = {"å›žåŸŽ","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[1563] = {name = "å›žåŸŽ" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[363] = {name = "åˆ‡æ¢æ­¦å™¨" , act = {"","èƒŒåŽæ‹”åˆ€"}}
+SKILL_TYPE[427] = {name = "å¤æ´»å·è½´" , act = {"è¹²ä¸‹æ“ä½œ",""}}
+SKILL_TYPE[433] = {name = "é£Ÿç‰©1" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[434] = {name = "å–æ°´1" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[435] = {name = "é£Ÿç‰©2" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[436] = {name = "é£Ÿç‰©3" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[437] = {name = "é£Ÿç‰©4" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[438] = {name = "å–æ°´2" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[439] = {name = "å–æ°´3" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[440] = {name = "å–æ°´4" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[447] = {name = "è¯è†1" , act = {"ç«™ç«‹æ“ä½œ","","","","","","ç«™ç«‹æ“ä½œ"}}
+SKILL_TYPE[448] = {name = "è¯è†2" , act = {"ç«™ç«‹æ“ä½œ","","","","","","ç«™ç«‹æ“ä½œ"}}
+SKILL_TYPE[453] = {name = "é©±æ•£è¯è†A1" , act = {"ç«™ç«‹æ“ä½œ","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[454] = {name = "é©±æ•£è¯è†B1" , act = {"ç«™ç«‹æ“ä½œ","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[455] = {name = "é©±æ•£è¯è†C1" , act = {"ç«™ç«‹æ“ä½œ","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[456] = {name = "é©±æ•£è¯è†D1" , act = {"ç«™ç«‹æ“ä½œ","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[457] = {name = "é©±æ•£è¯è†E1" , act = {"ç«™ç«‹æ“ä½œ","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[458] = {name = "é©±æ•£è¯è†A2" , act = {"ç«™ç«‹æ“ä½œ","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[459] = {name = "é©±æ•£è¯è†B2" , act = {"ç«™ç«‹æ“ä½œ","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[460] = {name = "é©±æ•£è¯è†C2" , act = {"ç«™ç«‹æ“ä½œ","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[461] = {name = "é©±æ•£è¯è†D2" , act = {"ç«™ç«‹æ“ä½œ","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[462] = {name = "é©±æ•£è¯è†E2" , act = {"ç«™ç«‹æ“ä½œ","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[603] = {name = "éªå‹‡" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[604] = {name = "åšé˜µ" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[605] = {name = "ä»å¨" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[606] = {name = "å¼ºå…µ" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[607] = {name = "æ‘§é”‹é™·é˜µ" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[608] = {name = "ç¼®ç”²æ²»å…µ" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[609] = {name = "å±¥ä»è¹ˆä¹‰" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[610] = {name = "åŽ‰å…µç§£é©¬" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[611] = {name = "æ¨ªæ‰«åƒå†›" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[612] = {name = "é•¿è¾”è¿œå¾¡" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[613] = {name = "æ­¢æˆˆå…´ä»" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[614] = {name = "æ‰¬æ——æ¼”å…µ" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[615] = {name = "ç–¾é£Žåƒé‡Œ" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[617] = {name = "ä¹åˆä¸€åŒ¡" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[619] = {name = "è¸ç ´å…³å±±" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[621] = {name = "å¨ä¼å…«è’" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[622] = {name = "å¤©ä¸‹æ¯å…µ" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[744] = {name = "çªç ´" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[745] = {name = "é£žå°†" , act = {"åŠ é€Ÿè·‘","åŠ é€Ÿè·‘"}}
+SKILL_TYPE[746] = {name = "å‹‡çŒ›" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[747] = {name = "æ— ç•" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[748] = {name = "å¾æœ" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[749] = {name = "ç»Ÿå¾¡" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[750] = {name = "æ…ä¹±" , act = {"é£žè¡ŒåŸå”±","æŒ‡å‘æ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[751] = {name = "åšæ¯…" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[752] = {name = "è¾…ä½" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[753] = {name = "å†³æ–­" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[754] = {name = "ä¸»å®°" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[756] = {name = "å¿è€é’“æœ¯" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[757] = {name = "ä¸çž¬ä¹‹ç›®" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[897] = {name = "äº²å»" , act = {"","äº²å»"}}
+SKILL_TYPE[931] = {name = "æ´žå¯Ÿç§‹æ¯«" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[932] = {name = "æœ±é›€çƒˆç‚Ž" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[933] = {name = "é’é¾™çªè¿›" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[934] = {name = "å¦™æ‰‹å›žæ˜¥" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[935] = {name = "çŸ¥äººä¹‹çœ¼" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[936] = {name = "çŽ„æ­¦æŠ¤ä½“" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[937] = {name = "æ— ç”¨" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[938] = {name = "æ­¦ä¾¯é‡‘é¼“" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[939] = {name = "ç™½è™Žæ€’å’†" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[940] = {name = "è¯é¦™é€šä½“" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[941] = {name = "å¤§é›…ä¹‹éŸ³" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[986] = {name = "é—ªå…‰å¼¹" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[1021] = {name = "æ‰“å" , act = {"æ‰“å","æ‰“åå¾ªçŽ¯"}}
+SKILL_TYPE[1022] = {name = "èººä¸‹" , act = {"æ‰“å","æ‰“åå¾ªçŽ¯"}}
+SKILL_TYPE[1341] = {name = "è‡ªåŠ¨é’“é±¼" , act = {"","é—²ç½®åŠ¨ä½œ","ç«™ç«‹æ“ä½œ","é’“é±¼","ç«™ç«‹æ“ä½œå¾ªçŽ¯",""} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1440] = {name = "ä¼‘æ¯" , act = {"æ‰“å","æ‰“åå¾ªçŽ¯"}}
+SKILL_TYPE[1441] = {name = "åˆ‡æ¢å§¿æ€" , act = {"","èƒŒåŽæ‹”åˆ€"}}
+SKILL_TYPE[1390] = {name = "é“å…·ç¾¤æ”»" , act = {"å¼ºåŠ›å‡†å¤‡" , "è½»å‡»2"} , forcesuffix = "å•çŸ­"}
+SKILL_TYPE[1477] = {name = "é›ªçƒ" , act = {"æš—å™¨å‡†å¤‡" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1496] = {name = "å•ä½“å‘å¥–" , act = {"æŒ‡å‘åŸå”±å†°ç³»" , "æŒ‡å‘æ–½æ”¾å†°ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1498] = {name = "ç¾¤ä½“å‘å¥–æœ¬äºº" , act = {"æŒ‡å‘æŒç»­å†°ç³»" , "" , "" , "" , "" , "" , "ç«™ç«‹"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1503] = {name = "GMé‡ç½®å†·å´" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1505] = {name = "é›ªçƒ" , act = {"é£žè¡ŒåŸå”±å†°ç³»" , "é£žè¡Œæ–½æ”¾å†°ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1517] = {name = "é›ªçƒ" , act = {"æš—å™¨å‡†å¤‡" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1544] = {name = "ç¦æ˜Ÿç¥ç¦" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1545] = {name = "å¯¿æ˜Ÿç¥ç¦" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1546] = {name = "ç¦„æ˜Ÿç¥ç¦" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1547] = {name = "æ–°å¹´ç¥ç¦" , act = {"æŒ‡å‘åŸå”±" , "æŒ‡å‘æ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1767] = {name = "å­”æ˜Žç¯" , act = {"" , "æŒ‡å‘æ–½æ”¾å†°ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1768] = {name = "è¯¸è‘›è¿žå¼©" , act = {"" , "é£žè¡Œæ–½æ”¾ç«ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1769] = {name = "å¹ç®­ç­’" , act = {"" , "é£žè¡Œæ–½æ”¾ç«ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1770] = {name = "ç«é¾™å¼¹" , act = {"" , "é£žè¡Œæ–½æ”¾ç«ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1770] = {name = "æ¸”ç½‘" , act = {"" , "é£žè¡Œæ–½æ”¾å†°ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1786] = {name = "çˆ±å¿ƒæ´›ç¥žæ±¤" , act = {"" , "é£žè¡Œæ–½æ”¾é£Žç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1787] = {name = "ç‰¹è¾£æ°´ç…®é±¼" , act = {"" , "é£žè¡Œæ–½æ”¾é£Žç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1788] = {name = "é»„ç„–èŸ’è›‡èƒ†" , act = {"" , "é£žè¡Œæ–½æ”¾é£Žç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1789] = {name = "çº¢çƒ§å…”å­è…¿" , act = {"" , "é£žè¡Œæ–½æ”¾é£Žç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1964] = {name = "ç«¯åˆèŠ‚æ´»åŠ¨ç¥ˆç¦" , act = {"" , "è¡¨æƒ…ä¸‹è·ªæŠ±æ‹³"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1967] = {name = "èˆžè¹ˆï¼æ˜¥" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "æ˜¥"}
+SKILL_TYPE[1968] = {name = "èˆžè¹ˆï¼å¤" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "å¤"}
+SKILL_TYPE[1969] = {name = "èˆžè¹ˆï¼ç§‹" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "ç§‹"}
+SKILL_TYPE[1970] = {name = "èˆžè¹ˆï¼å†¬" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "å†¬"}
+SKILL_TYPE[1971] = {name = "èˆžè¹ˆï¼æ¼”æ­¦" , act = {"" , "èˆžè¹ˆ_æ¼”æ­¦åŠ¨ä½œ"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1985] = {name = "å¾¡é£žåˆ€" , act = {"" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1984] = {name = "ç«æ²¹ç“¶" , act = {"" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2014] = {name = "å­åˆè°·BUFFè¯1" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2015] = {name = "å­åˆè°·BUFFè¯2" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2016] = {name = "å­åˆè°·BUFFè¯3" , act = {"" , "æŒ‡å‘æ–½æ”¾ç«ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2045] = {name = "å†°å¿ƒè¯€" , act = {"" , "æŒ‡å‘æ–½æ”¾å†°ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2046] = {name = "ä¸åŠ¨å°Š" , act = {"" , "æŒ‡å‘æ–½æ”¾åœŸç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2048] = {name = "ç‹‚å¿ƒåŠ¿" , act = {"" , "æŒ‡å‘æ–½æ”¾ç«ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2049] = {name = "æµå…‰è¯€" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2050] = {name = "å®šé­‚ç›¾" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1568] = {name = "è›®è’ä¹‹é›·" , act = {"æŒ‡å‘æŒç»­é›·ç³»" , "" , "" , "" , "" , "" , ""}}
+SKILL_TYPE[1569] = {name = "æ°”åŠ¿å‡Œäºº" , act = {"é£žè¡Œæ–½æ”¾å†°ç³»" , ""} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1570] = {name = "å—œæ€å¦‚å‘½" , act = {"" , "æŒ‡å‘æ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[1571] = {name = "å¾¡å™¨å†³" , act = {"" , "è·³è·ƒæ”»å‡»ç‰¹æ®Š"} , forcesuffix = "é•¿é‡"}
+SKILL_TYPE[1572] = {name = "ç‹‚æˆ˜å£«ä¹‹æ€’" , act = {"" , "é¼“èˆžæ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1573] = {name = "ä¹å‰‘ç­æ€é˜µ" , act = {"å¼ºåŠ›å‡†å¤‡" , "å›žè½¬æ”»å‡»æŒç»­" , "" , "" , "" , "" , "æˆ˜æ–—ç«™ç«‹"}}
+SKILL_TYPE[1574] = {name = "é•œé“ æŠ¤èº«" , act = {"" , "é£žè¡Œæ–½æ”¾é›·ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1575] = {name = "ç‚Žé¬¼é£žåˆ‡" , act = {"" , "æŒ‡å‘æ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[1576] = {name = "å†·è¡€" , act = {"" , "æŒ‡å‘æ–½æ”¾å†°ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1577] = {name = "é—ªç”µç›¾" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[1578] = {name = "éœœå†»ä¹‹ç”²" , act = {"æŒ‡å‘åŸå”±å†°ç³»" , "æŒ‡å‘æ–½æ”¾å†°ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1579] = {name = "è¯¡å¼‚æ–½æ³•" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[1604] = {name = "ç¥žä¼¤ä¹‹èˆž" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[1605] = {name = "é›·ä¹‹å¥”è¢­" , act = {"é£žè¡ŒæŒç»­å†°ç³»" , "" , "" , "" , "" , "" , ""}}
+SKILL_TYPE[1606] = {name = "å™©æ¢¦ä¹‹çœ " , act = {"" , "é£žè¡Œæ–½æ”¾é›·ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2246] = {name = "å©šç¤¼æ¡ƒèŠ±ç“£" , act = {"" , "é£žè¡Œæ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[2247] = {name = "å©šç¤¼å‘æ—¥è‘µ" , act = {"" , "é£žè¡Œæ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[2249] = {name = "å‘çº¢åŒ…" , act = {"" , "æŒ‡å‘æ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[2255] = {name = "èˆžè¹ˆï¼èˆžå‰‘" , act = {"" , "èˆžè¹ˆ"},forcesuffix = "èˆžå‰‘"}
+SKILL_TYPE[2256] = {name = "èˆžè¹ˆï¼æŠšç´" , act = {"" , "èˆžè¹ˆ"},forcesuffix = "æŠšç´"}
+SKILL_TYPE[2461] = {name = "èˆžè¹ˆï¼æŸ³å²©" , act = {"" , "èˆžè¹ˆ"},forcesuffix = "å­™å°šé¦™"}
+SKILL_TYPE[2394] = {name = "æˆ˜é­‚å†›ç¥žè¯€", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2395] = {name = "æˆ˜é­‚éœ‡è£‚å‡»", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2396] = {name = "æˆ˜é­‚è®¡ç•¥æœ¯", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2397] = {name = "æˆ˜é­‚å®šèº«å’’", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "æˆ˜é­‚å¥³æ‰‡"}
+SKILL_TYPE[2399] = {name = "æˆ˜é­‚é‡‘åˆšè¯€", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2400] = {name = "æˆ˜é­‚çƒˆé­‚ç ´", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2402] = {name = "æˆ˜é­‚æƒŠé¸¿è¯€", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2403] = {name = "æˆ˜é­‚æ´›ç¥žç ´", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2405] = {name = "æˆ˜é­‚è™Žå•¸è¯€", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2406] = {name = "æˆ˜é­‚åœ°æ¸å‡»", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2408] = {name = "æˆ˜é­‚æ­¦ç¥žè¯€", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2409] = {name = "æˆ˜é­‚é’é¾™æ–©", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2410] = {name = "æˆ˜é­‚éç”²æœ¯", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2412] = {name = "æˆ˜é­‚ä¼é¾™å’’", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2414] = {name = "æˆ˜é­‚å¼“ç¥žè¯€", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2415] = {name = "æˆ˜é­‚ç¢Žå¿ƒå°„", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "æˆ˜é­‚é»„å¿ "}
+SKILL_TYPE[2417] = {name = "æˆ˜é­‚å€¾åŸŽè¯€", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2418] = {name = "æˆ˜é­‚æ”»å¿ƒå’’", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2420] = {name = "æˆ˜é­‚ç–¾è¡Œè¯€", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2421] = {name = "æˆ˜é­‚æ–—é­‚æ–©", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2422] = {name = "æˆ˜é­‚è¿ç­¹æœ¯", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2424] = {name = "æˆ˜é­‚ç ´å†›æ–©", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[4603] = {name = "æˆ˜é­‚æ‰§é‡‘å¾", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[4999] = {name = "æˆ˜é­‚ç¾½æ‰‡æ‘‡", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5016] = {name = "æˆ˜é­‚è¿žçŽ¯è®¡", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5060] = {name = "æˆ˜é­‚é“œé›€é”", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5245] = {name = "æˆ˜é­‚ç‰™æ——æ–©", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5251] = {name = "æˆ˜é­‚ç»æƒ…æ€", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5259] = {name = "æˆ˜é­‚ç­ä¸–æ–©", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5378] = {name = "æˆ˜é­‚ç ´èƒ†è¢­", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5406] = {name = "æˆ˜é­‚åŒè‚¡åˆº", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5412] = {name = "æˆ˜é­‚å€šå¤©æ–©", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5418] = {name = "æˆ˜é­‚å¤é”­æ–©", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5454] = {name = "æˆ˜é­‚ä¸‡å†›ç–¾", act = {"" , "æŒ‡å‘æ–½æ”¾"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2464] = {name = "æˆ˜é­‚å‹‡å£«è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å‹‡å£«"}
+SKILL_TYPE[2425] = {name = "æˆ˜é­‚è°‹å£«è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "è°‹å£«"}
+SKILL_TYPE[2426] = {name = "æˆ˜é­‚å¤ä¾¯æ•¦è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å¤ä¾¯æ•¦"}
+SKILL_TYPE[2427] = {name = "æˆ˜é­‚ç”„å¦ƒè§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "ç”„å¦ƒ"}
+SKILL_TYPE[2428] = {name = "æˆ˜é­‚å¼ è¾½è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å¼ è¾½"}
+SKILL_TYPE[2429] = {name = "æˆ˜é­‚å…³ç¾½è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å…³ç¾½"}
+SKILL_TYPE[2430] = {name = "æˆ˜é­‚è¯¸è‘›äº®è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "è¯¸è‘›äº®"}
+SKILL_TYPE[2431] = {name = "æˆ˜é­‚é»„å¿ è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "é»„å¿ "}
+SKILL_TYPE[2432] = {name = "æˆ˜é­‚å°ä¹”è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å°ä¹”"}
+SKILL_TYPE[2433] = {name = "æˆ˜é­‚ç”˜å®è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "ç”˜å®"}
+SKILL_TYPE[2434] = {name = "æˆ˜é­‚å‘¨ç‘œè§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å‘¨ç‘œ"}
+SKILL_TYPE[2435] = {name = "æˆ˜é­‚å•å¸ƒè§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å•å¸ƒ"}
+SKILL_TYPE[2436] = {name = "æˆ˜é­‚æœˆè‹±è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "é»„æœˆè‹±"}
+SKILL_TYPE[2437] = {name = "æˆ˜é­‚è²‚è‰è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "è²‚è‰"}
+SKILL_TYPE[2438] = {name = "æˆ˜é­‚å¤§ä¹”è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å¤§ä¹”"}
+SKILL_TYPE[2439] = {name = "æˆ˜é­‚å…¸éŸ¦è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å…¸éŸ¦"}
+SKILL_TYPE[2440] = {name = "æˆ˜é­‚å¼ æ˜¥åŽè§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å¼ æ˜¥åŽ"}
+SKILL_TYPE[5258] = {name = "æˆ˜é­‚é»„é‡‘ç”²è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "é»„é‡‘ç”²"}
+SKILL_TYPE[5384] = {name = "æˆ˜é­‚å¼ é£žè§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å¼ é£ž"}
+SKILL_TYPE[5385] = {name = "æˆ˜é­‚é©¬è¶…è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "é©¬è¶…"}
+SKILL_TYPE[5386] = {name = "æˆ˜é­‚èµµäº‘è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "èµµäº‘"}
+SKILL_TYPE[5425] = {name = "æˆ˜é­‚åˆ˜å¤‡è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "åˆ˜å¤‡"}
+SKILL_TYPE[5426] = {name = "æˆ˜é­‚æ›¹æ“è§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "æ›¹æ“"}
+SKILL_TYPE[5427] = {name = "æˆ˜é­‚å­™æƒè§‰é†’åŠ¨ä½œ" , act = {"" , "æˆ˜é­‚æ¿€å‘"},forcesuffix = "å­™æƒ"}
+SKILL_TYPE[2468] = {name = "åœ£è¯žå¡ç‰‡" , act = {"æš—å™¨å‡†å¤‡" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2469] = {name = "åœ£è¯žå¡ç‰‡" , act = {"æš—å™¨å‡†å¤‡" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2470] = {name = "åœ£è¯žå¡ç‰‡" , act = {"æš—å™¨å‡†å¤‡" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2471] = {name = "åœ£è¯žå¡ç‰‡" , act = {"æš—å™¨å‡†å¤‡" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2472] = {name = "åœ£è¯žå¡ç‰‡" , act = {"æš—å™¨å‡†å¤‡" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2479] = {name = "åœ£è¯žå¡ç‰‡" , act = {"æš—å™¨å‡†å¤‡" , "æš—å™¨æŠ•æŽ·"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2480] = {name = "åœ£è¯žèˆžä¼š" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "æ˜¥"}
+SKILL_TYPE[2481] = {name = "åœ£è¯žæ—¶è£…èˆžè¹ˆ" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "åœ£è¯ž"}
+SKILL_TYPE[2482] = {name = "åœ£è¯žæ—¶è£…èˆžè¹ˆ" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "åœ£è¯ž"}
+SKILL_TYPE[2494] = {name = "è™Žå¹´æ–°æ˜¥æ‹œå¹´" , act = {"" , "è¡¨æƒ…æŒ¥æ‰‹"}}
+SKILL_TYPE[2501] = {name = "2010æ˜¥èŠ‚æ—¶è£…èˆžè¹ˆ" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "æ–°å¹´"}
+SKILL_TYPE[2502] = {name = "2010æ˜¥èŠ‚æ—¶è£…èˆžè¹ˆ" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "æ–°å¹´"}
+SKILL_TYPE[2560] = {name = "è²‚è‰è£…è·³èˆž" , act = {"" , "è¡¨æƒ…è·³èˆž"} , forcesuffix = "è²‚è‰è£…"}
+SKILL_TYPE[2561] = {name = "å•å¸ƒè£…è·³èˆž" , act = {"" , "è¡¨æƒ…è·³èˆž"} , forcesuffix = "å•å¸ƒè£…"}
+SKILL_TYPE[2633] = {name = "ç¦æ°”å…ƒå®" , act = {"" , "é£žè¡Œæ–½æ”¾é›·ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2634] = {name = "å–œåº†å…ƒå®" , act = {"" , "é£žè¡Œæ–½æ”¾ç«ç³»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2678] = {name = "è‡ªåŠ¨é’“é±¼" , act = {"","é—²ç½®åŠ¨ä½œ","ç«™ç«‹æ“ä½œ","é’“é±¼","ç«™ç«‹æ“ä½œå¾ªçŽ¯",""} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[2881] = {name = "èµ¤å£ä¹‹æˆ˜ç‚¸å¼¹" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[2882] = {name = "èµ¤å£ä¹‹æˆ˜è¿žå¼©" , act = {"" , "è¯¸è‘›è¿žå¼©"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[2644] = {name = "ä¸€è½¬é£Ÿç‰©1" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[2645] = {name = "ä¸€è½¬é£Ÿç‰©2" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[2646] = {name = "ä¸€è½¬é£Ÿç‰©3" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[2647] = {name = "ä¸€è½¬é£Ÿç‰©4" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[2648] = {name = "ä¸€è½¬é£Ÿç‰©5" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[2649] = {name = "ä¸€è½¬é£Ÿç‰©6" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[2650] = {name = "ä¸€è½¬é£Ÿç‰©7" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[2651] = {name = "ä¸€è½¬é£Ÿç‰©8" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[2652] = {name = "ä¸€è½¬é£Ÿç‰©9" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[2653] = {name = "ä¸€è½¬é£Ÿç‰©10" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[2664] = {name = "ä¸€è½¬é£Ÿç‰©11" , act = {"","åƒå–åŠ¨ä½œ"}}
+SKILL_TYPE[3151] = {name = "1009é¡µé¢æ´»åŠ¨é¸¡è›‹æŠ•æŽ·" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[2915] = {name = "ç«é›·å¼¹" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[2899] = {name = "çƒˆç«ä¸ä¾µ" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[2901] = {name = "é™¤é£Žçµ" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[2902] = {name = "è§£é™¤é’è›‡å‰§æ¯’" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[2910] = {name = "è§£é™¤èµ¤è›‡å‰§æ¯’" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[2911] = {name = "è§£é™¤é‡‘è›‡å‰§æ¯’" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[2912] = {name = "è§£é™¤é’çŽ¯è›‡æ¯’" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[2913] = {name = "è§£é™¤é‡‘æ–‘è›‡æ¯’" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[2916] = {name = "é‡‘åˆšæ‰‡" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[3235] = {name = "è¿œç¨‹æŠ•æŽ·æ‰‹é›·" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3236] = {name = "è¿œç¨‹æŠ•æŽ·å‡é€Ÿå¼¹" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3233] = {name = "éšèº«ç¬¦" , act = {"" , "æŒ‡å‘æ–½æ”¾é›·ç³»"}}
+SKILL_TYPE[3234] = {name = "åŠ é€Ÿç¬¦" , act = {"" , "æŒ‡å‘æ–½æ”¾é£Žç³»"}}
+SKILL_TYPE[3348] = {name = "å åœé“å…·1" , act = { "è¡¨æƒ…æ±‚ç­¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3349] = {name = "å åœé“å…·2" , act = { "è¡¨æƒ…è¿·é¦™"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3350] = {name = "å åœé“å…·3" , act = { "è¡¨æƒ…é…’å£¶"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3351] = {name = "å åœé“å…·4" , act = { "è¡¨æƒ…é€ç³–æžœ"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3352] = {name = "å åœé“å…·5" , act = { "è¡¨æƒ…å”±æ­Œ"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3374] = {name = "æ‹œå¹´çº¢åŒ…" , act = { "è¡¨æƒ…æ±‚ç­¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3381] = {name = "æ‰“é›ªä»—" , act = { "æ‰“é›ªä»—"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3375] = {name = "åˆ†äº«ç«é¸¡" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3377] = {name = "åœ£è¯žé¢‚æ­Œ" , act = {"" , "è¡¨æƒ…å”±æ­Œ"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3378] = {name = "åœ£è¯žç¤¼ç‰©" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3379] = {name = "æ³¡æ³¡é›ªçƒ" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3408] = {name = "å¬å”¤æŠ¤å«" , act = {"ç«™ç«‹æ“ä½œ"}}
+SKILL_TYPE[3502] = {name = "ä¼ æƒ…è¾¾æ„" , act = {"è¡¨æƒ…äº²å»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3478] = {name = "éž­ç‚®ç‚¸ä¼¤å¹´å…½" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3550] = {name = "è¡Œäº‘ä¹‹èˆž" , act = {"è¡¨æƒ…è·³èˆž"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3551] = {name = "å–œç§°" , act = {"æŒ‘èµ·ç›–å¤´"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3552] = {name = "ä¼ æƒ…è¾¾æ„" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3566] = {name = "å¥½å‹æ‹œè®¿" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3609] = {name = "è½æ¨±çº·" , act = {"" , "è¡¨æƒ…å—è›®çŸ­è£¤ç”·èˆžè¹ˆ"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3610] = {name = "å½©çŽ¯æ›²" , act = {"" , "è¡¨æƒ…å—è›®çŸ­è£™å¥³èˆžè¹ˆ"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3615] = {name = "è®¸æ„¿ç ‚" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3647] = {name = "ç‚¸å¼¹" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3648] = {name = "ä¸€æŸé²œèŠ±" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3649] = {name = "å­å­ç¤¼åŒ…ï¼ˆæ¯äº²èŠ‚ï¼‰" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3650] = {name = "å­å­ç¤¼åŒ…ï¼ˆçˆ¶äº²èŠ‚ï¼‰" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3653] = {name = "åŠ³åŠ¨æŠ¤è…•" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[2509] = {name = "æµ‹è¯•ç§»åŠ¨é‡Šæ³•" , act = {"æŒ‡å‘åŸå”±","æ‰“é›ªä»—",},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3678] = {name = "è‘«èŠ¦" , act = {"" , "é†‰é…’"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3679] = {name = "èŠ±çŽ¯" , act = {"" , "èŠ±çŽ¯"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3728] = {name = "ç¬›éŸ³ç»" , act = {"" , "è·³èˆžç¬›"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3729] = {name = "ç¬‘çº¢å°˜" , act = {"" , "èˆžè¹ˆä¼ž"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3731] = {name = "ç¬‘çº¢å°˜" , act = {"" , "è¡¨æƒ…å”±æ­Œ"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3753] = {name = "è·³èˆžç´" , act = {"" , "èˆžè¹ˆç´"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3754] = {name = "è·³èˆžæ‰‡" , act = {"" , "èˆžè¹ˆæ‰‡"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[3766] = {name = "è·³èˆžçµç¶" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "çµç¶"}
+SKILL_TYPE[3767] = {name = "è·³èˆžç†ŠçŒ«" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "ç†ŠçŒ«"}
+SKILL_TYPE[3794] = {name = "æ´»åŠ¨æ‰‹æ¦´å¼¹" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[3916] = {name = "è·³èˆžé£Žç­é¾™" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "é¾™é£Žç­"}
+SKILL_TYPE[3982] = {name = "è™Žç‰¢å…³é—ªç”µé“¾" , act = {"" , "æŒ‡å‘æ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[4005] = {name = "9æœˆæ´»åŠ¨ç”¨" , act = { "é£žè¡Œæ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[4006] = {name = "9æœˆæ´»åŠ¨ç”¨" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4007] = {name = "è·³èˆžç”ŸèŠ±ç¬”" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "ç”ŸèŠ±ç¬”"}
+SKILL_TYPE[4008] = {name = "è·³èˆžä¸‰å¼¦ç´" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "ä¸‰å¼¦ç´"}
+SKILL_TYPE[4084] = {name = "äº¤å‹ä»¤" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4119] = {name = "PVPæˆ˜è½¦æˆ˜åœºå®šæ—¶å¬æ€ª" , act = {"ç«™ç«‹æ“ä½œ" , ""}}
+SKILL_TYPE[4144] = {name = "PVPæˆ˜è½¦æˆ˜åœºå¬çƒ§æ¯’æ€ª" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4145] = {name = "PVPæˆ˜è½¦æˆ˜åœºæŠ•æŽ·" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4009] = {name = "è·³èˆžçŒ«" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "çŒ«"}
+SKILL_TYPE[4063] = {name = "å†›å›¢åŸºåœ°ç«é›·" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4195] = {name = "ç‰©å“æŠ€èƒ½é›ªçƒ" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4235] = {name = "æ–°å¹´éž­ç‚®" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4010] = {name = "è·³èˆžç¯ç¬¼" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "ç¯ç¬¼"}
+SKILL_TYPE[4011] = {name = "è·³èˆžæ‰‹å¥—å¨ƒå¨ƒ" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "æ‰‹å¥—å¨ƒå¨ƒ"}
+SKILL_TYPE[4315] = {name = "è®¸æ„¿ç ‚" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4316] = {name = "è®¸æ„¿ç ‚" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4380] = {name = "è¥¿å‡‰ç‡Žä¹±ç«ç½" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4415] = {name = "ç«ç„°å¼¹ä¼¤å®³æŠ€èƒ½" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4416] = {name = "ç¾Žå‘³çŒªæŽ’" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4417] = {name = "èƒ¡æ¤’ç‰›æŽ’" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4360] = {name = "å®˜æ¸¡æ´»åŠ¨é£žåˆ€" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4362] = {name = "å®˜æ¸¡æ´»åŠ¨å®šèº«ç¬¦" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4363] = {name = "å®˜æ¸¡æ´»åŠ¨æ··ä¹±ç¬¦" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4364] = {name = "å®˜æ¸¡æ´»åŠ¨ç‹ä»™é©¾åˆ°" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4365] = {name = "å®˜æ¸¡æ´»åŠ¨å¹¼ç«¥æ— è¾œ" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4366] = {name = "å®˜æ¸¡æ´»åŠ¨å¤ºé­‚åˆº" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4367] = {name = "å®˜æ¸¡æ´»åŠ¨ç«é›·å¼¹" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4368] = {name = "å®˜æ¸¡æ´»åŠ¨æ¸”ç½‘å¼¹" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4369] = {name = "å®˜æ¸¡æ´»åŠ¨ç”Ÿå‘½ä¸¸" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4370] = {name = "å®˜æ¸¡æ´»åŠ¨åŠ©äººä¸ºä¹ä¸¸" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4458] = {name = "ä¸ƒå¤•æŽ’è¡Œæ¦œæŠ€èƒ½1" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4459] = {name = "ä¸ƒå¤•æŽ’è¡Œæ¦œæŠ€èƒ½2" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4538] = {name = "ä¸ƒå¤•æŽ’è¡Œæ¦œæŠ€èƒ½2" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4012] = {name = "è·³èˆžçŽ‰ä½©è™Ž" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "çŽ‰ä½©è™Ž"}
+SKILL_TYPE[4608] = {name = "é›ªä¹‹ç¥æ„¿" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4013] = {name = "è·³èˆžå°é©¯é¹¿" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "å°é©¯é¹¿"}
+SKILL_TYPE[4014] = {name = "è·³èˆžçŽ‰ä½©é¾™" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "çŽ‰ä½©é¾™"}
+SKILL_TYPE[4712] = {name = "å¬å”¤æŠ¤å«" , act = {"ç«™ç«‹æ“ä½œ"}}
+SKILL_TYPE[4925] = {name = "æ‰‡é£Žé“å…·åŠ¨ä½œ" , act = {"æ‰‡é£Ž"} }
+SKILL_TYPE[4962] = {name = "èŒ‚é™µç›—å¢“è´¼ç‰©å“æŠ€èƒ½" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4982] = {name = "æ´»åŠ¨ä¸¢å¼ƒæ‚ç‰©" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[4983] = {name = "æ´»åŠ¨ä¸Šäº¤æµ·é±¼" , act = {"ç«™ç«‹æ“ä½œ"}}
+SKILL_TYPE[4971] = {name = "è·³èˆžéœ¸æµ·" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "éœ¸æµ·"}
+SKILL_TYPE[4972] = {name = "è·³èˆžåƒæœˆ" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "åƒæœˆ"}
+SKILL_TYPE[4973] = {name = "è·³èˆžè½æ—¥" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "è½æ—¥"}
+SKILL_TYPE[4974] = {name = "è·³èˆžéº’éºŸ" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "éº’éºŸ"}
+SKILL_TYPE[4975] = {name = "è·³èˆžå€¾åŸŽ" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "å€¾åŸŽ"}
+SKILL_TYPE[4976] = {name = "è·³èˆžç™¾ç‚¼" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "ç™¾ç‚¼"}
+SKILL_TYPE[4977] = {name = "è·³èˆžæ´›ç¥ž" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "æ´›ç¥ž"}
+SKILL_TYPE[4978] = {name = "è·³èˆžæ¹›å¢" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "æ¹›å¢"}
+SKILL_TYPE[4979] = {name = "è·³èˆžå§é¾™" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "å§é¾™"}
+SKILL_TYPE[4980] = {name = "è·³èˆžæ–¹å¤©" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "æ–¹å¤©"}
+SKILL_TYPE[4994] = {name = "çŸ­æœŸæ´»åŠ¨ç‚¸è¯å‡è¡€" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5004] = {name = "è·³èˆžä¼é­”" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "ä¼é­”"}
+SKILL_TYPE[5014] = {name = "é›„é»„é…’" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5019] = {name = "å‡¤ä»ªèˆž" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "è²‚è‰"}
+SKILL_TYPE[4015] = {name = "ä¹¦ç®±" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "ä¹¦ç®±"}
+SKILL_TYPE[4016] = {name = "èŠ±ç¯®" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "èŠ±ç¯®"}
+SKILL_TYPE[5068] = {name = "é¡¾ç›¼ç”Ÿå§¿" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "å¤§ä¹”"}
+SKILL_TYPE[5129] = {name = "é€å¿ƒå‡‰å¿ƒé£žæ‰¬" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5131] = {name = "æ´»åŠ¨æ°´çƒ" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5110] = {name = "å†³å¿ƒÂ·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5111] = {name = "å†³å¿ƒÂ·ç ´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5112] = {name = "å†³å¿ƒÂ·å†›" , act = {"" , "è¡å¯‡"}, forcesuffix = "å‰‘"}
+SKILL_TYPE[5113] = {name = "å¼ºæ”»Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5114] = {name = "å¼ºæ”»Â·ç ´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5115] = {name = "å¼ºæ”»Â·å†›" , act = {"" , "æ¨ªåŠˆ"}, forcesuffix = "åˆ€"}
+SKILL_TYPE[5116] = {name = "å¤ºå‘½Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5117] = {name = "å¤ºå‘½Â·ç ´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5118] = {name = "å¤ºå‘½Â·å†›" , act = {"" , "çˆ†ç ´"}, forcesuffix = "æ–§"}
+SKILL_TYPE[5119] = {name = "é“å£Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5120] = {name = "é“å£Â·ç ´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5121] = {name = "é“å£Â·å†›" , act = {"" , "çªè¿›"}, forcesuffix = "ç›¾"}
+SKILL_TYPE[5122] = {name = "å½±è¢­Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5123] = {name = "å½±è¢­Â·ç ´" , act = {"" , "å½±é—ª"}, forcesuffix = "çˆª"}
+SKILL_TYPE[5124] = {name = "å½±è¢­Â·å†›" , act = {"" , "æ€’åˆº"}, forcesuffix = "çˆª"}
+SKILL_TYPE[5125] = {name = "å¯‚ç­Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5126] = {name = "å¯‚ç­Â·ç ´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5127] = {name = "å¯‚ç­Â·å†›" , act = {"" , "å¯‚ç­"}, forcesuffix = "æ£"}
+SKILL_TYPE[5153] = {name = "æ–©é“Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5154] = {name = "æ–©é“Â·ç ´" , act = {"" , "æ–©é“"}, forcesuffix = "é’º"}
+SKILL_TYPE[5155] = {name = "æ–©é“Â·å†›" , act = {"" , "çƒˆé£Žé‡æ–©"}, forcesuffix = "é’º"}
+SKILL_TYPE[5156] = {name = "åŠ›æˆ˜Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5157] = {name = "åŠ›æˆ˜Â·ç ´" , act = {"" , "æŒ‘åˆº"}, forcesuffix = "æžª"}
+SKILL_TYPE[5158] = {name = "åŠ›æˆ˜Â·å†›" , act = {"" , "ç”©æžª"}, forcesuffix = "æžª"}
+SKILL_TYPE[5159] = {name = "æ½œé¾™Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5160] = {name = "æ½œé¾™Â·ç ´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5161] = {name = "æ½œé¾™Â·å†›" , act = {"" , "é™é¾™"}, forcesuffix = "é”"}
+SKILL_TYPE[5165] = {name = "æ–­æ„Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5166] = {name = "æ–­æ„Â·ç ´" , act = {"", "æ–­æ„ç ´"}, forcesuffix = "å‰"}
+SKILL_TYPE[5167] = {name = "æ–­æ„Â·å†›" , act = {"", "æ–­æ„å†›"}, forcesuffix = "å‰"}
+SKILL_TYPE[5168] = {name = "æ“‚äº‘Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5169] = {name = "æ“‚äº‘Â·ç ´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5170] = {name = "æ“‚äº‘Â·å†›" , act = {"" , "æ€’ç ¸"}, forcesuffix = "é”¤"}
+SKILL_TYPE[5171] = {name = "æ¸…é£ŽÂ·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5172] = {name = "æ¸…é£ŽÂ·ç ´" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5173] = {name = "æ¸…é£ŽÂ·å†›" , act = {"" , "æ¸…é£Ž"}, forcesuffix = "èˆž"}
+SKILL_TYPE[5175] = {name = "éœ¸çŽ‹Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5176] = {name = "éœ¸çŽ‹Â·ç ´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5177] = {name = "éœ¸çŽ‹Â·å†›" , act = {"" , "è´¯åˆº"}, forcesuffix = "æˆŸ"}
+SKILL_TYPE[5178] = {name = "å¯¸ç»Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5179] = {name = "å¯¸ç»Â·ç ´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5180] = {name = "å¯¸ç»Â·å†›" , act = {"" , "å¯¸ç»å†›"}, forcesuffix = "é’©"}
+SKILL_TYPE[5181] = {name = "è½»ç‹‚Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5182] = {name = "è½»ç‹‚Â·ç ´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5183] = {name = "è½»ç‹‚Â·å†›" , act = {"" , "é”‹æ–©"}, forcesuffix = "çŽ¯"}
+SKILL_TYPE[5187] = {name = "ç«è¢­Â·æ€’" , act = {"" , "ç«è¢­æ€’"}, forcesuffix = "æ–"}
+SKILL_TYPE[5188] = {name = "ç«è¢­Â·ç ´" , act = {"" , "ç«è¢­ç ´"}, forcesuffix = "æ–"}
+SKILL_TYPE[5189] = {name = "ç«è¢­Â·å†›" , act = {"" , "ç¥žç«"}, forcesuffix = "æ–"}
+SKILL_TYPE[5190] = {name = "å†°é£ŽÂ·æ€’" , act = {"" , "ç‹‚é£Ž"}, forcesuffix = "æ‰‡"}
+SKILL_TYPE[5191] = {name = "å†°é£ŽÂ·ç ´" , act = {"" , "å†°å°"}, forcesuffix = "æ‰‡"}
+SKILL_TYPE[5192] = {name = "å†°é£ŽÂ·å†›" , act = {"" , "éœœå†»"}, forcesuffix = "æ‰‡"}
+SKILL_TYPE[5193] = {name = "é€çŸ¢Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5194] = {name = "é€çŸ¢Â·ç ´" , act = {"" , "å¼“å°„å‡»2"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5195] = {name = "é€çŸ¢Â·å†›" , act = {"å¼“å‡†å¤‡2" , "å¼“å°„å‡»2"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5196] = {name = "è›‡å½±Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5197] = {name = "è›‡å½±Â·ç ´" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5198] = {name = "è›‡å½±Â·å†›" , act = {"" , "è›‡å½±"}, forcesuffix = "éž­"}
+SKILL_TYPE[5333] = {name = "çž¬æ€Â·æ€’" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5334] = {name = "çž¬æ€Â·ç ´" , act = {"" , "çž¬æ€æ€’"} , forcesuffix = "å¼©"}
+SKILL_TYPE[5335] = {name = "çž¬æ€Â·å†›" , act = {"" , "çž¬æ€å†›"} , forcesuffix = "å¼©"}
+SKILL_TYPE[5262] = {name = "è·³èˆžå…¸éŸ¦" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "å…¸éŸ¦"}
+SKILL_TYPE[5263] = {name = "è·³èˆžå…¸éŸ¦" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "å¼ æ˜¥åŽ"}
+SKILL_TYPE[5264] = {name = "è·³èˆžå…¸éŸ¦" , act = {"" , "èˆžè¹ˆ"} , forceextra = "æ¼”æ­¦åŠ¨ä½œ" , forcesuffix = "åˆ€"}
+SKILL_TYPE[5265] = {name = "è·³èˆžå…¸éŸ¦" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "é»„é‡‘ç”²"}
+SKILL_TYPE[5266] = {name = "è·³èˆžå…¸éŸ¦" , act = {"" , "èˆžè¹ˆ"} , forceextra = "æ¼”æ­¦åŠ¨ä½œ" , forcesuffix = "èˆž"}
+SKILL_TYPE[5267] = {name = "è·³èˆžå…¸éŸ¦" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "é‡‘ä¸éž­"}
+SKILL_TYPE[5268] = {name = "è·³èˆžå…¸éŸ¦" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "çƒˆç„°éž­"}
+SKILL_TYPE[5271] = {name = "ä¸­ç§‹é†’é…’" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5273] = {name = "ä¸¢æ‰‹å¸•" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5274] = {name = "ä¸¢æ‰‹å¸•" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5337] = {name = "ä¸¢æ‰‹å¸•" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5338] = {name = "ä¸¢æ‰‹å¸•" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5339] = {name = "ä¸¢æ‰‹å¸•" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5387] = {name = "è·³èˆžå…¸éŸ¦" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "å¼ é£ž"}
+SKILL_TYPE[5388] = {name = "è·³èˆžå…¸éŸ¦" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "é©¬è¶…"}
+SKILL_TYPE[5389] = {name = "è·³èˆžå…¸éŸ¦" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "èµµäº‘"}
+SKILL_TYPE[5435] = {name = "è·³èˆžæ›¹æ“" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "æ›¹æ“"}
+SKILL_TYPE[5436] = {name = "è·³èˆžåˆ˜å¤‡" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "åˆ˜å¤‡"}
+SKILL_TYPE[5437] = {name = "è·³èˆžå­™æƒ" , act = {"" , "èˆžè¹ˆ"} , forcesuffix = "å­™æƒ"}
+SKILL_TYPE[5633] = {name = "é˜²ç‹¼å–·é›¾" , act = {"" , "æŒ‡å‘æ–½æ”¾é“å…·"}}
+SKILL_TYPE[5635] = {name = "ä¸¢æ‰‹å¸•" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5639] = {name = "å¤©ä½‘" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5640] = {name = "ç½¡é­‚" , act = {"" , "å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5641] = {name = "é“­å°" , act = {"" , "æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5653] = {name = "çƒ§é¦™" , act = {"" , "è¡¨æƒ…è¿·é¦™"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5732] = {name = "æ±‚ç­¾" , act = {"è¡¨æƒ…æ±‚ç­¾" , ""} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5861] = {name = "å®šæ—¶ç‚¸å¼¹" , act = {"ç«™ç«‹æ“ä½œ" , ""}}
+SKILL_TYPE[5862] = {name = "æŠ•æŽ·ç‚¸å¼¹" , act = {"" , "æŠ•æŽ·ç‚¸å¼¹"} , forcesuffix = "æ°´æˆ˜"}
+SKILL_TYPE[5883] = {name = "è¡¨æƒ…äº²å»" , act = {"" , "è¡¨æƒ…äº²å»"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5891] = {name = "ä¸å‡¡æ­¦" , act = {"" , "é¼“èˆžæ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5892] = {name = "ä¸å‡¡æ­¦" , act = {"" , "é¼“èˆžæ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5893] = {name = "ä¸å‡¡æ–‡" , act = {"" , "æŒ‡å‘æ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5895] = {name = "ä¸å‡¡æ–‡" , act = {"" , "æŒ‡å‘æ–½æ”¾"} , forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5911] = {name = "æŠ±æ‹³" , act = {"" , "è¡¨æƒ…ä¸‹è·ªæŠ±æ‹³"} , forcesuffix = "é€šç”¨"}
 
 
----ÂíÕ½¼¼ÄÜ
-SKILL_TYPE[927] = {name = "²ßÂíÑï±Þ" , act = {"","¼ÓËÙ"}}
-SKILL_TYPE[928] = {name = "¿ìÂí¼Ó±Þ" , act = {"","¼ÓËÙ"}}
-SKILL_TYPE[929] = {name = "ÇáÆï³¤Çý" , act = {"","¼ÓËÙ"}}
-SKILL_TYPE[930] = {name = "ÖØÆïÍ»½ø" , act = {"","¼ÓËÙ"}}
-SKILL_TYPE[1263] = {name = "Æï×ËÇÐ»»" , act = {"","±³ºó°Îµ¶"}}
-SKILL_TYPE[1300] = {name = "±¨Ãû" , act = {"Õ½¶·ÌøÔ¾ÂäµØ",""}}
-SKILL_TYPE[1301] = {name = "¹ÄÎè" , act = {"¹ÄÎèÒ÷³ª","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[1302] = {name = "Õì²ì" , act = {"ÏÐÖÃ¶¯×÷",""}}
-SKILL_TYPE[1303] = {name = "³å×²" , act = {"",""}}
-SKILL_TYPE[1304] = {name = "ÌÚÔ¾" , act = {"","ÌÚÔ¾"}}
---ÉÏÊö±£Áô
-SKILL_TYPE[1270] = {name = "³å·æ" , act = {"¹ÄÎèÒ÷³ª","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[1271] = {name = "Ç¿Ï®" , act = {"¹ÄÎèÒ÷³ª","¹ÄÎèÊ©·Å"}}
-SKILL_TYPE[1272] = {name = "ÐîÁ¦" , act = {"½üÉí×¼±¸","","",""}}
-SKILL_TYPE[1273] = {name = "Ö±¹¥" , act = {"","Çá»÷1"}}
-SKILL_TYPE[1274] = {name = "ËÙ¹¥" , act = {"","Çá»÷1"}}
-SKILL_TYPE[1275] = {name = "¿ì¹¥" , act = {"","Çá»÷1"}}
-SKILL_TYPE[1276] = {name = "ËÙÉä" , act = {"ÆïÉäÕ¾Á¢","ÆïÕ½Éä»÷4"}}
-SKILL_TYPE[1277] = {name = "¿Õ´Ì" , act = {"·ÉÐÐÒ÷³ª","·ÉÐÐÊ©·Å"}}
-SKILL_TYPE[1278] = {name = "ºáÉ¨" , act = {"","Çá»÷2"}}
-SKILL_TYPE[1279] = {name = "ºáÅü" , act = {"","Çá»÷2"}}
-SKILL_TYPE[1280] = {name = "ºáÂÕ" , act = {"","Çá»÷2"}}
-SKILL_TYPE[1281] = {name = "Á¦Éä" , act = {"ÆïÉäÕ¾Á¢","ÆïÕ½Éä»÷2"}}
-SKILL_TYPE[1282] = {name = "¿ÕÈÐ" , act = {"·ÉÐÐÒ÷³ª","·ÉÐÐÊ©·Å"}}
-SKILL_TYPE[1283] = {name = "Á¦´Ì" , act = {"","ÖØ»÷1"}}
-SKILL_TYPE[1284] = {name = "ÖØÕ¶" , act = {"","ÖØ»÷1"} , forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[1285] = {name = "ÃÍ¿³" , act = {"","ÖØ»÷1"}}
-SKILL_TYPE[1286] = {name = "Ë²»÷" , act = {"","ÖØ»÷1"}}
-SKILL_TYPE[1287] = {name = "Í¸Éä" , act = {"ÆïÉäÕ¾Á¢","ÆïÕ½Éä»÷1"}}
-SKILL_TYPE[1288] = {name = "¿ÕÑÀ" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[1289] = {name = "Í»Ï®´ò" , act = {"±¼ÅÜ","³å´Ì1",""}}
-SKILL_TYPE[1290] = {name = "µ¼Òý¼ý" , act = {"ÆïÉäÕ¾Á¢","¹­Éä»÷1"}}
-SKILL_TYPE[1291] = {name = "»áÐÄ»÷" , act = {"","Ç¿»÷"}}
-SKILL_TYPE[1292] = {name = "¼«º®¼ý" , act = {"ÆïÉäÕ¾Á¢","ÆïÕ½Éä»÷3"}}
-SKILL_TYPE[1293] = {name = "¹³Á­´ò" , act = {"","ÆÕÍ¨¹¥»÷2"}}
-SKILL_TYPE[1294] = {name = "ÉñÍþÂÒÎè" , act = {"","ÂÒÎè"}}
-SKILL_TYPE[1295] = {name = "Á÷ÐÇÂÒÎè" , act = {"","ÂÒÎè"}}
-SKILL_TYPE[1296] = {name = "ÍõÕß·ÜÕ½" , act = {"","ÖØ»÷2"}}
-SKILL_TYPE[1297] = {name = "Î±»÷×ªÉ±" , act = {"","ÖØ»÷2"} , forcesuffix = "¿ÕÊÖ"}
-SKILL_TYPE[1298] = {name = "ºô·ç»½Óê" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[1299] = {name = "Á¬»·Éñ¼ý" , act = {"ÆïÉäÕ¾Á¢","ÆïÕ½Éä»÷3"}}
-SKILL_TYPE[1305] = {name = "ÃÍ¹¥" , act = {"Ç¿»¯Ò÷³ª","Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[1306] = {name = "¼áÊØ" , act = {"Ç¿»¯Ò÷³ª","Ç¿»¯Ê©·Å"}}
---ÐÂÆïÕ½
-SKILL_TYPE[5663] = {name = "³å·æ" , act = {"¹ÄÎèÊ©·Å1"}}
-SKILL_TYPE[5664] = {name = "Ç¿Ï®" , act = {"¹ÄÎèÊ©·Å2"}}
-SKILL_TYPE[5666] = {name = "Ö±¹¥" , act = {"","Çá»÷1"}}
-SKILL_TYPE[5667] = {name = "ËÙ¹¥" , act = {"","Çá»÷1"}}
-SKILL_TYPE[5668] = {name = "¿ì¹¥" , act = {"","Çá»÷1"}}
-SKILL_TYPE[5669] = {name = "¿ÕÈÐ" , act = {"·ÉÐÐÒ÷³ª","·ÉÐÐÊ©·Å"}}
-SKILL_TYPE[5670] = {name = "ËÙÉä" , act = {"ÆïÉäÕ¾Á¢","ÆïÕ½Éä»÷4"}}
-SKILL_TYPE[5671] = {name = "ºáÉ¨" , act = {"","Çá»÷2"}}
-SKILL_TYPE[5672] = {name = "ºáÅü" , act = {"","Çá»÷2"}}
-SKILL_TYPE[5673] = {name = "ºáÂÕ" , act = {"","Çá»÷2"}}
-SKILL_TYPE[5674] = {name = "¿Õ´Ì" , act = {"·ÉÐÐÒ÷³ª","·ÉÐÐÊ©·Å"}}
-SKILL_TYPE[5675] = {name = "Í¸Éä" , act = {"ÆïÉäÕ¾Á¢","ÆïÕ½Éä»÷1"}}
-SKILL_TYPE[5676] = {name = "ÉñÍþÂÒÎè" , act = {"","ÂÒÎè"}}
-SKILL_TYPE[5677] = {name = "Á÷ÐÇÂÒÎè" , act = {"","ÂÒÎè"}}
-SKILL_TYPE[5678] = {name = "Í»Ï®´ò" , act = {"±¼ÅÜ","³å´Ì1",""}}
-SKILL_TYPE[5679] = {name = "ÖäÓ¡Êõ" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5680] = {name = "¼«º®¼ý" , act = {"ÆïÉäÕ¾Á¢","ÆïÕ½Éä»÷3"}}
-SKILL_TYPE[5681] = {name = "ÍÏµ¶Ê½" , act = {"","ÐîÊÆÑ­»·1","ÃÍ»÷1",""}}
-SKILL_TYPE[5682] = {name = "Áè¿Õ´Ì" , act = {"","ÐîÊÆÑ­»·","ÃÍ»÷",""}}
-SKILL_TYPE[5683] = {name = "Ç¿Ï®´ò" , act = {"","ÐîÊÆÑ­»·","ÃÍ»÷",""}, forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[5684] = {name = "ÂÒÓ°»÷" , act = {"","ÐîÊÆÑ­»·","ÃÍ»÷",""}, forcesuffix = "ÒìÀà"}
-SKILL_TYPE[5685] = {name = "ºô·ç»½Óê" , act = {"Ö¸ÏòÒ÷³ª","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5686] = {name = "Á¬»·Éñ¼ý" , act = {"ÆïÉäÕ¾Á¢","ÆïÕ½Éä»÷3"}}
-SKILL_TYPE[5687] = {name = "Áè·ç" , act = {"Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5688] = {name = "¿ñÏ®" , act = {"Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5703] = {name = "×óÐý»÷" , act = {"","×óÐý»÷"}, forcesuffix = "²æ"}
-SKILL_TYPE[5708] = {name = "ÀÞÐÄ´¸" , act = {"","Õð´¸"}, forcesuffix = "´¸"}
-SKILL_TYPE[5709] = {name = "ÁéÏ®" , act = {"","ÆïÕ½°µÆ÷"}, forcesuffix = "²æ"}
-SKILL_TYPE[5742] = {name = "¼²·ç¹÷" , act = {"","¼ÅÃð"}, forcesuffix = "¹÷"}
-SKILL_TYPE[5744] = {name = "»ØÐý·æ" , act = {"","»ØÐý"}, forcesuffix = "»·"}
-SKILL_TYPE[5745] = {name = "±ÞÇ¹¾ö" , act = {"","±ÞÇ¹¾ö"}, forcesuffix = "±Þ"}
-SKILL_TYPE[5746] = {name = "µ¹ÊÖ¸«" , act = {"","Îè±ø"}}
-SKILL_TYPE[5749] = {name = "ÆÆÕó´¸" , act = {"","ÂÒÎè¹¥»÷1"}, forcesuffix = "´¸"}
-SKILL_TYPE[5750] = {name = "ÃðÐÄ´Ì" , act = {"","Îè±ø"}}
-SKILL_TYPE[5751] = {name = "Å­ÅØ" , act = {"","ÂíÉÏ³°·í"}, forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5752] = {name = "²àÇãÎè" , act = {"Ç¿»¯Ò÷³ª","Ç¿»¯Ê©·Å"}}
-SKILL_TYPE[5789] = {name = "ÖØÕ¶" , act = {"","ÁÒ·çÖØÕ¶"}, forcesuffix = "îá"}
-SKILL_TYPE[5790] = {name = "À×îá" , act = {"","ÁÒ·çÖØÕ¶"}, forcesuffix = "îá"}
-SKILL_TYPE[5792] = {name = "Ç¹´Ì" , act = {"","´Ì»÷"}}
-SKILL_TYPE[5793] = {name = "ÉýÁú" , act = {"","Ë²»÷"},forcesuffix = "³¤Çá"}
-SKILL_TYPE[5794] = {name = "ÐýïÚ" , act = {"","ÐýïÚ"}}
-SKILL_TYPE[5802] = {name = "Ðý·çïµ" , act = {"","ÂíÉÏÍ¶ÖÀ"},forcesuffix = "ïµ"}
-SKILL_TYPE[5804] = {name = "ÁéÐÄÎè" , act = {"","ÂíÉÏ¹ÄÎè1"},forcesuffix = "Îè"} 
-SKILL_TYPE[5812] = {name = "¹ÄÎè" , act = {"","ÂíÉÏ¹ÄÎè2"},forcesuffix = "Îè"}
-SKILL_TYPE[5813] = {name = "»ðÁé" , act = {"","·ÉÐÐÊ©·Å»ðÏµ"}}
-SKILL_TYPE[5814] = {name = "±ùÁé" , act = {"","·ÉÐÐÊ©·Å±ùÏµ"}}
-SKILL_TYPE[5815] = {name = "¼ýéä" , act = {"","Ö¸ÏòÊ©·Å"}}
-SKILL_TYPE[5816] = {name = "Á¢ÂíÕ¶" , act = {"","Õ½¶·ÌøÔ¾Ñ­»·","Õ½¶·ÌøÔ¾ÂäµØ"}}
-SKILL_TYPE[5817] = {name = "¼²±¼Ï®" , act = {"","³å´Ì"}}
-SKILL_TYPE[5818] = {name = "ÍòÊ¯ÔÒ" , act = {"","Ç¿»÷"}}
-SKILL_TYPE[5819] = {name = "Ë«·åÕ¶" , act = {"","¼ÓËÙÅÜ","ÃÍ»÷"}}
-SKILL_TYPE[5820] = {name = "»êÃðÉ¨" , act = {"","»ØÐý","»ØÐý","»ØÐý"},forcesuffix = "»·"}
-SKILL_TYPE[5821] = {name = "Áé·ïÏ®" , act = {"","Áé·ïÏ®"},forcesuffix = "Í¨ÓÃ"}
-SKILL_TYPE[5822] = {name = "Ê¥ÁéÎè" , act = {"","ÂíÉÏ¹ÄÎè3"},forcesuffix = "Îè"}
-SKILL_TYPE[5823] = {name = "Äý¾¢»÷" , act = {"","Ö¸ÏòÊ©·Å»ðÏµ"}}
-SKILL_TYPE[5824] = {name = "¶ÏÂíÕ¶" , act = {"","¿³·­"},forcesuffix = "³¤ÖØ"}
-SKILL_TYPE[5825] = {name = "Á¦³å»÷" , act = {"","ÌøÅü",""}}
-SKILL_TYPE[5826] = {name = "ÆÆ»ê´Ì" , act = {"","ÃÍ´Ì"}}
-SKILL_TYPE[5827] = {name = "ËÝÏ®É±" , act = {"","³å´Ì"},forcesuffix = "Ë«¶Ì"}
-SKILL_TYPE[5828] = {name = "Ðý·çÉ¨" , act = {"","²øÈÆ"}, forcesuffix = "µ¥¶Ì"}
-SKILL_TYPE[5829] = {name = "¶ÝÏ®" , act = {"","Ó°ÉÁ"}, forcesuffix = "×¦"}
 
----Ô¤¶¨Òå²É¼¯¶¯×÷Ãû
+---æµ‹è¯•æŠ€èƒ½
+SKILL_TYPE[364] = {name = "æµ‹è¯•æ™®æ”»1" , act = {"","æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[365] = {name = "æµ‹è¯•æ™®æ”»2" , act = {"","æ™®é€šæ”»å‡»2"}}
+SKILL_TYPE[366] = {name = "æµ‹è¯•è½»å‡»1" , act = {"","è½»å‡»1"}}
+SKILL_TYPE[367] = {name = "æµ‹è¯•è½»å‡»2" , act = {"","è½»å‡»2"}}
+SKILL_TYPE[368] = {name = "æµ‹è¯•é‡å‡»1" , act = {"","é‡å‡»1"}}
+SKILL_TYPE[369] = {name = "æµ‹è¯•é‡å‡»2" , act = {"","é‡å‡»2"}}
+SKILL_TYPE[370] = {name = "æµ‹è¯•å¯¹åœ°æ”»å‡»" , act = {"","å¯¹åœ°æ”»å‡»"}}
+SKILL_TYPE[401] = {name = "æµ‹è¯•å¯¹ç©ºæ”»å‡»" , act = {"","å¯¹ç©ºæ”»å‡»"}}
+SKILL_TYPE[402] = {name = "æµ‹è¯•è·³è·ƒæ”»å‡»" , act = {"","è·³è·ƒæ”»å‡»"}}
+SKILL_TYPE[403] = {name = "æµ‹è¯•å›žè½¬æ”»å‡»" , act = {"","å›žè½¬æ”»å‡»"}}
+SKILL_TYPE[404] = {name = "æµ‹è¯•çªåˆºæ”»å‡»" , act = {"","çªåˆºæ”»å‡»"}}
+SKILL_TYPE[417] = {name = "æµ‹è¯•æ™®æ”»1" , act = {"","æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[418] = {name = "æµ‹è¯•æ™®æ”»2" , act = {"","æ™®é€šæ”»å‡»2"}}
+SKILL_TYPE[419] = {name = "æµ‹è¯•è½»å‡»1" , act = {"","è½»å‡»1"}}
+SKILL_TYPE[420] = {name = "æµ‹è¯•è½»å‡»2" , act = {"","è½»å‡»2"}}
+SKILL_TYPE[421] = {name = "æµ‹è¯•é‡å‡»1" , act = {"","é‡å‡»1"}}
+SKILL_TYPE[422] = {name = "æµ‹è¯•é‡å‡»2" , act = {"","é‡å‡»2"}}
+SKILL_TYPE[423] = {name = "æµ‹è¯•é£žè¡ŒåŸå”±æ–½æ”¾" , act = {"é£žè¡ŒåŸå”±","é£žè¡Œæ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[424] = {name = "æµ‹è¯•æŒ‡å‘åŸå”±æ–½æ”¾" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[425] = {name = "æµ‹è¯•è‡ªèº«åŸå”±æ–½æ”¾" , act = {"è‡ªèº«åŸå”±","è‡ªèº«æ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[426] = {name = "æµ‹è¯•é¼“èˆžåŸå”±æ–½æ”¾" , act = {"é¼“èˆžåŸå”±","é¼“èˆžæ–½æ”¾"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[428] = {name = "æµ‹è¯•å…‰çŽ¯1" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[429] = {name = "æµ‹è¯•å…‰çŽ¯2" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[430] = {name = "æµ‹è¯•å…‰çŽ¯3" , act = {"","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[450] = {name = "æµ‹è¯•çž¬ç§»" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[451] = {name = "æµ‹è¯•å†²é”‹" , act = {"ç‰¹æ®Šå‡†å¤‡","åŠ é€Ÿè·‘"}, forcesuffix = "å¼‚ç±»"}
+SKILL_TYPE[452] = {name = "æµ‹è¯•ç ¸å‡»" , act = {"è“„åŠ›å‡†å¤‡","è·³è·ƒæ”»å‡»"}}
+SKILL_TYPE[1127]={name="æµ‹è¯•",act={"æš—å™¨å‡†å¤‡","æš—å™¨æŠ•æŽ·"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1128]={name="æµ‹è¯•",act={"","å†²åˆº"}}
+SKILL_TYPE[1129]={name="æµ‹è¯•",act={"å¼“å‡†å¤‡1","å¼“å°„å‡»1"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1130]={name="æµ‹è¯•",act={"å¼“å‡†å¤‡2","å¼“å°„å‡»2"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1131]={name="æµ‹è¯•",act={"å¼“å‡†å¤‡3","å¼“å°„å‡»3"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1132]={name="æµ‹è¯•",act={"å¼“å‡†å¤‡4","å¼“å°„å‡»4"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[1133]={name="æµ‹è¯•",act={"","ä¹±èˆž"}}
+SKILL_TYPE[1134]={name="æµ‹è¯•",act={"","æ™®é€šæ”»å‡»1"}}
+SKILL_TYPE[1135]={name="æµ‹è¯•",act={"","æ™®é€šæ”»å‡»2"}}
+SKILL_TYPE[1136]={name="æµ‹è¯•",act={"","å¼ºå‡»"}}
+SKILL_TYPE[1137]={name="æµ‹è¯•",act={"","é‡å‡»1"}}
+SKILL_TYPE[1138]={name="æµ‹è¯•",act={"","é‡å‡»2"}}
+SKILL_TYPE[1139]={name="æµ‹è¯•",act={"","èˆžæ”»å‡»1"}, forcesuffix = "èˆž"}
+SKILL_TYPE[1140]={name="æµ‹è¯•",act={"","èˆžæ”»å‡»2"}, forcesuffix = "èˆž"}
+SKILL_TYPE[1141]={name="æµ‹è¯•",act={"","èˆžæ”»å‡»3"}, forcesuffix = "èˆž"}
+SKILL_TYPE[1142]={name="æµ‹è¯•",act={"","æˆŸæ”»å‡»1"}, forcesuffix = "é•¿è½»"}
+SKILL_TYPE[1143]={name="æµ‹è¯•",act={"","æˆŸæ”»å‡»2"}, forcesuffix = "é•¿è½»"}
+SKILL_TYPE[1144]={name="æµ‹è¯•",act={"","æˆŸæ”»å‡»3"}, forcesuffix = "é•¿è½»"}
+SKILL_TYPE[2861] = {name = "è½¬ç”Ÿè¯è†" , act = {"ç«™ç«‹æ“ä½œ","","","","","","ç«™ç«‹æ“ä½œ"}}
+
+
+---é©¬æˆ˜æŠ€èƒ½
+SKILL_TYPE[927] = {name = "ç­–é©¬æ‰¬éž­" , act = {"","åŠ é€Ÿ"}}
+SKILL_TYPE[928] = {name = "å¿«é©¬åŠ éž­" , act = {"","åŠ é€Ÿ"}}
+SKILL_TYPE[929] = {name = "è½»éª‘é•¿é©±" , act = {"","åŠ é€Ÿ"}}
+SKILL_TYPE[930] = {name = "é‡éª‘çªè¿›" , act = {"","åŠ é€Ÿ"}}
+SKILL_TYPE[1263] = {name = "éª‘å§¿åˆ‡æ¢" , act = {"","èƒŒåŽæ‹”åˆ€"}}
+SKILL_TYPE[1300] = {name = "æŠ¥å" , act = {"æˆ˜æ–—è·³è·ƒè½åœ°",""}}
+SKILL_TYPE[1301] = {name = "é¼“èˆž" , act = {"é¼“èˆžåŸå”±","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[1302] = {name = "ä¾¦å¯Ÿ" , act = {"é—²ç½®åŠ¨ä½œ",""}}
+SKILL_TYPE[1303] = {name = "å†²æ’ž" , act = {"",""}}
+SKILL_TYPE[1304] = {name = "è…¾è·ƒ" , act = {"","è…¾è·ƒ"}}
+--ä¸Šè¿°ä¿ç•™
+SKILL_TYPE[1270] = {name = "å†²é”‹" , act = {"é¼“èˆžåŸå”±","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[1271] = {name = "å¼ºè¢­" , act = {"é¼“èˆžåŸå”±","é¼“èˆžæ–½æ”¾"}}
+SKILL_TYPE[1272] = {name = "è“„åŠ›" , act = {"è¿‘èº«å‡†å¤‡","","",""}}
+SKILL_TYPE[1273] = {name = "ç›´æ”»" , act = {"","è½»å‡»1"}}
+SKILL_TYPE[1274] = {name = "é€Ÿæ”»" , act = {"","è½»å‡»1"}}
+SKILL_TYPE[1275] = {name = "å¿«æ”»" , act = {"","è½»å‡»1"}}
+SKILL_TYPE[1276] = {name = "é€Ÿå°„" , act = {"éª‘å°„ç«™ç«‹","éª‘æˆ˜å°„å‡»4"}}
+SKILL_TYPE[1277] = {name = "ç©ºåˆº" , act = {"é£žè¡ŒåŸå”±","é£žè¡Œæ–½æ”¾"}}
+SKILL_TYPE[1278] = {name = "æ¨ªæ‰«" , act = {"","è½»å‡»2"}}
+SKILL_TYPE[1279] = {name = "æ¨ªåŠˆ" , act = {"","è½»å‡»2"}}
+SKILL_TYPE[1280] = {name = "æ¨ªæŠ¡" , act = {"","è½»å‡»2"}}
+SKILL_TYPE[1281] = {name = "åŠ›å°„" , act = {"éª‘å°„ç«™ç«‹","éª‘æˆ˜å°„å‡»2"}}
+SKILL_TYPE[1282] = {name = "ç©ºåˆƒ" , act = {"é£žè¡ŒåŸå”±","é£žè¡Œæ–½æ”¾"}}
+SKILL_TYPE[1283] = {name = "åŠ›åˆº" , act = {"","é‡å‡»1"}}
+SKILL_TYPE[1284] = {name = "é‡æ–©" , act = {"","é‡å‡»1"} , forcesuffix = "é•¿é‡"}
+SKILL_TYPE[1285] = {name = "çŒ›ç " , act = {"","é‡å‡»1"}}
+SKILL_TYPE[1286] = {name = "çž¬å‡»" , act = {"","é‡å‡»1"}}
+SKILL_TYPE[1287] = {name = "é€å°„" , act = {"éª‘å°„ç«™ç«‹","éª‘æˆ˜å°„å‡»1"}}
+SKILL_TYPE[1288] = {name = "ç©ºç‰™" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[1289] = {name = "çªè¢­æ‰“" , act = {"å¥”è·‘","å†²åˆº1",""}}
+SKILL_TYPE[1290] = {name = "å¯¼å¼•ç®­" , act = {"éª‘å°„ç«™ç«‹","å¼“å°„å‡»1"}}
+SKILL_TYPE[1291] = {name = "ä¼šå¿ƒå‡»" , act = {"","å¼ºå‡»"}}
+SKILL_TYPE[1292] = {name = "æžå¯’ç®­" , act = {"éª‘å°„ç«™ç«‹","éª‘æˆ˜å°„å‡»3"}}
+SKILL_TYPE[1293] = {name = "é’©é•°æ‰“" , act = {"","æ™®é€šæ”»å‡»2"}}
+SKILL_TYPE[1294] = {name = "ç¥žå¨ä¹±èˆž" , act = {"","ä¹±èˆž"}}
+SKILL_TYPE[1295] = {name = "æµæ˜Ÿä¹±èˆž" , act = {"","ä¹±èˆž"}}
+SKILL_TYPE[1296] = {name = "çŽ‹è€…å¥‹æˆ˜" , act = {"","é‡å‡»2"}}
+SKILL_TYPE[1297] = {name = "ä¼ªå‡»è½¬æ€" , act = {"","é‡å‡»2"} , forcesuffix = "ç©ºæ‰‹"}
+SKILL_TYPE[1298] = {name = "å‘¼é£Žå”¤é›¨" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[1299] = {name = "è¿žçŽ¯ç¥žç®­" , act = {"éª‘å°„ç«™ç«‹","éª‘æˆ˜å°„å‡»3"}}
+SKILL_TYPE[1305] = {name = "çŒ›æ”»" , act = {"å¼ºåŒ–åŸå”±","å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[1306] = {name = "åšå®ˆ" , act = {"å¼ºåŒ–åŸå”±","å¼ºåŒ–æ–½æ”¾"}}
+--æ–°éª‘æˆ˜
+SKILL_TYPE[5663] = {name = "å†²é”‹" , act = {"é¼“èˆžæ–½æ”¾1"}}
+SKILL_TYPE[5664] = {name = "å¼ºè¢­" , act = {"é¼“èˆžæ–½æ”¾2"}}
+SKILL_TYPE[5666] = {name = "ç›´æ”»" , act = {"","è½»å‡»1"}}
+SKILL_TYPE[5667] = {name = "é€Ÿæ”»" , act = {"","è½»å‡»1"}}
+SKILL_TYPE[5668] = {name = "å¿«æ”»" , act = {"","è½»å‡»1"}}
+SKILL_TYPE[5669] = {name = "ç©ºåˆƒ" , act = {"é£žè¡ŒåŸå”±","é£žè¡Œæ–½æ”¾"}}
+SKILL_TYPE[5670] = {name = "é€Ÿå°„" , act = {"éª‘å°„ç«™ç«‹","éª‘æˆ˜å°„å‡»4"}}
+SKILL_TYPE[5671] = {name = "æ¨ªæ‰«" , act = {"","è½»å‡»2"}}
+SKILL_TYPE[5672] = {name = "æ¨ªåŠˆ" , act = {"","è½»å‡»2"}}
+SKILL_TYPE[5673] = {name = "æ¨ªæŠ¡" , act = {"","è½»å‡»2"}}
+SKILL_TYPE[5674] = {name = "ç©ºåˆº" , act = {"é£žè¡ŒåŸå”±","é£žè¡Œæ–½æ”¾"}}
+SKILL_TYPE[5675] = {name = "é€å°„" , act = {"éª‘å°„ç«™ç«‹","éª‘æˆ˜å°„å‡»1"}}
+SKILL_TYPE[5676] = {name = "ç¥žå¨ä¹±èˆž" , act = {"","ä¹±èˆž"}}
+SKILL_TYPE[5677] = {name = "æµæ˜Ÿä¹±èˆž" , act = {"","ä¹±èˆž"}}
+SKILL_TYPE[5678] = {name = "çªè¢­æ‰“" , act = {"å¥”è·‘","å†²åˆº1",""}}
+SKILL_TYPE[5679] = {name = "å’’å°æœ¯" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5680] = {name = "æžå¯’ç®­" , act = {"éª‘å°„ç«™ç«‹","éª‘æˆ˜å°„å‡»3"}}
+SKILL_TYPE[5681] = {name = "æ‹–åˆ€å¼" , act = {"","è“„åŠ¿å¾ªçŽ¯1","çŒ›å‡»1",""}}
+SKILL_TYPE[5682] = {name = "å‡Œç©ºåˆº" , act = {"","è“„åŠ¿å¾ªçŽ¯","çŒ›å‡»",""}}
+SKILL_TYPE[5683] = {name = "å¼ºè¢­æ‰“" , act = {"","è“„åŠ¿å¾ªçŽ¯","çŒ›å‡»",""}, forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[5684] = {name = "ä¹±å½±å‡»" , act = {"","è“„åŠ¿å¾ªçŽ¯","çŒ›å‡»",""}, forcesuffix = "å¼‚ç±»"}
+SKILL_TYPE[5685] = {name = "å‘¼é£Žå”¤é›¨" , act = {"æŒ‡å‘åŸå”±","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5686] = {name = "è¿žçŽ¯ç¥žç®­" , act = {"éª‘å°„ç«™ç«‹","éª‘æˆ˜å°„å‡»3"}}
+SKILL_TYPE[5687] = {name = "å‡Œé£Ž" , act = {"å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5688] = {name = "ç‹‚è¢­" , act = {"å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5703] = {name = "å·¦æ—‹å‡»" , act = {"","å·¦æ—‹å‡»"}, forcesuffix = "å‰"}
+SKILL_TYPE[5708] = {name = "æ“‚å¿ƒé”¤" , act = {"","éœ‡é”¤"}, forcesuffix = "é”¤"}
+SKILL_TYPE[5709] = {name = "çµè¢­" , act = {"","éª‘æˆ˜æš—å™¨"}, forcesuffix = "å‰"}
+SKILL_TYPE[5742] = {name = "ç–¾é£Žæ£" , act = {"","å¯‚ç­"}, forcesuffix = "æ£"}
+SKILL_TYPE[5744] = {name = "å›žæ—‹é”‹" , act = {"","å›žæ—‹"}, forcesuffix = "çŽ¯"}
+SKILL_TYPE[5745] = {name = "éž­æžªå†³" , act = {"","éž­æžªå†³"}, forcesuffix = "éž­"}
+SKILL_TYPE[5746] = {name = "å€’æ‰‹æ–§" , act = {"","èˆžå…µ"}}
+SKILL_TYPE[5749] = {name = "ç ´é˜µé”¤" , act = {"","ä¹±èˆžæ”»å‡»1"}, forcesuffix = "é”¤"}
+SKILL_TYPE[5750] = {name = "ç­å¿ƒåˆº" , act = {"","èˆžå…µ"}}
+SKILL_TYPE[5751] = {name = "æ€’å’†" , act = {"","é©¬ä¸Šå˜²è®½"}, forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5752] = {name = "ä¾§å€¾èˆž" , act = {"å¼ºåŒ–åŸå”±","å¼ºåŒ–æ–½æ”¾"}}
+SKILL_TYPE[5789] = {name = "é‡æ–©" , act = {"","çƒˆé£Žé‡æ–©"}, forcesuffix = "é’º"}
+SKILL_TYPE[5790] = {name = "é›·é’º" , act = {"","çƒˆé£Žé‡æ–©"}, forcesuffix = "é’º"}
+SKILL_TYPE[5792] = {name = "æžªåˆº" , act = {"","åˆºå‡»"}}
+SKILL_TYPE[5793] = {name = "å‡é¾™" , act = {"","çž¬å‡»"},forcesuffix = "é•¿è½»"}
+SKILL_TYPE[5794] = {name = "æ—‹é•–" , act = {"","æ—‹é•–"}}
+SKILL_TYPE[5802] = {name = "æ—‹é£Žé”" , act = {"","é©¬ä¸ŠæŠ•æŽ·"},forcesuffix = "é”"}
+SKILL_TYPE[5804] = {name = "çµå¿ƒèˆž" , act = {"","é©¬ä¸Šé¼“èˆž1"},forcesuffix = "èˆž"}
+SKILL_TYPE[5812] = {name = "é¼“èˆž" , act = {"","é©¬ä¸Šé¼“èˆž2"},forcesuffix = "èˆž"}
+SKILL_TYPE[5813] = {name = "ç«çµ" , act = {"","é£žè¡Œæ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[5814] = {name = "å†°çµ" , act = {"","é£žè¡Œæ–½æ”¾å†°ç³»"}}
+SKILL_TYPE[5815] = {name = "ç®­æ®‡" , act = {"","æŒ‡å‘æ–½æ”¾"}}
+SKILL_TYPE[5816] = {name = "ç«‹é©¬æ–©" , act = {"","æˆ˜æ–—è·³è·ƒå¾ªçŽ¯","æˆ˜æ–—è·³è·ƒè½åœ°"}}
+SKILL_TYPE[5817] = {name = "ç–¾å¥”è¢­" , act = {"","å†²åˆº"}}
+SKILL_TYPE[5818] = {name = "ä¸‡çŸ³ç ¸" , act = {"","å¼ºå‡»"}}
+SKILL_TYPE[5819] = {name = "åŒå³°æ–©" , act = {"","åŠ é€Ÿè·‘","çŒ›å‡»"}}
+SKILL_TYPE[5820] = {name = "é­‚ç­æ‰«" , act = {"","å›žæ—‹","å›žæ—‹","å›žæ—‹"},forcesuffix = "çŽ¯"}
+SKILL_TYPE[5821] = {name = "çµå‡¤è¢­" , act = {"","çµå‡¤è¢­"},forcesuffix = "é€šç”¨"}
+SKILL_TYPE[5822] = {name = "åœ£çµèˆž" , act = {"","é©¬ä¸Šé¼“èˆž3"},forcesuffix = "èˆž"}
+SKILL_TYPE[5823] = {name = "å‡åŠ²å‡»" , act = {"","æŒ‡å‘æ–½æ”¾ç«ç³»"}}
+SKILL_TYPE[5824] = {name = "æ–­é©¬æ–©" , act = {"","ç ç¿»"},forcesuffix = "é•¿é‡"}
+SKILL_TYPE[5825] = {name = "åŠ›å†²å‡»" , act = {"","è·³åŠˆ",""}}
+SKILL_TYPE[5826] = {name = "ç ´é­‚åˆº" , act = {"","çŒ›åˆº"}}
+SKILL_TYPE[5827] = {name = "æº¯è¢­æ€" , act = {"","å†²åˆº"},forcesuffix = "åŒçŸ­"}
+SKILL_TYPE[5828] = {name = "æ—‹é£Žæ‰«" , act = {"","ç¼ ç»•"}, forcesuffix = "å•çŸ­"}
+SKILL_TYPE[5829] = {name = "éè¢­" , act = {"","å½±é—ª"}, forcesuffix = "çˆª"}
+
+---é¢„å®šä¹‰é‡‡é›†åŠ¨ä½œå
 DIG_TYPE = {}
 
-DIG_TYPE[1] = {name = "²ÉÒ©" , loopname = "²ÉÒ©Ñ­»·"}
-DIG_TYPE[2] = {name = "²ÉÒ©" , loopname = "²ÉÒ©Ñ­»·"}
-DIG_TYPE[3] = {name = "Õ¾Á¢²Ù×÷" , loopname = "Õ¾Á¢²Ù×÷Ñ­»·"}
-DIG_TYPE[4] = {name = "¶×ÏÂ²Ù×÷" , loopname = "¶×ÏÂ²Ù×÷Ñ­»·"}
-DIG_TYPE[5] = {name = "±íÇé»¶ºô" , loopname = ""}
-DIG_TYPE[6] = {name = "Õ¾Á¢²Ù×÷" , loopname = "Õ¾Á¢²Ù×÷Ñ­»·"}
-DIG_TYPE[7] = {name = "µöÓã" , loopname = "µöÓãÑ­»·"}
-DIG_TYPE[8] = {name = "²ÉÒ©" , loopname = "²ÉÒ©Ñ­»·"}
-DIG_TYPE[9] = {name = "¶×ÏÂ²Ù×÷" , loopname = "Õ¾Á¢²Ù×÷Ñ­»·"}
-DIG_TYPE[10] = {name = "¶×ÏÂ²Ù×÷" , loopname = "Õ¾Á¢²Ù×÷Ñ­»·"}
---»÷´ò
-DIG_TYPE[11] = {name = "±íÇéÊÖÖ¸" , loopname = ""}
---ÌßËé
-DIG_TYPE[12] = {name = "ÌßÏä" , loopname = "ÌßÏäÑ­»·"}
---¹¥»÷
-DIG_TYPE[13] = {name = "ÌßÏä" , loopname = "ÌßÏäÑ­»·"}
+DIG_TYPE[1] = {name = "é‡‡è¯" , loopname = "é‡‡è¯å¾ªçŽ¯"}
+DIG_TYPE[2] = {name = "é‡‡è¯" , loopname = "é‡‡è¯å¾ªçŽ¯"}
+DIG_TYPE[3] = {name = "ç«™ç«‹æ“ä½œ" , loopname = "ç«™ç«‹æ“ä½œå¾ªçŽ¯"}
+DIG_TYPE[4] = {name = "è¹²ä¸‹æ“ä½œ" , loopname = "è¹²ä¸‹æ“ä½œå¾ªçŽ¯"}
+DIG_TYPE[5] = {name = "è¡¨æƒ…æ¬¢å‘¼" , loopname = ""}
+DIG_TYPE[6] = {name = "ç«™ç«‹æ“ä½œ" , loopname = "ç«™ç«‹æ“ä½œå¾ªçŽ¯"}
+DIG_TYPE[7] = {name = "é’“é±¼" , loopname = "é’“é±¼å¾ªçŽ¯"}
+DIG_TYPE[8] = {name = "é‡‡è¯" , loopname = "é‡‡è¯å¾ªçŽ¯"}
+DIG_TYPE[9] = {name = "è¹²ä¸‹æ“ä½œ" , loopname = "ç«™ç«‹æ“ä½œå¾ªçŽ¯"}
+DIG_TYPE[10] = {name = "è¹²ä¸‹æ“ä½œ" , loopname = "ç«™ç«‹æ“ä½œå¾ªçŽ¯"}
+--å‡»æ‰“
+DIG_TYPE[11] = {name = "è¡¨æƒ…æ‰‹æŒ‡" , loopname = ""}
+--è¸¢ç¢Ž
+DIG_TYPE[12] = {name = "è¸¢ç®±" , loopname = "è¸¢ç®±å¾ªçŽ¯"}
+--æ”»å‡»
+DIG_TYPE[13] = {name = "è¸¢ç®±" , loopname = "è¸¢ç®±å¾ªçŽ¯"}
 
-	
----Ê±×°ÎäÆ÷
--- ¸Ã±íºÍº¯Êý£¬ÊÇÎªÁË¸æËß¿Í»§¶Ë£¬WeaponID×°±¸£¬ÔÚÍæ¼ÒÊÇWeaponType±øÖÖÊ±£¬ÊÇ·ñÓ¦¸ÃÔÚÕ½¶·ÖÐÏÔÊ¾³öÀ´
--- ²ÎÊý£ºWeaponID£º×°±¸Ä£°æID   WeaponType£ºÍæ¼Òµ±Ç°ÆÕÍ¨×°±¸µÄ±øÖÖ
--- ·µ»ØÖµ£ºÊÇ·ñÔÚÕ½¶·ÖÐÏÔÊ¾£ºBOOL
+
+---æ—¶è£…æ­¦å™¨
+-- è¯¥è¡¨å’Œå‡½æ•°ï¼Œæ˜¯ä¸ºäº†å‘Šè¯‰å®¢æˆ·ç«¯ï¼ŒWeaponIDè£…å¤‡ï¼Œåœ¨çŽ©å®¶æ˜¯WeaponTypeå…µç§æ—¶ï¼Œæ˜¯å¦åº”è¯¥åœ¨æˆ˜æ–—ä¸­æ˜¾ç¤ºå‡ºæ¥
+-- å‚æ•°ï¼šWeaponIDï¼šè£…å¤‡æ¨¡ç‰ˆID   WeaponTypeï¼šçŽ©å®¶å½“å‰æ™®é€šè£…å¤‡çš„å…µç§
+-- è¿”å›žå€¼ï¼šæ˜¯å¦åœ¨æˆ˜æ–—ä¸­æ˜¾ç¤ºï¼šBOOL
 FWType = {}
 FWType[71769]={}
 FWType[71770]={}
@@ -1690,19 +1690,19 @@ function fashion_weapon:ShowInFighting( WeaponID, WeaponType )
 	return false
 end
 
---[[-- KeyÊÇÎäÆ÷µÄÄ£°æID£¬Value ÊÇ ×óÓÒÊÖÄ£ÐÍ¶ÔÓ¦µÄ¹Òµã¡£Èç¹ûÖ»ÓÐÒ»¸öÄ£ÐÍ£¬¾ÍÌîµÚÒ»¸ö×Ö·û´®¡£
--- µ¥Ä£ÐÍ¾Í×°±¸¾ÍÌîÒ»¸öµÚÒ»¸ö£¬µÚ¶þ¸öÎª""£¬Ë«Ä£ÐÍ¾ÍÌîÁ½¸ö£¬12·Ö±ð¶ÔÓ¦×óÓÒÊÖ
--- ²ÎÊý£ºÄ£°æID
--- ·µ»ØÖµ£º×óÓÒÊÖ¹Òµã£¬String
+--[[-- Keyæ˜¯æ­¦å™¨çš„æ¨¡ç‰ˆIDï¼ŒValue æ˜¯ å·¦å³æ‰‹æ¨¡åž‹å¯¹åº”çš„æŒ‚ç‚¹ã€‚å¦‚æžœåªæœ‰ä¸€ä¸ªæ¨¡åž‹ï¼Œå°±å¡«ç¬¬ä¸€ä¸ªå­—ç¬¦ä¸²ã€‚
+-- å•æ¨¡åž‹å°±è£…å¤‡å°±å¡«ä¸€ä¸ªç¬¬ä¸€ä¸ªï¼Œç¬¬äºŒä¸ªä¸º""ï¼ŒåŒæ¨¡åž‹å°±å¡«ä¸¤ä¸ªï¼Œ12åˆ†åˆ«å¯¹åº”å·¦å³æ‰‹
+-- å‚æ•°ï¼šæ¨¡ç‰ˆID
+-- è¿”å›žå€¼ï¼šå·¦å³æ‰‹æŒ‚ç‚¹ï¼ŒString
 
--- [1] ÊÇÆÕÍ¨×´Ì¬µÄ×óÓÒ¹Òµã£¬ [2]ÊÇÆï³Ë×´Ì¬µÄ×óÓÒ¹Òµã
+-- [1] æ˜¯æ™®é€šçŠ¶æ€çš„å·¦å³æŒ‚ç‚¹ï¼Œ [2]æ˜¯éª‘ä¹˜çŠ¶æ€çš„å·¦å³æŒ‚ç‚¹
 FWHook = {}
-FWHook[71770] = {[1] = {"","HH_ºùÂ«"},[2] = {"","HH_ºùÂ«"}}
-FWHook[71771] = {[1] = {"","HH_»¨»·"},[2] = {"","HH_»¨»·"}}
-FWHook[72192] = {[1] = {"","HH_righthandweapon"},[2] = {"","HH_µÑ×Ó"}}
-FWHook[72193] = {[1] = {"","HH_righthandweapon"},[2] = {"","HH_É¡"}}
-FWHook[72845] = {[1] = {"","HH_²æ"},[2] = {"","HH_²æ"}}
-FWHook[72846] = {[1] = {"","HH_righthandweapon"},[2] = {"","HH_²æ"}}
+FWHook[71770] = {[1] = {"","HH_è‘«èŠ¦"},[2] = {"","HH_è‘«èŠ¦"}}
+FWHook[71771] = {[1] = {"","HH_èŠ±çŽ¯"},[2] = {"","HH_èŠ±çŽ¯"}}
+FWHook[72192] = {[1] = {"","HH_righthandweapon"},[2] = {"","HH_ç¬›å­"}}
+FWHook[72193] = {[1] = {"","HH_righthandweapon"},[2] = {"","HH_ä¼ž"}}
+FWHook[72845] = {[1] = {"","HH_å‰"},[2] = {"","HH_å‰"}}
+FWHook[72846] = {[1] = {"","HH_righthandweapon"},[2] = {"","HH_å‰"}}
 function fashion_weapon:GetHookName( TemplID, StateID )
 	if FWHook[TemplID] == nil or FWHook[TemplID][StateID] == nil then
 		return "",""
@@ -1713,309 +1713,309 @@ end--]]
 
 FWHook = {}
 FWHook[71770] = {
-	["Ä¬ÈÏ"] = {"","HH_ºùÂ«"},
-	["Æï³Ë"] = {"","HH_ºùÂ«"},
-	["ÌØÊâ"] = {"","HH_ºùÂ«"}}
+	["é»˜è®¤"] = {"","HH_è‘«èŠ¦"},
+	["éª‘ä¹˜"] = {"","HH_è‘«èŠ¦"},
+	["ç‰¹æ®Š"] = {"","HH_è‘«èŠ¦"}}
 FWHook[71771] = {
-	["Ä¬ÈÏ"] = {"","HH_»¨»·"},
-	["Æï³Ë"] = {"","HH_»¨»·"},
-	["ÌØÊâ"] = {"","HH_»¨»·"}}
+	["é»˜è®¤"] = {"","HH_èŠ±çŽ¯"},
+	["éª‘ä¹˜"] = {"","HH_èŠ±çŽ¯"},
+	["ç‰¹æ®Š"] = {"","HH_èŠ±çŽ¯"}}
 FWHook[72192] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µÑ×Ó"},
-	["ÌØÊâ"] = {"",""}}
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_ç¬›å­"},
+	["ç‰¹æ®Š"] = {"",""}}
 FWHook[72193] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_É¡"},
-	["ÌØÊâ"] = {"",""}}
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_ä¼ž"},
+	["ç‰¹æ®Š"] = {"",""}}
 FWHook[72599] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_É¡"},
-	["ÌØÊâ"] = {"",""}}
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_ä¼ž"},
+	["ç‰¹æ®Š"] = {"",""}}
 FWHook[72600] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_É¡"},
-	["ÌØÊâ"] = {"",""}}
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_ä¼ž"},
+	["ç‰¹æ®Š"] = {"",""}}
 FWHook[72845] = {
-	["Ä¬ÈÏ"] = {"","HH_ÇÙ"},
-	["Æï³Ë"] = {"","HH_²æ"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_ç´"},
+	["éª‘ä¹˜"] = {"","HH_å‰"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[3753] = {"","HH_righthandweapon"},
 	[363] = {"","HH_righthandweapon"}}
 FWHook[72846] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µÑ×Ó"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"}}
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_ç¬›å­"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"}}
 FWHook[72995] = {
-	["Ä¬ÈÏ"] = {"","HH_ÐÜÃ¨"},
-	["Æï³Ë"] = {"","HH_ÐÜÃ¨"},
-	["ÌØÊâ"] = {"","HH_ÐÜÃ¨"},
-	[3767] = {"","HH_ÐÜÃ¨01"}}
+	["é»˜è®¤"] = {"","HH_ç†ŠçŒ«"},
+	["éª‘ä¹˜"] = {"","HH_ç†ŠçŒ«"},
+	["ç‰¹æ®Š"] = {"","HH_ç†ŠçŒ«"},
+	[3767] = {"","HH_ç†ŠçŒ«01"}}
 FWHook[72996] = {
-	["Ä¬ÈÏ"] = {"","HH_lefthandweapon"},
-	["Æï³Ë"] = {"","HH_ÅýÅÃ"},
-	["ÌØÊâ"] = {"","HH_lefthandweapon"},
+	["é»˜è®¤"] = {"","HH_lefthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_çµç¶"},
+	["ç‰¹æ®Š"] = {"","HH_lefthandweapon"},
 	[3766] = {"","HH_lefthandweapon"}}
 FWHook[73830] = {
-	["Ä¬ÈÏ"] = {"","HH_Áú·çóÝ"},
-	["Æï³Ë"] = {"","HH_Áú·çóÝ"},
-	["ÌØÊâ"] = {"","HH_Áú·çóÝ"}}
+	["é»˜è®¤"] = {"","HH_é¾™é£Žç­"},
+	["éª‘ä¹˜"] = {"","HH_é¾™é£Žç­"},
+	["ç‰¹æ®Š"] = {"","HH_é¾™é£Žç­"}}
 FWHook[74279] = {
-	["Ä¬ÈÏ"] = {"","HH_Éú»¨±Ê"},
-	["Æï³Ë"] = {"","HH_Éú»¨±Ê"},
-	["ÌØÊâ"] = {"","HH_Éú»¨±Ê"}}
+	["é»˜è®¤"] = {"","HH_ç”ŸèŠ±ç¬”"},
+	["éª‘ä¹˜"] = {"","HH_ç”ŸèŠ±ç¬”"},
+	["ç‰¹æ®Š"] = {"","HH_ç”ŸèŠ±ç¬”"}}
 FWHook[74887] = {
-	["Ä¬ÈÏ"] = {"","HH_lefthandweapon"},
-	["Æï³Ë"] = {"","HH_ÈýÏÒÇÙ"},
-	["ÌØÊâ"] = {"","HH_lefthandweapon"},
+	["é»˜è®¤"] = {"","HH_lefthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_ä¸‰å¼¦ç´"},
+	["ç‰¹æ®Š"] = {"","HH_lefthandweapon"},
 	[4008] = {"","HH_lefthandweapon"}}
 FWHook[75368] = {
-	["Ä¬ÈÏ"] = {"","HH_ÐÜÃ¨"},
-	["Æï³Ë"] = {"","HH_ÐÜÃ¨"},
-	["ÌØÊâ"] = {"","HH_ÐÜÃ¨"},
-	[4009] = {"","HH_ÐÜÃ¨"}}
+	["é»˜è®¤"] = {"","HH_ç†ŠçŒ«"},
+	["éª‘ä¹˜"] = {"","HH_ç†ŠçŒ«"},
+	["ç‰¹æ®Š"] = {"","HH_ç†ŠçŒ«"},
+	[4009] = {"","HH_ç†ŠçŒ«"}}
 FWHook[75875] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µÆÁý"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_ç¯ç¬¼"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[4010] = {"","HH_righthandweapon"}}
 FWHook[76183] = {
-	["Ä¬ÈÏ"] = {"","HH_Éú»¨±Ê"},
-	["Æï³Ë"] = {"","HH_Éú»¨±Ê"},
-	["ÌØÊâ"] = {"","HH_Éú»¨±Ê"}}
+	["é»˜è®¤"] = {"","HH_ç”ŸèŠ±ç¬”"},
+	["éª‘ä¹˜"] = {"","HH_ç”ŸèŠ±ç¬”"},
+	["ç‰¹æ®Š"] = {"","HH_ç”ŸèŠ±ç¬”"}}
 FWHook[76257] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µÆÁý"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_ç¯ç¬¼"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[4010] = {"","HH_righthandweapon"}}
 FWHook[76451] = {
-	["Ä¬ÈÏ"] = {"","HH_Áú·çóÝ"},
-	["Æï³Ë"] = {"","HH_Áú·çóÝ"},
-	["ÌØÊâ"] = {"","HH_Áú·çóÝ"}}
+	["é»˜è®¤"] = {"","HH_é¾™é£Žç­"},
+	["éª‘ä¹˜"] = {"","HH_é¾™é£Žç­"},
+	["ç‰¹æ®Š"] = {"","HH_é¾™é£Žç­"}}
 FWHook[76452] = {
-	["Ä¬ÈÏ"] = {"","HH_ÐÜÃ¨"},
-	["Æï³Ë"] = {"","HH_ÐÜÃ¨"},
-	["ÌØÊâ"] = {"","HH_ÐÜÃ¨"},
-	[4009] = {"","HH_ÐÜÃ¨"}}
+	["é»˜è®¤"] = {"","HH_ç†ŠçŒ«"},
+	["éª‘ä¹˜"] = {"","HH_ç†ŠçŒ«"},
+	["ç‰¹æ®Š"] = {"","HH_ç†ŠçŒ«"},
+	[4009] = {"","HH_ç†ŠçŒ«"}}
 FWHook[76550] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_ÊÖÌ×ÍÞÍÞ"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_æ‰‹å¥—å¨ƒå¨ƒ"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[4011] = {"","HH_righthandweapon"}}
 FWHook[80030] = {
-	["Ä¬ÈÏ"] = {"","HH_ÓñÅå"},
-	["Æï³Ë"] = {"","HH_ÓñÅå"},
-	["ÌØÊâ"] = {"","HH_ÓñÅå"}}
+	["é»˜è®¤"] = {"","HH_çŽ‰ä½©"},
+	["éª‘ä¹˜"] = {"","HH_çŽ‰ä½©"},
+	["ç‰¹æ®Š"] = {"","HH_çŽ‰ä½©"}}
 FWHook[81214] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_Ð¡Ñ±Â¹"},
-	["ÌØÊâ"] = {"",""}}
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_å°é©¯é¹¿"},
+	["ç‰¹æ®Š"] = {"",""}}
 FWHook[81243] = {
-	["Ä¬ÈÏ"] = {"","HH_ÓñÅå"},
-	["Æï³Ë"] = {"","HH_ÓñÅå"},
-	["ÌØÊâ"] = {"","HH_ÓñÅå"}}
+	["é»˜è®¤"] = {"","HH_çŽ‰ä½©"},
+	["éª‘ä¹˜"] = {"","HH_çŽ‰ä½©"},
+	["ç‰¹æ®Š"] = {"","HH_çŽ‰ä½©"}}
 FWHook[81944] = {
-	["Ä¬ÈÏ"] = {"","HH_ÐÜÃ¨"},
-	["Æï³Ë"] = {"","HH_ÐÜÃ¨"},
-	["ÌØÊâ"] = {"","HH_ÐÜÃ¨"},
-	[4015] = {"","HH_ÐÜÃ¨"}}
+	["é»˜è®¤"] = {"","HH_ç†ŠçŒ«"},
+	["éª‘ä¹˜"] = {"","HH_ç†ŠçŒ«"},
+	["ç‰¹æ®Š"] = {"","HH_ç†ŠçŒ«"},
+	[4015] = {"","HH_ç†ŠçŒ«"}}
 FWHook[81945] = {
-	["Ä¬ÈÏ"] = {"","HH_ÐÜÃ¨"},
-	["Æï³Ë"] = {"","HH_ÐÜÃ¨"},
-	["ÌØÊâ"] = {"","HH_ÐÜÃ¨"},
-	[4016] = {"","HH_ÐÜÃ¨"}}
+	["é»˜è®¤"] = {"","HH_ç†ŠçŒ«"},
+	["éª‘ä¹˜"] = {"","HH_ç†ŠçŒ«"},
+	["ç‰¹æ®Š"] = {"","HH_ç†ŠçŒ«"},
+	[4016] = {"","HH_ç†ŠçŒ«"}}
 FWHook[83400] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[4971] = {"","HH_righthandweapon"}}
 FWHook[83401] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_³¤±ø"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_é•¿å…µ"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[4972] = {"","HH_righthandweapon"}}
 FWHook[83402] = {
-	["Ä¬ÈÏ"] = {"","HH_lefthandweapon"},
-	["Æï³Ë"] = {"","HH_lefthandweapon"},
-	["ÆïÕ½"] = {"","HH_lefthandweapon"},	
-	["ÌØÊâ"] = {"","HH_lefthandweapon"},
+	["é»˜è®¤"] = {"","HH_lefthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_lefthandweapon"},
+	["éª‘æˆ˜"] = {"","HH_lefthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_lefthandweapon"},
 	[4973] = {"","HH_lefthandweapon"}}
 FWHook[83403] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_³¤±ø"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_é•¿å…µ"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[4974] = {"","HH_righthandweapon"}}
 FWHook[83404] = {
-	["Ä¬ÈÏ"] = {"HH_lefthandweapon","HH_righthandweapon"},
-	["Æï³Ë"] = {"HH_Îè×ó","HH_ÎèÓÒ"},
-	["ÆïÕ½"] = {"HH_lefthandweapon","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"HH_lefthandweapon","HH_righthandweapon"},
-	[4975] = {"HH_lefthandweapon","HH_righthandweapon"}}	
+	["é»˜è®¤"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"HH_èˆžå·¦","HH_èˆžå³"},
+	["éª‘æˆ˜"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	[4975] = {"HH_lefthandweapon","HH_righthandweapon"}}
 FWHook[83405] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_³¤±ø"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_é•¿å…µ"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[4976] = {"","HH_righthandweapon"}}
 FWHook[83406] = {
-	["Ä¬ÈÏ"] = {"HH_lefthandweapon","HH_righthandweapon"},
-	["Æï³Ë"] = {"HH_Îè×ó","HH_ÎèÓÒ"},
-	["ÆïÕ½"] = {"HH_lefthandweapon","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["é»˜è®¤"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"HH_èˆžå·¦","HH_èˆžå³"},
+	["éª‘æˆ˜"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"HH_lefthandweapon","HH_righthandweapon"},
 	[4977] = {"HH_lefthandweapon","HH_righthandweapon"}}
 FWHook[83407] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[4978] = {"","HH_righthandweapon"}}
 FWHook[83408] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[4979] = {"","HH_righthandweapon"}}
 FWHook[83409] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_³¤Çá"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_é•¿è½»"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[4980] = {"","HH_righthandweapon"}}
 FWHook[83975] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
-	[5004] = {"","HH_righthandweapon"}}	
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
+	[5004] = {"","HH_righthandweapon"}}
 FWHook[84144] = {
-	["Ä¬ÈÏ"] = {"HH_lefthandweapon","HH_righthandweapon"},
-	["Æï³Ë"] = {"HH_Îè×ó","HH_ÎèÓÒ"},
-	["ÆïÕ½"] = {"HH_lefthandweapon","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["é»˜è®¤"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"HH_èˆžå·¦","HH_èˆžå³"},
+	["éª‘æˆ˜"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"HH_lefthandweapon","HH_righthandweapon"},
 	[5019] = {"HH_lefthandweapon","HH_righthandweapon"}}
 FWHook[84351] = {
-	["Ä¬ÈÏ"] = {"HH_lefthandweapon","HH_righthandweapon"},
-	["Æï³Ë"] = {"HH_Îè×ó","HH_ÎèÓÒ"},
-	["ÆïÕ½"] = {"HH_lefthandweapon","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["é»˜è®¤"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"HH_èˆžå·¦","HH_èˆžå³"},
+	["éª‘æˆ˜"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"HH_lefthandweapon","HH_righthandweapon"},
 	[5068] = {"HH_lefthandweapon","HH_righthandweapon"}}
 FWHook[86330] = {
-	["Ä¬ÈÏ"] = {"HH_lefthandweapon","HH_righthandweapon"},
-	["Æï³Ë"] = {"HH_Ë«¶Ì×ó","HH_Ë«¶ÌÓÒ"},
-	["ÆïÕ½"] = {"HH_lefthandweapon","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["é»˜è®¤"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"HH_åŒçŸ­å·¦","HH_åŒçŸ­å³"},
+	["éª‘æˆ˜"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"HH_lefthandweapon","HH_righthandweapon"},
 	[5262] = {"HH_lefthandweapon","HH_righthandweapon"}}
 FWHook[86331] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[5263] = {"","HH_righthandweapon"}}
 FWHook[86332] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_³¤±ø"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_é•¿å…µ"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[5264] = {"","HH_righthandweapon"}}
 FWHook[86333] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_³¤Çá"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_é•¿è½»"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[5265] = {"","HH_righthandweapon"}}
 FWHook[86334] = {
-	["Ä¬ÈÏ"] = {"HH_lefthandweapon","HH_righthandweapon"},
-	["Æï³Ë"] = {"HH_Îè×ó","HH_ÎèÓÒ"},
-	["ÆïÕ½"] = {"HH_lefthandweapon","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["é»˜è®¤"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"HH_èˆžå·¦","HH_èˆžå³"},
+	["éª‘æˆ˜"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"HH_lefthandweapon","HH_righthandweapon"},
 	[5266] = {"HH_lefthandweapon","HH_righthandweapon"}}
 FWHook[86335] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_´¸ÓÒ"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_é”¤å³"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[5267] = {"","HH_righthandweapon"}}
 FWHook[86336] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_´¸ÓÒ"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_é”¤å³"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[5268] = {"","HH_righthandweapon"}}
 FWHook[88671] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_³¤Çá"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_é•¿è½»"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[5387] = {"","HH_righthandweapon"}}
 FWHook[88672] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_³¤Çá"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
-	[5388] = {"","HH_righthandweapon"}}	
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_é•¿è½»"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
+	[5388] = {"","HH_righthandweapon"}}
 FWHook[88673] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_³¤Çá"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_é•¿è½»"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[5389] = {"","HH_righthandweapon"}}
 FWHook[89219] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[5435] = {"","HH_righthandweapon"}}
 FWHook[89221] = {
-	["Ä¬ÈÏ"] = {"HH_lefthandweapon","HH_righthandweapon"},
-	["Æï³Ë"] = {"HH_µ¥¶Ì01","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"HH_lefthandweapon","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["é»˜è®¤"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"HH_å•çŸ­01","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"HH_lefthandweapon","HH_righthandweapon"},
 	[5436] = {"HH_lefthandweapon","HH_righthandweapon"}}
 FWHook[89222] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"","HH_righthandweapon"},
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"},
 	[5437] = {"","HH_righthandweapon"}}
 FWHook[89695] = {
-	["Ä¬ÈÏ"] = {"","HH_lefthandweapon"},
-	["Æï³Ë"] = {"","HH_ÅýÅÃ"},
-	["ÌØÊâ"] = {"","HH_lefthandweapon"},
+	["é»˜è®¤"] = {"","HH_lefthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_çµç¶"},
+	["ç‰¹æ®Š"] = {"","HH_lefthandweapon"},
 	[3766] = {"","HH_lefthandweapon"}}
 FWHook[97760] = {
-	["Ä¬ÈÏ"] = {"HH_lefthandweapon","HH_righthandweapon"},
-	["Æï³Ë"] = {"HH_µ¥¶Ì01","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"HH_lefthandweapon","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["é»˜è®¤"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"HH_å•çŸ­01","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"HH_lefthandweapon","HH_righthandweapon"},
 	[5436] = {"HH_lefthandweapon","HH_righthandweapon"}}
 FWHook[97761] = {
-	["Ä¬ÈÏ"] = {"HH_lefthandweapon","HH_righthandweapon"},
-	["Æï³Ë"] = {"HH_µ¥¶Ì01","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"HH_lefthandweapon","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["é»˜è®¤"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"HH_å•çŸ­01","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"HH_lefthandweapon","HH_righthandweapon"},
 	[5436] = {"HH_lefthandweapon","HH_righthandweapon"}}
 FWHook[98965] = {
-	["Ä¬ÈÏ"] = {"","HH_ÐØ"},
-	["Æï³Ë"] = {"","HH_ÐØ"},
-	["ÌØÊâ"] = {"","HH_ÐØ"}}
+	["é»˜è®¤"] = {"","HH_èƒ¸"},
+	["éª‘ä¹˜"] = {"","HH_èƒ¸"},
+	["ç‰¹æ®Š"] = {"","HH_èƒ¸"}}
 FWHook[98938] = {
-	["Ä¬ÈÏ"] = {"HH_lefthandweapon","HH_righthandweapon"},
-	["Æï³Ë"] = {"HH_µ¥¶Ì01","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"HH_lefthandweapon","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"HH_lefthandweapon","HH_righthandweapon"}}
+	["é»˜è®¤"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"HH_å•çŸ­01","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"HH_lefthandweapon","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"HH_lefthandweapon","HH_righthandweapon"}}
 FWHook[98939] = {
-	["Ä¬ÈÏ"] = {"","HH_righthandweapon"},
-	["Æï³Ë"] = {"","HH_µ¥¶Ì"},
-	["ÆïÕ½"] = {"","HH_righthandweapon"},	
-	["ÌØÊâ"] = {"","HH_righthandweapon"}}
+	["é»˜è®¤"] = {"","HH_righthandweapon"},
+	["éª‘ä¹˜"] = {"","HH_å•çŸ­"},
+	["éª‘æˆ˜"] = {"","HH_righthandweapon"},
+	["ç‰¹æ®Š"] = {"","HH_righthandweapon"}}
 
---ÅÐ¶ÏÊÇ·ñÊ±×°ÎäÆ÷ÌøÎè¶¯×÷,¾ö¶¨ÎäÆ÷µÄÏÔÒþ,
---1.Ê±×°ÎäÆ÷
---2.ÌØÊâÊ±×°(38904)
---3.ÎÞ
+--åˆ¤æ–­æ˜¯å¦æ—¶è£…æ­¦å™¨è·³èˆžåŠ¨ä½œ,å†³å®šæ­¦å™¨çš„æ˜¾éš,
+--1.æ—¶è£…æ­¦å™¨
+--2.ç‰¹æ®Šæ—¶è£…(38904)
+--3.æ— 
 function fashion_weapon:GetSpecialDanceCode( idSkill )
 	if idSkill == 3729 then
 		return 1
@@ -2076,11 +2076,11 @@ function fashion_weapon:GetSpecialDanceCode( idSkill )
 	elseif idSkill == 4980 then
 		return 1
 	elseif idSkill == 5004 then
-		return 1	
+		return 1
 	elseif idSkill == 5019 then
 		return 1
 	elseif idSkill == 5068 then
-		return 1	
+		return 1
 	elseif idSkill == 5262 then
 		return 1
 	elseif idSkill == 5263 then
@@ -2090,7 +2090,7 @@ function fashion_weapon:GetSpecialDanceCode( idSkill )
 	elseif idSkill == 5265 then
 		return 1
 	elseif idSkill == 5266 then
-		return 1	
+		return 1
 	elseif idSkill == 5267 then
 		return 1
 	elseif idSkill == 5268 then
@@ -2114,29 +2114,29 @@ end
 
 
 
----½Å±¾Ö÷º¯Êý£¬»ñÈ¡¶¯×÷ÃûÈ«³Æ---          
----		   at£ºattacktype£¬¶¯×÷ÀàÐÍ(1,2,3,...,100,....)
----        wt£ºweapontype£¬ÎäÆ÷ÀàÐÍ(1,2,31,...,19,)
----       stc£ºst_combat£¬Õ½¶·×´Ì¬(1.·ÇÕ½¶·×´Ì¬,2.Õ½¶·×´Ì¬)
----       str£ºst_mount£¬Æï³Ë×´Ì¬(0.ÎÞ,1.Æï³Ë)
----       std£ºst_double£¬°ó¶¨×´Ì¬(0.ÎÞ,1.Ö÷¶¯°ó¶¨(ÑûÇëÕß),2.±»¶¯°ó¶¨(±»ÑûÇëÕß))
----       sta: st_specialstate_a, Õ¾Á¢×´Ì¬(0.ÎÞ,1.´¦ÓÚÕ¾Á¢×´Ì¬,2.19ºÅ¹âÐ§£¨Ç±ÐÐ£©,3,20ºÅ¹âÐ§£¨ÂíÕ½Ë²É±£©,4,22ºÅ¹âÐ§£¨ÂíÕ½ÆÆÌì£©,5.27ºÅ¹âÐ§£¨ÂíÕ½×´Ì¬£©)
----       stb: st_specialstate_b, ÌØÊâ×´Ì¬(0.ÎÞ,1.61ºÅ¹âÐ§£¨¼ÓËÙ£©,2.62ºÅ¹âÐ§£¨ÇÐ»»£©,3.54ºÅ¹âÐ§£¨»÷ÔÎµ¹µØ£©)
----      skid: skillid£¬¼¼ÄÜID(1,2,3,....)
----      skpt£ºskillpart£¬¼¼ÄÜÐòÁÐ(1,2,3,....)
----      clid£ºcollectid£¬²É¼¯id
----      race£ºraceid£¬ÖÖ×åid(0ÖÐÔ­, 1ÄÏÂù)
----	 idweapon: Ê±×°ÎäÆ÷ID
---- idwoundskill:±»¹¥»÷¼¼ÄÜID
---         bt: bodytype: 0Îª±ê×¼£»1Îª½¡×³£»2Îª½¿Ð¡(ÄÐ£¬ÄÐÅ®Ïà·´£¬´Ë½Å±¾ÖÐ°ÑÅ®µÄÃû×ÖÏàÓ¦×÷ÁËµ÷Õû)
---         bb: binderbodytype:°ó¶¨ÕßÌåÐÍ£º0Îª±ê×¼£»1Îª½¡×³£»2Îª½¿Ð¡
---         br: binderrace:°ó¶¨ÕßÖÖ×åid(0ÖÐÔ­, 1ÄÏÂù)
---		   ecm_pet_name ×øÆï¶¯×÷Ãû
+---è„šæœ¬ä¸»å‡½æ•°ï¼ŒèŽ·å–åŠ¨ä½œåå…¨ç§°---
+---		   atï¼šattacktypeï¼ŒåŠ¨ä½œç±»åž‹(1,2,3,...,100,....)
+---        wtï¼šweapontypeï¼Œæ­¦å™¨ç±»åž‹(1,2,31,...,19,)
+---       stcï¼šst_combatï¼Œæˆ˜æ–—çŠ¶æ€(1.éžæˆ˜æ–—çŠ¶æ€,2.æˆ˜æ–—çŠ¶æ€)
+---       strï¼šst_mountï¼Œéª‘ä¹˜çŠ¶æ€(0.æ— ,1.éª‘ä¹˜)
+---       stdï¼šst_doubleï¼Œç»‘å®šçŠ¶æ€(0.æ— ,1.ä¸»åŠ¨ç»‘å®š(é‚€è¯·è€…),2.è¢«åŠ¨ç»‘å®š(è¢«é‚€è¯·è€…))
+---       sta: st_specialstate_a, ç«™ç«‹çŠ¶æ€(0.æ— ,1.å¤„äºŽç«™ç«‹çŠ¶æ€,2.19å·å…‰æ•ˆï¼ˆæ½œè¡Œï¼‰,3,20å·å…‰æ•ˆï¼ˆé©¬æˆ˜çž¬æ€ï¼‰,4,22å·å…‰æ•ˆï¼ˆé©¬æˆ˜ç ´å¤©ï¼‰,5.27å·å…‰æ•ˆï¼ˆé©¬æˆ˜çŠ¶æ€ï¼‰)
+---       stb: st_specialstate_b, ç‰¹æ®ŠçŠ¶æ€(0.æ— ,1.61å·å…‰æ•ˆï¼ˆåŠ é€Ÿï¼‰,2.62å·å…‰æ•ˆï¼ˆåˆ‡æ¢ï¼‰,3.54å·å…‰æ•ˆï¼ˆå‡»æ™•å€’åœ°ï¼‰)
+---      skid: skillidï¼ŒæŠ€èƒ½ID(1,2,3,....)
+---      skptï¼šskillpartï¼ŒæŠ€èƒ½åºåˆ—(1,2,3,....)
+---      clidï¼šcollectidï¼Œé‡‡é›†id
+---      raceï¼šraceidï¼Œç§æ—id(0ä¸­åŽŸ, 1å—è›®)
+---	 idweapon: æ—¶è£…æ­¦å™¨ID
+--- idwoundskill:è¢«æ”»å‡»æŠ€èƒ½ID
+--         bt: bodytype: 0ä¸ºæ ‡å‡†ï¼›1ä¸ºå¥å£®ï¼›2ä¸ºå¨‡å°(ç”·ï¼Œç”·å¥³ç›¸åï¼Œæ­¤è„šæœ¬ä¸­æŠŠå¥³çš„åå­—ç›¸åº”ä½œäº†è°ƒæ•´)
+--         bb: binderbodytype:ç»‘å®šè€…ä½“åž‹ï¼š0ä¸ºæ ‡å‡†ï¼›1ä¸ºå¥å£®ï¼›2ä¸ºå¨‡å°
+--         br: binderrace:ç»‘å®šè€…ç§æ—id(0ä¸­åŽŸ, 1å—è›®)
+--		   ecm_pet_name åéª‘åŠ¨ä½œå
 lua_act = {}
 --function lua_act:GetECMName (at , wt , stc , str , std , sta , skid , skpt , clid , race,idweapon,idwoundskill,bt,bb,br)
 function lua_act:GetECMName (at , wt , stc , str , std , sta , stb , skid , skpt , clid, race,idweapon,idwoundskill,bt,bb,br)
-	
-	local combatword , defaultdword= "Õ½¶·" , "¶¯×÷"
+
+	local combatword , defaultdword= "æˆ˜æ–—" , "åŠ¨ä½œ"
 	local prefixword , extraword , suffixword = "" , "" , ""
 --	local weaponposition = 0
 	local doublemode = std
@@ -2146,68 +2146,68 @@ function lua_act:GetECMName (at , wt , stc , str , std , sta , stb , skid , skpt
 	local forceup , forcedown = 0 , 0
 	local ecmcombinename = ""
 	local ecm_pet_name = ""
---fashionweaponaction Ê±×°ÎäÆ÷×ÓÄ£ÐÍ¶¯×÷
-	local fashionweaponaction = "Õ¾Á¢"
---ÎäÆ÷¹Òµã	
+--fashionweaponaction æ—¶è£…æ­¦å™¨å­æ¨¡åž‹åŠ¨ä½œ
+	local fashionweaponaction = "ç«™ç«‹"
+--æ­¦å™¨æŒ‚ç‚¹
 	local hookleft,hookright = "",""
 
 
 	if str == 0 then
-		if std == 1 then extraword = "°ó¶¨_"
-		elseif std == 2 then 
+		if std == 1 then extraword = "ç»‘å®š_"
+		elseif std == 2 then
 			if br == 0 then
 				if bb == 0 then
 					if race == 0 then
 						if bt == 0 then
-							extraword = "ÖÐÔ­±ê×¼ÖÐÔ­±ê×¼±»°ó¶¨_"
+							extraword = "ä¸­åŽŸæ ‡å‡†ä¸­åŽŸæ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÖÐÔ­±ê×¼ÖÐÔ­½¿Ð¡±»°ó¶¨_"
+							extraword = "ä¸­åŽŸæ ‡å‡†ä¸­åŽŸå¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÖÐÔ­±ê×¼ÖÐÔ­½¡×³±»°ó¶¨_"
+							extraword = "ä¸­åŽŸæ ‡å‡†ä¸­åŽŸå¥å£®è¢«ç»‘å®š_"
 						end
 					elseif race == 1 then
 						if bt == 0 then
-							extraword = "ÖÐÔ­±ê×¼ÄÏÂù±ê×¼±»°ó¶¨_"
+							extraword = "ä¸­åŽŸæ ‡å‡†å—è›®æ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÖÐÔ­±ê×¼ÄÏÂù½¿Ð¡±»°ó¶¨_"
+							extraword = "ä¸­åŽŸæ ‡å‡†å—è›®å¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÖÐÔ­±ê×¼ÄÏÂù½¡×³±»°ó¶¨_"
+							extraword = "ä¸­åŽŸæ ‡å‡†å—è›®å¥å£®è¢«ç»‘å®š_"
 						end
 					end
 				elseif bb == 1 then
 					if race == 0 then
 						if bt == 0 then
-							extraword = "ÖÐÔ­½¡×³ÖÐÔ­±ê×¼±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¥å£®ä¸­åŽŸæ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÖÐÔ­½¡×³ÖÐÔ­½¿Ð¡±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¥å£®ä¸­åŽŸå¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÖÐÔ­½¡×³ÖÐÔ­½¡×³±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¥å£®ä¸­åŽŸå¥å£®è¢«ç»‘å®š_"
 						end
 					elseif race == 1 then
 						if bt == 0 then
-							extraword = "ÖÐÔ­½¡×³ÄÏÂù±ê×¼±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¥å£®å—è›®æ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÖÐÔ­½¡×³ÄÏÂù½¿Ð¡±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¥å£®å—è›®å¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÖÐÔ­½¡×³ÄÏÂù½¡×³±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¥å£®å—è›®å¥å£®è¢«ç»‘å®š_"
 						end
 					end
 				elseif bb == 2 then
 					if race == 0 then
 						if bt == 0 then
-							extraword = "ÖÐÔ­½¿Ð¡ÖÐÔ­±ê×¼±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¨‡å°ä¸­åŽŸæ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÖÐÔ­½¿Ð¡ÖÐÔ­½¿Ð¡±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¨‡å°ä¸­åŽŸå¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÖÐÔ­½¿Ð¡ÖÐÔ­½¡×³±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¨‡å°ä¸­åŽŸå¥å£®è¢«ç»‘å®š_"
 						end
 					elseif race == 1 then
 						if bt == 0 then
-							extraword = "ÖÐÔ­½¿Ð¡ÄÏÂù±ê×¼±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¨‡å°å—è›®æ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÖÐÔ­½¿Ð¡ÄÏÂù½¿Ð¡±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¨‡å°å—è›®å¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÖÐÔ­½¿Ð¡ÄÏÂù½¡×³±»°ó¶¨_"
+							extraword = "ä¸­åŽŸå¨‡å°å—è›®å¥å£®è¢«ç»‘å®š_"
 						end
 					end
 				end
@@ -2215,64 +2215,64 @@ function lua_act:GetECMName (at , wt , stc , str , std , sta , stb , skid , skpt
 				if bb == 0 then
 					if race == 0 then
 						if bt == 0 then
-							extraword = "ÄÏÂù±ê×¼ÖÐÔ­±ê×¼±»°ó¶¨_"
+							extraword = "å—è›®æ ‡å‡†ä¸­åŽŸæ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÄÏÂù±ê×¼ÖÐÔ­½¿Ð¡±»°ó¶¨_"
+							extraword = "å—è›®æ ‡å‡†ä¸­åŽŸå¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÄÏÂù±ê×¼ÖÐÔ­½¡×³±»°ó¶¨_"
+							extraword = "å—è›®æ ‡å‡†ä¸­åŽŸå¥å£®è¢«ç»‘å®š_"
 						end
 					elseif race == 1 then
 						if bt == 0 then
-							extraword = "ÄÏÂù±ê×¼ÄÏÂù±ê×¼±»°ó¶¨_"
+							extraword = "å—è›®æ ‡å‡†å—è›®æ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÄÏÂù±ê×¼ÄÏÂù½¿Ð¡±»°ó¶¨_"
+							extraword = "å—è›®æ ‡å‡†å—è›®å¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÄÏÂù±ê×¼ÄÏÂù½¡×³±»°ó¶¨_"
+							extraword = "å—è›®æ ‡å‡†å—è›®å¥å£®è¢«ç»‘å®š_"
 						end
 					end
 				elseif bb == 1 then
 					if race == 0 then
 						if bt == 0 then
-							extraword = "ÄÏÂù½¡×³ÖÐÔ­±ê×¼±»°ó¶¨_"
+							extraword = "å—è›®å¥å£®ä¸­åŽŸæ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÄÏÂù½¡×³ÖÐÔ­½¿Ð¡±»°ó¶¨_"
+							extraword = "å—è›®å¥å£®ä¸­åŽŸå¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÄÏÂù½¡×³ÖÐÔ­½¡×³±»°ó¶¨_"
+							extraword = "å—è›®å¥å£®ä¸­åŽŸå¥å£®è¢«ç»‘å®š_"
 						end
 					elseif race == 1 then
 						if bt == 0 then
-							extraword = "ÄÏÂù½¡×³ÄÏÂù±ê×¼±»°ó¶¨_"
+							extraword = "å—è›®å¥å£®å—è›®æ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÄÏÂù½¡×³ÄÏÂù½¿Ð¡±»°ó¶¨_"
+							extraword = "å—è›®å¥å£®å—è›®å¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÄÏÂù½¡×³ÄÏÂù½¡×³±»°ó¶¨_"
+							extraword = "å—è›®å¥å£®å—è›®å¥å£®è¢«ç»‘å®š_"
 						end
 					end
 				elseif bb == 2 then
 					if race == 0 then
 						if bt == 0 then
-							extraword = "ÄÏÂù½¿Ð¡ÖÐÔ­±ê×¼±»°ó¶¨_"
+							extraword = "å—è›®å¨‡å°ä¸­åŽŸæ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÄÏÂù½¿Ð¡ÖÐÔ­½¿Ð¡±»°ó¶¨_"
+							extraword = "å—è›®å¨‡å°ä¸­åŽŸå¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÄÏÂù½¿Ð¡ÖÐÔ­½¡×³±»°ó¶¨_"
+							extraword = "å—è›®å¨‡å°ä¸­åŽŸå¥å£®è¢«ç»‘å®š_"
 						end
 					elseif race == 1 then
 						if bt == 0 then
-							extraword = "ÄÏÂù½¿Ð¡ÄÏÂù±ê×¼±»°ó¶¨_"
+							extraword = "å—è›®å¨‡å°å—è›®æ ‡å‡†è¢«ç»‘å®š_"
 						elseif bt == 1 then
-							extraword = "ÄÏÂù½¿Ð¡ÄÏÂù½¿Ð¡±»°ó¶¨_"
+							extraword = "å—è›®å¨‡å°å—è›®å¨‡å°è¢«ç»‘å®š_"
 						elseif bt == 2 then
-							extraword = "ÄÏÂù½¿Ð¡ÄÏÂù½¡×³±»°ó¶¨_"
+							extraword = "å—è›®å¨‡å°å—è›®å¥å£®è¢«ç»‘å®š_"
 						end
 					end
 				end
 			end
 		end
 	elseif str == 1 then
-		if std == 1 then extraword = "Ë«Æï_"
-		elseif std == 2 then extraword = "±»Ë«Æï_"
-		else extraword = "Æï³Ë_"
+		if std == 1 then extraword = "åŒéª‘_"
+		elseif std == 2 then extraword = "è¢«åŒéª‘_"
+		else extraword = "éª‘ä¹˜_"
 		end
 	end
 
@@ -2280,7 +2280,7 @@ function lua_act:GetECMName (at , wt , stc , str , std , sta , stb , skid , skpt
 		if std == 1 then
 			prefixword , suffixword = dn , WEAPON_TYPE[wt].cmntype
 		else
-			if at == 24 then defaultdword = "Ç×Ç×ÃÛÃÛ" end
+			if at == 24 then defaultdword = "äº²äº²èœœèœœ" end
 			prefixword , suffixword = defaultdword , WEAPON_TYPE[wt].cmntype
 		end
 	else
@@ -2288,15 +2288,15 @@ function lua_act:GetECMName (at , wt , stc , str , std , sta , stb , skid , skpt
 			if str == 0 then
 			    if stc == 1 then
 					prefixword = dn
---µØÃæ£¬·Ç°ó¶¨×´Ì¬£¬ÓÐ´Ë×´Ì¬Ê±£¬·ÇÕ½¶·×´Ì¬ÏÂ£¬µ÷ÓÃ"ÇÐ»»_"ÏµÁÐ¶¯×÷£¨±³ÔÚ±³ÉÏ£©	
+--åœ°é¢ï¼Œéžç»‘å®šçŠ¶æ€ï¼Œæœ‰æ­¤çŠ¶æ€æ—¶ï¼Œéžæˆ˜æ–—çŠ¶æ€ä¸‹ï¼Œè°ƒç”¨"åˆ‡æ¢_"ç³»åˆ—åŠ¨ä½œï¼ˆèƒŒåœ¨èƒŒä¸Šï¼‰
 					if idweapon ~= 72192 and idweapon ~= 72193 and idweapon ~= 72845 and idweapon ~= 72846 and idweapon ~= 75875 and idweapon ~= 75368 and idweapon ~= 74279 and idweapon ~= 72995 and idweapon ~= 89695 and idweapon ~= 72996 and idweapon ~= 73830 and idweapon ~= 73887 and std == 0 and stb == 2 then
-					    extraword = "ÇÐ»»_"
+					    extraword = "åˆ‡æ¢_"
 						suffixword = WEAPON_TYPE[wt].ridetype
 						if wt == 12 then
 							suffixword = WEAPON_TYPE[wt].acttype
-						end 
+						end
 						if wt == 6 then
-							suffixword = WEAPON_TYPE[wt].acttype						
+							suffixword = WEAPON_TYPE[wt].acttype
 						end
 					else
 						suffixword = WEAPON_TYPE[wt].acttype
@@ -2315,10 +2315,10 @@ function lua_act:GetECMName (at , wt , stc , str , std , sta , stb , skid , skpt
 				end
 				if at == 3 then
 					if sta == 3 then
-						prefixword = "¼ÓËÙÅÜ"
+						prefixword = "åŠ é€Ÿè·‘"
 						suffixword = WEAPON_TYPE[wt].acttype
 					elseif sta == 4 then
-						prefixword = "Õ½¶·¼ÓËÙÅÜ"
+						prefixword = "æˆ˜æ–—åŠ é€Ÿè·‘"
 						suffixword = WEAPON_TYPE[wt].acttype
 					end
 				end
@@ -2328,25 +2328,25 @@ function lua_act:GetECMName (at , wt , stc , str , std , sta , stb , skid , skpt
 		end
 	end
 
----µ±Õ¾Á¢µÄÊ±ºò×öÐÐÎª¶¯×÷£¨ÀàËÆÆÕÍ¨¹¥»÷ÕâÑùµÄ£©£¬Ôò·µ»ØforcedownÎª1£¬Ç¿ÐÐ°ÑÏÂÉí¶¯×÷ÌáÉýÓÅÏÈ¼¶
+---å½“ç«™ç«‹çš„æ—¶å€™åšè¡Œä¸ºåŠ¨ä½œï¼ˆç±»ä¼¼æ™®é€šæ”»å‡»è¿™æ ·çš„ï¼‰ï¼Œåˆ™è¿”å›žforcedownä¸º1ï¼Œå¼ºè¡ŒæŠŠä¸‹èº«åŠ¨ä½œæå‡ä¼˜å…ˆçº§
 	if ACTION_TYPE[at].logictype == 2 then
 		if sta == 1 then
 			forcedown = 1
 		end
 	end
----ÎªÁË½â¾öÆïÕ½Ê±£¬³¤ÇáÎäÆ÷ÇÐ»»ÎªË«¶ÌÎäÆ÷Ê±µÄ³öÏÖµÄ¹ÒµãÒì³£¡£Ô­ÒòÊÇ¶¯×÷²»½áÊø£¬ÎÞ·¨Ë¢ÐÂÕ¾Á¢×ËÌ¬¡£
+---ä¸ºäº†è§£å†³éª‘æˆ˜æ—¶ï¼Œé•¿è½»æ­¦å™¨åˆ‡æ¢ä¸ºåŒçŸ­æ­¦å™¨æ—¶çš„å‡ºçŽ°çš„æŒ‚ç‚¹å¼‚å¸¸ã€‚åŽŸå› æ˜¯åŠ¨ä½œä¸ç»“æŸï¼Œæ— æ³•åˆ·æ–°ç«™ç«‹å§¿æ€ã€‚
 	if at ==11 then
 		if skid == 363 or skid == 1263 then
 		forcedown = 1
-		end	
+		end
 	end
----jÎªÁËÊ¹ÆïÕ½ÖÐµÄÏÂÂí¼¼²¥·ÅÏÂ°ëÉí¡£
+---jä¸ºäº†ä½¿éª‘æˆ˜ä¸­çš„ä¸‹é©¬æŠ€æ’­æ”¾ä¸‹åŠèº«ã€‚
 	if at ==11 then
 		if skid == 5821 or skid == 5823 or skid == 5824 or skid == 5825 or skid == 5826 or skid == 5827 or skid == 5828 or skid == 5829 then
 		forcedown = 1
-		end	
-	end	
----Õë¶Ô¼¼ÄÜµÄÌØÊâ´¦Àí£¬°üÀ¨»»Ãû×Ö£¬
+		end
+	end
+---é’ˆå¯¹æŠ€èƒ½çš„ç‰¹æ®Šå¤„ç†ï¼ŒåŒ…æ‹¬æ¢åå­—ï¼Œ
 	if at == 11 then
 		local actname = SKILL_TYPE[skid].act
 		local actnumber = table.getn(actname)
@@ -2357,16 +2357,16 @@ function lua_act:GetECMName (at , wt , stc , str , std , sta , stb , skid , skpt
 			prefixword	 = actname[skpt]
 		end
 
----¸ú¾Ý¼¼ÄÜÃû¸Äºó×º
-		dt = SEQUENCE_TYPE[prefixword].default or "Í¨ÓÃ"
+---è·Ÿæ®æŠ€èƒ½åæ”¹åŽç¼€
+		dt = SEQUENCE_TYPE[prefixword].default or "é€šç”¨"
 		suffixword = WEAPON_TYPE[wt][dt] or ""
-		
----·ÇË«ÈËÄ£Ê½ÏÂÈç²»Ç¿ÐÐÖ¸¶¨ÖÐ×º»òºó×º£¬Ôò°´±ê×¼¹æÔòµ÷ÓÃºó×º
+
+---éžåŒäººæ¨¡å¼ä¸‹å¦‚ä¸å¼ºè¡ŒæŒ‡å®šä¸­ç¼€æˆ–åŽç¼€ï¼Œåˆ™æŒ‰æ ‡å‡†è§„åˆ™è°ƒç”¨åŽç¼€
   		extraword = SKILL_TYPE[skid].forceextword or extraword
   		suffixword = SKILL_TYPE[skid].forcesuffix or suffixword
 	end
-	
----Õë¶ÔÍÚ¾òµÄ»»Ãû×Ö
+
+---é’ˆå¯¹æŒ–æŽ˜çš„æ¢åå­—
 	if at == 13 then
 	    if clid~=5 and clid~=11 then
 			prefixword = DIG_TYPE[clid+1].name or prefixword
@@ -2374,131 +2374,131 @@ function lua_act:GetECMName (at , wt , stc , str , std , sta , stb , skid , skpt
 				forcedown = 0
 				suffixword = WEAPON_TYPE[wt].ridetype
 			else
---µØÃæ£¬·Ç°ó¶¨×´Ì¬£¬ÓÐ´Ë×´Ì¬Ê±£¬·ÇÕ½¶·×´Ì¬ÏÂ£¬µ÷ÓÃ"ÇÐ»»_"ÏµÁÐ¶¯×÷£¨±³ÔÚ±³ÉÏ£©
+--åœ°é¢ï¼Œéžç»‘å®šçŠ¶æ€ï¼Œæœ‰æ­¤çŠ¶æ€æ—¶ï¼Œéžæˆ˜æ–—çŠ¶æ€ä¸‹ï¼Œè°ƒç”¨"åˆ‡æ¢_"ç³»åˆ—åŠ¨ä½œï¼ˆèƒŒåœ¨èƒŒä¸Šï¼‰
 				if std == 0 and stb == 2 and stc == 1 then
-			    	extraword = "ÇÐ»»_"
+			    	extraword = "åˆ‡æ¢_"
 					suffixword = WEAPON_TYPE[wt].ridetype
 					if wt == 12 then
 						suffixword = WEAPON_TYPE[wt].acttype
-					end 
+					end
 				end
 			end
-	    end 
+	    end
 	end
 
----×Ô¶¯µöÓãÆï³Ë¶¯×÷Ç¿Ö¸
+---è‡ªåŠ¨é’“é±¼éª‘ä¹˜åŠ¨ä½œå¼ºæŒ‡
 	if skid == 1341 then
     	if str == 1 then
     	forcedown = 0
     	suffixword = WEAPON_TYPE[wt].ridetype
     	end
 	end
-	
----Ç¹µÄµØÃæÆÕ¹¥
+
+---æžªçš„åœ°é¢æ™®æ”»
 	if wt == 3 then
-    	if at == 8 then prefixword = "ÖØ»÷1"
-    	elseif at == 9 then prefixword = "ÆÕÍ¨¹¥»÷2"
+    	if at == 8 then prefixword = "é‡å‡»1"
+    	elseif at == 9 then prefixword = "æ™®é€šæ”»å‡»2"
     	end
 	end
----êªµÄµØÃæÆÕ¹¥
+---æˆŸçš„åœ°é¢æ™®æ”»
 	if wt == 4 then
-	    if at == 8 then prefixword = "êª¹¥»÷5"
-	    elseif at == 9 then prefixword = "êª¹¥»÷9"
+	    if at == 8 then prefixword = "æˆŸæ”»å‡»5"
+	    elseif at == 9 then prefixword = "æˆŸæ”»å‡»9"
 	    end
     end
-		
---¶Ü¶¯×÷ÌØÀý
+
+--ç›¾åŠ¨ä½œç‰¹ä¾‹
 	if wt == 14 then
 		if at == 8 or at == 9 then
 			if sta == 3 or sta == 4 or sta ==5 then
-				suffixword = "¿ÕÊÖ"
-			else suffixword = "¶Ü"
+				suffixword = "ç©ºæ‰‹"
+			else suffixword = "ç›¾"
 			end
 		end
 	end
----Æï³Ë¶¯×÷Ãûµ÷Õû
-	if str == 1 then	
----×¦¶ÜÁ÷ÐÇÂÒÎè
+---éª‘ä¹˜åŠ¨ä½œåè°ƒæ•´
+	if str == 1 then
+---çˆªç›¾æµæ˜Ÿä¹±èˆž
 		if wt == 13 or wt ==14 then
-			if skid == 1295 then suffixword = "Ë«¶Ì" end
----êªÇáÖØ¾ù¿É
-		elseif wt == 4 and at == 11 and skid == 1279 then suffixword = "³¤ÖØ"
----µ÷ÓÃµØÃæÆÕ¹¥¶¯×÷
-		elseif wt < 20 then	
+			if skid == 1295 then suffixword = "åŒçŸ­" end
+---æˆŸè½»é‡å‡å¯
+		elseif wt == 4 and at == 11 and skid == 1279 then suffixword = "é•¿é‡"
+---è°ƒç”¨åœ°é¢æ™®æ”»åŠ¨ä½œ
+		elseif wt < 20 then
 			if at == 8 or at == 9 then extraword = "" end
 		end
-	end	
+	end
 
----×¦µÄ¶¯×÷ÌØÀý
+---çˆªçš„åŠ¨ä½œç‰¹ä¾‹
 	if wt == 13 then
 		if sta == 2 then
-			if at == 3 then prefixword = "ÐÐ×ß"
+			if at == 3 then prefixword = "è¡Œèµ°"
 			end
 		end
 	end
 
----µØÃæ¼ÓËÙÅÜ
+---åœ°é¢åŠ é€Ÿè·‘
 	if at == 3 then
 		if str == 0 then
-			if stb == 1 then prefixword = "¼ÓËÙÅÜ"
+			if stb == 1 then prefixword = "åŠ é€Ÿè·‘"
 			end
 		end
 	end
-	
----»·µÄ¶¯×÷ÌØÀý
+
+---çŽ¯çš„åŠ¨ä½œç‰¹ä¾‹
 	if wt == 15 then
 		if std == 0 then
 			local at_specialhuan = {1,2,3,4,5,6,7,8,9,10,15}
 			for atnum = 1, table.getn(at_specialhuan) do
-				if str == 0 then 
+				if str == 0 then
 					if at == at_specialhuan[atnum] then
 						extraword = ""
-						suffixword = "»·"	
+						suffixword = "çŽ¯"
 						break
 					end
 				elseif str == 1 then
 					if at == at_specialhuan[atnum] then
-						extraword = "Æï³Ë_"
-						suffixword = "ÒìÀà"	
+						extraword = "éª‘ä¹˜_"
+						suffixword = "å¼‚ç±»"
 						break
 					end
 				end
 			end
-		end	
+		end
     end
-	
----ÎèµÄ¶¯×÷ÌØÀý
+
+---èˆžçš„åŠ¨ä½œç‰¹ä¾‹
 	if wt == 17 then
 		if at == 8 then suffixword = WEAPON_TYPE[wt].name
 		elseif at == 9 then suffixword = WEAPON_TYPE[wt].name
 		end
 		if skid == 310 or skid == 315 then
 			if skpt == 1 then
-				suffixword = "ÒìÀà"
+				suffixword = "å¼‚ç±»"
 			end
 		end
 		if str == 1 then
 			if sta == 3 or sta ==4 or sta == 5 then
 				if at ~= 11 then
-					suffixword = "Îè"
+					suffixword = "èˆž"
 				end
 			end
 		end
 	end
-	
----¹­µÄ¶¯×÷ÌØÀý
+
+---å¼“çš„åŠ¨ä½œç‰¹ä¾‹
 	if wt == 19 then
 		if std == 0 then
 			if at < 11 or at ==15 then suffixword = WEAPON_TYPE[wt].name end
 		end
-	end	
-	
---Îèµ¸_ÑÝÎä¶¯×÷¸ù¾ÝÎäÆ÷ÀàÐÍ¸Äºó×º
+	end
+
+--èˆžè¹ˆ_æ¼”æ­¦åŠ¨ä½œæ ¹æ®æ­¦å™¨ç±»åž‹æ”¹åŽç¼€
 	if skid == 1971 and at == 11 then
 		suffixword = WEAPON_TYPE[wt].name
 	end
 
---ÐÝÏÐ¶¯×÷´¦Àí
+--ä¼‘é—²åŠ¨ä½œå¤„ç†
 if at == 38 then
 --	if str == 0 then
 --		prefixword = ""
@@ -2507,108 +2507,108 @@ if at == 38 then
 --	end
 end
 
---²æµÄ¶¯×÷ÌØÀý
+--å‰çš„åŠ¨ä½œç‰¹ä¾‹
 	if wt == 6 then
 		if at == 8 or at == 9 then
-			suffixword = "²æ"
+			suffixword = "å‰"
 		end
 		if at == 1 or at == 3 then
 			if str == 0 then
 				if stc == 2 then
-					extraword = ""				
-					suffixword = "²æ"				
+					extraword = ""
+					suffixword = "å‰"
 				elseif stc == 1 and stb == 2 then
-					suffixword = "²æ"	
+					suffixword = "å‰"
 				end
 			end
 		end
 		if stc == 2 then
 			local at_special = {2,4,5,6,7,10}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
 					extraword = ""
-					suffixword = "²æ"	
+					suffixword = "å‰"
 					break
 				end
 			end
-		end 
+		end
     end
---ÐÂÆïÕ½Áè¿Õ´Ì¼¼ÄÜ½«²æ¡¢»·ºó×º¸ÄÎªµ¥¶Ì
+--æ–°éª‘æˆ˜å‡Œç©ºåˆºæŠ€èƒ½å°†å‰ã€çŽ¯åŽç¼€æ”¹ä¸ºå•çŸ­
 	if wt == 6 or wt == 15 then
 		if at == 11 and skid == 5682 then
-			suffixword = "µ¥¶Ì"
-		end	
+			suffixword = "å•çŸ­"
+		end
 	end
---±Þ¶¯×÷ÌØÀý
+--éž­åŠ¨ä½œç‰¹ä¾‹
 	if wt == 20 then
 		if at == 8 or at == 9 then
-			suffixword = "±Þ"
+			suffixword = "éž­"
 		end
-		if std == 0 then	
+		if std == 0 then
 			if str ==0 then
 				if stc == 1 then
 					if stb == 2 then
 						suffixword = WEAPON_TYPE[wt].acttype
 					end
-				end 
-			end	
-		end	
+				end
+			end
+		end
 	end
---åó¶¯×÷ÌØÀý
+--å¼©åŠ¨ä½œç‰¹ä¾‹
 	if wt == 21 then
 		if std == 0 then
-			if at < 11 or at ==15 then 
-				 suffixword = WEAPON_TYPE[wt].name				
+			if at < 11 or at ==15 then
+				 suffixword = WEAPON_TYPE[wt].name
 			end
 			if str ==0 then
 				if stc == 1 then
 					if stb == 2 then
 						suffixword = WEAPON_TYPE[wt].acttype
 					end
-				end 
-			end		
+				end
+			end
 		end
-	end	
---åóÂí±Þ¼¼ÄÜ¶¯×÷ÌØÀý£¬¸ü¸Äºó×ºÎªåó£¬ÎªÁË¾ÀÕý¹Òµã;»¹ÓÐÒ»¸öË²·¢¼¼ÄÜÉÔÎ¢µ÷ÕûÏÂ¶¯×÷
+	end
+--å¼©é©¬éž­æŠ€èƒ½åŠ¨ä½œç‰¹ä¾‹ï¼Œæ›´æ”¹åŽç¼€ä¸ºå¼©ï¼Œä¸ºäº†çº æ­£æŒ‚ç‚¹;è¿˜æœ‰ä¸€ä¸ªçž¬å‘æŠ€èƒ½ç¨å¾®è°ƒæ•´ä¸‹åŠ¨ä½œ
 	if wt == 21 then
 		if at == 11 then
 			local rideattack_id = {927,928,929,930,1290}
 			for num = 1, table.getn(rideattack_id) do
-				if skid == rideattack_id[num] then 
-					if prefixword == "¹­Éä»÷1" then prefixword = "åóÉä»÷" suffixword = WEAPON_TYPE[wt].name
+				if skid == rideattack_id[num] then
+					if prefixword == "å¼“å°„å‡»1" then prefixword = "å¼©å°„å‡»" suffixword = WEAPON_TYPE[wt].name
 						else suffixword = WEAPON_TYPE[wt].name
-						break					
+						break
 					end
 				end
 			end
 		end
 	end
---±ÞÆïÕ½¼¼ÄÜÌØÀý£¬½«¼¼ÄÜºóê¡¸ÄÎª±Þ
+--éž­éª‘æˆ˜æŠ€èƒ½ç‰¹ä¾‹ï¼Œå°†æŠ€èƒ½åŽè¾æ”¹ä¸ºéž­
 -----------------------------------
 	if wt == 20 and at == 11 and str == 1 then
 		local rideattack_id = {1273,1280,1283,1289,1293,1294,1296}
 		for num = 1, table.getn(rideattack_id) do
 			if skid == rideattack_id[num] then
-				suffixword = "±Þ"
+				suffixword = "éž­"
 				break
 			end
 		end
 	end
 -----------------------------------
-	
----´¸µÄ¶¯×÷ÌØÀý
+
+---é”¤çš„åŠ¨ä½œç‰¹ä¾‹
 	if wt == 12 then
-		if prefixword == "Õ½¶·±¼ÅÜ" and extraword == "" then
-			suffixword = "´¸"	
+		if prefixword == "æˆ˜æ–—å¥”è·‘" and extraword == "" then
+			suffixword = "é”¤"
 		end
     end
 
----µ¶µÄ¶¯×÷ÌØÀý
+---åˆ€çš„åŠ¨ä½œç‰¹ä¾‹
 	if at == 11 and str == 1 and skid == 8 then
-		ecmcombinename = "ÇàÁúÙÈÔÂ_Æï³Ë_³¤ÖØ"
+		ecmcombinename = "é’é¾™åƒæœˆ_éª‘ä¹˜_é•¿é‡"
 	end
-	
---Õ½»ê¾õÐÑÔÚÆï³ËÊ±²»¸Ä±äÏÂÉí¶¯×÷
+
+--æˆ˜é­‚è§‰é†’åœ¨éª‘ä¹˜æ—¶ä¸æ”¹å˜ä¸‹èº«åŠ¨ä½œ
 -----------------------------------
 	if at == 11 and str == 1 then
 		local soul_id = {2464,2425,2426,2427,2428,2429,2430,2431,2432,2433,2434,2435,2436,2437,2438,2439,2440,5258,5384,5385,5386,5425,5426,5427}
@@ -2623,7 +2623,7 @@ end
 -----------------------------------
 
 
---ÕÙ»½»¤ÎÀÔÚÆï³ËÊ±²»¸Ä±äÏÂÉí¶¯×÷
+--å¬å”¤æŠ¤å«åœ¨éª‘ä¹˜æ—¶ä¸æ”¹å˜ä¸‹èº«åŠ¨ä½œ
 -----------------------------------
 	if at == 11 and str == 1 then
 		if skid == 3408 then
@@ -2634,133 +2634,133 @@ end
 	end
 -----------------------------------
 
---³à±ÚË®Õ½Ë®ÖÐÕõÔúºÍËÀÍö¶¯×÷
+--èµ¤å£æ°´æˆ˜æ°´ä¸­æŒ£æ‰Žå’Œæ­»äº¡åŠ¨ä½œ
 	local ranword = 1
 	if at == 41 or at == 42 then
 		if str == 1 then
 			prefixword = ""
 		else
-			--Á½×é¶¯×÷Ëæ»ú²¥·ÅÒ»×é
+			--ä¸¤ç»„åŠ¨ä½œéšæœºæ’­æ”¾ä¸€ç»„
 			ranword = math.random(2)
-			--ÔÚprefixwordºóÃæ¼ÓÉÏ1»ò2
+			--åœ¨prefixwordåŽé¢åŠ ä¸Š1æˆ–2
 			prefixword = string.format("%s%d", prefixword , ranword)
-			suffixword = "Í¨ÓÃ"			
+			suffixword = "é€šç”¨"
 		end
 	end
-	
 
---±»»÷ÍË
+
+--è¢«å‡»é€€
 	if at == 44 then
 		if str == 0 then
-			prefixword = "±»»÷ÍË"
-			suffixword = "Í¨ÓÃ"	
+			prefixword = "è¢«å‡»é€€"
+			suffixword = "é€šç”¨"
 			forceup = 1
 			forcedown = 1
 		else
-			prefixword = "ÊÜÉË"
-			suffixword = "Í¨ÓÃ"	
+			prefixword = "å—ä¼¤"
+			suffixword = "é€šç”¨"
 		end
 	end
-	
---±»À­½ü
+
+--è¢«æ‹‰è¿‘
 	if at == 52 then
 		if str == 0 then
-			prefixword = "±»»÷ÍË"
-			suffixword = "Í¨ÓÃ"	
+			prefixword = "è¢«å‡»é€€"
+			suffixword = "é€šç”¨"
 			forceup = 1
 			forcedown = 1
 		else
-			prefixword = "ÊÜÉË"
-			suffixword = "Í¨ÓÃ"	
+			prefixword = "å—ä¼¤"
+			suffixword = "é€šç”¨"
 		end
 	end
-	
---±»»÷µ¹
+
+--è¢«å‡»å€’
 	if at == 53 then
 		if str == 0 then
-			prefixword = "±»»÷µ¹"
-			suffixword = "Í¨ÓÃ"	
+			prefixword = "è¢«å‡»å€’"
+			suffixword = "é€šç”¨"
 			forceup = 1
 			forcedown = 1
 		else
-			prefixword = "ÊÜÉË"
-			suffixword = "Í¨ÓÃ"	
+			prefixword = "å—ä¼¤"
+			suffixword = "é€šç”¨"
 		end
 	end
-	
---±»¸¡¿Õ
+
+--è¢«æµ®ç©º
 	if at == 54 then
 		if str == 0 then
-			prefixword = "±»¸¡¿ÕÑ­»·"
-			suffixword = "Í¨ÓÃ"	
+			prefixword = "è¢«æµ®ç©ºå¾ªçŽ¯"
+			suffixword = "é€šç”¨"
 			forceup = 1
 			forcedown = 1
 		else
-			prefixword = "ÊÜÉË"
-			suffixword = "Í¨ÓÃ"	
+			prefixword = "å—ä¼¤"
+			suffixword = "é€šç”¨"
 		end
 	end
-	
-	
 
-	
-		
---Õ¾Á¢²Ù×÷¶¯×÷ÌØÊâ´¦Àí
 
-	if prefixword == "Õ¾Á¢²Ù×÷" and str == 1  then
+
+
+
+--ç«™ç«‹æ“ä½œåŠ¨ä½œç‰¹æ®Šå¤„ç†
+
+	if prefixword == "ç«™ç«‹æ“ä½œ" and str == 1  then
 		forceup = 1
 		forcedown = 0
-	end		
-	
---- Ê±×°ÎäÆ÷·µ»Ø¹Òµã
+	end
+
+--- æ—¶è£…æ­¦å™¨è¿”å›žæŒ‚ç‚¹
 	if FWHook[idweapon] ~= nil then
 		LogPrint("Not Nil\n")
-		if str == 1 then	
-			if sta == 5 and FWHook[idweapon]["ÆïÕ½"] ~= nil then
-				hookleft,hookright = FWHook[idweapon]["ÆïÕ½"][1],FWHook[idweapon]["ÆïÕ½"][2]
-			elseif sta == 4 and FWHook[idweapon]["ÆïÕ½"] ~= nil then
-				hookleft,hookright = FWHook[idweapon]["ÆïÕ½"][1],FWHook[idweapon]["ÆïÕ½"][2]
-			elseif sta == 3 and FWHook[idweapon]["ÆïÕ½"] ~= nil then
-				hookleft,hookright = FWHook[idweapon]["ÆïÕ½"][1],FWHook[idweapon]["ÆïÕ½"][2]
-			elseif FWHook[idweapon]["Æï³Ë"] ~= nil then
-				hookleft,hookright = FWHook[idweapon]["Æï³Ë"][1],FWHook[idweapon]["Æï³Ë"][2]
+		if str == 1 then
+			if sta == 5 and FWHook[idweapon]["éª‘æˆ˜"] ~= nil then
+				hookleft,hookright = FWHook[idweapon]["éª‘æˆ˜"][1],FWHook[idweapon]["éª‘æˆ˜"][2]
+			elseif sta == 4 and FWHook[idweapon]["éª‘æˆ˜"] ~= nil then
+				hookleft,hookright = FWHook[idweapon]["éª‘æˆ˜"][1],FWHook[idweapon]["éª‘æˆ˜"][2]
+			elseif sta == 3 and FWHook[idweapon]["éª‘æˆ˜"] ~= nil then
+				hookleft,hookright = FWHook[idweapon]["éª‘æˆ˜"][1],FWHook[idweapon]["éª‘æˆ˜"][2]
+			elseif FWHook[idweapon]["éª‘ä¹˜"] ~= nil then
+				hookleft,hookright = FWHook[idweapon]["éª‘ä¹˜"][1],FWHook[idweapon]["éª‘ä¹˜"][2]
 			end
 		elseif at == 11 and FWHook[idweapon][skid] ~= nil then
 			hookleft,hookright = FWHook[idweapon][skid][1],FWHook[idweapon][skid][2]
-		elseif at == 38 and FWHook[idweapon]["ÌØÊâ"]~= nil then
-			hookleft,hookright = FWHook[idweapon]["ÌØÊâ"][1],FWHook[idweapon]["ÌØÊâ"][2]
-		elseif FWHook[idweapon]["Ä¬ÈÏ"] ~= nil then
-			hookleft,hookright = FWHook[idweapon]["Ä¬ÈÏ"][1],FWHook[idweapon]["Ä¬ÈÏ"][2]
+		elseif at == 38 and FWHook[idweapon]["ç‰¹æ®Š"]~= nil then
+			hookleft,hookright = FWHook[idweapon]["ç‰¹æ®Š"][1],FWHook[idweapon]["ç‰¹æ®Š"][2]
+		elseif FWHook[idweapon]["é»˜è®¤"] ~= nil then
+			hookleft,hookright = FWHook[idweapon]["é»˜è®¤"][1],FWHook[idweapon]["é»˜è®¤"][2]
 		end
 		LogPrint("Left:" .. hookleft .. " .. Right:" .. hookright .. "\n")
 	end
 
 
---83401	Ê±×°ÎäÆ÷
+--83401	æ—¶è£…æ­¦å™¨
 	if idweapon == 83401 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "³¤ÖØ"	
+				suffixword = "é•¿é‡"
 				break
 			end
 		end
 	end
-		
+
 	if idweapon == 83402 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "¹­"
+				suffixword = "å¼“"
 				break
 			end
 		end
 	end
 	if idweapon == 83403 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "³¤ÖØ"
+				suffixword = "é•¿é‡"
 				break
 			end
 		end
@@ -2768,17 +2768,17 @@ end
 	if idweapon == 83404 and std == 0 then
 		if str == 1 then
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "Îè"
+					suffixword = "èˆž"
 					break
 				end
 			end
 		else
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "ÒìÀà"
+					suffixword = "å¼‚ç±»"
 					break
 				end
 			end
@@ -2786,9 +2786,9 @@ end
 	end
 	if idweapon == 83405 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "³¤ÖØ"
+				suffixword = "é•¿é‡"
 				break
 			end
 		end
@@ -2796,17 +2796,17 @@ end
 	if idweapon == 83406 and std == 0 then
 		if str == 1 then
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "Îè"
+					suffixword = "èˆž"
 					break
 				end
 			end
 		else
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "ÒìÀà"
+					suffixword = "å¼‚ç±»"
 					break
 				end
 			end
@@ -2814,45 +2814,45 @@ end
 	end
 	if idweapon == 83407 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "µ¥¶Ì"
+				suffixword = "å•çŸ­"
 				break
 			end
 		end
 	end
 	if idweapon == 83408 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "µ¥¶Ì"
+				suffixword = "å•çŸ­"
 				break
 			end
 		end
 	end
 	if idweapon == 83409 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "³¤Çá"
+				suffixword = "é•¿è½»"
 				break
 			end
 		end
 	end
 	if idweapon == 83400 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "µ¥¶Ì"
+				suffixword = "å•çŸ­"
 				break
 			end
 		end
 	end
 	if idweapon == 83975 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "µ¥¶Ì"
+				suffixword = "å•çŸ­"
 				break
 			end
 		end
@@ -2860,17 +2860,17 @@ end
 	if idweapon == 84144 and std == 0 then
 		if str == 1 then
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "Îè"
+					suffixword = "èˆž"
 					break
 				end
 			end
 		else
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "ÒìÀà"
+					suffixword = "å¼‚ç±»"
 					break
 				end
 			end
@@ -2879,28 +2879,28 @@ end
 	if idweapon == 84351 and std == 0 then
 		if str == 1 then
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "Îè"
+					suffixword = "èˆž"
 					break
 				end
 			end
 		else
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "ÒìÀà"
+					suffixword = "å¼‚ç±»"
 					break
 				end
 			end
 		end
 	end
-	
+
 	if idweapon == 86330 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "Ë«¶Ì"	
+				suffixword = "åŒçŸ­"
 				break
 			end
 		end
@@ -2908,45 +2908,45 @@ end
 
 	if idweapon == 86331 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "µ¥¶Ì"
+				suffixword = "å•çŸ­"
 				break
 			end
 		end
 	end
 	if idweapon == 86332 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "³¤ÖØ"
+				suffixword = "é•¿é‡"
 				break
 			end
 		end
-	end	
+	end
 	if idweapon == 86333 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "³¤Çá"
+				suffixword = "é•¿è½»"
 				break
 			end
 		end
-	end	
+	end
 	if idweapon == 86334 and std == 0 then
 		if str == 1 then
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "Îè"
+					suffixword = "èˆž"
 					break
 				end
 			end
 		else
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "ÒìÀà"
+					suffixword = "å¼‚ç±»"
 					break
 				end
 			end
@@ -2955,17 +2955,17 @@ end
 	if idweapon == 86335 and std == 0 then
 		if str == 1 and sta < 2 then
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "´¸"
+					suffixword = "é”¤"
 					break
 				end
 			end
 		else
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "µ¥¶Ì"
+					suffixword = "å•çŸ­"
 					break
 				end
 			end
@@ -2974,17 +2974,17 @@ end
 	if idweapon == 86336 and std == 0 then
 		if str == 1 and sta < 2 then
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "´¸"
+					suffixword = "é”¤"
 					break
 				end
 			end
 		else
 			local at_special = {1,2,3,4,5,6,7,10,15}
-			for atnum = 1, table.getn(at_special) do 
+			for atnum = 1, table.getn(at_special) do
 				if at == at_special[atnum] then
-					suffixword = "µ¥¶Ì"
+					suffixword = "å•çŸ­"
 					break
 				end
 			end
@@ -2992,1239 +2992,1239 @@ end
 	end
 	if idweapon == 88671 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "³¤Çá"
+				suffixword = "é•¿è½»"
 				break
 			end
 		end
-	end	
+	end
 	if idweapon == 88672 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "³¤Çá"
+				suffixword = "é•¿è½»"
 				break
 			end
 		end
-	end	
+	end
 	if idweapon == 88673 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "³¤Çá"
+				suffixword = "é•¿è½»"
 				break
 			end
 		end
-	end	
+	end
 	if idweapon == 89219 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "µ¥¶Ì"
+				suffixword = "å•çŸ­"
 				break
 			end
 		end
 	end
 	if idweapon == 89221 or idweapon == 97760 or idweapon == 97761 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "Ë«¶Ì"	
+				suffixword = "åŒçŸ­"
 				break
 			end
 		end
 	end
 	if idweapon == 89222 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "µ¥¶Ì"
+				suffixword = "å•çŸ­"
 				break
 			end
 		end
 	end
 	if idweapon == 98938 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "Ë«¶Ì"	
+				suffixword = "åŒçŸ­"
 				break
 			end
 		end
 	end
 	if idweapon == 98939 and std == 0 then
 		local at_special = {1,2,3,4,5,6,7,10,15}
-		for atnum = 1, table.getn(at_special) do 
+		for atnum = 1, table.getn(at_special) do
 			if at == at_special[atnum] then
-				suffixword = "µ¥¶Ì"
+				suffixword = "å•çŸ­"
 				break
 			end
 		end
 	end
---ºÏ²¢¶¯×÷×éºÏÃû³Æ	
+--åˆå¹¶åŠ¨ä½œç»„åˆåç§°
 	if prefixword ~= "" then
 		if at ~= 37 and at ~= 39 and  at ~= 40 then
-			ecmcombinename = string.format("%s%s%s%s" , prefixword , "_" , extraword , suffixword)			
-		--ÌØÀý£º³à±ÚË®Õ½Õ½´¬¼ÝÊ»¶¯×÷	
-		elseif at == 37 then ecmcombinename = "¼ÝÊ»¶¯×÷_¿ÕÏÐ"
-		elseif at == 39 then ecmcombinename = "¼ÝÊ»¶¯×÷_×ó×ª"
-		elseif at == 40 then ecmcombinename = "¼ÝÊ»¶¯×÷_ÓÒ×ª" 
-		end		
-	end
-	
---ÏàÒÀÏàÙËµØÃæÅ®¶¯×÷ÌØÀý
-	if at == 24 and str == 0 and std == 2 then
-		ecmcombinename = "Ç×Ç×ÃÛÃÛ_±»°ó¶¨_Í¨ÓÃ"
+			ecmcombinename = string.format("%s%s%s%s" , prefixword , "_" , extraword , suffixword)
+		--ç‰¹ä¾‹ï¼šèµ¤å£æ°´æˆ˜æˆ˜èˆ¹é©¾é©¶åŠ¨ä½œ
+		elseif at == 37 then ecmcombinename = "é©¾é©¶åŠ¨ä½œ_ç©ºé—²"
+		elseif at == 39 then ecmcombinename = "é©¾é©¶åŠ¨ä½œ_å·¦è½¬"
+		elseif at == 40 then ecmcombinename = "é©¾é©¶åŠ¨ä½œ_å³è½¬"
+		end
 	end
 
---ÊÜµ½²»Í¬¼¼ÄÜ¹¥»÷£¬²¥²»Í¬ÊÜÉË¶¯×÷
+--ç›¸ä¾ç›¸åŽåœ°é¢å¥³åŠ¨ä½œç‰¹ä¾‹
+	if at == 24 and str == 0 and std == 2 then
+		ecmcombinename = "äº²äº²èœœèœœ_è¢«ç»‘å®š_é€šç”¨"
+	end
+
+--å—åˆ°ä¸åŒæŠ€èƒ½æ”»å‡»ï¼Œæ’­ä¸åŒå—ä¼¤åŠ¨ä½œ
 	if at == 19 then
 		if idwoundskill == 0 then
-			ecmcombinename = "ÊÜÉË_Í¨ÓÃ"
+			ecmcombinename = "å—ä¼¤_é€šç”¨"
 		elseif idwoundskill == 48 then
-			ecmcombinename = "wound_±»¸¡¿ÕË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«æµ®ç©ºæ‘”_é€šç”¨"
 		elseif idwoundskill == 4464 then
-			ecmcombinename = "wound_±»¸¡¿ÕË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«æµ®ç©ºæ‘”_é€šç”¨"
 		elseif idwoundskill == 4476 then
-			ecmcombinename = "wound_±»¸¡¿ÕË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«æµ®ç©ºæ‘”_é€šç”¨"
 		elseif idwoundskill == 3632 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 28 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4475 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 275 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4652 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4633 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4643 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4938 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4617 then
-			ecmcombinename = "wound_±»¸¡¿ÕË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«æµ®ç©ºæ‘”_é€šç”¨"
 		elseif idwoundskill == 5502 then
-			ecmcombinename = "wound_±»¸¡¿ÕË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«æµ®ç©ºæ‘”_é€šç”¨"
 		elseif idwoundskill == 5533 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 5559 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 5564 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 5567 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 5576 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		end
 	end
 	if at == 20 then
 		if idwoundskill == 0 then
-			ecmcombinename = "ÊÜÉË_Í¨ÓÃ"
+			ecmcombinename = "å—ä¼¤_é€šç”¨"
 		elseif idwoundskill == 48 then
-			ecmcombinename = "wound_±»¸¡¿ÕË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«æµ®ç©ºæ‘”_é€šç”¨"
 		elseif idwoundskill == 4464 then
-			ecmcombinename = "wound_±»¸¡¿ÕË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«æµ®ç©ºæ‘”_é€šç”¨"
 		elseif idwoundskill == 4476 then
-			ecmcombinename = "wound_±»¸¡¿ÕË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«æµ®ç©ºæ‘”_é€šç”¨"
 		elseif idwoundskill == 3632 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 28 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4475 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 275 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4652 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4633 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4643 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4938 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 4617 then
-			ecmcombinename = "wound_±»¸¡¿ÕË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«æµ®ç©ºæ‘”_é€šç”¨"
 		elseif idwoundskill == 5502 then
-			ecmcombinename = "wound_±»¸¡¿ÕË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«æµ®ç©ºæ‘”_é€šç”¨"
 		elseif idwoundskill == 5533 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 5559 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 5564 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 5567 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		elseif idwoundskill == 5576 then
-			ecmcombinename = "wound_±»²øÈÆË¤_Í¨ÓÃ"
+			ecmcombinename = "wound_è¢«ç¼ ç»•æ‘”_é€šç”¨"
 		end
 	end
-	
-	--Âé±Ô
+
+	--éº»ç—¹
 	if at == 51 then
-		ecmcombinename = "Âé±Ô_Í¨ÓÃ"
+		ecmcombinename = "éº»ç—¹_é€šç”¨"
 	end
-	
-	--ÌØÊâÌøÔ¾
+
+	--ç‰¹æ®Šè·³è·ƒ
 	if std == 0 then
 		if at == 46 then
-			ecmcombinename = "Ò»¼¶Ìø_3¶ÎÌø"
+			ecmcombinename = "ä¸€çº§è·³_3æ®µè·³"
 		end
-		
+
 		if at == 47 then
-			ecmcombinename = "¶þ¼¶Ìø_3¶ÎÌø"
+			ecmcombinename = "äºŒçº§è·³_3æ®µè·³"
 		end
-		
+
 		if at == 48 then
-			ecmcombinename = "Èý¼¶Ìø_3¶ÎÌø"
+			ecmcombinename = "ä¸‰çº§è·³_3æ®µè·³"
 		end
-		
+
 		if at == 49 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_3¶ÎÌø"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_3æ®µè·³"
 		end
-		
+
 		if at == 50 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_3¶ÎÌø"
+			ecmcombinename = "è·³è·ƒè½åœ°_3æ®µè·³"
 		end
 	elseif std == 1 then
 		if at == 46 then
-			ecmcombinename = "Ò»¼¶Ìø_°ó¶¨_3¶ÎÌø"
+			ecmcombinename = "ä¸€çº§è·³_ç»‘å®š_3æ®µè·³"
 		end
-			
+
 		if at == 47 then
-			ecmcombinename = "¶þ¼¶Ìø_°ó¶¨_3¶ÎÌø"
+			ecmcombinename = "äºŒçº§è·³_ç»‘å®š_3æ®µè·³"
 		end
-			
+
 		if at == 48 then
-			ecmcombinename = "Èý¼¶Ìø_°ó¶¨_3¶ÎÌø"
+			ecmcombinename = "ä¸‰çº§è·³_ç»‘å®š_3æ®µè·³"
 		end
-			
+
 		if at == 49 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_°ó¶¨_3¶ÎÌø"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_ç»‘å®š_3æ®µè·³"
 		end
-			
+
 		if at == 50 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_°ó¶¨_3¶ÎÌø"
+			ecmcombinename = "è·³è·ƒè½åœ°_ç»‘å®š_3æ®µè·³"
 		end
 
 	end
 
---Ê±×°ÎäÆ÷×¨ÓÃºÏ¶¯¶¯×÷×éºÏÃû³Æ
+--æ—¶è£…æ­¦å™¨ä¸“ç”¨åˆåŠ¨åŠ¨ä½œç»„åˆåç§°
 	if  idweapon == 72193 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_´òÉ¡"
+			ecmcombinename = "ç«™ç«‹_æ‰“ä¼ž"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "è¡Œèµ°_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "å¥”è·‘_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽé€€_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_¿ÕÊÖ"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "èµ·è·³_ç©ºæ‰‹"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
-			ecmcombinename = "ÐÝÏÐ_´òÉ¡"
-			fashionweaponaction = "ÐÝÏÐ"				
+			ecmcombinename = "ä¼‘é—²_æ‰“ä¼ž"
+			fashionweaponaction = "ä¼‘é—²"
 		elseif skid == 363 and at == 11 then
-			ecmcombinename = "ÊÎÆ·ÇÐ»»_´òÉ¡"
-			fashionweaponaction = "ÊÎÆ·ÇÐ»»"
+			ecmcombinename = "é¥°å“åˆ‡æ¢_æ‰“ä¼ž"
+			fashionweaponaction = "é¥°å“åˆ‡æ¢"
 		end
 	end
 	if  idweapon == 72599 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_´òÉ¡"
+			ecmcombinename = "ç«™ç«‹_æ‰“ä¼ž"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "è¡Œèµ°_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "å¥”è·‘_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽé€€_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_¿ÕÊÖ"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "èµ·è·³_ç©ºæ‰‹"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
-			ecmcombinename = "ÐÝÏÐ_´òÉ¡"
-			fashionweaponaction = "ÐÝÏÐ"				
+			ecmcombinename = "ä¼‘é—²_æ‰“ä¼ž"
+			fashionweaponaction = "ä¼‘é—²"
 		elseif skid == 363 and at == 11 then
-			ecmcombinename = "ÊÎÆ·ÇÐ»»_´òÉ¡"
-			fashionweaponaction = "ÊÎÆ·ÇÐ»»"
+			ecmcombinename = "é¥°å“åˆ‡æ¢_æ‰“ä¼ž"
+			fashionweaponaction = "é¥°å“åˆ‡æ¢"
 		end
 	end
 	if  idweapon == 72600 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_´òÉ¡"
+			ecmcombinename = "ç«™ç«‹_æ‰“ä¼ž"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "è¡Œèµ°_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "å¥”è·‘_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽé€€_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_¿ÕÊÖ"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "èµ·è·³_ç©ºæ‰‹"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_´òÉ¡"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_æ‰“ä¼ž"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
-			ecmcombinename = "ÐÝÏÐ_´òÉ¡"
-			fashionweaponaction = "ÐÝÏÐ"				
+			ecmcombinename = "ä¼‘é—²_æ‰“ä¼ž"
+			fashionweaponaction = "ä¼‘é—²"
 		elseif skid == 363 and at == 11 then
-			ecmcombinename = "ÊÎÆ·ÇÐ»»_´òÉ¡"
-			fashionweaponaction = "ÊÎÆ·ÇÐ»»"
+			ecmcombinename = "é¥°å“åˆ‡æ¢_æ‰“ä¼ž"
+			fashionweaponaction = "é¥°å“åˆ‡æ¢"
 		end
 	end
 	if  idweapon == 72192 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_µÑ×Ó"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_ç¬›å­"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_µÑ×Ó"
-			fashionweaponaction = "ÐÐ×ß"
+			ecmcombinename = "è¡Œèµ°_ç¬›å­"
+			fashionweaponaction = "è¡Œèµ°"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_µÑ×Ó"
-			fashionweaponaction = "±¼ÅÜ"
+			ecmcombinename = "å¥”è·‘_ç¬›å­"
+			fashionweaponaction = "å¥”è·‘"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_µÑ×Ó"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽé€€_ç¬›å­"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_µÑ×Ó"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "èµ·è·³_ç¬›å­"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_µÑ×Ó"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_ç¬›å­"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
-			ecmcombinename = "ÐÝÏÐ_µÑ×Ó"
-			fashionweaponaction = "ÐÝÏÐ"
+			ecmcombinename = "ä¼‘é—²_ç¬›å­"
+			fashionweaponaction = "ä¼‘é—²"
 		elseif skid == 363 and at == 11 then
-			ecmcombinename = "ÊÎÆ·ÇÐ»»_µÑ×Ó"
-			fashionweaponaction = "ÊÎÆ·ÇÐ»»"
+			ecmcombinename = "é¥°å“åˆ‡æ¢_ç¬›å­"
+			fashionweaponaction = "é¥°å“åˆ‡æ¢"
 		end
 	end
 	if  idweapon == 72845 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ_ÇÙ"
-				fashionweaponaction = "ÐÝÏÐ"
-			else 
-				ecmcombinename = "ÐÝÏÐ2_ÇÙ"
-				fashionweaponaction = "ÐÝÏÐ2"
+				ecmcombinename = "ä¼‘é—²_ç´"
+				fashionweaponaction = "ä¼‘é—²"
+			else
+				ecmcombinename = "ä¼‘é—²2_ç´"
+				fashionweaponaction = "ä¼‘é—²2"
 			end
 		elseif skid == 363 and at == 11 then
-			ecmcombinename = "ÊÎÆ·ÇÐ»»_ÇÙ"
-			fashionweaponaction = "ÊÎÆ·ÇÐ»»"
+			ecmcombinename = "é¥°å“åˆ‡æ¢_ç´"
+			fashionweaponaction = "é¥°å“åˆ‡æ¢"
 		end
 	end
 	if  idweapon == 72846 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			fashionweaponaction = "ÐÐ×ß"
+			fashionweaponaction = "è¡Œèµ°"
 		elseif at == 3 then
-			fashionweaponaction = "±¼ÅÜ"
+			fashionweaponaction = "å¥”è·‘"
 		elseif at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ_ÉÈ×Ó"
-				fashionweaponaction = "ÐÝÏÐ"
-			else 
-				ecmcombinename = "ÐÝÏÐ2_ÉÈ×Ó"
-				fashionweaponaction = "ÐÝÏÐ2"
+				ecmcombinename = "ä¼‘é—²_æ‰‡å­"
+				fashionweaponaction = "ä¼‘é—²"
+			else
+				ecmcombinename = "ä¼‘é—²2_æ‰‡å­"
+				fashionweaponaction = "ä¼‘é—²2"
 			end
 		elseif skid == 363 and at == 11 then
-			ecmcombinename = "ÊÎÆ·ÇÐ»»_ÉÈ×Ó"
-			fashionweaponaction = "ÊÎÆ·ÇÐ»»"
+			ecmcombinename = "é¥°å“åˆ‡æ¢_æ‰‡å­"
+			fashionweaponaction = "é¥°å“åˆ‡æ¢"
 		end
 	end
 	if  idweapon == 72995 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ¶¯×÷_Í¨ÓÃ"
-				fashionweaponaction = "ÐÝÏÐ"
-			else 
-				ecmcombinename = "ÐÝÏÐ¶¯×÷_Í¨ÓÃ"
-				fashionweaponaction = "ÐÝÏÐ2"
+				ecmcombinename = "ä¼‘é—²åŠ¨ä½œ_é€šç”¨"
+				fashionweaponaction = "ä¼‘é—²"
+			else
+				ecmcombinename = "ä¼‘é—²åŠ¨ä½œ_é€šç”¨"
+				fashionweaponaction = "ä¼‘é—²2"
 			end
 		end
 	end
 	if  idweapon == 72996 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_ÅýÅÃ"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_çµç¶"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_ÅýÅÃ"
-			fashionweaponaction = "ÐÐ×ß"
+			ecmcombinename = "è¡Œèµ°_çµç¶"
+			fashionweaponaction = "è¡Œèµ°"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_ÅýÅÃ"
-			fashionweaponaction = "±¼ÅÜ"
+			ecmcombinename = "å¥”è·‘_çµç¶"
+			fashionweaponaction = "å¥”è·‘"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_ÅýÅÃ"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽé€€_çµç¶"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 15 then
-			ecmcombinename = "Õ¾Á¢_ÅýÅÃ"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_çµç¶"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
-			ecmcombinename = "ÐÝÏÐ_ÅýÅÃ"
-			fashionweaponaction = "ÐÝÏÐ"
+			ecmcombinename = "ä¼‘é—²_çµç¶"
+			fashionweaponaction = "ä¼‘é—²"
 		end
 	end
 	if  idweapon == 73830 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			fashionweaponaction = "±¼ÅÜ"
+			fashionweaponaction = "å¥”è·‘"
 		elseif at == 4 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 15 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
-			ecmcombinename = "ÐÝÏÐ_Áú·çóÝ"
-			fashionweaponaction = "ÐÝÏÐ"
+			ecmcombinename = "ä¼‘é—²_é¾™é£Žç­"
+			fashionweaponaction = "ä¼‘é—²"
 		end
 	end
 	if  idweapon == 74279 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			fashionweaponaction = "±¼ÅÜ"
+			fashionweaponaction = "å¥”è·‘"
 		elseif at == 4 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 15 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
-			ecmcombinename = "ÐÝÏÐ_Éú»¨±Ê"
-			fashionweaponaction = "ÐÝÏÐ"
+			ecmcombinename = "ä¼‘é—²_ç”ŸèŠ±ç¬”"
+			fashionweaponaction = "ä¼‘é—²"
 		end
 	end
 	if  idweapon == 74887 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_ÈýÏÒÇÙ"
+			ecmcombinename = "ç«™ç«‹_ä¸‰å¼¦ç´"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_ÈýÏÒÇÙ"
+			ecmcombinename = "è¡Œèµ°_ä¸‰å¼¦ç´"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_ÈýÏÒÇÙ"
+			ecmcombinename = "å¥”è·‘_ä¸‰å¼¦ç´"
 		elseif at == 15 then
-			ecmcombinename = "Õ¾Á¢_ÈýÏÒÇÙ"
+			ecmcombinename = "ç«™ç«‹_ä¸‰å¼¦ç´"
 		elseif at == 38 then
-			ecmcombinename = "ÐÝÏÐ_ÈýÏÒÇÙ"
+			ecmcombinename = "ä¼‘é—²_ä¸‰å¼¦ç´"
 		end
 	end
 	if  idweapon == 75368 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ1_Ã¨"
-				fashionweaponaction = "ÐÝÏÐ1"
-			else 
-				ecmcombinename = "ÐÝÏÐ2_Ã¨"
-				fashionweaponaction = "ÐÝÏÐ2"
+				ecmcombinename = "ä¼‘é—²1_çŒ«"
+				fashionweaponaction = "ä¼‘é—²1"
+			else
+				ecmcombinename = "ä¼‘é—²2_çŒ«"
+				fashionweaponaction = "ä¼‘é—²2"
 			end
 		end
 	end
 	if  idweapon == 75875 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_µ¥¶Ì"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_å•çŸ­"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_µÆÁý"
-			fashionweaponaction = "ÐÐ×ß"
+			ecmcombinename = "è¡Œèµ°_ç¯ç¬¼"
+			fashionweaponaction = "è¡Œèµ°"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_µÆÁý"
-			fashionweaponaction = "±¼ÅÜ"
+			ecmcombinename = "å¥”è·‘_ç¯ç¬¼"
+			fashionweaponaction = "å¥”è·‘"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_µÆÁý"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽé€€_ç¯ç¬¼"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 15 then
-			ecmcombinename = "Õ¾Á¢_µÆÁý"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_ç¯ç¬¼"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ_µÆÁý"
-				fashionweaponaction = "ÐÝÏÐ"
-			else 
-				ecmcombinename = "ÐÝÏÐ2_µÆÁý"
-				fashionweaponaction = "ÐÝÏÐ2"
+				ecmcombinename = "ä¼‘é—²_ç¯ç¬¼"
+				fashionweaponaction = "ä¼‘é—²"
+			else
+				ecmcombinename = "ä¼‘é—²2_ç¯ç¬¼"
+				fashionweaponaction = "ä¼‘é—²2"
 			end
 		elseif skid == 363 and at == 11 then
-			ecmcombinename = "ÊÎÆ·ÇÐ»»_µÆÁý"
-			fashionweaponaction = "ÊÎÆ·ÇÐ»»"
+			ecmcombinename = "é¥°å“åˆ‡æ¢_ç¯ç¬¼"
+			fashionweaponaction = "é¥°å“åˆ‡æ¢"
 		end
 	end
 	if  idweapon == 76183 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			fashionweaponaction = "±¼ÅÜ"
+			fashionweaponaction = "å¥”è·‘"
 		elseif at == 4 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 15 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
-			ecmcombinename = "ÐÝÏÐ_Éú»¨±Ê"
-			fashionweaponaction = "ÐÝÏÐ"
+			ecmcombinename = "ä¼‘é—²_ç”ŸèŠ±ç¬”"
+			fashionweaponaction = "ä¼‘é—²"
 		end
 	end
 	if  idweapon == 76257 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_µ¥¶Ì"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_å•çŸ­"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_µÆÁý"
-			fashionweaponaction = "ÐÐ×ß"
+			ecmcombinename = "è¡Œèµ°_ç¯ç¬¼"
+			fashionweaponaction = "è¡Œèµ°"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_µÆÁý"
-			fashionweaponaction = "±¼ÅÜ"
+			ecmcombinename = "å¥”è·‘_ç¯ç¬¼"
+			fashionweaponaction = "å¥”è·‘"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_µÆÁý"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽé€€_ç¯ç¬¼"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 15 then
-			ecmcombinename = "Õ¾Á¢_µÆÁý"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_ç¯ç¬¼"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ_µÆÁý"
-				fashionweaponaction = "ÐÝÏÐ"
-			else 
-				ecmcombinename = "ÐÝÏÐ2_µÆÁý"
-				fashionweaponaction = "ÐÝÏÐ2"
+				ecmcombinename = "ä¼‘é—²_ç¯ç¬¼"
+				fashionweaponaction = "ä¼‘é—²"
+			else
+				ecmcombinename = "ä¼‘é—²2_ç¯ç¬¼"
+				fashionweaponaction = "ä¼‘é—²2"
 			end
 		elseif skid == 363 and at == 11 then
-			ecmcombinename = "ÊÎÆ·ÇÐ»»_µÆÁý"
-			fashionweaponaction = "ÊÎÆ·ÇÐ»»"
+			ecmcombinename = "é¥°å“åˆ‡æ¢_ç¯ç¬¼"
+			fashionweaponaction = "é¥°å“åˆ‡æ¢"
 		end
 	end
 	if  idweapon == 76451 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			fashionweaponaction = "±¼ÅÜ"
+			fashionweaponaction = "å¥”è·‘"
 		elseif at == 4 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 15 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
-			ecmcombinename = "ÐÝÏÐ_Áú·çóÝ"
-			fashionweaponaction = "ÐÝÏÐ"
+			ecmcombinename = "ä¼‘é—²_é¾™é£Žç­"
+			fashionweaponaction = "ä¼‘é—²"
 		end
 	end
 	if  idweapon == 76452 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ1_Ã¨"
-				fashionweaponaction = "ÐÝÏÐ1"
-			else 
-				ecmcombinename = "ÐÝÏÐ2_Ã¨"
-				fashionweaponaction = "ÐÝÏÐ2"
+				ecmcombinename = "ä¼‘é—²1_çŒ«"
+				fashionweaponaction = "ä¼‘é—²1"
+			else
+				ecmcombinename = "ä¼‘é—²2_çŒ«"
+				fashionweaponaction = "ä¼‘é—²2"
 			end
 		end
 	end
 	if  idweapon == 76550 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_ÊÖÌ×ÍÞÍÞ"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_æ‰‹å¥—å¨ƒå¨ƒ"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_ÊÖÌ×ÍÞÍÞ"
-			fashionweaponaction = "ÐÐ×ß"
+			ecmcombinename = "è¡Œèµ°_æ‰‹å¥—å¨ƒå¨ƒ"
+			fashionweaponaction = "è¡Œèµ°"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_ÊÖÌ×ÍÞÍÞ"
-			fashionweaponaction = "±¼ÅÜ"
+			ecmcombinename = "å¥”è·‘_æ‰‹å¥—å¨ƒå¨ƒ"
+			fashionweaponaction = "å¥”è·‘"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_ÊÖÌ×ÍÞÍÞ"
-			fashionweaponaction = "ºóÍË"
+			ecmcombinename = "åŽé€€_æ‰‹å¥—å¨ƒå¨ƒ"
+			fashionweaponaction = "åŽé€€"
 		elseif at == 15 then
-			ecmcombinename = "Õ¾Á¢_ÊÖÌ×ÍÞÍÞ"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_æ‰‹å¥—å¨ƒå¨ƒ"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ_ÊÖÌ×ÍÞÍÞ"
-				fashionweaponaction = "ÐÝÏÐ"
-			else 
-				ecmcombinename = "ÐÝÏÐ2_ÊÖÌ×ÍÞÍÞ"
-				fashionweaponaction = "ÐÝÏÐ2"
+				ecmcombinename = "ä¼‘é—²_æ‰‹å¥—å¨ƒå¨ƒ"
+				fashionweaponaction = "ä¼‘é—²"
+			else
+				ecmcombinename = "ä¼‘é—²2_æ‰‹å¥—å¨ƒå¨ƒ"
+				fashionweaponaction = "ä¼‘é—²2"
 			end
 		end
 	end
-	
+
 	if  idweapon == 80030 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ1_ÓñÅå»¢"
-				fashionweaponaction = "Õ¾Á¢"
-			else 
-				ecmcombinename = "ÐÝÏÐ2_ÓñÅå»¢"
-				fashionweaponaction = "Õ¾Á¢"
+				ecmcombinename = "ä¼‘é—²1_çŽ‰ä½©è™Ž"
+				fashionweaponaction = "ç«™ç«‹"
+			else
+				ecmcombinename = "ä¼‘é—²2_çŽ‰ä½©è™Ž"
+				fashionweaponaction = "ç«™ç«‹"
 			end
 		end
 	end
 	if  idweapon == 81214 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 15 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ1_Ð¡Ñ±Â¹"
-				fashionweaponaction = "Õ¾Á¢"
-			else 
-				ecmcombinename = "ÐÝÏÐ2_Ð¡Ñ±Â¹"
-				fashionweaponaction = "Õ¾Á¢"
+				ecmcombinename = "ä¼‘é—²1_å°é©¯é¹¿"
+				fashionweaponaction = "ç«™ç«‹"
+			else
+				ecmcombinename = "ä¼‘é—²2_å°é©¯é¹¿"
+				fashionweaponaction = "ç«™ç«‹"
 			end
 		end
 	end
 	if  idweapon == 81243 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 3 then
-			fashionweaponaction = "Õ¾Á¢"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ1_ÓñÅåÁú"
-				fashionweaponaction = "Õ¾Á¢"
-			else 
-				ecmcombinename = "ÐÝÏÐ2_ÓñÅåÁú"
-				fashionweaponaction = "Õ¾Á¢"
+				ecmcombinename = "ä¼‘é—²1_çŽ‰ä½©é¾™"
+				fashionweaponaction = "ç«™ç«‹"
+			else
+				ecmcombinename = "ä¼‘é—²2_çŽ‰ä½©é¾™"
+				fashionweaponaction = "ç«™ç«‹"
 			end
 		end
 	end
 	if  idweapon == 81944 and std == 0 then
 		if at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ1_ÊéÏä"
-			else 
-				ecmcombinename = "ÐÝÏÐ2_ÊéÏä"
+				ecmcombinename = "ä¼‘é—²1_ä¹¦ç®±"
+			else
+				ecmcombinename = "ä¼‘é—²2_ä¹¦ç®±"
 			end
 		end
 	end
 	if  idweapon == 81945 and std == 0 then
 		if at == 38 then
 			if math.random(2) == 1 then
-				ecmcombinename = "ÐÝÏÐ_»¨Àº1"
-			else 
-				ecmcombinename = "ÐÝÏÐ_»¨Àº2"
+				ecmcombinename = "ä¼‘é—²_èŠ±ç¯®1"
+			else
+				ecmcombinename = "ä¼‘é—²_èŠ±ç¯®2"
 			end
 		end
 	end
 	if  idweapon == 89695 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Õ¾Á¢"
+		if str == 1 then
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_ÅýÅÃ"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_çµç¶"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_ÅýÅÃ"
-			fashionweaponaction = "ÐÐ×ß"
+			ecmcombinename = "è¡Œèµ°_çµç¶"
+			fashionweaponaction = "è¡Œèµ°"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_ÅýÅÃ"
-			fashionweaponaction = "±¼ÅÜ"
+			ecmcombinename = "å¥”è·‘_çµç¶"
+			fashionweaponaction = "å¥”è·‘"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_ÅýÅÃ"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "åŽé€€_çµç¶"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 15 then
-			ecmcombinename = "Õ¾Á¢_ÅýÅÃ"
-			fashionweaponaction = "Õ¾Á¢"
+			ecmcombinename = "ç«™ç«‹_çµç¶"
+			fashionweaponaction = "ç«™ç«‹"
 		elseif at == 38 then
-			ecmcombinename = "ÐÝÏÐ_ÅýÅÃ"
-			fashionweaponaction = "ÐÝÏÐ"
+			ecmcombinename = "ä¼‘é—²_çµç¶"
+			fashionweaponaction = "ä¼‘é—²"
 		end
 	end
---[[	
+--[[
 	if  idweapon == 83400 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_µ¥¶Ì"
+			ecmcombinename = "ç«™ç«‹_å•çŸ­"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_µ¥¶Ì"
+			ecmcombinename = "ç«™ç«‹_å•çŸ­"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_µ¥¶Ì"
+			ecmcombinename = "è¡Œèµ°_å•çŸ­"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_µ¥¶Ì"
+			ecmcombinename = "å¥”è·‘_å•çŸ­"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_µ¥¶Ì"
+			ecmcombinename = "åŽé€€_å•çŸ­"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_µ¥¶Ì"
+			ecmcombinename = "èµ·è·³_å•çŸ­"
 		elseif at == 6 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_µ¥¶Ì"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_å•çŸ­"
 		elseif at == 7 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_µ¥¶Ì"		
+			ecmcombinename = "è·³è·ƒè½åœ°_å•çŸ­"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_µ¥¶Ì"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_µ¥¶Ì"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_å•çŸ­"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_å•çŸ­"
 		end
 	end
-]]--	
+]]--
 --[[
 	if  idweapon == 83401 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_³¤ÖØ"
+			ecmcombinename = "ç«™ç«‹_é•¿é‡"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_³¤ÖØ"
+			ecmcombinename = "ç«™ç«‹_é•¿é‡"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_³¤ÖØ"
+			ecmcombinename = "è¡Œèµ°_é•¿é‡"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_³¤ÖØ"
+			ecmcombinename = "å¥”è·‘_é•¿é‡"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_³¤ÖØ"
+			ecmcombinename = "åŽé€€_é•¿é‡"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_³¤ÖØ"
+			ecmcombinename = "èµ·è·³_é•¿é‡"
 		elseif at == 6 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_³¤ÖØ"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_é•¿é‡"
 		elseif at == 7 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_³¤ÖØ"		
+			ecmcombinename = "è·³è·ƒè½åœ°_é•¿é‡"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_³¤ÖØ"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_³¤ÖØ"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_é•¿é‡"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_é•¿é‡"
 		end
 	end
-]]--	
+]]--
 --[[
 	if  idweapon == 83402 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_¹­"
+			ecmcombinename = "ç«™ç«‹_å¼“"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_¹­"
+			ecmcombinename = "ç«™ç«‹_å¼“"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_¹­"
+			ecmcombinename = "è¡Œèµ°_å¼“"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_¹­"
+			ecmcombinename = "å¥”è·‘_å¼“"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_¹­"
+			ecmcombinename = "åŽé€€_å¼“"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_¹­"
+			ecmcombinename = "èµ·è·³_å¼“"
 		elseif at == 6 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_¹­"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_å¼“"
 		elseif at == 7 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_¹­"		
+			ecmcombinename = "è·³è·ƒè½åœ°_å¼“"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_¹­"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_¹­"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_å¼“"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_å¼“"
 		end
 	end
-]]--	
---[[	
+]]--
+--[[
 	if  idweapon == 83403 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_³¤ÖØ"
+			ecmcombinename = "ç«™ç«‹_é•¿é‡"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_³¤ÖØ"
+			ecmcombinename = "ç«™ç«‹_é•¿é‡"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_³¤ÖØ"
+			ecmcombinename = "è¡Œèµ°_é•¿é‡"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_³¤ÖØ"
+			ecmcombinename = "å¥”è·‘_é•¿é‡"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_³¤ÖØ"
+			ecmcombinename = "åŽé€€_é•¿é‡"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_³¤ÖØ"
+			ecmcombinename = "èµ·è·³_é•¿é‡"
 		elseif at == 6 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_³¤ÖØ"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_é•¿é‡"
 		elseif at == 7 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_³¤ÖØ"		
+			ecmcombinename = "è·³è·ƒè½åœ°_é•¿é‡"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_³¤ÖØ"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_³¤ÖØ"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_é•¿é‡"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_é•¿é‡"
 		end
 	end
-]]--	
---[[	
+]]--
+--[[
 	if  idweapon == 83404 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_ÒìÀà"
+			ecmcombinename = "ç«™ç«‹_å¼‚ç±»"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_ÒìÀà"
+			ecmcombinename = "ç«™ç«‹_å¼‚ç±»"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_ÒìÀà"
+			ecmcombinename = "è¡Œèµ°_å¼‚ç±»"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_ÒìÀà"
+			ecmcombinename = "å¥”è·‘_å¼‚ç±»"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_ÒìÀà"
+			ecmcombinename = "åŽé€€_å¼‚ç±»"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_ÒìÀà"
+			ecmcombinename = "èµ·è·³_å¼‚ç±»"
 		elseif at == 6 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_ÒìÀà"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_å¼‚ç±»"
 		elseif at == 7 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_ÒìÀà"		
+			ecmcombinename = "è·³è·ƒè½åœ°_å¼‚ç±»"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_ÒìÀà"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_ÒìÀà"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_å¼‚ç±»"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_å¼‚ç±»"
 		end
 	end
-]]--	
---[[	
+]]--
+--[[
 	if  idweapon == 83405 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_³¤ÖØ"
+			ecmcombinename = "ç«™ç«‹_é•¿é‡"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_³¤ÖØ"
+			ecmcombinename = "ç«™ç«‹_é•¿é‡"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_³¤ÖØ"
+			ecmcombinename = "è¡Œèµ°_é•¿é‡"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_³¤ÖØ"
+			ecmcombinename = "å¥”è·‘_é•¿é‡"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_³¤ÖØ"
+			ecmcombinename = "åŽé€€_é•¿é‡"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_³¤ÖØ"
+			ecmcombinename = "èµ·è·³_é•¿é‡"
 		elseif at == 6 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_³¤ÖØ"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_é•¿é‡"
 		elseif at == 7 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_³¤ÖØ"		
+			ecmcombinename = "è·³è·ƒè½åœ°_é•¿é‡"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_³¤ÖØ"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_³¤ÖØ"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_é•¿é‡"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_é•¿é‡"
 		end
 	end
-]]--	
---[[	
+]]--
+--[[
 	if  idweapon == 83406 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_ÒìÀà"
+			ecmcombinename = "ç«™ç«‹_å¼‚ç±»"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_ÒìÀà"
+			ecmcombinename = "ç«™ç«‹_å¼‚ç±»"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_ÒìÀà"
+			ecmcombinename = "è¡Œèµ°_å¼‚ç±»"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_ÒìÀà"
+			ecmcombinename = "å¥”è·‘_å¼‚ç±»"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_ÒìÀà"
+			ecmcombinename = "åŽé€€_å¼‚ç±»"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_ÒìÀà"
+			ecmcombinename = "èµ·è·³_å¼‚ç±»"
 		elseif at == 6 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_ÒìÀà"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_å¼‚ç±»"
 		elseif at == 7 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_ÒìÀà"		
+			ecmcombinename = "è·³è·ƒè½åœ°_å¼‚ç±»"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_ÒìÀà"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_ÒìÀà"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_å¼‚ç±»"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_å¼‚ç±»"
 		end
 	end
-]]--	
---[[	
+]]--
+--[[
 	if  idweapon == 83407 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_µ¥¶Ì"
+			ecmcombinename = "ç«™ç«‹_å•çŸ­"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_µ¥¶Ì"
+			ecmcombinename = "ç«™ç«‹_å•çŸ­"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_µ¥¶Ì"
+			ecmcombinename = "è¡Œèµ°_å•çŸ­"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_µ¥¶Ì"
+			ecmcombinename = "å¥”è·‘_å•çŸ­"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_µ¥¶Ì"
+			ecmcombinename = "åŽé€€_å•çŸ­"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_µ¥¶Ì"
+			ecmcombinename = "èµ·è·³_å•çŸ­"
 		elseif at == 6 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_µ¥¶Ì"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_å•çŸ­"
 		elseif at == 7 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_µ¥¶Ì"		
+			ecmcombinename = "è·³è·ƒè½åœ°_å•çŸ­"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_µ¥¶Ì"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_µ¥¶Ì"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_å•çŸ­"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_å•çŸ­"
 		end
 	end
-]]--	
---[[	
+]]--
+--[[
 	if  idweapon == 83408 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_µ¥¶Ì"
+			ecmcombinename = "ç«™ç«‹_å•çŸ­"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_µ¥¶Ì"
+			ecmcombinename = "ç«™ç«‹_å•çŸ­"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_µ¥¶Ì"
+			ecmcombinename = "è¡Œèµ°_å•çŸ­"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_µ¥¶Ì"
+			ecmcombinename = "å¥”è·‘_å•çŸ­"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_µ¥¶Ì"
+			ecmcombinename = "åŽé€€_å•çŸ­"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_µ¥¶Ì"
+			ecmcombinename = "èµ·è·³_å•çŸ­"
 		elseif at == 6 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_µ¥¶Ì"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_å•çŸ­"
 		elseif at == 7 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_µ¥¶Ì"		
+			ecmcombinename = "è·³è·ƒè½åœ°_å•çŸ­"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_µ¥¶Ì"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_µ¥¶Ì"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_å•çŸ­"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_å•çŸ­"
 		end
 	end
-]]--	
---[[	
+]]--
+--[[
 	if  idweapon == 83409 and std == 0 then
-		if str == 1 then 
-			fashionweaponaction = "Æï³Ë"
+		if str == 1 then
+			fashionweaponaction = "éª‘ä¹˜"
 		elseif srt == 0 then
-			ecmcombinename = "Õ¾Á¢_³¤Çá"
+			ecmcombinename = "ç«™ç«‹_é•¿è½»"
 		elseif at == 1 then
-			ecmcombinename = "Õ¾Á¢_³¤Çá"
+			ecmcombinename = "ç«™ç«‹_é•¿è½»"
 		elseif at == 2 then
-			ecmcombinename = "ÐÐ×ß_³¤Çá"
+			ecmcombinename = "è¡Œèµ°_é•¿è½»"
 		elseif at == 3 then
-			ecmcombinename = "±¼ÅÜ_³¤Çá"
+			ecmcombinename = "å¥”è·‘_é•¿è½»"
 		elseif at == 4 then
-			ecmcombinename = "ºóÍË_³¤Çá"
+			ecmcombinename = "åŽé€€_é•¿è½»"
 		elseif at == 5 then
-			ecmcombinename = "ÆðÌø_³¤Çá"
+			ecmcombinename = "èµ·è·³_é•¿è½»"
 		elseif at == 6 then
-			ecmcombinename = "ÌøÔ¾Ñ­»·_³¤Çá"
+			ecmcombinename = "è·³è·ƒå¾ªçŽ¯_é•¿è½»"
 		elseif at == 7 then
-			ecmcombinename = "ÌøÔ¾ÂäµØ_³¤Çá"		
+			ecmcombinename = "è·³è·ƒè½åœ°_é•¿è½»"
 		elseif at == 10 then
-			ecmcombinename = "Ô­µØÐý×ª_³¤Çá"
-		elseif at == 15 then 
-			ecmcombinename = "Õ¾Á¢_³¤Çá"
+			ecmcombinename = "åŽŸåœ°æ—‹è½¬_é•¿è½»"
+		elseif at == 15 then
+			ecmcombinename = "ç«™ç«‹_é•¿è½»"
 		end
 	end
-]]--		
-		
---Ê±×°ÎäÆ÷²¥Îèµ¸¶¯×÷×¨ÓÃ
+]]--
+
+--æ—¶è£…æ­¦å™¨æ’­èˆžè¹ˆåŠ¨ä½œä¸“ç”¨
 	if idweapon == 72193 and skid == 3679 and at ==11 then
-		ecmcombinename = "Îèµ¸É¡_Í¨ÓÃ"
-		fashionweaponaction = "Îèµ¸"
+		ecmcombinename = "èˆžè¹ˆä¼ž_é€šç”¨"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 72192 and skid == 3679 and at == 11 then
-		ecmcombinename = "Îèµ¸µÑ_Í¨ÓÃ"
-		fashionweaponaction = "Îèµ¸"
+		ecmcombinename = "èˆžè¹ˆç¬›_é€šç”¨"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 72846 and skid == 3754 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 72995 and skid == 3767 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 73830 and skid == 3916 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 74279 and skid == 4007 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 74887 and skid == 4008 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 75368 and skid == 4009 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 75875 and skid == 4010 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 76183 and skid == 4007 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 76257 and skid == 4010 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 76451 and skid == 3916 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 76452 and skid == 4009 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 76550 and skid == 4011 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 80030 and skid == 4012 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÓñÅå»¢"
+		ecmcombinename = "èˆžè¹ˆ_çŽ‰ä½©è™Ž"
 	end
 	if idweapon == 81214 and skid == 4013 and at == 11 then
-		fashionweaponaction = "Îèµ¸"
+		fashionweaponaction = "èˆžè¹ˆ"
 	end
 	if idweapon == 81243 and skid == 4014 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÓñÅåÁú"
+		ecmcombinename = "èˆžè¹ˆ_çŽ‰ä½©é¾™"
 	end
 	if idweapon == 81944 and skid == 4015 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÊéÏä"
+		ecmcombinename = "èˆžè¹ˆ_ä¹¦ç®±"
 	end
 	if idweapon == 81945 and skid == 4016 and at == 11 then
-		ecmcombinename = "Îèµ¸_»¨Àº"
+		ecmcombinename = "èˆžè¹ˆ_èŠ±ç¯®"
 	end
 	if idweapon == 83400 and skid == 4971 and at == 11 then
-		ecmcombinename = "Îèµ¸_°Ôº£"
+		ecmcombinename = "èˆžè¹ˆ_éœ¸æµ·"
 	end
 	if idweapon == 83401 and skid == 4972 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÙÈÔÂ"
+		ecmcombinename = "èˆžè¹ˆ_åƒæœˆ"
 	end
 	if idweapon == 83402 and skid == 4973 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÂäÈÕ"
+		ecmcombinename = "èˆžè¹ˆ_è½æ—¥"
 	end
 	if idweapon == 83403 and skid == 4974 and at == 11 then
-		ecmcombinename = "Îèµ¸_÷è÷ë"
+		ecmcombinename = "èˆžè¹ˆ_éº’éºŸ"
 	end
 	if idweapon == 83404 and skid == 4975 and at == 11 then
-		ecmcombinename = "Îèµ¸_Çã³Ç"
+		ecmcombinename = "èˆžè¹ˆ_å€¾åŸŽ"
 	end
 	if idweapon == 83405 and skid == 4976 and at == 11 then
-		ecmcombinename = "Îèµ¸_°ÙÁ¶"
+		ecmcombinename = "èˆžè¹ˆ_ç™¾ç‚¼"
 	end
 	if idweapon == 83406 and skid == 4977 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÂåÉñ"
+		ecmcombinename = "èˆžè¹ˆ_æ´›ç¥ž"
 	end
 	if idweapon == 83407 and skid == 4978 and at == 11 then
-		ecmcombinename = "Îèµ¸_Õ¿Â¬"
+		ecmcombinename = "èˆžè¹ˆ_æ¹›å¢"
 	end
 	if idweapon == 83408 and skid == 4979 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÎÔÁú"
+		ecmcombinename = "èˆžè¹ˆ_å§é¾™"
 	end
 	if idweapon == 83409 and skid == 4980 and at == 11 then
-		ecmcombinename = "Îèµ¸_·½Ìì"
+		ecmcombinename = "èˆžè¹ˆ_æ–¹å¤©"
 	end
 	if idweapon == 83975 and skid == 5004 and at == 11 then
-		ecmcombinename = "Îèµ¸_·üÄ§"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_ä¼é­”"
+	end
 	if idweapon == 84144 and skid == 5019 and at == 11 then
-		ecmcombinename = "Îèµ¸_õõ²õ"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_è²‚è‰"
+	end
 	if idweapon == 86330 and skid == 5262 and at == 11 then
-		ecmcombinename = "Îèµ¸_µäÎ¤"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_å…¸éŸ¦"
+	end
 	if idweapon == 86331 and skid == 5263 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÕÅ´º»ª"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_å¼ æ˜¥åŽ"
+	end
 	if idweapon == 86332 and skid == 5264 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÑÝÎä¶¯×÷_µ¶"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_æ¼”æ­¦åŠ¨ä½œ_åˆ€"
+	end
 	if idweapon == 86333 and skid == 5265 and at == 11 then
-		ecmcombinename = "Îèµ¸_»Æ½ð¼×"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_é»„é‡‘ç”²"
+	end
 	if idweapon == 86334 and skid == 5266 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÑÝÎä¶¯×÷_Îè"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_æ¼”æ­¦åŠ¨ä½œ_èˆž"
+	end
 	if idweapon == 86335 and skid == 5267 and at == 11 then
-		ecmcombinename = "Îèµ¸_½ðË¿±Þ"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_é‡‘ä¸éž­"
+	end
 	if idweapon == 86336 and skid == 5268 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÁÒÑæ±Þ"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_çƒˆç„°éž­"
+	end
 	if idweapon == 88671 and skid == 5387 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÕÅ·É"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_å¼ é£ž"
+	end
 	if idweapon == 88672 and skid == 5388 and at == 11 then
-		ecmcombinename = "Îèµ¸_Âí³¬"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_é©¬è¶…"
+	end
 	if idweapon == 88673 and skid == 5389 and at == 11 then
-		ecmcombinename = "Îèµ¸_ÕÔÔÆ"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_èµµäº‘"
+	end
 	if idweapon == 89219 and skid == 5435 and at == 11 then
-		ecmcombinename = "Îèµ¸_²Ü²Ù"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_æ›¹æ“"
+	end
 	if idweapon == 89221 and skid == 5436 and at == 11 then
-		ecmcombinename = "Îèµ¸_Áõ±¸"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_åˆ˜å¤‡"
+	end
 	if idweapon == 89222 and skid == 5437 and at == 11 then
-		ecmcombinename = "Îèµ¸_ËïÈ¨"
-	end	
+		ecmcombinename = "èˆžè¹ˆ_å­™æƒ"
+	end
 	if idweapon == 97760 and skid == 5436 and at == 11 then
-		ecmcombinename = "Îèµ¸_Áõ±¸"
+		ecmcombinename = "èˆžè¹ˆ_åˆ˜å¤‡"
 	end
 	if idweapon == 97761 and skid == 5436 and at == 11 then
-		ecmcombinename = "Îèµ¸_Áõ±¸"
+		ecmcombinename = "èˆžè¹ˆ_åˆ˜å¤‡"
 	end
---·µ»Ø×øÆï¶¯×÷Ãû
+--è¿”å›žåéª‘åŠ¨ä½œå
 	ecm_pet_name = ecmcombinename
---j×øÆï¶¯×÷ÌØÀý£¬½â¾ö¼²±¼Ï®ÉÏ°ëÉí²¥´Ì»÷£¬ÏÂ°ëÉí²»²¥ÂíÅÜ²½¶¯×÷¡£
+--jåéª‘åŠ¨ä½œç‰¹ä¾‹ï¼Œè§£å†³ç–¾å¥”è¢­ä¸ŠåŠèº«æ’­åˆºå‡»ï¼Œä¸‹åŠèº«ä¸æ’­é©¬è·‘æ­¥åŠ¨ä½œã€‚
 	if at == 11 and skid == 5817 then
-		ecm_pet_name = "¼ÓËÙÅÜ_Æï³Ë_³¤Çá"
+		ecm_pet_name = "åŠ é€Ÿè·‘_éª‘ä¹˜_é•¿è½»"
 	end
-	
---×øÆï¶¯×÷ÌØÀý
 
---±Þ¶¯×÷ÌØÀý
---½«×øÆï¶ÔÓ¦µÄÆïÕ½¼¼ÄÜ¶¯×÷ºóê¡¸ÄÎªµ¥¶Ì
+--åéª‘åŠ¨ä½œç‰¹ä¾‹
+
+--éž­åŠ¨ä½œç‰¹ä¾‹
+--å°†åéª‘å¯¹åº”çš„éª‘æˆ˜æŠ€èƒ½åŠ¨ä½œåŽè¾æ”¹ä¸ºå•çŸ­
 -----------------------------------
 	if wt == 20 and at == 11 and str == 1 then
 		local rideattack_id = {1273,1280,1283,1289,1293,1294,1296}
 		for num = 1, table.getn(rideattack_id) do
 			if skid == rideattack_id[num] then
-				suffixword = "µ¥¶Ì"
+				suffixword = "å•çŸ­"
 				ecm_pet_name = string.format("%s%s%s%s" , prefixword , "_" , extraword , suffixword)
 				break
 			end
 		end
 	end
 -----------------------------------
---åó½«×øÆï¶ÔÓ¦µÄÆïÕ½¼¼ÄÜ¶¯×÷ºóê¡¸ÄÎªµ¥¶Ì	
-	if std == 0 then	
+--å¼©å°†åéª‘å¯¹åº”çš„éª‘æˆ˜æŠ€èƒ½åŠ¨ä½œåŽè¾æ”¹ä¸ºå•çŸ­
+	if std == 0 then
 		if wt == 21 and str == 1 then
-			suffixword = "µ¥¶Ì"
+			suffixword = "å•çŸ­"
 			ecm_pet_name = string.format("%s%s%s%s" , prefixword , "_" , extraword , suffixword)
 		end
-	end	
+	end
 	return ecmcombinename , adjustspeed , 0 , forceup , forcedown,fashionweaponaction,hookleft,hookright,ecm_pet_name
 end
 
 
 
---[[²âÊÔ£º´Ó¼üÅÌÊäÈë²ÎÊý¼ÆËã²¢ÏÔÊ¾
+--[[æµ‹è¯•ï¼šä»Žé”®ç›˜è¾“å…¥å‚æ•°è®¡ç®—å¹¶æ˜¾ç¤º
 local  actiontype , weapontype , st_combat , st_ride , st_double , st_state , st_stateb , skill_id , skill_part , collectid
 
-print("ÊäÈë¶¯×÷ÀàÐÍ(1,2,3,...,100)£º")
+print("è¾“å…¥åŠ¨ä½œç±»åž‹(1,2,3,...,100)ï¼š")
 actiontype=io.read("*number")
 
-print("ÊäÈëÎäÆ÷ÀàÐÍ(1,2,3,...,19)£º")
+print("è¾“å…¥æ­¦å™¨ç±»åž‹(1,2,3,...,19)ï¼š")
 weapontype=io.read("*number")
 
-print("ÊäÈëÕ½¶·×´Ì¬(1.·ÇÕ½¶·×´Ì¬,2.Õ½¶·×´Ì¬)£º")
+print("è¾“å…¥æˆ˜æ–—çŠ¶æ€(1.éžæˆ˜æ–—çŠ¶æ€,2.æˆ˜æ–—çŠ¶æ€)ï¼š")
 st_combat=io.read("*number")
 
-print("ÊäÈëÆï³Ë×´Ì¬(0.ÎÞ,1.Æï³Ë)£º")
+print("è¾“å…¥éª‘ä¹˜çŠ¶æ€(0.æ— ,1.éª‘ä¹˜)ï¼š")
 st_ride=io.read("*number")
 
-print("ÊäÈë°ó¶¨×´Ì¬(0.ÎÞ,1.Ö÷¶¯°ó¶¨,2.±»¶¯°ó¶¨)£º")
+print("è¾“å…¥ç»‘å®šçŠ¶æ€(0.æ— ,1.ä¸»åŠ¨ç»‘å®š,2.è¢«åŠ¨ç»‘å®š)ï¼š")
 st_double=io.read("*number")
 
-print("ÊäÈëÌØÊâ×´Ì¬(0.ÎÞ,1.Õ¾¶¨,2.´ý¶¨)£º")
+print("è¾“å…¥ç‰¹æ®ŠçŠ¶æ€(0.æ— ,1.ç«™å®š,2.å¾…å®š)ï¼š")
 st_state=io.read("*number")
 
-print("ÊäÈëÌØÊâ×´Ì¬b(0.ÎÞ,1.61,2.62)£º")
+print("è¾“å…¥ç‰¹æ®ŠçŠ¶æ€b(0.æ— ,1.61,2.62)ï¼š")
 st_stateb=io.read("*number")
 
 if actiontype == 11	then
-	print("ÊäÈë¼¼ÄÜºÅ(2.µ¶ÖØ»÷,3.µ¶Çá»÷,4.¡­¡­)£º")
+	print("è¾“å…¥æŠ€èƒ½å·(2.åˆ€é‡å‡»,3.åˆ€è½»å‡»,4.â€¦â€¦)ï¼š")
 	skill_id=io.read("*number")
-	print("ÊäÈë¼¼ÄÜ¶ÎÊý(0.µÚÒ»¶Î,1.µÚ¶þ¶Î,2.¡­¡­)£º")
+	print("è¾“å…¥æŠ€èƒ½æ®µæ•°(0.ç¬¬ä¸€æ®µ,1.ç¬¬äºŒæ®µ,2.â€¦â€¦)ï¼š")
 	skill_part=io.read("*number")
 end
 
 if actiontype == 13	then
-	print("ÊäÈë¿óÎïºÅ(0.¿ó²ù,1.Ò©³ú,2.¡­¡­)£º")
+	print("è¾“å…¥çŸ¿ç‰©å·(0.çŸ¿é“²,1.è¯é”„,2.â€¦â€¦)ï¼š")
 	collectid=io.read("*number")
 end
 
 local rsta , rstb , rstc , rstd , rste = lua_act:GetECMName(actiontype , weapontype , st_combat , st_ride , st_double , st_state , st_stateb , skill_id , skill_part , collectid)
 
-local actstr = string.format("%s%s%s%s%s%s%s%s%s%s" , "-------ÊÔÑé½á¹û------" , "\n¡¡¡¡¶¯×÷Ãû³Æ£º\t" , rsta , "\n¡¡¡¡²¥·ÅËÙ¶È£º\t" , rstb , "\nÉÏÉíÇ¿ÐÐ¸²¸Ç£º\t" , rstd , "\nÏÂÉíÇ¿ÐÐ¸²¸Ç£º\t" , rste , "\n")
+local actstr = string.format("%s%s%s%s%s%s%s%s%s%s" , "-------è¯•éªŒç»“æžœ------" , "\nã€€ã€€åŠ¨ä½œåç§°ï¼š\t" , rsta , "\nã€€ã€€æ’­æ”¾é€Ÿåº¦ï¼š\t" , rstb , "\nä¸Šèº«å¼ºè¡Œè¦†ç›–ï¼š\t" , rstd , "\nä¸‹èº«å¼ºè¡Œè¦†ç›–ï¼š\t" , rste , "\n")
 
 print(actstr)
 ]]--

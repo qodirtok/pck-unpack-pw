@@ -53,7 +53,7 @@ TEXT_NEWHELP_CONTENT = ""
 
 
 
-LDG_TITLE = "^dca004LouLx Game: ^ffffff%s";
+LDG_TITLE = "^dca004HOTK Game: ^ffffff%s";
 LDG_TIP = {
 	"Nhân vật đạt cấp tối đa vẫn có thể nhận điểm kinh nghiệm (lịch luyện).",
 	"Điểm kinh nghiệm ngoài việc dùng để thăng cấp, còn có nhiều công dụng khác.",
@@ -1232,7 +1232,7 @@ AUI_BATTLEFIELD[1280] = {
 						"Số lần tử vong lớn hơn 20 lần",
 						"",
 						}
-						
+
 --ID:1292 Ước Chiến·Hứa Xương
 AUI_BATTLEFIELD[1292] = {
 						"Loại hình: Đấu trường, Điểm tích lũy\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 31+",
@@ -1265,7 +1265,7 @@ AUI_BATTLEFIELD[1294] = {
 						"",
 						"",
 						}
-						
+
 --ID:1295 Trận Tương Dương
 AUI_BATTLEFIELD[1295] = {
 						"Loại hình: Đấu trường, Điểm tích lũy\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 31+",
@@ -1286,7 +1286,7 @@ AUI_BATTLEFIELD[1311] = {
 						"Chủ tướng phe ta tử trận",
 						"Chủ tướng phe ta tử trận",
 						}
---ID:1387						
+--ID:1387
 AUI_BATTLEFIELD[1387] = {
 						"Giới thiệu Chiến Tranh",
 						"Bên tấn công",
@@ -1296,7 +1296,7 @@ AUI_BATTLEFIELD[1387] = {
 						"Tào Tháo còn sống",
 						"Tào Tháo còn sống khi hoạt động kết thúc",
 						}
-						
+
 AUI_BATTLEFIELD[1388] = {
 						"Giới thiệu Chiến Tranh",
 						"Bên tấn công",
@@ -1306,7 +1306,7 @@ AUI_BATTLEFIELD[1388] = {
 						"Lưu Bị còn sống",
 						"Lưu Bị còn sống khi hoạt động kết thúc",
 						}
-						
+
 AUI_BATTLEFIELD[1389] = {
 						"Giới thiệu Chiến Tranh",
 						"Bên tấn công",
@@ -3585,9 +3585,9 @@ FlowerGuide[2120] = "花娘：亲~你的官职等级有点低了哟~官职越高
 
 
 --图鉴翻牌获得次数途径
-CardAssist = 
+CardAssist =
 "^ffffff前往#6243#处完成^fffd44结义任务\r^ffffff前往#3355#处完成^fffd44惩凶平叛^ffffff任务\r在各地寻找分局镖头完成^fffd44押镖护送^ffffff任务\r前往#69297#处完成^fffd44聚贤谷密函^ffffff任务\r前往洛阳、草原、东海完成^fffd44神舟探宝^ffffff任务\r前往#12820#处完成^fffd44每日红豆采摘^ffffff任务\r完成^fffd44每日点卯\r^ffffff前往#51467#处完成^fffd44煮酒舞剑莫问今朝^ffffff任务\r前往白帝城完成^fffd44振奋斗志^ffffff任务\r参与^fffd44濮阳之战（英雄级）\r参与^fffd44虎牢关之战（英雄级）\r参与^fffd44合肥之战（英雄级）\r参与^fffd44英雄志系列战场"
 
 --图鉴翻牌获得次数途径
-CardInfo = 
+CardInfo =
 "^ea8015翻牌次数：\r^ffffff达到^fffd44英雄1级^ffffff之后，完成特定每日任务和活动即可获得翻牌次数。^fffd44某些任务快捷完成时不会获得次数奖励^ffffff。\r^ea8015获得奖励：\r^ffffff翻开两张图鉴之后，如果图案一致，则配对成功。如果图案不一致，则匹配失败，图鉴扣回。\r^ea8015刷新:\r^ffffff图鉴每天0点重置，重置后所有图鉴扣回，但是翻牌次数不变。玩家也可以使用道具^fffd44图鉴至宝^ffffff刷新图鉴。\r^ea8015对对碰积分:\r^ffffff每成功配对一次，即可获得对对碰积分，配对数量越多，获得积分也越多。对对碰积分可在#95704#处购买各种图鉴礼包。\r^ea8015其他：\r如果任务列表已满，可能会导致积分无法获得。请玩家在进行对对碰之前，适当清理任务列表。"

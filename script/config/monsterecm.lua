@@ -1,6 +1,6 @@
 monster_ecm = {}
---[[ 
-at: 			action type      
+--[[
+at: 			action type
 mid: 		monster templ id
 skid:	¹ÖÎï¹¥»÷Ê±£¬Îª¹¥»÷¼¼ÄÜID£»¹ÖÎï±»¹¥»÷Ê±£¬Îª±»¹¥»÷¼¼ÄÜID
 
@@ -47,7 +47,7 @@ AT:
 "Ö÷¶¯×£¸£_½üÉí1_»¤ÎÀ"
 ]]--
 function monster_ecm:getMonsterECMName( at, mid, skid )
-	
+
 	local ret = ""
 	---------------------------------------------------
 	if mid == 74698 then
@@ -145,7 +145,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -154,13 +154,13 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 				ret = "ËÀÍö2"
 
 		end
-	end	
+	end
 	if mid == 746705 then
 		if at == 13 then
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -169,13 +169,13 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 				ret = "ËÀÍö2"
 
 		end
-	end	
+	end
 	if mid == 74706 then
 		if at == 13 then
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -190,7 +190,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -205,7 +205,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -220,7 +220,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -235,7 +235,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -250,7 +250,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -265,7 +265,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -280,7 +280,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -295,7 +295,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -310,7 +310,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -325,7 +325,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -339,7 +339,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -354,7 +354,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -368,7 +368,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -383,7 +383,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -392,13 +392,13 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 				ret = "ËÀÍö2"
 
 		end
-	end	
+	end
 	if mid == 74749 then
 		if at == 13 then
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -407,13 +407,13 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 				ret = "ËÀÍö2"
 
 		end
-	end	
+	end
 	if mid == 74750 then
 		if at == 13 then
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -422,13 +422,13 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 				ret = "ËÀÍö2"
 
 		end
-	end	
+	end
 	if mid == 74751 then
 		if at == 13 then
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -437,13 +437,13 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 				ret = "ËÀÍö2"
 
 		end
-	end	
+	end
 	if mid == 74752 then
 		if at == 13 then
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -452,13 +452,13 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 				ret = "ËÀÍö2"
 
 		end
-	end	
+	end
 	if mid == 74753 then
 		if at == 13 then
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -473,7 +473,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -488,7 +488,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -503,7 +503,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -518,7 +518,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -533,7 +533,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -548,7 +548,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -563,7 +563,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 				elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -578,7 +578,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -593,7 +593,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -608,7 +608,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -621,7 +621,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -634,7 +634,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -647,7 +647,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -660,7 +660,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -673,7 +673,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -686,7 +686,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -700,7 +700,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -713,7 +713,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -726,7 +726,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -739,7 +739,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
@@ -752,7 +752,7 @@ function monster_ecm:getMonsterECMName( at, mid, skid )
 			if skid == 4051 then
 				ret = "»ğÑæÊÜÉË"
 			elseif skid == 4093 then
-				ret = "»÷ÍË"				
+				ret = "»÷ÍË"
 			elseif skid == 4186 or skid == 4187 or skid == 4188 or skid == 4189 or skid == 4190 then
 				ret = "»÷ÍË"
 			end
