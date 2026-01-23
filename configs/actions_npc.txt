@@ -1,71 +1,57 @@
 #_begin
 
-// Monster
-
-"Standing"
-
-"Leisure"
-
-"Combat Standing"
-
-"Skill 1"
-
-"Walking"
-
-"Normal Attack 1"
-
-"Normal Attack 2"
-
-"Running"
-
-"Death"
-
-"Jump"
-
-"Jump Landing"
-
-"Jump Cycle"
-
-"Magic Attack 1"
-
-"Treated" // NPC Actions
-
-"Cross-arms conversation"
-"Reaching out to talk"
-"Conversation loop"
-"Leisure action 1"
-"Leisure action 2"
-"Standing"
-"Walking"
-"Running"
-"Attack"
-"Death"
-"Spawn"
-"Conversation"
-"Disappear"
-"Attack 1"
-"Attack 2"
-"Attack 3"
-"Turn left"
-"Turn right"
-"Idle"
-"Normal attack 3"
-"Normal attack 4"
-"Active blessing_melee 1_guard"
-"Active curse_melee 1_guard"
-"Standing action"
-"Standing action"
-"Pick up"
-"Combat standing"
-"1 o'clock"
-"2 o'clock"
-"3 o'clock"
-"4 o'clock"
-"5 o'clock"
-"6 o'clock"
-"7 o'clock"
-"8 o'clock"
-"9 o'clock
-"10 o'clock
-"11 o'clock
-"12 o'clock
+// 怪物
+"站立"
+"休闲"
+"战斗站立"
+"技能1"
+"行走"
+"普通攻击1"
+"普通攻击2"
+"奔跑"
+"死亡"
+"起跳"
+"跳跃落地"
+"跳跃循环"
+"魔攻1"
+"受伤"
+// NPC动作
+"抱胸交谈"
+"伸手交谈"
+"交谈循环"
+"休闲动作1"
+"休闲动作2"
+"站立"
+"行走"
+"奔跑"
+"攻击"
+"死亡"
+"出生"
+"交谈"
+"消失"
+"攻击1"
+"攻击2"
+"攻击3"
+"左转"
+"右转"
+"空闲"
+"普通攻击3"
+"普通攻击4"
+"主动祝福_近身1_护卫"
+"主动诅咒_近身1_护卫"
+"站立操作"
+"站立操作"
+"拾取"
+"战斗站立"
+"1点"
+"2点"
+"3点"
+"4点"
+"5点"
+"6点"
+"7点"
+"8点"
+"9点"
+"10点"
+"11点"
+"12点"

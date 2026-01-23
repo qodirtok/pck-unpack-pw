@@ -1,93 +1,153 @@
 #_begin
 
-// 0 Standing
-Combat Standing
-Walking
-Running
-Jumping
+// 0
+站立
+战斗站立
+行走
+奔跑
+起跳
+    
+// 5                                          
+跳跃空中循环
+跳跃落地
+游动
+漂浮
+翅膀起飞
+    
+// 10                                          
+翅膀悬停
+翅膀前进
+翅膀高空下降
+翅膀低空下降
+翅膀落地
+    
+// 15                                          
+飞剑起飞                                      
+飞剑悬停                                      
+飞剑前进                                      
+飞剑高空下降                                  
+飞剑低空下降                                  
+      
+// 20                                        
+飞剑落地                                      
+打坐                                          
+打坐循环                                      
+打坐站起                                      
+受伤                                          
+    
+// 25                                          
+地面死亡                                      
+地面死亡循环                                  
+水中死亡                                      
+死亡水中循环                                  
+空中死亡                                      
+      
+// 30                                        
+空中死亡下落循环                              
+空中死亡落地                                  
+死亡落地循环                                  
+复活                                          
+入场                                    
+      
+// 35                                        
+被击退                                        
+被击倒                                        
+被击倒倒地循环                                
+被击倒站起                                    
+采摘                                          
+      
+// 40                                        
+采摘植物循环                                  
+采摘站起                                      
+捡东西                                        
+伸懒腰                                        
+四处张望                                      
+      
+// 45                                        
+转动兵器                                      
+招手                                          
+点头                                          
+摇头                                          
+耸肩膀                                        
+      
+// 50                                        
+大笑                                          
+生气                                          
+晕倒                                          
+沮丧                                          
+飞吻                                          
+    
+// 55                                          
+害羞                                          
+抱拳                                          
+坐下                                          
+坐下循环                                      
+坐下站起                                      
+      
+// 60                                        
+冲锋                                          
+思考                                          
+挑衅                                          
+胜利                                          
+亲吻                                          
+      
+// 65                                        
+亲吻循环                                      
+亲吻结束                                      
+普攻1                                         
+普攻2                                         
+普攻3                                         
+      
+// 70                                        
+普攻4                                        
+放暗器 
+花招跑
+花招跳
+翅膀滑翔
 
-// 5 Jumping in the air (loop)
-Jumping to land
-Swimming
-Floating
-Wings taking off
+// 75
+飞剑滑翔
+战斗
+攻击1
+攻击2
+攻击3
 
-// 10 Wings hovering
-Wings moving forward
-Wings descending from high altitude
-Wings descending from low altitude
-Wings landing
+// 80
+攻击4
+防御
+摔倒
+倒地
+张望
 
-// 15 Flying sword taking off
-Flying sword hovering
-Flying sword moving forward
-Flying sword descending from high altitude
-Flying sword descending from low altitude
+// 85
+舞蹈
+使用物品
+使用物品循环
+双人亲吻
+眨眼
 
-// 20 Flying sword landing
-Meditating
-Meditating (loop)
-Standing up from meditation
-Injured
+// 90
+胜利
+轻功起
+轻功循环
+战斗起跳
+战斗跳跃空中循环
 
-// 25 Ground death
-Ground death (loop)
-Water death
-Death in water (loop)
-Air death
-
-// 30 Air death falling (loop)
-Air death landing
-Death landing (loop)
-Resurrecting
-Entering the arena
-
-// 35 Being knocked back
-Knocked down
-Knocked down (loop)
-Knocked up
-Gathering
-
-// 40 Gathering plants (loop)
-Gathering and standing up
-Pick up items
-Stretching
-Looking around
-
-// 45. Turn weapon. Wave. Nod. Shake head. Shrug shoulders.
-
-// 50. Laugh. Angry. Faint. Dejected. Flying kiss.
-
-// 55. Shy. Clenched fists. Sit down. Sit down (loop). Sit down and stand up.
-
-// 60. Charge. Think. Provoke. Victory. Kiss.
-
-// 65. Kiss loop. Kiss ends. Normal attack 1. Normal attack 2. Normal attack 3.
-
-// 70. Normal attack 4. Throw a hidden weapon. Fancy run. Fancy jump. Glide with wings.
-
-// 75. Glide with flying sword. Combat. Attack 1. Attack 2. Attack 3.
-
-// 80. Attack 4. Defend. Fall down. Fall to the ground. Look around.
-
-// 85. Dance. Use item. Use item (loop). Two people kiss. Blink.
-
-// 90. Victory. Light footwork begins. Light footwork (loop). Combat jump. Combat jump (loop). 95
-Combat Jump Landing
-Combat Running
-Combat Lightness Skill Loop
+// 95
+战斗跳跃落地
+战斗奔跑
+战斗轻功循环
 
 // suffix, total number is 10
-Empty
-Sword
-Knife
-Wheel
-Staff
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
+空
+剑
+刀
+轮
+杖
+
+空
+空
+空
+空
+空
 

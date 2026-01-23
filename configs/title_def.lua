@@ -3,8 +3,8 @@
 --$S 表示夫妻
 --$T 表示师徒
 title_definition = {}
-title_definition['Test Title 1'] = {id = 1 , note = "^ffbc3c【$S的相公】" , desc = "0From then on, they helped each other and never left each other." , desc_1 = "" , desc_2 = ""}
-title_definition['Test Title 2'] = {id = 2 , note = "^ffbc3c【$S的娘子】" , desc = "0From then on, they helped each other and never left each other." , desc_1 = "" , desc_2 = ""}
+title_definition['测试称号1'] = {id = 1 , note = "^ffbc3c【$S的相公】" , desc = "0从此便相濡以沫，不离不弃。" , desc_1 = "" , desc_2 = ""}
+title_definition['测试称号2'] = {id = 2 , note = "^ffbc3c【$S的娘子】" , desc = "0从此便相濡以沫，不离不弃。" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营魏国友善'] = {id = 1101 , note = "^72fe00【魏国义士】" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营魏国尊敬'] = {id = 1102 , note = "^0184ff【魏国侠客】" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营魏国崇敬'] = {id = 1103 , note = "^a800ff【魏国豪杰】" , desc = "0" , desc_1 = "" , desc_2 = ""}
@@ -16,7 +16,7 @@ title_definition['Test Title 2'] = {id = 2 , note = "^ffbc3c【$S的娘子】" ,
 --title_definition['称号_阵营魏国排行榜5'] = {id = 1109 , note = "^0184ff※魏国猛将※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营魏国排行榜6'] = {id = 1110 , note = "^0184ff※魏国义臣※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营魏国排行榜7'] = {id = 1111 , note = "^0184ff※魏国名流※" , desc = "0" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Camp Wei Beginner'] = {id = 1112 , note = "^72fe00【魏国仕官】" , desc = "0You are now a member of the Wei Kingdom!" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_阵营魏国入门'] = {id = 1112 , note = "^72fe00【魏国仕官】" , desc = "0你现在已经是魏国的成员！" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营蜀国友善'] = {id = 1201 , note = "^72fe00【蜀国义士】" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营蜀国尊敬'] = {id = 1202 , note = "^0184ff【蜀国侠客】" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营蜀国崇敬'] = {id = 1203 , note = "^a800ff【蜀国豪杰】" , desc = "0" , desc_1 = "" , desc_2 = ""}
@@ -28,7 +28,7 @@ title_definition['Title_Camp Wei Beginner'] = {id = 1112 , note = "^72fe00【魏
 --title_definition['称号_阵营蜀国排行榜5'] = {id = 1209 , note = "^0184ff※蜀国猛将※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营蜀国排行榜6'] = {id = 1210 , note = "^0184ff※蜀国义臣※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营蜀国排行榜7'] = {id = 1211 , note = "^0184ff※蜀国名流※" , desc = "0" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Camp Shu Beginner'] = {id = 1212 , note = "^72fe00【蜀国仕官】" , desc = "0You are now a member of the Shu Kingdom!" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_阵营蜀国入门'] = {id = 1212 , note = "^72fe00【蜀国仕官】" , desc = "0你现在已经是蜀国的成员！" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营吴国友善'] = {id = 1301 , note = "^72fe00【吴国义士】" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营吴国尊敬'] = {id = 1302 , note = "^0184ff【吴国侠客】" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营吴国崇敬'] = {id = 1303 , note = "^a800ff【吴国豪杰】" , desc = "0" , desc_1 = "" , desc_2 = ""}
@@ -40,120 +40,124 @@ title_definition['Title_Camp Shu Beginner'] = {id = 1212 , note = "^72fe00【蜀
 --title_definition['称号_阵营吴国排行榜5'] = {id = 1309 , note = "^0184ff※吴国猛将※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营吴国排行榜6'] = {id = 1310 , note = "^0184ff※吴国义臣※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 --title_definition['称号_阵营吴国排行榜7'] = {id = 1311 , note = "^0184ff※吴国名流※" , desc = "0" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Camp Wu Beginner'] = {id = 1312 , note = "^72fe00【吴国仕官】" , desc = "0You are now a member of the Wu Kingdom!" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign Hebei 3'] = {id = 2101 , note = "^72fe00【奸雄之相】" , desc = "0^72fe00Permanent effect:\r^ffffffAttack +1\r防御力 +1" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign Hebei 4'] = {id = 2102 , note = "^72fe00【能臣之相】" , desc = "0^72fe00Permanent effect:\r^ffffffAttack +1\r防御力 +1" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign Hebei 5'] = {id = 2103 , note = "^72fe00【路漫漫其修远兮】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +30\r攻击力 +2" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign Xiliang 6'] = {id = 2201 , note = "^72fe00【金牌园丁】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +15\r攻击力 +1" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign Xiliang 7'] = {id = 2202 , note = "^72fe00【赤墨墨者】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +10\r攻击力 +1\r防御力 +1" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign Xiliang 8'] = {id = 2203 , note = "^72fe00【白墨墨者】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +10\r攻击力 +1\r防御力 +1" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign Xiliang 9'] = {id = 2204 , note = "^72fe00【麒麟儿】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +10\r历练值 +1%" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign Xiliang 10'] = {id = 2205 , note = "^72fe00【一夜筑城的人】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +15\r攻击力 +1" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign Xiliang 11'] = {id = 2206 , note = "^72fe00【人民艺术家】" , desc = "0^72fe00Permanent effect:\r^ffffff攻击力 +2" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign Xiliang 12'] = {id = 2207 , note = "^72fe00【火曜来客】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +20\r攻击力 +2" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign BaShu 7'] = {id = 2301 , note = "^72fe00【五丁部落的客人】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +10" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign BaShu 8'] = {id = 2302 , note = "^72fe00【五丁部落的朋友】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +25\r攻击力 +1" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign BaShu 9'] ={id= 2303 , note= "^7ff8f8【五丁部落的救星】",desc= "从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['Title_Campaign BaShu 12'] = {id = 2306 , note = "^72fe00【曾给神仙捶过腿】" , desc = "0^72fe00Permanent effect:\r^ffffff防御力 +1\r历练值 +1%" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign BaShu 13'] = {id = 2307 , note = "^72fe00【妙笔丹青】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +35\r攻击力 +2" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign BaShu 14'] = {id = 2308 , note = "^72fe00【摸金校尉】" , desc = "0^72fe00Permanent effect:\r^ffffff生命恢复速度 +1\r历练值 +1%" , desc_1 = "" , desc_2 = ""}
-title_definition['Title_Campaign BaShu 15'] = {id = 2309 , note = "^72fe00【终结者】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +20\r攻击力 +2\r防御力 +1" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_中原族系声望01'] = {id = 3001 , note = "^72fe00※中原新秀※" , desc = "0^72fe00Permanent effect:\r^ffffff体质 +10\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_中原族系声望02'] = {id = 3002 , note = "^0184ff※中原豪侠※" , desc = "0^0184ffPermanent effect:\r^ffffff体质 +20\r防御力 +2\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_中原族系声望03'] = {id = 3003 , note = "^a800ff※中原名杰※" , desc = "0^a800ffPermanent effect:\r^ffffff体质 +20\r防御力 +4\r暴击附加伤害 +1\n",desc_1="",desc_2=""}
-title_definition['称号_中原族系声望06'] = {id = 3006 , note = "^ffc556※中原国士※" , desc = "0^ffc556Permanent effect:\r^ffffff体质 +40\r防御力 +10\r暴击附加伤害 +10\r命中 +1\r闪避 +1\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_中原族系声望07'] = {id = 3007 , note = "^ffc556※中原柱石※" , desc = "0^ffc556Permanent effect:\r^ffffff体质 +60\r防御力 +20\r暴击附加伤害 +10\r命中 +1\r闪避 +1\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_巫南族系声望01'] = {id = 3011 , note = "^72fe00※巫南新秀※" , desc = "0^72fe00Permanent effect:\r^ffffff体质 +10\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_巫南族系声望02'] = {id = 3012 , note = "^0184ff※巫南豪侠※" , desc = "0^0184ffPermanent effect:\r^ffffff体质 +20\r攻击力 +4\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_巫南族系声望03'] = {id = 3013 , note = "^a800ff※巫南名杰※" , desc = "0^a800ffPermanent effect:\r^ffffff体质 +20\r攻击力 +8\r暴击附加伤害 +1\n",desc_1="",desc_2=""}
-title_definition['称号_巫南族系声望04'] = {id = 3014 , note = "^ff7d2f※巫南精英※" , desc = "0^ff7d2fPermanent effect:\r^ffffff体质 +20\r攻击力 +12\r暴击附加伤害 +1\n",desc_1="",desc_2=""}
-title_definition['称号_巫南族系声望05'] = {id = 3015 , note = "^fff962※巫南栋梁※" , desc = "从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_巫南族系声望06'] = {id = 3016 , note ="^ffc556※巫南国士※",desc="从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_巫南族系声望07'] ={id= 3999,note="从现在开始，你将拥有一个全新的身份。",desc="从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_地区河北友善'] ={id= 3999,note="从现在开始，你将拥有一个全新的身份。",desc="从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_地区河北尊敬'] = {id = 3102 , note = "^0184ff【河北侠客】" , desc = "0^0184ffPermanent effect:\r^ffffff生命上限 +20\r攻击力 +1\r防御力 +1\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区河北崇敬'] = {id = 3103 , note = "^a800ff【河北豪杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +60\r攻击力 +3\r防御力 +1\r暴击 +1\r暴击伤害 +3%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区河北崇拜'] = {id = 3104 , note = "^a800ff【河北英雄】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +120\r攻击力 +3\r防御力 +1\r暴击 +1\r暴击伤害 +5%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区河北15000'] = {id = 3111 , note = "^0184ff【河北名士】" , desc = "0^0184ffPermanent effect:\r^ffffff生命上限 +50\r攻击力 +2\r防御力 +1\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区河北十万'] = {id = 3112 , note = "^a800ff【河北英杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +70\r攻击力 +3\r防御力 +1\r暴击 +1\r暴击伤害 +5%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区河北20万'] = {id = 3113 , note = "^a800ff【河北尊者】" , desc = "从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_地区河北排行榜1'] = {id = 3105 , note ="^ff7d2f※河北小霸王※",desc="从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_地区河北排行榜2'] ={id= 3999,note="从现在开始，你将拥有一个全新的身份。",desc="从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_地区河北排行榜3'] ={id= 3999,note="从现在开始，你将拥有一个全新的身份。",desc="从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_地区河北排行榜4'] ={id= 3999,note="从现在开始，你将拥有一个全新的身份。",desc="从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
+title_definition['称号_阵营吴国入门'] = {id = 1312 , note = "^72fe00【吴国仕官】" , desc = "0你现在已经是吴国的成员！" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情河北3'] = {id = 2101 , note = "^72fe00【奸雄之相】" , desc = "0^72fe00永久生效:\r^ffffff攻击力 +1\r防御力 +1" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情河北4'] = {id = 2102 , note = "^72fe00【能臣之相】" , desc = "0^72fe00永久生效:\r^ffffff攻击力 +1\r防御力 +1" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情河北5'] = {id = 2103 , note = "^72fe00【路漫漫其修远兮】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +30\r攻击力 +2" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情西凉6'] = {id = 2201 , note = "^72fe00【金牌园丁】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +15\r攻击力 +1" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情西凉7'] = {id = 2202 , note = "^72fe00【赤墨墨者】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +10\r攻击力 +1\r防御力 +1" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情西凉8'] = {id = 2203 , note = "^72fe00【白墨墨者】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +10\r攻击力 +1\r防御力 +1" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情西凉9'] = {id = 2204 , note = "^72fe00【麒麟儿】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +10\r历练值 +1%" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情西凉10'] = {id = 2205 , note = "^72fe00【一夜筑城的人】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +15\r攻击力 +1" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情西凉11'] = {id = 2206 , note = "^72fe00【人民艺术家】" , desc = "0^72fe00永久生效:\r^ffffff攻击力 +2" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情西凉12'] = {id = 2207 , note = "^72fe00【火曜来客】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +20\r攻击力 +2" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情巴蜀7'] = {id = 2301 , note = "^72fe00【五丁部落的客人】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +10" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情巴蜀8'] = {id = 2302 , note = "^72fe00【五丁部落的朋友】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +20\r攻击力 +1" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情巴蜀9'] = {id = 2303 , note = "^72fe00【五丁部落的救星】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +35\r攻击力 +1\r防御力 +1" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情巴蜀10'] = {id = 2304 , note = "^72fe00【五丁部落的英雄】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +60\r攻击力 +2\r防御力 +1" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情巴蜀11'] = {id = 2305 , note = "^72fe00【千里独行客】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +30\r攻击力 +1" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情巴蜀12'] = {id = 2306 , note = "^72fe00【曾给神仙捶过腿】" , desc = "0^72fe00永久生效:\r^ffffff防御力 +1\r历练值 +1%" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情巴蜀13'] = {id = 2307 , note = "^72fe00【妙笔丹青】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +35\r攻击力 +2" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情巴蜀14'] = {id = 2308 , note = "^72fe00【摸金校尉】" , desc = "0^72fe00永久生效:\r^ffffff生命恢复速度 +1\r历练值 +1%" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_剧情巴蜀15'] = {id = 2309 , note = "^72fe00【终结者】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +20\r攻击力 +2\r防御力 +1" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_中原族系声望01'] = {id = 3001 , note = "^72fe00※中原新秀※" , desc = "0^72fe00永久生效:\r^ffffff体质 +10\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_中原族系声望02'] = {id = 3002 , note = "^0184ff※中原豪侠※" , desc = "0^0184ff永久生效:\r^ffffff体质 +20\r防御力 +2\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_中原族系声望03'] = {id = 3003 , note = "^a800ff※中原名杰※" , desc = "0^a800ff永久生效:\r^ffffff体质 +20\r防御力 +4\r暴击附加伤害 +10\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_中原族系声望04'] = {id = 3004 , note = "^ff7d2f※中原精英※" , desc = "0^ff7d2f永久生效:\r^ffffff体质 +20\r防御力 +6\r暴击附加伤害 +10\r命中 +1\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_中原族系声望05'] = {id = 3005 , note = "^fff962※中原栋梁※" , desc = "0^fff962永久生效:\r^ffffff体质 +40\r防御力 +8\r暴击附加伤害 +10\r命中 +1\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_中原族系声望06'] = {id = 3006 , note = "^ffc556※中原国士※" , desc = "0^ffc556永久生效:\r^ffffff体质 +40\r防御力 +10\r暴击附加伤害 +10\r命中 +1\r闪避 +1\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_中原族系声望07'] = {id = 3007 , note = "^ffc556※中原柱石※" , desc = "0^ffc556永久生效:\r^ffffff体质 +60\r防御力 +20\r暴击附加伤害 +10\r命中 +1\r闪避 +1\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_巫南族系声望01'] = {id = 3011 , note = "^72fe00※巫南新秀※" , desc = "0^72fe00永久生效:\r^ffffff体质 +10\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_巫南族系声望02'] = {id = 3012 , note = "^0184ff※巫南豪侠※" , desc = "0^0184ff永久生效:\r^ffffff体质 +20\r攻击力 +4\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_巫南族系声望03'] = {id = 3013 , note = "^a800ff※巫南名杰※" , desc = "0^a800ff永久生效:\r^ffffff体质 +20\r攻击力 +8\r暴击附加伤害 +10\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_巫南族系声望04'] = {id = 3014 , note = "^ff7d2f※巫南精英※" , desc = "0^ff7d2f永久生效:\r^ffffff体质 +20\r攻击力 +12\r暴击附加伤害 +10\r暴击抗性 +1\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_巫南族系声望05'] = {id = 3015 , note = "^fff962※巫南栋梁※" , desc = "0^fff962永久生效:\r^ffffff体质 +40\r攻击力 +16\r暴击附加伤害 +10\r暴击抗性 +1\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_巫南族系声望06'] = {id = 3016 , note = "^ffc556※巫南国士※" , desc = "0^ffc556永久生效:\r^ffffff体质 +40\r攻击力 +20\r暴击附加伤害 +10\r暴击 +1\r暴击抗性 +1\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_巫南族系声望07'] = {id = 3017 , note = "^ffc556※巫南柱石※" , desc = "0^ffc556永久生效:\r^ffffff体质 +60\r攻击力 +20\r暴击附加伤害 +20\r暴击 +1\r暴击抗性 +1\r^ffc556族系声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区河北友善'] = {id = 3101 , note = "^72fe00【河北义士】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +20\r攻击力 +1\r防御力 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区河北尊敬'] = {id = 3102 , note = "^0184ff【河北侠客】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +20\r攻击力 +1\r防御力 +1\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区河北崇敬'] = {id = 3103 , note = "^a800ff【河北豪杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +60\r攻击力 +3\r防御力 +1\r暴击 +1\r暴击伤害 +3%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区河北崇拜'] = {id = 3104 , note = "^a800ff【河北英雄】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +120\r攻击力 +3\r防御力 +1\r暴击 +1\r暴击伤害 +5%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区河北15000'] = {id = 3111 , note = "^0184ff【河北名士】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +50\r攻击力 +2\r防御力 +1\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区河北十万'] = {id = 3112 , note = "^a800ff【河北英杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +70\r攻击力 +3\r防御力 +1\r暴击 +1\r暴击伤害 +5%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区河北20万'] = {id = 3113 , note = "^a800ff【河北尊者】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +220\r攻击力 +3\r防御力 +1\r暴击 +1\r暴击伤害 +5%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区河北排行榜1'] = {id = 3105 , note = "^ff7d2f※河北小霸王※" , desc = "0" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区河北排行榜2'] = {id = 3106 , note = "^a800ff※河北七秀※" , desc = "0" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区河北排行榜3'] = {id = 3107 , note = "^a800ff※河北十八骑※" , desc = "0" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区河北排行榜4'] = {id = 3108 , note = "^a800ff※河北三十六强※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区河北排行榜5'] = {id = 3109 , note = "^0184ff※河北七十二众※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区河北排行榜6'] = {id = 3110 , note = "^0184ff※河北名流※" , desc = "0" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区西凉友善'] = {id = 3201 , note = "^72fe00【西凉义士】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +30\r攻击力 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区西凉尊敬'] = {id = 3202 , note = "^0184ff【西凉侠客】" , desc = "0^0184ffPermanent effect:\r^ffffff生命上限 +30\r攻击力 +2\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区西凉崇敬'] = {id = 3203 , note = "^a800ff【西凉豪杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +60\r攻击力 +8\r暴击 +1\r暴击抗性 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区西凉崇拜'] = {id = 3204 , note = "^a800ff【西凉英雄】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +120\r攻击力 +8\r暴击 +1\r暴击抗性 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区西凉15000'] = {id = 3211 , note = "^0184ff【西凉名士】" , desc = "0^0184ffPermanent effect:\r^ffffff生命上限 +60\r攻击力 +4\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区西凉十万'] = {id = 3212 , note = "^a800ff【西凉英杰】" , desc = "从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_地区西凉20万'] ={id= 3999,note="从现在开始，你将拥有一个全新的身份。",desc="从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_地区西凉排行榜1'] ={id= 3999,note="从现在开始，你将拥有一个全新的身份。",desc="从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
+title_definition['称号_地区西凉友善'] = {id = 3201 , note = "^72fe00【西凉义士】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +30\r攻击力 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区西凉尊敬'] = {id = 3202 , note = "^0184ff【西凉侠客】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +30\r攻击力 +2\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区西凉崇敬'] = {id = 3203 , note = "^a800ff【西凉豪杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +60\r攻击力 +8\r暴击 +1\r暴击抗性 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区西凉崇拜'] = {id = 3204 , note = "^a800ff【西凉英雄】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +120\r攻击力 +8\r暴击 +1\r暴击抗性 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区西凉15000'] = {id = 3211 , note = "^0184ff【西凉名士】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +60\r攻击力 +4\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区西凉十万'] = {id = 3212 , note = "^a800ff【西凉英杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +70\r攻击力 +8\r暴击 +1\r暴击抗性 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区西凉20万'] = {id = 3213 , note = "^a800ff【西凉尊者】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +220\r攻击力 +8\r暴击 +1\r暴击抗性 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区西凉排行榜1'] = {id = 3205 , note = "^ff7d2f※西凉小霸王※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区西凉排行榜2'] = {id = 3206 , note = "^a800ff※西凉七豪※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区西凉排行榜3'] = {id = 3207 , note = "^a800ff※西凉十八骑※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区西凉排行榜4'] = {id = 3208 , note = "^a800ff※西凉三十六强※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区西凉排行榜5'] = {id = 3209 , note = "^0184ff※西凉七十二众※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区西凉排行榜6'] = {id = 3210 , note = "^0184ff※西凉名流※" , desc = "0" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区巴蜀友善'] = {id = 3301 , note = "^72fe00【巴蜀义士】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +40\r生命恢复速度 +5\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区巴蜀尊敬'] = {id = 3302 , note = "^0184ff【巴蜀侠客】" , desc = "0^0184ffPermanent effect:\r^ffffff生命上限 +40\r生命恢复速度 +5\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区巴蜀崇敬'] = {id = 3303 , note = "^a800ff【巴蜀豪杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +80\r攻击力 +3\r防御力 +1\r生命恢复速度 +5\r暴击 +1\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区巴蜀崇拜'] = {id = 3304 , note = "^a800ff【巴蜀英雄】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +140\r攻击力 +3\r防御力 +4\r生命恢复速度 +5\r暴击 +1\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区巴蜀15000'] = {id = 3311 , note = "^0184ff【巴蜀名士】" , desc = "从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_地区巴蜀十万'] = {id = 3312 , note = "^a800ff【巴蜀英杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +90\r攻击力 +3\r防御力 +4\r生命恢复速度 +5\r暴击 +1\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区巴蜀20万'] = {id = 3313 , note = "^a800ff【巴蜀尊者】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +240\r攻击力 +3\r防御力 +4\r生命恢复速度 +5\r暴击 +1\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区巴蜀友善'] = {id = 3301 , note = "^72fe00【巴蜀义士】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +40\r生命恢复速度 +5\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区巴蜀尊敬'] = {id = 3302 , note = "^0184ff【巴蜀侠客】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +40\r生命恢复速度 +5\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区巴蜀崇敬'] = {id = 3303 , note = "^a800ff【巴蜀豪杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +80\r攻击力 +3\r防御力 +1\r生命恢复速度 +5\r暴击 +1\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区巴蜀崇拜'] = {id = 3304 , note = "^a800ff【巴蜀英雄】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +140\r攻击力 +3\r防御力 +4\r生命恢复速度 +5\r暴击 +1\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区巴蜀15000'] = {id = 3311 , note = "^0184ff【巴蜀名士】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +70\r攻击力 +1\r防御力 +1\r生命恢复速度 +5\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区巴蜀十万'] = {id = 3312 , note = "^a800ff【巴蜀英杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +90\r攻击力 +3\r防御力 +4\r生命恢复速度 +5\r暴击 +1\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区巴蜀20万'] = {id = 3313 , note = "^a800ff【巴蜀尊者】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +240\r攻击力 +3\r防御力 +4\r生命恢复速度 +5\r暴击 +1\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区巴蜀排行榜2'] = {id = 3306 , note = "^a800ff※巴蜀七杰※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区巴蜀排行榜3'] = {id = 3307 , note = "^a800ff※巴蜀十八骑※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区巴蜀排行榜4'] = {id = 3308 , note = "^a800ff※巴蜀三十六强※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区巴蜀排行榜5'] = {id = 3309 , note = "^0184ff※巴蜀七十二众※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区巴蜀排行榜6'] = {id = 3310 , note = "^0184ff※巴蜀名流※" , desc = "0" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区南蛮友善'] = {id = 3401 , note = "^72fe00【南蛮义士】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +60\r攻击力 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区南蛮尊敬'] = {id = 3402 , note = "^0184ff【南蛮侠客】" , desc = "0^0184ffPermanent effect:\r^ffffff生命上限 +60\r攻击力 +2\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区南蛮崇敬'] = {id = 3403 , note = "^a800ff【南蛮豪杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +60\r攻击力 +2\r防御力 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r间接抗性 +3\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区南蛮崇拜'] = {id = 3404 , note = "^a800ff【南蛮英雄】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +140\r攻击力 +2\r防御力 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r间接抗性 +3\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区南蛮15000'] = {id = 3411 , note = "^0184ff【南蛮名士】" , desc = "从现在开始，你将拥有一个全新的身份。",desc_1="",desc_2=""}
-title_definition['称号_地区南蛮十万'] = {id = 3412 , note = "^a800ff【南蛮英杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +90\r攻击力 +2\r防御力 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r间接抗性 +3\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区南蛮20万'] = {id = 3413 , note = "^a800ff【南蛮尊者】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +240\r攻击力 +2\r防御力 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r间接抗性 +3\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区南蛮友善'] = {id = 3401 , note = "^72fe00【南蛮义士】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +60\r攻击力 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区南蛮尊敬'] = {id = 3402 , note = "^0184ff【南蛮侠客】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +60\r攻击力 +2\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区南蛮崇敬'] = {id = 3403 , note = "^a800ff【南蛮豪杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +60\r攻击力 +2\r防御力 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r间接抗性 +3\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区南蛮崇拜'] = {id = 3404 , note = "^a800ff【南蛮英雄】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +140\r攻击力 +2\r防御力 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r间接抗性 +3\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区南蛮15000'] = {id = 3411 , note = "^0184ff【南蛮名士】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +60\r攻击力 +2\r防御力 +2\r暴击 +1\r生命值 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区南蛮十万'] = {id = 3412 , note = "^a800ff【南蛮英杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +90\r攻击力 +2\r防御力 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r间接抗性 +3\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区南蛮20万'] = {id = 3413 , note = "^a800ff【南蛮尊者】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +240\r攻击力 +2\r防御力 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r间接抗性 +3\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区南蛮排行榜1'] = {id = 3405 , note = "^ff7d2f※南蛮小霸王※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区南蛮排行榜2'] = {id = 3406 , note = "^a800ff※南蛮七雄※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区南蛮排行榜3'] = {id = 3407 , note = "^a800ff※南蛮十八骑※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区南蛮排行榜4'] = {id = 3408 , note = "^a800ff※南蛮三十六强※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区南蛮排行榜5'] = {id = 3409 , note = "^0184ff※南蛮七十二众※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区南蛮排行榜6'] = {id = 3410 , note = "^0184ff※南蛮名流※" , desc = "0" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区江南友善'] = {id = 3501 , note = "^72fe00【江南义士】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +50\r攻击力 +2\r防御力 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区江南尊敬'] = {id = 3502 , note = "^0184ff【江南侠客】" , desc = "0^0184ffPermanent effect:\r^ffffff生命上限 +50\r攻击力 +2\r防御力 +2\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区江南崇敬'] = {id = 3503 , note = "^a800ff【江南豪杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +50\r攻击力 +3\r防御力 +3\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区江南崇拜'] = {id = 3504 , note = "^a800ff【江南英雄】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +110\r攻击力 +3\r防御力 +3\r暴击 +1\r生命值 +1%\r攻击强度 +2%\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区江南15000'] = {id = 3511 , note = "^0184ff【江南名士】" , desc = "0^0184ffPermanent effect:\r^ffffff生命上限 +50\r攻击力 +3\r防御力 +3\r暴击 +1\r生命值 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区江南十万'] = {id = 3512 , note = "^a800ff【江南英杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +60\r攻击力 +3\r防御力 +3\r暴击 +1\r生命值 +1%\r攻击强度 +2%\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区江南20万'] = {id = 3513 , note = "^a800ff【江南尊者】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +210\r攻击力 +3\r防御力 +3\r暴击 +1\r生命值 +1%\r攻击强度 +2%\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区江南友善'] = {id = 3501 , note = "^72fe00【江南义士】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +50\r攻击力 +2\r防御力 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区江南尊敬'] = {id = 3502 , note = "^0184ff【江南侠客】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +50\r攻击力 +2\r防御力 +2\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区江南崇敬'] = {id = 3503 , note = "^a800ff【江南豪杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +50\r攻击力 +3\r防御力 +3\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区江南崇拜'] = {id = 3504 , note = "^a800ff【江南英雄】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +110\r攻击力 +3\r防御力 +3\r暴击 +1\r生命值 +1%\r攻击强度 +2%\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区江南15000'] = {id = 3511 , note = "^0184ff【江南名士】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +50\r攻击力 +3\r防御力 +3\r暴击 +1\r生命值 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区江南十万'] = {id = 3512 , note = "^a800ff【江南英杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +60\r攻击力 +3\r防御力 +3\r暴击 +1\r生命值 +1%\r攻击强度 +2%\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区江南20万'] = {id = 3513 , note = "^a800ff【江南尊者】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +210\r攻击力 +3\r防御力 +3\r暴击 +1\r生命值 +1%\r攻击强度 +2%\r闪避 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区江南排行榜1'] = {id = 3505 , note = "^ff7d2f※江南小霸王※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区江南排行榜2'] = {id = 3506 , note = "^a800ff※江南七怪※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区江南排行榜3'] = {id = 3507 , note = "^a800ff※江南十八骑※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区江南排行榜4'] = {id = 3508 , note = "^a800ff※江南三十六强※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区江南排行榜5'] = {id = 3509 , note = "^0184ff※江南七十二众※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区江南排行榜6'] = {id = 3510 , note = "^0184ff※江南名流※" , desc = "0" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区荆襄友善'] = {id = 3601 , note = "^72fe00【荆襄义士】" , desc = "0^72fe00Permanent effect:\r^ffffff生命上限 +60\r防御力 +2\r生命恢复速度 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区荆襄尊敬'] = {id = 3602 , note = "^0184ff【荆襄侠客】" , desc = "0^0184ffPermanent effect:\r^ffffff生命上限 +60\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区荆襄崇敬'] = {id = 3603 , note = "^a800ff【荆襄豪杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +60\r攻击力 +5\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r命中 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区荆襄崇拜'] = {id = 3604 , note = "^a800ff【荆襄英雄】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +120\r攻击力 +5\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r命中 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区荆襄15000'] = {id = 3611 , note = "^0184ff【荆襄名士】" , desc = "0^0184ffPermanent effect:\r^ffffff生命上限 +60\r攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r生命值 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区荆襄十万'] = {id = 3612 , note = "^a800ff【荆襄英杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +70\r攻击力 +5\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r命中 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区荆襄20万'] = {id = 3613 , note = "^a800ff【荆襄尊者】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +220\r攻击力 +5\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r命中 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区荆襄友善'] = {id = 3601 , note = "^72fe00【荆襄义士】" , desc = "0^72fe00永久生效:\r^ffffff生命上限 +60\r防御力 +2\r生命恢复速度 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区荆襄尊敬'] = {id = 3602 , note = "^0184ff【荆襄侠客】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +60\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区荆襄崇敬'] = {id = 3603 , note = "^a800ff【荆襄豪杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +60\r攻击力 +5\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r命中 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区荆襄崇拜'] = {id = 3604 , note = "^a800ff【荆襄英雄】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +120\r攻击力 +5\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r命中 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区荆襄15000'] = {id = 3611 , note = "^0184ff【荆襄名士】" , desc = "0^0184ff永久生效:\r^ffffff生命上限 +60\r攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r生命值 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区荆襄十万'] = {id = 3612 , note = "^a800ff【荆襄英杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +70\r攻击力 +5\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r命中 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区荆襄20万'] = {id = 3613 , note = "^a800ff【荆襄尊者】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +220\r攻击力 +5\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r生命值 +1%\r攻击强度 +1%\r命中 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区荆襄排行榜1'] = {id = 3605 , note = "^ff7d2f※荆襄小霸王※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区荆襄排行榜2'] = {id = 3606 , note = "^a800ff※荆襄七俊※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区荆襄排行榜3'] = {id = 3607 , note = "^a800ff※荆襄十八骑※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区荆襄排行榜4'] = {id = 3608 , note = "^a800ff※荆襄三十六强※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区荆襄排行榜5'] = {id = 3609 , note = "^0184ff※荆襄七十二众※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区荆襄排行榜6'] = {id = 3610 , note = "^0184ff※荆襄名流※" , desc = "0" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区关中友善'] = {id = 3701 , note = "^72fe00【关中义士】" , desc = "0^72fe00Permanent effect:\r^ffffff攻击力 +2\r防御力 +2\r生命恢复速度 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区关中尊敬'] = {id = 3702 , note = "^0184ff【关中侠客】" , desc = "0^0184ffPermanent effect:\r^ffffff攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区关中崇敬'] = {id = 3703 , note = "^a800ff【关中豪杰】" , desc = "0^a800ffPermanent effect:\r^ffffff攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r暴击伤害 +7%\r生命值 +1%\r攻击强度 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区关中崇拜'] = {id = 3704 , note = "^a800ff【关中英雄】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +80\r攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r暴击伤害 +7%\r生命值 +1%\r攻击强度 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区关中15000'] = {id = 3711 , note = "^0184ff【关中名士】" , desc = "0^0184ffPermanent effect:\r^ffffff攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r暴击伤害 +2%\r生命值 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区关中十万'] = {id = 3712 , note = "^a800ff【关中英杰】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +30\r攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r暴击伤害 +7%\r生命值 +1%\r攻击强度 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
-title_definition['称号_地区关中20万'] = {id = 3713 , note = "^a800ff【关中尊者】" , desc = "0^a800ffPermanent effect:\r^ffffff生命上限 +180\r攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r暴击伤害 +7%\r生命值 +1%\r攻击强度 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区关中友善'] = {id = 3701 , note = "^72fe00【关中义士】" , desc = "0^72fe00永久生效:\r^ffffff攻击力 +2\r防御力 +2\r生命恢复速度 +2\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区关中尊敬'] = {id = 3702 , note = "^0184ff【关中侠客】" , desc = "0^0184ff永久生效:\r^ffffff攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区关中崇敬'] = {id = 3703 , note = "^a800ff【关中豪杰】" , desc = "0^a800ff永久生效:\r^ffffff攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r暴击伤害 +7%\r生命值 +1%\r攻击强度 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区关中崇拜'] = {id = 3704 , note = "^a800ff【关中英雄】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +80\r攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r暴击伤害 +7%\r生命值 +1%\r攻击强度 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区关中15000'] = {id = 3711 , note = "^0184ff【关中名士】" , desc = "0^0184ff永久生效:\r^ffffff攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r暴击伤害 +2%\r生命值 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区关中十万'] = {id = 3712 , note = "^a800ff【关中英杰】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +30\r攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r暴击伤害 +7%\r生命值 +1%\r攻击强度 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
+title_definition['称号_地区关中20万'] = {id = 3713 , note = "^a800ff【关中尊者】" , desc = "0^a800ff永久生效:\r^ffffff生命上限 +180\r攻击力 +2\r防御力 +2\r生命恢复速度 +2\r暴击 +1\r暴击伤害 +7%\r生命值 +1%\r攻击强度 +1%\r^ffc556地区声望称号只显示已拥有最高级的" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区关中排行榜1'] = {id = 3705 , note = "^ff7d2f※关中小霸王※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区关中排行榜2'] = {id = 3706 , note = "^a800ff※关中七侠※" , desc = "0" , desc_1 = "" , desc_2 = ""}
 title_definition['称号_地区关中排行榜3'] = {id = 3707 , note = "^a800ff※关中十八骑※" , desc = "0" , desc_1 = "" , desc_2 = ""}
