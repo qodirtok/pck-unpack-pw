@@ -1,17 +1,17 @@
----材料库ID	提示信息
-8	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-9	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-10	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-11	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-12	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-13	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-14	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-15	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-16	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-17	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-18	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-19	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-20	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-21	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-22	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
-23	放入大于2本祖籍技能书进行合成最多只能返还2本秘籍。
+---Material library ID prompt information
+8 If more than 2 ancestral skill books are put in for synthesis, only 2 secret books can be returned at most.
+9 If more than 2 ancestral skill books are put in for synthesis, only 2 secret books can be returned at most.
+10 If more than 2 ancestral skill books are put in for synthesis, a maximum of 2 cheat books will be returned.
+11 If more than 2 ancestral skill books are put in for synthesis, a maximum of 2 cheat books will be returned.
+12 If more than 2 ancestral skill books are put in for synthesis, only 2 secret books can be returned at most.
+13 If more than 2 ancestral skill books are put in for synthesis, a maximum of 2 cheat books will be returned.
+14 If more than 2 ancestral skill books are put in for synthesis, a maximum of 2 cheat books will be returned.
+15 If more than 2 ancestral skill books are put in for synthesis, a maximum of 2 cheat books will be returned.
+16 If more than 2 ancestral skill books are put in for synthesis, a maximum of 2 cheat books will be returned.
+17 If more than 2 ancestral skill books are put in for synthesis, only 2 secret books can be returned at most.
+18 If more than 2 ancestral skill books are put in for synthesis, only 2 secret books can be returned at most.
+19 If more than 2 ancestral skill books are put in for synthesis, only a maximum of 2 cheat books can be returned.
+20 If more than 2 ancestral skill books are put in for synthesis, a maximum of 2 cheat books will be returned.
+21 If more than 2 ancestral skill books are put in for synthesis, a maximum of 2 cheat books will be returned.
+22 If more than 2 ancestral skill books are put in for synthesis, only 2 secret books can be returned at most.
+23 If more than 2 ancestral skill books are put in for synthesis, a maximum of 2 cheat books will be returned.
