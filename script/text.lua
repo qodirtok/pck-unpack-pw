@@ -55,571 +55,572 @@ TEXT_NEWHELP_CONTENT = ""
 
 LDG_TITLE = "^dca004HOTK Game: ^ffffff%s";
 LDG_TIP = {
-	"Nhân vật đạt cấp tối đa vẫn có thể nhận điểm kinh nghiệm (lịch luyện).",
-	"Điểm kinh nghiệm ngoài việc dùng để thăng cấp, còn có nhiều công dụng khác.",
-	"Cố gắng không thách đấu quái vật vượt quá cấp độ của bạn, trừ khi bạn chấp nhận cái giá phải trả khi tử vong.",
-	"Nhân vật nam giới cũng có thể sử dụng vũ khí loại Phiến Vũ.",
-	"Tấn công người chơi nước khác sẽ không bị phạt PK.",
-	"Đừng dễ dàng tiết lộ thông tin tài khoản và mật khẩu cho người khác.",
-	"Nhấn phím P để mở giao diện Sản Xuất.",
-	"Nhấp chuột phải vào mục tiêu sẽ tự động tấn công mục tiêu đó.",
-	"Khi cấp độ của bạn trên 40 mà bị quái vật hoặc NPC giết chết, bạn sẽ mất 1% số điểm kinh nghiệm còn lại.",
-	"Shift + Chuột phải vào rương báu hoặc túi da rơi ra từ quái vật sẽ tự động nhặt tất cả chiến lợi phẩm.",
-	"Chủ kho cung cấp chức năng mở rộng túi đồ và kho cá nhân.",
-	"Hoàn thành nhiệm vụ cấp thấp chỉ nhận được một lượng nhỏ kinh nghiệm.",
-	"Thuộc tính nhân vật sẽ tăng lên theo cấp độ và cấp độ binh chủng.",
-	"Quái vật hiếm sẽ rơi ra chiến lợi phẩm chất lượng tốt hơn.",
-	"Số sao bên cạnh hình đại diện quái vật cho biết độ khó khi khiêu chiến quái vật.",
-	"Khi đạt cấp 40, bạn có thể chọn tham gia một trong ba phe Ngụy, Thục, Ngô.",
-	"Hoàn thành nhiệm vụ Quán Rượu có thể nhận được tiền tệ tương đương để mua vật phẩm trong cửa hàng Quán Rượu.",
-	"Sử dụng các phím W, S, A, D để di chuyển nhân vật của bạn.",
-	"Nhấn phím NumLock sẽ khiến nhân vật của bạn tự động di chuyển về phía trước.",
-	"Khi tấn công, hãy giữ nhân vật của bạn mặt hướng về phía kẻ địch.",
-	"Người chơi từ cấp 1 đến 40 đang trong trạng thái bảo vệ tân thủ, sẽ không bị người chơi khác tấn công.",
-	"Nhấn giữ Ctrl có thể bắt buộc tấn công người chơi khác.",
-	"Tấn công người chơi cùng quốc gia sẽ làm tăng điểm PK của bạn.",
-	"Dịch vụ truyền tống của Trạm Dịch chỉ có thể đưa bạn đến các khu vực đã từng đi qua.",
-	"Nhấn Alt + Z có thể ẩn giao diện thao tác trò chơi.",
-	"Nhấn F9 có thể vào chế độ máy ảnh.",
-	"Khi thanh kinh nghiệm ở phía dưới màn hình bắt đầu nhấp nháy, có nghĩa là bạn có thể thăng cấp nhân vật ngay lập tức.",
-	"Nhấn phím C để mở giao diện Thuộc Tính Nhân Vật.",
-	"Trong giao diện Thuộc Tính Nhân Vật, bạn có thể chọn thăng cấp nhân vật hoặc thăng cấp binh chủng.",
-	"Sau khi nhân vật nhận được danh hiệu, thuộc tính phụ thêm của danh hiệu sẽ có hiệu lực ngay lập tức.",
-	"Di chuyển chuột đến NPC mục tiêu, nhấp chuột phải để mở hộp thoại.",
-	"Nhấn phím J để mở giao diện Cửa Hàng Vật Phẩm.",
-	"Nhấn phím B để mở giao diện Túi Đồ và Trang Bị Nhân Vật.",
-	"Nhấn phím L để mở giao diện Thông Tin Nhiệm Vụ.",
-	"Nhấn phím I để mở giao diện Bảng Xếp Hạng Trò Chơi.",
-	"Nhấn phím T để mở giao diện Cài Đặt Tổ Đội.",
-	"Nhấn phím Y để mở giao diện Cài Đặt Kết Nghĩa.",
-	"Nhấn phím G để mở giao diện Cài Đặt Quân Đoàn.",
-	"Thăng cấp nhân vật và cấp độ binh chủng đều tiêu hao điểm kinh nghiệm của nhân vật.",
-	"Nhấp chuột trái không buông và xoay chuột, người chơi có thể nhìn thấy khuôn mặt của nhân vật mình.",
-	"Sau khi nhân vật đạt cấp 15 có thể học Kỹ Năng Chiến Đấu tại Võ Sư ở Trường An.",
-	"Nhấn giữ phím Z đồng thời nhấp vào biểu tượng kỹ năng/nhấn phím tắt kỹ năng sẽ tự thi triển kỹ năng lên bản thân.",
-	"Vật phẩm loại thuốc mỡ ngoài việc dùng cho bản thân, cũng có thể dùng cho người chơi khác.",
-	"Chọn mục tiêu sau đó nhấp vào biểu tượng vật phẩm loại thuốc mỡ sẽ sử dụng thuốc mỡ lên người chơi mục tiêu.",
-	"Nếu bạn đạt cấp 10 và hoàn thành Nhiệm Vụ Binh Chủng, bạn có thể tiêu hao điểm kinh nghiệm để thăng cấp Binh Chủng của mình.",
-	"Sau khi nhân vật đạt cấp 20, có thể học Kỵ Thuật tại Mã Thuật Sư ở thành Trường An.",
-	"Sau khi cấp độ binh chủng thăng lên Cửu Đoạn, cần phải hoàn thành Nhiệm Vụ Binh Chủng tương ứng mới có thể thăng binh chủng lên giai đoạn tiếp theo.",
-	"Mỗi khi Cấp Độ Binh Chủng Chính thăng một cấp, có thể nhận được một điểm Chuyên Tinh.",
-	"Khi chế tạo vũ khí và phòng cụ, chất lượng nguyên liệu đưa vào càng tốt, khả năng sản xuất ra trang bị chất lượng cao càng lớn!",
-	"Phân giải trang bị cần phải học Kỹ Năng Sản Xuất - Xảo Tượng, và chỉ có thể phân giải vũ khí và phòng cụ từ bậc một trở lên.",
-	"Trang bị có thể phân giải thành Nguyên Thạch, Nguyên Thạch là vật phẩm cần thiết để chế tạo vật liệu cường hóa trang bị.",
-	"Kỹ Năng Sản Xuất - May Vá có thể chế tạo phòng cụ từ bậc một trở lên.",
-	"Kỹ Năng Sản Xuất - Thợ Rèn có thể chế tạo vũ khí từ bậc một trở lên.",
-	"Kỹ Năng Sản Xuất - Xảo Tượng dùng để chế tạo vật liệu cường hóa trang bị, tổng hợp Nguyên Thạch và Phù Ngọc phẩm cấp cao hơn.",
-	"Kỹ Năng Sản Xuất - Thợ Công dùng để chế tạo các loại bảo vật và cơ quan khí giới, nâng cấp Bí Văn Linh Châu.",
-	"Kỹ Năng Sản Xuất - Nấu Ăn dùng để chế tạo các loại thức ăn, rượu ngon và trà uống.",
-	"Kỹ Năng Sản Xuất - Cấp Cứu dùng để chế tạo các loại thuốc mỡ có thể sử dụng trong chiến đấu.",
-	"Nguyên Thạch cấp thấp có thể được tổng hợp thành Nguyên Thạch cấp cao hơn thông qua Kỹ Năng Sản Xuất - Xảo Tượng.",
-	"Ăn thức ăn có thể hồi phục sinh lực ngoài chiến đấu, sau khi ăn xong thức ăn còn có thể nhận được hiệu quả tăng tốc độ hồi phục sinh lực.",
-	"Uống rượu ngon có thể hồi phục thể lực ngoài chiến đấu, sau khi uống xong rượu ngon còn có thể nhận được hiệu quả tăng cường đấu khí khi giết địch.",
-	"Uống trà có thể hồi phục thể lực ngoài chiến đấu, sau khi uống xong trà còn có thể nhận được hiệu quả tăng cường thể lực khi giết địch.",
-	"Thuốc mỡ giúp nhân vật liên tục hồi phục sinh lực, có thể sử dụng trong chiến đấu.",
-	"Thuốc viên giúp nhân vật hồi phục ngay lập tức một lượng sinh lực nhất định, có thể sử dụng trong chiến đấu.",
-	"Gắn Phù Ngọc vào trang bị, trang bị sẽ nhận được thuộc tính của Phù Ngọc.",
-	"Các Thương Nhân Tạp Hóa ở các nơi cung cấp dịch vụ Gắn Phù Ngọc và Xóa Phù Ngọc.",
-	"Các Xảo Tượng và Thương Nhân Trang Sức ở các nơi cung cấp dịch vụ Cường Hóa Trang Bị và Phân Giải Trang Bị.",
-	"Phần lớn nguyên liệu thô cần thiết cho Kỹ Năng Sản Xuất có thể mua tại Thương Nhân Tạp Hóa ở các nơi.",
-	"Trang bị có thể gắn Phù Ngọc chỉ giới hạn ở Mũ, các loại Y Phục và Trang Sức.",
-	"Thuộc tính Phù Ngọc đã gắn có thể được xóa khỏi trang bị, sau đó trang bị có thể gắn Phù Ngọc lại.",
-	"Kỹ Năng Sản Xuất - Xảo Tượng có thể tinh luyện Phù Ngọc phẩm cấp thấp thành Phù Ngọc phẩm cấp cao hơn.",
-	"Chỉ có thể trang bị một loại Bảo Vật cùng loại cùng lúc.",
-	"Kỹ Năng Sản Xuất - Xảo Tượng có thể chế tạo vật liệu cường hóa trang bị từ Nguyên Thạch thu được sau khi phân giải trang bị.",
-	"Biểu tượng Binh Pháp Kết Nghĩa có thể kéo vào thanh phím tắt để sử dụng.",
-	"Vũ khí từ bậc một trở lên có thể gửi đến Binh Khí Sư để trưởng thành, vũ khí sau khi trưởng thành có lực tấn công cao hơn.",
-	"Nhấn phím K để mở giao diện Kỹ Năng và Chuyên Tinh.",
-	"Nhấp vào nút “Chuyên Tinh” ở dưới giao diện Kỹ Năng, có thể chuyển sang giao diện Chuyên Tinh.",
-	"Sau khi cộng điểm Chuyên Tinh có thể nâng cao hiệu quả sử dụng Kỹ Năng Chiến Đấu, giúp quá trình đánh quái của bạn dễ dàng hơn!",
-	"Nhân vật đạt cấp 15 có thể thành lập Kết Nghĩa.",
-	"Nhân vật đạt cấp 12 mới có thể gia nhập Kết Nghĩa.",
-	"Thành lập Quân Đoàn cần nhân vật đạt cấp 25, chỉ có thủ lĩnh Kết Nghĩa mới có thể tạo Quân Đoàn.",
-	"Kỹ Năng Sản Xuất - Thuần Dưỡng dùng để tăng tốc độ di chuyển của tọa kỵ, mỗi loại tọa kỵ ít nhất có thể nâng cấp một lần.",
-	"Khi mở nhiều client Xích Bích cùng lúc, thu nhỏ trò chơi đang chạy ở nền có thể nâng cao hiệu suất hoạt động của hệ thống.",
-	"Khi Cường Hóa Trang Bị, cần phải đưa vào vật liệu cường hóa tương ứng với phẩm cấp và loại trang bị.",
-	"Trang bị đã cường hóa nếu cường hóa lại, thuộc tính cường hóa cũ sẽ bị ghi đè.",
-	"Sử dụng Độn Giáp Thiên Thư để xóa Binh Chủng Chính, Binh Chủng Phụ và điểm Chuyên Tinh hiện tại, cấp độ Binh Chủng Chính và Binh Chủng Phụ ban đầu sẽ được giữ nguyên.",
-	"Vũ khí sau khi trưởng thành sẽ bị ràng buộc với nhân vật, vũ khí bị ràng buộc sẽ không thể giao dịch!",
-	"Thợ Công Kỹ Năng Sư ở thành Trường An cung cấp dịch vụ Khảm Bí Văn và Xóa Bí Văn.",
-	"Nếu bạn nhận được một viên Bí Văn Linh Châu, bạn có thể khảm nó vào vũ khí và phòng cụ.",
-	"Sử dụng Chu Sa Bút có thể tiến hành Điểm Hóa Bí Văn Linh Châu cấp thấp, sau khi Điểm Hóa thành công sẽ nhận được Bí Văn Linh Châu cấp cao hơn.",
-	"Chỉ có vũ khí và phòng cụ từ bậc bốn trở lên mới có thể khảm Bí Văn.",
-	"Mỗi vũ khí và phòng cụ từ bậc bốn trở lên thường có thể kích hoạt 3 ô Bí Văn.",
-	"Bạn cần phải kích hoạt ô Bí Văn trên trang bị trước, sau đó mới có thể tiến hành Khảm Bí Văn.",
-	"Các loại Bí Văn Linh Châu khác nhau có thể khảm vào các vị trí phòng cụ hoặc binh khí khác nhau.",
-	"Trong chiến trường, sử dụng kênh chat thường chỉ có người chơi phe mình nhìn thấy.",
-	"Biểu tượng Thao Tác Nhanh có thể kéo vào thanh phím tắt để sử dụng.",
-	"Nhấn phím N mở giao diện Thao Tác, có thể chỉnh sửa thao tác nhanh của trò chơi.",
-	"Nếu cấp độ Binh Chủng Chính của bạn thấp hơn bất kỳ Binh Chủng nào khác, bạn sẽ tiêu hao nhiều điểm kinh nghiệm hơn khi nâng cấp Binh Chủng.",
-	"Sau khi chiến trường mở, hãy vào chiến trường trong vòng 2 phút, sau 2 phút hệ thống sẽ tự động hủy hàng chờ của bạn.",
-	"Sử dụng Thái Ất Nguyên Phù có thể đảm bảo Bí Văn Linh Châu của bạn sẽ không bị vỡ và biến mất sau khi nâng cấp thất bại.",
-	"Nếu đưa Thiên Tử Chiếu Thư cho Quản Lộ ở thành Trường An, có thể cho phép bạn thay đổi phe phái.",
-	"Mỗi khi kích hoạt một ô Bí Văn cần tiêu hao một Khai Quang Thạch. Bạn có thể mua từ Thợ Công Học Đồ hoặc có cơ hội nhận được khi tham gia Nhiệm Vụ Thiên Cơ.",
-	"Vật phẩm bị khóa bằng Tím Kim Tỏa không thể tiêu hủy, giao dịch, gửi thư hoặc bán.",
-	"Hệ thống Chuyên Tinh của Binh Chủng Phụ tối đa có thể nhận được 25 điểm Chuyên Tinh.",
-	"Chỉ cần nhấp vào vị trí có thể đến trên bản đồ nhỏ ở góc trên bên phải màn hình, nhân vật sẽ tự động di chuyển đến vị trí đó.",
-	"Nhấp chuột trái vào bất kỳ khu vực nào có thể di chuyển trong cảnh, nhân vật sẽ tự động di chuyển đến nơi chuột nhấp.",
-	"Nhấp chuột phải vào NPC là có thể đối thoại với NPC.",
-	"Công Thành Chiến Quốc Gia bắt đầu vào lúc 20:00 thứ Bảy hàng tuần, kéo dài hai giờ, quốc gia chiếm được Quan Trung là bên chiến thắng cuối cùng.",
-	"Chiến Trường Quốc Chiến cần phải đạt cấp Anh Hùng mới có thể tham gia.",
-	"Vào lúc 19:30 hàng ngày sẽ bắt đầu cuộc thi Thi Tài Thao Lược (Thi Tài Hùng Biện), người chơi đang online có thể tham gia hoạt động thông qua lời mời tham gia cuộc thi.",
-	"Sau khi cuộc thi Thi Tài Thao Lược kết thúc, 20 người chơi đứng đầu bảng xếp hạng cuộc thi có thể nhận được Bằng Chứng Ưu Thắng qua thư.",
-	"Dịch vụ Chuyển Đổi Thuộc Tính do Thương Nhân Tạp Hóa cung cấp có thể chuyển thuộc tính Phù Ngọc trên một trang bị sang trang bị khác.",
-	"Mỗi lần chuyển đổi thành công thuộc tính phụ thêm trên trang bị sẽ tiêu hao một Gả Y Phù.",
-	"Dịch vụ Nâng Cấp Trang Bị có thể dùng để nâng cao phẩm cấp trang bị của bạn, ví dụ như nâng một vũ khí bậc năm thành vũ khí bậc sáu.",
-	"Khi Nâng Cấp Trang Bị thường yêu cầu cấp độ Trưởng Thành của trang bị gốc đạt đến một cấp độ nhất định, và cần tiêu hao một số vật liệu.",
-	"Sau khi Nâng Cấp Trang Bị, sẽ kế thừa hoàn toàn số ô Bí Văn đã kích hoạt, Bí Văn đã khảm và thuộc tính cường hóa của trang bị gốc.",
-	"Cấp độ Binh Chủng Chính đạt đến cấp Thần hoặc cấp Tiên (ví dụ: Thương Thần, Vũ Tiên) mới có thể tu luyện Binh Chủng Phụ.",
-	"Trong các cảnh quan loại tuyết, tắt Ánh Sáng Rực Rỡ trong cài đặt hệ thống có thể làm hiệu ứng hình ảnh trở nên dịu nhẹ hơn.",
-	"Trang bị ngựa loại Hoàn Nguyên chỉ có thể xóa trang bị ngựa loại tương ứng, ví dụ Hoàn Nguyên Bàn Đạp chỉ có thể xóa trang bị ngựa loại bàn đạp.",
-	};
+	"Characters who reach the maximum level can still earn experience points (Experience/Cultivation).",
+	"Experience points can be used for many purposes other than just leveling up.",
+	"Try not to challenge monsters that exceed your level, unless you are willing to pay the price of death.",
+	"Male characters can also use Fan and Dance type weapons.",
+	"Attacking players from other countries will not incur PK penalties.",
+	"Do not easily disclose your account information and password to others.",
+	"Press P to open the Production interface.",
+	"Right-click on a target to automatically attack it.",
+	"When you are over level 40 and killed by a monster or NPC, you will lose 1% of your remaining experience points.",
+	"Shift + Right-click on treasure chests or leather bags dropped from monsters to automatically loot all items.",
+	"The Warehouse Manager provides functions to expand your inventory and personal warehouse.",
+	"Completing low-level quests only yields a small amount of experience.",
+	"Character attributes will increase based on your character level and class level.",
+	"Rare monsters will drop better quality loot.",
+	"The number of stars next to the monster's portrait indicates the difficulty of challenging it.",
+	"At level 40, you can choose to join one of the three factions: Wei, Shu, or Wu.",
+	"Completing Tavern quests can earn you equivalent currency to buy items in the Tavern shop.",
+	"Use the W, S, A, D keys to move your character.",
+	"Press the NumLock key to make your character move forward automatically.",
+	"When attacking, keep your character facing the enemy.",
+	"Players from level 1 to 40 are in a beginner protection state and cannot be attacked by other players.",
+	"Hold Ctrl to force an attack on other players.",
+	"Attacking players from the same country will increase your PK points.",
+	"The Courier Station teleport service can only take you to areas you have previously visited.",
+	"Press Alt + Z to hide the game interface.",
+	"Press F9 to enter camera mode.",
+	"When the experience bar at the bottom of the screen flashes, it means you can level up your character immediately.",
+	"Press C to open the Character Attributes interface.",
+	"In the Character Attributes interface, you can choose to level up your character or your weapon class.",
+	"Once a character earns a title, the title's bonus attributes take effect immediately.",
+	"Move the mouse to a target NPC and right-click to open the dialogue box.",
+	"Press J to open the Item Shop interface.",
+	"Press B to open the Inventory and Character Equipment interface.",
+	"Press L to open the Quest Information interface.",
+	"Press I to open the Game Ranking interface.",
+	"Press T to open the Party Settings interface.",
+	"Press Y to open the Oath Brotherhood Settings interface.",
+	"Press G to open the Legion Settings interface.",
+	"Leveling up both character and class levels consumes character experience points.",
+	"Click and hold the left mouse button while rotating the mouse to see your character's face.",
+	"After reaching level 15, characters can learn Combat Skills from the Martial Arts Master in Chang'an.",
+	"Hold the Z key while clicking a skill icon or pressing a skill shortcut to cast it on yourself.",
+	"Ointment items can be used on yourself as well as on other players.",
+	"Select a target and then click an ointment icon to use it on that player.",
+	"If you reach level 10 and complete the Class Quest, you can consume experience points to upgrade your Weapon Class.",
+	"After reaching level 20, you can learn Riding Skills from the Horsemanship Master in Chang'an.",
+	"After a weapon class level reaches Rank 9, you must complete the corresponding Class Quest to advance to the next stage.",
+	"Every time your Main Weapon Class level increases, you gain one Specialization point.",
+	"When crafting weapons and armor, the better the quality of the materials used, the higher the chance of producing high-quality equipment!",
+	"Disassembling equipment requires the Artisan Production Skill, and only tier 1 or higher weapons and armor can be disassembled.",
+	"Equipment can be disassembled into Origin Stones, which are necessary for crafting equipment reinforcement materials.",
+	"The Tailoring Skill can craft tier 1 or higher armor.",
+	"The Blacksmithing Skill can craft tier 1 or higher weapons.",
+	"The Artisan Skill is used to craft reinforcement materials and synthesize higher-grade Origin Stones and Talisman Jades.",
+	"The Craftsmanship Skill is used to create treasures and machinery, and upgrade Mystic Charms (Bi Wen).",
+	"The Cooking Skill is used to make food, fine wine, and tea.",
+	"The First Aid Skill is used to create ointments that can be used during combat.",
+	"Low-level Origin Stones can be synthesized into higher-level ones using the Artisan Skill.",
+	"Eating food restores health out of combat; after eating, you gain a health regeneration speed boost.",
+	"Drinking fine wine restores stamina out of combat; after drinking, you gain an aura boost when killing enemies.",
+	"Drinking tea restores stamina out of combat; after drinking, you gain a stamina boost when killing enemies.",
+	"Ointments help the character continuously restore health and can be used during combat.",
+	"Pills help the character restore a certain amount of health instantly and can be used during combat.",
+	"Equipping Talisman Jades into gear allows the gear to inherit the jade's attributes.",
+	"General Merchants in various locations provide services to Embed or Remove Talisman Jades.",
+	"Artisans and Jewelry Merchants provide Equipment Reinforcement and Disassembly services.",
+	"Most raw materials needed for Production Skills can be purchased from General Merchants.",
+	"Equipment that can be embedded with Talisman Jades is limited to Helmets, Clothing, and Accessories.",
+	"Attributes from embedded Talisman Jades can be removed, allowing the gear to be re-embedded.",
+	"The Artisan Skill can refine low-grade Talisman Jades into higher-grade ones.",
+	"Only one Treasure of the same type can be equipped at a time.",
+	"The Artisan Skill can craft reinforcement materials from Origin Stones obtained via disassembly.",
+	"The Oath Brotherhood Strategy icon can be dragged to the shortcut bar for use.",
+	"Tier 1 or higher weapons can be sent to the Weaponsmith for growth; leveled weapons have higher attack power.",
+	"Press K to open the Skills and Specialization interface.",
+	"Click the 'Specialization' button at the bottom of the Skill interface to switch to the Specialization screen.",
+	"Allocating Specialization points can improve Combat Skill effectiveness, making monster hunting easier!",
+	"Characters can establish an Oath Brotherhood at level 15.",
+	"Characters must reach level 12 to join an existing Oath Brotherhood.",
+	"Establishing a Legion requires level 25; only an Oath Brotherhood leader can create a Legion.",
+	"The Taming Skill is used to increase mount movement speed; each mount can be upgraded at least once.",
+	"When running multiple Red Cliff clients, minimizing background games can improve system performance.",
+	"When Reinforcing Equipment, materials corresponding to the equipment's grade and type must be used.",
+	"If reinforced equipment is reinforced again, the old reinforcement attributes will be overwritten.",
+	"Use the Tianshu Scroll to reset your current Main/Sub Classes and Specialization points; original class levels will be kept.",
+	"Grown weapons will be soulbound to the character and cannot be traded!",
+	"The Craftsmanship Master in Chang'an provides Mystic Charm (Bi Wen) Inlay and Removal services.",
+	"If you obtain a Mystic Charm Orb, you can inlay it into weapons and armor.",
+	"Use the Cinnabar Brush to enlighten low-level Mystic Charms; success results in a higher-level Charm.",
+	"Only tier 4 or higher weapons and armor can be inlaid with Mystic Charms.",
+	"Each tier 4 or higher gear typically has 3 Mystic Charm slots that can be activated.",
+	"You must activate the Mystic Charm slots on the equipment before you can perform an inlay.",
+	"Different types of Mystic Charms can be inlaid into different gear or weapon positions.",
+	"In battlegrounds, chat messages are usually only visible to players on your own side.",
+	"Quick Operation icons can be dragged to the shortcut bar for use.",
+	"Press N to open the Actions interface to edit game shortcuts.",
+	"If your Main Class level is lower than any other class, you will consume more experience points when leveling up.",
+	"After a battleground opens, enter within 2 minutes or the system will automatically cancel your queue.",
+	"Using a Taiyi Rune ensures your Mystic Charm Orb won't break or disappear after a failed upgrade.",
+	"Giving the Imperial Decree to Guan Lu in Chang'an allows you to change your faction.",
+	"Activating a Mystic Charm slot consumes one Awakening Stone, available from Crafting Apprentices or Heaven's Mystery quests.",
+	"Items locked with a Purple Gold Lock cannot be destroyed, traded, mailed, or sold.",
+	"The Sub-Class Specialization system can receive a maximum of 25 Specialization points.",
+	"Simply click a location on the mini-map in the top right to make your character move there automatically.",
+	"Left-click any navigable area in the scene, and the character will move to where you clicked.",
+	"Right-click an NPC to initiate a dialogue.",
+	"National Siege War starts at 20:00 every Saturday, lasting two hours; the nation holding Guanzhong wins.",
+	"You must reach Hero level to participate in the National War Battleground.",
+	"Every day at 19:30, the Strategy/Eloquence Contest begins; online players can join via invitation.",
+	"After the contest ends, the top 20 players on the leaderboard can receive a Winner's Certificate via mail.",
+	"Attribute Transfer services from General Merchants can move Talisman Jade attributes from one item to another.",
+	"Each successful attribute transfer on equipment consumes one Transfer Charm (Gia Y Phu).",
+	"The Equipment Upgrade service can increase your gear's grade, such as upgrading a tier 5 weapon to tier 6.",
+	"Upgrading equipment usually requires the original gear to reach a certain Growth level and costs materials.",
+	"After upgrading, the gear inherits all activated Mystic Charm slots, inlaid Charms, and reinforcement attributes.",
+	"Main Class level must reach God or Immortal rank (e.g., Spear God) before you can train a Sub-Class.",
+	"In snowy scenes, turning off 'Glow' in system settings can make the visual effects softer.",
+	"Restore-type horse gear can only remove gear of the same type; e.g., a Stirrup Restorer only removes stirrup-type horse gear.",
+};
 
 
 ----战场说明文字----
 --ID:161
 AUI_BATTLEFIELD = {}
+
+--ID:161 Battle of Changshe
 AUI_BATTLEFIELD[161] = {
-						"Loại hình: Đối kháng, tiêu diệt thủ lĩnh\rĐộ khó:★★★\rCấp độ:58+\rĐối đầu:Quân Khăn Vàng VS Quân Đông Hán\rMục tiêu Quân Khăn Vàng:Đánh bại Hoàng Phủ Tung\rMục tiêu Quân Đông Hán:Đánh bại Trương Giác\rCốt truyện:\r    Lúc bấy giờ là năm Hán Linh Đế Trung Bình nguyên niên (năm 184 Tây lịch), dưới sự kêu gọi của giáo chủ Thái Bình Đạo Trương Giác, tín đồ Thái Bình Đạo đội khăn vàng, chạy đi tuyên bố “Trời xanh đã chết, Trời vàng nên lập. Năm Giáp Tí, thiên hạ đại cát”, phát động cuộc nổi loạn quy mô lớn quét khắp cả nước. Triều đình Đông Hán vô cùng kinh hoàng, bổ nhiệm Hà Tiến làm Đại tướng quân, điều động Bắc quân và binh mã các quận quốc thảo phạt Khăn Vàng.\r    Lực lượng chủ yếu của Quân Khăn Vàng, tập trung chủ yếu ở ba nơi là Ký Châu, Dĩnh Xuyên và Nam Dương. Trong đó, Quân Khăn Vàng ở Dĩnh Xuyên, tạo ra mối đe dọa lớn nhất đối với kinh đô Lạc Dương của nhà Hán.\r    Mùa hè tháng Tư, Hữu Trung Lang Tướng Chu Tuấn dẫn một bộ phận quân đội đến tiền tuyến Dĩnh Xuyên, bị bộ hạ Bột Tài của Khăn Vàng Dĩnh Xuyên đánh lui. Chi quân khác của Tả Trung Lang Tướng Hoàng Phủ Tung thấy Khăn Vàng thế lớn, rút về Trường Xã cố thủ. Khăn Vàng Dĩnh Xuyên đại cử tiến thẳng, thực hiện chiến thuật bao vây, chiến đấu theo đó rơi vào tình trạng giằng co.",
-						"Quân Khăn Vàng",
-						"Quân Đông Hán",
-						"Đánh bại Hoàng Phủ Tung",
-						"Đánh bại Trương Giác",
-						"Trương Giác bại lui",
-						"Hoàng Phủ Tung bại lui",
+						"Type: Confrontation, Defeat Leader\rDifficulty: ★★★\rLevel: 58+\rFaction: Yellow Turban Army VS Eastern Han Army\rYellow Turban Goal: Defeat Huangfu Song\rEastern Han Goal: Defeat Zhang Jiao\rPlot:\r    The year was 184 AD. Under the call of Zhang Jiao, leader of the Way of Peace, followers donned yellow turbans and declared: 'The Blue Heaven is dead, the Yellow Heaven shall rise. In the year of Jiazi, there shall be prosperity under heaven,' launching a massive rebellion. The Eastern Han court was terrified, appointing He Jin as General-in-Chief and mobilizing the North Army and local militias to suppress the rebellion.\r    The main Yellow Turban forces concentrated in Jizhou, Yingchuan, and Nanyang. Among them, the rebels in Yingchuan posed the greatest threat to the capital, Luoyang.\r    In the fourth month, General Zhu Jun led troops to the Yingchuan front but was repelled by the rebel leader Bo Cai. Another commander, Huangfu Song, seeing the rebels' strength, retreated to Changshe to hold the line. The Yingchuan rebels advanced in full force, surrounding the city and forcing a stalemate.",
+						"Yellow Turban Army",
+						"Eastern Han Army",
+						"Defeat Huangfu Song",
+						"Defeat Zhang Jiao",
+						"Zhang Jiao Defeated",
+						"Huangfu Song Defeated",
 						}
---ID:210
+
+--ID:210 Retreat at Runan
 AUI_BATTLEFIELD[210] = {
-						"Loại hình: Hợp tác, phòng ngự tấn công\rĐộ khó:★★\rCấp độ:20+\rĐối đầu:Quân Đông Hán VS Quân Khăn Vàng (NPC)\rMục tiêu:Trong 20 phút bảo vệ Hoàng Phủ Tung không chết\rCốt truyện:\r    Năm 184 Tây lịch, Loạn Khăn Vàng bùng nổ quy mô lớn. Dưới sự tấn công của hàng chục vạn Quân Khăn Vàng, quân đội Đông Hán liên tiếp thất bại. Trên chiến trường Nhữ Nam, Tả Trung Lang Tướng Hoàng Phủ Tung quyết định dẫn quân rút về Trường Xã cố thủ, nhưng trên đường lại bị Quân Khăn Vàng tấn công quy mô lớn. Cần gấp những người trung nghĩa đến giúp Hán quân rút lui thành công.\r    “Vì thắng lợi tương lai, ta phải sống sót trong trận chiến này!”",
-						"Quân Đông Hán",
-						"Quân Khăn Vàng",
-						"Hoàng Phủ Tung sống sót",
-						"Không",
-						"Hoàng Phủ Tung tử trận",
-						"Không",
+						"Type: Cooperative, Attack/Defense\rDifficulty: ★★\rLevel: 20+\rFaction: Eastern Han Army VS Yellow Turban Army (NPC)\rGoal: Protect Huangfu Song for 20 minutes\rPlot:\r    In 184 AD, the Yellow Turban Rebellion erupted. Under the assault of hundreds of thousands of rebels, the Eastern Han army suffered successive defeats. At the Runan battlefield, General Huangfu Song decided to retreat to Changshe to hold a defensive position, but his path was blocked by a massive rebel ambush. Brave volunteers are needed to help the Han army retreat successfully.\r    'For future victory, I must survive this battle!'",
+						"Eastern Han Army",
+						"Yellow Turban Army",
+						"Huangfu Song Survived",
+						"None",
+						"Huangfu Song Killed in Action",
+						"None",
 						}
---ID:211
+
+--ID:211 Battle for Guangzong Provisions
 AUI_BATTLEFIELD[211] = {
-						"Loại hình: Hợp tác, tranh giành tài nguyên\rĐộ khó:★★★\rCấp độ:40+\rĐối đầu:Quân Đông Hán VS Quân Khăn Vàng (NPC)\rMục tiêu:Trong 40 phút thu thập thành công 2000 bao lương thảo\rCốt truyện:\r    Năm 184 Tây lịch, Loạn Khăn Vàng càn quét khắp nơi trên cả nước. Do nền nông nghiệp cả nước bị chiến tranh tàn phá nghiêm trọng, cả hai bên đều rơi vào tình cảnh khó khăn thiếu thốn quân lương. Để tranh giành lô quân lương lớn tích trữ ở khu vực Quảng Tông, quan quân bộ hạ Lô Thực và Quân Khăn Vàng đang tiến hành tranh giành quyết liệt. Lúc này, một đội quân Nghĩa Dũng tạm thời được thành lập đã xuất hiện trên chiến trường Quảng Tông.\r    “Cướp tiền, cướp lương, cướp đất đai!”",
-						"Quân Đông Hán",
-						"Quân Khăn Vàng",
+						"Type: Cooperative, Resource Competition\rDifficulty: ★★★\rLevel: 40+\rFaction: Eastern Han Army VS Yellow Turban Army (NPC)\rGoal: Successfully collect 2,000 bags of provisions within 40 minutes\rPlot:\r    In 184 AD, the rebellion devastated the nation's agriculture, leaving both sides in desperate need of supplies. To seize a large cache of military rations stored in Guangzong, the imperial forces under Lu Zhi and the Yellow Turban rebels are engaged in a fierce struggle. At this moment, a volunteer 'Righteous Army' has appeared on the battlefield.\r    'Seize the money, seize the grain, seize the land!'",
+						"Eastern Han Army",
+						"Yellow Turban Army",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:221
+
+--ID:221 Battle of Quyang
 AUI_BATTLEFIELD[221] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★\rCấp độ:58+\rĐối đầu:Quân Đông Hán VS Quân Khăn Vàng (NPC)\rMục tiêu:Trong 60 phút tiêu diệt thành công chủ tướng Khăn Vàng Trương Lương\rCốt truyện:\r    Năm 184 Tây lịch, Loạn Khăn Vàng tiến vào giai đoạn ác liệt nhất ở miền Trung Nguyên. Để đánh bại “Nhân Công Tướng Quân” Trương Lương, toàn quân Lô Thực phát động tấn công. Nhưng mãnh tướng Chu Thương dưới trướng Trương Lương khiến Hán quân liên tục bị thất bại. Lúc này, một hán tử tự xưng là Quan Trường Sinh ở Giải Lương Hà Đông xuất hiện trên chiến trường.\r    “Ngươi chính là Nhân Công Tướng Quân? Có thể cho ta biết công lý đại nghĩa ở nhân gian là gì không!”",
-						"Quân Đông Hán",
-						"Quân Khăn Vàng",
-						"Đánh bại Trương Lương",
-						"Không",
-						"Lô Thực bại trận",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★\rLevel: 58+\rFaction: Eastern Han Army VS Yellow Turban Army (NPC)\rGoal: Defeat the Yellow Turban General Zhang Liang within 60 minutes\rPlot:\r    In 184 AD, the rebellion reached its peak in the Central Plains. To defeat 'General of the People' Zhang Liang, Lu Zhi launched an all-out attack. However, Zhang Liang's fierce general, Zhou Cang, caused the Han army repeated setbacks. At this time, a man calling himself Guan Changsheng from Xieliu appeared on the battlefield.\r    'Are you the General of the People? Tell me, what is justice in this world!'",
+						"Eastern Han Army",
+						"Yellow Turban Army",
+						"Defeat Zhang Liang",
+						"None",
+						"Lu Zhi Defeated",
+						"None",
 						}
---ID:222
+
+--ID:222 Fall of Phoenix Slope (Luofeng Slope)
 AUI_BATTLEFIELD[222] = {
-						"Loại hình: Hợp tác, hộ tống\rĐộ khó:★★★★\rCấp độ:50+\rĐối đầu:Quân Lưu Bị VS Quân Lưu Chương (NPC)\rMục tiêu:Trong 50 phút hộ tống Bàng Thống an toàn vượt qua Lạc Phượng Pha, và đánh bại đại tướng địch Trương Nhiệm\rCốt truyện:\r    Kiến An năm thứ mười tám, Lưu Bị để chiếm đoạt đất Ba Thục, tiến quân đến Thành Đô. Các tướng Thục là Trương Nhiệm, Lãnh Bào, Lưu Tuân và những người khác bố trí tuyến phòng thủ vững chắc ở Lạc Thành, ngăn cản Quân Lưu Bị. Để đột phá phòng tuyến Quân Lưu Chương, quân sư Lưu Bị Bàng Thống hiến kế, dẫn binh đi đường tắt Lạc Phượng Pha tập kích kẻ địch. Tuy nhiên, khi Bàng Thống dẫn quân đi qua Lạc Phượng Pha, lại gặp phải phục kích của tướng Thục Trương Nhiệm. Đời danh quân sư “Phượng Sồ”, liệu có ngã xuống ở Lạc Phượng Pha?",
-						"Quân Lưu Bị",
-						"Quân Lưu Chương",
-						"Hộ tống Bàng Thống an toàn vượt qua Lạc Phượng Pha",
-						"Không",
-						"Bàng Thống bại trận",
-						"Không",
+						"Type: Cooperative, Escort\rDifficulty: ★★★★\rLevel: 50+\rFaction: Liu Bei's Army VS Liu Zhang's Army (NPC)\rGoal: Escort Pang Tong safely across Luofeng Slope and defeat Zhang Ren within 50 minutes\rPlot:\r    In the 18th year of Jian'an, Liu Bei marched toward Chengdu to seize the land of Bashu. The Shu generals Zhang Ren and others established a strong defense at Lucheng. To break through, Liu Bei's strategist Pang Tong led a small force through a shortcut at Luofeng Slope. However, they were ambushed by Zhang Ren. Will the famous strategist 'Fledgling Phoenix' fall at Phoenix Slope?",
+						"Liu Bei's Army",
+						"Liu Zhang's Army",
+						"Escort Pang Tong safely across Luofeng Slope",
+						"None",
+						"Pang Tong Defeated",
+						"None",
 						}
---ID:223
+
+--ID:223 Rescue of Sun Shangxiang
 AUI_BATTLEFIELD[223] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★\rCấp độ:30+\rĐối đầu:Liên quân Tôn Lưu VS Quân Tào Tháo (NPC)\rMục tiêu:Trong 30 phút đánh bại thủ lĩnh địch Cao Lăng, bảo vệ an toàn cho Tôn Thượng Hương\rCốt truyện:\r    Đại quân Tào Tháo sắp nam chinh, để liên minh với Quân Lưu Bị, Tôn Quyền phái Tôn Thượng Hương đến Kinh Châu hội kiến Lưu Bị. Nhưng, trên đường lại bị thích khách Quân Tào ngăn cản. Lưu Bị phái bộ tướng Triệu Vân đi giải cứu Tôn Thượng Hương bị vây khốn. Tuy nhiên, trên đường Triệu Vân lại gặp một người quen.",
-						"Liên quân Tôn Lưu",
-						"Quân Tào Tháo",
-						"Bảo vệ an toàn cho Tôn Thượng Hương",
-						"Không",
-						"Tôn Thượng Hương bại trận",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★\rLevel: 30+\rFaction: Sun-Liu Alliance VS Cao Cao's Army (NPC)\rGoal: Defeat leader Cao Ling and protect Sun Shangxiang within 30 minutes\rPlot:\r    As Cao Cao's army prepared for a southern campaign, Sun Quyen sent Sun Shangxiang to Jingzhou to meet Liu Bei. However, she was intercepted by Cao Cao's assassins. Liu Bei dispatched Zhao Yun to rescue her, but Zhao Yun encountered an unexpected acquaintance on the way.",
+						"Sun-Liu Alliance",
+						"Cao Cao's Army",
+						"Protect Sun Shangxiang",
+						"None",
+						"Sun Shangxiang Defeated",
+						"None",
 						}
---ID:227
+
+--ID:227 Rescue at White Gate Tower
 AUI_BATTLEFIELD[227] = {
-						"^fffd44Dựa trên kịch bản do Lan Lăng Thiên Tử ở Điện Tín khu 2 – Cổ Kiếm cung cấp.\r^ffffffLoại hình: Hợp tác, hộ tống\rĐộ khó:★★★★\rCấp độ:55+\rĐối đầu:Quân Lã Bố VS Quân Tào Tháo (NPC)\rMục tiêu:Trong 30 phút giải cứu Lã Bố khỏi Bạch Môn Lầu\rCốt truyện:\r    Kiến An năm thứ ba tháng mười hai mùng bảy, Lã Bố thua trận ở Bạch Môn Lầu, bị Tào Tháo hạ lệnh chém đầu. Nhưng Trương Liêu được Tào Tháo chiêu hàng cảm kích ân nghĩa nhiều năm của Lã Bố, bèn xông vào ngục giải cứu Lã Bố và Cao Thuận, Phi Tướng Lã Bố liệu có đột phá vòng vây thành công, xoay chuyển vận mệnh bại vong? Kịch bản hư cấu về khả năng lịch sử, hãy xem Phi Tướng làm thế nào để xoay chuyển tình thế!",
-						"Quân Lã Bố",
-						"Quân Tào Tháo",
-						"Giải cứu Lã Bố thành công",
-						"Không",
-						"Lã Bố bại trận",
-						"Không",
+						"^fffd44Based on a script by Lan Ling Tian Zi (Telecom Zone 2 – Gu Jian).\r^ffffffType: Cooperative, Escort\rDifficulty: ★★★★\rLevel: 55+\rFaction: Lu Bu's Army VS Cao Cao's Army (NPC)\rGoal: Rescue Lu Bu from White Gate Tower within 30 minutes\rPlot:\r    In the 12th month of the 3rd year of Jian'an, Lu Bu was defeated at White Gate Tower and sentenced to death. However, Zhang Liao, moved by years of loyalty, stormed the prison to save Lu Bu and Gao Shun. Can the 'Flying General' Lu Bu break the siege and change his fate? This historical 'what-if' scenario lets you witness Lu Bu turning the tide!",
+						"Lu Bu's Army",
+						"Cao Cao's Army",
+						"Rescue Lu Bu Successfully",
+						"None",
+						"Lu Bu Defeated",
+						"None",
 						}
---ID:237
+
+--ID:237 Assassination of Zhang Jiao (Lv. 1)
 AUI_BATTLEFIELD[237] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★\rCấp độ:1+\rĐối đầu:Quân Đông Hán VS Quân Khăn Vàng (NPC)\rMục tiêu:Trong 120 phút đánh bại thủ lĩnh địch Trương Giác\rCốt truyện:\r    Năm Trung Bình nguyên niên, Loạn Khăn Vàng đang diễn ra sôi nổi. Để dẹp yên chiến loạn, vài nghĩa sĩ vô danh đến đại bản doanh Khăn Vàng ở Cự Lộc hành thích Đại Hiền Lương Sư Trương Giác. Chỉ cần kết thúc sinh mạng của Trương Giác, là có thể chấm dứt Loạn Khăn Vàng kéo dài! Giai thoại ẩn dưới mặt nước lịch sử, liệu bạn có thể trở thành anh hùng đứng sau màn hạ sát Đại Hiền Lương Sư?",
-						"Quân Đông Hán",
-						"Quân Khăn Vàng",
-						"Đánh bại Trương Giác",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★\rLevel: 1+\rFaction: Eastern Han Army VS Yellow Turban Army (NPC)\rGoal: Defeat the enemy leader Zhang Jiao within 120 minutes\rPlot:\r    In the first year of Zhongping, the rebellion was in full swing. To end the war, unknown volunteers traveled to the rebel headquarters in Julu to assassinate the 'Great Teacher' Zhang Jiao. Ending his life could end the long-standing chaos. Can you become the hero who strikes from the shadows?",
+						"Eastern Han Army",
+						"Yellow Turban Army",
+						"Defeat Zhang Jiao",
+						"None",
+						"None",
+						"None",
 						}
---ID:326
+
+--ID:326 Assassination of Zhang Jiao (Alt)
 AUI_BATTLEFIELD[326] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★\rCấp độ:1+\rĐối đầu:Quân Đông Hán VS Quân Khăn Vàng (NPC)\rMục tiêu:Trong 120 phút đánh bại thủ lĩnh địch Trương Giác\rCốt truyện:\r    Năm Trung Bình nguyên niên, Loạn Khăn Vàng đang diễn ra sôi nổi. Để dẹp yên chiến loạn, vài nghĩa sĩ vô danh đến đại bản doanh Khăn Vàng ở Cự Lộc hành thích Đại Hiền Lương Sư Trương Giác. Chỉ cần kết thúc sinh mạng của Trương Giác, là có thể chấm dứt Loạn Khăn Vàng kéo dài! Giai thoại ẩn dưới mặt nước lịch sử, liệu bạn có thể trở thành anh hùng đứng sau màn hạ sát Đại Hiền Lương Sư?",
-						"Quân Đông Hán",
-						"Quân Khăn Vàng",
-						"Đánh bại Trương Giác",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★\rLevel: 1+\rFaction: Eastern Han Army VS Yellow Turban Army (NPC)\rGoal: Defeat the enemy leader Zhang Jiao within 120 minutes\rPlot:\r    (Duplicate of ID: 237 Plot Summary)",
+						"Eastern Han Army",
+						"Yellow Turban Army",
+						"Defeat Zhang Jiao",
+						"None",
+						"None",
+						"None",
 						}
---ID:252
+
+--ID:252 Ma Chao's Investigation
 AUI_BATTLEFIELD[252] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★\rCấp độ:15+\rĐối đầu:Quân Mã Siêu VS Quân Tây Khương (NPC)\rMục tiêu:Trong 40 phút đánh bại Diêm Hành\rCốt truyện:\r    Đầu Kiến An, Trung Nguyên rơi vào đại loạn. Ở vùng Lương Châu xa xôi, thế lực Mã Đằng và thế lực Hàn Toại bề ngoài hòa bình chung sống, nhưng sau lưng lại ngầm đấu đá. Một ngày nọ Mã Siêu biết được Hàn Toại gửi mật thư đến vùng Khương. Để điều tra động thái của Hàn Toại, Mã Siêu cùng em họ Mã Đại, Mã Thiết dẫn một đội dũng sĩ lẻn vào trại Khương, định trộm mật thư của Hàn Toại. Câu chuyện cứ thế mở ra…\r    Để điều tra Hàn Toại và người Khương có câu kết hay không, người chơi theo Mã Siêu vào đại bản doanh quân Khương mật thám, nhưng lại rơi vào ổ phục kích của quân Khương, mọi người trải qua gian khổ đột phá vòng vây, không ngờ lại bị đại tướng quân Hàn Toại là Diêm Hành chặn giết! Đồng thời Khương Vương Mê Đương Đại Vương cũng dẫn chủ lực quân Khương truy kích từ phía sau. Trong tình thế nguy cấp này, Cẩm Mã Siêu liệu có thể đại hiển thần uy?",
-						"Quân Mã Siêu",
-						"Quân Tây Khương",
-						"Đánh bại Diêm Hành",
-						"Không",
-						"Mã Siêu bại trận",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★\rLevel: 15+\rFaction: Ma Chao's Army VS Western Qiang Army (NPC)\rGoal: Defeat Yan Xing within 40 minutes\rPlot:\r    Early Jian'an period. In the remote Liangzhou region, Ma Teng and Han Sui lived in peace on the surface, but plotted against each other in secret. Ma Chao discovered Han Sui was sending secret letters to the Qiang region. To investigate, Ma Chao and his cousins Ma Dai and Ma Tie infiltrated the Qiang camp. They were ambushed and blocked by Han Sui's general, Yan Xing, while King Midang pursued from behind. Can Ma Chao display his divine might?",
+						"Ma Chao's Army",
+						"Western Qiang Army",
+						"Defeat Yan Xing",
+						"None",
+						"Ma Chao Defeated",
+						"None",
 						}
---ID:327
+
+--ID:327 Ma Chao's Investigation (Alt)
 AUI_BATTLEFIELD[327] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★\rCấp độ:15+\rĐối đầu:Quân Mã Siêu VS Quân Tây Khương (NPC)\rMục tiêu:Trong 40 phút đánh bại Diêm Hành\rCốt truyện:\r    Đầu Kiến An, Trung Nguyên rơi vào đại loạn. Ở vùng Lương Châu xa xôi, thế lực Mã Đằng và thế lực Hàn Toại bề ngoài hòa bình chung sống, nhưng sau lưng lại ngầm đấu đá. Một ngày nọ Mã Siêu biết được Hàn Toại gửi mật thư đến vùng Khương. Để điều tra động thái của Hàn Toại, Mã Siêu cùng em họ Mã Đại, Mã Thiết dẫn một đội dũng sĩ lẻn vào trại Khương, định trộm mật thư của Hàn Toại. Câu chuyện cứ thế mở ra…\r    Để điều tra Hàn Toại và người Khương có câu kết hay không, người chơi theo Mã Siêu vào đại bản doanh quân Khương mật thám, nhưng lại rơi vào ổ phục kích của quân Khương, mọi người trải qua gian khổ đột phá vòng vây, không ngờ lại bị đại tướng quân Hàn Toại là Diêm Hành chặn giết! Đồng thời Khương Vương Mê Đương Đại Vương cũng dẫn chủ lực quân Khương truy kích từ phía sau. Trong tình thế nguy cấp này, Cẩm Mã Siêu liệu có thể đại hiển thần uy?",
-						"Quân Mã Siêu",
-						"Quân Tây Khương",
-						"Đánh bại Diêm Hành",
-						"Không",
-						"Mã Siêu bại trận",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★\rLevel: 15+\rFaction: Ma Chao's Army VS Western Qiang Army (NPC)\rGoal: Defeat Yan Xing within 40 minutes\rPlot:\r    (Duplicate of ID: 252 Plot Summary)",
+						"Ma Chao's Army",
+						"Western Qiang Army",
+						"Defeat Yan Xing",
+						"None",
+						"Ma Chao Defeated",
+						"None",
 						}
---ID:254
+
+--ID:254 Battle of Hulao Gate
 AUI_BATTLEFIELD[254] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★★★\rCấp độ:60+\rĐối đầu:Liên Quân VS Quân Đổng Trác (NPC)\rMục tiêu:Trong 120 phút đánh bại Đổng Trác\rCốt truyện:\r    Sơ Bình nguyên niên (năm 189 Tây lịch), Đổng Trác chuyên quyền, lừa vua hại dân. Tào Tháo tự Trần Lưu khởi binh, triệu tập mười tám trấn chư hầu, đề cử Thái thú Bột Hải Viên Thiệu làm minh chủ, phát lời kêu gọi (giả chiếu) khắp thiên hạ, thống lĩnh hàng chục vạn hùng binh, tiến về Lạc Dương. Và chắn trước mặt mười tám trấn chư hầu là hai cửa ải Tị Thủy và Hổ Lao.\r    Cửa ải Tị Thủy do Thượng tướng thứ nhất dưới trướng Đổng Trác là Hoa Hùng trấn giữ, một người giữ ải, vạn người khó qua. Đổng Trác thì đích thân dẫn hai mươi vạn đại quân đóng ở cửa ải Hổ Lao được mệnh danh là “Then khóa Trung Thiên, yết hầu Tam Tần”, lệnh cho nghĩa tử Ôn Hầu Lã Bố đóng trại trước cửa ải, hổ thị (trông chừng) đợi Liên quân chư hầu đến. Ôn Hầu Lã Bố võ nghệ vô song như hổ đói mài sắc móng vuốt, chuẩn bị giẫm đạp lên tôn nghiêm và tự tin của võ tướng thiên hạ. Và trong Liên quân, có ba hạ tướng vô danh ít ai biết đến, sắp tỏa sáng rực rỡ trước nghìn quân vạn mã…",
-						"Liên Quân",
-						"Quân Đổng Trác",
-						"Đánh bại Đổng Trác",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★★★\rLevel: 60+\rFaction: Coalition Army VS Dong Zhuo's Army (NPC)\rGoal: Defeat Dong Zhuo within 120 minutes\rPlot:\r    In 189 AD, Dong Zhuo seized power, manipulating the Emperor. Cao Cao raised an army and summoned eighteen lords, appointing Yuan Shao as leader. Facing the coalition were the impregnable Sishui and Hulao Gates. Sishui was held by Hua Xiong, while Dong Zhuo himself and Lu Bu guarded Hulao. Lu Bu, the peerless warrior, waits to crush the pride of the world's generals. Among the coalition, three unknown warriors are about to shine brightly...",
+						"Coalition Army",
+						"Dong Zhuo's Army",
+						"Defeat Dong Zhuo",
+						"None",
+						"None",
+						"None",
 						}
---ID:328
-AUI_BATTLEFIELD[328] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★★★\rCấp độ:60+\rĐối đầu:Liên Quân VS Quân Đổng Trác (NPC)\rMục tiêu:Trong 120 phút đánh bại Đổng Trác\rCốt truyện:\r    Sơ Bình nguyên niên (năm 189 Tây lịch), Đổng Trác chuyên quyền, lừa vua hại dân. Tào Tháo tự Trần Lưu khởi binh, triệu tập mười tám trấn chư hầu, đề cử Thái thú Bột Hải Viên Thiệu làm minh chủ, phát lời kêu gọi (giả chiếu) khắp thiên hạ, thống lĩnh hàng chục vạn hùng binh, tiến về Lạc Dương. Và chắn trước mặt mười tám trấn chư hầu là hai cửa ải Tị Thủy và Hổ Lao.\r    Cửa ải Tị Thủy do Thượng tướng thứ nhất dưới trướng Đổng Trác là Hoa Hùng trấn giữ, một người giữ ải, vạn người khó qua. Đổng Trác thì đích thân dẫn hai mươi vạn đại quân đóng ở cửa ải Hổ Lao được mệnh danh là “Then khóa Trung Thiên, yết hầu Tam Tần”, lệnh cho nghĩa tử Ôn Hầu Lã Bố đóng trại trước cửa ải, hổ thị (trông chừng) đợi Liên quân chư hầu đến. Ôn Hầu Lã Bố võ nghệ vô song như hổ đói mài sắc móng vuốt, chuẩn bị giẫm đạp lên tôn nghiêm và tự tin của võ tướng thiên hạ. Và trong Liên quân, có ba hạ tướng vô danh ít ai biết đến, sắp tỏa sáng rực rỡ trước nghìn quân vạn mã…",
-						"Liên Quân",
-						"Quân Đổng Trác",
-						"Đánh bại Đổng Trác",
-						"Không",
-						"Không",
-						"Không",
-						}
---ID:253 Tào Tháo Truyện
+
+--ID:253 Tale of Cao Cao (Tomb Raiding)
 AUI_BATTLEFIELD[253] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★\rCấp độ:58+\rĐối đầu:Quân Tào Tháo VS Quân đội không rõ (NPC)\rMục tiêu:Trong 40 phút đánh bại Xác Sống Lương Hiếu Vương\rCốt truyện:\r    Thiên hạ chia ba, chiến sự liên miên, quân phí eo hẹp, Tào Tháo bèn lập chức Mạc Kim Hiệu Úy, chiêu mộ rộng rãi những người giỏi trộm mộ trong thiên hạ, ý muốn trộm lăng mộ các đời vua trước để bổ sung quân nhu. Trận đầu tiên do Tào Tháo đích thân dẫn Mạc Kim Hiệu Úy trộm Lăng mộ Lương Hiếu Vương. Quỷ trước chặn đường, quỷ sau kêu khóc, cơ quan khắp nơi, Mê Thành trộm mộ.\r    “Người thắp nến, quỷ thổi đèn”. Cơ quan khắp nơi, nhánh phụ trùng trùng, mỗi một lựa chọn đều có thể kích hoạt hiểm cảnh mới, mỗi một bất ngờ đều có thể kết thúc sinh mạng của mạo hiểm giả.",
-						"Quân Tào Tháo",
-						"Quân đội không rõ",
-						"Đánh bại Xác Sống Lương Hiếu Vương",
-						"Không",
-						"Nến tắt",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★\rLevel: 58+\rFaction: Cao Cao's Army VS Unknown Army (NPC)\rGoal: Defeat the Undead Prince Liang Xiao within 40 minutes\rPlot:\r    The world is divided and funds are tight. Cao Cao established the 'Mojin Xiaowei' (Tomb Raiding Captains) to raid ancient tombs for military supplies. Their first target is the tomb of Prince Liang Xiao. With ghosts and traps everywhere, it is a city of mazes. 'Humans light the candle, ghosts blow it out.' Every choice could lead to a new danger.",
+						"Cao Cao's Army",
+						"Unknown Army",
+						"Defeat Undead Prince Liang Xiao",
+						"None",
+						"Candle Extinguished",
+						"None",
 						}
---ID:255 Lưu Bị Truyện
+
+--ID:255 Tale of Liu Bei
 AUI_BATTLEFIELD[255] = {
-						"^fffd44Dựa trên kịch bản do Tiêu Nguyệt Gia La ở Điện Tín khu 1 – Đông Phong cung cấp.\r^ffffffLoại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★\rCấp độ:58+\rĐối đầu:Quân Lưu Bị VS Quân Tào Tháo (NPC)\rMục tiêu:Trong 40 phút đánh bại Tào Tháo\rCốt truyện:\r    Sau trận Tân Dã, Lưu Bị bại chạy, Tào Tháo thừa thắng truy kích. Thấy đại quân Tào Tháo hùng mạnh sắp áp sát, để bảo toàn Lưu Bị và đoàn tùy tùng thoát khỏi kiếp nạn này, cần không chỉ là lòng dũng cảm phi thường và võ công ngạo thế, mà còn cần trí tuệ, mưu lược hơn người.\r    Chuyến đi của Lưu Bị đầy gian nan hiểm trở, Hạ Hầu Ân, Tào Hồng lần lượt xuất hiện, tuy nhiên, đây không phải là kẻ thù đáng sợ nhất, bởi vì, bạn sẽ trực tiếp đối mặt với枭雄 (kiêu hùng) Tam Quốc – Tào Tháo!\r    Đối mặt với nghìn quân vạn mã, Huyền Đức liệu có thể toàn thân rút lui? Quan Vũ, Trương Phi sẽ kề vai chiến đấu cùng bạn, Gia Cát Khổng Minh là quân sư sau màn của bạn. Bây giờ hãy nếm trải cảm giác thoải mái khi một mình địch lại trăm người, giữa vạn mã thiên quân, bạn chính là bóng dáng vĩ đại xông ra một con đường máu!",
-						"Quân Lưu Bị",
-						"Quân Tào Tháo",
-						"Đánh bại Tào Tháo",
-						"Không",
-						"Lưu Bị bại trận",
-						"Không",
+						"^fffd44Based on a script by Xiao Yue Jia Luo (Telecom Zone 1 – Dong Phong).\r^ffffffType: Cooperative, Defeat Leader\rDifficulty: ★★★★\rLevel: 58+\rFaction: Liu Bei's Army VS Cao Cao's Army (NPC)\rGoal: Defeat Cao Cao within 40 minutes\rPlot:\r    After the Battle of Xinye, Liu Bei was on the run. To protect his entourage, extreme courage and wisdom are needed. You will face the ultimate hero of the Three Kingdoms—Cao Cao himself. Guan Yu and Zhang Fei will fight by your side, with Zhuge Liang as your strategist. Experience the feeling of one man against a hundred!",
+						"Liu Bei's Army",
+						"Cao Cao's Army",
+						"Defeat Cao Cao",
+						"None",
+						"Liu Bei Defeated",
+						"None",
 						}
---ID:256 Trận Bộc Dương (Điểm tích lũy)
+
+--ID:256 Battle of Puyang (Points)
 AUI_BATTLEFIELD[256] = {
-						"Loại hình: Đối kháng, giành điểm tích lũy\rĐộ khó:★★★★\rCấp độ:60 - 80\rĐối đầu:Quân Tào Tháo VS Quân Lã Bố\rMục tiêu:Đạt mục tiêu điểm tích lũy trước\rCốt truyện:\r    Hưng Bình nguyên niên (năm 194 Tây lịch), Thứ sử Duyện Châu Tào Tháo giương cao cờ trắng báo thù cho cha, phát binh thảo phạt Thứ sử Từ Châu Đào Khiêm. Ngay khi Tào quân đang thắng lợi liên tiếp ở Từ Châu, căn cứ địa Duyện Châu của Tào Tháo đột nhiên xảy ra biến cố lớn. Bộ hạ của Tào Tháo là Trương Mạo, Trần Cung dẫn quân phiêu bạt của Lã Bố vào Duyện Châu, giương cao cờ phản! Hổ lang chi sư (quân sư tử, sói) của Chiến Thần Lã Bố nhanh chóng càn quét khắp đất Duyện Châu, Tào Tháo nghe tin lập tức giảng hòa với Quân Lưu Bị ở Từ Châu, rút quân về Duyện Châu,展開 (triển khai) cuộc chiến khốc liệt kéo dài hơn một năm với Quân Lã Bố ở Bộc Dương.",
-						"Quân Tào Tháo",
-						"Quân Lã Bố",
+						"Type: Confrontation, Point Capture\rDifficulty: ★★★★\rLevel: 60 - 80\rFaction: Cao Cao's Army VS Lu Bu's Army\rGoal: Reach the score target first\rPlot:\r    In 194 AD, Cao Cao sought revenge for his father by attacking Tao Qian in Xuzhou. While he was away, his subordinates Zhang Miao and Chen Gong betrayed him, inviting Lu Bu to take over Puyang. Cao Cao immediately made peace with Liu Bei and retreated to fight a fierce year-long war with Lu Bu.",
+						"Cao Cao's Army",
+						"Lu Bu's Army",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:266 Điển Vi Truyện
+
+--ID:266 Tale of Dian Wei (Wan Castle)
 AUI_BATTLEFIELD[266] = {
-						"^fffd44Dựa trên kịch bản do Phi Thiên Trư Hiệp ở Điện Tín khu 2 – Phong Vân cung cấp.\r^ffffffLoại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★\rCấp độ:65+\rĐối đầu:Quân Tào Tháo VS Quân Trương Tú\rMục tiêu:Trong 40 phút đánh bại Trương Tú\rCốt truyện:\r    Kiến An năm thứ hai (năm 197 Tây lịch), Tào Tháo nam chinh Uyển Thành Trương Tú, Trương Tú dẫn chúng đầu hàng dưới trướng Tào Tháo. Nhưng Tào Tháo tham sắc đẹp của Trâu Thị, vợ Trương Tế, lệnh Điển Vi bảo vệ, ngày ngày cùng Trâu Thị vui vẻ. Trương Tú vì thế mà nổi giận, bèn cùng Giả Hủ mưu giết Tào.\r    Mãnh tướng cái thế được mệnh danh là “Ác Lai thời cổ” Điển Vi, sắp nghênh đón khoảnh khắc vận mệnh bi tráng nhất!",
-						 "Quân Tào Tháo",
-						"Quân Trương Tú",
-						"Đánh bại Trương Tú",
-						"Không",
-						"Tào Tháo bại trận",
-						"Không",
+						"^fffd44Based on a script by Fei Tian Zhu Xie (Telecom Zone 2 – Phong Van).\r^ffffffType: Cooperative, Defeat Leader\rDifficulty: ★★★★\rLevel: 65+\rFaction: Cao Cao's Army VS Zhang Xiu's Army\rGoal: Defeat Zhang Xiu within 40 minutes\rPlot:\r    In 197 AD, Zhang Xiu surrendered to Cao Cao. However, Cao Cao took Zhang Xiu's widowed aunt as a concubine, enraging him. Zhang Xiu and Jia Xu plotted an ambush. The mighty general Dian Wei, known as 'Evil Coming from Old Times,' is about to face his most tragic moment!",
+						 "Cao Cao's Army",
+						"Zhang Xiu's Army",
+						"Defeat Zhang Xiu",
+						"None",
+						"Cao Cao Defeated",
+						"None",
 						}
---ID:268 Trận chiến rút lui Kinh Tương
+
+--ID:268 Jing-Xiang Retreat
 AUI_BATTLEFIELD[268] = {
-						"Loại hình: Hợp tác, hộ tống\rĐộ khó:★★★★★★\rCấp độ:50+\rĐối đầu:Quân Lưu Bị VS Quân Tào Tháo\rMục tiêu:Hợp tác hộ tống, bảo vệ Lưu Bị và bách tính chạy nạn đến đích\rCốt truyện:\r    Kiến An năm thứ mười ba (năm 208 Tây lịch) tháng Bảy, Tào Tháo điều động năm mươi vạn đại quân, bắt đầu nam chinh quy mô lớn vào Kinh Châu. Thứ sử Kinh Châu Lưu Biểu lệnh khách tướng Lưu Bị dẫn quân rút khỏi Tân Dã về Phàn Thành, chuẩn bị liên hợp phát động nghênh kích. Ngay tại thời khắc cận chiến này, Lưu Biểu đột nhiên bệnh nặng qua đời, nội bộ Kinh Châu lập tức rơi vào cục diện hỗn loạn tranh chấp giữa hai công tử Lưu Tông, Lưu Kỳ. Sái Mạo, Trương Doãn, Khoái Việt và các trọng thần Kinh Châu khác tôn Lưu Tông làm Thứ sử, đầu hàng Tào Tháo. Quân Lưu Bị đóng ở Phàn Thành rơi vào tử địa bị địch đánh cả trước lẫn sau.\r    Lúc bấy giờ là tháng Chín Kiến An năm thứ mười ba, Quân Lưu Bị bảo vệ hàng chục vạn bách tính Kinh Châu tự nguyện đi theo, bắt đầu trận chiến rút lui Kinh Tương bi tráng nhất trong lịch sử Tam Quốc.",
-						"Quân Lưu Bị",
-						"Quân Tào Tháo",
-						"Bảo vệ Lưu Bị và bách tính, đánh lui Tào quân",
-						"Không",
-						"Lưu Bị bại trận hoặc bách tính chết hết",
-						"Không",
+						"Type: Cooperative, Escort\rDifficulty: ★★★★★★\rLevel: 50+\rFaction: Liu Bei's Army VS Cao Cao's Army\rGoal: Escort Liu Bei and the civilians to the destination\rPlot:\r    In 208 AD, Cao Cao moved 500,000 troops south. Jingzhou governor Liu Biao died, and his successor Liu Zong surrendered. Liu Bei, stationed at Fancheng, was trapped. He chose to retreat with tens of thousands of civilians who followed him voluntarily, leading to the most tragic retreat in history.",
+						"Liu Bei's Army",
+						"Cao Cao's Army",
+						"Protect Liu Bei and civilians, repel Cao's army",
+						"None",
+						"Liu Bei defeated or civilians killed",
+						"None",
 						}
---ID:241 Quốc chiến (Điểm tích lũy)
+
+--ID:241 National War (Points)
 AUI_BATTLEFIELD[241] = {
 						"",
-						"Bên tấn công",
-						"Bên phòng thủ",
+						"Attacker",
+						"Defender",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:267 Định Quân Sơn
+
+--ID:267 Mount Dingjun
 AUI_BATTLEFIELD[267] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★★\rCấp độ:70+\rĐối đầu:Quân Lưu Bị VS Quân Tào Tháo\rMục tiêu:Đánh bại Hạ Hầu Uyên, đoạt Định Quân Sơn\rCốt truyện:\r    Kiến An năm thứ hai mươi tư (năm 219 Tây lịch), cuộc chiến kéo dài hơn một năm giữa Quân Lưu Bị và Quân Tào Tháo ở Hán Trung.\r    Tháng Giêng, Quân Lưu Bị vượt qua sông Hán Thủy từ trước cửa Dương Bình Quan, đóng trại trước Định Quân Sơn. Chủ soái Tào quân Hạ Hầu Uyên cũng dẫn binh đóng trại tại đây,展開 (triển khai) cuộc chiến tranh giành quyết liệt với Quân Lưu Bị. Một bên là lão tướng Hoàng Trung nằm trong Ngũ Hổ Thượng Tướng và quân sư Pháp Chính không kém Gia Cát Lượng, một bên là Túc Tướng Hạ Hầu Uyên một mình đảm đương mọi việc của Tào quân và danh tướng Trương Hợp xuất thân từ Hà Bắc. Tuy nhiên, đằng sau cuộc chiến công phòng Định Quân Sơn ác liệt này, lại ẩn giấu bí mật không ai biết đến…",
-						"Quân Lưu Bị",
-						"Quân Tào Tháo",
-						"Đánh bại Hạ Hầu Uyên, đoạt Định Quân Sơn",
-						"Không",
-						"Hoàng Trung bại lui",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★★\rLevel: 70+\rFaction: Liu Bei's Army VS Cao Cao's Army\rGoal: Defeat Xiahou Yuan and capture Mount Dingjun\rPlot:\r    In 219 AD, the war for Hanzhong reached its climax. Liu Bei crossed the Han River and camped at Mount Dingjun. Opposite him was the veteran Xiahou Yuan. This battle pitted the old general Huang Zhong against the skilled Xiahou Yuan and Zhang He. But behind this battle lies a secret no one knows...",
+						"Liu Bei's Army",
+						"Cao Cao's Army",
+						"Defeat Xiahou Yuan, Capture Mount Dingjun",
+						"None",
+						"Huang Zhong Defeated",
+						"None",
 						}
---ID:275 Triệu Vân Truyện
+
+--ID:275 Tale of Zhao Yun (Changban Bridge)
 AUI_BATTLEFIELD[275] = {
-						"^fffd44Dựa trên kịch bản do Bắc Uyển Quan Tuyết ở Điện Tín khu 1 – Bắc Đẩu cung cấp.\r^ffffffLoại hình: Hợp tác, hộ tống\rĐộ khó:★★★★\rCấp độ:55+\rĐối đầu:Quân Lưu Bị VS Quân Tào Tháo\rMục tiêu:Yểm trợ Triệu Vân vượt qua cầu Trường Bản\rCốt truyện:\r    Kiến An năm thứ mười ba (năm 208 Tây lịch), Tào Tháo dẫn năm mươi vạn đại quân nam chinh Kinh Châu, Thứ sử Kinh Châu Lưu Biểu đột nhiên bệnh nặng qua đời, trọng thần Kinh Châu Sái Mạo, Trương Doãn phụng con trai Lưu Biểu là Lưu Tông đầu hàng Tào Tháo. Quân Lưu Bị đóng ở Phàn Thành bảo vệ hàng chục vạn bách tính rút về phía nam. Nhưng, ở Đương Dương Trường Bản, Quân Lưu Bị và bách tính bị chủ lực Tào quân đuổi kịp, tan tác gần hết. Để tìm lại chủ mẫu Mi phu nhân và tiểu chủ nhân A Đẩu, Triệu Vân bảy lần vào bảy lần ra chạy đi chạy về giữa trận địa hàng chục vạn Tào quân, để lại một đoạn truyền kỳ ngàn năm được người đời ca tụng.",
-						"Quân Lưu Bị",
-						"Quân Tào Tháo",
-						"Triệu Vân cứu chủ vượt qua cầu Trường Bản",
-						"Không",
-						"Triệu Vân bại trận",
-						"Không",
+						"^fffd44Based on a script by Bac Uyen Quan Tuyet (Telecom Zone 1 – Bac Dau).\r^ffffffType: Cooperative, Escort\rDifficulty: ★★★★\rLevel: 55+\rFaction: Liu Bei's Army VS Cao Cao's Army\rGoal: Cover Zhao Yun as he crosses Changban Bridge\rPlot:\r    In 208 AD, during the chaos of the Jing-Xiang retreat, Zhao Yun realized the young master A Dou and Lady Mi were missing. He charged back into the ranks of hundreds of thousands of Cao's soldiers seven times to find them, creating a legend that would be praised for a thousand years.",
+						"Liu Bei's Army",
+						"Cao Cao's Army",
+						"Zhao Yun rescues the master across Changban Bridge",
+						"None",
+						"Zhao Yun Defeated",
+						"None",
 						}
---ID:265 Tôn Quyền Truyện
+
+--ID:265 Tale of Sun Quan (Iron Gourd)
 AUI_BATTLEFIELD[265] = {
-						"^fffd44Dựa trên kịch bản do ╄Hồ Đồ╄ Dĩnh ở Điện Tín khu 1 – Thiên Hạ cung cấp.\r^ffffffLoại hình: Thu thập tài nguyên\rĐộ khó:★★★\rCấp độ:58+\rĐối đầu:Quân Tôn Quyền VS Quân Sơn Trại\rMục tiêu:Giúp Tôn Quyền thu thập vật liệu cần thiết để chế tạo Hồ Lô Sắt\rCốt truyện:\r    Kiến An năm thứ mười ba, mười ba vạn Tào quân phất cờ nam hạ, ý đồ thống nhất nam bắc. Để cầu toàn vẹn, Ngô Thục liên minh chống Tào; danh là đồng minh, thực chất mỗi người một bụng. Cả hai bên đều biết rõ, bá chủ thiên hạ chỉ có thể là một người. Chuyện tranh giành quyền lực, cần phải thấy binh đao; binh đao tương kiến, một là tiên phát chế nhân, hai là tri kỷ tri bỉ. Khổng Minh ý đồ mượn chuyện chế tạo Hồ Lô để thăm dò thực hư Đông Ngô. Quyền biết rõ là kế, nhưng cũng muốn mượn sự khó khăn của việc đúc tạo để chỉ trích, nhờ đó chấn nhiếp dã tâm Tây Thục. Nhưng sự việc đã qua hơn nửa tháng, việc đúc tạo vẫn chưa có tiến triển. Ngay lúc đang khổ não, có ba thợ giày tồi đến…",
-						"Quân Tôn Quyền",
-						"Quân Sơn Trại",
-						"Không",
-						"Không",
-						"Không",
-						"Không",
+						"^fffd44Based on a script by Hu Do Dinh (Telecom Zone 1 – Thien Ha).\r^ffffffType: Resource Collection\rDifficulty: ★★★\rLevel: 58+\rFaction: Sun Quan's Army VS Mountain Bandits\rGoal: Help Sun Quan collect materials for the Iron Gourd\rPlot:\r    In 208 AD, the Sun-Liu alliance was formed, but each side had its own agenda. Zhuge Liang used the crafting of an 'Iron Gourd' to test Wu's strength. Sun Quan knew this and wanted to use the task to intimidate Shu. As the deadline approached with no progress, three humble shoemakers arrived...",
+						"Sun Quan's Army",
+						"Mountain Bandits",
+						"None",
+						"None",
+						"None",
+						"None",
 						}
---ID:279 Đấu trường 12 người (Điểm tích lũy)
+
+--ID:279 Arena (12 Players)
 AUI_BATTLEFIELD[279] = {
-						"Loại hình: Cướp cờ\rCấp độ:Không giới hạn\rSố người:12 (Giới hạn người xem là 100)\rMục tiêu:Cướp lấy đại kỳ đấu trường",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Capture the Flag\rLevel: Unlimited\rPlayers: 12 (Spectator limit 100)\rGoal: Capture the Arena Flag",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:280 Đấu trường 1 người (Điểm tích lũy)
+
+--ID:280 Arena (1 Player)
 AUI_BATTLEFIELD[280] = {
-						"Loại hình: Cướp cờ\rCấp độ:\rSố người:\rMục tiêu:",
-						"Đội Đỏ",
-						"Đội Xanh",
-						"Không",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Capture the Flag\rLevel: \rPlayers: \rGoal: ",
+						"Red Team",
+						"Blue Team",
+						"None",
+						"None",
+						"None",
+						"None",
 						}
---ID:281 Tưởng Cán Trộm Sách (Điểm tích lũy)
+
+--ID:281 Jiang Gan Steals the Letter
 AUI_BATTLEFIELD[281] = {
-						"^fffd44Dựa trên kịch bản do Long Tộc ￠ Danh Tửu ở Điện Tín khu 2 – Bá Vương cung cấp.\r^ffffffLoại hình: Khác\rĐộ khó:★★★\rCấp độ:45+\rĐối đầu:Quân Tào Tháo VS Quân Tôn Quyền\rSố người:1-4 người / 4 người\rMục tiêu:Đoạt lấy mật văn cơ mật\rCốt truyện:\r    Lúc bấy giờ là mùa đông Kiến An năm thứ mười ba, đại quân Tào Tháo và quân Đại Đô Đốc Chu Du của Đông Ngô đối đầu ở Xích Bích, rơi vào thế giằng co. Mưu sĩ Tào quân Tưởng Cán hiến kế đến thuyết phục Chu Du đầu hàng. Nhưng việc khuyên hàng bị Chu Du từ chối, Tưởng Cán lo lắng tay trắng trở về, bèn quyết định trộm mật văn cơ mật của Ngô quân quay về dâng công. Một cuộc chiến ngầm đánh cắp bí mật kinh tâm động phách, cứ thế mở ra.",
-						"Quân Tào Tháo",
-						"Quân Tôn Quyền",
-						"Bảo vệ Tưởng Cán trộm mật văn và quay về đại doanh Ô Lâm",
-						"Không",
-						"Trong ba mươi phút không trộm được mật văn",
-						"Không",
+						"^fffd44Based on a script by Long Clan (Telecom Zone 2 – Ba Vuong).\r^ffffffType: Stealth/Other\rDifficulty: ★★★\rLevel: 45+\rFaction: Cao Cao's Army VS Sun Quan's Army\rPlayers: 1-4 people\rGoal: Steal the secret documents\rPlot:\r    Winter, 208 AD. At Chibi, Cao's advisor Jiang Gan attempted to persuade his old friend Zhou Yu to surrender. Zhou Yu refused. Afraid to return empty-handed, Jiang Gan decided to steal secret documents from the Wu camp. A high-stakes spy mission begins.",
+						"Cao Cao's Army",
+						"Sun Quan's Army",
+						"Protect Jiang Gan as he steals the documents and returns to Wulin Camp",
+						"None",
+						"Failed to steal documents within 30 minutes",
+						"None",
 						}
---ID:332 Tưởng Cán Trộm Sách (Điểm tích lũy)
-AUI_BATTLEFIELD[332] = {
-						"^fffd44Dựa trên kịch bản do Long Tộc ￠ Danh Tửu ở Điện Tín khu 2 – Bá Vương cung cấp.\r^ffffffLoại hình: Khác\rĐộ khó:★★★\rCấp độ:45+\rĐối đầu:Quân Tào Tháo VS Quân Tôn Quyền\rSố người:1-4 người / 4 người\rMục tiêu:Đoạt lấy mật văn cơ mật\rCốt truyện:\r    Lúc bấy giờ là mùa đông Kiến An năm thứ mười ba, đại quân Tào Tháo và quân Đại Đô Đốc Chu Du của Đông Ngô đối đầu ở Xích Bích, rơi vào thế giằng co. Mưu sĩ Tào quân Tưởng Cán hiến kế đến thuyết phục Chu Du đầu hàng. Nhưng việc khuyên hàng bị Chu Du từ chối, Tưởng Cán lo lắng tay trắng trở về, bèn quyết định trộm mật văn cơ mật của Ngô quân quay về dâng công. Một cuộc chiến ngầm đánh cắp bí mật kinh tâm động phách, cứ thế mở ra.",
-						"Quân Tào Tháo",
-						"Quân Tôn Quyền",
-						"Bảo vệ Tưởng Cán trộm mật văn và quay về đại doanh Ô Lâm",
-						"Không",
-						"Trong ba mươi phút không trộm được mật văn",
-						"Không",
-						}
---ID:277 Trận Hợp Phì
+
+--ID:277 Battle of Hefei
 AUI_BATTLEFIELD[277] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★\rCấp độ:60+\rĐối đầu:Quân Tào Tháo VS Quân Tôn Quyền\rMục tiêu:Đánh bại Tôn Quyền, giữ vững thành Hợp Phì\rCốt truyện:\r    Tháng 11 năm 208, Tào Tháo sau đại bại ở Xích Bích đóng quân ở phía bắc Kinh Châu, Tôn Quyền đích thân dẫn binh tấn công Hợp Phì, nhưng mắc kế quân viện binh giả của Tào quân, đốt trại rút lui. Trận Hợp Phì lần thứ nhất kết thúc với thất bại của Quân Tôn Quyền. Đến năm 214, Tào Tháo nam chinh Tôn Quyền không thành, trước khi rút quân để lại Trương Liêu, Lý Điển, Nhạc Tiến và hơn bảy nghìn người phòng thủ Hợp Phì. Đến năm sau, khi Tào Tháo xuất chinh Trương Lỗ, phái Hộ Quân Tiết Tễ gửi thư đến Hợp Phì, viết “Giặc đến thì mở ra”. Lúc này, Tôn Quyền và Lưu Bị tranh chấp Kinh Châu lấy điều kiện chia đôi Kinh Châu, hai quân rút lui. Tôn Quyền thấy chủ lực Tào quân ở Hán Trung, bèn vào tháng Tám dẫn mười vạn người bắc tiến đến Lục Khẩu, lại lần nữa xuất chinh Hợp Phì.",
-						"Quân Tào Tháo",
-						"Quân Tôn Quyền",
-						"Đánh bại Tôn Quyền, giữ vững thành Hợp Phì",
-						"Không",
-						"Trương Liêu bại lui",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★\rLevel: 60+\rFaction: Cao Cao's Army VS Sun Quan's Army\rGoal: Defeat Sun Quan and defend Hefei City\rPlot:\r    After Chibi, Sun Quan attacked Hefei but was tricked by a false reinforcement ruse. In 214 AD, Cao Cao left Zhang Liao and Li Dian to guard Hefei with only 7,000 men. Sun Quan, seeing Cao Cao busy in Hanzhong, launched a massive 100,000-man invasion. Zhang Liao's legendary defense is about to begin.",
+						"Cao Cao's Army",
+						"Sun Quan's Army",
+						"Defeat Sun Quan, defend Hefei City",
+						"None",
+						"Zhang Liao Defeated",
+						"None",
 						}
---ID:278 Trận Công Phá Ích Châu
+
+--ID:278 Conquest of Yi Province
 AUI_BATTLEFIELD[278] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★\rCấp độ:25+\rĐối đầu:Quân Lưu Bị VS Quân Lưu Chương\rMục tiêu:Đánh bại Lưu Chương, đoạt Ích Châu\rCốt truyện:\r    Sau trận Xích Bích, Lưu Bị theo phương lược Tây thủ Ích Châu trong 《Long Trung Đối》, nhân cơ hội Lưu Chương mời ông vào Thục cùng đánh Trương Lỗ, vào Kiến An năm thứ mười sáu tiến về Ích Châu. Trong quá trình thảo phạt Trương Lỗ, Lưu Bị vốn đã suy tính sâu xa thiết kế chọc giận bộ chúng, dụ giết các tướng Xuyên là Dương Hoài, Cao Bái, sáp nhập binh lực của họ, chiếm giữ thành Phù Huyện. Lưu Chương nổi giận, bèn phản công Lưu Bị, nhưng liên tục bại trận, lại từ chối đầu hàng. Năm thứ mười chín, Gia Cát Lượng để Quan Vũ trấn thủ Kinh Châu, cùng Trương Phi, Triệu Vân dẫn quân ngược sông vào Thục, chi viện Lưu Bị. Khắc phục Ba Đông đến Giang Châu, bắt Thái thú Ba Quận Nghiêm Nhan. Sau đó binh chia làm hai đường hội quân với Quân Lưu Bị, bao vây Thành Đô.",
-						"Quân Lưu Bị",
-						"Quân Lưu Chương",
-						"Đánh bại Lưu Chương, đoạt Ích Châu",
-						"Không",
-						"Lưu Bị bại lui",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★\rLevel: 25+\rFaction: Liu Bei's Army VS Liu Zhang's Army\rGoal: Defeat Liu Zhang and capture Yi Province\rPlot:\r    Liu Bei entered Shu at Liu Zhang's invitation to fight Zhang Lu, but secretly planned to take the land. After hostilities broke out and many Shu generals were defeated, Zhuge Liang, Zhang Fei, and Zhao Yun brought reinforcements. They captured key cities and now surround Chengdu.",
+						"Liu Bei's Army",
+						"Liu Zhang's Army",
+						"Defeat Liu Zhang, capture Yi Province",
+						"None",
+						"Liu Bei Defeated",
+						"None",
 						}
---ID:291 Di Tích Hiên Viên
+
+--ID:291 Xuanyuan Ruins
 AUI_BATTLEFIELD[291] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★\rCấp độ:75+\rĐối đầu:Đội Thám Hiểm VS Quân đội không rõ\rMục tiêu:Khám phá bí ẩn của Di Tích Hiên Viên\rCốt truyện:\r    Năm Hồng Hoang thượng cổ, Xi Vưu tàn bạo vô đạo, thôn tính chư hầu, dẫn đến chiến loạn không ngừng trong thiên hạ, sinh linh đồ thán. Viêm Hoàng nhị đế, lập nên bộ tộc hùng mạnh nhất lưu vực sông Hoàng Hà: bộ tộc Hoa Hạ, để đối kháng với bộ lạc Cửu Lê của Xi Vưu. Xi Vưu được Hình Thiên, Khoa Phụ, Hỏa Thần Khang Hồi và Phong Bá Vũ Sư giúp đỡ, liên tiếp đánh bại Hoàng Đế bảy mươi hai trận, bộ tộc Hoa Hạ lâm nguy! Tuy nhiên, trong trận chiến quyết định thắng lợi cuối cùng—Trận Trác Lộc, con gái của Bắc Cực Tử Vi Thái Hoàng Đại Đế——thủy tổ cương thi Nữ Bạt, và Thiên niên thượng cổ long——Ứng Long hạ phàm giúp Hiên Viên Hoàng Đế một trận đánh tan bộ lạc Cửu Lê. Ứng Long càng lập công đầu trong trận chiến này khi誅殺 (tru sát) Xi Vưu và Khoa Phụ!\r    Thời gian trôi qua mấy ngàn năm sau, một số khí tức quỷ dị bắt đầu rục rịch trong Di Tích Hiên Viên – Chiến trường Trác Lộc…",
-						"Đội Thám Hiểm",
-						"Quân đội không rõ",
-						"Khám phá bí ẩn của Di Tích Hiên Viên",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★\rLevel: 75+\rFaction: Expedition Team VS Unknown Army\rGoal: Explore the mysteries of the Xuanyuan Ruins\rPlot:\r    In ancient times, Chiyou caused chaos. The Emperors Yan and Huang formed the Huaxia tribe to resist him. With the help of gods and the dragon Yinglong, Chiyou was finally defeated at the Battle of Zhuolu. Thousands of years later, strange energy begins to stir in the ruins of that ancient battlefield...",
+						"Expedition Team",
+						"Unknown Army",
+						"Explore the mysteries of Xuanyuan Ruins",
+						"None",
+						"None",
+						"None",
 						}
---ID:330 Di Tích Hiên Viên
-AUI_BATTLEFIELD[330] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★\rCấp độ:75+\rĐối đầu:Đội Thám Hiểm VS Quân đội không rõ\rMục tiêu:Khám phá bí ẩn của Di Tích Hiên Viên\rCốt truyện:\r    Năm Hồng Hoang thượng cổ, Xi Vưu tàn bạo vô đạo, thôn tính chư hầu, dẫn đến chiến loạn không ngừng trong thiên hạ, sinh linh đồ thán. Viêm Hoàng nhị đế, lập nên bộ tộc hùng mạnh nhất lưu vực sông Hoàng Hà: bộ tộc Hoa Hạ, để đối kháng với bộ lạc Cửu Lê của Xi Vưu. Xi Vưu được Hình Thiên, Khoa Phụ, Hỏa Thần Khang Hồi và Phong Bá Vũ Sư giúp đỡ, liên tiếp đánh bại Hoàng Đế bảy mươi hai trận, bộ tộc Hoa Hạ lâm nguy! Tuy nhiên, trong trận chiến quyết định thắng lợi cuối cùng—Trận Trác Lộc, con gái của Bắc Cực Tử Vi Thái Hoàng Đại Đế——thủy tổ cương thi Nữ Bạt, và Thiên niên thượng cổ long——Ứng Long hạ phàm giúp Hiên Viên Hoàng Đế một trận đánh tan bộ lạc Cửu Lê. Ứng Long càng lập công đầu trong trận chiến này khi tru sát Xi Vưu và Khoa Phụ!\r    Thời gian trôi qua mấy ngàn năm sau, một số khí tức quỷ dị bắt đầu rục rịch trong Di Tích Hiên Viên – Chiến trường Trác Lộc…",
-						"Đội Thám Hiểm",
-						"Quân đội không rõ",
-						"Khám phá bí ẩn của Di Tích Hiên Viên",
-						"Không",
-						"Không",
-						"Không",
-						}
---ID:294 Ma Vực Hạng Vương
+
+--ID:294 Demon Realm of King Xiang
 AUI_BATTLEFIELD[294] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★\rCấp độ:65+\rĐối đầu:Đội Thám Hiểm VS Quân đội Ma Vương\rMục tiêu:Khám phá bí mật của Ma Vực Hạng Vương\rCốt truyện:\r    Năm 203 trước Công nguyên, cuộc chiến Sở Hán kết thúc với chiến thắng toàn diện của Lưu Bang. Đời Bá Vương Hạng Vũ, tự vẫn ở Ô Giang, để lại tiếng thở dài tiếc nuối cho hậu thế. Tương truyền, sau khi Hạng Vũ chết, hồn phách của ông bị giam cầm ở vùng tuyết cực bắc. Ở đó, một Ma Thành cao lớn đáng sợ đột nhiên mọc lên trong một đêm, mấy trăm năm sau đó, nó cô đơn và thê lương đứng sừng sững giữa tuyết, kể về sự bất lực và bi ai. Gần đây, liên tiếp xuất hiện nhiều chuyện kỳ quái gần Ma Thành, hồn ma xuất hiện, người qua đường mất tích, gia súc chết thảm, và tình hình ngày càng nghiêm trọng. Người ta buộc phải tập trung ánh mắt nghi ngờ và thù hận vào bên trong Ma Thành, đoán rằng đó là nguồn gốc của mọi bất hạnh.",
-						"Đội Thám Hiểm",
-						"Quân đội Ma Vương",
-						"Khám phá bí mật của Ma Vực Hạng Vương",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★\rLevel: 65+\rFaction: Expedition Team VS Demon King's Army\rGoal: Uncover the secrets of the Demon Realm\rPlot:\r    In 203 BC, the Chu-Han war ended with Liu Bang's victory. The Hegemon King Xiang Yu committed suicide at the Wu River. Legend says his soul was imprisoned in the frozen north, where a demon city appeared overnight. Recently, ghosts and disappearances have plagued the area, and all clues lead to the city.",
+						"Expedition Team",
+						"Demon King's Army",
+						"Uncover the secrets of the Demon Realm",
+						"None",
+						"None",
+						"None",
 						}
---ID:331 Ma Vực Hạng Vương
-AUI_BATTLEFIELD[331] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★\rCấp độ:65+\rĐối đầu:Đội Thám Hiểm VS Quân đội Ma Vương\rMục tiêu:Khám phá bí mật của Ma Vực Hạng Vương\rCốt truyện:\r    Năm 203 trước Công nguyên, cuộc chiến Sở Hán kết thúc với chiến thắng toàn diện của Lưu Bang. Đời Bá Vương Hạng Vũ, tự vẫn ở Ô Giang, để lại tiếng thở dài tiếc nuối cho hậu thế. Tương truyền, sau khi Hạng Vũ chết, hồn phách của ông bị giam cầm ở vùng tuyết cực bắc. Ở đó, một Ma Thành cao lớn đáng sợ đột nhiên mọc lên trong một đêm, mấy trăm năm sau đó, nó cô đơn và thê lương đứng sừng sững giữa tuyết, kể về sự bất lực và bi ai. Gần đây, liên tiếp xuất hiện nhiều chuyện kỳ quái gần Ma Thành, hồn ma xuất hiện, người qua đường mất tích, gia súc chết thảm, và tình hình ngày càng nghiêm trọng. Người ta buộc phải tập trung ánh mắt nghi ngờ và thù hận vào bên trong Ma Thành, đoán rằng đó là nguồn gốc của mọi bất hạnh.",
-						"Đội Thám Hiểm",
-						"Quân đội Ma Vương",
-						"Khám phá bí mật của Ma Vực Hạng Vương",
-						"Không",
-						"Không",
-						"Không",
-						}
---ID:293 Cổ Điện Lâu Lan
+--ID:293 Ancient Temple of Loulan
 AUI_BATTLEFIELD[293] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★★★★\rCấp độ:76+\rĐối đầu:Đội Thám Hiểm VS Liên quân Hung Nô\rMục tiêu:Phá hủy âm mưu tà ác của Cổ Điện Lâu Lan\rCốt truyện:\r    Một trong ba mươi sáu nước Tây Vực – Lâu Lan, án ngữ yết hầu Con Đường Tơ Lụa, có quan hệ thương mại và mật thiết với nhà Hán. Nhưng nước này giáp với Hung Nô, bị họ kiềm chế, ý kiến chính trị trong nước dần chia làm hai phe, một phe chủ trương tiếp tục thân Hán, một phe kiến nghị phụ thuộc Hung Nô. Sau nhiều năm tranh giành, phe thân Hán có phần chiếm ưu thế. Để thực hiện mục đích xâm chiếm Trung Nguyên, Hung Nô lên kế hoạch lấy Lâu Lan làm cứ điểm tiền tuyến của mình, thậm chí không tiếc dùng thủ đoạn đê hèn, bắt cóc vương công quý tộc Lâu Lan, kích động binh lính phản loạn, và câu kết với phản quân chiếm giữ Cổ Điện thánh địa Lâu Lan, nghiên cứu và khai thác sức mạnh cổ xưa thần bí bên trong, dưỡng tinh súc nhuệ, ý đồ Trung Nguyên.",
-						"Đội Thám Hiểm",
-						"Liên quân Hung Nô",
-						"Phá hủy âm mưu tà ác của Cổ Điện Lâu Lan",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★★★★\rLevel: 76+\rFaction: Expedition Team VS Xiongnu Allied Forces\rGoal: Thwart the evil plot of the Ancient Temple of Loulan\rPlot:\r    Loulan, one of the thirty-six states of the Western Regions, controlled the vital throat of the Silk Road and maintained close trade ties with the Han Dynasty. However, being adjacent to the Xiongnu, it was heavily suppressed. Internal politics split into two factions: one pro-Han and the other pro-Xiongnu. After years of struggle, the pro-Han faction gained the upper hand. To invade the Central Plains, the Xiongnu planned to use Loulan as a forward base. They resorted to despicable means—kidnapping Loulan royalty, inciting military rebellions, and colluding with rebels to seize the sacred Ancient Temple. There, they research and exploit ancient mysterious powers, building their strength for an eventual invasion of the Central Plains.",
+						"Expedition Team",
+						"Xiongnu Allied Forces",
+						"Thwart the evil plot of the Ancient Temple of Loulan",
+						"None",
+						"None",
+						"None",
 						}
---ID:329 Cổ Điện Lâu Lan
+
+--ID:329 Ancient Temple of Loulan (Alt)
 AUI_BATTLEFIELD[329] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★★★★\rCấp độ:76+\rĐối đầu:Đội Thám Hiểm VS Liên quân Hung Nô\rMục tiêu:Phá hủy âm mưu tà ác của Cổ Điện Lâu Lan\rCốt truyện:\r    Một trong ba mươi sáu nước Tây Vực – Lâu Lan, án ngữ yết hầu Con Đường Tơ Lụa, có quan hệ thương mại và mật thiết với nhà Hán. Nhưng nước này giáp với Hung Nô, bị họ kiềm chế, ý kiến chính trị trong nước dần chia làm hai phe, một phe chủ trương tiếp tục thân Hán, một phe kiến nghị phụ thuộc Hung Nô. Sau nhiều năm tranh giành, phe thân Hán có phần chiếm ưu thế. Để thực hiện mục đích xâm chiếm Trung Nguyên, Hung Nô lên kế hoạch lấy Lâu Lan làm cứ điểm tiền tuyến của mình, thậm chí không tiếc dùng thủ đoạn đê hèn, bắt cóc vương công quý tộc Lâu Lan, kích động binh lính phản loạn, và câu kết với phản quân chiếm giữ Cổ Điện thánh địa Lâu Lan, nghiên cứu và khai thác sức mạnh cổ xưa thần bí bên trong, dưỡng tinh súc nhuệ, ý đồ Trung Nguyên.",
-						"Đội Thám Hiểm",
-						"Liên quân Hung Nô",
-						"Phá hủy âm mưu tà ác của Cổ Điện Lâu Lan",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★★★★\rLevel: 76+\rFaction: Expedition Team VS Xiongnu Allied Forces\rGoal: Thwart the evil plot of the Ancient Temple of Loulan\rPlot:\r    (Duplicate of ID: 293 Plot Summary)",
+						"Expedition Team",
+						"Xiongnu Allied Forces",
+						"Thwart the evil plot of the Ancient Temple of Loulan",
+						"None",
+						"None",
+						"None",
 						}
---ID:297 Tưởng Cán Trộm Sách cấp 60
+
+--ID:297 Jiang Gan Steals the Letter (Lv. 60)
 AUI_BATTLEFIELD[297] = {
-						"^fffd44Dựa trên kịch bản do Long Tộc ￠ Danh Tửu ở Điện Tín khu 2 – Bá Vương cung cấp.\r^ffffffLoại hình: Khác\rĐộ khó:★★★★★★\rCấp độ:60+\rĐối đầu:Quân Tào Tháo VS Quân Tôn Quyền\rMục tiêu:Đoạt lấy mật văn cơ mật\rCốt truyện:\r    Lúc bấy giờ là mùa đông Kiến An năm thứ mười ba, đại quân Tào Tháo và quân Đại Đô Đốc Chu Du của Đông Ngô đối đầu ở Xích Bích, rơi vào thế giằng co. Mưu sĩ Tào quân Tưởng Cán hiến kế đến thuyết phục Chu Du đầu hàng. Nhưng việc khuyên hàng bị Chu Du từ chối, Tưởng Cán lo lắng tay trắng trở về, bèn quyết định trộm mật văn cơ mật của Ngô quân quay về dâng công. Một cuộc chiến ngầm đánh cắp bí mật kinh tâm động phách, cứ thế mở ra.",
-						"Quân Tào Tháo",
-						"Quân Tôn Quyền",
-						"Bảo vệ Tưởng Cán trộm mật văn và quay về đại doanh Ô Lâm",
-						"Không",
-						"Trong ba mươi phút không trộm được mật văn",
-						"Không",
+						"^fffd44Based on a script by Long Clan (Telecom Zone 2 – Ba Vuong).\r^ffffffType: Other (Stealth)\rDifficulty: ★★★★★★\rLevel: 60+\rFaction: Cao Cao's Army VS Sun Quan's Army\rGoal: Steal the secret documents\rPlot:\r    Winter, the 13th year of Jian'an. Cao Cao's massive army and Zhou Yu's Eastern Wu forces are deadlocked at Chibi. Cao's advisor, Jiang Gan, offered to persuade Zhou Yu to surrender. After being rejected and fearing to return empty-handed, Jiang Gan decided to steal secret naval documents from the Wu camp. A soul-stirring shadow war for secrets begins.",
+						"Cao Cao's Army",
+						"Sun Quan's Army",
+						"Protect Jiang Gan as he steals the documents and returns to Wulin Camp",
+						"None",
+						"Failed to steal documents within 30 minutes",
+						"None",
 						}
---ID:298 Dạy Mã Thuật (Tôn Tổ Truyện)
+
+--ID:298 Horsemanship Training (Sun Zu's Tale)
 AUI_BATTLEFIELD[298] = {
-						"Loại hình: Nhiệm vụ\rĐộ khó:★★★\rCấp độ:30+\rMục tiêu:Vượt qua thử thách, học được Mã Thuật cao cấp\rCốt truyện:\r    Kỵ binh, là lực lượng chủ yếu tuyệt đối xung phong hãm trận, phi nước đại trên chiến trường. Mã thương nhân thần bí Tôn Tổ ở thành Trường An, rất am hiểu về chiến đấu trên lưng ngựa, muốn trở thành kỵ binh đủ tiêu chuẩn, còn cần nhờ ông chỉ điểm. Chỉ khi vượt qua hàng loạt thử thách của ông, mới có thể trải nghiệm cảm giác chiến đấu trên lưng ngựa nhanh như gió, đột kích ngàn dặm!",
-						"Quân Đồng Minh",
-						"Quân Địch",
-						"Vượt qua thử thách, học được Mã Thuật cao cấp",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Quest/Training\rDifficulty: ★★★\rLevel: 30+\rGoal: Pass the trials to learn Advanced Horsemanship\rPlot:\r    Cavalry is the absolute primary force for charging and breaking enemy lines. The mysterious horse merchant Sun Zu in Chang'an is an expert in mounted combat. To become a qualified cavalryman, you need his guidance. Only by passing his series of trials can you experience the thrill of galloping through battle like the wind!",
+						"Allied Army",
+						"Enemy Army",
+						"Pass the trials and learn Advanced Horsemanship",
+						"None",
+						"None",
+						"None",
 						}
---ID:299 Trận Bộc Dương II
+
+--ID:299 Battle of Puyang II
 AUI_BATTLEFIELD[299] = {
-						"Loại hình: Chuẩn bị chiến đấu / Chiếm tháp\rĐộ khó:★★ / ★★★★\rCấp độ:72+\rĐối đầu:Quân Lã Bố VS Quân Tào Tháo\rMục tiêu:Hòa (30 phút) / Áp đảo sĩ khí (1 giờ)\r\r    Hưng Bình nguyên niên, nhân lúc Tào Tháo dẫn chủ lực tấn công Từ Châu, Quân Lã Bố phát động tấn công vào hậu phương Tào Tháo, binh mã Tào quân ở lại cố gắng nghênh chiến, hai quân tranh giành các cứ điểm lớn nhỏ ở khu vực Bộc Dương, mỗi bên đều có thắng bại. Nghe tin hậu phương bị chiếm, Tào Tháo nghe theo phân tích của Quách Gia và các mưu sĩ khác, rút chủ lực khỏi Từ Châu, Quân Lã Bố rút về Hạ Phì. Chiến Thần Lã Bố đối đầu với gian hùng Tào Tháo, Trại Hãm Trận đối đầu với Hổ Báo Kỵ, hai bên lại展開 (triển khai) cuộc chiến ác liệt, Trận Bộc Dương cuối cùng nghênh đón cao trào Long Hổ Tương Tranh.",
-						"Quân Lã Bố",
-						"Quân Tào Tháo",
+						"Type: Preparation / Tower Capture\rDifficulty: ★★ / ★★★★\rLevel: 72+\rFaction: Lu Bu's Army VS Cao Cao's Army\rGoal: Draw (30 mins) / Overpower Morale (1 hour)\r\r    In the first year of Xingping, while Cao Cao attacked Xuzhou, Lu Bu's army struck his rear. Cao's remaining forces fought desperately for control of key points around Puyang. Hearing of the invasion, Cao Cao followed Guo Jia's advice, withdrew from Xuzhou, and forced Lu Bu back to Xiapi. The God of War Lu Bu versus the Hero of Chaos Cao Cao; the 'Camp Crusher' unit versus the 'Tiger and Leopard Cavalry.' The Battle of Puyang reaches its ultimate climax.",
+						"Lu Bu's Army",
+						"Cao Cao's Army",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:317 Trận Bộc Dương II (Dành cho Chuẩn bị chiến đấu)
+
+--ID:317 Battle of Puyang II (Preparation Phase)
 AUI_BATTLEFIELD[317] = {
-						"Loại hình: Chuẩn bị chiến đấu (Chuyên dụng)\rĐộ khó:★★ \rCấp độ:66+ \rĐối đầu:Quân Lã Bố VS Quân Tào Tháo\rMục tiêu:Hòa (30 phút)\r\r    Hưng Bình nguyên niên, nhân lúc Tào Tháo dẫn chủ lực tấn công Từ Châu, Quân Lã Bố phát động tấn công vào hậu phương Tào Tháo, binh mã Tào quân ở lại cố gắng nghênh chiến, hai quân tranh giành các cứ điểm lớn nhỏ ở khu vực Bộc Dương, mỗi bên đều có thắng bại. Nghe tin hậu phương bị chiếm, Tào Tháo nghe theo phân tích của Quách Gia và các mưu sĩ khác, rút chủ lực khỏi Từ Châu, Quân Lã Bố rút về Hạ Phì. Trận chiến cuối cùng sắp bùng nổ, quân đóng ở hai bên đều tăng cường chuẩn bị chiến đấu, nỗ lực chiếm lấy tiên cơ trên chiến trường.",
-						"Quân Lã Bố",
-						"Quân Tào Tháo",
+						"Type: Battle Preparation (Dedicated)\rDifficulty: ★★ \rLevel: 66+ \rFaction: Lu Bu's Army VS Cao Cao's Army\rGoal: Draw (30 mins)\r\r    The final battle is about to erupt. Troops on both sides are intensifying their preparations, striving to seize the initiative on the battlefield. Both sides contest various outposts in the Puyang area, with victories and defeats shared equally.",
+						"Lu Bu's Army",
+						"Cao Cao's Army",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:304 Chăn Cừu Ngoài Đồng
+
+--ID:304 Shepherding in the Wilds
 AUI_BATTLEFIELD[304] = {
-						"Loại hình: Hợp tác, giành điểm tích lũy cao\rĐộ khó:★★★\rCấp độ:15+\rCốt truyện:\r    Chư tiên không có sở thích nào khác, chỉ thích sưu tầm dị thú. Các loài kỳ lạ trong thiên hạ, đều được thu vào túi, ngày ngày thưởng ngoạn, thật là khoái trá. Không may hôm đó, chư tiên hẹn nhau đánh cờ ở Giang Du Than, vì quá hứng thú, quên hết mọi thứ xung quanh. Các dị thú nhân cơ hội trốn thoát, vui vẻ ngoài đồng, phóng túng nhân gian. Chư tiên bất đắc dĩ, đành phải nhờ quý vị, lùa các dị thú về chuồng của mình, để hoàn thành kiếp nạn này.",
-						"Tiểu đội chăn cừu",
-						"  ",
+						"Type: Cooperative, High Score Pursuit\rDifficulty: ★★★\rLevel: 15+\rPlot:\r    The immortals have no hobbies other than collecting exotic beasts. Every strange creature in the world is kept in their pouches for daily enjoyment. Unfortunately, while the immortals were engrossed in a chess match at Jiangyu Shoal, the beasts escaped to frolic in the human world. The immortals have no choice but to ask you to herd these beasts back to their pens to resolve this crisis.",
+						"Shepherding Squad",
+						" ",
 						"",
 						"",
 						"",
 						"",
-						"Vui lòng đến chỗ Quản Lộ nhận thưởng",
+						"Please go to Guan Lu to receive rewards",
 						}
---ID:308 Tào Thực Truyện
+
+--ID:308 Tale of Cao Zhi
 AUI_BATTLEFIELD[308] = {
-						"Loại hình: Khác\rĐộ khó:★★★\rCấp độ:71+\rCốt truyện:\r    Thời Kiến An, vừa lúc chính quyền Đông Hán sụp đổ, thời cuộc biến động không chỉ tạo nên một loạt anh hùng hào kiệt lưu danh sử sách, mà văn học nước ta cũng đạt đến sự phồn vinh chưa từng có trong thời loạn này. Tào Thực, con trai thứ tư của Tào Tháo, chính là đại diện tiêu biểu hoạt động trong giới văn học Kiến An, ông cùng cha và anh trai khai sáng một điển hình văn học - Phong cách Kiến An; những áng văn phong phú của ông cũng được đưa vào sử sách, được người đời ca tụng, lưu truyền ngàn đời.",
-						"Đoàn người Tào Thực",
-						"  ",
-						"Giúp Tào Thực hoàn thành lịch luyện",
+						"Type: Other (Literary/Quest)\rDifficulty: ★★★\rLevel: 71+\rPlot:\r    The Jian'an era saw the collapse of the Eastern Han and a surge of legendary heroes, but it also saw unprecedented literary prosperity. Cao Zhi, the fourth son of Cao Cao, was a leading figure in Jian'an literature. Along with his father and brother, he pioneered the 'Jian'an Style.' His rich body of work is immortalized in history and praised for generations.",
+						"Cao Zhi's Entourage",
+						" ",
+						"Help Cao Zhi complete his training",
 						"",
-						"Không",
+						"None",
 						"",
 						}
---ID:306 Thành Lầu Tây Vực
+
+--ID:306 Western Region Fortress
 AUI_BATTLEFIELD[306] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★\rCấp độ:73+\r\r    Ở vùng Tây Vực như mộng ảo, bao nhiêu huy hoàng và văn hóa đã bị chôn vùi trong bụi trần lịch sử, cát vàng cuồng phong đã càn quét suốt mấy ngàn năm, một thành phố như ảo ảnh xuất hiện trước mắt những lữ khách cùng đường, mọi người đều quỳ xuống cảm ơn lòng thương xót và từ bi của thượng đế, sau đó bước vào Thành Lầu này… Kể từ đó không còn tin tức gì nữa.",
-						"Đội Thám Hiểm",
-						"  ",
-						"Giết chết Hồ Tiên bí cảnh",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★\rLevel: 73+\r\r    In the dreamlike Western Regions, much glory and culture have been buried under the dust of history. As the desert winds howl for millennia, a city like a mirage appears before exhausted travelers. They kneel to thank God for his mercy and enter this Fortress... and are never heard from again.",
+						"Expedition Team",
+						" ",
+						"Kill the Fox Immortal of the Secret Realm",
 						"",
-						"Không",
+						"None",
 						"",
 						}
---ID:312 Trường An Trường Đua Ngựa Tập Luyện
+
+--ID:312 Chang'an Racecourse (Practice)
 AUI_BATTLEFIELD[312] = {
-						"Loại hình: Hoạt động\rĐộ khó:★\rGiới thiệu:\r    Trường đua ngựa tập luyện nằm ở Trường An, tuyển thủ có thể đến đây làm quen với đường đua, tiến hành các hoạt động làm nóng đơn giản trước khi thi đấu chính thức.\rThành tựu:\r    Ở Trường đua ngựa tập luyện, mỗi 1 giờ có thể nhận 1 lần nhiệm vụ “Dương Tiên Nhảy Vọt”. Nhiệm vụ này hoàn thành tích lũy 20 lần, có thể nhận được Đồ Giám·Trường An Trường Đua Ngựa Tập Luyện.",
-						"Tuyển thủ làm nóng",
-						"  ",
-						"Tiến hành hoạt động làm nóng ở trường đua",
+						"Type: Activity\rDifficulty: ★\rIntroduction:\r    The practice racecourse is located in Chang'an. Contestants can come here to familiarize themselves with the track and perform simple warm-up activities before official competitions.\rAchievement:\r    In the practice racecourse, you can accept the 'Leaping Whip' quest once every hour. Complete this 20 times to earn the Chang'an Practice Racecourse Illustration.",
+						"Warming-up Contestant",
+						" ",
+						"Perform warm-up activities at the racecourse",
 						"",
-						"Không",
+						"None",
 						"",
 						}
---ID:311 Đại Hội Đua Ngựa Quan Trung
+
+--ID:311 Guanzhong Horse Racing Grand Prix
 AUI_BATTLEFIELD[311] = {
-						"Loại hình: Hoạt động\rĐộ khó:★★★\rGiới thiệu:\r    Chủ Nhật - Thứ Sáu, tổ chức Đại Hội Đua Ngựa Quan Trung vào lúc 21:30 mỗi tối, người chơi cấp 60 trở lên đều có thể tham gia.\rThành tựu:\r    Khi bắt đầu cuộc đua, tuyển thủ cần nhận nhiệm vụ “Sách Mã Bôn Đằng”, nhiệm vụ này mỗi lần cuộc đua chỉ có thể hoàn thành 1 lần, hoàn thành tích lũy 15 lần có thể nhận được Đồ Giám·Đại Hội Đua Ngựa Quan Trung. Trong cuộc đua, tuyển thủ hoàn thành nhiệm vụ trước có thể tranh giành Quán quân, Á quân, Quý quân.",
-						"Tuyển thủ đua ngựa",
-						"  ",
-						"Hoàn thành 5 vòng đua",
+						"Type: Activity\rDifficulty: ★★★\rIntroduction:\r    Held every Sunday through Friday at 21:30. Players level 60+ can participate.\rAchievement:\r    At the start, contestants must take the 'Galloping Steeds' quest. This can be completed once per race. Complete it 15 times for the Guanzhong Grand Prix Illustration. The first players to finish can compete for Gold, Silver, and Bronze rankings.",
+						"Racing Contestant",
+						" ",
+						"Complete 5 laps",
 						"",
-						"Không",
+						"None",
 						"",
 						}
---ID:313 Đại Hội Đua Ngựa Thần Châu
+
+--ID:313 Shenzhou Horse Racing Grand Prix
 AUI_BATTLEFIELD[313] = {
-						"Loại hình: Hoạt động\rĐộ khó:★★★★★\rGiới thiệu:\r    Tổ chức Đại Hội Đua Ngựa Thần Châu vào lúc 21:30 mỗi tối Thứ Bảy hàng tuần, chỉ tuyển thủ cấp Tinh Anh có được Thẻ Tham Gia Đại Hội Đua Ngựa Thần Châu mới có thể tham gia.\rThành tựu:\r    Khi bắt đầu cuộc đua, tuyển thủ cần nhận nhiệm vụ “Sách Mã Bôn Đằng”, nhiệm vụ này mỗi lần cuộc đua chỉ có thể hoàn thành 1 lần, hoàn thành tích lũy 8 lần có thể nhận được Đồ Giám·Đại Hội Đua Ngựa Thần Châu. Trong cuộc đua, tuyển thủ hoàn thành nhiệm vụ trước có thể tranh giành Quán quân, Á quân, Quý quân.",
-						"Tuyển thủ đua ngựa",
-						"  ",
-						"Hoàn thành 7 vòng đua",
+						"Type: Activity\rDifficulty: ★★★★★\rIntroduction:\r    Held every Saturday at 21:30. Only Elite contestants with a Shenzhou Grand Prix Entry Ticket can participate.\rAchievement:\r    Contestants must take the 'Galloping Steeds' quest. Complete it 8 times to receive the Shenzhou Grand Prix Illustration. Top finishers compete for the Champion, Runner-up, and Third Place titles.",
+						"Racing Contestant",
+						" ",
+						"Complete 7 laps",
 						"",
-						"Không",
+						"None",
 						"",
 						}
---ID:318 Hồn Động Yểm
+
+--ID:318 Nightmare Soul Cave
 AUI_BATTLEFIELD[318] = {
 						"",
 						"",
@@ -629,226 +630,246 @@ AUI_BATTLEFIELD[318] = {
 						"",
 						"",
 						}
---ID:325 Thương Sở Ly Ca
+
+--ID:325 Elegy of Chu
 AUI_BATTLEFIELD[325] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★★★★★\rCấp độ:77+\rCốt truyện:\r    Bá nghiệp trôi về đông sự đã khó khăn, đường cùng làm sao còn sức nhổ núi? Vốn nắm chắc phần thắng, lại không ngờ bại trận ở Ô Giang. Một khúc bi ca Cái Hạ trăm năm trước, bi tráng ngàn đời. Ngoài trướng Sở, Tứ Diện Sở Ca (bốn bề vang tiếng Sở). Trong trướng Sở, mỹ nhân uống kiếm, một nụ cười vạn năm dài.",
-						"Đội Thám Hiểm",
-						"Quân đội không rõ",
-						"Khám phá bí ẩn của Thương Sở Ly Ca",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★★★★★\rLevel: 77+\rPlot:\r    The dream of hegemony fades in the east. At the end of the road, how can one still have the strength to uproot mountains? Victory seemed certain, yet defeat came at the Wu River. A hundred-year-old song of Gaixia remains tragic through the ages. Outside the Chu camp, songs of Chu rise from all sides. Inside, a beauty drinks from a sword; a single smile lasts ten thousand years.",
+						"Expedition Team",
+						"Unknown Army",
+						"Uncover the mysteries of the Elegy of Chu",
 						"",
-						"Không",
+						"None",
 						"",
-						"Ít kinh nghiệm",
+						"Low EXP",
 						}
---ID:336 Thương Sở Ly Ca
+
+--ID:336 Elegy of Chu (Alt)
 AUI_BATTLEFIELD[336] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★★★★★\rCấp độ:77+\rCốt truyện:\r    Bá nghiệp trôi về đông sự đã khó khăn, đường cùng làm sao còn sức nhổ núi? Vốn nắm chắc phần thắng, lại không ngờ bại trận ở Ô Giang. Một khúc bi ca Cái Hạ trăm năm trước, bi tráng ngàn đời. Ngoài trướng Sở, Tứ Diện Sở Ca. Trong trướng Sở, mỹ nhân uống kiếm, một nụ cười vạn năm dài.",
-						"Đội Thám Hiểm",
-						"Quân đội không rõ",
-						"Khám phá bí ẩn của Thương Sở Ly Ca",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★★★★★\rLevel: 77+\rPlot:\r    (Duplicate of ID: 325 Plot Summary)",
+						"Expedition Team",
+						"Unknown Army",
+						"Uncover the mysteries of the Elegy of Chu",
 						"",
-						"Không",
+						"None",
 						"",
-						"Ít kinh nghiệm",
+						"Low EXP",
 						}
---ID:334 Đại Hội Lôi Đài·Mùa I
+
+--ID:334 Grand Arena · Season I
 AUI_BATTLEFIELD[334] = {
-						"Loại hình: Đấu trường\rThời gian:15 phút\rCấp độ:70+\rMục tiêu:Trong 15 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Vương Giả Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 15 minutes\rLevel: 70+\rGoal: Achieve more kills than the opponent within 15 minutes, or capture the 'King's Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
-						"Nhận thưởng ở chỗ Hỏa Đức Tinh Quân",
+						"Receive rewards from the Fire Star Lord",
 						}
---ID:335 Chiến Trận Anh Hùng Đấu Trường
+
+--ID:335 Hero's Battle Arena
 AUI_BATTLEFIELD[335] = {
-						"Loại hình: Đấu trường\rThời gian:10 phút\rCấp độ:80+\rMục tiêu:Trong 10 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Vương Giả Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 10 minutes\rLevel: 80+\rGoal: Achieve more kills than the opponent within 10 minutes, or capture the 'King's Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
-						"Nhận thưởng ở chỗ Hỏa Đức Tinh Quân",
+						"Receive rewards from the Fire Star Lord",
 						}
---ID:348 Đại Hội Lôi Đài·Hạng Nhẹ
+
+--ID:348 Grand Arena · Lightweight
 AUI_BATTLEFIELD[348] = {
-						"Loại hình: Đấu trường\rThời gian:15 phút\rCấp độ:60-69\rMục tiêu:Trong 15 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Anh Hùng Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 15 minutes\rLevel: 60-69\rGoal: Achieve more kills than the opponent within 15 minutes, or capture the 'Hero's Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
-						"Nhận thưởng ở chỗ Hỏa Đức Tinh Quân",
+						"Receive rewards from the Fire Star Lord",
 						}
---ID:333 Mã Siêu Truyện
+
+--ID:333 Tale of Ma Chao (Vengeance)
 AUI_BATTLEFIELD[333] = {
-						"Loại hình: Tiêu diệt thủ lĩnh\rĐộ khó:★★★\rCấp độ:65+\rCốt truyện:\r    Kiến An năm thứ mười ba (năm 208 Tây lịch), Tào Mạnh Đức nhậm chức Tể Tướng nhà Hán, tích cực nam chinh, nhưng cuối cùng vẫn không yên tâm về các thế lực cát cứ ở Quan Trung và Tây Lương, bèn đặc biệt phái sứ giả sang Lương Châu phía tây, lấy danh nghĩa triều đình phong cho Mã Đằng tước hiệu Chinh Nam Tướng Quân, lệnh ông theo quân thảo phạt Tôn Quyền. Thế là, Mã Đằng dẫn con trai thứ Mã Hưu, Mã Thiết và 5000 binh lính Tây Lương theo lệnh đến dưới thành Hứa Xương. Không lâu sau, binh lính Tây Lương bị Tào Mạnh Đức tiêu diệt, ba cha con Mã Đằng cũng bị sát hại thảm khốc. Mã Siêu biết tin, vô cùng đau buồn phẫn nộ, thề phải tự tay giết Tào Mạnh Đức, để báo thù rửa hận.",
-						"Quân Mã Siêu",
-						"Quân Tào Tháo",
-						"Tiêu diệt tất cả chủ tướng trại Tào",
-						"Mã Siêu tử trận",
-						"Mã Siêu bị giết",
-						"Tất cả chủ tướng tử trận",
+						"Type: Defeat Leader\rDifficulty: ★★★\rLevel: 65+\rPlot:\r    In 208 AD, Cao Cao became Chancellor and pushed south, but remained wary of the factions in Guanzhong and Xiliang. He summoned Ma Teng to the capital with a title. Ma Teng and two of his sons were subsequently lured and executed. Upon hearing the news, Ma Chao was consumed by grief and rage, vowing to kill Cao Cao with his own hands to avenge his family.",
+						"Ma Chao's Army",
+						"Cao Cao's Army",
+						"Eliminate all commanders in the Cao camp",
+						"Ma Chao falls in battle",
+						"Ma Chao was killed",
+						"All commanders killed in action",
 						}
---ID:351 Trận Mạch Thành
+
+--ID:351 Battle of Maicheng
 AUI_BATTLEFIELD[351] = {
-						"Loại hình: Hợp tác, hộ tống\rĐộ khó:★★★★\rCấp độ:75+\rCốt truyện:\r    Mùa đông Kiến An năm thứ hai mươi tư, Ngụy Ngô liên minh đối kháng Quan Vũ, Quan Vũ không địch lại bại rút về Mạch Thành. Quan Vũ – người ở vào đường cùng quyết định đột phá vòng vây trong đêm, nhưng Lã Mông đã sớm giăng thiên la địa võng trên con đường ông ta nhất định phải đi qua. Quan Vũ – vị Võ Thánh thời Tam Quốc này, liệu có thoát khỏi hiểm cảnh?",
-						"Quân Quan Vũ",
-						"Quân Lã Mông",
-						"Hỗ trợ Quan Vũ và những người khác đột phá vòng vây",
-						"Tiêu diệt toàn bộ quân Quan Vũ",
-						"Đột phá vòng vây thất bại",
-						"Quan Vũ đột phá vòng vây thành công",
-						"Ít kinh nghiệm",
+						"Type: Cooperative, Escort\rDifficulty: ★★★★\rLevel: 75+\rPlot:\r    Winter, the 24th year of Jian'an. The Wei-Wu alliance forced Guan Yu to retreat to Maicheng. At the end of his rope, he decided to break the siege at night, but Lu Meng had already set an inescapable trap. Can the 'Saint of War' escape this peril?",
+						"Guan Yu's Army",
+						"Lu Meng's Army",
+						"Assist Guan Yu and others in breaking the siege",
+						"Annihilate Guan Yu's army",
+						"Breakout failed",
+						"Guan Yu successfully broke the siege",
+						"Low EXP",
 						}
---ID:352 Điêu Thuyền Truyện
+
+--ID:352 Tale of Diao Chan
 AUI_BATTLEFIELD[352] = {
-						"Loại hình: Điểm tích lũy, nhiệm vụ\rĐộ khó:★★★\rCấp độ:70+\rCốt truyện:\r    Tam Quốc tình tay ba, Điêu Thuyền Lã Phụng Tiên, Thái Sư đến gặp gỡ, một vở kịch hay. Lầu Bái Nguyệt bắt mật thám, Tiểu Âm Tào thưởng họa tiên; một người là Phong Khởi Lũng Tây, một người là Phong Độ Phiên Phiên. Nếu nói không có duyên kỳ lạ, kiếp này lại gặp nhau; nếu nói có duyên kỳ lạ, tại sao tâm sự cuối cùng lại hóa thành hư vô.",
-						"Đoàn người Điêu Thuyền",
-						"Gia Đinh Phủ Đổng",
-						"Điêu Thuyền và người tình cuối cùng thành quyến thuộc",
-						"Không",
-						"Không",
-						"Không",
-						"Ít kinh nghiệm",
+						"Type: Points / Quest\rDifficulty: ★★★\rLevel: 70+\rPlot:\r    A Three Kingdoms love triangle involving Diao Chan, Lu Bu, and the Chancellor. A chase at the Moon-Worship Pavilion, a meeting with a portrait immortal; one is the 'Wind Rising from Longxi,' the other is a man of peerless grace. If they were not destined, why meet in this life? If they were, why does the heart's desire turn into nothingness?",
+						"Diao Chan's Entourage",
+						"Dong Mansion Guards",
+						"Diao Chan and her lover are united at last",
+						"None",
+						"None",
+						"None",
+						"Low EXP",
 						}
---ID:353 Trận Hạ Khẩu
+
+--ID:353 Battle of Xiakou
 AUI_BATTLEFIELD[353] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★\rCấp độ:80\rCốt truyện:\r    Hạ Khẩu, thời Đông Hán thuộc Giang Hạ Quận Kinh Châu, chia ưu thế Kinh Tương mà áp đảo Kinh Tương, là một trung tâm quân sự quan trọng kết nối hai châu Kinh, Dương, lại là yếu điểm phải chiếm khi Dương Châu phía đông nam ngược sông Tây tiến. Kiến An năm thứ mười ba, Tôn Quyền dẫn binh phạt Hoàng Tổ, thu phục Cam Ninh, từ đó vững vàng chiếm giữ Hạ Khẩu, đặt nền móng cho thắng lợi của trận Xích Bích. Đông Ngô từ đó chế tạo rộng rãi chiến thuyền, phái binh phòng thủ bờ sông; lại lệnh Tôn Tĩnh dẫn quân thủ Ngô Hội; Tôn Quyền tự mình thống lĩnh đại quân, đóng ở Sài Tang; Chu Du ngày ngày ở Hồ Bà Dương luyện tập thủy quân, để chuẩn bị công chiến.",
-						"Ngô Quân",
-						"Hoàng Tổ Quân ",
-						"Tiêu diệt đại tướng địch",
-						"Không",
-						"Chủ tướng tử trận",
-						"Không",
-						"Ít kinh nghiệm",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★\rLevel: 80\rPlot:\r    Xiakou was a vital military hub connecting Jing and Yang provinces. In 208 AD, Sun Quan attacked Huang Zu and recruited Gan Ning, securing Xiakou and laying the foundation for the victory at Chibi. Eastern Wu then expanded its fleet, with Sun Jing guarding Wu Hui and Sun Quan leading the main force at Saishang, while Zhou Yu trained the navy at Poyang Lake.",
+						"Wu Army",
+						"Huang Zu's Army",
+						"Defeat the enemy general",
+						"None",
+						"Commander killed in action",
+						"None",
+						"Low EXP",
 						}
---ID:354 Ngọa Long Cửu Thiên
+
+--ID:354 Sleeping Dragon's Ascension (Zhuge Liang's Marriage)
 AUI_BATTLEFIELD[354] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★★\rCấp độ:Anh Hùng 5+\rCốt truyện:\r    Kiến An năm thứ bảy, Khổng Minh ẩn mình ở Long Trung, theo học Thủy Kính Tiên Sinh Tư Mã Huy. Lượng bình thường thích đọc 《Lương Phụ Ngâm》, lại thường tự ví mình với Quản Trọng, Nhạc Nghị, danh tiếng vang khắp Kinh Châu, người ta gọi là “Ngọa Long”. Lúc bấy giờ có danh sĩ Kinh Châu Hoàng Thừa Ngạn, khen tài của Lượng, vừa lúc có con gái chưa gả, muốn chiêu Lượng làm rể.\r    Hoàng Thừa Ngạn đã nói trước, Gia Cát Lượng muốn cưới Nguyệt Anh, phải vượt qua trùng trùng thử thách. Hơn nữa Nguyệt Anh nổi tiếng bên ngoài, thông minh như băng tuyết, số người ngưỡng mộ vô số kể. Thử thách này, e rằng khó khăn hơn ngoài mưu lược. Thế là Gia Cát Lượng nói: “Nếu giúp cưới vợ, Lượng ghi lòng tạc dạ, tất có hậu tạ.” Nhất thời hào hiệp thiên hạ không ai không chấn động, ùn ùn kéo đến Long Trung.\r    Lão trượng nhân Hoàng Thừa Ngạn để lại một túi gấm thần bí, đoàn người Gia Cát Lượng sẽ đối mặt với thử thách chưa biết như thế nào? Một cuộc đại chiến cầu hôn cô đọng những gian khổ tình cảm, so tài trí mưu lược sắp展開 (triển khai).",
-						"Đoàn người Khổng Minh",
-						"Người thần bí",
-						"Gia Cát Lượng và Hoàng Nguyệt Anh kết duyên vợ chồng",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★★\rLevel: Hero 5+\rPlot:\r    In 202 AD, Zhuge Liang (Kongming) lived in seclusion at Longzhong. He compared himself to Guan Zhong and Yue Yi, earning the nickname 'Sleeping Dragon.' The local scholar Huang Chengyan offered his daughter, Yueying, in marriage. However, Kongming had to pass several trials first. Yueying was famous for her intelligence, and many sought her hand. This trial of wits and courage would prove harder than any military strategy. Kongming vowed: 'If you help me win my bride, I shall never forget your kindness.'",
+						"Kongming's Entourage",
+						"Mysterious Persons",
+						"Zhuge Liang and Huang Yueying are united in marriage",
+						"None",
+						"None",
+						"None",
 						}
---ID:372 Ngọa Long Cửu Thiên
+
+--ID:372 Sleeping Dragon's Ascension (Alt)
 AUI_BATTLEFIELD[372] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★★\rCấp độ:Anh Hùng 5+\rCốt truyện:\r    Kiến An năm thứ bảy, Khổng Minh ẩn mình ở Long Trung, theo học Thủy Kính Tiên Sinh Tư Mã Huy. Lượng bình thường thích đọc 《Lương Phụ Ngâm》, lại thường tự ví mình với Quản Trọng, Nhạc Nghị, danh tiếng vang khắp Kinh Châu, người ta gọi là “Ngọa Long”. Lúc bấy giờ có danh sĩ Kinh Châu Hoàng Thừa Ngạn, khen tài của Lượng, vừa lúc có con gái chưa gả, muốn chiêu Lượng làm rể.\r    Hoàng Thừa Ngạn đã nói trước, Gia Cát Lượng muốn cưới Nguyệt Anh, phải vượt qua trùng trùng thử thách. Hơn nữa Nguyệt Anh nổi tiếng bên ngoài, thông minh như băng tuyết, số người ngưỡng mộ vô số kể. Thử thách này, e rằng khó khăn hơn ngoài mưu lược. Thế là Gia Cát Lượng nói: “Nếu giúp cưới vợ, Lượng ghi lòng tạc dạ, tất có hậu tạ.” Nhất thời hào hiệp thiên hạ không ai không chấn động, ùn ùn kéo đến Long Trung.\r    Lão trượng nhân Hoàng Thừa Ngạn để lại một túi gấm thần bí, đoàn người Gia Cát Lượng sẽ đối mặt với thử thách chưa biết như thế nào? Một cuộc đại chiến cầu hôn cô đọng những gian khổ tình cảm, so tài trí mưu lược sắp triển khai.",
-						"Đoàn người Khổng Minh",
-						"Người thần bí",
-						"Gia Cát Lượng và Hoàng Nguyệt Anh kết duyên vợ chồng",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★★\rLevel: Hero 5+\rPlot:\r    (Duplicate of ID: 354 Plot Summary)",
+						"Kongming's Entourage",
+						"Mysterious Persons",
+						"Zhuge Liang and Huang Yueying are united in marriage",
+						"None",
+						"None",
+						"None",
 						}
---ID:362 Quốc Chiến Hàng Ngày - Trận Tập Kích (Điểm tích lũy)
+
+--ID:362 Daily National War - Raid (Points)
 AUI_BATTLEFIELD[362] = {
 						"",
-						"Bên tấn công",
-						"Bên phòng thủ",
+						"Attacker",
+						"Defender",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:380 Chiến Trường 4D (Điểm tích lũy)
+
+--ID:380 4D Battlefield (Historical Remake)
 AUI_BATTLEFIELD[380] = {
-						"Loại hình: Hợp tác, thay đổi lịch sử\rĐộ khó:★★★★★\rCấp độ:68+\rCốt truyện:\r    Nước chảy ngược dòng, phong ba xoay chuyển. Lại vào chiến trường, giấc mộng không còn như xưa. Thủy Kính Tiên Sinh, mượn sức mạnh của trời, lại mở “Phi Tướng Hồi Thiên”, “Tây Lương Nhiễu Loạn”, “Trận Hợp Phì”. Thoáng chốc như hôm qua nhưng cảnh vật đã đổi thay, thiếu niên cẩm y chớp mắt thành kẻ thù xa lạ. Dòng chảy thời đại rốt cuộc sẽ đi về đâu, hung khí trong tay, lòng nhân từ trong tim, đường ở dưới chân.",
-						"Nghịch Lữ Sơn Nhân",
-						"Kẻ thù thời không",
-						"Giết chết Trương Liêu",
-						"Giết chết Tôn Quyền",
-						"Tôn Quyền tử trận",
-						"Trương Liêu tử trận",
+						"Type: Cooperative, Altering History\rDifficulty: ★★★★★\rLevel: 68+\rPlot:\r    The river of time flows backward; the winds of fate shift. Revisit the battlefields, but the dream is no longer the same. Mr. Water Mirror (Sima Hui) borrows the power of heaven to reopen 'Lu Bu's Return,' 'Xiliang Rebellion,' and the 'Battle of Hefei.' In the blink of an eye, the past returns but the scenery has changed. Where will the era go? With weapons in hand and mercy in heart, the path lies beneath your feet.",
+						"Hermit of the Reverse Path",
+						"Time-Space Enemies",
+						"Kill Zhang Liao",
+						"Kill Sun Quan",
+						"Sun Quan killed in action",
+						"Zhang Liao killed in action",
 						}
---ID:521 Trường Đua Liên Server Tập Luyện
+
+--ID:521 Cross-Server Training Track
 AUI_BATTLEFIELD[521] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:75+\rSố người:4-10 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 75+\rPlayers: 4-10 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:522 Đấu Trường Liên Server•Vòng Tuyển Chọn tuyến 3
+--ID:522 Cross-Server Arena • Qualifying Round Line 3
 AUI_BATTLEFIELD[522] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:60+\rSố người:6-15 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 60+\rPlayers: 6-15 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:523 Đấu Trường Liên Server•Vòng Tuyển Chọn tuyến 4
+
+--ID:523 Cross-Server Arena • Qualifying Round Line 4
 AUI_BATTLEFIELD[523] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:60+\rSố người:6-15 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 60+\rPlayers: 6-15 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:524 Đấu Trường Liên Server•Vòng Tuyển Chọn tuyến 5
+
+--ID:524 Cross-Server Arena • Qualifying Round Line 5
 AUI_BATTLEFIELD[524] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:60+\rSố người:6-15 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 60+\rPlayers: 6-15 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:525 Đấu Trường Liên Server•Vòng Tuyển Chọn tuyến 6
+
+--ID:525 Cross-Server Arena • Qualifying Round Line 6
 AUI_BATTLEFIELD[525] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:60+\rSố người:6-15 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 60+\rPlayers: 6-15 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:526 Đấu Trường Liên Server•Vòng Tuyển Chọn tuyến 7
+
+--ID:526 Cross-Server Arena • Qualifying Round Line 7
 AUI_BATTLEFIELD[526] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:60+\rSố người:6-15 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 60+\rPlayers: 6-15 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:527 Đấu Trường Liên Server•Vòng Tuyển Chọn tuyến 8
+
+--ID:527 Cross-Server Arena • Qualifying Round Line 8
 AUI_BATTLEFIELD[527] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:60+\rSố người:6-15 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 60+\rPlayers: 6-15 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:528 Đấu Trường Liên Server•Vòng Liên Server tuyến 3
+
+--ID:528 Cross-Server Round • Line 3
 AUI_BATTLEFIELD[528] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:75+\rSố người:4-10 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 75+\rPlayers: 4-10 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
@@ -856,102 +877,106 @@ AUI_BATTLEFIELD[528] = {
 						"",
 						}
 
-
-
-
-
-
+--ID:529 Cross-Server Round • Line 4 (Missing ID comment in original)
 AUI_BATTLEFIELD[529] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:75+\rSố người:4-10 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 75+\rPlayers: 4-10 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:530 Đấu Trường Liên Server•Vòng Liên Server tuyến 5
+
+--ID:530 Cross-Server Round • Line 5
 AUI_BATTLEFIELD[530] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:75+\rSố người:4-10 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 75+\rPlayers: 4-10 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:531 Đấu Trường Liên Server•Vòng Liên Server tuyến 6
+
+--ID:531 Cross-Server Round • Line 6
 AUI_BATTLEFIELD[531] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:75+\rSố người:4-10 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 75+\rPlayers: 4-10 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:532 Đấu Trường Liên Server•Vòng Liên Server tuyến 7
+
+--ID:532 Cross-Server Round • Line 7
 AUI_BATTLEFIELD[532] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:75+\rSố người:4-10 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 75+\rPlayers: 4-10 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:533 Đấu Trường Liên Server•Vòng Liên Server tuyến 8
+
+--ID:533 Cross-Server Round • Line 8
 AUI_BATTLEFIELD[533] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:75+\rSố người:4-10 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 75+\rPlayers: 4-10 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:534 Đấu Trường Liên Server•Vòng Liên Server tuyến 9
+
+--ID:534 Cross-Server Round • Line 9
 AUI_BATTLEFIELD[534] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:75+\rSố người:4-10 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 75+\rPlayers: 4-10 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:535 Đấu Trường Liên Server•Vòng Liên Server tuyến 10
+
+--ID:535 Cross-Server Round • Line 10
 AUI_BATTLEFIELD[535] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:75+\rSố người:4-10 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 75+\rPlayers: 4-10 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:536 Đấu Trường Liên Server•Vòng Liên Server tuyến 11
+
+--ID:536 Cross-Server Round • Line 11
 AUI_BATTLEFIELD[536] = {
-						"Loại hình: Đấu trường\rThời gian:20 phút\rCấp độ:60+\rSố người:6-15 (Giới hạn người xem 50)\rMục tiêu:Trong 20 phút số lần tiêu diệt vượt qua đối phương, hoặc đoạt lấy Thắng Lợi Chi Đỉnh ở trung tâm.",
-						"Đội Đỏ",
-						"Đội Xanh",
+						"Type: Arena\rTime: 20 minutes\rLevel: 60+\rPlayers: 6-15 (Spectator limit 50)\rGoal: Achieve more kills than the opponent within 20 minutes, or capture the 'Victory Peak' in the center.",
+						"Red Team",
+						"Blue Team",
 						"",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:540 Vô Song 09 Vượt Ải Chém Tướng
+
+--ID:540 Matchless 09: Five Passes, Six Generals
 AUI_BATTLEFIELD[540] = {
-						"Loại hình: Hoạt động, Thử thách phòng\rĐộ khó:★★★★\rCấp độ:80+\rSố người:4-4\rGiới thiệu:Dọc ngang thời đại Tam Quốc, thử thách ải vô cực, giúp quần hùng viết lại lịch sử Tam Quốc!",
-						"Đội Thử Thách",
+						"Type: Activity, Room Challenge\rDifficulty: ★★★★\rLevel: 80+\rPlayers: 4-4\rIntroduction: Traverse the Three Kingdoms era, challenge infinite passes, and help heroes rewrite history!",
+						"Challenge Team",
 						"",
 						"",
 						"",
@@ -959,1225 +984,1262 @@ AUI_BATTLEFIELD[540] = {
 						"",
 						"",
 						}
---ID:747 Trận Bộc Dương cấp Anh Hùng
+
+--ID:747 Battle of Puyang (Hero Grade)
 AUI_BATTLEFIELD[747] = {
-						"Loại hình: Đối kháng, giành điểm tích lũy\rĐộ khó:★★★★\rCấp độ:Anh Hùng cấp 1+\rĐối đầu:Quân Tào Tháo VS Quân Lã Bố\rMục tiêu:Đạt mục tiêu điểm tích lũy trước\rCốt truyện:\r    Hưng Bình nguyên niên (năm 194 Tây lịch), Thứ sử Duyện Châu Tào Tháo giương cao cờ trắng báo thù cho cha, phát binh thảo phạt Thứ sử Từ Châu Đào Khiêm. Ngay khi Tào quân đang thắng lợi liên tiếp ở Từ Châu, căn cứ địa Duyện Châu của Tào Tháo đột nhiên xảy ra biến cố lớn. Bộ hạ của Tào Tháo là Trương Mạo, Trần Cung dẫn quân phiêu bạt của Lã Bố vào Duyện Châu, giương cao cờ phản! Hổ lang chi sư của Chiến Thần Lã Bố nhanh chóng càn quét khắp đất Duyện Châu, Tào Tháo nghe tin lập tức giảng hòa với Quân Lưu Bị ở Từ Châu, rút quân về Duyện Châu, triển khai cuộc chiến khốc liệt kéo dài hơn một năm với Quân Lã Bố ở Bộc Dương.",
-						"Quân Tào Tháo",
-						"Quân Lã Bố",
+						"Type: Competitive, Point Capture\rDifficulty: ★★★★\rLevel: Hero Lv.1+\rFaction: Cao Cao's Army VS Lu Bu's Army\rGoal: Reach the point threshold first\rPlot:\r    In 194 AD, Cao Cao attacked Tao Qian in Xuzhou to avenge his father. While he was winning, his home base of Yanzhou was betrayed by Zhang Miao and Chen Gong, who welcomed Lu Bu. Lu Bu's 'Tiger and Wolf' army swept through Yanzhou. Cao Cao quickly made peace with Liu Bei to return home, beginning a fierce year-long war with Lu Bu at Puyang.",
+						"Cao Cao's Army",
+						"Lu Bu's Army",
 						"",
 						"",
 						"",
 						"",
 						}
+
+--ID:759 Huarong Road (Hero Grade)
 AUI_BATTLEFIELD[759] = {
-						"Loại hình: Hộ tống, giành điểm tích lũy\rĐộ khó:★★★★\rCấp độ:Anh Hùng cấp 16+\rĐối đầu:Quân Tào Tháo VS Liên quân Tôn Lưu\rMục tiêu:Hộ tống Tào Tháo vượt qua Hoa Dung Đạo\rCốt truyện:\r    Kiến An năm thứ mười ba, Tào Tháo dẫn đại quân Ngụy quốc đối đầu với Liên quân Ngô Thục ở Xích Bích, Đại Đô Đốc Ngô quốc Chu Du dùng kế trá hàng và hỏa công đại phá Ngụy quân, đối mặt với đại quân trong chốc lát tan thành tro bụi, Tào Tháo chỉ còn cách dẫn tàn binh bại tướng chạy trốn về Hứa Xương. Trên đường trốn chạy khỏi vòng vây truy đuổi của quân Thục Ngô, cuối cùng đã đến Hoa Dung Đạo, nhưng lại gặp phải Quan Vũ danh chấn Hoa Hạ tại đây…",
-						"Quân Tào Tháo",
-						"Liên quân Tôn Lưu",
+						"Type: Escort, Point Based\rDifficulty: ★★★★\rLevel: Hero Lv.16+\rFaction: Cao Cao's Army VS Sun-Liu Allied Forces\rGoal: Escort Cao Cao through Huarong Road\rPlot:\r    13th year of Jian'an. After the fire at Chibi destroyed his fleet, Cao Cao fled toward Xuchang. While escaping the pursuit of Wu and Shu forces, he reached Huarong Road, only to encounter the legendary Guan Yu...",
+						"Cao Cao's Army",
+						"Sun-Liu Allied Forces",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:903 Ảo Tưởng Bát Trận Đồ Khai Môn
+
+--ID:903 Fantasy Eight Trigrams Formation: Open Gate
 AUI_BATTLEFIELD[903] = {
-						"Loại hình: Điểm tích lũy, Thủ tháp\rĐộ khó:★★★\rCấp độ:Anh Hùng cấp 1+\rĐối đầu:Cơ quan Bát Trận VS Quân địch xông trận\rMục tiêu:Điều khiển cơ quan đánh bại quân địch\rCốt truyện:\r      Gia Cát Khổng Minh từng bày trận đá, tên là Bát Trận Đồ. Lặp lại tám cửa, theo Độn Giáp là Hưu, Sinh, Thương, Đỗ, Cảnh, Tử, Kinh, Khai. Khai Môn, là bình phong thứ nhất của Bát Trận, ý ở ngăn chặn kẻ địch xông trận thông thường.\r      Nghĩa sĩ hãy vào từ Khai Môn, dùng ngọc thạch ảo hóa cơ quan Bát Trận, đẩy lui kẻ địch Trận Tốt, Trận Sĩ, Trận Pháo, Trận Tướng để thể ngộ: Bát Trận Đồ phục trăm vạn hùng binh, kẻ địch bốn phương đến có đi không về.",
-						"Cơ quan Bát Trận",
-						"Quân địch xông trận",
+						"Type: Point Based, Tower Defense\rDifficulty: ★★★\rLevel: Hero Lv.1+\rFaction: Eight Trigrams Mechanism VS Invading Enemies\rGoal: Control mechanisms to defeat enemies\rPlot:\r    Zhuge Liang once arranged a stone formation called the Eight Trigrams. It consists of eight gates: Rest, Life, Injury, Limit, View, Death, Shock, and Open. The 'Open Gate' is the first shield, designed to stop standard incursions. Warriors must use jade to power the mechanisms and repel waves of enemy soldiers to understand how this formation can hold back a million-strong army.",
+						"Eight Trigrams Mechanism",
+						"Invading Enemies",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:905 Ảo Tưởng Bát Trận Đồ Khai Môn (Thủ lĩnh)
+
+--ID:905 Fantasy Eight Trigrams Formation: Open Gate (Leader)
 AUI_BATTLEFIELD[905] = {
-						"Loại hình: Điểm tích lũy, Thủ tháp\rĐộ khó:★★★\rCấp độ:Anh Hùng cấp 1+\rĐối đầu:Cơ quan Bát Trận VS Quân địch xông trận\rMục tiêu:Điều khiển cơ quan đánh bại quân địch\rCốt truyện:\r      Gia Cát Khổng Minh từng bày trận đá, tên là Bát Trận Đồ. Lặp lại tám cửa, theo Độn Giáp là Hưu, Sinh, Thương, Đỗ, Cảnh, Tử, Kinh, Khai. Khai Môn, là bình phong thứ nhất của Bát Trận, ý ở ngăn chặn kẻ địch xông trận thông thường.\r      Nghĩa sĩ hãy vào từ Khai Môn, dùng ngọc thạch ảo hóa cơ quan Bát Trận, đẩy lui kẻ địch Trận Tốt, Trận Sĩ, Trận Pháo, Trận Tướng để thể ngộ: Bát Trận Đồ phục trăm vạn hùng binh, kẻ địch bốn phương đến có đi không về.",
-						"Cơ quan Bát Trận",
-						"Quân địch xông trận",
+						"Type: Point Based, Tower Defense\rDifficulty: ★★★\rLevel: Hero Lv.1+\rFaction: Eight Trigrams Mechanism VS Invading Enemies\rGoal: Control mechanisms to defeat enemies\rPlot:\r    (Same as ID:903 - Focuses on the Leader encounter within the Open Gate).",
+						"Eight Trigrams Mechanism",
+						"Invading Enemies",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:904 Ảo Tưởng Bát Trận Đồ Hưu Môn
+
+--ID:904 Fantasy Eight Trigrams Formation: Rest Gate
 AUI_BATTLEFIELD[904] = {
-						"Loại hình: Điểm tích lũy, tiêu diệt thủ lĩnh\rĐộ khó:★★★\rCấp độ:Anh Hùng cấp 31+\rĐối đầu:Đội Thử Thách VS Ảo ảnh Bát Trận\rMục tiêu:Thử thách 8 ải Ảo ảnh Anh Hùng\rCốt truyện:\r      Gia Cát Khổng Minh từng bày trận đá, tên là Bát Trận Đồ. Lặp lại tám cửa, theo Độn Giáp là Hưu, Sinh, Thương, Đỗ, Cảnh, Tử, Kinh, Khai. Hưu Môn, là bình phong thứ hai của Bát Trận, ở cung Khảm phương Bắc, là nơi vạn vật nghỉ ngơi sinh sôi, cũng là cửa cát lợi.\r      Trong trận có Linh Thạch, mô phỏng tàn tượng Anh Kiệt đương thời, Nghĩa sĩ nên nhanh chóng phá giải.",
-						"Đội Thử Thách",
-						"Ảo ảnh Bát Trận",
+						"Type: Point Based, Defeat Leader\rDifficulty: ★★★\rLevel: Hero Lv.31+\rFaction: Challenge Team VS Trigram Phantoms\rGoal: Challenge 8 stages of Hero Phantoms\rPlot:\r    The 'Rest Gate' is the second shield of the Eight Trigrams, located in the North (Kan Position). It is a place for all things to rest and flourish, considered an auspicious gate. Within, Soul Stones simulate the images of great heroes from the current age; warriors must defeat them quickly.",
+						"Challenge Team",
+						"Trigram Phantoms",
 						"",
 						"",
 						"",
 						"",
 						}
 
---ID:906 Vô Song 11 Hoàng Lăng Bắc Mang
+--ID:906 Matchless 11: Beimang Imperial Tombs
 AUI_BATTLEFIELD[906] = {
-						"Loại hình: Thám hiểm, giành điểm tích lũy\rĐộ khó:★★★★★★\rCấp độ:Anh Hùng cấp 35+\rMục tiêu:Thám hiểm Hoàng Lăng Bắc Mang, đào kho báu\rCốt truyện:\r    	Từ sau khi Hắc Ngọc Tỷ ở Lạc Dương xuất hiện, Bạch Y Nhân Đông Hải dị cầu tiên, thế lực Khăn Vàng trên đất Thanh Châu lại trỗi dậy, tất cả những điều này dường như là một bí ẩn khổng lồ, rốt cuộc đằng sau đó ẩn giấu âm mưu gì. Hoàng Lăng Bắc Mang nơi xuất hiện Hắc Ngọc Tỷ rốt cuộc có bí mật gì…",
-						"Đội Thử Thách",
-						"Vong Hồn Hoàng Lăng",
+						"Type: Exploration, Point Based\rDifficulty: ★★★★★★\rLevel: Hero Lv.35+\rGoal: Explore the Beimang Tombs and dig for treasure\rPlot:\r    Since the appearance of the Black Jade Seal in Luoyang and the resurgence of the Yellow Turbans in Qingzhou, a massive mystery has unfolded. What secrets are hidden within the Beimang Imperial Tombs where the Black Seal was found?",
+						"Challenge Team",
+						"Imperial Tomb Wraiths",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:907 Diễn Nghĩa 14 Chùa Cam Lộ
+
+--ID:907 Legend 14: Ganlu Temple
 AUI_BATTLEFIELD[907] = {
-						"Loại hình: Cốt truyện, Điểm tích lũy, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★\rCấp độ:Anh Hùng cấp 35+\rMục tiêu:Điểm tích lũy đạt 500 trở lên\rCốt truyện:\r      Sau trận Xích Bích, Tào Tháo rút về phương Bắc cố thủ, Đông Ngô chiếm giữ Giang Nam, Lưu Bị chiếm cứ Kinh Châu, thế chân vạc đã hình thành. Tôn Quyền đòi Lưu Bị “trả lại” Kinh Châu không thành, bèn bày kế, nhân lúc vợ Lưu Bị vừa qua đời, lấy danh nghĩa chiêu rể, gả em gái Tôn Quyền là Tôn Thượng Hương cho Lưu Bị, đợi khi dụ được ông đến Đông Ngô, sẽ giữ lại, để đổi lấy Kinh Châu. Nào ngờ Gia Cát Lượng đã sớm nhìn thấu mưu kế của Đông Ngô, sắp xếp Cẩm Nang Diệu Kế, khiến Lưu Bị bình an vô sự, cưới được Tôn Thượng Hương, để lại lời đồn “Chu Lang Diệu Kế An Thiên Hạ, Bồi Liễu Phu Nhân Hựu Chiết Binh” (Kế hay của Chu Du yên thiên hạ, mất vợ lại thiệt quân).\r    Không ngờ, sau khi Tôn Thượng Hương về Kinh Châu thì mắc bệnh nặng không dậy nổi, sau khi khỏi bệnh tinh thần mơ màng, hôn mê bất tỉnh. Gia Cát Lượng cố gắng suy tính, cũng chỉ có thể khám phá ra Tôn Thượng Hương trong lòng có uất kết không thể giải tỏa, vì thế mà lâm bệnh. Sau khi thuốc thang châm cứu đều bó tay, Gia Cát Lượng đưa ra một phương pháp, đó là dùng Hoàn Hồn Hương vào giấc mơ của Tôn Thượng Hương, tìm ra nguồn gốc của bệnh tâm lý…",
-						"Đội Thử Thách",
-						"Bách Tính Đông Ngô",
+						"Type: Story, Point Based, Defeat Leader\rDifficulty: ★★★★★\rLevel: Hero Lv.35+\rGoal: Achieve 500+ points\rPlot:\r    After Chibi, the Three Kingdoms deadlock was formed. Sun Quan plotted to lure Liu Bei to Eastern Wu under the guise of marrying his sister, Sun Shangxiang, to trade him for Jingzhou. Zhuge Liang saw through this, using the 'Secret Silken Bags' to ensure Liu Bei married her safely and escaped. However, after returning to Jingzhou, Sun Shangxiang fell into a mysterious coma. Zhuge Liang suggests using 'Soul-Returning Incense' to enter her dreams and find the root of her psychological trauma.",
+						"Challenge Team",
+						"Eastern Wu Citizens",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:933 Vô Song Hổ Lao Quan Quần Anh Hội cấp Anh Hùng
+
+--ID:933 Matchless: Hulao Pass (Hero Grade)
 AUI_BATTLEFIELD[933] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★★★\rCấp độ:Anh Hùng cấp 40+\rĐối đầu:Liên Quân VS Quân Đổng Trác (NPC)\rMục tiêu:Trong 120 phút đánh bại Đổng Trác\rCốt truyện:\r    Sơ Bình nguyên niên (năm 189 Tây lịch), Đổng Trác chuyên quyền, lừa vua hại dân. Tào Tháo tự Trần Lưu khởi binh, triệu tập mười tám trấn chư hầu, đề cử Thái thú Bột Hải Viên Thiệu làm minh chủ, phát lời kêu gọi (giả chiếu) khắp thiên hạ, thống lĩnh hàng chục vạn hùng binh, tiến về Lạc Dương. Và chắn trước mặt mười tám trấn chư hầu là hai cửa ải Tị Thủy và Hổ Lao.\r    Cửa ải Tị Thủy do Thượng tướng thứ nhất dưới trướng Đổng Trác là Hoa Hùng trấn giữ, một người giữ ải, vạn người khó qua. Đổng Trác thì đích thân dẫn hai mươi vạn đại quân đóng ở cửa ải Hổ Lao được mệnh danh là “Then khóa Trung Thiên, yết hầu Tam Tần”, lệnh cho nghĩa tử Ôn Hầu Lã Bố đóng trại trước cửa ải, hổ thị (trông chừng) đợi Liên quân chư hầu đến. Ôn Hầu Lã Bố võ nghệ vô song như hổ đói mài sắc móng vuốt, chuẩn bị giẫm đạp lên tôn nghiêm và tự tin của võ tướng thiên hạ. Và trong Liên quân, có ba hạ tướng vô danh ít ai biết đến, sắp tỏa sáng rực rỡ trước nghìn quân vạn mã…",
-						"Liên Quân",
-						"Quân Đổng Trác",
-						"Đánh bại Đổng Trác",
-						"Không",
-						"Không",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★★★\rLevel: Hero Lv.40+\rFaction: Allied Forces VS Dong Zhuo's Army (NPC)\rGoal: Defeat Dong Zhuo within 120 minutes\rPlot:\r    189 AD. Dong Zhuo's tyranny has reached its peak. Cao Cao calls upon eighteen lords, with Yuan Shao as leader, to march on Luoyang. Standing in their way is the Hulao Pass, guarded by the matchless Lu Bu. As Lu Bu prepares to crush the dignity of the world's generals, three low-ranking soldiers are about to shine brilliantly before ten thousand horses...",
+						"Allied Forces",
+						"Dong Zhuo's Army",
+						"Defeat Dong Zhuo",
+						"None",
+						"None",
+						"None",
 						}
---ID:935 Trận Hợp Phì cấp Anh Hùng
+
+--ID:935 Battle of Hefei (Hero Grade)
 AUI_BATTLEFIELD[935] = {
-						"Loại hình: Hợp tác, tiêu diệt thủ lĩnh\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 30+\rĐối đầu:Quân Tào Tháo VS Quân Tôn Quyền\rMục tiêu:Đánh bại Tôn Quyền, giữ vững thành Hợp Phì\rCốt truyện:\r    Năm 208 tháng 11, Tào Tháo sau đại bại ở Xích Bích đóng quân ở phía bắc Kinh Châu, Tôn Quyền đích thân dẫn binh tấn công Hợp Phì, nhưng mắc kế quân viện binh giả của Tào quân, đốt trại rút lui. Trận Hợp Phì lần thứ nhất kết thúc với thất bại của Quân Tôn Quyền. Đến năm 214, Tào Tháo nam chinh Tôn Quyền không thành, trước khi rút quân để lại Trương Liêu, Lý Điển, Nhạc Tiến và hơn bảy nghìn người phòng thủ Hợp Phì. Đến năm sau, khi Tào Tháo xuất chinh Trương Lỗ, phái Hộ Quân Tiết Tễ gửi thư đến Hợp Phì, viết “Giặc đến thì mở ra”. Lúc này, Tôn Quyền và Lưu Bị tranh chấp Kinh Châu lấy điều kiện chia đôi Kinh Châu, hai quân rút lui. Tôn Quyền thấy chủ lực Tào quân ở Hán Trung, bèn vào tháng Tám dẫn mười vạn người bắc tiến đến Lục Khẩu, lại lần nữa xuất chinh Hợp Phì.",
-						"Quân Tào Tháo",
-						"Quân Tôn Quyền",
-						"Đánh bại Tôn Quyền, giữ vững thành Hợp Phì",
-						"Không",
-						"Trương Liêu bại lui",
-						"Không",
+						"Type: Cooperative, Defeat Leader\rDifficulty: ★★★★★\rLevel: Hero 30+\rFaction: Cao Cao's Army VS Sun Quan's Army\rGoal: Defeat Sun Quan and hold Hefei City\rPlot:\r    After Chibi, Sun Quan attacked Hefei but was tricked by false reinforcements and retreated. In 214 AD, Cao Cao left Zhang Liao, Li Dian, and Yue Jin with only 7,000 men to guard Hefei. Sun Quan, seeing Cao Cao's main force occupied in Hanzhong, led 100,000 men to Lukou to strike Hefei once more.",
+						"Cao Cao's Army",
+						"Sun Quan's Army",
+						"Defeat Sun Quan and hold Hefei City",
+						"None",
+						"Zhang Liao defeated/retreats",
+						"None",
 						}
---ID:946 Bảy Lần Bắt Mạnh Hoạch
+
+--ID:946 Seven Captures of Meng Huo
 AUI_BATTLEFIELD[946] = {
-						"Loại hình: Hợp tác, Điểm tích lũy\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 30+\rĐối đầu:Thục Quân VS Quân Mạnh Hoạch\rMục tiêu:Dùng ít binh lực tổn thất nhất đánh bại Mạnh Hoạch\rCốt truyện:\r    Kiến Hưng nguyên niên, do Lưu Bị đại bại ở Di Lăng, binh lực Thục quốc trống rỗng, các đại tộc ở Ích Trung là họ Ung nhân cơ hội khởi binh làm phản. Họ Ung để tăng cường viện binh bên ngoài, lừa dối thủ lĩnh bộ tộc Nam Man Mạnh Hoạch, Mạnh Hoạch dưới sự mê hoặc của họ cũng nổi dậy làm loạn. Kiến Hưng năm thứ ba, Thừa tướng Thục Hán Gia Cát Lượng, đích thân dẫn binh đi bình định loạn ở phía Nam. Đại quân liên tiếp chiến thắng, dẹp yên loạn họ Ung. Nhưng Mạnh Hoạch tập hợp tàn quân, trốn vào nơi hiểm ác Nam Man, từ chối đầu hàng.",
-						"Thục Quân",
-						"Quân Mạnh Hoạch",
+						"Type: Cooperative, Point Based\rDifficulty: ★★★★★\rLevel: Hero 30+\rFaction: Shu Army VS Meng Huo's Army\rGoal: Defeat Meng Huo with minimum troop loss\rPlot:\r    After Liu Bei's defeat at Yiling, Shu's strength was depleted. The Yong family in Yichong rebelled and tricked the Nanman leader, Meng Huo, into joining them. In the 3rd year of Jianxing, Zhuge Liang personally led a Southern Campaign. Though the Yong rebellion was crushed, Meng Huo gathered his remnants and hid in the treacherous wilds of Nanman, refusing to surrender.",
+						"Shu Army",
+						"Meng Huo's Army",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:947 Chiến Trường Xe Chiến PVP
+
+--ID:947 PVP Chariot Battlefield
 AUI_BATTLEFIELD[947] = {
-						"Loại hình: Đấu trường, giành điểm tích lũy\rĐộ khó:★★★★\rCấp độ:Anh Hùng 1+\rĐối đầu:Quân Trung Nguyên VS Quân Nam Man\rMục tiêu:Phá hủy kiến trúc trung tâm trong đại bản doanh đối phương\rCốt truyện:\rTừ năm Diên Khang nguyên niên, Tào Phi xưng đế sau, Lưu Bị, Tôn Quyền lần lượt xưng đế, thế chân vạc Tam Quốc cuối cùng được xác lập.\rThục quốc là quốc gia yếu nhất trong Tam Quốc, phía Bắc có Tào Ngụy, phía Đông có Tôn Ngô, phía Tây hoang vu không người, phía Nam là nơi rừng rậm hiểm ác. Để cân bằng sức mạnh các bên, Thục quốc cấp thiết cần có sự đột phá về vũ khí.\rDưới sự phát triển tích cực của Gia Cát Lượng và người vợ Hoàng Nguyệt Anh tinh thông các vật phẩm cơ khí kỳ ảo, một loại vũ khí hoàn toàn mới đã ra đời: Xe Chiến. Nó có lớp giáp chắc chắn, đao kiếm chém hoặc cung nỏ bắn thông thường gần như vô dụng với nó; nó có tốc độ không thua kém ngựa tốt, khiến ưu thế cơ động của kỵ binh tan biến; nó còn có sức phá hủy mạnh mẽ, cung mạnh nỏ mạnh, thậm chí một loại vũ khí gọi là thuốc súng được phát minh dựa vào thuật luyện đan cũng được sử dụng trên đó, công phá thành trì, không gì không phá được.\rTrong giai đoạn chế tạo xe chiến, các thế lực lớn lần lượt biết được tin tức này, đua nhau làm theo, nhất thời dấy lên một làn sóng cạnh tranh sản xuất xe chiến. Ở tiền tuyến Nam Man, để đối kháng với quân đội Trung Nguyên, quân Nam Man cũng đầu tư rất nhiều nhân lực vật lực tài lực, lợi dụng tài nguyên phong phú tại địa phương chế tạo ra xe chiến. Vòng chiến tranh mới sắp bùng nổ…",
-						"Quân Trung Nguyên",
-						"Quân Nam Man",
+						"Type: Arena, Point Based\rDifficulty: ★★★★\rLevel: Hero 1+\rFaction: Central Plains Army VS Nanman Army\rGoal: Destroy the enemy's central base structure\rPlot:\r    As Shu was the weakest state, Zhuge Liang and his wife Huang Yueying developed a new weapon: the War Chariot. Heavily armored and faster than horses, it utilized early gunpowder to destroy fortifications. Soon, all major powers began producing their own chariots. On the Nanman front, the locals have used their rich resources to build their own war machines. A new era of mechanized warfare begins.",
+						"Central Plains Army",
+						"Nanman Army",
 						"",
 						"",
 						"",
 						"",
 						}
---ID:948 Hoạt Động Cốt Truyện PVE 04 Lái Thử Xe Chiến
+
+--ID:948 PVE Story: Chariot Test Drive
 AUI_BATTLEFIELD[948] = {
-						"Loại hình: Hợp tác, lái thử xe chiến\rĐộ khó:★★★\rCấp độ:5+\rCốt truyện:\rDo tin đồn về các cơ quan người hình nổi lên, những người nhận mật lệnh Hán quân nhanh chóng đi đến sa mạc hẻo lánh tìm kiếm dấu vết của chúng, không ngờ gặp phục kích của Mã Tặc sa mạc, suýt bị tiêu diệt. May mắn được một người phụ nữ cứu giúp, và được tặng xe chiến để hỗ trợ, ngay sau đó đã triển khai một cuộc đối đầu đầy truyền kỳ với Mã Tặc sa mạc.",
-						"Xe chiến nương",
-						"Mã Tặc sa mạc",
-						"Tiêu diệt Mã Tặc sa mạc",
-						"Không",
-						"Xe chiến nương tử trận",
-						"Không",
+						"Type: Cooperative, Chariot Driving\rDifficulty: ★★★\rLevel: 5+\rPlot:\r    Agents searching for rumors of humanoid mechanisms were ambushed by Desert Bandits. They were saved by a woman who gifted them war chariots. Now, a legendary showdown against the Desert Bandits unfolds.",
+						"Chariot Maiden",
+						"Desert Bandits",
+						"Annihilate Desert Bandits",
+						"None",
+						"Chariot Maiden killed",
+						"None",
 						}
 
---ID:950 Chí Anh Hùng 01 Hứa Chử Truyện
+--ID:950 Hero's Path 01: Tale of Xu Chu
 AUI_BATTLEFIELD[950] = {
-						"Loại hình: Hợp tác, tiêu diệt BOSS\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 30+\rCốt truyện:\rTrong số các mãnh tướng dưới trướng Tào Tháo có Hứa Chử nổi tiếng với danh hiệu “Hổ Si”, từng trong trận Mã Siêu tấn công Hứa Xương của Ngụy quốc, cởi áo lâm trận đại chiến hơn trăm hiệp với Mã Siêu mà không thua kém, người thần dũng có thể đấu ngang sức với Cẩm Mã Siêu, đáng kính đáng sợ. Và nay quần hùng các nước đứng trước cửa đại doanh Ngụy quân, phát động thử thách với người mang danh “Hổ Si”.",
-						"Đội Thử Thách",
-						"Quân Hứa Chử",
+						"Type: Cooperative, Defeat BOSS\rDifficulty: ★★★★★\rLevel: Hero 30+\rPlot:\r    Among Cao Cao's generals, Xu Chu is known as 'Tiger Fool.' He famously fought Ma Chao to a standstill for over a hundred rounds. Now, the heroes of various nations stand before the Wei camp to challenge the man who fought the 'Splendid Ma Chao.'",
+						"Challenge Team",
+						"Xu Chu's Army",
 						"",
 						"",
 						"",
 						"",
 						}
 
---ID:953 Bảy Lần Bắt Mạnh Hoạch (Thủ lĩnh)
+--ID:953 Seven Captures of Meng Huo (Leader)
 AUI_BATTLEFIELD[953] = {
-						"Loại hình: Hợp tác, Điểm tích lũy\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 30+\rĐối đầu:Thục Quân VS Quân Mạnh Hoạch\rMục tiêu:Dùng ít binh lực tổn thất nhất đánh bại Mạnh Hoạch\rCốt truyện:\r    Kiến Hưng nguyên niên, do Lưu Bị đại bại ở Di Lăng, binh lực Thục quốc trống rỗng, các đại tộc ở Ích Trung là họ Ung nhân cơ hội khởi binh làm phản. Họ Ung để tăng cường viện binh bên ngoài, lừa dối thủ lĩnh bộ tộc Nam Man Mạnh Hoạch, Mạnh Hoạch dưới sự mê hoặc của họ cũng nổi dậy làm loạn. Kiến Hưng năm thứ ba, Thừa tướng Thục Hán Gia Cát Lượng, đích thân dẫn binh đi bình định loạn ở phía Nam. Đại quân liên tiếp chiến thắng, dẹp yên loạn họ Ung. Nhưng Mạnh Hoạch tập hợp tàn quân, trốn vào nơi hiểm ác Nam Man, từ chối đầu hàng.",
-						"Thục Quân",
-						"Quân Mạnh Hoạch",
+						"Type: Cooperative, Point Based\rDifficulty: ★★★★★\rLevel: Hero 30+\rFaction: Shu Army VS Meng Huo's Army\rGoal: Defeat Meng Huo with minimum troop loss\rPlot:\r    (Duplicate of ID:946).",
+						"Shu Army",
+						"Meng Huo's Army",
 						"",
 						"",
 						"",
 						"",
 						}
 
---ID:952 Cam Ninh Truyện
+--ID:952 Tale of Gan Ning
 AUI_BATTLEFIELD[952] = {
-						"Loại hình: Hợp tác, Điểm tích lũy\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 50\rCốt truyện:\r    Bên bờ sông Cẩm Giang, thượng nguồn Trường Giang, giặc Cẩm Phàm nổi loạn, một đám hải tặc thủy bộ tác oai tác quái tại đây, khắp nơi cướp đoạt tài vật chở trên các thuyền đi lại, thuyền của giặc treo lụa Thục, thể hiện sự khác biệt, cảnh báo thế nhân rằng băng đảng có kỷ luật, nhóm hải tặc hành sự dứt khoát, phong cách tàn độc, trong đó đại ca cầm đầu là Cam Hưng Bá gan lớn nghệ cao, một đám thanh niên liều mạng theo sau, giương cờ lụa Thục, chèo thuyền. Tương truyền giặc Cẩm Phàm là Giao Long Tam Hiệp, chuyên gây mưa gió, xuất hiện có thủy quái đi theo, người đời nói: “Thà gặp gió Thạch Vưu, còn hơn gặp giặc Cẩm Phàm.” Giặc Cẩm Phàm đáng sợ đã vang danh khắp nơi.",
-						"Đội Thử Thách",
-						"Quân Cam Ninh",
+						"Type: Cooperative, Point Based\rDifficulty: ★★★★★\rLevel: Hero 50\rPlot:\r    On the banks of the Jinjiang River, the 'Brocade Sails' pirates reign supreme. They hang Shu silk from their ships to show their status and discipline. Their leader, Gan Xingba (Gan Ning), is a man of peerless courage followed by a band of desperate youths. People say: 'Better to meet a storm than to meet the Brocade Sails.'",
+						"Challenge Team",
+						"Gan Ning's Army",
 						"",
 						"",
 						"",
 						"",
 						}
 
---ID:959 Trận Quan Độ
+--ID:959 Battle of Guandu
 AUI_BATTLEFIELD[959] = {
-						"Loại hình: Hợp tác, Điểm tích lũy\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 40+\rCốt truyện:\r",
-						"Viên Quân",
-						"Tào Quân",
+						"Type: Cooperative, Point Based\rDifficulty: ★★★★★\rLevel: Hero 40+\rPlot: (Summary of the decisive battle between Cao Cao and Yuan Shao at Guandu).",
+						"Yuan Army",
+						"Cao Army",
 						"",
 						"",
 						"",
 						"",
 						}
 
---ID:996 Trận Chiến Tranh Bá Nam Trung
+--ID:996 Battle for Nanzhong Supremacy
 AUI_BATTLEFIELD[996] = {
-						"Loại hình: Hợp tác, tiêu diệt BOSS\rĐộ khó:★★★\rCấp độ:35+\rCốt truyện:\r    Cuối thời Đông Hán, cục diện thế lực Nam Trung hỗn loạn, hai thế lực lớn nhất địa phương là Mạnh Hoạch và Mộc Lộc Đại Vương cầm đầu, hai thế lực này thường xuyên giao chiến, khiến cư dân địa phương lầm than. Để bộ tộc của mình hưng thịnh, thủ lĩnh hai bộ tộc lớn dẫn binh tiến hành trận chiến cuối cùng, nhất quyết phân định ra Nam Trung Chi Vương thực sự.",
-						"Thế lực Viện Quân",
-						"Quân Mộc Lộc",
-						"Đánh bại Mộc Lộc Đại Vương",
-						"Không",
-						"Cổng thành bị phá hủy",
-						"Không",
+						"Type: Cooperative, Defeat BOSS\rDifficulty: ★★★\rLevel: 35+\rPlot:\r    At the end of the Eastern Han, the Nanzhong region was in chaos. Two local powers, Meng Huo and King Mulu, fought constantly. To determine who is the true 'King of Nanzhong,' the two leaders lead their armies into one final, decisive battle.",
+						"Reinforcement Force",
+						"Mulu's Army",
+						"Defeat King Mulu",
+						"None",
+						"City gate destroyed",
+						"None",
 						}
 
---ID:1007 Hoàng Trung Truyện
+--ID:1007 Tale of Huang Zhong
 AUI_BATTLEFIELD[1007] = {
-						"Đề xuất đội hình: Anh Hùng 5-47 số người > 2, Anh Hùng 48 số người > 0\r\rGợi ý tham gia:\r    Thời gian chuẩn bị vào phụ bản được sửa thành 2 phút 30 giây, trong thời gian này người chơi tham gia nhất định phải kịp thời vào trận, sau khi vào trận nhận nhiệm vụ “Tương Phùng Hà Tất Tằng Tương Thức” ở chỗ Hoàng Trung, hoàn thành vượt ải với điều kiện số người đề xuất của đội, có thể nhận được phần thưởng thêm phong phú.\r\rCốt truyện:\r    Hoàng Trung tự Hán Thăng, ban đầu dưới trướng Lưu Biểu, sau quy phục Thái thú Trường Sa Hàn Huyền, lúc đó Lưu Bị phái Quan Vũ làm tiên phong đoạt Trường Sa, Thái thú Hàn Huyền dựa vào Hoàng Trung trấn giữ, giằng co với Quân Lưu Bị.\r    Hoàng Trung dũng mãnh cương liệt lại trí dũng song toàn, đại chiến 100 hiệp với Quan Vũ bất phân thắng bại, thần tiễn bắn sau lưng càng bách phát bách trúng, tên không bắn hụt.\r    Trận Trường Sa Hoàng Trung ngựa trượt chân dưới đao Quan Vũ được Quan Vũ tha, Hoàng Trung cũng bắn tên trúng mũ trụ tha cho Quan Vũ, anh hùng quý mến nhau cuối cùng khiến Hàn Huyền nghi ngờ, Hoàng Trung bị ép bất đắc dĩ quy phục Lưu Bị, trở thành một trong “Ngũ Hổ Thượng Tướng” cuối cùng của Thục quốc, trận Định Quân Sơn chém chết danh tướng Ngụy quốc Hạ Hầu Uyên càng làm Hoàng Trung danh tiếng vang xa.",
-						"Đội Thử Thách",
-						"Quân Hoàng Trung",
+						"Recommended Lineup: Hero 5-47 (Players > 2), Hero 48 (Players > 0)\r\rParticipation Tips:\r    The preparation time for this instance is 2 minutes and 30 seconds. Players must enter during this window. Once inside, accept the quest 'Why Must Strangers Meet' from Huang Zhong. Completing the stage with the recommended team size will grant rich bonus rewards.\r\rPlot:\r    Huang Zhong (zi Hansheng) originally served Liu Biao before submitting to Han Xuan, the Governor of Changsha. When Liu Bei sent Guan Yu to seize Changsha, Han Xuan relied on Huang Zhong to hold the city. \r    Huang Zhong, fierce and brilliant, fought Guan Yu for 100 rounds without a victor. Known for his peerless archery, his arrows never missed their mark. During the battle, Huang Zhong was spared by Guan Yu after his horse stumbled; in return, Huang Zhong only shot Guan Yu's helmet plume to spare his life. This mutual respect drew Han Xuan's suspicion, eventually forcing Huang Zhong to join Liu Bei. He became one of the Five Tiger Generals, famously slaying Xiahou Yuan at Mount Dingjun.",
+						"Challenge Team",
+						"Huang Zhong's Army",
 						"",
 						"",
 						"",
 						"",
 						}
 
---ID:1009 Hào Mông Quan
+--ID:1009 Jiameng Pass (Hào Mông Quan)
 AUI_BATTLEFIELD[1009] = {
-						"Loại hình: Đối kháng, giành điểm tích lũy\rCấp độ:Anh Hùng 31+\rChế độ xếp hàng:Cá nhân\rThời gian mở:Cả ngày\rCốt truyện:\r    Hào Mông Quan là nơi nổi tiếng Trương Phi thắp đèn đêm chiến Mã Siêu, lúc đó Lưu Bị vây đánh Thành Đô, Lưu Chương cầu cứu Trương Lỗ, Mã Siêu do bại trận mà投奔 (đầu quân) Trương Lỗ tự nguyện tấn công Hào Mông Quan, các tướng sĩ trấn thủ không ai địch nổi Mã Siêu, Lưu Bị đích thân dẫn Trương Phi đến cứu viện.\r    Trương Phi, Mã Siêu đại chiến hai trăm hiệp bất phân thắng bại, trời tối Trương Phi càng hưng phấn, thắp đèn đêm chiến với Mã Siêu, hai người không đánh không quen, sau đó Mã Siêu quy phục Lưu Bị, hai người cùng nằm trong Ngũ Hổ Thượng Tướng, trở thành một đoạn truyền kỳ. Hào Mông Quan cũng vì thế trở thành nơi tốt nhất cho các mãnh tướng anh hùng Long Tranh Hổ Đấu!",
-						"Bình Bắc Quân",
-						"Trấn Nam Quân",
+						"Type: Competitive, Point Based\rLevel: Hero 31+\rQueue Mode: Solo\rOpening Time: All Day\rPlot:\r    Jiameng Pass is the legendary site where Zhang Fei fought Ma Chao by torchlight. While Liu Bei besieged Chengdu, Liu Zhang sought help from Zhang Lu. Ma Chao, having joined Zhang Lu after a previous defeat, volunteered to attack Jiameng Pass. None could withstand him until Liu Bei arrived with Zhang Fei.\r    The two titans fought 200 rounds to a draw. As night fell, Zhang Fei grew more excited, lighting torches to continue the duel. This fierce battle led to a deep mutual respect; Ma Chao later surrendered to Liu Bei, and both were named among the Five Tiger Generals. Jiameng Pass remains the ultimate proving ground for heroes to clash!",
+						"North-Pacifying Army",
+						"South-Guarding Army",
 						"",
 						"",
 						"",
 						"",
 						}
 
---ID:1008 Thất Tinh Trận
+--ID:1008 Seven Stars Formation
 AUI_BATTLEFIELD[1008] = {
-						"Loại hình: Hợp tác, Vượt ải\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 45+\rCốt truyện:\r    Kiến Hưng năm thứ mười hai, Gia Cát Lượng dẫn mười vạn đại quân xuất phát từ Hán Trung, men theo đường núi Bao Tà Cốc bắc thượng, xuyên qua Tần Lĩnh, tiến đóng trước thành trì Ngụy quân, sau vài lần xung đột quy mô lớn, do ảnh hưởng của vị trí địa lý, Thục quốc không chiếm được tiên cơ, ngược lại do vài lần tấn công đã tiêu hao thực lực Thục quân, xét thấy viễn chinh đến, Ngụy quân binh cường mã tráng, trước mắt sẽ là một cuộc chiến dai dẳng, Gia Cát Lượng hạ lệnh rút về Ngũ Trượng Nguyên, trong cuộc chiến dai dẳng, việc điều binh khiển tướng của Gia Cát Lượng khiến thế lực Ngụy quốc suýt rơi vào bờ vực bại thủ. Tuy nhiên do Gia Cát Lượng lao lực thành bệnh, cán cân thắng lợi cuộc đấu trí Ngụy Thục này dần nghiêng về phía Tư Mã Ý, Gia Cát Lượng chiếm giữ địa thế hiểm yếu Ngũ Trượng Nguyên bày Thất Tinh Trận Pháp, nỗ lực dùng thuật Kỳ Môn Độn Giáp, kéo dài tuổi thọ nghịch thiên cải mệnh thống nhất Trung Nguyên.\rPhía Ngụy quốc, Tư Mã Ý trong tình hình không rõ ràng phái tinh nhuệ dưới trướng đi thám thính đại doanh Gia Cát Lượng.\r",
-						"Ngụy Quân",
-						"Thục Quân",
-						"Đánh bại Gia Cát Lượng",
-						"Không",
-						"Thời gian chiến trường kết thúc",
-						"Không",
+						"Type: Cooperative, Stage Clear\rDifficulty: ★★★★★\rLevel: Hero 45+\rPlot:\r    12th year of Jianxing. Zhuge Liang led 100,000 troops through the Baoxie Valley to Wuzhang Plains. Facing a stalemate against the well-supplied Wei army, Zhuge Liang's health began to fail. To change his fate and extend his life for the sake of the Han, he arranged the 'Seven Stars Formation' using Qimen Dunjia arts. On the Wei side, Sima Ý—sensing something unusual—sent his elite units to infiltrate Zhuge Liang's camp and disrupt the ritual.",
+						"Wei Army",
+						"Shu Army",
+						"Defeat Zhuge Liang",
+						"None",
+						"Battlefield time expires",
+						"None",
 						}
 
---1036 Chiến Liên Server
+--1036 Cross-Server Siege
 AUI_BATTLEFIELD[1036] = {
-						"Loại hình: Đối kháng, tiêu diệt boss\rĐộ khó:★★★★\rCấp độ:Anh Hùng 31+\rCốt truyện:\r    Thời loạn thế xuất anh hùng, trong thời đại hỗn loạn này, nguy cơ và cơ hội cùng tồn tại. Mở rộng lãnh thổ là lựa chọn tất yếu của mỗi người có chí trở thành bá chủ, thành trì hữu hạn trở thành mục tiêu tranh giành của nhiều thế lực. Thế lực chưa chiếm được thành trì cố gắng hết sức để giành được một căn cứ, thế lực đã có thành trì muốn có thêm nhiều thành trì hơn… Mất thành trì đối với mỗi thế lực đều là tổn thất lớn, có thể nói là tấc đất tấc vàng!\rChiến Thành Liên Server không chỉ tái hiện một trận chiến nổi tiếng nào đó, mà là bất kỳ trận chiến tranh giành thành trì nào có thể xảy ra ở bất cứ đâu trong thời đại quần hùng nổi dậy! Mỗi thế lực đều có thể đóng vai trò “Bên tấn công” hoặc “Bên phòng thủ” bất cứ lúc nào, thành còn người còn, thành mất người vong!",
-						"Bên tấn công",
-						"Bên phòng thủ",
-						"Tiêu diệt chủ tướng bên phòng thủ",
-						"Tiêu diệt chủ tướng bên tấn công",
-						"Chủ tướng phe ta tử trận",
-						"Chủ tướng phe ta tử trận",
+						"Type: Competitive, Defeat Boss\rDifficulty: ★★★★\rLevel: Hero 31+\rPlot:\r    In an era of chaos, power lies in territory. For those who wish to rule, cities are the ultimate prize. Forces without a base fight to gain one, while those with land fight to expand. Losing a city is a devastating blow; every inch of land is worth its weight in gold!\r    Cross-Server Siege is not just one historical event, but a representation of any city-conquering battle that could happen anywhere during the Rise of Heroes. Every faction can be the 'Attacker' or 'Defender'—if the city stands, you live; if it falls, you perish!",
+						"Attacker",
+						"Defender",
+						"Defeat the Defender's Commander",
+						"Defeat the Attacker's Commander",
+						"Our Commander is killed",
+						"Our Commander is killed",
 						}
---ID:1038 Quần Anh Hội·Vòng Sơ Loại
+
+--ID:1038 Hero Assembly · Preliminary Round
 AUI_BATTLEFIELD[1038] = {
-						"Loại hình: Đối kháng 1v1\rThời gian:Mở vào 21:00 - 22:30 tối Thứ Tư, cách tuần\rGiới hạn:Mỗi tuần chỉ có thể dùng một loại Binh Chủng Chính tham gia\rVé vào cửa:Quần Anh Lệnh·Vòng Sơ Loại (Nhận ở chỗ Trạm Thiên Hiệp thành Trường An)\rCấp độ:Anh Hùng 45+\rGợi ý:Trong thời gian giới hạn, người chơi quyết định 5 người đứng đầu của mỗi binh chủng bằng xếp hạng điểm tích lũy, thứ hạng sẽ áp dụng quy tắc đến trước xếp trước, có thể xem chi tiết xếp hạng điểm tích lũy trong giao diện. 8 giờ sáng Thứ Năm, hệ thống sẽ gửi thưởng qua thư cho 5 người chơi đứng đầu mỗi binh chủng trên bảng xếp hạng điểm tích lũy, tuyển thủ thăng cấp sẽ có thể tham gia vòng phục đấu ở máy chủ Đấu Trường Thiên Hạ.\r\rCốt truyện:\r    Diên Khang nguyên niên, con trai Tào Tháo là Tào Phi cướp ngôi tự lập, lập nước Ngụy, định đô Lạc Dương, năm sau Lưu Bị để tiếp nối nhà Hán, xưng đế ở Thành Đô, sử gọi là “Thục Hán”. Chương Vũ năm thứ hai, Tôn Quyền xưng Vương, quốc hiệu “Ngô”, sau định đô Kiến Nghiệp, cục diện Tam Quốc hình thành. Trong thời đại Tam Quốc tranh bá này, giữa dân gian dấy lên hội võ thuật thịnh đại, con dân các nước trên đại lục Thần Châu đều muốn mượn cơ hội này để nổi danh lập công, vẻ vang cho đất nước. Anh hùng mệnh cách bạn còn chờ đợi gì nữa, đã đến lúc chiến đấu vì thiên hạ rồi.",
-						"Phe ta",
-						"Phe ta",
-						"Tiêu diệt đối phương, giành 2 hiệp thắng lợi",
-						"Tiêu diệt đối phương, giành 2 hiệp thắng lợi",
-						"Đối thủ giành 2 hiệp thắng lợi",
-						"Đối thủ giành 2 hiệp thắng lợi",
+						"Type: 1v1 Competitive\rTime: Opens 21:00 - 22:30, Wed (Bi-weekly)\rRestriction: Only one Primary Class type per week\rEntry Ticket: Hero Assembly Order · Preliminary\rLevel: Hero 45+\rTips: Players compete for the Top 5 rankings in each class based on points. In case of ties, the 'first-come' rule applies. Results are sent via mail at 08:00 Thursday. Top players qualify for the inter-server 'World Arena' rounds.\r\rPlot:\r    The era of the Three Kingdoms has begun. Between the wars of kings, a great martial arts assembly has risen among the people. Heroes from across the Shenzhou continent seek this chance to bring glory to their names and nations. Fate calls—it is time to fight for the world.",
+						"Self",
+						"Opponent",
+						"Defeat opponent, win 2 rounds",
+						"Defeat opponent, win 2 rounds",
+						"Opponent wins 2 rounds",
+						"Opponent wins 2 rounds",
 						}
 
---ID:1039 Quần Anh Hội·Vòng Phục Đấu
+--ID:1039 Hero Assembly · Rematch Round
 AUI_BATTLEFIELD[1039] = {
-						"Loại hình: Đối kháng 1v1\rThời gian:Mở vào 21:00 - 22:30 tối Thứ Năm, cách tuần\rGiới hạn:Mỗi tuần chỉ có thể dùng một loại Binh Chủng Chính tham gia\rVé vào cửa:Quần Anh Lệnh·Vòng Phục Đấu\rCấp độ:Anh Hùng 45+\rGợi ý:Trong thời gian giới hạn, người chơi quyết định người đứng đầu mỗi binh chủng bằng xếp hạng điểm tích lũy, thứ hạng sẽ áp dụng quy tắc đến trước xếp trước, có thể xem chi tiết xếp hạng điểm tích lũy trong giao diện. Sau khi liên server mở vào sáng Thứ Bảy, hệ thống sẽ gửi thưởng qua thư cho người chơi đứng đầu mỗi binh chủng trên bảng xếp hạng điểm tích lũy.\r\rCốt truyện:\r    Diên Khang nguyên niên, con trai Tào Tháo là Tào Phi cướp ngôi tự lập, lập nước Ngụy, định đô Lạc Dương, năm sau Lưu Bị để tiếp nối nhà Hán, xưng đế ở Thành Đô, sử gọi là “Thục Hán”. Chương Vũ năm thứ hai, Tôn Quyền xưng Vương, quốc hiệu “Ngô”, sau định đô Kiến Nghiệp, cục diện Tam Quốc hình thành. Trong thời đại Tam Quốc tranh bá này, giữa dân gian dấy lên hội võ thuật thịnh đại, con dân các nước trên đại lục Thần Châu đều muốn mượn cơ hội này để nổi danh lập công, vẻ vang cho đất nước. Anh hùng mệnh cách bạn còn chờ đợi gì nữa, đã đến lúc chiến đấu vì thiên hạ rồi.",
-						"Phe ta",
-						"Phe ta",
-						"Tiêu diệt đối phương, giành 2 hiệp thắng lợi",
-						"Tiêu diệt đối phương, giành 2 hiệp thắng lợi",
-						"Đối thủ giành 2 hiệp thắng lợi",
-						"Đối thủ giành 2 hiệp thắng lợi",
+						"Type: 1v1 Competitive\rTime: Opens 21:00 - 22:30, Thu (Bi-weekly)\rRestriction: Only one Primary Class type per week\rEntry Ticket: Hero Assembly Order · Rematch\rLevel: Hero 45+\rTips: This round decides the #1 player for each class. Rewards are sent via mail on Saturday morning after the cross-server results are finalized.",
+						"Self",
+						"Opponent",
+						"Defeat opponent, win 2 rounds",
+						"Defeat opponent, win 2 rounds",
+						"Opponent wins 2 rounds",
+						"Opponent wins 2 rounds",
 						}
 
---ID:1040 Quần Anh Hội·Vòng Chung Kết
+--ID:1040 Hero Assembly · Grand Finals
 AUI_BATTLEFIELD[1040] = {
-						"Loại hình: Đối kháng 1v1\rThời gian:Mở vào 22:00 - 23:30 tối Thứ Bảy, cách tuần\rGiới hạn:Mỗi tuần chỉ có thể dùng một loại Binh Chủng Chính tham gia\rVé vào cửa:Quần Anh Lệnh·Vòng Chung Kết\rCấp độ:Anh Hùng 45+\rGợi ý:Trong thời gian giới hạn, người chơi quyết định 3 người đứng đầu bằng xếp hạng điểm tích lũy, thứ hạng sẽ áp dụng quy tắc đến trước xếp trước, có thể xem chi tiết xếp hạng điểm tích lũy trong giao diện. Vào Chủ Nhật trên liên server, hệ thống sẽ gửi thưởng qua thư cho 3 người chơi đứng đầu trên bảng xếp hạng điểm tích lũy.\r\rCốt truyện:\r    Diên Khang nguyên niên, con trai Tào Tháo là Tào Phi cướp ngôi tự lập, lập nước Ngụy, định đô Lạc Dương, năm sau Lưu Bị để tiếp nối nhà Hán, xưng đế ở Thành Đô, sử gọi là “Thục Hán”. Chương Vũ năm thứ hai, Tôn Quyền xưng Vương, quốc hiệu “Ngô”, sau định đô Kiến Nghiệp, cục diện Tam Quốc hình thành. Trong thời đại Tam Quốc tranh bá này, giữa dân gian dấy lên hội võ thuật thịnh đại, con dân các nước trên đại lục Thần Châu đều muốn mượn cơ hội này để nổi danh lập công, vẻ vang cho đất nước. Anh hùng mệnh cách bạn còn chờ đợi gì nữa, đã đến lúc chiến đấu vì thiên hạ rồi.",
-						"Phe ta",
-						"Phe ta",
-						"Tiêu diệt đối phương, giành 2 hiệp thắng lợi",
-						"Tiêu diệt đối phương, giành 2 hiệp thắng lợi",
-						"Đối thủ giành 2 hiệp thắng lợi",
-						"Đối thủ giành 2 hiệp thắng lợi",
+						"Type: 1v1 Competitive\rTime: Opens 22:00 - 23:30, Sat (Bi-weekly)\rRestriction: Only one Primary Class type per week\rEntry Ticket: Hero Assembly Order · Finals\rLevel: Hero 45+\rTips: This final stage determines the overall Top 3 champions. Rewards are sent via mail on Sunday.",
+						"Self",
+						"Opponent",
+						"Defeat opponent, win 2 rounds",
+						"Defeat opponent, win 2 rounds",
+						"Opponent wins 2 rounds",
+						"Opponent wins 2 rounds",
 						}
 
---ID:1068 Hào Mông Quan Giới Hạn Thời Gian
+--ID:1068 Jiameng Pass (Time Limited)
 AUI_BATTLEFIELD[1068] = {
-						"Loại hình: Đối kháng, giành điểm tích lũy\rCấp độ:Anh Hùng 31+\rChế độ xếp hàng:Không giới hạn\rThời gian mở:19:00 - 23:00\rCốt truyện:\r    Hào Mông Quan là nơi nổi tiếng Trương Phi thắp đèn đêm chiến Mã Siêu, lúc đó Lưu Bị vây đánh Thành Đô, Lưu Chương cầu cứu Trương Lỗ, Mã Siêu do bại trận mà đầu quân Trương Lỗ tự nguyện tấn công Hào Mông Quan, các tướng sĩ trấn thủ không ai địch nổi Mã Siêu, Lưu Bị đích thân dẫn Trương Phi đến cứu viện.\r    Trương Phi, Mã Siêu đại chiến hai trăm hiệp bất phân thắng bại, trời tối Trương Phi却 (lại) càng hưng phấn, thắp đèn đêm chiến với Mã Siêu, hai người không đánh không quen, sau đó Mã Siêu quy phục Lưu Bị, hai người cùng nằm trong Ngũ Hổ Thượng Tướng, trở thành một đoạn truyền kỳ. Hào Mông Quan cũng vì thế trở thành nơi tốt nhất cho các mãnh tướng anh hùng Long Tranh Hổ Đấu!",
-						"Bình Bắc Quân",
-						"Trấn Nam Quân",
+						"Type: Competitive, Point Based\rLevel: Hero 31+\rQueue Mode: Unlimited\rOpening Time: 19:00 - 23:00\rPlot:\r    (Identical plot to ID: 1009 - The battle between Zhang Fei and Ma Chao).",
+						"North-Pacifying Army",
+						"South-Guarding Army",
 						"",
 						"",
 						"",
 						"",
 						}
 
---ID:1280 Tháp Thử Thách
+--ID:1280 Tower of Trials
 AUI_BATTLEFIELD[1280] = {
-						"Loại hình: Hợp tác, Điểm tích lũy\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 31+\rCốt truyện:\r    Tháp có ngàn tầng, vạn tượng trùng trùng, con đường vô tận, lặng chờ khám phá.\r    Ngoài Vị Ương Cung, doanh trại Thanh Phong, giữa rừng cây bằng phẳng, nhiều tòa tháp cao sừng sững, truyền thuyết nơi đây là nơi người thượng võ tu luyện. Có tin đồn Tiên nhân Tả Từ thường xuyên ở trong tháp đêm quan sát tinh tượng, đoán xem vạn tượng thế gian. Khi ông gặp người hữu duyên vào tháp, sẽ cùng họ đối ẩm đêm khuya, trình bày mọi việc xảy ra trên đất Thần Châu Hoa Hạ trước mắt, cùng họ luận bàn thế sự.\r    Người thượng võ hữu duyên trải qua lần lịch luyện này, đều sẽ giác ngộ nỗi băn khoăn của kiếp trước, nâng cao đáng kể năng lực của bản thân, thế là, truyền thuyết về tòa tháp này cứ thế truyền miệng trong dân gian, trở thành đề tài thảo luận của dân chúng, từ miệng họ biết được, khu rừng tháp này tên là “Tháp Thử Thách”.",
-						"Bên Xông Tháp",
-						"Bên Thủ Tháp",
-						"Thông qua 99 tầng",
+						"Type: Cooperative, Point Based\rDifficulty: ★★★★★\rLevel: Hero 31+\rPlot:\r    A tower of a thousand floors, countless mysteries, and an endless path. Outside Weiyang Palace, amidst the Qingfeng camps, a series of towering structures stand. Legend says the immortal Zuo Ci meditates here, observing the stars. To those he deems worthy, he appears to discuss the affairs of the world. Those who survive the trial gain enlightenment and a massive boost to their abilities. The common folk simply call this place the 'Tower of Trials'.",
+						"Challenger",
+						"Tower Guard",
+						"Clear 99 Floors",
 						"",
-						"Số lần tử vong lớn hơn 20 lần",
+						"Total deaths exceed 20",
 						"",
 						}
 
---ID:1292 Ước Chiến·Hứa Xương
+--ID:1292 Duel · Xuchang
 AUI_BATTLEFIELD[1292] = {
-						"Loại hình: Đấu trường, Điểm tích lũy\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 31+",
-						"Bên Thử Thách",
-						"Bên Ứng Chiến",
-						"Thời gian kết thúc điểm tích lũy bên thử thách lớn hơn bên ứng chiến",
-						"Thời gian kết thúc điểm tích lũy bên ứng chiến lớn hơn bên thử thách",
+						"Type: Arena, Point Based\rDifficulty: ★★★★★\rLevel: Hero 31+",
+						"Challenger",
+						"Defender",
+						"Challenger points higher than Defender at time limit",
+						"Defender points higher than Challenger at time limit",
 						"",
 						"",
 						}
 
---ID:1293 Ước Chiến·Hán Trung
+--ID:1293 Duel · Hanzhong
 AUI_BATTLEFIELD[1293] = {
-						"Loại hình: Đấu trường, Điểm tích lũy\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 31+",
-						"Bên Thử Thách",
-						"Bên Ứng Chiến",
-						"Thời gian kết thúc điểm tích lũy bên thử thách lớn hơn bên ứng chiến",
-						"Thời gian kết thúc điểm tích lũy bên ứng chiến lớn hơn bên thử thách",
+						"Type: Arena, Point Based\rDifficulty: ★★★★★\rLevel: Hero 31+",
+						"Challenger",
+						"Defender",
+						"Challenger points higher than Defender at time limit",
+						"Defender points higher than Challenger at time limit",
 						"",
 						"",
 						}
 
---ID:1294 Ước Chiến·Kiến Nghiệp
+--ID:1294 Duel · Jianye
 AUI_BATTLEFIELD[1294] = {
-						"Loại hình: Đấu trường, Điểm tích lũy\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 31+",
-						"Bên Thử Thách",
-						"Bên Ứng Chiến",
-						"Thời gian kết thúc điểm tích lũy bên thử thách lớn hơn bên ứng chiến",
-						"Thời gian kết thúc điểm tích lũy bên ứng chiến lớn hơn bên thử thách",
+						"Type: Arena, Point Based\rDifficulty: ★★★★★\rLevel: Hero 31+",
+						"Challenger",
+						"Defender",
+						"Challenger points higher than Defender at time limit",
+						"Defender points higher than Challenger at time limit",
 						"",
 						"",
 						}
 
---ID:1295 Trận Tương Dương
+--ID:1295 Battle of Xiangyang
 AUI_BATTLEFIELD[1295] = {
-						"Loại hình: Đấu trường, Điểm tích lũy\rĐộ khó:★★★★★\rCấp độ:Anh Hùng 31+",
-						"Bên Thử Thách",
-						"Bên Ứng Chiến",
-						"Thời gian kết thúc điểm tích lũy bên thử thách lớn hơn bên ứng chiến",
-						"Thời gian kết thúc điểm tích lũy bên ứng chiến lớn hơn bên thử thách",
+						"Type: Arena, Point Based\rDifficulty: ★★★★★\rLevel: Hero 31+",
+						"Challenger",
+						"Defender",
+						"Challenger points higher than Defender at time limit",
+						"Defender points higher than Challenger at time limit",
 						"",
 						"",
 						}
---ID:1311 Chiến Trường Kỵ Chiến PVP Trận Giới Kiều
+
+--ID:1311 Mounted Combat PVP: Battle of Jieqiao
 AUI_BATTLEFIELD[1311] = {
-						"Loại hình: Đấu trường, Đối kháng\rĐộ khó:★★★★\rCấp độ:Anh Hùng 1+\rĐối đầu:Viên Thiệu Quân VS Công Tôn Toản Quân\rMục tiêu:Tiêu diệt chủ tướng trong đại bản doanh đối phương\rCốt truyện:\rNăm 191 Công nguyên (Sơ Bình năm thứ hai) mùa đông, Công Tôn Việt bị tên lạc của Viên Thiệu quân bắn trúng tử vong trong trận Dương Thành. Công Tôn Toản vì báo thù cho Công Tôn Việt, dấy binh tấn công Viên Thiệu. Công Tôn Toản tấn công mãnh liệt, uy trấn Hà Bắc. Nhất thời, các quận huyện Ký Châu đều nghe danh quy hàng.\rSơ Bình năm thứ hai, Công Tôn Toản dẫn đại quân phá tan quân Khăn Vàng Thanh Châu, Từ Châu, binh phong cường thịnh, tiến đóng ở Giới Kiều. Viên Thiệu đích thân dẫn binh nghênh chiến Công Tôn Toản, hai quân triển khai giao chiến ở khoảng 20 km phía nam Giới Kiều. Vòng chiến tranh mới sắp bùng nổ…………",
-						"Viên Thiệu Quân",
-						"Công Tôn Toản Quân",
-						"Tiêu diệt Công Tôn Toản",
-						"Tiêu diệt Viên Thiệu",
-						"Chủ tướng phe ta tử trận",
-						"Chủ tướng phe ta tử trận",
+						"Type: Arena, Competitive\rDifficulty: ★★★★\rLevel: Hero 1+\rFaction: Yuan Shao's Army VS Gongsun Zan's Army\rGoal: Defeat the enemy's main commander\rPlot:\r    Winter, 191 AD. Gongsun Yue was killed by a stray arrow from Yuan Shao's forces. Seeking vengeance, Gongsun Zan mobilized his army. After crushing the Yellow Turbans in Qing and Xu, his power was at its peak. He marched to Jieqiao, where Yuan Shao personally led his forces to meet him. This battle 20km south of Jieqiao will determine the master of the North.",
+						"Yuan Shao's Army",
+						"Gongsun Zan's Army",
+						"Defeat Gongsun Zan",
+						"Defeat Yuan Shao",
+						"Our Commander is killed",
+						"Our Commander is killed",
 						}
---ID:1387
+
+--ID:1387 (Cao Cao Repel)
 AUI_BATTLEFIELD[1387] = {
-						"Giới thiệu Chiến Tranh",
-						"Bên tấn công",
-						"Bên phòng thủ",
-						"Đẩy lui Tào Tháo",
-						"Tào Tháo còn sống",
-						"Tào Tháo còn sống",
-						"Tào Tháo còn sống khi hoạt động kết thúc",
+						"War Introduction",
+						"Attacker",
+						"Defender",
+						"Repel Cao Cao",
+						"Cao Cao is alive",
+						"Cao Cao is alive",
+						"Cao Cao remains alive when the activity ends",
 						}
 
+--ID:1388 (Liu Bei Repel)
 AUI_BATTLEFIELD[1388] = {
-						"Giới thiệu Chiến Tranh",
-						"Bên tấn công",
-						"Bên phòng thủ",
-						"Đẩy lui Lưu Bị",
-						"Lưu Bị còn sống",
-						"Lưu Bị còn sống",
-						"Lưu Bị còn sống khi hoạt động kết thúc",
+						"War Introduction",
+						"Attacker",
+						"Defender",
+						"Repel Liu Bei",
+						"Liu Bei is alive",
+						"Liu Bei is alive",
+						"Liu Bei remains alive when the activity ends",
 						}
 
+--ID:1389 (Sun Quan Repel)
 AUI_BATTLEFIELD[1389] = {
-						"Giới thiệu Chiến Tranh",
-						"Bên tấn công",
-						"Bên phòng thủ",
-						"Đẩy lui Tôn Quyền",
-						"Tôn Quyền còn sống",
-						"Tôn Quyền còn sống",
-						"Tôn Quyền còn sống khi hoạt động kết thúc",
+						"War Introduction",
+						"Attacker",
+						"Defender",
+						"Repel Sun Quan",
+						"Sun Quan is alive",
+						"Sun Quan is alive",
+						"Sun Quan remains alive when the activity ends",
 						}
 
---组队提示消息
-TEXT_TEAM_INVITE = "%s mời bạn gia nhập đội, có đồng ý không?";
-TEXT_TEAM_INVITE_REJECT = "%s đã từ chối lời mời vào đội của bạn.";
-TEXT_TEAM_REQUEST = "%s yêu cầu gia nhập đội của bạn, có đồng ý không?";
-TEXT_TEAM_REQUEST_REJECT = "%s đã từ chối yêu cầu vào đội của bạn.";
-TEXT_TEAM_MEMBER_JOIN = "%s đã gia nhập đội của bạn.";
-TEXT_TEAM_MEMBER_LEAVE = "%s đã rời đội.";
-TEXT_TEAM_DISCARD = "%s đã giải tán đội.";
-TEXT_TEAM_SELF_JOIN = "Bạn đã gia nhập một đội.";
-TEXT_TEAM_SELF_LEAVE = "Bạn đã rời đội.";
-TEXT_TEAM_CHANGE_LEADER = "%s đã trở thành đội trưởng mới.";
-TEXT_TEAM_MEMBER_LOGIN = "%s đã vào trò chơi.";
-TEXT_TEAM_MEMBER_LOGOUT = "%s đã rời trò chơi.";
-TEXT_TEAM_CHANGELOOT_FREE = "Phương thức phân phối tổ đội đã đổi thành %s.";
-TEXT_TEAM_CHANGELOOT_TEAM = "Phương thức phân phối tổ đội đã đổi thành %s, phẩm chất bỏ phiếu thấp nhất là %s.";
+--Team Invite/Status Messages
+TEXT_TEAM_INVITE = "%s has invited you to join the party. Do you accept?";
+TEXT_TEAM_INVITE_REJECT = "%s rejected your party invitation.";
+TEXT_TEAM_REQUEST = "%s has requested to join your party. Do you accept?";
+TEXT_TEAM_REQUEST_REJECT = "%s rejected your request to join the party.";
+TEXT_TEAM_MEMBER_JOIN = "%s has joined the party.";
+TEXT_TEAM_MEMBER_LEAVE = "%s has left the party.";
+TEXT_TEAM_DISCARD = "%s has disbanded the party.";
+TEXT_TEAM_SELF_JOIN = "You have joined a party.";
+TEXT_TEAM_SELF_LEAVE = "You have left the party.";
+TEXT_TEAM_CHANGE_LEADER = "%s is now the party leader.";
+TEXT_TEAM_MEMBER_LOGIN = "%s has logged in.";
+TEXT_TEAM_MEMBER_LOGOUT = "%s has logged out.";
+TEXT_TEAM_CHANGELOOT_FREE = "Loot distribution mode changed to %s.";
+TEXT_TEAM_CHANGELOOT_TEAM = "Loot distribution mode changed to %s. Minimum roll quality: %s.";
 
---Phân phối tổ đội
-GNR_LOOTRULE_FREE = "Tự do nhặt";
-GNR_LOOTRULE_TEAM = "Phân phối theo đội";
-GNR_ROLLLEVEL_2 = "Thứ phẩm";
-GNR_ROLLLEVEL_3 = "Trân phẩm";
-GNR_ROLLLEVEL_4 = "Tuyệt phẩm";
+--Loot Distribution Modes
+GNR_LOOTRULE_FREE = "Free-for-all";
+GNR_LOOTRULE_TEAM = "Party Distribution";
+GNR_ROLLLEVEL_2 = "Common";
+GNR_ROLLLEVEL_3 = "Rare";
+GNR_ROLLLEVEL_4 = "Epic";
 
---Tên bản đồ
-GNR_MAP_NAME1 = "Hà Bắc"
-GNR_MAP_NAME2 = "Tây Lương"
-GNR_MAP_NAME3 = "Ba Thục"
-GNR_MAP_NAME4 = "Nam Man"
-GNR_MAP_NAME5 = "Giang Nam"
-GNR_MAP_NAME6 = "Kinh Tương"
-GNR_MAP_NAME7 = "Trường An"
-GNR_MAP_NAME8 = "Thảo Nguyên"
-GNR_MAP_NAME9 = "Lạc Dương"
-GNR_MAP_NAME10 = "Xuyên Nam"
+--Map Names
+GNR_MAP_NAME1 = "Hebei"
+GNR_MAP_NAME2 = "Xiliang"
+GNR_MAP_NAME3 = "Bashu"
+GNR_MAP_NAME4 = "Nanman"
+GNR_MAP_NAME5 = "Jiangnan"
+GNR_MAP_NAME6 = "Jingxiang"
+GNR_MAP_NAME7 = "Chang'an"
+GNR_MAP_NAME8 = "Grasslands"
+GNR_MAP_NAME9 = "Luoyang"
+GNR_MAP_NAME10 = "South Chuan"
 
---Gợi ý nâng cấp binh chủng chính phụ
-AUI_CHARACTER_ButtonHELP = "  Nhấp vào nút bên phải để nâng cấp"
-AUI_CHARACTER_PROFHELP = "  Có thể nâng cấp tại %s"
-AUI_CHARACTER_PROFMAXHELP = "  Binh chủng của bạn đã mãn cấp"
-AUI_CHARACTER_PROFNILHELP = "  Bạn chưa chọn binh chủng"
+--Class Upgrade Help
+AUI_CHARACTER_ButtonHELP = "  Click the button on the right to upgrade"
+AUI_CHARACTER_PROFHELP = "  Can be upgraded at %s"
+AUI_CHARACTER_PROFMAXHELP = "  Your class has reached max level"
+AUI_CHARACTER_PROFNILHELP = "  No class selected"
 
---Gợi ý nâng cấp kỹ năng sản xuất
-AUI_PRODUCESKILL_TIP = "Bạn có thể học kỹ năng %s của %s%%s ở cấp %s tại %s."
-TEXT_PRODUCESKILL_SKILLTYPE1 = "Thuần Dưỡng"
-TEXT_PRODUCESKILL_SKILLTYPE2 = "Nấu Ăn"
-TEXT_PRODUCESKILL_SKILLTYPE3 = "Thợ Rèn"
-TEXT_PRODUCESKILL_SKILLTYPE4 = "May Vá"
-TEXT_PRODUCESKILL_SKILLTYPE5 = "Xảo Tượng"
-TEXT_PRODUCESKILL_SKILLTYPE6 = "Dược Sư"
-TEXT_PRODUCESKILL_SKILLTYPE7 = "Cấp Cứu"
-TEXT_PRODUCESKILL_SKILLTYPE8 = "Thợ Công"
-TEXT_PRODUCESKILL_SKILLLEVELTYPE1 = "Sơ cấp"
-TEXT_PRODUCESKILL_SKILLLEVELTYPE2 = "Trung cấp"
-TEXT_PRODUCESKILL_SKILLLEVELTYPE3 = "Cao cấp"
-TEXT_PRODUCESKILL_SKILLLEVELTYPE4 = "Đặc cấp"
-TEXT_PRODUCESKILL_SKILLLEVELTYPE5 = "Đại sư"
-TEXT_PRODUCESKILL_SKILLLEVELTYPE6 = "Thần Tượng"
-TEXT_PRODUCESKILL_SKILLLEVELTYPE7 = "Tông sư"
-TEXT_PRODUCESKILL_SKILLLEVELTYPE8 = "Ngự dụng"
-TEXT_PRODUCESKILL_NPCNAME1 = "Hàn Lê"
-TEXT_PRODUCESKILL_NPCNAME2 = "Trương Mạo"
-TEXT_PRODUCESKILL_NPCNAME3 = "Bồ Nguyên"
-TEXT_PRODUCESKILL_NPCNAME4 = "Ngu Quyên Chi"
-TEXT_PRODUCESKILL_NPCNAME5 = "Ngu Thiếu Quân"
-TEXT_PRODUCESKILL_NPCNAME6 = "Đường Ngu"
-TEXT_PRODUCESKILL_NPCNAME7 = "Lý Đương Chi"
-TEXT_PRODUCESKILL_NPCNAME8 = "Trịnh Hồn"
-TEXT_PRODUCESKILL_NOTE1 = "Nâng cấp tọa kỵ."
-TEXT_PRODUCESKILL_NOTE2 = "Chế tạo thức ăn, rượu ngon và trà uống."
-TEXT_PRODUCESKILL_NOTE3 = "Chế tạo vũ khí."
-TEXT_PRODUCESKILL_NOTE4 = "Chế tạo phòng cụ."
-TEXT_PRODUCESKILL_NOTE5 = "Chế tạo vật liệu cường hóa, tổng hợp Nguyên Thạch và Phù Ngọc."
-TEXT_PRODUCESKILL_NOTE6 = "Chế tạo thuốc viên hồi phục sinh lực ngay lập tức."
-TEXT_PRODUCESKILL_NOTE7 = "Chế tạo thuốc mỡ có thể sử dụng trong chiến đấu."
-TEXT_PRODUCESKILL_NOTE8 = "Chế tạo bảo vật, Điểm Hóa Bí Văn Linh Châu."
+--Production Skill Help
+AUI_PRODUCESKILL_TIP = "You can learn %s rank %s at Level %s from %s."
+TEXT_PRODUCESKILL_SKILLTYPE1 = "Taming"
+TEXT_PRODUCESKILL_SKILLTYPE2 = "Cooking"
+TEXT_PRODUCESKILL_SKILLTYPE3 = "Blacksmithing"
+TEXT_PRODUCESKILL_SKILLTYPE4 = "Tailoring"
+TEXT_PRODUCESKILL_SKILLTYPE5 = "Artisanship"
+TEXT_PRODUCESKILL_SKILLTYPE6 = "Apothecary"
+TEXT_PRODUCESKILL_SKILLTYPE7 = "First Aid"
+TEXT_PRODUCESKILL_SKILLTYPE8 = "Engineering"
 
---Gợi ý thuộc tính đặc biệt
+--Skill Ranks
+TEXT_PRODUCESKILL_SKILLLEVELTYPE1 = "Novice"
+TEXT_PRODUCESKILL_SKILLLEVELTYPE2 = "Intermediate"
+TEXT_PRODUCESKILL_SKILLLEVELTYPE3 = "Advanced"
+TEXT_PRODUCESKILL_SKILLLEVELTYPE4 = "Expert"
+TEXT_PRODUCESKILL_SKILLLEVELTYPE5 = "Master"
+TEXT_PRODUCESKILL_SKILLLEVELTYPE6 = "Divine Artisan"
+TEXT_PRODUCESKILL_SKILLLEVELTYPE7 = "Grandmaster"
+TEXT_PRODUCESKILL_SKILLLEVELTYPE8 = "Imperial"
 
---Vũ khí
+--Production NPCs
+TEXT_PRODUCESKILL_NPCNAME1 = "Han Li"
+TEXT_PRODUCESKILL_NPCNAME2 = "Zhang Mao"
+TEXT_PRODUCESKILL_NPCNAME3 = "Pu Yuan"
+TEXT_PRODUCESKILL_NPCNAME4 = "Yu Juanzhi"
+TEXT_PRODUCESKILL_NPCNAME5 = "Yu Shaojun"
+TEXT_PRODUCESKILL_NPCNAME6 = "Tang Yu"
+TEXT_PRODUCESKILL_NPCNAME7 = "Li Dangzhi"
+TEXT_PRODUCESKILL_NPCNAME8 = "Zheng Hun"
+
+--Skill Descriptions
+TEXT_PRODUCESKILL_NOTE1 = "Upgrade mounts."
+TEXT_PRODUCESKILL_NOTE2 = "Craft food, fine wine, and tea."
+TEXT_PRODUCESKILL_NOTE3 = "Forge weapons."
+TEXT_PRODUCESKILL_NOTE4 = "Craft armor."
+TEXT_PRODUCESKILL_NOTE5 = "Craft enhancement materials and synthesize Gems/Jade."
+TEXT_PRODUCESKILL_NOTE6 = "Craft instant health recovery pills."
+TEXT_PRODUCESKILL_NOTE7 = "Craft salves for use during combat."
+TEXT_PRODUCESKILL_NOTE8 = "Craft treasures and refine Secret Orbs."
+
+--Special Attribute Announcements (Server Broadcasts)
+
+--Weapons
 SpecailDesc0 = {}
-SpecailDesc0[8] = "#N sau nỗ lực không ngừng, đã thành công chế tạo ra #G, lập tức vui mừng khôn xiết, khiến người khác ngưỡng mộ!"
-SpecailDesc0[12] = "#N qua nỗ lực kiên trì không ngừng, cuối cùng cũng rèn ra được #G, trong khoảnh khắc một luồng hàn ý sắc bén theo đó tỏa ra, mọi người đều kinh hãi!"
-SpecailDesc0[15] = "Sát khí khai phong, không gì cản nổi! #N dựa vào thành ý của tinh thạch và nghị lực kiên định, cuối cùng đã có được #G, cả triều đình đều chấn động!"
-SpecailDesc0[16] = "Sát khí khai phong, không gì cản nổi! #N dựa vào thành ý của tinh thạch và nghị lực kiên định, cuối cùng đã có được #G, cả triều đình đều chấn động!"
-SpecailDesc0[17] = "Sát khí khai phong, không gì cản nổi! #N dựa vào thành ý của tinh thạch và nghị lực kiên định, cuối cùng đã có được #G, cả triều đình đều chấn động!"
-SpecailDesc0[18] = "Sát khí khai phong, không gì cản nổi! #N dựa vào thành ý của tinh thạch và nghị lực kiên định, cuối cùng đã có được #G, cả triều đình đều chấn động!"
-SpecailDesc0[19] = "Sát khí khai phong, không gì cản nổi! #N dựa vào thành ý của tinh thạch và nghị lực kiên định, cuối cùng đã có được #G, cả triều đình đều chấn động!"
-SpecailDesc0[20] = "Mười bước giết một người, ngàn dặm không lưu lại dấu vết! Thần binh vừa ra, trời khóc đất than quỷ thần đều kinh hãi! Không biết thế gian còn ai có thể tranh tài cao thấp với #N đang cầm #G!"
-SpecailDesc0[21] = "Ba chiêu đã lấy thủ cấp thượng tướng, một người có thể ngăn vạn quân! Có được thần khí này, ai dám cùng ta một trận chiến! #N đang cầm #G đã than thở như vậy!"
-SpecailDesc0[22] = "Ba chiêu đã lấy thủ cấp thượng tướng, một người có thể ngăn vạn quân! Có được thần khí này, ai dám cùng ta một trận chiến! #N đang cầm #G đã than thở như vậy!"
-SpecailDesc0[23] = "Ba chiêu đã lấy thủ cấp thượng tướng, một người có thể ngăn vạn quân! Có được thần khí này, ai dám cùng ta một trận chiến! #N đang cầm #G đã than thở như vậy!"
-SpecailDesc0[24] = "Ba chiêu đã lấy thủ cấp thượng tướng, một người có thể ngăn vạn quân! Có được thần khí này, ai dám cùng ta một trận chiến! #N đang cầm #G đã than thở như vậy!"
-SpecailDesc0[25] = "Cười Tam Quốc, nằm trong túi ta, luận anh hùng, thiên hạ trừ ta còn ai! Có được thần khí này, ai dám cùng ta một trận chiến! #N đang cầm #G đã than thở như vậy!"
+SpecailDesc0[8] = "After tireless effort, #N has successfully crafted #G! A joyous achievement admired by all!"
+SpecailDesc0[12] = "Through persistent dedication, #N has finally forged #G. The sharp, chilling aura emanating from it strikes fear into the hearts of many!"
+SpecailDesc0[15] = "The killing edge is revealed, and nothing can stand in its way! With pure sincerity and unyielding will, #N has obtained #G, shocking the entire Imperial Court!"
+SpecailDesc0[20] = "Killing a man in ten steps, leaving no trace for a thousand miles! When this Divine Weapon emerges, the heavens weep and ghosts tremble! Who in this world can challenge #N, wielder of #G!"
+SpecailDesc0[21] = "Taking a General's head in three moves, one man holding back ten thousand! With this artifact in hand, who dares challenge me? So boasts #N, wielder of #G!"
+SpecailDesc0[25] = "The Three Kingdoms are in my grasp! Among heroes, who else but me? Possessing this ultimate weapon, who dares stand against me? So cries #N, wielder of #G!"
 
---Phòng cụ
+--Armor
 SpecailDesc1 = {}
-SpecailDesc1[8] = "#N sau nỗ lực không ngừng, đã thành công chế tạo ra #G, năng lực dường như đã tăng lên rất nhiều!"
-SpecailDesc1[12] = "#N qua nỗ lực kiên trì không ngừng, cuối cùng cũng rèn ra được #G, thật là thần kỳ, tuyệt vời thay!"
-SpecailDesc1[15] = "#N mặc #G xuất hiện, thiên triều tất sẽ dấy lên một trận máu tanh gió tanh!"
-SpecailDesc1[16] = "#N mặc #G xuất hiện, thiên triều tất sẽ dấy lên một trận máu tanh gió tanh!"
-SpecailDesc1[17] = "#N mặc #G xuất hiện, thiên triều tất sẽ dấy lên một trận máu tanh gió tanh!"
-SpecailDesc1[18] = "#N mặc #G xuất hiện, thiên triều tất sẽ dấy lên một trận máu tanh gió tanh!"
-SpecailDesc1[19] = "#N mặc #G xuất hiện, thiên triều tất sẽ dấy lên một trận máu tanh gió tanh!"
-SpecailDesc1[20] = "Ba chén nhả lời hứa, năm núi đổ còn nhẹ! Sự tồn tại của #G, đã hoàn toàn kích thích Vương Giả Chi Khí trong cơ thể #N, cả thiên hạ vì thế mà mê mẩn!"
-SpecailDesc1[21] = "Ba chiêu đã lấy thủ cấp thượng tướng, một người có thể ngăn vạn quân! Có được thần khí này, ai dám cùng ta một trận chiến! #N khoác #G đã than thở như vậy!"
-SpecailDesc1[22] = "Ba chiêu đã lấy thủ cấp thượng tướng, một người có thể ngăn vạn quân! Có được thần khí này, ai dám cùng ta một trận chiến! #N khoác #G đã than thở như vậy!"
-SpecailDesc1[23] = "Ba chiêu đã lấy thủ cấp thượng tướng, một người có thể ngăn vạn quân! Có được thần khí này, ai dám cùng ta một trận chiến! #N khoác #G đã than thở như vậy!"
-SpecailDesc1[24] = "Ba chiêu đã lấy thủ cấp thượng tướng, một người có thể ngăn vạn quân! Có được thần khí này, ai dám cùng ta một trận chiến! #N khoác #G đã than thở như vậy!"
-SpecailDesc1[25] = "Cười Tam Quốc, nằm trong túi ta, luận anh hùng, thiên hạ trừ ta còn ai! Có được thần khí này, ai dám cùng ta một trận chiến! #N khoác #G đã than thở như vậy!"
+SpecailDesc1[8] = "After constant effort, #N has successfully crafted #G. Their power seems to have increased significantly!"
+SpecailDesc1[15] = "When #N appears clad in #G, a storm of blood and steel is sure to follow across the land!"
+SpecailDesc1[20] = "A promise kept over wine, a resolve heavier than mountains! The presence of #G has fully awakened the Kingly Aura within #N, leaving the world in awe!"
+SpecailDesc1[25] = "The Three Kingdoms lie within my pocket; of all heroes, only I remain! Clad in this divine armor, who dares strike a blow? So says #N, protector of #G!"
 
---LevelHelpString
---1 Binh chủng
-TEXT_PROFHELP_TITLE1 = "1. Gợi ý nâng cấp binh chủng:"
-TEXT_PROFHELP_TITLE2 = "\r2. Gợi ý học kỹ năng:"
-TEXT_PROFHELP_TITLE3 = "\r3. Gợi ý điểm chuyên tinh:"
-TEXT_PROFHELP_TITLE4 = "\r4. Gợi ý điểm tư chất:"
+--Level/Class Help Strings
+TEXT_PROFHELP_TITLE1 = "1. Class Upgrade Tips:"
+TEXT_PROFHELP_TITLE2 = "\r2. Skill Learning Tips:"
+TEXT_PROFHELP_TITLE3 = "\r3. Mastery Points Tips:"
+TEXT_PROFHELP_TITLE4 = "\r4. Attribute Points Tips:"
 
-TEXT_PROFHELP_NOWMAINPROF = "Binh chủng chính hiện tại của bạn là ^ff9090%s%s^ffffff."
-TEXT_PROFHELP_NOWSUBPROF = "Binh chủng phụ hiện tại của bạn là ^ff9090%s%s^ffffff."
-TEXT_PROFHELP_MAINPROFNIL = "Bạn chưa chọn binh chủng chính, có thể đến #%d# để chọn binh chủng chính muốn tu luyện."
-TEXT_PROFHELP_SUBPROFNIL1 = "Bạn chưa chọn binh chủng phụ, có thể đến #%d# để chọn binh chủng phụ muốn tu luyện."
-TEXT_PROFHELP_SUBPROFNIL2 = "Bạn chưa tu luyện binh chủng phụ. Khi cấp độ binh chủng chính của bạn đạt ^ff9090%s%s^ffffff trở lên, mới có thể tu luyện binh chủng phụ."
-TEXT_PROFHELP_SUBPROFNIL3 = "Bạn chưa tu luyện binh chủng phụ."
-TEXT_PROFHELP_MAINPROFMAX = "Binh chủng chính đã mãn cấp, tạm thời không thể tăng thêm."
-TEXT_PROFHELP_SUBPROFMAX = "Binh chủng phụ đã mãn cấp, tạm thời không thể tăng thêm."
-TEXT_PROFHELP_MAINSUGGEST1 = "Đề nghị bạn nâng cấp binh chủng chính lên ^ff9090%s%s^ffffff, khi nâng cấp sẽ tiêu hao điểm kinh nghiệm (lịch luyện)."
-TEXT_PROFHELP_MAINSUGGEST2 = "Bạn cần đến #%d# hoàn thành Nhiệm Vụ Binh Chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff9090%s%s^ffffff."
-TEXT_PROFHELP_SUBSUGGEST = "Bạn cần đến #%d# hoàn thành Nhiệm Vụ Binh Chủng, mới có thể nâng cấp binh chủng phụ lên giai đoạn tiếp theo: ^ff9090%s%s^ffffff."
-TEXT_PROFHELP_SUGGEST = "Đề nghị bạn ưu tiên nâng cấp binh chủng chính, vì nếu cấp độ binh chủng chính của bạn thấp hơn cấp độ binh chủng phụ, khi nâng cấp binh chủng chính sẽ tiêu hao nhiều điểm kinh nghiệm hơn."
+TEXT_PROFHELP_NOWMAINPROF = "Your current Primary Class is ^ff9090%s%s^ffffff."
+TEXT_PROFHELP_NOWSUBPROF = "Your current Secondary Class is ^ff9090%s%s^ffffff."
+TEXT_PROFHELP_MAINPROFNIL = "You haven't chosen a Primary Class. Visit #%d# to select one."
+TEXT_PROFHELP_SUBPROFNIL1 = "You haven't chosen a Secondary Class. Visit #%d# to select one."
+TEXT_PROFHELP_SUBPROFNIL2 = "Secondary Class unavailable. You must reach Level ^ff9090%s%s^ffffff in your Primary Class first."
+TEXT_PROFHELP_MAINPROFMAX = "Primary Class is at max level."
+TEXT_PROFHELP_SUBPROFMAX = "Secondary Class is at max level."
+TEXT_PROFHELP_MAINSUGGEST1 = "Suggested: Upgrade Primary Class to ^ff9090%s%s^ffffff (Costs EXP/Training)."
+TEXT_PROFHELP_MAINSUGGEST2 = "You must go to #%d# and complete the Class Quest to advance to: ^ff9090%s%s^ffffff."
+TEXT_PROFHELP_SUGGEST = "Priority Tip: Focus on your Primary Class. If it is lower than your Secondary Class level, upgrading will cost significantly more EXP."
 
-TEXT_PROFHELP_LEARNNIL = "Cấp độ này không có kỹ năng chiến đấu nào có thể học."
-TEXT_PROFHELP_LEARNSKILL = "Bạn có thể đến #%d# học kỹ năng chiến đấu mới."
-TEXT_PROFHELP_LEARNRIDE = "Khi bạn đạt cấp 20, có thể đến #%d# học kỵ thuật."
+TEXT_PROFHELP_LEARNSKILL = "You can visit #%d# to learn new combat skills."
+TEXT_PROFHELP_LEARNRIDE = "At Level 20, you can visit #%d# to learn Riding."
 
-TEXT_PROFHELP_MAINDOWERNIL = "Bạn chưa chọn binh chủng chính, không có điểm chuyên tinh khả dụng."
-TEXT_PROFHELP_MAINDOWER1 = "Tổng điểm chuyên tinh binh chủng chính hiện tại của bạn là %d."
-TEXT_PROFHELP_MAINDOWER2 = "Mỗi khi cấp độ binh chủng chính tăng lên một cấp có thể nhận được một điểm chuyên tinh."
-TEXT_PROFHELP_SUBDOWERNIL = "Bạn chưa chọn binh chủng phụ, không có điểm chuyên tinh khả dụng."
-TEXT_PROFHELP_SUBDOWER1 = "Tổng điểm chuyên tinh binh chủng phụ hiện tại của bạn là %d."
-TEXT_PROFHELP_SUBDOWER2 = "Mỗi khi cấp độ binh chủng phụ tăng lên một cấp có thể nhận được một điểm chuyên tinh."
-TEXT_PROFHELP_SUBDOWER3 = "Bạn cần nâng cấp binh chủng phụ lên ^ff9090%s%s^ffffff, mới có thể nhận được điểm chuyên tinh. Sau đó mỗi khi cấp độ binh chủng phụ tăng lên một cấp có thể nhận được một điểm chuyên tinh."
+TEXT_PROFHELP_MAINDOWER1 = "Current Primary Class Mastery Points: %d."
+TEXT_PROFHELP_MAINDOWER2 = "Gain 1 Mastery Point every time your Primary Class levels up."
+TEXT_PROFHELP_SUBDOWER3 = "You must reach ^ff9090%s%s^ffffff with your Secondary Class to begin earning Mastery Points."
 
-TEXT_PROFHELP_INTDOWER1 = "Tổng điểm tư chất hiện tại của bạn là %d."
-TEXT_PROFHELP_INTDOWER2 = "Hiện tại mỗi khi cấp độ nhân vật của bạn tăng lên một cấp có thể nhận được năm điểm tư chất."
+TEXT_PROFHELP_INTDOWER1 = "Current Attribute Points: %d."
+TEXT_PROFHELP_INTDOWER2 = "You receive 5 Attribute Points every time your character levels up."
 
+-- Rank Titles
 GNR_PROFRANK_NAME0 = ""
-GNR_PROFRANK_NAME1 = "Nhất đoạn"
-GNR_PROFRANK_NAME2 = "Nhị đoạn"
-GNR_PROFRANK_NAME3 = "Tam đoạn"
-GNR_PROFRANK_NAME4 = "Tứ đoạn"
-GNR_PROFRANK_NAME5 = "Ngũ đoạn"
-GNR_PROFRANK_NAME6 = "Lục đoạn"
-GNR_PROFRANK_NAME7 = "Thất đoạn"
-GNR_PROFRANK_NAME8 = "Bát đoạn"
-GNR_PROFRANK_NAME9 = "Cửu đoạn"
+GNR_PROFRANK_NAME1 = "Rank 1"
+GNR_PROFRANK_NAME2 = "Rank 2"
+GNR_PROFRANK_NAME3 = "Rank 3"
+GNR_PROFRANK_NAME4 = "Rank 4"
+GNR_PROFRANK_NAME5 = "Rank 5"
+GNR_PROFRANK_NAME6 = "Rank 6"
+GNR_PROFRANK_NAME7 = "Rank 7"
+GNR_PROFRANK_NAME8 = "Rank 8"
+GNR_PROFRANK_NAME9 = "Rank 9"
 
-GNR_PROFLEVEL_NAME1_0 = "Người Tập Đao"
-GNR_PROFLEVEL_NAME1_1 = "Đao Binh"
-GNR_PROFLEVEL_NAME1_2 = "Đao Kỵ"
-GNR_PROFLEVEL_NAME1_3 = "Đao Úy"
-GNR_PROFLEVEL_NAME1_4 = "Đao Tướng"
-GNR_PROFLEVEL_NAME1_5 = "Đao Thánh"
-GNR_PROFLEVEL_NAME1_6 = "Đao Thần"
-GNR_PROFLEVEL_NAME1_7 = "Phong Đao Sứ"
-GNR_PROFLEVEL_NAME1_8 = "Phong Đao Tôn"
-GNR_PROFLEVEL_NAME1_9 = "Chờ định 3"
+-- Class Titles (By Weapon Type)
+-- Saber (Đao)
+GNR_PROFLEVEL_NAME1_0 = "Saber Trainee"
+GNR_PROFLEVEL_NAME1_1 = "Saber Guard"
+GNR_PROFLEVEL_NAME1_2 = "Saber Cavalry"
+GNR_PROFLEVEL_NAME1_3 = "Saber Officer"
+GNR_PROFLEVEL_NAME1_4 = "Saber General"
+GNR_PROFLEVEL_NAME1_5 = "Saber Saint"
+GNR_PROFLEVEL_NAME1_6 = "Saber God"
+GNR_PROFLEVEL_NAME1_7 = "Wind Saber Envoy"
+GNR_PROFLEVEL_NAME1_8 = "Wind Saber Lord"
 
-GNR_PROFLEVEL_NAME2_0 = "Người Tập Thương"
-GNR_PROFLEVEL_NAME2_1 = "Thương Binh"
-GNR_PROFLEVEL_NAME2_2 = "Thương Kỵ"
-GNR_PROFLEVEL_NAME2_3 = "Thương Úy"
-GNR_PROFLEVEL_NAME2_4 = "Thương Tướng"
-GNR_PROFLEVEL_NAME2_5 = "Thương Vương"
-GNR_PROFLEVEL_NAME2_6 = "Thương Thần"
-GNR_PROFLEVEL_NAME2_7 = "Thánh Thương Sứ"
-GNR_PROFLEVEL_NAME2_8 = "Thánh Thương Tôn"
-GNR_PROFLEVEL_NAME2_9 = "Chờ định 3"
+-- Spear (Thương)
+GNR_PROFLEVEL_NAME2_0 = "Spear Trainee"
+GNR_PROFLEVEL_NAME2_1 = "Spearman"
+GNR_PROFLEVEL_NAME2_2 = "Spear Cavalry"
+GNR_PROFLEVEL_NAME2_3 = "Spear Officer"
+GNR_PROFLEVEL_NAME2_4 = "Spear General"
+GNR_PROFLEVEL_NAME2_5 = "Spear King"
+GNR_PROFLEVEL_NAME2_6 = "Spear God"
+GNR_PROFLEVEL_NAME2_7 = "Holy Spear Envoy"
+GNR_PROFLEVEL_NAME2_8 = "Holy Spear Lord"
 
-GNR_PROFLEVEL_NAME3_0 = "Người Tập Kích"
-GNR_PROFLEVEL_NAME3_1 = "Kích Binh"
-GNR_PROFLEVEL_NAME3_2 = "Kích Kỵ"
-GNR_PROFLEVEL_NAME3_3 = "Kích Úy"
-GNR_PROFLEVEL_NAME3_4 = "Kích Tướng"
-GNR_PROFLEVEL_NAME3_5 = "Kích Thánh"
-GNR_PROFLEVEL_NAME3_6 = "Kích Thần"
-GNR_PROFLEVEL_NAME3_7 = "Xích Kích Sứ"
-GNR_PROFLEVEL_NAME3_8 = "Xích Kích Tôn"
-GNR_PROFLEVEL_NAME3_9 = "Chờ định 3"
+-- Halberd (Kích)
+GNR_PROFLEVEL_NAME3_0 = "Halberd Trainee"
+GNR_PROFLEVEL_NAME3_1 = "Halberdier"
+GNR_PROFLEVEL_NAME3_2 = "Halberd Cavalry"
+GNR_PROFLEVEL_NAME3_3 = "Halberd Officer"
+GNR_PROFLEVEL_NAME3_4 = "Halberd General"
+GNR_PROFLEVEL_NAME3_5 = "Halberd Saint"
+GNR_PROFLEVEL_NAME3_6 = "Halberd God"
+GNR_PROFLEVEL_NAME3_7 = "Crimson Halberd Envoy"
+GNR_PROFLEVEL_NAME3_8 = "Crimson Halberd Lord"
 
-GNR_PROFLEVEL_NAME4_0 = "Người Tập Việt"
-GNR_PROFLEVEL_NAME4_1 = "Việt Binh"
-GNR_PROFLEVEL_NAME4_2 = "Việt Kỵ"
-GNR_PROFLEVEL_NAME4_3 = "Việt Úy"
-GNR_PROFLEVEL_NAME4_4 = "Việt Tướng"
-GNR_PROFLEVEL_NAME4_5 = "Việt Thánh"
-GNR_PROFLEVEL_NAME4_6 = "Việt Thần"
-GNR_PROFLEVEL_NAME4_7 = "Hoàng Việt Sứ"
-GNR_PROFLEVEL_NAME4_8 = "Hoàng Việt Tôn"
-GNR_PROFLEVEL_NAME4_9 = "Chờ định 3"
+-- Axe-Staff/Battle Axe (Việt)
+GNR_PROFLEVEL_NAME4_0 = "Axe Trainee"
+GNR_PROFLEVEL_NAME4_1 = "Axe Warrior"
+GNR_PROFLEVEL_NAME4_2 = "Axe Cavalry"
+GNR_PROFLEVEL_NAME4_3 = "Axe Officer"
+GNR_PROFLEVEL_NAME4_4 = "Axe General"
+GNR_PROFLEVEL_NAME4_5 = "Axe Saint"
+GNR_PROFLEVEL_NAME4_6 = "Axe God"
+GNR_PROFLEVEL_NAME4_7 = "Imperial Axe Envoy"
+GNR_PROFLEVEL_NAME4_8 = "Imperial Axe Lord"
 
-GNR_PROFLEVEL_NAME5_0 = "Người Tập Xoa"
-GNR_PROFLEVEL_NAME5_1 = "Xoa Binh"
-GNR_PROFLEVEL_NAME5_2 = "Xoa Kỵ"
-GNR_PROFLEVEL_NAME5_3 = "Xoa Úy"
-GNR_PROFLEVEL_NAME5_4 = "Xoa Tướng"
-GNR_PROFLEVEL_NAME5_5 = "Xoa Thánh"
-GNR_PROFLEVEL_NAME5_6 = "Xoa Thần"
-GNR_PROFLEVEL_NAME5_7 = "Ảnh Xoa Sứ"
-GNR_PROFLEVEL_NAME5_8 = "Ảnh Xoa Tôn"
-GNR_PROFLEVEL_NAME5_9 = "Chờ định 3"
+-- Trident/Fork (Xoa)
+GNR_PROFLEVEL_NAME5_0 = "Trident Trainee"
+GNR_PROFLEVEL_NAME5_1 = "Trident Warrior"
+GNR_PROFLEVEL_NAME5_2 = "Trident Cavalry"
+GNR_PROFLEVEL_NAME5_3 = "Trident Officer"
+GNR_PROFLEVEL_NAME5_4 = "Trident General"
+GNR_PROFLEVEL_NAME5_5 = "Trident Saint"
+GNR_PROFLEVEL_NAME5_6 = "Trident God"
+GNR_PROFLEVEL_NAME5_7 = "Shadow Trident Envoy"
+GNR_PROFLEVEL_NAME5_8 = "Shadow Trident Lord"
 
-GNR_PROFLEVEL_NAME6_0 = "Người Tập Côn"
-GNR_PROFLEVEL_NAME6_1 = "Côn Binh"
-GNR_PROFLEVEL_NAME6_2 = "Côn Kỵ"
-GNR_PROFLEVEL_NAME6_3 = "Côn Úy"
-GNR_PROFLEVEL_NAME6_4 = "Côn Tướng"
-GNR_PROFLEVEL_NAME6_5 = "Côn Vương"
-GNR_PROFLEVEL_NAME6_6 = "Côn Tiên"
-GNR_PROFLEVEL_NAME6_7 = "Xảo Côn Sứ"
-GNR_PROFLEVEL_NAME6_8 = "Xảo Côn Tôn"
-GNR_PROFLEVEL_NAME6_9 = "Chờ định 3"
+-- Staff (Côn)
+GNR_PROFLEVEL_NAME6_0 = "Staff Trainee"
+GNR_PROFLEVEL_NAME6_1 = "Staff Warrior"
+GNR_PROFLEVEL_NAME6_2 = "Staff Cavalry"
+GNR_PROFLEVEL_NAME6_3 = "Staff Officer"
+GNR_PROFLEVEL_NAME6_4 = "Staff General"
+GNR_PROFLEVEL_NAME6_5 = "Staff King"
+GNR_PROFLEVEL_NAME6_6 = "Staff Immortal"
+GNR_PROFLEVEL_NAME6_7 = "Skillful Staff Envoy"
+GNR_PROFLEVEL_NAME6_8 = "Skillful Staff Lord"
 
-GNR_PROFLEVEL_NAME7_0 = "Người Tập Kiếm"
-GNR_PROFLEVEL_NAME7_1 = "Kiếm Khách"
-GNR_PROFLEVEL_NAME7_2 = "Kiếm Sĩ"
-GNR_PROFLEVEL_NAME7_3 = "Kiếm Hiệp"
-GNR_PROFLEVEL_NAME7_4 = "Kiếm Hào"
-GNR_PROFLEVEL_NAME7_5 = "Kiếm Thánh"
-GNR_PROFLEVEL_NAME7_6 = "Kiếm Tiên"
-GNR_PROFLEVEL_NAME7_7 = "Ngạo Kiếm Sứ"
-GNR_PROFLEVEL_NAME7_8 = "Ngạo Kiếm Tôn"
-GNR_PROFLEVEL_NAME7_9 = "Chờ định 3"
+-- Sword (Kiếm)
+GNR_PROFLEVEL_NAME7_0 = "Sword Trainee"
+GNR_PROFLEVEL_NAME7_1 = "Swordsman"
+GNR_PROFLEVEL_NAME7_2 = "Sword Warrior"
+GNR_PROFLEVEL_NAME7_3 = "Sword Hero"
+GNR_PROFLEVEL_NAME7_4 = "Sword Elite"
+GNR_PROFLEVEL_NAME7_5 = "Sword Saint"
+GNR_PROFLEVEL_NAME7_6 = "Sword Immortal"
+GNR_PROFLEVEL_NAME7_7 = "Proud Sword Envoy"
+GNR_PROFLEVEL_NAME7_8 = "Proud Sword Lord"
 
-GNR_PROFLEVEL_NAME8_0 = "Người Tập Phủ"
-GNR_PROFLEVEL_NAME8_1 = "Phủ Binh"
-GNR_PROFLEVEL_NAME8_2 = "Phủ Kỵ"
-GNR_PROFLEVEL_NAME8_3 = "Phủ Úy"
-GNR_PROFLEVEL_NAME8_4 = "Phủ Tướng"
-GNR_PROFLEVEL_NAME8_5 = "Phủ Vương"
-GNR_PROFLEVEL_NAME8_6 = "Phủ Thần"
-GNR_PROFLEVEL_NAME8_7 = "Cuồng Phủ Sứ"
-GNR_PROFLEVEL_NAME8_8 = "Cuồng Phủ Tôn"
-GNR_PROFLEVEL_NAME8_9 = "Chờ định 3"
+-- Hatchet/Small Axe (Phủ)
+GNR_PROFLEVEL_NAME8_0 = "Hatchet Trainee"
+GNR_PROFLEVEL_NAME8_1 = "Hatchet Warrior"
+GNR_PROFLEVEL_NAME8_2 = "Hatchet Cavalry"
+GNR_PROFLEVEL_NAME8_3 = "Hatchet Officer"
+GNR_PROFLEVEL_NAME8_4 = "Hatchet General"
+GNR_PROFLEVEL_NAME8_5 = "Hatchet King"
+GNR_PROFLEVEL_NAME8_6 = "Hatchet God"
+GNR_PROFLEVEL_NAME8_7 = "Wild Hatchet Envoy"
+GNR_PROFLEVEL_NAME8_8 = "Wild Hatchet Lord"
 
-GNR_PROFLEVEL_NAME9_0 = "Người Tập Câu"
-GNR_PROFLEVEL_NAME9_1 = "Câu Khách"
-GNR_PROFLEVEL_NAME9_2 = "Câu Sĩ"
-GNR_PROFLEVEL_NAME9_3 = "Câu Hiệp"
-GNR_PROFLEVEL_NAME9_4 = "Câu Hào"
-GNR_PROFLEVEL_NAME9_5 = "Câu Vương"
-GNR_PROFLEVEL_NAME9_6 = "Câu Thần"
-GNR_PROFLEVEL_NAME9_7 = "Tật Câu Sứ"
-GNR_PROFLEVEL_NAME9_8 = "Tật Câu Tôn"
-GNR_PROFLEVEL_NAME9_9 = "Chờ định 3"
+-- Hook (Câu)
+GNR_PROFLEVEL_NAME9_0 = "Hook Trainee"
+GNR_PROFLEVEL_NAME9_1 = "Hook Stalker"
+GNR_PROFLEVEL_NAME9_2 = "Hook Warrior"
+GNR_PROFLEVEL_NAME9_3 = "Hook Hero"
+GNR_PROFLEVEL_NAME9_4 = "Hook Elite"
+GNR_PROFLEVEL_NAME9_5 = "Hook King"
+GNR_PROFLEVEL_NAME9_6 = "Hook God"
+GNR_PROFLEVEL_NAME9_7 = "Swift Hook Envoy"
+GNR_PROFLEVEL_NAME9_8 = "Swift Hook Lord"
 
-GNR_PROFLEVEL_NAME10_0 = "Người Tập Giản"
-GNR_PROFLEVEL_NAME10_1 = "Giản Khách"
-GNR_PROFLEVEL_NAME10_2 = "Giản Sĩ"
-GNR_PROFLEVEL_NAME10_3 = "Giản Hiệp"
-GNR_PROFLEVEL_NAME10_4 = "Giản Hào"
-GNR_PROFLEVEL_NAME10_5 = "Giản Thánh"
-GNR_PROFLEVEL_NAME10_6 = "Giản Thần"
-GNR_PROFLEVEL_NAME10_7 = "Liệt Giản Sứ"
-GNR_PROFLEVEL_NAME10_8 = "Liệt Giản Tôn"
-GNR_PROFLEVEL_NAME10_9 = "Chờ định 3"
+-- Baton/Mace (Giản)
+GNR_PROFLEVEL_NAME10_0 = "Baton Trainee"
+GNR_PROFLEVEL_NAME10_1 = "Baton Stalker"
+GNR_PROFLEVEL_NAME10_2 = "Baton Warrior"
+GNR_PROFLEVEL_NAME10_3 = "Baton Hero"
+GNR_PROFLEVEL_NAME10_4 = "Baton Elite"
+GNR_PROFLEVEL_NAME10_5 = "Baton Saint"
+GNR_PROFLEVEL_NAME10_6 = "Baton God"
+GNR_PROFLEVEL_NAME10_7 = "Fierce Baton Envoy"
+GNR_PROFLEVEL_NAME10_8 = "Fierce Baton Lord"
 
-GNR_PROFLEVEL_NAME11_0 = "Người Tập Chùy"
-GNR_PROFLEVEL_NAME11_1 = "Chùy Binh"
-GNR_PROFLEVEL_NAME11_2 = "Chùy Kỵ"
-GNR_PROFLEVEL_NAME11_3 = "Chùy Úy"
-GNR_PROFLEVEL_NAME11_4 = "Chùy Tướng"
-GNR_PROFLEVEL_NAME11_5 = "Chùy Thánh"
-GNR_PROFLEVEL_NAME11_6 = "Chùy Thần"
-GNR_PROFLEVEL_NAME11_7 = "Oanh Chùy Sứ"
-GNR_PROFLEVEL_NAME11_8 = "Oanh Chùy Tôn"
-GNR_PROFLEVEL_NAME11_9 = "Chờ định 3"
+-- Hammer (Chùy)
+GNR_PROFLEVEL_NAME11_0 = "Hammer Trainee"
+GNR_PROFLEVEL_NAME11_1 = "Hammer Warrior"
+GNR_PROFLEVEL_NAME11_2 = "Hammer Cavalry"
+GNR_PROFLEVEL_NAME11_3 = "Hammer Officer"
+GNR_PROFLEVEL_NAME11_4 = "Hammer General"
+GNR_PROFLEVEL_NAME11_5 = "Hammer Saint"
+GNR_PROFLEVEL_NAME11_6 = "Hammer God"
+GNR_PROFLEVEL_NAME11_7 = "Roaring Hammer Envoy"
+GNR_PROFLEVEL_NAME11_8 = "Roaring Hammer Lord"
 
-GNR_PROFLEVEL_NAME12_0 = "Người Tập Trảo"
-GNR_PROFLEVEL_NAME12_1 = "Trảo Khách"
-GNR_PROFLEVEL_NAME12_2 = "Trảo Sĩ"
-GNR_PROFLEVEL_NAME12_3 = "Trảo Hiệp"
-GNR_PROFLEVEL_NAME12_4 = "Trảo Hào"
-GNR_PROFLEVEL_NAME12_5 = "Trảo Thánh"
-GNR_PROFLEVEL_NAME12_6 = "Trảo Thần"
-GNR_PROFLEVEL_NAME12_7 = "Lôi Trảo Sứ"
-GNR_PROFLEVEL_NAME12_8 = "Lôi Trảo Tôn"
-GNR_PROFLEVEL_NAME12_9 = "Chờ định 3"
+-- Claw (Trảo)
+GNR_PROFLEVEL_NAME12_0 = "Claw Trainee"
+GNR_PROFLEVEL_NAME12_1 = "Claw Stalker"
+GNR_PROFLEVEL_NAME12_2 = "Claw Warrior"
+GNR_PROFLEVEL_NAME12_3 = "Claw Hero"
+GNR_PROFLEVEL_NAME12_4 = "Claw Elite"
+GNR_PROFLEVEL_NAME12_5 = "Claw Saint"
+GNR_PROFLEVEL_NAME12_6 = "Claw God"
+GNR_PROFLEVEL_NAME12_7 = "Thunder Claw Envoy"
+GNR_PROFLEVEL_NAME12_8 = "Thunder Claw Lord"
 
-GNR_PROFLEVEL_NAME13_0 = "Người Tập Thuẫn"
-GNR_PROFLEVEL_NAME13_1 = "Thuẫn Binh"
-GNR_PROFLEVEL_NAME13_2 = "Thuẫn Kỵ"
-GNR_PROFLEVEL_NAME13_3 = "Thuẫn Úy"
-GNR_PROFLEVEL_NAME13_4 = "Thuẫn Tướng"
-GNR_PROFLEVEL_NAME13_5 = "Thuẫn Vương"
-GNR_PROFLEVEL_NAME13_6 = "Thuẫn Tiên"
-GNR_PROFLEVEL_NAME13_7 = "Kiên Thuẫn Sứ"
-GNR_PROFLEVEL_NAME13_8 = "Kiên Thuẫn Tôn"
-GNR_PROFLEVEL_NAME13_9 = "Chờ định 3"
+-- Shield (Thuẫn)
+GNR_PROFLEVEL_NAME13_0 = "Shield Trainee"
+GNR_PROFLEVEL_NAME13_1 = "Shield Warrior"
+GNR_PROFLEVEL_NAME13_2 = "Shield Cavalry"
+GNR_PROFLEVEL_NAME13_3 = "Shield Officer"
+GNR_PROFLEVEL_NAME13_4 = "Shield General"
+GNR_PROFLEVEL_NAME13_5 = "Shield King"
+GNR_PROFLEVEL_NAME13_6 = "Shield Immortal"
+GNR_PROFLEVEL_NAME13_7 = "Sturdy Shield Envoy"
+GNR_PROFLEVEL_NAME13_8 = "Sturdy Shield Lord"
 
-GNR_PROFLEVEL_NAME14_0 = "Người Tập Hoàn"
-GNR_PROFLEVEL_NAME14_1 = "Hoàn Thủ"
-GNR_PROFLEVEL_NAME14_2 = "Hoàn Sĩ"
-GNR_PROFLEVEL_NAME14_3 = "Hoàn Hiệp"
-GNR_PROFLEVEL_NAME14_4 = "Hoàn Tướng"
-GNR_PROFLEVEL_NAME14_5 = "Hoàn Thánh"
-GNR_PROFLEVEL_NAME14_6 = "Hoàn Tiên"
-GNR_PROFLEVEL_NAME14_7 = "Linh Hoàn Sứ"
-GNR_PROFLEVEL_NAME14_8 = "Linh Hoàn Tôn"
-GNR_PROFLEVEL_NAME14_9 = "Chờ định 3"
+-- Ring/Chakram (Hoàn)
+GNR_PROFLEVEL_NAME14_0 = "Ring Trainee"
+GNR_PROFLEVEL_NAME14_1 = "Ring Bearer"
+GNR_PROFLEVEL_NAME14_2 = "Ring Warrior"
+GNR_PROFLEVEL_NAME14_3 = "Ring Hero"
+GNR_PROFLEVEL_NAME14_4 = "Ring General"
+GNR_PROFLEVEL_NAME14_5 = "Ring Saint"
+GNR_PROFLEVEL_NAME14_6 = "Ring Immortal"
+GNR_PROFLEVEL_NAME14_7 = "Spirit Ring Envoy"
+GNR_PROFLEVEL_NAME14_8 = "Spirit Ring Lord"
 
-GNR_PROFLEVEL_NAME15_0 = "Người Tập Trượng"
-GNR_PROFLEVEL_NAME15_1 = "Trượng Khách"
-GNR_PROFLEVEL_NAME15_2 = "Trượng Sĩ"
-GNR_PROFLEVEL_NAME15_3 = "Trượng Hiệp"
-GNR_PROFLEVEL_NAME15_4 = "Trượng Tướng"
-GNR_PROFLEVEL_NAME15_5 = "Trượng Vương"
-GNR_PROFLEVEL_NAME15_6 = "Trượng Tiên"
-GNR_PROFLEVEL_NAME15_7 = "Hào Trượng Sứ"
-GNR_PROFLEVEL_NAME15_8 = "Hào Trượng Tôn"
-GNR_PROFLEVEL_NAME15_9 = "Chờ định 3"
+-- Scepter/Staff (Trượng)
+GNR_PROFLEVEL_NAME15_0 = "Scepter Trainee"
+GNR_PROFLEVEL_NAME15_1 = "Scepter User"
+GNR_PROFLEVEL_NAME15_2 = "Scepter Warrior"
+GNR_PROFLEVEL_NAME15_3 = "Scepter Hero"
+GNR_PROFLEVEL_NAME15_4 = "Scepter General"
+GNR_PROFLEVEL_NAME15_5 = "Scepter King"
+GNR_PROFLEVEL_NAME15_6 = "Scepter Immortal"
+GNR_PROFLEVEL_NAME15_7 = "Grand Scepter Envoy"
+GNR_PROFLEVEL_NAME15_8 = "Grand Scepter Lord"
 
-GNR_PROFLEVEL_NAME16_0 = "Người Tập Vũ"
-GNR_PROFLEVEL_NAME16_1 = "Vũ Giả"
-GNR_PROFLEVEL_NAME16_2 = "Vũ Sĩ"
-GNR_PROFLEVEL_NAME16_3 = "Vũ Sư"
-GNR_PROFLEVEL_NAME16_4 = "Vũ Hào"
-GNR_PROFLEVEL_NAME16_5 = "Vũ Vương"
-GNR_PROFLEVEL_NAME16_6 = "Vũ Tiên"
-GNR_PROFLEVEL_NAME16_7 = "Diệu Vũ Sứ"
-GNR_PROFLEVEL_NAME16_8 = "Diệu Vũ Tôn"
-GNR_PROFLEVEL_NAME16_9 = "Chờ định 3"
+-- Dance/Fan (Vũ)
+GNR_PROFLEVEL_NAME16_0 = "Dance Trainee"
+GNR_PROFLEVEL_NAME16_1 = "Dancer"
+GNR_PROFLEVEL_NAME16_2 = "Dance Warrior"
+GNR_PROFLEVEL_NAME16_3 = "Dance Master"
+GNR_PROFLEVEL_NAME16_4 = "Dance Elite"
+GNR_PROFLEVEL_NAME16_5 = "Dance King"
+GNR_PROFLEVEL_NAME16_6 = "Dance Immortal"
+GNR_PROFLEVEL_NAME16_7 = "Divine Dance Envoy"
+GNR_PROFLEVEL_NAME16_8 = "Divine Dance Lord"
 
-GNR_PROFLEVEL_NAME17_0 = "Người Tập Phiến"
-GNR_PROFLEVEL_NAME17_1 = "Phiến Sinh"
-GNR_PROFLEVEL_NAME17_2 = "Phiến Sĩ"
-GNR_PROFLEVEL_NAME17_3 = "Phiến Hiệp"
-GNR_PROFLEVEL_NAME17_4 = "Phiến Tướng"
-GNR_PROFLEVEL_NAME17_5 = "Phiến Vương"
-GNR_PROFLEVEL_NAME17_6 = "Phiến Tiên"
-GNR_PROFLEVEL_NAME17_7 = "Dật Phiến Sứ"
-GNR_PROFLEVEL_NAME17_8 = "Dật Phiến Tôn"
-GNR_PROFLEVEL_NAME17_9 = "Chờ định 3"
+-- Fan (Phiến)
+GNR_PROFLEVEL_NAME17_0 = "Fan Trainee"
+GNR_PROFLEVEL_NAME17_1 = "Fan Scholar"
+GNR_PROFLEVEL_NAME17_2 = "Fan Warrior"
+GNR_PROFLEVEL_NAME17_3 = "Fan Hero"
+GNR_PROFLEVEL_NAME17_4 = "Fan General"
+GNR_PROFLEVEL_NAME17_5 = "Fan King"
+GNR_PROFLEVEL_NAME17_6 = "Fan Immortal"
+GNR_PROFLEVEL_NAME17_7 = "Graceful Fan Envoy"
+GNR_PROFLEVEL_NAME17_8 = "Graceful Fan Lord"
 
-GNR_PROFLEVEL_NAME18_0 = "Người Tập Cung"
-GNR_PROFLEVEL_NAME18_1 = "Cung Thủ"
-GNR_PROFLEVEL_NAME18_2 = "Cung Kỵ"
-GNR_PROFLEVEL_NAME18_3 = "Cung Úy"
-GNR_PROFLEVEL_NAME18_4 = "Cung Tướng"
-GNR_PROFLEVEL_NAME18_5 = "Cung Vương"
-GNR_PROFLEVEL_NAME18_6 = "Cung Thần"
-GNR_PROFLEVEL_NAME18_7 = "Thiên Cung Sứ"
-GNR_PROFLEVEL_NAME18_8 = "Thiên Cung Tôn"
-GNR_PROFLEVEL_NAME18_9 = "Chờ định 3"
+-- Bow (Cung)
+GNR_PROFLEVEL_NAME18_0 = "Bow Trainee"
+GNR_PROFLEVEL_NAME18_1 = "Archer"
+GNR_PROFLEVEL_NAME18_2 = "Bow Cavalry"
+GNR_PROFLEVEL_NAME18_3 = "Bow Officer"
+GNR_PROFLEVEL_NAME18_4 = "Bow General"
+GNR_PROFLEVEL_NAME18_5 = "Bow King"
+GNR_PROFLEVEL_NAME18_6 = "Bow God"
+GNR_PROFLEVEL_NAME18_7 = "Heavenly Bow Envoy"
+GNR_PROFLEVEL_NAME18_8 = "Heavenly Bow Lord"
 
-GNR_PROFLEVEL_NAME19_0 = "Người Tập Tiên"
-GNR_PROFLEVEL_NAME19_1 = "Tiên Thủ"
-GNR_PROFLEVEL_NAME19_2 = "Tiên Kỵ"
-GNR_PROFLEVEL_NAME19_3 = "Tiên Úy"
-GNR_PROFLEVEL_NAME19_4 = "Tiên Tướng"
-GNR_PROFLEVEL_NAME19_5 = "Tiên Vương"
-GNR_PROFLEVEL_NAME19_6 = "Tiên Thần"
-GNR_PROFLEVEL_NAME19_7 = "Thần Tiên Sứ"
-GNR_PROFLEVEL_NAME19_8 = "Thần Tiên Tôn"
-GNR_PROFLEVEL_NAME19_9 = "Chờ định 3"
+-- Whip (Tiên)
+GNR_PROFLEVEL_NAME19_0 = "Whip Trainee"
+GNR_PROFLEVEL_NAME19_1 = "Whip User"
+GNR_PROFLEVEL_NAME19_2 = "Whip Cavalry"
+GNR_PROFLEVEL_NAME19_3 = "Whip Officer"
+GNR_PROFLEVEL_NAME19_4 = "Whip General"
+GNR_PROFLEVEL_NAME19_5 = "Whip King"
+GNR_PROFLEVEL_NAME19_6 = "Whip God"
+GNR_PROFLEVEL_NAME19_7 = "Divine Whip Envoy"
+GNR_PROFLEVEL_NAME19_8 = "Divine Whip Lord"
 
-GNR_PROFLEVEL_NAME20_0 = "Người Tập Nỏ"
-GNR_PROFLEVEL_NAME20_1 = "Nỏ Thủ"
-GNR_PROFLEVEL_NAME20_2 = "Nỏ Kỵ"
-GNR_PROFLEVEL_NAME20_3 = "Nỏ Úy"
-GNR_PROFLEVEL_NAME20_4 = "Nỏ Tướng"
-GNR_PROFLEVEL_NAME20_5 = "Nỏ Vương"
-GNR_PROFLEVEL_NAME20_6 = "Nỏ Thần"
-GNR_PROFLEVEL_NAME20_7 = "Thiên Nỏ Sứ"
-GNR_PROFLEVEL_NAME20_8 = "Thiên Nỏ Tôn"
-GNR_PROFLEVEL_NAME20_9 = "Chờ định 3"
+-- Crossbow (Nỏ)
+GNR_PROFLEVEL_NAME20_0 = "Crossbow Trainee"
+GNR_PROFLEVEL_NAME20_1 = "Crossbowman"
+GNR_PROFLEVEL_NAME20_2 = "Crossbow Cavalry"
+GNR_PROFLEVEL_NAME20_3 = "Crossbow Officer"
+GNR_PROFLEVEL_NAME20_4 = "Crossbow General"
+GNR_PROFLEVEL_NAME20_5 = "Crossbow King"
+GNR_PROFLEVEL_NAME20_6 = "Crossbow God"
+GNR_PROFLEVEL_NAME20_7 = "Sky Crossbow Envoy"
+GNR_PROFLEVEL_NAME20_8 = "Sky Crossbow Lord"
 
---2 Trang bị
-TEXT_EQUIPHELP_CANCHANGE = "Bộ phận có thể thay đổi trang bị mới ở cấp độ hiện tại: %s"
-TEXT_EQUIPHELP_NOWEQUIP = "Trang bị ^ff9090%s^ffffff có thể trang bị là: %s."
-TEXT_EQUIPHELP_NEXTEQUIP = "%s bậc tiếp theo cần cấp %s mới có thể trang bị."
+-- 2 Equipment Support
+TEXT_EQUIPHELP_CANCHANGE = "Available equipment slots for upgrade at current level: %s"
+TEXT_EQUIPHELP_NOWEQUIP = "Equippable ^ff9090%s^ffffff items: %s."
+TEXT_EQUIPHELP_NEXTEQUIP = "Next tier %s requires level %s to equip."
 
-GNR_EQUIPLEVEL_NAME0 = "Sơ cấp"
-GNR_EQUIPLEVEL_NAME1 = "Bậc một"
-GNR_EQUIPLEVEL_NAME2 = "Bậc hai"
-GNR_EQUIPLEVEL_NAME3 = "Bậc ba"
-GNR_EQUIPLEVEL_NAME4 = "Bậc bốn"
-GNR_EQUIPLEVEL_NAME5 = "Bậc năm"
-GNR_EQUIPLEVEL_NAME6 = "Bậc sáu"
-GNR_EQUIPLEVEL_NAME7 = "Bậc bảy"
-GNR_EQUIPLEVEL_NAME8 = "Bậc tám"
-GNR_EQUIPLEVEL_NAME9 = "Bậc chín"
-GNR_EQUIPLEVEL_NAME10 = "Bậc mười"
+-- Equipment Tier Names
+GNR_EQUIPLEVEL_NAME0 = "Basic"
+GNR_EQUIPLEVEL_NAME1 = "Tier 1"
+GNR_EQUIPLEVEL_NAME2 = "Tier 2"
+GNR_EQUIPLEVEL_NAME3 = "Tier 3"
+GNR_EQUIPLEVEL_NAME4 = "Tier 4"
+GNR_EQUIPLEVEL_NAME5 = "Tier 5"
+GNR_EQUIPLEVEL_NAME6 = "Tier 6"
+GNR_EQUIPLEVEL_NAME7 = "Tier 7"
+GNR_EQUIPLEVEL_NAME8 = "Tier 8"
+GNR_EQUIPLEVEL_NAME9 = "Tier 9"
+GNR_EQUIPLEVEL_NAME10 = "Tier 10"
 
-GNR_EQUIPGRID_NAME1 = "Vũ khí"
-GNR_EQUIPGRID_NAME2 = "Áo"
-GNR_EQUIPGRID_NAME3 = "Hộ vai"
-GNR_EQUIPGRID_NAME4 = "Hộ chân"
-GNR_EQUIPGRID_NAME5 = "Giày"
-GNR_EQUIPGRID_NAME6 = "Đai lưng"
-GNR_EQUIPGRID_NAME7 = "Hộ cổ tay"
+-- Equipment Slots
+GNR_EQUIPGRID_NAME1 = "Weapon"
+GNR_EQUIPGRID_NAME2 = "Armor"
+GNR_EQUIPGRID_NAME3 = "Shoulder Guards"
+GNR_EQUIPGRID_NAME4 = "Leg Guards"
+GNR_EQUIPGRID_NAME5 = "Boots"
+GNR_EQUIPGRID_NAME6 = "Belt"
+GNR_EQUIPGRID_NAME7 = "Wrist Guards"
 
---4 Hoạt động
-TEXT_MEETHELP_CONTENT1 = "^ff9090%s^ffffff：%s"
-TEXT_MEETHELP_CONTENT2 = "Bạn có thể nói chuyện với #%d# để tham gia hoạt động này."
-TEXT_MEETHELP_NIL = "Hiện tại không có hoạt động hàng ngày nào bạn có thể tham gia."
+-- 4 Activities
+TEXT_MEETHELP_CONTENT1 = "^ff9090%s^ffffff: %s"
+TEXT_MEETHELP_CONTENT2 = "You can speak with #%d# to participate in this activity."
+TEXT_MEETHELP_NIL = "There are currently no daily activities available for you."
 
-TEXT_MEET_NAME1 = "Thi Tài Thao Lược"
-TEXT_MEET_NAME2 = "Thiên Lý Truy Hung"
-TEXT_MEET_NAME3 = "Nhiệm Vụ Nhân Nghĩa"
-TEXT_MEET_NAME4 = "Tìm Báu Vật Hàng Ngày"
-TEXT_MEET_NAME5 = "Câu Cá Hàng Ngày"
-TEXT_MEET_NAME6 = "Đại Hội Câu Cá Cuối Tuần"
-TEXT_MEET_NAME7 = "Nhạc Phủ Thăm Hỏi"
-TEXT_MEET_NAME8 = "Tranh Đoạt Ngũ Trượng Nguyên"
+TEXT_MEET_NAME1 = "Strategy & Talent Trial"
+TEXT_MEET_NAME2 = "Thousand-Mile Pursuit"
+TEXT_MEET_NAME3 = "Benevolence Quest"
+TEXT_MEET_NAME4 = "Daily Treasure Hunt"
+TEXT_MEET_NAME5 = "Daily Fishing"
+TEXT_MEET_NAME6 = "Weekend Fishing Tournament"
+TEXT_MEET_NAME7 = "Yuefu Music Bureau Visit"
+TEXT_MEET_NAME8 = "Battle for Wuzhang Plains"
 
-TEXT_MEET_NOTE1 = "Bắt đầu lúc 19:30 hàng ngày, online là có thể nhận được lời mời."
-TEXT_MEET_NOTE2 = "Bắt đầu từ 0 giờ hàng ngày, mỗi 2 giờ bắt đầu một lần."
-TEXT_MEET_NOTE3 = "Mở cả ngày."
-TEXT_MEET_NOTE4 = "Mỗi ngày một lần."
-TEXT_MEET_NOTE5 = "Mở cả ngày."
-TEXT_MEET_NOTE6 = "19:00-22:00 Chủ Nhật hàng tuần."
-TEXT_MEET_NOTE7 = "Mỗi ngày một lần."
-TEXT_MEET_NOTE8 = "Phải gia nhập một trong ba phe Ngụy, Thục, Ngô."
+TEXT_MEET_NOTE1 = "Starts at 19:30 daily. You will receive an invitation while online."
+TEXT_MEET_NOTE2 = "Starting from 00:00 daily, occurs every 2 hours."
+TEXT_MEET_NOTE3 = "Open all day."
+TEXT_MEET_NOTE4 = "Once per day."
+TEXT_MEET_NOTE5 = "Open all day."
+TEXT_MEET_NOTE6 = "Every Sunday, 19:00-22:00."
+TEXT_MEET_NOTE7 = "Once per day."
+TEXT_MEET_NOTE8 = "Must join one of the three factions: Wei, Shu, or Wu."
 
---5 Sản xuất
-TEXT_PRODUCEHELP_SKILLINFO = "^ff9090%s^ffffff：%s%s"
-TEXT_PRODUCEHELP_FIRSTINFO = "Cần đạt cấp %d mới có thể học."
-TEXT_PRODUCEHELP_LEARNINFO = "\r            Cấp độ có thể học hiện tại：%s, NPC học：#%d#."
+-- 5 Production
+TEXT_PRODUCEHELP_SKILLINFO = "^ff9090%s^ffffff: %s%s"
+TEXT_PRODUCEHELP_FIRSTINFO = "Requires Level %d to learn."
+TEXT_PRODUCEHELP_LEARNINFO = "\r            Current learnable rank: %s, Trainer NPC: #%d#."
 
---6 Chiến trường
-TEXT_BATTLEHELP_TITLE = "^ff9090Chiến trường phù hợp với cấp độ hiện tại của bạn^ffffff："
-TEXT_BATTLEHELP_BATTLETYPE1 = "Chinh Chiến"
-TEXT_BATTLEHELP_BATTLETYPE2 = "Diễn Nghĩa"
-TEXT_BATTLEHELP_BATTLETYPE3 = "Vô Song"
-TEXT_BATTLEHELP_BATTLETYPE4 = "Ngoại Truyện"
-TEXT_BATTLEHELP_BATTLEINFO = "    Chiến trường cấp %d %s：%s."
-TEXT_BATTLEHELP_NIL = "Hiện tại không có chiến trường nào phù hợp cho bạn tham gia."
+-- 6 Battlefields
+TEXT_BATTLEHELP_TITLE = "^ff9090Battlefields suitable for your current level^ffffff:"
+TEXT_BATTLEHELP_BATTLETYPE1 = "Campaign"
+TEXT_BATTLEHELP_BATTLETYPE2 = "Romance"
+TEXT_BATTLEHELP_BATTLETYPE3 = "Musou"
+TEXT_BATTLEHELP_BATTLETYPE4 = "Gaiden/Side Story"
+TEXT_BATTLEHELP_BATTLEINFO = "    Level %d %s Battlefield: %s."
+TEXT_BATTLEHELP_NIL = "There are currently no suitable battlefields for you to join."
 
-TEXT_BATTLE_NAME1 = "Trận Dĩnh Xuyên"
-TEXT_BATTLE_NAME2 = "Trận Bộc Dương"
-TEXT_BATTLE_NAME3 = "Trận Chiến Hán Quân Bọc Hậu"
-TEXT_BATTLE_NAME4 = "Trận Chiến Nghĩa Binh Tích Lương"
-TEXT_BATTLE_NAME5 = "Trận Lạc Phượng Pha"
-TEXT_BATTLE_NAME6 = "Trận Chiến Rút Lui Kinh Tương"
-TEXT_BATTLE_NAME7 = "Trận Thảo Phạt Trương Lương"
-TEXT_BATTLE_NAME8 = "Tây Lương Nhiễu Loạn"
-TEXT_BATTLE_NAME9 = "Loạn Khăn Vàng"
-TEXT_BATTLE_NAME10 = "Hổ Lao Quan Quần Anh Hội"
-TEXT_BATTLE_NAME11 = "Tôn Hương Truyện·Kỵ Quyến Hương Phong"
-TEXT_BATTLE_NAME12 = "Lã Bố Truyện·Phi Tướng Hồi Thiên"
-TEXT_BATTLE_NAME13 = "Tào Tháo Truyện·Vương Lăng Quỷ Ảnh"
-TEXT_BATTLE_NAME14 = "Lưu Bị Truyện·Thoát Hiểm Từ Miệng Hổ"
-TEXT_BATTLE_NAME15 = "Điển Vi Truyện·Ác Lai Gào Thét"
-TEXT_BATTLE_NAME16 = "Tôn Quyền Truyện·Ký Sự Hồ Lô Sắt"
-TEXT_BATTLE_NAME17 = "Triệu Vân Truyện·Long Dược Trường Bản"
-TEXT_BATTLE_NAME18 = "Tưởng Cán Truyện·Trộm Sách Ở Trại Ngô"
-TEXT_BATTLE_NAME19 = "Trận Hợp Phì"
-TEXT_BATTLE_NAME20 = "Trận Công Phá Ích Châu"
-TEXT_BATTLE_NAME21 = "Ám Tập Định Quân Sơn"
-TEXT_BATTLE_NAME22 = "Di Tích Hiên Viên"
-TEXT_BATTLE_NAME23 = "Ma Vực Hạng Vương"
-TEXT_BATTLE_NAME24 = "Cổ Điện Lâu Lan"
+TEXT_BATTLE_NAME1 = "Battle of Yingchuan"
+TEXT_BATTLE_NAME2 = "Battle of Puyang"
+TEXT_BATTLE_NAME3 = "Han Army Rearguard Battle"
+TEXT_BATTLE_NAME4 = "Militia Grain Supply Battle"
+TEXT_BATTLE_NAME5 = "Battle of Luofeng Slope"
+TEXT_BATTLE_NAME6 = "Jingxiang Retreat"
+TEXT_BATTLE_NAME7 = "Expedition Against Zhang Liang"
+TEXT_BATTLE_NAME8 = "Xiliang Unrest"
+TEXT_BATTLE_NAME9 = "Yellow Turban Rebellion"
+TEXT_BATTLE_NAME10 = "Hulao Gate Hero Assembly"
+TEXT_BATTLE_NAME11 = "Sun Shangxiang: Fragrant Riding"
+TEXT_BATTLE_NAME12 = "Lu Bu: Flying General's Return"
+TEXT_BATTLE_NAME13 = "Cao Cao: Royal Tomb Shadows"
+TEXT_BATTLE_NAME14 = "Liu Bei: Escape from Tiger's Den"
+TEXT_BATTLE_NAME15 = "Dian Wei: Roar of the Evil Comes"
+TEXT_BATTLE_NAME16 = "Sun Quan: Iron Gourd Chronicles"
+TEXT_BATTLE_NAME17 = "Zhao Yun: Dragon Leap at Changban"
+TEXT_BATTLE_NAME18 = "Jiang Gan: Stealing Books at Wu Camp"
+TEXT_BATTLE_NAME19 = "Battle of Hefei"
+TEXT_BATTLE_NAME20 = "Invasion of Yizhou"
+TEXT_BATTLE_NAME21 = "Ambush at Dingjun Mountain"
+TEXT_BATTLE_NAME22 = "Xuanyuan Ruins"
+TEXT_BATTLE_NAME23 = "Overlord's Demon Realm"
+TEXT_BATTLE_NAME24 = "Loulan Ancient Temple"
 
---7 Quan chức
-GNR_POSITION_LEVEL0 = "Phổ thông"
-GNR_POSITION_LEVEL1 = "Cửu phẩm"
-GNR_POSITION_LEVEL2 = "Bát phẩm"
-GNR_POSITION_LEVEL3 = "Thất phẩm"
-GNR_POSITION_LEVEL4 = "Lục phẩm"
-GNR_POSITION_LEVEL5 = "Ngũ phẩm"
-GNR_POSITION_LEVEL6 = "Tòng tứ phẩm"
-GNR_POSITION_LEVEL7 = "Chính tứ phẩm"
-GNR_POSITION_LEVEL8 = "Tòng tam phẩm"
-GNR_POSITION_LEVEL9 = "Chính tam phẩm"
+-- 7 Official Positions (Ranks)
+GNR_POSITION_LEVEL0 = "Commoner"
+GNR_POSITION_LEVEL1 = "9th Rank"
+GNR_POSITION_LEVEL2 = "8th Rank"
+GNR_POSITION_LEVEL3 = "7th Rank"
+GNR_POSITION_LEVEL4 = "6th Rank"
+GNR_POSITION_LEVEL5 = "5th Rank"
+GNR_POSITION_LEVEL6 = "Junior 4th Rank"
+GNR_POSITION_LEVEL7 = "Senior 4th Rank"
+GNR_POSITION_LEVEL8 = "Junior 3rd Rank"
+GNR_POSITION_LEVEL9 = "Senior 3rd Rank"
 
-GNR_POSITION_TYPE0 = "Quân chức"
-GNR_POSITION_TYPE1 = "Văn quan"
-GNR_POSITION_TYPE2 = "Võ quan"
+GNR_POSITION_TYPE0 = "Military Rank"
+GNR_POSITION_TYPE1 = "Civil Official"
+GNR_POSITION_TYPE2 = "Military Official"
 
-GNR_POSITION_EXPLOIT1 = "Văn huân"
-GNR_POSITION_EXPLOIT2 = "Võ huân"
+GNR_POSITION_EXPLOIT1 = "Civil Merit"
+GNR_POSITION_EXPLOIT2 = "Military Merit"
 
-TEXT_POSITION_NAME1 = "Tân binh"
-TEXT_POSITION_NAME2 = "Binh tốt"
-TEXT_POSITION_NAME3 = "Binh trưởng"
-TEXT_POSITION_NAME4 = "Quân hầu"
-TEXT_POSITION_NAME5 = "Hiệu úy"
-TEXT_POSITION_NAME6 = "Đô úy"
-TEXT_POSITION_NAME7 = "Tì tướng"
-TEXT_POSITION_NAME8 = "Thiên tướng"
-TEXT_POSITION_NAME9 = "Ưng Dương Tướng Quân"
-TEXT_POSITION_NAME10 = "Phục Ba Tướng Quân"
-TEXT_POSITION_NAME11 = "Thảo Lỗ Tướng Quân"
-TEXT_POSITION_NAME12 = "Hoành Dã Tướng Quân"
-TEXT_POSITION_NAME13 = "Điển Quân Trung Lang Tướng"
-TEXT_POSITION_NAME14 = "Phủ Quân Trung Lang Tướng"
-TEXT_POSITION_NAME15 = "Đãng Khấu Trung Lang Tướng"
-TEXT_POSITION_NAME16 = "Kiến Uy Trung Lang Tướng"
-TEXT_POSITION_NAME17 = "Võ Vệ Trung Lang Tướng"
-TEXT_POSITION_NAME18 = "Vũ Lâm Trung Lang Tướng"
-TEXT_POSITION_NAME19 = "Hổ Bôn Trung Lang Tướng"
-TEXT_POSITION_NAME20 = "Ngũ Quan Trung Lang Tướng"
-TEXT_POSITION_NAME21 = "Tiền Tướng Quân"
-TEXT_POSITION_NAME22 = "Hậu Tướng Quân"
-TEXT_POSITION_NAME23 = "Tả Tướng Quân"
-TEXT_POSITION_NAME24 = "Hữu Tướng Quân"
-TEXT_POSITION_NAME25 = "Bình Đông Tướng Quân"
-TEXT_POSITION_NAME26 = "Bình Nam Tướng Quân"
-TEXT_POSITION_NAME27 = "Bình Tây Tướng Quân"
-TEXT_POSITION_NAME28 = "Bình Bắc Tướng Quân"
-TEXT_POSITION_NAME29 = "Thư Tá"
-TEXT_POSITION_NAME30 = "Công Tào"
-TEXT_POSITION_NAME31 = "Chủ Bộ"
-TEXT_POSITION_NAME32 = "Biệt Giá"
-TEXT_POSITION_NAME33 = "Trưởng Sử"
-TEXT_POSITION_NAME34 = "Thái Nhạc Lệnh"
-TEXT_POSITION_NAME35 = "Thái Sử Lệnh"
-TEXT_POSITION_NAME36 = "Thái Y Lệnh"
-TEXT_POSITION_NAME37 = "Thái Thương Lệnh"
-TEXT_POSITION_NAME38 = "Yết Giả Bộc Xạ"
-TEXT_POSITION_NAME39 = "Gián Nghị Đại Phu"
-TEXT_POSITION_NAME40 = "Thái Tử Tẩy Mã"
-TEXT_POSITION_NAME41 = "Tán Kỵ Thường Thị"
-TEXT_POSITION_NAME42 = "Trung Tán Đại Phu"
-TEXT_POSITION_NAME43 = "Thái Trung Đại Phu"
-TEXT_POSITION_NAME44 = "Thượng Thư Bộc Xạ"
-TEXT_POSITION_NAME45 = "Ngự Sử Trung Thừa"
-TEXT_POSITION_NAME46 = "Thái Tử Thiếu Phó"
-TEXT_POSITION_NAME47 = "Trung Thư Lệnh"
-TEXT_POSITION_NAME48 = "Thượng Thư Lệnh"
-TEXT_POSITION_NAME49 = "Thị Trung"
-TEXT_POSITION_NAME50 = "Thái Tử Thái Phó"
-TEXT_POSITION_NAME51 = "Chấp Kim Ngô"
-TEXT_POSITION_NAME52 = "Tương Tác Đại Tượng"
-TEXT_POSITION_NAME53 = "Thủy Hành Đô Úy"
+TEXT_POSITION_NAME1 = "Recruit"
+TEXT_POSITION_NAME2 = "Soldier"
+TEXT_POSITION_NAME3 = "Squad Leader"
+TEXT_POSITION_NAME4 = "Lieutenant"
+TEXT_POSITION_NAME5 = "Captain"
+TEXT_POSITION_NAME6 = "Commandant"
+TEXT_POSITION_NAME7 = "Vice General"
+TEXT_POSITION_NAME8 = "Major General"
+TEXT_POSITION_NAME9 = "Eagle Gallant General"
+TEXT_POSITION_NAME10 = "Wave-Quelling General"
+TEXT_POSITION_NAME11 = "Barbarian-Slaying General"
+TEXT_POSITION_NAME12 = "Wilderness-Crossing General"
+TEXT_POSITION_NAME13 = "Imperial Guard Commander"
+TEXT_POSITION_NAME14 = "Palace Defense Commander"
+TEXT_POSITION_NAME15 = "Bandit-Suppression Commander"
+TEXT_POSITION_NAME16 = "Mighty-Awe Commander"
+TEXT_POSITION_NAME17 = "Martial Guard Commander"
+TEXT_POSITION_NAME18 = "Imperial Forest Commander"
+TEXT_POSITION_NAME19 = "Tiger Brave Commander"
+TEXT_POSITION_NAME20 = "Five Officials Commander"
+TEXT_POSITION_NAME21 = "General of the Front"
+TEXT_POSITION_NAME22 = "General of the Rear"
+TEXT_POSITION_NAME23 = "General of the Left"
+TEXT_POSITION_NAME24 = "General of the Right"
+TEXT_POSITION_NAME25 = "General Who Pacifies the East"
+TEXT_POSITION_NAME26 = "General Who Pacifies the South"
+TEXT_POSITION_NAME27 = "General Who Pacifies the West"
+TEXT_POSITION_NAME28 = "General Who Pacifies the North"
+TEXT_POSITION_NAME29 = "Scribe"
+TEXT_POSITION_NAME30 = "Officer of Merit"
+TEXT_POSITION_NAME31 = "Master of Records"
+TEXT_POSITION_NAME32 = "Attendant-in-Residence"
+TEXT_POSITION_NAME33 = "Chief Secretary"
+TEXT_POSITION_NAME34 = "Director of Imperial Music"
+TEXT_POSITION_NAME35 = "Grand Historian"
+TEXT_POSITION_NAME36 = "Imperial Physician"
+TEXT_POSITION_NAME37 = "Director of Granaries"
+TEXT_POSITION_NAME38 = "Chief Herald"
+TEXT_POSITION_NAME39 = "Grand Consultant"
+TEXT_POSITION_NAME40 = "Crown Prince's Groom"
+TEXT_POSITION_NAME41 = "Attendant Cavalry"
+TEXT_POSITION_NAME42 = "Palace Consultant"
+TEXT_POSITION_NAME43 = "Grand Palace Counselor"
+TEXT_POSITION_NAME44 = "Vice Director of the Secretariat"
+TEXT_POSITION_NAME45 = "Palace Assistant Censor"
+TEXT_POSITION_NAME46 = "Junior Tutor to the Heir"
+TEXT_POSITION_NAME47 = "Director of the Chancellery"
+TEXT_POSITION_NAME48 = "Director of the Secretariat"
+TEXT_POSITION_NAME49 = "Palace Attendant"
+TEXT_POSITION_NAME50 = "Grand Tutor to the Heir"
+TEXT_POSITION_NAME51 = "Minister of the Guard"
+TEXT_POSITION_NAME52 = "Grand Architect"
+TEXT_POSITION_NAME53 = "Director of Waterways"
 
-TEXT_POSITIONHELP_INFO = "%s%s：^ff9090%s^ffffff\r（%s%s%s）\r"
-TEXT_POSITIONHELP_NEEDEXPLOIT = "Cần %s %d,"
-TEXT_POSITIONHELP_USEEXPLOIT = "Tiêu hao công huân %d,"
-TEXT_POSITIONHELP_NPCINFO = "NPC quan chức：#%d#"
-TEXT_POSITIONHELP_NIL = "Hiện tại không có chiến trường nào phù hợp cho bạn tham gia."
+TEXT_POSITIONHELP_INFO = "%s %s: ^ff9090%s^ffffff\r(%s %s %s)\r"
+TEXT_POSITIONHELP_NEEDEXPLOIT = "Requires %s %d,"
+TEXT_POSITIONHELP_USEEXPLOIT = "Consumes %d Merit,"
+TEXT_POSITIONHELP_NPCINFO = "Official NPC: #%d#"
+TEXT_POSITIONHELP_NIL = "No suitable battlefields found for your level."
 
---Treo máy
-AUTO_WARNING_NOTARGET		=	"$$$$$$$$$$ Không có mục tiêu có thể tấn công xung quanh"
-AUTO_WARNING_NOBANGDAGE		=	"$$$$$$$$$$ Ủy thác không thể sử dụng cao hồi máu"
-AUTO_WARNING_NOPOTION		=	"$$$$$$$$$$ Ủy thác không thể sử dụng đan dược"
-AUTO_WARNING_NOWINE			=	"$$$$$$$$$$ Ủy thác không thể sử dụng tiên tửu"
-AUTO_WARNING_NOFOOD			=	"$$$$$$$$$$ Ủy thác không thể sử dụng thức ăn"
-AUTO_WARNING_NODRINK		=	"$$$$$$$$$$ Ủy thác không thể sử dụng đồ uống"
+-- Auto-Battle/AFK System
+AUTO_WARNING_NOTARGET       = "$$$$$$$$$$ No attackable targets nearby"
+AUTO_WARNING_NOBANGDAGE     = "$$$$$$$$$$ Auto-battle: Cannot use high-tier bandages"
+AUTO_WARNING_NOPOTION       = "$$$$$$$$$$ Auto-battle: Cannot use elixirs"
+AUTO_WARNING_NOWINE         = "$$$$$$$$$$ Auto-battle: Cannot use celestial wine"
+AUTO_WARNING_NOFOOD         = "$$$$$$$$$$ Auto-battle: Cannot use food"
+AUTO_WARNING_NODRINK        = "$$$$$$$$$$ Auto-battle: Cannot use drinks"
 
 --------------------------------------------------------------------
---Hướng dẫn tân thủ
+-- Newbie Guide
 --------------------------------------------------------------------
-AUI_LEVELTIP_NOLEVEL = "Không"
+AUI_LEVELTIP_NOLEVEL = "None"
 AUI_LEVELTIP_NOPROF = "—"
-AUI_LEVELTIP_LEVELSUFFIX = "cấp"
-AUI_LEVELTIP_Hero = "Anh Hùng"
+AUI_LEVELTIP_LEVELSUFFIX = "Lv"
+AUI_LEVELTIP_Hero = "Hero"
 
-LEVELTIP_TYPE1 = "Nâng cấp binh chủng"
-LEVELTIP_TYPE2 = "Học kỹ năng"
-LEVELTIP_TYPE6 = "Hoạt động hàng ngày"
-LEVELTIP_TYPE8 = "Trang bị"
-LEVELTIP_TYPE9 = "Sản xuất"
-LEVELTIP_TYPE10 = "Chiến trường"
+LEVELTIP_TYPE1 = "Class Upgrade"
+LEVELTIP_TYPE2 = "Learn Skill"
+LEVELTIP_TYPE6 = "Daily Activity"
+LEVELTIP_TYPE8 = "Equipment"
+LEVELTIP_TYPE9 = "Production"
+LEVELTIP_TYPE10 = "Battlefield"
 
-LEVELTIP_TITLE1 = "Thay vũ khí bậc mười"
-LEVELTIP_TITLE2 = "Thay áo bậc mười"
-LEVELTIP_TITLE3 = "Thay hộ vai bậc mười"
-LEVELTIP_TITLE4 = "Thay hộ chân bậc mười"
-LEVELTIP_TITLE5 = "Thay giày bậc mười"
-LEVELTIP_TITLE6 = "Thay đai lưng bậc mười"
-LEVELTIP_TITLE7 = "Thay hộ cổ tay bậc mười"
-LEVELTIP_TITLE8 = "Thay vũ khí bậc chín"
-LEVELTIP_TITLE9 = "Thay áo bậc chín"
-LEVELTIP_TITLE10 = "Thay hộ vai bậc chín"
-LEVELTIP_TITLE11 = "Thay hộ chân bậc chín"
-LEVELTIP_TITLE12 = "Thay giày bậc chín"
-LEVELTIP_TITLE13 = "Thay đai lưng bậc chín"
-LEVELTIP_TITLE14 = "Thay hộ cổ tay bậc chín"
-LEVELTIP_TITLE15 = "Thay vũ khí bậc tám"
-LEVELTIP_TITLE16 = "Thay áo bậc tám"
-LEVELTIP_TITLE17 = "Thay hộ vai bậc tám"
-LEVELTIP_TITLE18 = "Thay hộ chân bậc tám"
-LEVELTIP_TITLE19 = "Thay giày bậc tám"
-LEVELTIP_TITLE20 = "Thay đai lưng bậc tám"
-LEVELTIP_TITLE21 = "Thay hộ cổ tay bậc tám"
-LEVELTIP_TITLE22 = "Chiến trường Vô Song “Cổ Điện Lâu Lan”"
-LEVELTIP_TITLE23 = "Học kỹ năng sản xuất “Dược Sư”"
-LEVELTIP_TITLE24 = "Thay vũ khí bậc bảy"
-LEVELTIP_TITLE25 = "Thay áo bậc bảy"
-LEVELTIP_TITLE26 = "Thay hộ vai bậc bảy"
-LEVELTIP_TITLE27 = "Thay hộ chân bậc bảy"
-LEVELTIP_TITLE28 = "Thay giày bậc bảy"
-LEVELTIP_TITLE29 = "Thay đai lưng bậc bảy"
-LEVELTIP_TITLE30 = "Thay hộ cổ tay bậc bảy"
-LEVELTIP_TITLE31 = "Chiến trường Diễn Nghĩa “Ám Tập Định Quân Sơn”"
-LEVELTIP_TITLE32 = "Học kỹ năng sản xuất “Thợ Rèn”"
-LEVELTIP_TITLE33 = "Chiến trường Vô Song “Ma Vực Hạng Vương”"
-LEVELTIP_TITLE34 = "Học kỹ năng sản xuất “Cấp Cứu”"
-LEVELTIP_TITLE35 = "Chiến trường Diễn Nghĩa “Trận Công Phá Ích Châu”"
-LEVELTIP_TITLE36 = "Học kỹ năng sản xuất “Nấu Ăn”"
-LEVELTIP_TITLE37 = "Nâng cấp binh chủng chính lên “Phong Đao Sứ”"
-LEVELTIP_TITLE38 = "Nâng cấp binh chủng chính lên “Thánh Thương Sứ”"
-LEVELTIP_TITLE39 = "Nâng cấp binh chủng chính lên “Xích Kích Sứ”"
-LEVELTIP_TITLE40 = "Nâng cấp binh chủng chính lên “Hoàng Việt Sứ”"
-LEVELTIP_TITLE41 = "Nâng cấp binh chủng chính lên “Bá Xoa Sứ”"
-LEVELTIP_TITLE42 = "Nâng cấp binh chủng chính lên “Xảo Côn Sứ”"
-LEVELTIP_TITLE43 = "Nâng cấp binh chủng chính lên “Ngạo Kiếm Sứ”"
-LEVELTIP_TITLE44 = "Nâng cấp binh chủng chính lên “Cuồng Phủ Sứ”"
-LEVELTIP_TITLE45 = "Nâng cấp binh chủng chính lên “Tật Câu Sứ”"
-LEVELTIP_TITLE46 = "Nâng cấp binh chủng chính lên “Liệt Giản Sứ”"
-LEVELTIP_TITLE47 = "Nâng cấp binh chủng chính lên “Oanh Chùy Sứ”"
-LEVELTIP_TITLE48 = "Nâng cấp binh chủng chính lên “Lôi Trảo Sứ”"
-LEVELTIP_TITLE49 = "Nâng cấp binh chủng chính lên “Kiên Thuẫn Sứ”"
-LEVELTIP_TITLE50 = "Nâng cấp binh chủng chính lên “Linh Hoàn Sứ”"
-LEVELTIP_TITLE51 = "Nâng cấp binh chủng chính lên “Hào Trượng Sứ”"
-LEVELTIP_TITLE52 = "Nâng cấp binh chủng chính lên “Diệu Vũ Sứ”"
-LEVELTIP_TITLE53 = "Nâng cấp binh chủng chính lên “Dật Phiến Sứ”"
-LEVELTIP_TITLE54 = "Nâng cấp binh chủng chính lên “Thiên Cung Sứ”"
-LEVELTIP_TITLE55 = "Chiến trường Vô Song “Di Tích Hiên Viên”"
-LEVELTIP_TITLE56 = "Nâng cấp binh chủng chính lên “Đao Thần”"
-LEVELTIP_TITLE57 = "Nâng cấp binh chủng chính lên “Thương Thần”"
-LEVELTIP_TITLE58 = "Nâng cấp binh chủng chính lên “Kích Thần”"
-LEVELTIP_TITLE59 = "Nâng cấp binh chủng chính lên “Việt Thần”"
-LEVELTIP_TITLE60 = "Nâng cấp binh chủng chính lên “Xoa Thần”"
-LEVELTIP_TITLE61 = "Nâng cấp binh chủng chính lên “Côn Tiên”"
-LEVELTIP_TITLE62 = "Nâng cấp binh chủng chính lên “Kiếm Tiên”"
-LEVELTIP_TITLE63 = "Nâng cấp binh chủng chính lên “Phủ Thần”"
-LEVELTIP_TITLE64 = "Nâng cấp binh chủng chính lên “Câu Thần”"
-LEVELTIP_TITLE65 = "Nâng cấp binh chủng chính lên “Giản Thần”"
-LEVELTIP_TITLE66 = "Nâng cấp binh chủng chính lên “Chùy Thần”"
-LEVELTIP_TITLE67 = "Nâng cấp binh chủng chính lên “Trảo Thần”"
-LEVELTIP_TITLE68 = "Nâng cấp binh chủng chính lên “Thuẫn Tiên”"
-LEVELTIP_TITLE69 = "Nâng cấp binh chủng chính lên “Hoàn Tiên”"
-LEVELTIP_TITLE70 = "Nâng cấp binh chủng chính lên “Trượng Tiên”"
-LEVELTIP_TITLE71 = "Nâng cấp binh chủng chính lên “Vũ Tiên”"
-LEVELTIP_TITLE72 = "Nâng cấp binh chủng chính lên “Phiến Tiên”"
-LEVELTIP_TITLE73 = "Nâng cấp binh chủng chính lên “Cung Thần”"
-LEVELTIP_TITLE74 = "Thay vũ khí bậc năm"
-LEVELTIP_TITLE75 = "Thay áo bậc năm"
-LEVELTIP_TITLE76 = "Thay hộ vai bậc năm"
-LEVELTIP_TITLE77 = "Thay hộ chân bậc năm"
-LEVELTIP_TITLE78 = "Thay giày bậc năm"
-LEVELTIP_TITLE79 = "Thay đai lưng bậc năm"
-LEVELTIP_TITLE80 = "Thay hộ cổ tay bậc năm"
-LEVELTIP_TITLE81 = "Thay vũ khí bậc sáu"
-LEVELTIP_TITLE82 = "Thay áo bậc sáu"
-LEVELTIP_TITLE83 = "Thay hộ vai bậc sáu"
-LEVELTIP_TITLE84 = "Thay hộ chân bậc sáu"
-LEVELTIP_TITLE85 = "Thay giày bậc sáu"
-LEVELTIP_TITLE86 = "Thay đai lưng bậc sáu"
-LEVELTIP_TITLE87 = "Thay hộ cổ tay bậc sáu"
-LEVELTIP_TITLE88 = "Chiến trường Chinh Chiến “Trận Bộc Dương”"
-LEVELTIP_TITLE89 = "Chiến trường Vô Song “Loạn Khăn Vàng”"
-LEVELTIP_TITLE90 = "Chiến trường Vô Song “Hổ Lao Quan Quần Anh Hội”"
-LEVELTIP_TITLE91 = "Chiến trường Diễn Nghĩa “Trận Hợp Phì”"
-LEVELTIP_TITLE92 = "Hoạt động hàng ngày: Tranh Đoạt Ngũ Trượng Nguyên"
-LEVELTIP_TITLE93 = "Thay hộ cổ tay bậc bốn"
-LEVELTIP_TITLE94 = "Học kỹ năng sản xuất “Thợ Rèn”"
-LEVELTIP_TITLE95 = "Học kỹ năng sản xuất “May Vá”"
-LEVELTIP_TITLE96 = "Học kỹ năng sản xuất “Xảo Tượng”"
-LEVELTIP_TITLE97 = "Chiến trường Chinh Chiến “Trận Dĩnh Xuyên”"
-LEVELTIP_TITLE98 = "Chiến trường Diễn Nghĩa “Trận Thảo Phạt Trương Lương”"
-LEVELTIP_TITLE99 = "Chiến trường Ngoại Truyện “Tào Tháo Truyện·Vương Lăng Quỷ Ảnh”"
-LEVELTIP_TITLE100 = "Chiến trường Ngoại Truyện “Lưu Bị Truyện·Thoát Hiểm Từ Miệng Hổ”"
-LEVELTIP_TITLE101 = "Chiến trường Ngoại Truyện “Điển Vi Truyện·Ác Lai Gào Thét”"
-LEVELTIP_TITLE102 = "Chiến trường Ngoại Truyện “Tôn Quyền Truyện·Ký Sự Hồ Lô Sắt”"
-LEVELTIP_TITLE103 = "Chiến trường Ngoại Truyện “Triệu Vân Truyện·Long Dược Trường Bản”"
-LEVELTIP_TITLE104 = "Thay đai lưng bậc bốn"
-LEVELTIP_TITLE105 = "Thay hộ chân bậc bốn"
-LEVELTIP_TITLE106 = "Chiến trường Ngoại Truyện “Lã Bố Truyện·Phi Tướng Hồi Thiên”"
-LEVELTIP_TITLE107 = "Thay hộ vai bậc bốn"
-LEVELTIP_TITLE108 = "Học kỹ năng sản xuất “Dược Sư”"
-LEVELTIP_TITLE109 = "Thay giày bậc bốn"
-LEVELTIP_TITLE110 = "Nâng cấp binh chủng chính lên “Đao Thánh”"
-LEVELTIP_TITLE111 = "Nâng cấp binh chủng chính lên “Thương Vương”"
-LEVELTIP_TITLE112 = "Nâng cấp binh chủng chính lên “Kích Thánh”"
-LEVELTIP_TITLE113 = "Nâng cấp binh chủng chính lên “Việt Thánh”"
-LEVELTIP_TITLE114 = "Nâng cấp binh chủng chính lên “Xoa Thánh”"
-LEVELTIP_TITLE115 = "Nâng cấp binh chủng chính lên “Côn Vương”"
-LEVELTIP_TITLE116 = "Nâng cấp binh chủng chính lên “Kiếm Thánh”"
-LEVELTIP_TITLE117 = "Nâng cấp binh chủng chính lên “Phủ Vương”"
-LEVELTIP_TITLE118 = "Nâng cấp binh chủng chính lên “Câu Vương”"
-LEVELTIP_TITLE119 = "Nâng cấp binh chủng chính lên “Giản Thánh”"
-LEVELTIP_TITLE120 = "Nâng cấp binh chủng chính lên “Chùy Thánh”"
-VELTIP_TITLE121 = "Nâng cấp binh chủng chính lên “Trảo Thánh”"
-LEVELTIP_TITLE122 = "Nâng cấp binh chủng chính lên “Thuẫn Vương”"
-LEVELTIP_TITLE123 = "Nâng cấp binh chủng chính lên “Hoàn Thánh”"
-LEVELTIP_TITLE124 = "Nâng cấp binh chủng chính lên “Trượng Vương”"
-LEVELTIP_TITLE125 = "Nâng cấp binh chủng chính lên “Vũ Vương”"
-LEVELTIP_TITLE126 = "Nâng cấp binh chủng chính lên “Phiến Vương”"
-LEVELTIP_TITLE127 = "Nâng cấp binh chủng chính lên “Cung Vương”"
-LEVELTIP_TITLE128 = "Thay vũ khí bậc bốn"
-LEVELTIP_TITLE129 = "Thay áo bậc bốn"
-LEVELTIP_TITLE130 = "Chiến trường Diễn Nghĩa “Trận Lạc Phượng Pha”"
-LEVELTIP_TITLE131 = "Chiến trường Diễn Nghĩa “Trận Chiến Rút Lui Kinh Tương”"
-LEVELTIP_TITLE132 = "Thay hộ cổ tay bậc ba"
-LEVELTIP_TITLE133 = "Học kỹ năng sản xuất “Nấu Ăn”"
-LEVELTIP_TITLE134 = "Học kỹ năng sản xuất “Thợ Rèn”"
-LEVELTIP_TITLE135 = "Học kỹ năng sản xuất “May Vá”"
-LEVELTIP_TITLE136 = "Học kỹ năng sản xuất “Xảo Tượng”"
-LEVELTIP_TITLE137 = "Học kỹ năng sản xuất “Cấp Cứu”"
-LEVELTIP_TITLE138 = "Chiến trường Ngoại Truyện “Tưởng Cán Truyện·Trộm Sách Ở Trại Ngô”"
-LEVELTIP_TITLE139 = "Thay đai lưng bậc ba"
-LEVELTIP_TITLE140 = "Học kỹ năng sản xuất “Dược Sư”"
-LEVELTIP_TITLE141 = "Thay hộ chân bậc ba"
-LEVELTIP_TITLE142 = "Thay hộ vai bậc ba"
-LEVELTIP_TITLE143 = "Nâng cấp binh chủng chính lên “Đao Tướng”"
-LEVELTIP_TITLE144 = "Nâng cấp binh chủng chính lên “Thương Tướng”"
-LEVELTIP_TITLE145 = "Nâng cấp binh chủng chính lên “Kích Tướng”"
-LEVELTIP_TITLE146 = "Nâng cấp binh chủng chính lên “Việt Tướng”"
-LEVELTIP_TITLE147 = "Nâng cấp binh chủng chính lên “Xoa Tướng”"
-LEVELTIP_TITLE148 = "Nâng cấp binh chủng chính lên “Côn Tướng”"
-LEVELTIP_TITLE149 = "Nâng cấp binh chủng chính lên “Kiếm Hào”"
-LEVELTIP_TITLE150 = "Nâng cấp binh chủng chính lên “Phủ Tướng”"
-LEVELTIP_TITLE151 = "Nâng cấp binh chủng chính lên “Câu Hào”"
-LEVELTIP_TITLE152 = "Nâng cấp binh chủng chính lên “Giản Hào”"
-LEVELTIP_TITLE153 = "Nâng cấp binh chủng chính lên “Chùy Tướng”"
-LEVELTIP_TITLE154 = "Nâng cấp binh chủng chính lên “Trảo Hào”"
-LEVELTIP_TITLE155 = "Nâng cấp binh chủng chính lên “Thuẫn Tướng”"
-LEVELTIP_TITLE156 = "Nâng cấp binh chủng chính lên “Hoàn Tướng”"
-LEVELTIP_TITLE157 = "Nâng cấp binh chủng chính lên “Trượng Tướng”"
-LEVELTIP_TITLE158 = "Nâng cấp binh chủng chính lên “Vũ Hào”"
-LEVELTIP_TITLE159 = "Nâng cấp binh chủng chính lên “Phiến Tướng”"
-LEVELTIP_TITLE160 = "Nâng cấp binh chủng chính lên “Cung Tướng”"
-LEVELTIP_TITLE161 = "Hoạt động hàng ngày: Nhạc Phủ Thăm Hỏi"
-LEVELTIP_TITLE162 = "Học kỹ năng sản xuất “Cấp Cứu”"
-LEVELTIP_TITLE163 = "Chiến trường Diễn Nghĩa “Trận Chiến Nghĩa Binh Tích Lương”"
-LEVELTIP_TITLE164 = "Thay giày bậc ba"
-LEVELTIP_TITLE165 = "Thay vũ khí bậc ba"
-LEVELTIP_TITLE166 = "Thay áo bậc ba"
-LEVELTIP_TITLE167 = "Học kỹ năng sản xuất “Nấu Ăn”"
-LEVELTIP_TITLE168 = "Thay hộ cổ tay bậc hai"
-LEVELTIP_TITLE169 = "Học kỹ năng sản xuất “Thợ Rèn”"
-LEVELTIP_TITLE170 = "Học kỹ năng sản xuất “May Vá”"
-LEVELTIP_TITLE171 = "Học kỹ năng sản xuất “Xảo Tượng”"
-LEVELTIP_TITLE172 = "Học kỹ năng sản xuất “Dược Sư”"
-LEVELTIP_TITLE173 = "Thay đai lưng bậc hai"
-LEVELTIP_TITLE174 = "Nâng cấp binh chủng chính lên “Đao Úy”"
-LEVELTIP_TITLE175 = "Nâng cấp binh chủng chính lên “Thương Úy”"
-LEVELTIP_TITLE176 = "Nâng cấp binh chủng chính lên “Kích Úy”"
-LEVELTIP_TITLE177 = "Nâng cấp binh chủng chính lên “Việt Úy”"
-LEVELTIP_TITLE178 = "Nâng cấp binh chủng chính lên “Xoa Úy”"
-LEVELTIP_TITLE179 = "Nâng cấp binh chủng chính lên “Côn Úy”"
-LEVELTIP_TITLE180 = "Nâng cấp binh chủng chính lên “Kiếm Hiệp”"
-LEVELTIP_TITLE181 = "Nâng cấp binh chủng chính lên “Phủ Úy”"
-LEVELTIP_TITLE182 = "Nâng cấp binh chủng chính lên “Câu Hiệp”"
-LEVELTIP_TITLE183 = "Nâng cấp binh chủng chính lên “Giản Hiệp”"
-LEVELTIP_TITLE184 = "Nâng cấp binh chủng chính lên “Chùy Úy”"
-LEVELTIP_TITLE185 = "Nâng cấp binh chủng chính lên “Trảo Hiệp”"
-LEVELTIP_TITLE186 = "Nâng cấp binh chủng chính lên “Thuẫn Úy”"
-LEVELTIP_TITLE187 = "Nâng cấp binh chủng chính lên “Hoàn Hiệp”"
-LEVELTIP_TITLE188 = "Nâng cấp binh chủng chính lên “Trượng Hiệp”"
-LEVELTIP_TITLE189 = "Nâng cấp binh chủng chính lên “Vũ Sư”"
-LEVELTIP_TITLE190 = "Nâng cấp binh chủng chính lên “Phiến Hiệp”"
-LEVELTIP_TITLE191 = "Nâng cấp binh chủng chính lên “Cung Úy”"
-LEVELTIP_TITLE192 = "Chiến trường Ngoại Truyện “Tôn Hương Truyện·Kỵ Quyến Hương Phong”"
-LEVELTIP_TITLE193 = "Thay hộ chân bậc hai"
-LEVELTIP_TITLE194 = "Học kỹ năng sản xuất “Cấp Cứu”"
-LEVELTIP_TITLE195 = "Thay hộ vai bậc hai"
-LEVELTIP_TITLE196 = "Chiến trường Vô Song “Tây Lương Nhiễu Loạn”"
-LEVELTIP_TITLE197 = "Thay giày bậc hai"
-LEVELTIP_TITLE198 = "Học kỹ năng sản xuất “Nấu Ăn”"
-LEVELTIP_TITLE199 = "Học kỹ năng sản xuất “Dược Sư”"
-LEVELTIP_TITLE200 = "Thay vũ khí bậc hai"
-LEVELTIP_TITLE201 = "Thay áo bậc hai"
-LEVELTIP_TITLE202 = "Học kỹ năng sản xuất “Xảo Tượng”"
-LEVELTIP_TITLE203 = "Học kỹ năng sản xuất “Thợ Công”"
-LEVELTIP_TITLE204 = "Nâng cấp binh chủng chính lên “Đao Kỵ”"
-LEVELTIP_TITLE205 = "Nâng cấp binh chủng chính lên “Thương Kỵ”"
-LEVELTIP_TITLE206 = "Nâng cấp binh chủng chính lên “Kích Kỵ”"
-LEVELTIP_TITLE207 = "Nâng cấp binh chủng chính lên “Việt Kỵ”"
-LEVELTIP_TITLE208 = "Nâng cấp binh chủng chính lên “Xoa Kỵ”"
-LEVELTIP_TITLE209 = "Nâng cấp binh chủng chính lên “Côn Kỵ”"
-LEVELTIP_TITLE210 = "Nâng cấp binh chủng chính lên “Kiếm Sĩ”"
-LEVELTIP_TITLE211 = "Nâng cấp binh chủng chính lên “Phủ Kỵ”"
-LEVELTIP_TITLE212 = "Nâng cấp binh chủng chính lên “Câu Sĩ”"
-LEVELTIP_TITLE213 = "Nâng cấp binh chủng chính lên “Giản Sĩ”"
-LEVELTIP_TITLE214 = "Nâng cấp binh chủng chính lên “Chùy Kỵ”"
-LEVELTIP_TITLE215 = "Nâng cấp binh chủng chính lên “Trảo Sĩ”"
-LEVELTIP_TITLE216 = "Nâng cấp binh chủng chính lên “Thuẫn Kỵ”"
-LEVELTIP_TITLE217 = "Nâng cấp binh chủng chính lên “Hoàn Sĩ”"
-LEVELTIP_TITLE218 = "Nâng cấp binh chủng chính lên “Trượng Sĩ”"
-LEVELTIP_TITLE219 = "Nâng cấp binh chủng chính lên “Vũ Sĩ”"
-LEVELTIP_TITLE220 = "Nâng cấp binh chủng chính lên “Phiến Sĩ”"
-LEVELTIP_TITLE221 = "Nâng cấp binh chủng chính lên “Cung Kỵ”"
-LEVELTIP_TITLE222 = "Học kỵ thuật"
-LEVELTIP_TITLE223 = "Thay hộ cổ tay bậc một"
-LEVELTIP_TITLE224 = "Học kỹ năng sản xuất “Thuần Dưỡng”"
-LEVELTIP_TITLE225 = "Học kỹ năng sản xuất “Thợ Rèn”"
-LEVELTIP_TITLE226 = "Học kỹ năng sản xuất “May Vá”"
-LEVELTIP_TITLE227 = "Chiến trường Diễn Nghĩa “Trận Chiến Hán Quân Bọc Hậu”"
-LEVELTIP_TITLE228 = "Học kỹ năng sản xuất “Dược Sư”"
-LEVELTIP_TITLE229 = "Thay đai lưng bậc một"
-LEVELTIP_TITLE230 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE231 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE232 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE233 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE234 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE235 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE236 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE237 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE238 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE239 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE240 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE241 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE242 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE243 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE244 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE245 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE246 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE247 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE248 = "Hoạt động hàng ngày: Tìm Báu Vật Hàng Ngày"
-LEVELTIP_TITLE249 = "Hoạt động hàng ngày: Câu Cá Hàng Ngày"
-LEVELTIP_TITLE250 = "Hoạt động hàng ngày: Đại Hội Câu Cá Cuối Tuần"
-LEVELTIP_TITLE251 = "Thay hộ chân bậc một"
-LEVELTIP_TITLE252 = "Học kỹ năng sản xuất “Nấu Ăn”"
-LEVELTIP_TITLE253 = "Học kỹ năng sản xuất “Cấp Cứu”"
-LEVELTIP_TITLE254 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE255 = "Thay hộ vai bậc một"
-LEVELTIP_TITLE256 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE257 = "Nâng cấp binh chủng chính lên “Đao Binh”"
-LEVELTIP_TITLE258 = "Nâng cấp binh chủng chính lên “Thương Binh”"
-LEVELTIP_TITLE259 = "Nâng cấp binh chủng chính lên “Kích Binh”"
-LEVELTIP_TITLE260 = "Nâng cấp binh chủng chính lên “Việt Binh”"
-LEVELTIP_TITLE261 = "Nâng cấp binh chủng chính lên “Xoa Binh”"
-LEVELTIP_TITLE262 = "Nâng cấp binh chủng chính lên “Côn Binh”"
-LEVELTIP_TITLE263 = "Nâng cấp binh chủng chính lên “Kiếm Khách”"
-LEVELTIP_TITLE264 = "Nâng cấp binh chủng chính lên “Phủ Binh”"
-LEVELTIP_TITLE265 = "Nâng cấp binh chủng chính lên “Câu Khách”"
-LEVELTIP_TITLE266 = "Nâng cấp binh chủng chính lên “Giản Khách”"
-LEVELTIP_TITLE267 = "Nâng cấp binh chủng chính lên “Chùy Binh”"
-LEVELTIP_TITLE268 = "Nâng cấp binh chủng chính lên “Trảo Khách”"
-LEVELTIP_TITLE269 = "Nâng cấp binh chủng chính lên “Thuẫn Binh”"
-LEVELTIP_TITLE270 = "Nâng cấp binh chủng chính lên “Hoàn Thủ”"
-LEVELTIP_TITLE271 = "Nâng cấp binh chủng chính lên “Trượng Khách”"
-LEVELTIP_TITLE272 = "Nâng cấp binh chủng chính lên “Vũ Giả”"
-LEVELTIP_TITLE273 = "Nâng cấp binh chủng chính lên “Phiến Sinh”"
-LEVELTIP_TITLE274 = "Nâng cấp binh chủng chính lên “Cung Thủ”"
-LEVELTIP_TITLE275 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE276 = "Thay giày bậc một"
-LEVELTIP_TITLE277 = "Học kỹ năng sản xuất “Cấp Cứu”"
-LEVELTIP_TITLE278 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE279 = "Hoạt động hàng ngày: Nhiệm Vụ Nhân Nghĩa"
-LEVELTIP_TITLE280 = "Thay vũ khí bậc một"
-LEVELTIP_TITLE281 = "Thay áo bậc một"
-LEVELTIP_TITLE282 = "Học kỹ năng sản xuất “Thợ Rèn”"
-LEVELTIP_TITLE283 = "Học kỹ năng sản xuất “May Vá”"
-LEVELTIP_TITLE284 = "Thay hộ cổ tay sơ cấp"
-LEVELTIP_TITLE285 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE286 = "Thay đai lưng sơ cấp"
-LEVELTIP_TITLE287 = "Thay hộ chân sơ cấp"
-LEVELTIP_TITLE288 = "Học kỹ năng sản xuất “Nấu Ăn”"
-LEVELTIP_TITLE289 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE290 = "Thay hộ vai sơ cấp"
-LEVELTIP_TITLE291 = "Thay giày sơ cấp"
-LEVELTIP_TITLE292 = "Học kỹ năng chiến đấu mới"
-LEVELTIP_TITLE293 = "Thay áo sơ cấp"
-LEVELTIP_TITLE294 = "Hoạt động hàng ngày: Thi Tài Thao Lược"
-LEVELTIP_TITLE295 = "Hoạt động hàng ngày: Thiên Lý Truy Hung"
-LEVELTIP_TITLE296 = "Trang bị vũ khí sơ cấp"
+-- Equipment Tier 10
+LEVELTIP_TITLE1 = "Equip Tier 10 Weapon"
+LEVELTIP_TITLE2 = "Equip Tier 10 Armor"
+LEVELTIP_TITLE3 = "Equip Tier 10 Shoulder Guards"
+LEVELTIP_TITLE4 = "Equip Tier 10 Leg Guards"
+LEVELTIP_TITLE5 = "Equip Tier 10 Boots"
+LEVELTIP_TITLE6 = "Equip Tier 10 Belt"
+LEVELTIP_TITLE7 = "Equip Tier 10 Wrist Guards"
+
+-- Equipment Tier 9
+LEVELTIP_TITLE8 = "Equip Tier 9 Weapon"
+LEVELTIP_TITLE9 = "Equip Tier 9 Armor"
+LEVELTIP_TITLE10 = "Equip Tier 9 Shoulder Guards"
+LEVELTIP_TITLE11 = "Equip Tier 9 Leg Guards"
+LEVELTIP_TITLE12 = "Equip Tier 9 Boots"
+LEVELTIP_TITLE13 = "Equip Tier 9 Belt"
+LEVELTIP_TITLE14 = "Equip Tier 9 Wrist Guards"
+
+-- Equipment Tier 8
+LEVELTIP_TITLE15 = "Equip Tier 8 Weapon"
+LEVELTIP_TITLE16 = "Equip Tier 8 Armor"
+LEVELTIP_TITLE17 = "Equip Tier 8 Shoulder Guards"
+LEVELTIP_TITLE18 = "Equip Tier 8 Leg Guards"
+LEVELTIP_TITLE19 = "Equip Tier 8 Boots"
+LEVELTIP_TITLE20 = "Equip Tier 8 Belt"
+LEVELTIP_TITLE21 = "Equip Tier 8 Wrist Guards"
+
+LEVELTIP_TITLE22 = "Musou Battlefield: Loulan Ancient Temple"
+LEVELTIP_TITLE23 = "Learn Production: Apothecary"
+
+-- Equipment Tier 7
+LEVELTIP_TITLE24 = "Equip Tier 7 Weapon"
+LEVELTIP_TITLE25 = "Equip Tier 7 Armor"
+LEVELTIP_TITLE26 = "Equip Tier 7 Shoulder Guards"
+LEVELTIP_TITLE27 = "Equip Tier 7 Leg Guards"
+LEVELTIP_TITLE28 = "Equip Tier 7 Boots"
+LEVELTIP_TITLE29 = "Equip Tier 7 Belt"
+LEVELTIP_TITLE30 = "Equip Tier 7 Wrist Guards"
+
+LEVELTIP_TITLE31 = "Romance Battlefield: Ambush at Dingjun Mountain"
+LEVELTIP_TITLE32 = "Learn Production: Blacksmithing"
+LEVELTIP_TITLE33 = "Musou Battlefield: Overlord's Demon Realm"
+LEVELTIP_TITLE34 = "Learn Production: First Aid"
+LEVELTIP_TITLE35 = "Romance Battlefield: Invasion of Yizhou"
+LEVELTIP_TITLE36 = "Learn Production: Cooking"
+
+-- Class Promotions (Envoy Rank)
+LEVELTIP_TITLE37 = "Promote Primary Class to Wind Saber Envoy"
+LEVELTIP_TITLE38 = "Promote Primary Class to Holy Spear Envoy"
+LEVELTIP_TITLE39 = "Promote Primary Class to Crimson Halberd Envoy"
+LEVELTIP_TITLE40 = "Promote Primary Class to Imperial Axe Envoy"
+LEVELTIP_TITLE41 = "Promote Primary Class to Shadow Trident Envoy"
+LEVELTIP_TITLE42 = "Promote Primary Class to Skillful Staff Envoy"
+LEVELTIP_TITLE43 = "Promote Primary Class to Proud Sword Envoy"
+LEVELTIP_TITLE44 = "Promote Primary Class to Wild Hatchet Envoy"
+LEVELTIP_TITLE45 = "Promote Primary Class to Swift Hook Envoy"
+LEVELTIP_TITLE46 = "Promote Primary Class to Fierce Baton Envoy"
+LEVELTIP_TITLE47 = "Promote Primary Class to Roaring Hammer Envoy"
+LEVELTIP_TITLE48 = "Promote Primary Class to Thunder Claw Envoy"
+LEVELTIP_TITLE49 = "Promote Primary Class to Sturdy Shield Envoy"
+LEVELTIP_TITLE50 = "Promote Primary Class to Spirit Ring Envoy"
+LEVELTIP_TITLE51 = "Promote Primary Class to Grand Scepter Envoy"
+LEVELTIP_TITLE52 = "Promote Primary Class to Divine Dance Envoy"
+LEVELTIP_TITLE53 = "Promote Primary Class to Graceful Fan Envoy"
+LEVELTIP_TITLE54 = "Promote Primary Class to Heavenly Bow Envoy"
+
+LEVELTIP_TITLE55 = "Musou Battlefield: Xuanyuan Ruins"
+
+-- Class Promotions (God/Immortal Rank)
+LEVELTIP_TITLE56 = "Promote Primary Class to Saber God"
+LEVELTIP_TITLE57 = "Promote Primary Class to Spear God"
+LEVELTIP_TITLE58 = "Promote Primary Class to Halberd God"
+LEVELTIP_TITLE59 = "Promote Primary Class to Axe God"
+LEVELTIP_TITLE60 = "Promote Primary Class to Trident God"
+LEVELTIP_TITLE61 = "Promote Primary Class to Staff Immortal"
+LEVELTIP_TITLE62 = "Promote Primary Class to Sword Immortal"
+LEVELTIP_TITLE63 = "Promote Primary Class to Hatchet God"
+LEVELTIP_TITLE64 = "Promote Primary Class to Hook God"
+LEVELTIP_TITLE65 = "Promote Primary Class to Baton God"
+LEVELTIP_TITLE66 = "Promote Primary Class to Hammer God"
+LEVELTIP_TITLE67 = "Promote Primary Class to Claw God"
+LEVELTIP_TITLE68 = "Promote Primary Class to Shield Immortal"
+LEVELTIP_TITLE69 = "Promote Primary Class to Ring Immortal"
+LEVELTIP_TITLE70 = "Promote Primary Class to Scepter Immortal"
+LEVELTIP_TITLE71 = "Promote Primary Class to Dance Immortal"
+LEVELTIP_TITLE72 = "Promote Primary Class to Fan Immortal"
+LEVELTIP_TITLE73 = "Promote Primary Class to Bow God"
+
+-- Equipment Tier 5 & 6
+LEVELTIP_TITLE74 = "Equip Tier 5 Weapon"
+LEVELTIP_TITLE75 = "Equip Tier 5 Armor"
+LEVELTIP_TITLE76 = "Equip Tier 5 Shoulder Guards"
+LEVELTIP_TITLE77 = "Equip Tier 5 Leg Guards"
+LEVELTIP_TITLE78 = "Equip Tier 5 Boots"
+LEVELTIP_TITLE79 = "Equip Tier 5 Belt"
+LEVELTIP_TITLE80 = "Equip Tier 5 Wrist Guards"
+LEVELTIP_TITLE81 = "Equip Tier 6 Weapon"
+LEVELTIP_TITLE82 = "Equip Tier 6 Armor"
+LEVELTIP_TITLE83 = "Equip Tier 6 Shoulder Guards"
+LEVELTIP_TITLE84 = "Equip Tier 6 Leg Guards"
+LEVELTIP_TITLE85 = "Equip Tier 6 Boots"
+LEVELTIP_TITLE86 = "Equip Tier 6 Belt"
+LEVELTIP_TITLE87 = "Equip Tier 6 Wrist Guards"
+
+LEVELTIP_TITLE88 = "Campaign Battlefield: Battle of Puyang"
+LEVELTIP_TITLE89 = "Musou Battlefield: Yellow Turban Rebellion"
+LEVELTIP_TITLE90 = "Musou Battlefield: Hulao Gate Hero Assembly"
+LEVELTIP_TITLE91 = "Romance Battlefield: Battle of Hefei"
+LEVELTIP_TITLE92 = "Daily Activity: Battle for Wuzhang Plains"
+LEVELTIP_TITLE93 = "Equip Tier 4 Wrist Guards"
+LEVELTIP_TITLE94 = "Learn Production: Blacksmithing"
+LEVELTIP_TITLE95 = "Learn Production: Tailoring"
+LEVELTIP_TITLE96 = "Learn Production: Artisanship"
+LEVELTIP_TITLE97 = "Campaign Battlefield: Battle of Yingchuan"
+LEVELTIP_TITLE98 = "Romance Battlefield: Expedition Against Zhang Liang"
+LEVELTIP_TITLE99 = "Gaiden: Cao Cao - Royal Tomb Shadows"
+LEVELTIP_TITLE100 = "Gaiden: Liu Bei - Escape from Tiger's Den"
+LEVELTIP_TITLE101 = "Gaiden: Dian Wei - Roar of the Evil Comes"
+LEVELTIP_TITLE102 = "Gaiden: Sun Quan - Iron Gourd Chronicles"
+LEVELTIP_TITLE103 = "Gaiden: Zhao Yun - Dragon Leap at Changban"
+LEVELTIP_TITLE104 = "Equip Tier 4 Belt"
+LEVELTIP_TITLE105 = "Equip Tier 4 Leg Guards"
+LEVELTIP_TITLE106 = "Gaiden: Lu Bu - Flying General's Return"
+LEVELTIP_TITLE107 = "Equip Tier 4 Shoulder Guards"
+LEVELTIP_TITLE108 = "Learn Production: Apothecary"
+LEVELTIP_TITLE109 = "Equip Tier 4 Boots"
+
+-- Class Promotions (Saint/King Rank)
+LEVELTIP_TITLE110 = "Promote Primary Class to Saber Saint"
+LEVELTIP_TITLE111 = "Promote Primary Class to Spear King"
+LEVELTIP_TITLE112 = "Promote Primary Class to Halberd Saint"
+LEVELTIP_TITLE113 = "Promote Primary Class to Axe Saint"
+LEVELTIP_TITLE114 = "Promote Primary Class to Trident Saint"
+LEVELTIP_TITLE115 = "Promote Primary Class to Staff King"
+LEVELTIP_TITLE116 = "Promote Primary Class to Sword Saint"
+LEVELTIP_TITLE117 = "Promote Primary Class to Hatchet King"
+LEVELTIP_TITLE118 = "Promote Primary Class to Hook King"
+LEVELTIP_TITLE119 = "Promote Primary Class to Baton Saint"
+LEVELTIP_TITLE120 = "Promote Primary Class to Hammer Saint"
+VELTIP_TITLE121 = "Promote Primary Class to Claw Saint"
+LEVELTIP_TITLE122 = "Promote Primary Class to Shield King"
+LEVELTIP_TITLE123 = "Promote Primary Class to Ring Saint"
+LEVELTIP_TITLE124 = "Promote Primary Class to Scepter King"
+LEVELTIP_TITLE125 = "Promote Primary Class to Dance King"
+LEVELTIP_TITLE126 = "Promote Primary Class to Fan King"
+LEVELTIP_TITLE127 = "Promote Primary Class to Bow King"
+
+LEVELTIP_TITLE128 = "Equip Tier 4 Weapon"
+LEVELTIP_TITLE129 = "Equip Tier 4 Armor"
+LEVELTIP_TITLE130 = "Romance Battlefield: Battle of Luofeng Slope"
+LEVELTIP_TITLE131 = "Romance Battlefield: Jingxiang Retreat"
+LEVELTIP_TITLE132 = "Equip Tier 3 Wrist Guards"
+LEVELTIP_TITLE133 = "Learn Production: Cooking"
+LEVELTIP_TITLE134 = "Learn Production: Blacksmithing"
+LEVELTIP_TITLE135 = "Learn Production: Tailoring"
+LEVELTIP_TITLE136 = "Learn Production: Artisanship"
+LEVELTIP_TITLE137 = "Learn Production: First Aid"
+LEVELTIP_TITLE138 = "Gaiden: Jiang Gan - Stealing Books at Wu Camp"
+LEVELTIP_TITLE139 = "Equip Tier 3 Belt"
+LEVELTIP_TITLE140 = "Learn Production: Apothecary"
+LEVELTIP_TITLE141 = "Equip Tier 3 Leg Guards"
+LEVELTIP_TITLE142 = "Equip Tier 3 Shoulder Guards"
+
+-- Class Promotions (General/Elite Rank)
+LEVELTIP_TITLE143 = "Promote Primary Class to Saber General"
+LEVELTIP_TITLE144 = "Promote Primary Class to Spear General"
+LEVELTIP_TITLE145 = "Promote Primary Class to Halberd General"
+LEVELTIP_TITLE146 = "Promote Primary Class to Axe General"
+LEVELTIP_TITLE147 = "Promote Primary Class to Trident General"
+LEVELTIP_TITLE148 = "Promote Primary Class to Staff General"
+LEVELTIP_TITLE149 = "Promote Primary Class to Sword Elite"
+LEVELTIP_TITLE150 = "Promote Primary Class to Hatchet General"
+LEVELTIP_TITLE151 = "Promote Primary Class to Hook Elite"
+LEVELTIP_TITLE152 = "Promote Primary Class to Baton Elite"
+LEVELTIP_TITLE153 = "Promote Primary Class to Hammer General"
+LEVELTIP_TITLE154 = "Promote Primary Class to Claw Elite"
+LEVELTIP_TITLE155 = "Promote Primary Class to Shield General"
+LEVELTIP_TITLE156 = "Promote Primary Class to Ring General"
+LEVELTIP_TITLE157 = "Promote Primary Class to Scepter General"
+LEVELTIP_TITLE158 = "Promote Primary Class to Dance Elite"
+LEVELTIP_TITLE159 = "Promote Primary Class to Fan General"
+LEVELTIP_TITLE160 = "Promote Primary Class to Bow General"
+
+LEVELTIP_TITLE161 = "Daily Activity: Yuefu Music Bureau Visit"
+LEVELTIP_TITLE162 = "Learn Production: First Aid"
+LEVELTIP_TITLE163 = "Romance Battlefield: Militia Grain Supply Battle"
+LEVELTIP_TITLE164 = "Equip Tier 3 Boots"
+LEVELTIP_TITLE165 = "Equip Tier 3 Weapon"
+LEVELTIP_TITLE166 = "Equip Tier 3 Armor"
+LEVELTIP_TITLE167 = "Learn Production: Cooking"
+LEVELTIP_TITLE168 = "Equip Tier 2 Wrist Guards"
+LEVELTIP_TITLE169 = "Learn Production: Blacksmithing"
+LEVELTIP_TITLE170 = "Learn Production: Tailoring"
+LEVELTIP_TITLE171 = "Learn Production: Artisanship"
+LEVELTIP_TITLE172 = "Learn Production: Apothecary"
+LEVELTIP_TITLE173 = "Equip Tier 2 Belt"
+
+-- Class Promotions (Officer/Hero Rank)
+LEVELTIP_TITLE174 = "Promote Primary Class to Saber Officer"
+LEVELTIP_TITLE175 = "Promote Primary Class to Spear Officer"
+LEVELTIP_TITLE176 = "Promote Primary Class to Halberd Officer"
+LEVELTIP_TITLE177 = "Promote Primary Class to Axe Officer"
+LEVELTIP_TITLE178 = "Promote Primary Class to Trident Officer"
+LEVELTIP_TITLE179 = "Promote Primary Class to Staff Officer"
+LEVELTIP_TITLE180 = "Promote Primary Class to Sword Hero"
+LEVELTIP_TITLE181 = "Promote Primary Class to Hatchet Officer"
+LEVELTIP_TITLE182 = "Promote Primary Class to Hook Hero"
+LEVELTIP_TITLE183 = "Promote Primary Class to Baton Hero"
+LEVELTIP_TITLE184 = "Promote Primary Class to Hammer Officer"
+LEVELTIP_TITLE185 = "Promote Primary Class to Claw Hero"
+LEVELTIP_TITLE186 = "Promote Primary Class to Shield Officer"
+LEVELTIP_TITLE187 = "Promote Primary Class to Ring Hero"
+LEVELTIP_TITLE188 = "Promote Primary Class to Scepter Hero"
+LEVELTIP_TITLE189 = "Promote Primary Class to Dance Master"
+LEVELTIP_TITLE190 = "Promote Primary Class to Fan Hero"
+LEVELTIP_TITLE191 = "Promote Primary Class to Bow Officer"
+
+LEVELTIP_TITLE192 = "Gaiden: Sun Shangxiang - Fragrant Riding"
+LEVELTIP_TITLE193 = "Equip Tier 2 Leg Guards"
+LEVELTIP_TITLE194 = "Learn Production: First Aid"
+LEVELTIP_TITLE195 = "Equip Tier 2 Shoulder Guards"
+LEVELTIP_TITLE196 = "Musou Battlefield: Xiliang Unrest"
+LEVELTIP_TITLE197 = "Equip Tier 2 Boots"
+LEVELTIP_TITLE198 = "Learn Production: Cooking"
+LEVELTIP_TITLE199 = "Learn Production: Apothecary"
+LEVELTIP_TITLE200 = "Equip Tier 2 Weapon"
+LEVELTIP_TITLE201 = "Equip Tier 2 Armor"
+LEVELTIP_TITLE202 = "Learn Production: Artisanship"
+LEVELTIP_TITLE203 = "Learn Production: Engineering"
+
+-- Class Promotions (Cavalry/Warrior Rank)
+LEVELTIP_TITLE204 = "Promote Primary Class to Saber Cavalry"
+LEVELTIP_TITLE205 = "Promote Primary Class to Spear Cavalry"
+LEVELTIP_TITLE206 = "Promote Primary Class to Halberd Cavalry"
+LEVELTIP_TITLE207 = "Promote Primary Class to Axe Cavalry"
+LEVELTIP_TITLE208 = "Promote Primary Class to Trident Cavalry"
+LEVELTIP_TITLE209 = "Promote Primary Class to Staff Cavalry"
+LEVELTIP_TITLE210 = "Promote Primary Class to Sword Warrior"
+LEVELTIP_TITLE211 = "Promote Primary Class to Hatchet Cavalry"
+LEVELTIP_TITLE212 = "Promote Primary Class to Hook Warrior"
+LEVELTIP_TITLE213 = "Promote Primary Class to Baton Warrior"
+LEVELTIP_TITLE214 = "Promote Primary Class to Hammer Cavalry"
+LEVELTIP_TITLE215 = "Promote Primary Class to Claw Warrior"
+LEVELTIP_TITLE216 = "Promote Primary Class to Shield Cavalry"
+LEVELTIP_TITLE217 = "Promote Primary Class to Ring Warrior"
+LEVELTIP_TITLE218 = "Promote Primary Class to Scepter Warrior"
+LEVELTIP_TITLE219 = "Promote Primary Class to Dance Warrior"
+LEVELTIP_TITLE220 = "Promote Primary Class to Fan Warrior"
+LEVELTIP_TITLE221 = "Promote Primary Class to Bow Cavalry"
+
+LEVELTIP_TITLE222 = "Learn Riding"
+LEVELTIP_TITLE223 = "Equip Tier 1 Wrist Guards"
+LEVELTIP_TITLE224 = "Learn Production: Taming"
+LEVELTIP_TITLE225 = "Learn Production: Blacksmithing"
+LEVELTIP_TITLE226 = "Learn Production: Tailoring"
+LEVELTIP_TITLE227 = "Romance Battlefield: Han Army Rearguard Battle"
+LEVELTIP_TITLE228 = "Learn Production: Apothecary"
+LEVELTIP_TITLE229 = "Equip Tier 1 Belt"
+
+-- Skills & Dailies
+LEVELTIP_TITLE230 = "Learn New Combat Skill"
+LEVELTIP_TITLE231 = "Learn New Combat Skill"
+LEVELTIP_TITLE232 = "Learn New Combat Skill"
+LEVELTIP_TITLE233 = "Learn New Combat Skill"
+LEVELTIP_TITLE234 = "Learn New Combat Skill"
+LEVELTIP_TITLE235 = "Learn New Combat Skill"
+LEVELTIP_TITLE236 = "Learn New Combat Skill"
+LEVELTIP_TITLE237 = "Learn New Combat Skill"
+LEVELTIP_TITLE238 = "Learn New Combat Skill"
+LEVELTIP_TITLE239 = "Learn New Combat Skill"
+LEVELTIP_TITLE240 = "Learn New Combat Skill"
+LEVELTIP_TITLE241 = "Learn New Combat Skill"
+LEVELTIP_TITLE242 = "Learn New Combat Skill"
+LEVELTIP_TITLE243 = "Learn New Combat Skill"
+LEVELTIP_TITLE244 = "Learn New Combat Skill"
+LEVELTIP_TITLE245 = "Learn New Combat Skill"
+LEVELTIP_TITLE246 = "Learn New Combat Skill"
+LEVELTIP_TITLE247 = "Learn New Combat Skill"
+LEVELTIP_TITLE248 = "Daily Activity: Daily Treasure Hunt"
+LEVELTIP_TITLE249 = "Daily Activity: Daily Fishing"
+LEVELTIP_TITLE250 = "Daily Activity: Weekend Fishing Tournament"
+LEVELTIP_TITLE251 = "Equip Tier 1 Leg Guards"
+LEVELTIP_TITLE252 = "Learn Production: Cooking"
+LEVELTIP_TITLE253 = "Learn Production: First Aid"
+LEVELTIP_TITLE254 = "Learn New Combat Skill"
+LEVELTIP_TITLE255 = "Equip Tier 1 Shoulder Guards"
+LEVELTIP_TITLE256 = "Learn New Combat Skill"
+
+-- Class Promotions (Guard/Soldier Rank)
+LEVELTIP_TITLE257 = "Promote Primary Class to Saber Guard"
+LEVELTIP_TITLE258 = "Promote Primary Class to Spearman"
+LEVELTIP_TITLE259 = "Promote Primary Class to Halberdier"
+LEVELTIP_TITLE260 = "Promote Primary Class to Axe Warrior"
+LEVELTIP_TITLE261 = "Promote Primary Class to Trident Warrior"
+LEVELTIP_TITLE262 = "Promote Primary Class to Staff Warrior"
+LEVELTIP_TITLE263 = "Promote Primary Class to Swordsman"
+LEVELTIP_TITLE264 = "Promote Primary Class to Hatchet Warrior"
+LEVELTIP_TITLE265 = "Promote Primary Class to Hook Stalker"
+LEVELTIP_TITLE266 = "Promote Primary Class to Baton Stalker"
+LEVELTIP_TITLE267 = "Promote Primary Class to Hammer Warrior"
+LEVELTIP_TITLE268 = "Promote Primary Class to Claw Stalker"
+LEVELTIP_TITLE269 = "Promote Primary Class to Shield Warrior"
+LEVELTIP_TITLE270 = "Promote Primary Class to Ring Bearer"
+LEVELTIP_TITLE271 = "Promote Primary Class to Scepter User"
+LEVELTIP_TITLE272 = "Promote Primary Class to Dancer"
+LEVELTIP_TITLE273 = "Promote Primary Class to Fan Scholar"
+LEVELTIP_TITLE274 = "Promote Primary Class to Archer"
+
+LEVELTIP_TITLE275 = "Learn New Combat Skill"
+LEVELTIP_TITLE276 = "Equip Tier 1 Boots"
+LEVELTIP_TITLE277 = "Learn Production: First Aid"
+LEVELTIP_TITLE278 = "Learn New Combat Skill"
+LEVELTIP_TITLE279 = "Daily Activity: Benevolence Quest"
+LEVELTIP_TITLE280 = "Equip Tier 1 Weapon"
+LEVELTIP_TITLE281 = "Equip Tier 1 Armor"
+LEVELTIP_TITLE282 = "Learn Production: Blacksmithing"
+LEVELTIP_TITLE283 = "Learn Production: Tailoring"
+LEVELTIP_TITLE284 = "Equip Basic Wrist Guards"
+LEVELTIP_TITLE285 = "Learn New Combat Skill"
+LEVELTIP_TITLE286 = "Equip Basic Belt"
+LEVELTIP_TITLE287 = "Equip Basic Leg Guards"
+LEVELTIP_TITLE288 = "Learn Production: Cooking"
+LEVELTIP_TITLE289 = "Learn New Combat Skill"
+LEVELTIP_TITLE290 = "Equip Basic Shoulder Guards"
+LEVELTIP_TITLE291 = "Equip Basic Boots"
+LEVELTIP_TITLE292 = "Learn New Combat Skill"
+LEVELTIP_TITLE293 = "Equip Basic Armor"
+LEVELTIP_TITLE294 = "Daily Activity: Strategy & Talent Trial"
+LEVELTIP_TITLE295 = "Daily Activity: Thousand-Mile Pursuit"
+LEVELTIP_TITLE296 = "Equip Basic Weapon"
 
 LEVELTIP_CONTENT1 = "Trang bị mới có thể thay ở cấp độ hiện tại là: vũ khí bậc mười."
 LEVELTIP_CONTENT2 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo bậc mười."
