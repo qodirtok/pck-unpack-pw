@@ -1,100 +1,100 @@
-//Õâ¸öÅäÖÃÎÄ¼şÃ¿Ò»´Î¸üĞÂÊ±£¬Ö»ÄÜÊÇÔÚÃ¿Ò»ÏîµÄ×îºó±ß¼ÓÈëĞÂµÄ£¬¾ø¶Ô²»ÄÜĞŞ¸ÄÒÔÇ°µÄË³Ğò»òÕßË÷Òı
-//×éºÏÍ¼±êµÄÎÄ×Ö×ÖÌå
+//Each time this configuration file is updated, new entries can only be added to the end of each item; the previous order or index must never be modified.
+//Text font of combined icons
 [Font_Name]
-name1	= ×ÖÌåÒ»
-name2	= ×ÖÌå¶ş
-name3	= ×ÖÌåÈı
+name1	= å­—ä½“ä¸€
+name2	= å­—ä½“äºŒ
+name3	= å­—ä½“ä¸‰
 
-//×éºÏÍ¼±êµÄÎÄ×ÖÑÕÉ«
+//Text color of combo icons
 [Text_Color]
-name1	= ÑÕÉ«Ò»
+name1	= é¢œè‰²ä¸€
 color1	= 255,0,0,255
-name2	= ÑÕÉ«¶ş
+name2	= é¢œè‰²äºŒ
 color2	= 0,255,0,255
-name3	= ÑÕÉ«Èı
+name3	= é¢œè‰²ä¸‰
 color3	= 255,128,128,255
-name4	= ÑÕÉ«ËÄ
+name4	= é¢œè‰²å››
 color4	= 255,255,128,255
-name5	= ÑÕÉ«Îå
+name5	= é¢œè‰²äº”
 color5	= 128,255,0,255
-name6	= ÑÕÉ«Áù
+name6	= é¢œè‰²å…­
 color6	= 255,0,255,255
-name7	= ÑÕÉ«Æß
+name7	= é¢œè‰²ä¸ƒ
 color7	= 0,0,0,255
-name8	= ÑÕÉ«°Ë
+name8	= é¢œè‰²å…«
 color8	= 255,128,0,255
-name9	= ÑÕÉ«¾Å
+name9	= é¢œè‰²ä¹
 color9	= 128,0,255,255
-name10	= ÑÕÉ«Ê®
+name10	= é¢œè‰²å
 color10	= 255,255,255,255
 
-//×éºÏÍ¼±êµÄ±³¾°É«
+//ç»„åˆå›¾æ ‡çš„èƒŒæ™¯è‰²
 [Back_Color]
-name1	= ÎŞÉ«
+name1	= æ— è‰²
 color1	= 0,0,0,0
-name2	= ÑÕÉ«Ò»
+name2	= é¢œè‰²ä¸€
 color2	= 255,0,0,255
-name3	= ÑÕÉ«¶ş
+name3	= é¢œè‰²äºŒ
 color3	= 0,255,0,255
-name4	= ÑÕÉ«Èı
+name4	= é¢œè‰²ä¸‰
 color4	= 255,128,128,255
-name5	= ÑÕÉ«ËÄ
+name5	= é¢œè‰²å››
 color5	= 255,255,128,255
-name6	= ÑÕÉ«Îå
+name6	= é¢œè‰²äº”
 color6	= 128,255,0,255
-name7	= ÑÕÉ«Áù
+name7	= é¢œè‰²å…­
 color7	= 255,0,255,255
-name8	= ÑÕÉ«Æß
+name8	= é¢œè‰²ä¸ƒ
 color8	= 0,0,0,255
-name9	= ÑÕÉ«°Ë
+name9	= é¢œè‰²å…«
 color9	= 255,128,0,255
-name10	= ÑÕÉ«¾Å
+name10	= é¢œè‰²ä¹
 color10	= 128,0,255,255
-name11	= ÑÕÉ«Ê®
+name11	= é¢œè‰²å
 color11	= 255,255,255,255
 
-//×éºÏÍ¼±êµÄÖĞ¼ä²ã:index¶ÔÓ¦ÓÚ¡°\Surfaces\InGame\GangIcon¡±Ä¿Â¼ÏÂµÄ×ÊÔ´Ë÷Òı
+//ç»„åˆå›¾æ ‡çš„ä¸­é—´å±‚:indexå¯¹åº”äºâ€œ\Surfaces\InGame\GangIconâ€ç›®å½•ä¸‹çš„èµ„æºç´¢å¼•
 [Mid_Icon]
-name1	= Í¼±ê1
+name1	= å›¾æ ‡1
 index1	= 1001
-name2	= Í¼±ê2
+name2	= å›¾æ ‡2
 index2	= 1002
-name3	= Í¼±ê3
+name3	= å›¾æ ‡3
 index3	= 1003
-name4	= Í¼±ê4
+name4	= å›¾æ ‡4
 index4	= 1004
-name5	= Í¼±ê5
+name5	= å›¾æ ‡5
 index5	= 1005
-name6	= Í¼±ê6
+name6	= å›¾æ ‡6
 index6	= 1006
-name7	= Í¼±ê7
+name7	= å›¾æ ‡7
 index7	= 1007
-name8	= Í¼±ê8
+name8	= å›¾æ ‡8
 index8	= 1008
-name9	= Í¼±ê9
+name9	= å›¾æ ‡9
 index9	= 1009
-name10	= Í¼±ê10
+name10	= å›¾æ ‡10
 index10	= 1010
 
-//×éºÏÍ¼±êµÄ×îÉÏ²ã:index¶ÔÓ¦ÓÚ¡°\Surfaces\InGame\GangIcon¡±Ä¿Â¼ÏÂµÄ×ÊÔ´Ë÷Òı
+//ç»„åˆå›¾æ ‡çš„æœ€ä¸Šå±‚:indexå¯¹åº”äºâ€œ\Surfaces\InGame\GangIconâ€ç›®å½•ä¸‹çš„èµ„æºç´¢å¼•
 [Top_Icon]
-name1	= Í¼±ê1
+name1	= å›¾æ ‡1
 index1	= 2001
-name2	= Í¼±ê2
+name2	= å›¾æ ‡2
 index2	= 2002
-name3	= Í¼±ê3
+name3	= å›¾æ ‡3
 index3	= 2003
-name4	= Í¼±ê4
+name4	= å›¾æ ‡4
 index4	= 2004
-name5	= Í¼±ê5
+name5	= å›¾æ ‡5
 index5	= 2005
-name6	= Í¼±ê6
+name6	= å›¾æ ‡6
 index6	= 2006
-name7	= Í¼±ê7
+name7	= å›¾æ ‡7
 index7	= 2007
-name8	= Í¼±ê8
+name8	= å›¾æ ‡8
 index8	= 2008
-name9	= Í¼±ê9
+name9	= å›¾æ ‡9
 index9	= 2009
-name10	= Í¼±ê10
+name10	= å›¾æ ‡10
 index10	= 2010
