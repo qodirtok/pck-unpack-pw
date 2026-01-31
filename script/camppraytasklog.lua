@@ -1,21 +1,21 @@
---祈福祭坛提示信息
+--Blessing Altar Prompt Info
 CampTaskLogInfo = {}
-CampTaskLogInfo[1541] = "^7fffff上交了7个烧鸡，获得了祈福值7点\r"
-CampTaskLogInfo[31790] = "^7fffff上交了1个贡品·烤鱼，增加了2点祈福值，100点国家资金。\r"
-CampTaskLogInfo[31791] = "^7fffff上交了1个贡品·烧鸡，增加了5点祈福值，200点国家资金。\r"
-CampTaskLogInfo[31792] = "^7fffff上交了1个贡品·烤乳猪，增加了10点祈福值，500点国家资金。\r"
-CampTaskLogInfo[31785] = "^7fffff上交了1个贡品·烤鱼，增加了2点祈福值，100点国家资金。\r"
-CampTaskLogInfo[31786] = "^7fffff上交了1个贡品·烧鸡，增加了5点祈福值，200点国家资金。\r"
-CampTaskLogInfo[31787] = "^7fffff上交了1个贡品·烤乳猪，增加了10点祈福值，500点国家资金。\r"
-CampTaskLogInfo[31795] = "^7fffff上交了1个贡品·烤鱼，增加了2点祈福值，100点国家资金。\r"
-CampTaskLogInfo[31796] = "^7fffff上交了1个贡品·烧鸡，增加了5点祈福值，200点国家资金。\r"
-CampTaskLogInfo[31797] = "^7fffff上交了1个贡品·烤乳猪，增加了10点祈福值，500点国家资金。\r"
+CampTaskLogInfo[1541] = "^7fffffSubmitted 7 Roast Chickens, obtained 7 Blessing Points\r"
+CampTaskLogInfo[31790] = "^7fffffSubmitted 1 Offering: Grilled Fish, increased 2 Blessing Points and 100 National Funds.\r"
+CampTaskLogInfo[31791] = "^7fffffSubmitted 1 Offering: Roast Chicken, increased 5 Blessing Points and 200 National Funds.\r"
+CampTaskLogInfo[31792] = "^7fffffSubmitted 1 Offering: Roast Suckling Pig, increased 10 Blessing Points and 500 National Funds.\r"
+CampTaskLogInfo[31785] = "^7fffffSubmitted 1 Offering: Grilled Fish, increased 2 Blessing Points and 100 National Funds.\r"
+CampTaskLogInfo[31786] = "^7fffffSubmitted 1 Offering: Roast Chicken, increased 5 Blessing Points and 200 National Funds.\r"
+CampTaskLogInfo[31787] = "^7fffffSubmitted 1 Offering: Roast Suckling Pig, increased 10 Blessing Points and 500 National Funds.\r"
+CampTaskLogInfo[31795] = "^7fffffSubmitted 1 Offering: Grilled Fish, increased 2 Blessing Points and 100 National Funds.\r"
+CampTaskLogInfo[31796] = "^7fffffSubmitted 1 Offering: Roast Chicken, increased 5 Blessing Points and 200 National Funds.\r"
+CampTaskLogInfo[31797] = "^7fffffSubmitted 1 Offering: Roast Suckling Pig, increased 10 Blessing Points and 500 National Funds.\r"
 
 CampPrayTaskLog = {}
 
 function CampPrayTaskLog:Info( taskid )
 	local Prefix = "^fff600 "
-	local DefaultLog = "^0000ff上交了祈福物品，为国家增加了祈福值\r"
+	local DefaultLog = "^0000ffSubmitted blessing items, increased Blessing Points for the country\r"
 	if( CampTaskLogInfo[taskid] ) then
 		return Prefix, CampTaskLogInfo[taskid]
 	else

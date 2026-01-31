@@ -2241,302 +2241,302 @@ LEVELTIP_TITLE294 = "Daily Activity: Strategy & Talent Trial"
 LEVELTIP_TITLE295 = "Daily Activity: Thousand-Mile Pursuit"
 LEVELTIP_TITLE296 = "Equip Basic Weapon"
 
-LEVELTIP_CONTENT1 = "Trang bị mới có thể thay ở cấp độ hiện tại là: vũ khí bậc mười."
-LEVELTIP_CONTENT2 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo bậc mười."
-LEVELTIP_CONTENT3 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ vai bậc mười."
-LEVELTIP_CONTENT4 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ chân bậc mười."
-LEVELTIP_CONTENT5 = "Trang bị mới có thể thay ở cấp độ hiện tại là: giày bậc mười."
-LEVELTIP_CONTENT6 = "Trang bị mới có thể thay ở cấp độ hiện tại là: đai lưng bậc mười."
-LEVELTIP_CONTENT7 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ cổ tay bậc mười."
-LEVELTIP_CONTENT8 = "Trang bị mới có thể thay ở cấp độ hiện tại là: vũ khí bậc chín."
-LEVELTIP_CONTENT9 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo bậc chín."
-LEVELTIP_CONTENT10 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ vai bậc chín."
-LEVELTIP_CONTENT11 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ chân bậc chín."
-LEVELTIP_CONTENT12 = "Trang bị mới có thể thay ở cấp độ hiện tại là: giày bậc chín."
-LEVELTIP_CONTENT13 = "Trang bị mới có thể thay ở cấp độ hiện tại là: đai lưng bậc chín."
-LEVELTIP_CONTENT14 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ cổ tay bậc chín."
-LEVELTIP_CONTENT15 = "Trang bị mới có thể thay ở cấp độ hiện tại là: vũ khí bậc tám."
-LEVELTIP_CONTENT16 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo bậc tám."
-LEVELTIP_CONTENT17 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ vai bậc tám."
-LEVELTIP_CONTENT18 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ chân bậc tám."
-LEVELTIP_CONTENT19 = "Trang bị mới có thể thay ở cấp độ hiện tại là: giày bậc tám."
-LEVELTIP_CONTENT20 = "Trang bị mới có thể thay ở cấp độ hiện tại là: đai lưng bậc tám."
-LEVELTIP_CONTENT21 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ cổ tay bậc tám."
-LEVELTIP_CONTENT22 = "Bạn hiện tại có thể tham gia chiến trường Vô Song “Cổ Điện Lâu Lan” rồi!"
-LEVELTIP_CONTENT23 = "Kỹ năng sản xuất “Dược Sư” có thể dùng để chế tạo thuốc viên hồi phục sinh lực ngay lập tức.\rCấp độ có thể học hiện tại：Thần Tượng\rNPC học：#1926#"
-LEVELTIP_CONTENT24 = "Trang bị mới có thể thay ở cấp độ hiện tại là: vũ khí bậc bảy.\rVũ khí bậc tiếp theo cần cấp 80 mới có thể trang bị."
-LEVELTIP_CONTENT25 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo bậc bảy.\rÁo bậc tiếp theo cần cấp 80 mới có thể trang bị."
-LEVELTIP_CONTENT26 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ vai bậc bảy.\rHộ vai bậc tiếp theo cần cấp 80 mới có thể trang bị."
-LEVELTIP_CONTENT27 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ chân bậc bảy.\rHộ chân bậc tiếp theo cần cấp 80 mới có thể trang bị."
-LEVELTIP_CONTENT28 = "Trang bị mới có thể thay ở cấp độ hiện tại là: giày bậc bảy.\rGiày bậc tiếp theo cần cấp 80 mới có thể trang bị."
-LEVELTIP_CONTENT29 = "Trang bị mới có thể thay ở cấp độ hiện tại là: đai lưng bậc bảy.\rĐai lưng bậc tiếp theo cần cấp 80 mới có thể trang bị."
-LEVELTIP_CONTENT30 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ cổ tay bậc bảy.\rHộ cổ tay bậc tiếp theo cần cấp 80 mới có thể trang bị."
-LEVELTIP_CONTENT31 = "Bạn hiện tại có thể tham gia chiến trường Diễn Nghĩa “Ám Tập Định Quân Sơn” rồi!"
-LEVELTIP_CONTENT32 = "Kỹ năng sản xuất “Thợ Rèn” có thể dùng để chế tạo vũ khí.\rCấp độ có thể học hiện tại：Thần Tượng\rNPC học：#1918#"
-LEVELTIP_CONTENT33 = "Bạn hiện tại có thể tham gia chiến trường Vô Song “Ma Vực Hạng Vương” rồi!"
-LEVELTIP_CONTENT34 = "Kỹ năng sản xuất “Cấp Cứu” có thể dùng để chế tạo thuốc mỡ có thể sử dụng trong chiến đấu.\rCấp độ có thể học hiện tại：Thần Tượng\rNPC học：#1930#"
-LEVELTIP_CONTENT35 = "Bạn hiện tại có thể tham gia chiến trường Diễn Nghĩa “Trận Công Phá Ích Châu” rồi!"
-LEVELTIP_CONTENT36 = "Kỹ năng sản xuất “Nấu Ăn” có thể dùng để chế tạo thức ăn, rượu ngon và trà uống.\rCấp độ có thể học hiện tại：Thần Tượng\rNPC học：#1924#"
-LEVELTIP_CONTENT37 = "Bạn cần đến #1910# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhong Đao Sứ^ffffff."
-LEVELTIP_CONTENT38 = "Bạn cần đến #3365# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThánh Thương Sứ^ffffff."
-LEVELTIP_CONTENT39 = "Bạn cần đến #3366# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cXích Kích Sứ^ffffff."
-LEVELTIP_CONTENT40 = "Bạn cần đến #3367# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cHoàng Việt Sứ^ffffff."
-LEVELTIP_CONTENT41 = "Bạn cần đến #3368# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cBá Xoa Sứ^ffffff."
-LEVELTIP_CONTENT42 = "Bạn cần đến #3369# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cXảo Côn Sứ^ffffff."
-LEVELTIP_CONTENT43 = "Bạn cần đến #3370# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cNgạo Kiếm Sứ^ffffff."
-LEVELTIP_CONTENT44 = "Bạn cần đến #3371# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCuồng Phủ Sứ^ffffff."
-LEVELTIP_CONTENT45 = "Bạn cần đến #3372# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTật Câu Sứ^ffffff."
-LEVELTIP_CONTENT46 = "Bạn cần đến #3373# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cLiệt Giản Sứ^ffffff."
-LEVELTIP_CONTENT47 = "Bạn cần đến #3374# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cOanh Chùy Sứ^ffffff."
-LEVELTIP_CONTENT48 = "Bạn cần đến #3375# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cLôi Trảo Sứ^ffffff."
-LEVELTIP_CONTENT49 = "Bạn cần đến #3376# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKiên Thuẫn Sứ^ffffff."
-LEVELTIP_CONTENT50 = "Bạn cần đến #3377# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cLinh Hoàn Sứ^ffffff."
-LEVELTIP_CONTENT51 = "Bạn cần đến #3378# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cHào Trượng Sứ^ffffff."
-LEVELTIP_CONTENT52 = "Bạn cần đến #3379# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cDiệu Vũ Sứ^ffffff."
-LEVELTIP_CONTENT53 = "Bạn cần đến #3380# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cDật Phiến Sứ^ffffff."
-LEVELTIP_CONTENT54 = "Bạn cần đến #3381# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThiên Cung Sứ^ffffff."
-LEVELTIP_CONTENT55 = "Bạn hiện tại có thể tham gia chiến trường Vô Song “Di Tích Hiên Viên” rồi!"
-LEVELTIP_CONTENT56 = "Bạn cần đến #1910# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cĐao Thần^ffffff."
-LEVELTIP_CONTENT57 = "Bạn cần đến #3365# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThương Thần^ffffff."
-LEVELTIP_CONTENT58 = "Bạn cần đến #3366# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKích Thần^ffffff."
-LEVELTIP_CONTENT59 = "Bạn cần đến #3367# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cViệt Thần^ffffff."
-LEVELTIP_CONTENT60 = "Bạn cần đến #3368# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cXoa Thần^ffffff."
-LEVELTIP_CONTENT61 = "Bạn cần đến #3369# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCôn Tiên^ffffff."
-LEVELTIP_CONTENT62 = "Bạn cần đến #3370# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKiếm Tiên^ffffff."
-LEVELTIP_CONTENT63 = "Bạn cần đến #3371# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhủ Thần^ffffff."
-LEVELTIP_CONTENT64 = "Bạn cần đến #3372# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCâu Thần^ffffff."
-LEVELTIP_CONTENT65 = "Bạn cần đến #3373# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cGiản Thần^ffffff."
-LEVELTIP_CONTENT66 = "Bạn cần đến #3374# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cChùy Thần^ffffff."
-LEVELTIP_CONTENT67 = "Bạn cần đến #3375# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrảo Thần^ffffff."
-LEVELTIP_CONTENT68 = "Bạn cần đến #3376# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThuẫn Tiên^ffffff."
-LEVELTIP_CONTENT69 = "Bạn cần đến #3377# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cHoàn Tiên^ffffff."
-LEVELTIP_CONTENT70 = "Bạn cần đến #3378# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrượng Tiên^ffffff."
-LEVELTIP_CONTENT71 = "Bạn cần đến #3379# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cVũ Tiên^ffffff."
-LEVELTIP_CONTENT72 = "Bạn cần đến #3380# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhiến Tiên^ffffff."
-LEVELTIP_CONTENT73 = "Bạn cần đến #3381# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCung Thần^ffffff."
-LEVELTIP_CONTENT74 = "Trang bị mới có thể thay ở cấp độ hiện tại là: vũ khí bậc năm.\rVũ khí bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT75 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo bậc năm.\rÁo bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT76 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ vai bậc năm.\rHộ vai bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT77 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ chân bậc năm.\rHộ chân bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT78 = "Trang bị mới có thể thay ở cấp độ hiện tại là: giày bậc năm.\rGiày bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT79 = "Trang bị mới có thể thay ở cấp độ hiện tại là: đai lưng bậc năm.\rĐai lưng bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT80 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ cổ tay bậc năm.\rHộ cổ tay bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT81 = "Trang bị mới có thể thay ở cấp độ hiện tại là: vũ khí bậc sáu.\rVũ khí bậc tiếp theo cần cấp 70 mới có thể trang bị."
-LEVELTIP_CONTENT82 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo bậc sáu.\rÁo bậc tiếp theo cần cấp 70 mới có thể trang bị."
-LEVELTIP_CONTENT83 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ vai bậc sáu.\rHộ vai bậc tiếp theo cần cấp 70 mới có thể trang bị."
-LEVELTIP_CONTENT84 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ chân bậc sáu.\rHộ chân bậc tiếp theo cần cấp 70 mới có thể trang bị."
-LEVELTIP_CONTENT85 = "Trang bị mới có thể thay ở cấp độ hiện tại là: giày bậc sáu.\rGiày bậc tiếp theo cần cấp 70 mới có thể trang bị."
-LEVELTIP_CONTENT86 = "Trang bị mới có thể thay ở cấp độ hiện tại là: đai lưng bậc sáu.\rĐai lưng bậc tiếp theo cần cấp 70 mới có thể trang bị."
-LEVELTIP_CONTENT87 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ cổ tay bậc sáu.\rHộ cổ tay bậc tiếp theo cần cấp 70 mới có thể trang bị."
-LEVELTIP_CONTENT88 = "Bạn hiện tại có thể tham gia chiến trường Chinh Chiến “Trận Bộc Dương” rồi!"
-LEVELTIP_CONTENT89 = "Bạn hiện tại có thể tham gia chiến trường Vô Song “Loạn Khăn Vàng” rồi!"
-LEVELTIP_CONTENT90 = "Bạn hiện tại có thể tham gia chiến trường Vô Song “Hổ Lao Quan Quần Anh Hội” rồi!"
-LEVELTIP_CONTENT91 = "Bạn hiện tại có thể tham gia chiến trường Diễn Nghĩa “Trận Hợp Phì” rồi!"
-LEVELTIP_CONTENT92 = "^ff765cTranh Đoạt Ngũ Trượng Nguyên^ffffff：Phải gia nhập một trong ba phe Ngụy, Thục, Ngô."
-LEVELTIP_CONTENT93 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ cổ tay bậc bốn.\rHộ cổ tay bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT94 = "Kỹ năng sản xuất “Thợ Rèn” có thể dùng để chế tạo vũ khí.\rCấp độ có thể học hiện tại：Đại Sư\rNPC học：#1918#"
-LEVELTIP_CONTENT95 = "Kỹ năng sản xuất “May Vá” có thể dùng để chế tạo phòng cụ.\rCấp độ có thể học hiện tại：Đại Sư\rNPC học：#1920#"
-LEVELTIP_CONTENT96 = "Kỹ năng sản xuất “Xảo Tượng” có thể dùng để chế tạo vật liệu cường hóa, tổng hợp Nguyên Thạch và Phù Ngọc.\rCấp độ có thể học hiện tại：Đặc cấp\rNPC học：#1928#"
-LEVELTIP_CONTENT97 = "Bạn hiện tại có thể tham gia chiến trường Chinh Chiến “Trận Dĩnh Xuyên” rồi!"
-LEVELTIP_CONTENT98 = "Bạn hiện tại có thể tham gia chiến trường Diễn Nghĩa “Trận Thảo Phạt Trương Lương” rồi!"
-LEVELTIP_CONTENT99 = "Bạn hiện tại có thể tham gia chiến trường Ngoại Truyện “Tào Tháo Truyện·Vương Lăng Quỷ Ảnh” rồi!"
-LEVELTIP_CONTENT100 = "Bạn hiện tại có thể tham gia chiến trường Ngoại Truyện “Lưu Bị Truyện·Thoát Hiểm Từ Miệng Hổ” rồi!"
-LEVELTIP_CONTENT101 = "Bạn hiện tại có thể tham gia chiến trường Ngoại Truyện “Điển Vi Truyện·Ác Lai Gào Thét” rồi!"
-LEVELTIP_CONTENT102 = "Bạn hiện tại có thể tham gia chiến trường Ngoại Truyện “Tôn Quyền Truyện·Ký Sự Hồ Lô Sắt” rồi!"
-LEVELTIP_CONTENT103 = "Bạn hiện tại có thể tham gia chiến trường Ngoại Truyện “Triệu Vân Truyện·Long Dược Trường Bản” rồi!"
-LEVELTIP_CONTENT104 = "Trang bị mới có thể thay ở cấp độ hiện tại là: đai lưng bậc bốn.\rĐai lưng bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT105 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ chân bậc bốn.\rHộ chân bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT106 = "Bạn hiện tại có thể tham gia chiến trường Ngoại Truyện “Lã Bố Truyện·Phi Tướng Hồi Thiên” rồi!"
-LEVELTIP_CONTENT107 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ vai bậc bốn.\rHộ vai bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT108 = "Kỹ năng sản xuất “Dược Sư” có thể dùng để chế tạo thuốc viên hồi phục sinh lực ngay lập tức.\rCấp độ có thể học hiện tại：Đại Sư\rNPC học：#1926#"
-LEVELTIP_CONTENT109 = "Trang bị mới có thể thay ở cấp độ hiện tại là: giày bậc bốn.\rGiày bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT110 = "Bạn cần đến #1910# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cĐao Thánh^ffffff."
-LEVELTIP_CONTENT111 = "Bạn cần đến #3365# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThương Vương^ffffff."
-LEVELTIP_CONTENT112 = "Bạn cần đến #3366# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKích Thánh^ffffff."
-LEVELTIP_CONTENT113 = "Bạn cần đến #3367# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cViệt Thánh^ffffff."
-LEVELTIP_CONTENT114 = "Bạn cần đến #3368# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cXoa Thánh^ffffff."
-LEVELTIP_CONTENT115 = "Bạn cần đến #3369# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCôn Vương^ffffff."
-LEVELTIP_CONTENT116 = "Bạn cần đến #3370# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKiếm Thánh^ffffff."
-LEVELTIP_CONTENT117 = "Bạn cần đến #3371# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhủ Vương^ffffff."
-LEVELTIP_CONTENT118 = "Bạn cần đến #3372# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCâu Vương^ffffff."
-LEVELTIP_CONTENT119 = "Bạn cần đến #3373# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cGiản Thánh^ffffff."
-LEVELTIP_CONTENT120 = "Bạn cần đến #3374# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cChùy Thánh^ffffff."
-LEVELTIP_CONTENT121 = "Bạn cần đến #3375# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrảo Thánh^ffffff."
-LEVELTIP_CONTENT122 = "Bạn cần đến #3376# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThuẫn Vương^ffffff."
-LEVELTIP_CONTENT123 = "Bạn cần đến #3377# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cHoàn Thánh^ffffff."
-LEVELTIP_CONTENT124 = "Bạn cần đến #3378# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrượng Vương^ffffff."
-LEVELTIP_CONTENT125 = "Bạn cần đến #3379# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cVũ Vương^ffffff."
-LEVELTIP_CONTENT126 = "Bạn cần đến #3380# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhiến Vương^ffffff."
-LEVELTIP_CONTENT127 = "Bạn cần đến #3381# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCung Vương^ffffff."
-LEVELTIP_CONTENT128 = "Trang bị mới có thể thay ở cấp độ hiện tại là: vũ khí bậc bốn.\rVũ khí bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT129 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo bậc bốn.\rÁo bậc tiếp theo cần cấp 60 mới có thể trang bị."
-LEVELTIP_CONTENT130 = "Bạn hiện tại có thể tham gia chiến trường Diễn Nghĩa “Trận Lạc Phượng Pha” rồi!"
-LEVELTIP_CONTENT131 = "Bạn hiện tại có thể tham gia chiến trường Diễn Nghĩa “Trận Chiến Rút Lui Kinh Tương” rồi!"
-LEVELTIP_CONTENT132 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ cổ tay bậc ba.\rHộ cổ tay bậc tiếp theo cần cấp 58 mới có thể trang bị."
-LEVELTIP_CONTENT133 = "Kỹ năng sản xuất “Nấu Ăn” có thể dùng để chế tạo thức ăn, rượu ngon và trà uống.\rCấp độ có thể học hiện tại：Đại Sư\rNPC học：#1924#"
-LEVELTIP_CONTENT134 = "Kỹ năng sản xuất “Thợ Rèn” có thể dùng để chế tạo vũ khí.\rCấp độ có thể học hiện tại：Đặc cấp\rNPC học：#1918#"
-LEVELTIP_CONTENT135 = "Kỹ năng sản xuất “May Vá” có thể dùng để chế tạo phòng cụ.\rCấp độ có thể học hiện tại：Đặc cấp\rNPC học：#1920#"
-LEVELTIP_CONTENT136 = "Kỹ năng sản xuất “Xảo Tượng” có thể dùng để chế tạo vật liệu cường hóa, tổng hợp Nguyên Thạch và Phù Ngọc.\rCấp độ có thể học hiện tại：Cao cấp\rNPC học：#1928#"
-LEVELTIP_CONTENT137 = "Kỹ năng sản xuất “Cấp Cứu” có thể dùng để chế tạo thuốc mỡ có thể sử dụng trong chiến đấu.\rCấp độ có thể học hiện tại：Đại Sư\rNPC học：#1930#"
-LEVELTIP_CONTENT138 = "Bạn hiện tại có thể tham gia chiến trường Ngoại Truyện “Tưởng Cán Truyện·Trộm Sách Ở Trại Ngô” rồi!"
-LEVELTIP_CONTENT139 = "Trang bị mới có thể thay ở cấp độ hiện tại là: đai lưng bậc ba.\rĐai lưng bậc tiếp theo cần cấp 57 mới có thể trang bị."
-LEVELTIP_CONTENT140 = "Kỹ năng sản xuất “Dược Sư” có thể dùng để chế tạo thuốc viên hồi phục sinh lực ngay lập tức.\rCấp độ có thể học hiện tại：Đặc cấp\rNPC học：#1926#"
-LEVELTIP_CONTENT141 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ chân bậc ba.\rHộ chân bậc tiếp theo cần cấp 56 mới có thể trang bị."
-LEVELTIP_CONTENT142 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ vai bậc ba.\rHộ vai bậc tiếp theo cần cấp 54 mới có thể trang bị."
-LEVELTIP_CONTENT143 = "Bạn cần đến #1910# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cĐao Tướng^ffffff."
-LEVELTIP_CONTENT144 = "Bạn cần đến #3365# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThương Tướng^ffffff."
-LEVELTIP_CONTENT145 = "Bạn cần đến #3366# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKích Tướng^ffffff."
-LEVELTIP_CONTENT146 = "Bạn cần đến #3367# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cViệt Tướng^ffffff."
-LEVELTIP_CONTENT147 = "Bạn cần đến #3368# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cXoa Tướng^ffffff."
-LEVELTIP_CONTENT148 = "Bạn cần đến #3369# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCôn Tướng^ffffff."
-LEVELTIP_CONTENT149 = "Bạn cần đến #3370# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKiếm Hào^ffffff."
-LEVELTIP_CONTENT150 = "Bạn cần đến #3371# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhủ Tướng^ffffff."
-LEVELTIP_CONTENT151 = "Bạn cần đến #3372# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCâu Hào^ffffff."
-LEVELTIP_CONTENT152 = "Bạn cần đến #3373# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cGiản Hào^ffffff."
-LEVELTIP_CONTENT153 = "Bạn cần đến #3374# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cChùy Tướng^ffffff."
-LEVELTIP_CONTENT154 = "Bạn cần đến #3375# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrảo Hào^ffffff."
-LEVELTIP_CONTENT155 = "Bạn cần đến #3376# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThuẫn Tướng^ffffff."
-LEVELTIP_CONTENT156 = "Bạn cần đến #3377# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cHoàn Tướng^ffffff."
-LEVELTIP_CONTENT157 = "Bạn cần đến #3378# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrượng Tướng^ffffff."
-LEVELTIP_CONTENT158 = "Bạn cần đến #3379# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cVũ Hào^ffffff."
-LEVELTIP_CONTENT159 = "Bạn cần đến #3380# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhiến Tướng^ffffff."
-LEVELTIP_CONTENT160 = "Bạn cần đến #3381# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCung Tướng^ffffff."
-LEVELTIP_CONTENT161 = "^ff765cNhạc Phủ Thăm Hỏi^ffffff：Mỗi ngày một lần.\rBạn có thể nói chuyện với #3167# để tham gia hoạt động này."
-LEVELTIP_CONTENT162 = "Kỹ năng sản xuất “Cấp Cứu” có thể dùng để chế tạo thuốc mỡ có thể sử dụng trong chiến đấu.\rCấp độ có thể học hiện tại：Đặc cấp\rNPC học：#1930#"
-LEVELTIP_CONTENT163 = "Bạn hiện tại có thể tham gia chiến trường Diễn Nghĩa “Trận Chiến Nghĩa Binh Tích Lương” rồi!"
-LEVELTIP_CONTENT164 = "Trang bị mới có thể thay ở cấp độ hiện tại là: giày bậc ba.\rGiày bậc tiếp theo cần cấp 52 mới có thể trang bị."
-LEVELTIP_CONTENT165 = "Trang bị mới có thể thay ở cấp độ hiện tại là: vũ khí bậc ba.\rVũ khí bậc tiếp theo cần cấp 50 mới có thể trang bị."
-LEVELTIP_CONTENT166 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo bậc ba.\rÁo bậc tiếp theo cần cấp 50 mới có thể trang bị."
-LEVELTIP_CONTENT167 = "Kỹ năng sản xuất “Nấu Ăn” có thể dùng để chế tạo thức ăn, rượu ngon và trà uống.\rCấp độ có thể học hiện tại：Đặc cấp\rNPC học：#1924#"
-LEVELTIP_CONTENT168 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ cổ tay bậc hai.\rHộ cổ tay bậc tiếp theo cần cấp 48 mới có thể trang bị."
-LEVELTIP_CONTENT169 = "Kỹ năng sản xuất “Thợ Rèn” có thể dùng để chế tạo vũ khí.\rCấp độ có thể học hiện tại：Cao cấp\rNPC học：#1918#"
-LEVELTIP_CONTENT170 = "Kỹ năng sản xuất “May Vá” có thể dùng để chế tạo phòng cụ.\rCấp độ có thể học hiện tại：Cao cấp\rNPC học：#1920#"
-LEVELTIP_CONTENT171 = "Kỹ năng sản xuất “Xảo Tượng” có thể dùng để chế tạo vật liệu cường hóa, tổng hợp Nguyên Thạch và Phù Ngọc.\rCấp độ có thể học hiện tại：Trung cấp\rNPC học：#1928#"
-LEVELTIP_CONTENT172 = "Kỹ năng sản xuất “Dược Sư” có thể dùng để chế tạo thuốc viên hồi phục sinh lực ngay lập tức.\rCấp độ có thể học hiện tại：Cao cấp\rNPC học：#1926#"
-LEVELTIP_CONTENT173 = "Trang bị mới có thể thay ở cấp độ hiện tại là: đai lưng bậc hai.\rĐai lưng bậc tiếp theo cần cấp 46 mới có thể trang bị."
-LEVELTIP_CONTENT174 = "Bạn cần đến #1910# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cĐao Úy^ffffff."
-LEVELTIP_CONTENT175 = "Bạn cần đến #3365# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThương Úy^ffffff."
-LEVELTIP_CONTENT176 = "Bạn cần đến #3366# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKích Úy^ffffff."
-LEVELTIP_CONTENT177 = "Bạn cần đến #3367# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cViệt Úy^ffffff."
-LEVELTIP_CONTENT178 = "Bạn cần đến #3368# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cXoa Úy^ffffff."
-LEVELTIP_CONTENT179 = "Bạn cần đến #3369# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCôn Úy^ffffff."
-LEVELTIP_CONTENT180 = "Bạn cần đến #3370# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKiếm Hiệp^ffffff."
-LEVELTIP_CONTENT181 = "Bạn cần đến #3371# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhủ Úy^ffffff."
-LEVELTIP_CONTENT182 = "Bạn cần đến #3372# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCâu Hiệp^ffffff."
-LEVELTIP_CONTENT183 = "Bạn cần đến #3373# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cGiản Hiệp^ffffff."
-LEVELTIP_CONTENT184 = "Bạn cần đến #3374# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cChùy Úy^ffffff."
-LEVELTIP_CONTENT185 = "Bạn cần đến #3375# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrảo Hiệp^ffffff."
-LEVELTIP_CONTENT186 = "Bạn cần đến #3376# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThuẫn Úy^ffffff."
-LEVELTIP_CONTENT187 = "Bạn cần đến #3377# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cHoàn Hiệp^ffffff."
-LEVELTIP_CONTENT188 = "Bạn cần đến #3378# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrượng Hiệp^ffffff."
-LEVELTIP_CONTENT189 = "Bạn cần đến #3379# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cVũ Sư^ffffff."
-LEVELTIP_CONTENT190 = "Bạn cần đến #3380# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhiến Hiệp^ffffff."
-LEVELTIP_CONTENT191 = "Bạn cần đến #3381# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCung Úy^ffffff."
-LEVELTIP_CONTENT192 = "Bạn hiện tại có thể tham gia chiến trường Ngoại Truyện “Tôn Hương Truyện·Kỵ Quyến Hương Phong” rồi!"
-LEVELTIP_CONTENT193 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ chân bậc hai.\rHộ chân bậc tiếp theo cần cấp 43 mới có thể trang bị."
-LEVELTIP_CONTENT194 = "Kỹ năng sản xuất “Cấp Cứu” có thể dùng để chế tạo thuốc mỡ có thể sử dụng trong chiến đấu.\rCấp độ có thể học hiện tại：Cao cấp\rNPC học：#1930#"
-LEVELTIP_CONTENT195 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ vai bậc hai.\rHộ vai bậc tiếp theo cần cấp 41 mới có thể trang bị."
-LEVELTIP_CONTENT196 = "Bạn hiện tại có thể tham gia chiến trường Vô Song “Tây Lương Nhiễu Loạn” rồi!"
-LEVELTIP_CONTENT197 = "Trang bị mới có thể thay ở cấp độ hiện tại là: giày bậc hai.\rGiày bậc tiếp theo cần cấp 38 mới có thể trang bị."
-LEVELTIP_CONTENT198 = "Kỹ năng sản xuất “Nấu Ăn” có thể dùng để chế tạo thức ăn, rượu ngon và trà uống.\rCấp độ có thể học hiện tại：Cao cấp\rNPC học：#1924#"
-LEVELTIP_CONTENT199 = "Kỹ năng sản xuất “Dược Sư” có thể dùng để chế tạo thuốc viên hồi phục sinh lực ngay lập tức.\rCấp độ có thể học hiện tại：Trung cấp\rNPC học：#1926#"
-LEVELTIP_CONTENT200 = "Trang bị mới có thể thay ở cấp độ hiện tại là: vũ khí bậc hai.\rVũ khí bậc tiếp theo cần cấp 36 mới có thể trang bị."
-LEVELTIP_CONTENT201 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo bậc hai.\rÁo bậc tiếp theo cần cấp 36 mới có thể trang bị."
-LEVELTIP_CONTENT202 = "Kỹ năng sản xuất “Xảo Tượng” có thể dùng để chế tạo vật liệu cường hóa, tổng hợp Nguyên Thạch và Phù Ngọc.\rCấp độ có thể học hiện tại：Sơ cấp\rNPC học：#1927#"
-LEVELTIP_CONTENT203 = "Kỹ năng sản xuất “Thợ Công” có thể dùng để chế tạo bảo vật, Điểm Hóa Bí Văn Linh Châu.\rCấp độ có thể học hiện tại：Sơ cấp\rNPC học：#1932#"
-LEVELTIP_CONTENT204 = "Bạn cần đến #1910# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cĐao Kỵ^ffffff."
-LEVELTIP_CONTENT205 = "Bạn cần đến #3365# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThương Kỵ^ffffff."
-LEVELTIP_CONTENT206 = "Bạn cần đến #3366# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKích Kỵ^ffffff."
-LEVELTIP_CONTENT207 = "Bạn cần đến #3367# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cViệt Kỵ^ffffff."
-LEVELTIP_CONTENT208 = "Bạn cần đến #3368# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cXoa Kỵ^ffffff."
-LEVELTIP_CONTENT209 = "Bạn cần đến #3369# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCôn Kỵ^ffffff."
-LEVELTIP_CONTENT210 = "Bạn cần đến #3370# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKiếm Sĩ^ffffff."
-LEVELTIP_CONTENT211 = "Bạn cần đến #3371# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhủ Kỵ^ffffff."
-LEVELTIP_CONTENT212 = "Bạn cần đến #3372# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCâu Sĩ^ffffff."
-LEVELTIP_CONTENT213 = "Bạn cần đến #3373# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cGiản Sĩ^ffffff."
-LEVELTIP_CONTENT214 = "Bạn cần đến #3374# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cChùy Kỵ^ffffff."
-LEVELTIP_CONTENT215 = "Bạn cần đến #3375# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrảo Sĩ^ffffff."
-LEVELTIP_CONTENT216 = "Bạn cần đến #3376# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThuẫn Kỵ^ffffff."
-LEVELTIP_CONTENT217 = "Bạn cần đến #3377# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cHoàn Sĩ^ffffff."
-LEVELTIP_CONTENT218 = "Bạn cần đến #3378# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrượng Sĩ^ffffff."
-LEVELTIP_CONTENT219 = "Bạn cần đến #3379# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cVũ Sĩ^ffffff."
-LEVELTIP_CONTENT220 = "Bạn cần đến #3380# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhiến Sĩ^ffffff."
-LEVELTIP_CONTENT221 = "Bạn cần đến #3381# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCung Kỵ^ffffff."
-LEVELTIP_CONTENT222 = "Khi bạn đạt cấp 20, có thể đến #3352# hoặc #1915# học kỵ thuật."
-LEVELTIP_CONTENT223 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ cổ tay bậc một.\rHộ cổ tay bậc tiếp theo cần cấp 34 mới có thể trang bị."
-LEVELTIP_CONTENT224 = "Kỹ năng sản xuất “Thuần Dưỡng” có thể dùng để nâng cấp tọa kỵ.\rCấp độ có thể học hiện tại：Sơ cấp\rNPC học：#1915#"
-LEVELTIP_CONTENT225 = "Kỹ năng sản xuất “Thợ Rèn” có thể dùng để chế tạo vũ khí.\rCấp độ có thể học hiện tại：Trung cấp\rNPC học：#1918#"
-LEVELTIP_CONTENT226 = "Kỹ năng sản xuất “May Vá” có thể dùng để chế tạo phòng cụ.\rCấp độ có thể học hiện tại：Trung cấp\rNPC học：#1920#"
-LEVELTIP_CONTENT227 = "Bạn hiện tại có thể tham gia chiến trường Diễn Nghĩa “Trận Chiến Hán Quân Bọc Hậu” rồi!"
-LEVELTIP_CONTENT228 = "Kỹ năng sản xuất “Dược Sư” có thể dùng để chế tạo thuốc viên hồi phục sinh lực ngay lập tức.\rCấp độ có thể học hiện tại：Sơ cấp\rNPC học：#1925#"
-LEVELTIP_CONTENT229 = "Trang bị mới có thể thay ở cấp độ hiện tại là: đai lưng bậc một.\rĐai lưng bậc tiếp theo cần cấp 32 mới có thể trang bị."
-LEVELTIP_CONTENT230 = "Bạn có thể đến #1910# học kỹ năng chiến đấu Đao mới."
-LEVELTIP_CONTENT231 = "Bạn có thể đến #3365# học kỹ năng chiến đấu Thương mới."
-LEVELTIP_CONTENT232 = "Bạn có thể đến #3366# học kỹ năng chiến đấu Kích mới."
-LEVELTIP_CONTENT233 = "Bạn có thể đến #3367# học kỹ năng chiến đấu Việt mới."
-LEVELTIP_CONTENT234 = "Bạn có thể đến #3368# học kỹ năng chiến đấu Xoa mới."
-LEVELTIP_CONTENT235 = "Bạn có thể đến #3369# học kỹ năng chiến đấu Côn mới."
-LEVELTIP_CONTENT236 = "Bạn có thể đến #3370# học kỹ năng chiến đấu Kiếm mới."
-LEVELTIP_CONTENT237 = "Bạn có thể đến #3371# học kỹ năng chiến đấu Phủ mới."
-LEVELTIP_CONTENT238 = "Bạn có thể đến #3372# học kỹ năng chiến đấu Câu mới."
-LEVELTIP_CONTENT239 = "Bạn có thể đến #3373# học kỹ năng chiến đấu Giản mới."
-LEVELTIP_CONTENT240 = "Bạn có thể đến #3374# học kỹ năng chiến đấu Chùy mới."
-LEVELTIP_CONTENT241 = "Bạn có thể đến #3375# học kỹ năng chiến đấu Trảo mới."
-LEVELTIP_CONTENT242 = "Bạn có thể đến #3376# học kỹ năng chiến đấu Thuẫn mới."
-LEVELTIP_CONTENT243 = "Bạn có thể đến #3377# học kỹ năng chiến đấu Hoàn mới."
-LEVELTIP_CONTENT244 = "Bạn có thể đến #3378# học kỹ năng chiến đấu Trượng mới."
-LEVELTIP_CONTENT245 = "Bạn có thể đến #3379# học kỹ năng chiến đấu Vũ mới."
-LEVELTIP_CONTENT246 = "Bạn có thể đến #3380# học kỹ năng chiến đấu Phiến mới."
-LEVELTIP_CONTENT247 = "Bạn có thể đến #3381# học kỹ năng chiến đấu Cung mới."
-LEVELTIP_CONTENT248 = "^ff765cTìm Báu Vật Hàng Ngày^ffffff：Mỗi ngày một lần.\rBạn có thể nói chuyện với #9013# để tham gia hoạt động này."
-LEVELTIP_CONTENT249 = "^ff765cCâu Cá Hàng Ngày^ffffff：Mở cả ngày.\rBạn có thể nói chuyện với #9163# để tham gia hoạt động này."
-LEVELTIP_CONTENT250 = "^ff765cĐại Hội Câu Cá Cuối Tuần^ffffff：19:00-22:00 Chủ Nhật hàng tuần.\rBạn có thể nói chuyện với #9163# để tham gia hoạt động này."
-LEVELTIP_CONTENT251 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ chân bậc một.\rHộ chân bậc tiếp theo cần cấp 29 mới có thể trang bị."
-LEVELTIP_CONTENT252 = "Kỹ năng sản xuất “Nấu Ăn” có thể dùng để chế tạo thức ăn, rượu ngon và trà uống.\rCấp độ có thể học hiện tại：Trung cấp\rNPC học：#1924#"
-LEVELTIP_CONTENT253 = "Kỹ năng sản xuất “Cấp Cứu” có thể dùng để chế tạo thuốc mỡ có thể sử dụng trong chiến đấu.\rCấp độ có thể học hiện tại：Trung cấp\rNPC học：#1930#"
-LEVELTIP_CONTENT254 = "Bạn có thể đến #5075# học kỹ năng chiến đấu mới."
-LEVELTIP_CONTENT255 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ vai bậc một.\rHộ vai bậc tiếp theo cần cấp 27 mới có thể trang bị."
-LEVELTIP_CONTENT256 = "Bạn có thể đến #5075# học kỹ năng chiến đấu mới."
-LEVELTIP_CONTENT257 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cĐao Binh^ffffff."
-LEVELTIP_CONTENT258 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThương Binh^ffffff."
-LEVELTIP_CONTENT259 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKích Binh^ffffff."
-LEVELTIP_CONTENT260 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cViệt Binh^ffffff."
-LEVELTIP_CONTENT261 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cXoa Binh^ffffff."
-LEVELTIP_CONTENT262 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCôn Binh^ffffff."
-LEVELTIP_CONTENT263 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cKiếm Khách^ffffff."
-LEVELTIP_CONTENT264 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhủ Binh^ffffff."
-LEVELTIP_CONTENT265 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCâu Khách^ffffff."
-LEVELTIP_CONTENT266 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cGiản Khách^ffffff."
-LEVELTIP_CONTENT267 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cChùy Binh^ffffff."
-LEVELTIP_CONTENT268 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrảo Khách^ffffff."
-LEVELTIP_CONTENT269 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cThuẫn Binh^ffffff."
-LEVELTIP_CONTENT270 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cHoàn Thủ^ffffff."
-LEVELTIP_CONTENT271 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cTrượng Sinh^ffffff."
-LEVELTIP_CONTENT272 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cVũ Giả^ffffff."
-LEVELTIP_CONTENT273 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cPhiến Khách^ffffff."
-LEVELTIP_CONTENT274 = "Bạn cần đến #3996# hoàn thành nhiệm vụ binh chủng, mới có thể nâng cấp binh chủng chính lên giai đoạn tiếp theo: ^ff765cCung Thủ^ffffff."
-LEVELTIP_CONTENT275 = "Bạn có thể đến #1882# học kỹ năng chiến đấu mới."
-LEVELTIP_CONTENT276 = "Trang bị mới có thể thay ở cấp độ hiện tại là: giày bậc một.\rGiày bậc tiếp theo cần cấp 24 mới có thể trang bị."
-LEVELTIP_CONTENT277 = "Kỹ năng sản xuất “Cấp Cứu” có thể dùng để chế tạo thuốc mỡ có thể sử dụng trong chiến đấu.\rCấp độ có thể học hiện tại：Sơ cấp\rNPC học：#1929#"
-LEVELTIP_CONTENT278 = "Bạn có thể đến #3348# học kỹ năng chiến đấu mới."
-LEVELTIP_CONTENT279 = "^ff765cNhiệm Vụ Nhân Nghĩa^ffffff：Mở cả ngày.\rBạn có thể nói chuyện với #14873# để tham gia hoạt động này."
-LEVELTIP_CONTENT280 = "Trang bị mới có thể thay ở cấp độ hiện tại là: vũ khí bậc một.\rVũ khí bậc tiếp theo cần cấp 22 mới có thể trang bị."
-LEVELTIP_CONTENT281 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo bậc một.\rÁo bậc tiếp theo cần cấp 22 mới có thể trang bị."
-LEVELTIP_CONTENT282 = "Kỹ năng sản xuất “Thợ Rèn” có thể dùng để chế tạo vũ khí.\rCấp độ có thể học hiện tại：Sơ cấp\rNPC học：#1917#"
-LEVELTIP_CONTENT283 = "Kỹ năng sản xuất “May Vá” có thể dùng để chế tạo phòng cụ.\rCấp độ có thể học hiện tại：Sơ cấp\rNPC học：#1919#"
-LEVELTIP_CONTENT284 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ cổ tay sơ cấp.\rHộ cổ tay bậc tiếp theo cần cấp 20 mới có thể trang bị."
-LEVELTIP_CONTENT285 = "Bạn có thể đến #3348# học kỹ năng chiến đấu mới."
-LEVELTIP_CONTENT286 = "Trang bị mới có thể thay ở cấp độ hiện tại là: đai lưng sơ cấp.\rĐai lưng bậc tiếp theo cần cấp 18 mới có thể trang bị."
-LEVELTIP_CONTENT287 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ chân sơ cấp.\rHộ chân bậc tiếp theo cần cấp 15 mới có thể trang bị."
-LEVELTIP_CONTENT288 = "Kỹ năng sản xuất “Nấu Ăn” có thể dùng để chế tạo thức ăn, rượu ngon và trà uống.\rCấp độ có thể học hiện tại：Sơ cấp\rNPC học：#1923#"
-LEVELTIP_CONTENT289 = "Bạn có thể đến #3346# học kỹ năng chiến đấu mới."
-LEVELTIP_CONTENT290 = "Trang bị mới có thể thay ở cấp độ hiện tại là: hộ vai sơ cấp.\rHộ vai bậc tiếp theo cần cấp 13 mới có thể trang bị."
-LEVELTIP_CONTENT291 = "Trang bị mới có thể thay ở cấp độ hiện tại là: giày sơ cấp.\rGiày bậc tiếp theo cần cấp 10 mới có thể trang bị."
-LEVELTIP_CONTENT292 = "Bạn có thể đến #3346# học kỹ năng chiến đấu mới."
-LEVELTIP_CONTENT293 = "Trang bị mới có thể thay ở cấp độ hiện tại là: áo sơ cấp.\rÁo bậc tiếp theo cần cấp 8 mới có thể trang bị."
-LEVELTIP_CONTENT294 = "^ff765cThi Tài Thao Lược^ffffff：Bắt đầu lúc 19:30 hàng ngày, online là có thể nhận được lời mời."
-LEVELTIP_CONTENT295 = "^ff765cThiên Lý Truy Hung^ffffff：Bắt đầu từ 0 giờ hàng ngày, mỗi 2 giờ bắt đầu một lần."
-LEVELTIP_CONTENT296 = "Bạn đã có một vũ khí sơ cấp, hiện tại có thể trang bị nó rồi!\rVũ khí bậc tiếp theo cần cấp 8 mới có thể trang bị."
+LEVELTIP_CONTENT1 = "New equipment available for your current level: Tier 10 Weapon."
+LEVELTIP_CONTENT2 = "New equipment available for your current level: Tier 10 Armor."
+LEVELTIP_CONTENT3 = "New equipment available for your current level: Tier 10 Shoulders."
+LEVELTIP_CONTENT4 = "New equipment available for your current level: Tier 10 Leg Guards."
+LEVELTIP_CONTENT5 = "New equipment available for your current level: Tier 10 Boots."
+LEVELTIP_CONTENT6 = "New equipment available for your current level: Tier 10 Belt."
+LEVELTIP_CONTENT7 = "New equipment available for your current level: Tier 10 Wrist Guards."
+LEVELTIP_CONTENT8 = "New equipment available for your current level: Tier 9 Weapon."
+LEVELTIP_CONTENT9 = "New equipment available for your current level: Tier 9 Armor."
+LEVELTIP_CONTENT10 = "New equipment available for your current level: Tier 9 Shoulders."
+LEVELTIP_CONTENT11 = "New equipment available for your current level: Tier 9 Leg Guards."
+LEVELTIP_CONTENT12 = "New equipment available for your current level: Tier 9 Boots."
+LEVELTIP_CONTENT13 = "New equipment available for your current level: Tier 9 Belt."
+LEVELTIP_CONTENT14 = "New equipment available for your current level: Tier 9 Wrist Guards."
+LEVELTIP_CONTENT15 = "New equipment available for your current level: Tier 8 Weapon."
+LEVELTIP_CONTENT16 = "New equipment available for your current level: Tier 8 Armor."
+LEVELTIP_CONTENT17 = "New equipment available for your current level: Tier 8 Shoulders."
+LEVELTIP_CONTENT18 = "New equipment available for your current level: Tier 8 Leg Guards."
+LEVELTIP_CONTENT19 = "New equipment available for your current level: Tier 8 Boots."
+LEVELTIP_CONTENT20 = "New equipment available for your current level: Tier 8 Belt."
+LEVELTIP_CONTENT21 = "New equipment available for your current level: Tier 8 Wrist Guards."
+LEVELTIP_CONTENT22 = "You can now participate in the Peerless Battlefield: 'Loulan Ancient Palace'!"
+LEVELTIP_CONTENT23 = "Production Skill 'Apothecary' can be used to craft instant health recovery pills.\rCurrent learnable level: Divine Artisan\rLearn from NPC: #1926#"
+LEVELTIP_CONTENT24 = "New equipment available for your current level: Tier 7 Weapon.\rNext tier weapon requires Level 80 to equip."
+LEVELTIP_CONTENT25 = "New equipment available for your current level: Tier 7 Armor.\rNext tier armor requires Level 80 to equip."
+LEVELTIP_CONTENT26 = "New equipment available for your current level: Tier 7 Shoulders.\rNext tier shoulders require Level 80 to equip."
+LEVELTIP_CONTENT27 = "New equipment available for your current level: Tier 7 Leg Guards.\rNext tier leg guards require Level 80 to equip."
+LEVELTIP_CONTENT28 = "New equipment available for your current level: Tier 7 Boots.\rNext tier boots require Level 80 to equip."
+LEVELTIP_CONTENT29 = "New equipment available for your current level: Tier 7 Belt.\rNext tier belt requires Level 80 to equip."
+LEVELTIP_CONTENT30 = "New equipment available for your current level: Tier 7 Wrist Guards.\rNext tier wrist guards require Level 80 to equip."
+LEVELTIP_CONTENT31 = "You can now participate in the Romance Battlefield: 'Ambush at Dingjun Mountain'!"
+LEVELTIP_CONTENT32 = "Production Skill 'Blacksmith' can be used to craft weapons.\rCurrent learnable level: Divine Artisan\rLearn from NPC: #1918#"
+LEVELTIP_CONTENT33 = "You can now participate in the Peerless Battlefield: 'Hegemon's Demon Realm'!"
+LEVELTIP_CONTENT34 = "Production Skill 'First Aid' can be used to craft salves for use in combat.\rCurrent learnable level: Divine Artisan\rLearn from NPC: #1930#"
+LEVELTIP_CONTENT35 = "You can now participate in the Romance Battlefield: 'Capture of Yizhou'!"
+LEVELTIP_CONTENT36 = "Production Skill 'Cooking' can be used to craft food, fine wine, and tea.\rCurrent learnable level: Divine Artisan\rLearn from NPC: #1924#"
+LEVELTIP_CONTENT37 = "Go to #1910# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cWind Blade Envoy^ffffff."
+LEVELTIP_CONTENT38 = "Go to #3365# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHoly Spear Envoy^ffffff."
+LEVELTIP_CONTENT39 = "Go to #3366# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cRed Halberd Envoy^ffffff."
+LEVELTIP_CONTENT40 = "Go to #3367# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cRoyal Axe Envoy^ffffff."
+LEVELTIP_CONTENT41 = "Go to #3368# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cTyrant Fork Envoy^ffffff."
+LEVELTIP_CONTENT42 = "Go to #3369# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cDeft Staff Envoy^ffffff."
+LEVELTIP_CONTENT43 = "Go to #3370# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cProud Sword Envoy^ffffff."
+LEVELTIP_CONTENT44 = "Go to #3371# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cMad Axe Envoy^ffffff."
+LEVELTIP_CONTENT45 = "Go to #3372# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSwift Hook Envoy^ffffff."
+LEVELTIP_CONTENT46 = "Go to #3373# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFierce Mace Envoy^ffffff."
+LEVELTIP_CONTENT47 = "Go to #3374# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cRoaring Hammer Envoy^ffffff."
+LEVELTIP_CONTENT48 = "Go to #3375# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cThunder Claw Envoy^ffffff."
+LEVELTIP_CONTENT49 = "Go to #3376# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSteadfast Shield Envoy^ffffff."
+LEVELTIP_CONTENT50 = "Go to #3377# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSpirit Ring Envoy^ffffff."
+LEVELTIP_CONTENT51 = "Go to #3378# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cNoble Scepter Envoy^ffffff."
+LEVELTIP_CONTENT52 = "Go to #3379# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cDivine Dance Envoy^ffffff."
+LEVELTIP_CONTENT53 = "Go to #3380# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cElegant Fan Envoy^ffffff."
+LEVELTIP_CONTENT54 = "Go to #3381# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHeavenly Bow Envoy^ffffff."
+LEVELTIP_CONTENT55 = "You can now participate in the Peerless Battlefield: 'Xuanyuan Ruins'!"
+LEVELTIP_CONTENT56 = "Go to #1910# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBlade God^ffffff."
+LEVELTIP_CONTENT57 = "Go to #3365# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSpear God^ffffff."
+LEVELTIP_CONTENT58 = "Go to #3366# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHalberd God^ffffff."
+LEVELTIP_CONTENT59 = "Go to #3367# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cAxe God^ffffff."
+LEVELTIP_CONTENT60 = "Go to #3368# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFork God^ffffff."
+LEVELTIP_CONTENT61 = "Go to #3369# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cStaff Immortal^ffffff."
+LEVELTIP_CONTENT62 = "Go to #3370# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSword Immortal^ffffff."
+LEVELTIP_CONTENT63 = "Go to #3371# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cGreataxe God^ffffff."
+LEVELTIP_CONTENT64 = "Go to #3372# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHook God^ffffff."
+LEVELTIP_CONTENT65 = "Go to #3373# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cMace God^ffffff."
+LEVELTIP_CONTENT66 = "Go to #3374# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHammer God^ffffff."
+LEVELTIP_CONTENT67 = "Go to #3375# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cClaw God^ffffff."
+LEVELTIP_CONTENT68 = "Go to #3376# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cShield Immortal^ffffff."
+LEVELTIP_CONTENT69 = "Go to #3377# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cRing Immortal^ffffff."
+LEVELTIP_CONTENT70 = "Go to #3378# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cScepter Immortal^ffffff."
+LEVELTIP_CONTENT71 = "Go to #3379# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cDance Immortal^ffffff."
+LEVELTIP_CONTENT72 = "Go to #3380# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFan Immortal^ffffff."
+LEVELTIP_CONTENT73 = "Go to #3381# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBow God^ffffff."
+LEVELTIP_CONTENT74 = "New equipment available for your current level: Tier 5 Weapon.\rNext tier weapon requires Level 60 to equip."
+LEVELTIP_CONTENT75 = "New equipment available for your current level: Tier 5 Armor.\rNext tier armor requires Level 60 to equip."
+LEVELTIP_CONTENT76 = "New equipment available for your current level: Tier 5 Shoulders.\rNext tier shoulders require Level 60 to equip."
+LEVELTIP_CONTENT77 = "New equipment available for your current level: Tier 5 Leg Guards.\rNext tier leg guards require Level 60 to equip."
+LEVELTIP_CONTENT78 = "New equipment available for your current level: Tier 5 Boots.\rNext tier boots require Level 60 to equip."
+LEVELTIP_CONTENT79 = "New equipment available for your current level: Tier 5 Belt.\rNext tier belt requires Level 60 to equip."
+LEVELTIP_CONTENT80 = "New equipment available for your current level: Tier 5 Wrist Guards.\rNext tier wrist guards require Level 60 to equip."
+LEVELTIP_CONTENT81 = "New equipment available for your current level: Tier 6 Weapon.\rNext tier weapon requires Level 70 to equip."
+LEVELTIP_CONTENT82 = "New equipment available for your current level: Tier 6 Armor.\rNext tier armor requires Level 70 to equip."
+LEVELTIP_CONTENT83 = "New equipment available for your current level: Tier 6 Shoulders.\rNext tier shoulders require Level 70 to equip."
+LEVELTIP_CONTENT84 = "New equipment available for your current level: Tier 6 Leg Guards.\rNext tier leg guards require Level 70 to equip."
+LEVELTIP_CONTENT85 = "New equipment available for your current level: Tier 6 Boots.\rNext tier boots require Level 70 to equip."
+LEVELTIP_CONTENT86 = "New equipment available for your current level: Tier 6 Belt.\rNext tier belt requires Level 70 to equip."
+LEVELTIP_CONTENT87 = "New equipment available for your current level: Tier 6 Wrist Guards.\rNext tier wrist guards require Level 70 to equip."
+LEVELTIP_CONTENT88 = "You can now participate in the Campaign Battlefield: 'Battle of Puyang'!"
+LEVELTIP_CONTENT89 = "You can now participate in the Peerless Battlefield: 'Yellow Turban Rebellion'!"
+LEVELTIP_CONTENT90 = "You can now participate in the Peerless Battlefield: 'Hulao Pass Gathering'!"
+LEVELTIP_CONTENT91 = "You can now participate in the Romance Battlefield: 'Battle of Hefei'!"
+LEVELTIP_CONTENT92 = "^ff765cWuzhang Plains Struggle^ffffff: Must join one of the three factions: Wei, Shu, or Wu."
+LEVELTIP_CONTENT93 = "New equipment available for your current level: Tier 4 Wrist Guards.\rNext tier wrist guards require Level 60 to equip."
+LEVELTIP_CONTENT94 = "Production Skill 'Blacksmith' can be used to craft weapons.\rCurrent learnable level: Master\rLearn from NPC: #1918#"
+LEVELTIP_CONTENT95 = "Production Skill 'Tailor' can be used to craft armor.\rCurrent learnable level: Master\rLearn from NPC: #1920#"
+LEVELTIP_CONTENT96 = "Production Skill 'Craftsman' can be used to craft enhancement materials and synthesize Gems and Talismans.\rCurrent learnable level: Expert\rLearn from NPC: #1928#"
+LEVELTIP_CONTENT97 = "You can now participate in the Campaign Battlefield: 'Battle of Yingchuan'!"
+LEVELTIP_CONTENT98 = "You can now participate in the Romance Battlefield: 'Zhang Liang Suppression'!"
+LEVELTIP_CONTENT99 = "You can now participate in the Side Story: 'Cao Cao Legend: Ghost of the Royal Tomb'!"
+LEVELTIP_CONTENT100 = "You can now participate in the Side Story: 'Liu Bei Legend: Escape from the Tiger's Den'!"
+LEVELTIP_CONTENT101 = "You can now participate in the Side Story: 'Dian Wei Legend: Cry of the Evil Evil'!"
+LEVELTIP_CONTENT102 = "You can now participate in the Side Story: 'Sun Quan Legend: Chronicles of the Iron Gourd'!"
+LEVELTIP_CONTENT103 = "You can now participate in the Side Story: 'Zhao Yun Legend: Dragon Leaps at Changban'!"
+LEVELTIP_CONTENT104 = "New equipment available for your current level: Tier 4 Belt.\rNext tier belt requires Level 60 to equip."
+LEVELTIP_CONTENT105 = "New equipment available for your current level: Tier 4 Leg Guards.\rNext tier leg guards require Level 60 to equip."
+LEVELTIP_CONTENT106 = "You can now participate in the Side Story: 'Lu Bu Legend: Flying General's Defiance'!"
+LEVELTIP_CONTENT107 = "New equipment available for your current level: Tier 4 Shoulders.\rNext tier shoulders require Level 60 to equip."
+LEVELTIP_CONTENT108 = "Production Skill 'Apothecary' can be used to craft instant health recovery pills.\rCurrent learnable level: Master\rLearn from NPC: #1926#"
+LEVELTIP_CONTENT109 = "New equipment available for your current level: Tier 4 Boots.\rNext tier boots require Level 60 to equip."
+LEVELTIP_CONTENT110 = "Go to #1910# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBlade Saint^ffffff."
+LEVELTIP_CONTENT111 = "Go to #3365# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSpear King^ffffff."
+LEVELTIP_CONTENT112 = "Go to #3366# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHalberd Saint^ffffff."
+LEVELTIP_CONTENT113 = "Go to #3367# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cAxe Saint^ffffff."
+LEVELTIP_CONTENT114 = "Go to #3368# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFork Saint^ffffff."
+LEVELTIP_CONTENT115 = "Go to #3369# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cStaff King^ffffff."
+LEVELTIP_CONTENT116 = "Go to #3370# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSword Saint^ffffff."
+LEVELTIP_CONTENT117 = "Go to #3371# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cAxe King^ffffff."
+LEVELTIP_CONTENT118 = "Go to #3372# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHook King^ffffff."
+LEVELTIP_CONTENT119 = "Go to #3373# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cMace Saint^ffffff."
+LEVELTIP_CONTENT120 = "Go to #3374# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHammer Saint^ffffff."
+LEVELTIP_CONTENT121 = "Go to #3375# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cClaw Saint^ffffff."
+LEVELTIP_CONTENT122 = "Go to #3376# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cShield King^ffffff."
+LEVELTIP_CONTENT123 = "Go to #3377# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cRing Saint^ffffff."
+LEVELTIP_CONTENT124 = "Go to #3378# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cScepter King^ffffff."
+LEVELTIP_CONTENT125 = "Go to #3379# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cDance King^ffffff."
+LEVELTIP_CONTENT126 = "Go to #3380# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFan King^ffffff."
+LEVELTIP_CONTENT127 = "Go to #3381# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBow King^ffffff."
+LEVELTIP_CONTENT128 = "New equipment available for your current level: Tier 4 Weapon.\rNext tier weapon requires Level 60 to equip."
+LEVELTIP_CONTENT129 = "New equipment available for your current level: Tier 4 Armor.\rNext tier armor requires Level 60 to equip."
+LEVELTIP_CONTENT130 = "You can now participate in the Romance Battlefield: 'Battle of Fallen Phoenix Slope'!"
+LEVELTIP_CONTENT131 = "You can now participate in the Romance Battlefield: 'Retreat at Jing-Xiang'!"
+LEVELTIP_CONTENT132 = "New equipment available for your current level: Tier 3 Wrist Guards.\rNext tier wrist guards require Level 58 to equip."
+LEVELTIP_CONTENT133 = "Production Skill 'Cooking' can be used to craft food, fine wine, and tea.\rCurrent learnable level: Master\rLearn from NPC: #1924#"
+LEVELTIP_CONTENT134 = "Production Skill 'Blacksmith' can be used to craft weapons.\rCurrent learnable level: Expert\rLearn from NPC: #1918#"
+LEVELTIP_CONTENT135 = "Production Skill 'Tailor' can be used to craft armor.\rCurrent learnable level: Expert\rLearn from NPC: #1920#"
+LEVELTIP_CONTENT136 = "Production Skill 'Craftsman' can be used to craft enhancement materials and synthesize Gems and Talismans.\rCurrent learnable level: Advanced\rLearn from NPC: #1928#"
+LEVELTIP_CONTENT137 = "Production Skill 'First Aid' can be used to craft salves for use in combat.\rCurrent learnable level: Master\rLearn from NPC: #1930#"
+LEVELTIP_CONTENT138 = "You can now participate in the Side Story: 'Jiang Gan Legend: Theft of the Letter'!"
+LEVELTIP_CONTENT139 = "New equipment available for your current level: Tier 3 Belt.\rNext tier belt requires Level 57 to equip."
+LEVELTIP_CONTENT140 = "Production Skill 'Apothecary' can be used to craft instant health recovery pills.\rCurrent learnable level: Expert\rLearn from NPC: #1926#"
+LEVELTIP_CONTENT141 = "New equipment available for your current level: Tier 3 Leg Guards.\rNext tier leg guards require Level 56 to equip."
+LEVELTIP_CONTENT142 = "New equipment available for your current level: Tier 3 Shoulders.\rNext tier shoulders require Level 54 to equip."
+LEVELTIP_CONTENT143 = "Go to #1910# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBlade General^ffffff."
+LEVELTIP_CONTENT144 = "Go to #3365# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSpear General^ffffff."
+LEVELTIP_CONTENT145 = "Go to #3366# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHalberd General^ffffff."
+LEVELTIP_CONTENT146 = "Go to #3367# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cAxe General^ffffff."
+LEVELTIP_CONTENT147 = "Go to #3368# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFork General^ffffff."
+LEVELTIP_CONTENT148 = "Go to #3369# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cStaff General^ffffff."
+LEVELTIP_CONTENT149 = "Go to #3370# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSword Hero^ffffff."
+LEVELTIP_CONTENT150 = "Go to #3371# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cGreataxe General^ffffff."
+LEVELTIP_CONTENT151 = "Go to #3372# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHook Hero^ffffff."
+LEVELTIP_CONTENT152 = "Go to #3373# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cMace Hero^ffffff."
+LEVELTIP_CONTENT153 = "Go to #3374# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHammer General^ffffff."
+LEVELTIP_CONTENT154 = "Go to #3375# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cClaw Hero^ffffff."
+LEVELTIP_CONTENT155 = "Go to #3376# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cShield General^ffffff."
+LEVELTIP_CONTENT156 = "Go to #3377# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cRing General^ffffff."
+LEVELTIP_CONTENT157 = "Go to #3378# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cScepter General^ffffff."
+LEVELTIP_CONTENT158 = "Go to #3379# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cDance Hero^ffffff."
+LEVELTIP_CONTENT159 = "Go to #3380# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFan General^ffffff."
+LEVELTIP_CONTENT160 = "Go to #3381# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBow General^ffffff."
+LEVELTIP_CONTENT161 = "^ff765cMusic Bureau Visit^ffffff: Once per day.\rTalk to #3167# to participate in this activity."
+LEVELTIP_CONTENT162 = "Production Skill 'First Aid' can be used to craft salves for use in combat.\rCurrent learnable level: Expert\rLearn from NPC: #1930#"
+LEVELTIP_CONTENT163 = "You can now participate in the Romance Battlefield: 'The Righteous Army's Grain Mission'!"
+LEVELTIP_CONTENT164 = "New equipment available for your current level: Tier 3 Boots.\rNext tier boots require Level 52 to equip."
+LEVELTIP_CONTENT165 = "New equipment available for your current level: Tier 3 Weapon.\rNext tier weapon requires Level 50 to equip."
+LEVELTIP_CONTENT166 = "New equipment available for your current level: Tier 3 Armor.\rNext tier armor requires Level 50 to equip."
+LEVELTIP_CONTENT167 = "Production Skill 'Cooking' can be used to craft food, fine wine, and tea.\rCurrent learnable level: Expert\rLearn from NPC: #1924#"
+LEVELTIP_CONTENT168 = "New equipment available for your current level: Tier 2 Wrist Guards.\rNext tier wrist guards require Level 48 to equip."
+LEVELTIP_CONTENT169 = "Production Skill 'Blacksmith' can be used to craft weapons.\rCurrent learnable level: Advanced\rLearn from NPC: #1918#"
+LEVELTIP_CONTENT170 = "Production Skill 'Tailor' can be used to craft armor.\rCurrent learnable level: Advanced\rLearn from NPC: #1920#"
+LEVELTIP_CONTENT171 = "Production Skill 'Craftsman' can be used to craft enhancement materials and synthesize Gems and Talismans.\rCurrent learnable level: Intermediate\rLearn from NPC: #1928#"
+LEVELTIP_CONTENT172 = "Production Skill 'Apothecary' can be used to craft instant health recovery pills.\rCurrent learnable level: Advanced\rLearn from NPC: #1926#"
+LEVELTIP_CONTENT173 = "New equipment available for your current level: Tier 2 Belt.\rNext tier belt requires Level 46 to equip."
+LEVELTIP_CONTENT174 = "Go to #1910# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBlade Lieutenant^ffffff."
+LEVELTIP_CONTENT175 = "Go to #3365# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSpear Lieutenant^ffffff."
+LEVELTIP_CONTENT176 = "Go to #3366# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHalberd Lieutenant^ffffff."
+LEVELTIP_CONTENT177 = "Go to #3367# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cAxe Lieutenant^ffffff."
+LEVELTIP_CONTENT178 = "Go to #3368# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFork Lieutenant^ffffff."
+LEVELTIP_CONTENT179 = "Go to #3369# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cStaff Lieutenant^ffffff."
+LEVELTIP_CONTENT180 = "Go to #3370# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSword Knight^ffffff."
+LEVELTIP_CONTENT181 = "Go to #3371# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cGreataxe Lieutenant^ffffff."
+LEVELTIP_CONTENT182 = "Go to #3372# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHook Knight^ffffff."
+LEVELTIP_CONTENT183 = "Go to #3373# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cMace Knight^ffffff."
+LEVELTIP_CONTENT184 = "Go to #3374# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHammer Lieutenant^ffffff."
+LEVELTIP_CONTENT185 = "Go to #3375# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cClaw Knight^ffffff."
+LEVELTIP_CONTENT186 = "Go to #3376# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cShield Lieutenant^ffffff."
+LEVELTIP_CONTENT187 = "Go to #3377# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cRing Knight^ffffff."
+LEVELTIP_CONTENT188 = "Go to #3378# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cScepter Knight^ffffff."
+LEVELTIP_CONTENT189 = "Go to #3379# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cDance Master^ffffff."
+LEVELTIP_CONTENT190 = "Go to #3380# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFan Knight^ffffff."
+LEVELTIP_CONTENT191 = "Go to #3381# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBow Lieutenant^ffffff."
+LEVELTIP_CONTENT192 = "You can now participate in the Side Story: 'Lady Sun Legend: Fragrance in the Wind'!"
+LEVELTIP_CONTENT193 = "New equipment available for your current level: Tier 2 Leg Guards.\rNext tier leg guards require Level 43 to equip."
+LEVELTIP_CONTENT194 = "Production Skill 'First Aid' can be used to craft salves for use in combat.\rCurrent learnable level: Advanced\rLearn from NPC: #1930#"
+LEVELTIP_CONTENT195 = "New equipment available for your current level: Tier 2 Shoulders.\rNext tier shoulders require Level 41 to equip."
+LEVELTIP_CONTENT196 = "You can now participate in the Peerless Battlefield: 'Disturbance in Xiliang'!"
+LEVELTIP_CONTENT197 = "New equipment available for your current level: Tier 2 Boots.\rNext tier boots require Level 38 to equip."
+LEVELTIP_CONTENT198 = "Production Skill 'Cooking' can be used to craft food, fine wine, and tea.\rCurrent learnable level: Advanced\rLearn from NPC: #1924#"
+LEVELTIP_CONTENT199 = "Production Skill 'Apothecary' can be used to craft instant health recovery pills.\rCurrent learnable level: Intermediate\rLearn from NPC: #1926#"
+LEVELTIP_CONTENT200 = "New equipment available for your current level: Tier 2 Weapon.\rNext tier weapon requires Level 36 to equip."
+LEVELTIP_CONTENT201 = "New equipment available for your current level: Tier 2 Armor.\rNext tier armor requires Level 36 to equip."
+LEVELTIP_CONTENT202 = "Production Skill 'Craftsman' can be used to craft enhancement materials and synthesize Gems and Talismans.\rCurrent learnable level: Elementary\rLearn from NPC: #1927#"
+LEVELTIP_CONTENT203 = "Production Skill 'Artisan' can be used to craft treasures and refine Soul Beads.\rCurrent learnable level: Elementary\rLearn from NPC: #1932#"
+LEVELTIP_CONTENT204 = "Go to #1910# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBlade Rider^ffffff."
+LEVELTIP_CONTENT205 = "Go to #3365# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSpear Rider^ffffff."
+LEVELTIP_CONTENT206 = "Go to #3366# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHalberd Rider^ffffff."
+LEVELTIP_CONTENT207 = "Go to #3367# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cAxe Rider^ffffff."
+LEVELTIP_CONTENT208 = "Go to #3368# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFork Rider^ffffff."
+LEVELTIP_CONTENT209 = "Go to #3369# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cStaff Rider^ffffff."
+LEVELTIP_CONTENT210 = "Go to #3370# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSword Warrior^ffffff."
+LEVELTIP_CONTENT211 = "Go to #3371# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cGreataxe Rider^ffffff."
+LEVELTIP_CONTENT212 = "Go to #3372# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHook Warrior^ffffff."
+LEVELTIP_CONTENT213 = "Go to #3373# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cMace Warrior^ffffff."
+LEVELTIP_CONTENT214 = "Go to #3374# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHammer Rider^ffffff."
+LEVELTIP_CONTENT215 = "Go to #3375# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cClaw Warrior^ffffff."
+LEVELTIP_CONTENT216 = "Go to #3376# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cShield Rider^ffffff."
+LEVELTIP_CONTENT217 = "Go to #3377# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cRing Warrior^ffffff."
+LEVELTIP_CONTENT218 = "Go to #3378# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cScepter Warrior^ffffff."
+LEVELTIP_CONTENT219 = "Go to #3379# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cDance Warrior^ffffff."
+LEVELTIP_CONTENT220 = "Go to #3380# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFan Warrior^ffffff."
+LEVELTIP_CONTENT221 = "Go to #3381# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBow Rider^ffffff."
+LEVELTIP_CONTENT222 = "When you reach Level 20, you can go to #3352# or #1915# to learn Riding Skills."
+LEVELTIP_CONTENT223 = "New equipment available for your current level: Tier 1 Wrist Guards.\rNext tier wrist guards require Level 34 to equip."
+LEVELTIP_CONTENT224 = "Production Skill 'Taming' can be used to upgrade mounts.\rCurrent learnable level: Elementary\rLearn from NPC: #1915#"
+LEVELTIP_CONTENT225 = "Production Skill 'Blacksmith' can be used to craft weapons.\rCurrent learnable level: Intermediate\rLearn from NPC: #1918#"
+LEVELTIP_CONTENT226 = "Production Skill 'Tailor' can be used to craft armor.\rCurrent learnable level: Intermediate\rLearn from NPC: #1920#"
+LEVELTIP_CONTENT227 = "You can now participate in the Romance Battlefield: 'Han Army Rearguard Battle'!"
+LEVELTIP_CONTENT228 = "Production Skill 'Apothecary' can be used to craft instant health recovery pills.\rCurrent learnable level: Elementary\rLearn from NPC: #1925#"
+LEVELTIP_CONTENT229 = "New equipment available for your current level: Tier 1 Belt.\rNext tier belt requires Level 32 to equip."
+LEVELTIP_CONTENT230 = "You can go to #1910# to learn new Blade combat skills."
+LEVELTIP_CONTENT231 = "You can go to #3365# to learn new Spear combat skills."
+LEVELTIP_CONTENT232 = "You can go to #3366# to learn new Halberd combat skills."
+LEVELTIP_CONTENT233 = "You can go to #3367# to learn new Axe combat skills."
+LEVELTIP_CONTENT234 = "You can go to #3368# to learn new Fork combat skills."
+LEVELTIP_CONTENT235 = "You can go to #3369# to learn new Staff combat skills."
+LEVELTIP_CONTENT236 = "You can go to #3370# to learn new Sword combat skills."
+LEVELTIP_CONTENT237 = "You can go to #3371# to learn new Greataxe combat skills."
+LEVELTIP_CONTENT238 = "You can go to #3372# to learn new Hook combat skills."
+LEVELTIP_CONTENT239 = "You can go to #3373# to learn new Mace combat skills."
+LEVELTIP_CONTENT240 = "You can go to #3374# to learn new Hammer combat skills."
+LEVELTIP_CONTENT241 = "You can go to #3375# to learn new Claw combat skills."
+LEVELTIP_CONTENT242 = "You can go to #3376# to learn new Shield combat skills."
+LEVELTIP_CONTENT243 = "You can go to #3377# to learn new Ring combat skills."
+LEVELTIP_CONTENT244 = "You can go to #3378# to learn new Scepter combat skills."
+LEVELTIP_CONTENT245 = "You can go to #3379# to learn new Dance combat skills."
+LEVELTIP_CONTENT246 = "You can go to #3380# to learn new Fan combat skills."
+LEVELTIP_CONTENT247 = "You can go to #3381# to learn new Bow combat skills."
+LEVELTIP_CONTENT248 = "^ff765cDaily Treasure Hunt^ffffff: Once per day.\rTalk to #9013# to participate in this activity."
+LEVELTIP_CONTENT249 = "^ff765cDaily Fishing^ffffff: Open all day.\rTalk to #9163# to participate in this activity."
+LEVELTIP_CONTENT250 = "^ff765cWeekend Fishing Tournament^ffffff: 19:00-22:00 every Sunday.\rTalk to #9163# to participate in this activity."
+LEVELTIP_CONTENT251 = "New equipment available for your current level: Tier 1 Leg Guards.\rNext tier leg guards require Level 29 to equip."
+LEVELTIP_CONTENT252 = "Production Skill 'Cooking' can be used to craft food, fine wine, and tea.\rCurrent learnable level: Intermediate\rLearn from NPC: #1924#"
+LEVELTIP_CONTENT253 = "Production Skill 'First Aid' can be used to craft salves for use in combat.\rCurrent learnable level: Intermediate\rLearn from NPC: #1930#"
+LEVELTIP_CONTENT254 = "You can go to #5075# to learn new combat skills."
+LEVELTIP_CONTENT255 = "New equipment available for your current level: Tier 1 Shoulders.\rNext tier shoulders require Level 27 to equip."
+LEVELTIP_CONTENT256 = "You can go to #5075# to learn new combat skills."
+LEVELTIP_CONTENT257 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBlade Soldier^ffffff."
+LEVELTIP_CONTENT258 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSpearman^ffffff."
+LEVELTIP_CONTENT259 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHalberdier^ffffff."
+LEVELTIP_CONTENT260 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cAxe Soldier^ffffff."
+LEVELTIP_CONTENT261 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFork Soldier^ffffff."
+LEVELTIP_CONTENT262 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cStaff Soldier^ffffff."
+LEVELTIP_CONTENT263 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cSword Disciple^ffffff."
+LEVELTIP_CONTENT264 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cBattle-Axe Soldier^ffffff."
+LEVELTIP_CONTENT265 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHook Disciple^ffffff."
+LEVELTIP_CONTENT266 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cMace Disciple^ffffff."
+LEVELTIP_CONTENT267 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cHammer Soldier^ffffff."
+LEVELTIP_CONTENT268 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cClaw Disciple^ffffff."
+LEVELTIP_CONTENT269 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cShield Soldier^ffffff."
+LEVELTIP_CONTENT270 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cRing Guard^ffffff."
+LEVELTIP_CONTENT271 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cScepter Acolyte^ffffff."
+LEVELTIP_CONTENT272 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cDancer^ffffff."
+LEVELTIP_CONTENT273 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cFan Disciple^ffffff."
+LEVELTIP_CONTENT274 = "Go to #3996# to complete the troop quest to upgrade your main unit to the next stage: ^ff765cArcher^ffffff."
+LEVELTIP_CONTENT275 = "You can go to #1882# to learn new combat skills."
+LEVELTIP_CONTENT276 = "New equipment available for your current level: Tier 1 Boots.\rNext tier boots require Level 24 to equip."
+LEVELTIP_CONTENT277 = "Production Skill 'First Aid' can be used to craft salves for use in combat.\rCurrent learnable level: Elementary\rLearn from NPC: #1929#"
+LEVELTIP_CONTENT278 = "You can go to #3348# to learn new combat skills."
+LEVELTIP_CONTENT279 = "^ff765cBenevolence Quest^ffffff: Open all day.\rTalk to #14873# to participate in this activity."
+LEVELTIP_CONTENT280 = "New equipment available for your current level: Tier 1 Weapon.\rNext tier weapon requires Level 22 to equip."
+LEVELTIP_CONTENT281 = "New equipment available for your current level: Tier 1 Armor.\rNext tier armor requires Level 22 to equip."
+LEVELTIP_CONTENT282 = "Production Skill 'Blacksmith' can be used to craft weapons.\rCurrent learnable level: Elementary\rLearn from NPC: #1917#"
+LEVELTIP_CONTENT283 = "Production Skill 'Tailor' can be used to craft armor.\rCurrent learnable level: Elementary\rLearn from NPC: #1919#"
+LEVELTIP_CONTENT284 = "New equipment available for your current level: Basic Wrist Guards.\rNext tier wrist guards require Level 20 to equip."
+LEVELTIP_CONTENT285 = "You can go to #3348# to learn new combat skills."
+LEVELTIP_CONTENT286 = "New equipment available for your current level: Basic Belt.\rNext tier belt requires Level 18 to equip."
+LEVELTIP_CONTENT287 = "New equipment available for your current level: Basic Leg Guards.\rNext tier leg guards require Level 15 to equip."
+LEVELTIP_CONTENT288 = "Production Skill 'Cooking' can be used to craft food, fine wine, and tea.\rCurrent learnable level: Elementary\rLearn from NPC: #1923#"
+LEVELTIP_CONTENT289 = "You can go to #3346# to learn new combat skills."
+LEVELTIP_CONTENT290 = "New equipment available for your current level: Basic Shoulders.\rNext tier shoulders require Level 13 to equip."
+LEVELTIP_CONTENT291 = "New equipment available for your current level: Basic Boots.\rNext tier boots require Level 10 to equip."
+LEVELTIP_CONTENT292 = "You can go to #3346# to learn new combat skills."
+LEVELTIP_CONTENT293 = "New equipment available for your current level: Basic Armor.\rNext tier armor requires Level 8 to equip."
+LEVELTIP_CONTENT294 = "^ff765cStrategy Competition^ffffff: Starts at 19:30 daily. You will receive an invitation while online."
+LEVELTIP_CONTENT295 = "^ff765cThousand-Mile Pursuit^ffffff: Starts from 0:00 daily, recurring every 2 hours."
+LEVELTIP_CONTENT296 = "You have received basic equipment; you can equip it now!\rNext tier weapon requires Level 8 to equip."
 
 
 --新手帮助
@@ -2682,63 +2682,63 @@ TitlePList = {
 }
 
 RHelpList = {
-{pLv = 1, title = " Trang bị", text = " Nhận thời trang tân thủ", content = "Hãy đến #1649# nhận nhiệm vụ Túi Bảo Tân Thủ, nhận thời trang tân thủ.", Ptype = 0},
-{pLv = 1, title = " Trang bị (Xuyên Nam)", text = " Nhận thời trang tân thủ", content = "Hãy đến #64506# nhận nhiệm vụ Túi Bảo Tân Thủ, nhận thời trang tân thủ.", Ptype = 1},
-{pLv = 2, title = " Kỹ năng (Xuyên Nam)", text = " Đề xuất học kỹ năng mới", content = "Đến #64500# học kỹ năng mới", Ptype = 1},
-{pLv = 2, title = " Kỹ năng", text = " Đề xuất học kỹ năng mới", content = "Đến #3346# học kỹ năng mới", Ptype = 0},
-{pLv = 3, title = " Kỹ năng", text = " Đề xuất học kỹ năng mới", content = "Đến #3346# học kỹ năng mới", Ptype = 0},
-{pLv = 4, title = " Kỹ năng", text = " Đề xuất học kỹ năng mới", content = "Đến #3346# học kỹ năng mới", Ptype = 0},
-{pLv = 4, title = " Kỹ năng (Xuyên Nam)", text = " Đề xuất học kỹ năng mới", content = "Đến #64500# học kỹ năng mới", Ptype = 1},
-{pLv = 5, title = " Sản xuất", text = " Thuật Nấu Ăn I", content = "Ở #1923# nhận nhiệm vụ Đầu Bếp và Ngư Ông, học Nấu Ăn sơ cấp.", Ptype = 0},
-{pLv = 5, title = " Sản xuất", text = " Thuật Thu Thập I", content = "Ở #1921# nhận nhiệm vụ Thuật Thu Thập I, học Thu Thập sơ cấp.", Ptype = 0},
-{pLv = 5, title = " Sản xuất (Xuyên Nam)", text = " Thuật Nấu Ăn I", content = "Ở #64541# nhận nhiệm vụ Thuật Nấu Ăn I, học Nấu Ăn sơ cấp.", Ptype = 1},
-{pLv = 5, title = " Sản xuất (Xuyên Nam)", text = " Thuật Thu Thập I", content = "Ở #65169# nhận nhiệm vụ Thuật Thu Thập I, học Thu Thập sơ cấp.", Ptype = 1},
-{pLv = 6, title = " Kỹ năng", text = " Đề xuất học kỹ năng mới", content = "Đến #3346# học kỹ năng mới", Ptype = 0},
-{pLv = 6, title = " Kỹ năng (Xuyên Nam)", text = " Đề xuất học kỹ năng mới", content = "Đến #64501# học kỹ năng mới", Ptype = 1},
-{pLv = 8, title = " Kỹ năng", text = " Đề xuất học kỹ năng mới", content = "Đến #3346# học kỹ năng mới", Ptype = 0},
-{pLv = 9, title = " Sản xuất", text = " Thuật Cấp Cứu I", content = "Ở #1929# nhận nhiệm vụ Thuật Cấp Cứu I, học Cấp Cứu sơ cấp.", Ptype = 0},
-{pLv = 9, title = " Sản xuất (Xuyên Nam)", text = " Thuật Cấp Cứu I", content = "Ở #64543# nhận nhiệm vụ Thuật Cấp Cứu I, học Cấp Cứu sơ cấp.", Ptype = 1},
-{pLv = 10, title = " Kỹ năng", text = " Đề xuất học kỹ năng mới", content = "Đến #1882# học kỹ năng mới", Ptype = 0},
-{pLv = 10, title = " Kỹ năng (Xuyên Nam)", text = " Đề xuất học kỹ năng mới", content = "Đến #64501# học kỹ năng mới", Ptype = 1},
-{pLv = 12, title = " Kỹ năng", text = " Đề xuất học kỹ năng mới", content = "Đến #25444# học kỹ năng mới", Ptype = 0},
-{pLv = 12, title = " Kỹ năng (Xuyên Nam)", text = " Đề xuất học kỹ năng mới", content = "Đến #64501# học kỹ năng mới", Ptype = 1},
-{pLv = 14, title = " Kỹ năng", text = " Đề xuất học kỹ năng mới", content = "Đến #25444# học kỹ năng mới", Ptype = 0},
-{pLv = 14, title = " Sản xuất (Xuyên Nam)", text = " Thuật Cấp Cứu II", content = "Ở #64535# nhận nhiệm vụ Thuật Cấp Cứu II, học Cấp Cứu cấp hai.", Ptype = 1},
-{pLv = 15, title = " Sản xuất", text = " Thuật Nấu Ăn II", content = "Ở #1924# nhận nhiệm vụ Thuật Nấu Ăn II, học Nấu Ăn cấp hai.", Ptype = 10},
-{pLv = 15, title = " Sản xuất", text = " Thuật Cấp Cứu II", content = "Ở #1930# nhận nhiệm vụ Thuật Cấp Cứu II, học Cấp Cứu cấp hai.", Ptype = 10},
-{pLv = 16, title = " Kỹ năng (Xuyên Nam)", text = " Đề xuất học kỹ năng mới", content = "Đến #64502# hoặc #64503# học kỹ năng mới", Ptype = 1},
-{pLv = 18, title = " Kỹ năng (Xuyên Nam)", text = " Đề xuất học kỹ năng mới", content = "Đến #64502# hoặc #64503# học kỹ năng mới", Ptype = 1},
-{pLv = 19, title = " Sản xuất", text = " Thuật Chế Thuốc I", content = "Ở #1925# nhận nhiệm vụ Thuật Dược Sư I, học Dược Sư sơ cấp.", Ptype = 10},
-{pLv = 20, title = " Kỹ năng", text = " Đề xuất học kỹ năng mới", content = "Đến #3352# học kỵ thuật", Ptype = 0},
-{pLv = 20, title = " Sản xuất", text = " Thuật Thuần Dưỡng I", content = "Ở #3352# nhận nhiệm vụ Thuật Thuần Dưỡng I, học Thuần Dưỡng sơ cấp.", Ptype = 10},
-{pLv = 22, title = " Sản xuất", text = " Thuật Công Nghệ I", content = "Ở #1927# nhận nhiệm vụ Thuật Công Nghệ I, học Xảo Tượng sơ cấp.", Ptype = 10},
-{pLv = 22, title = " Sản xuất", text = " Thuật Chế Tạo I", content = "Ở #1932# nhận nhiệm vụ Thuật Chế Tạo I, học Thợ Công sơ cấp.", Ptype = 10},
-{pLv = 24, title = " Sản xuất", text = " Thuật Nấu Ăn III", content = "Ở #1924# nhận nhiệm vụ Thuật Nấu Ăn III, học Nấu Ăn cấp ba.", Ptype = 10},
-{pLv = 23, title = " Sản xuất", text = " Thuật Chế Thuốc II", content = "Ở #1926# nhận nhiệm vụ Thuật Chế Thuốc II, học Dược Sư cấp hai.", Ptype = 10},
-{pLv = 28, title = " Sản xuất", text = " Thuật Cấp Cứu III", content = "Ở #1930# nhận nhiệm vụ Thuật Cấp Cứu III, học Cấp Cứu cấp ba.", Ptype = 10},
-{pLv = 34, title = " Sản xuất", text = " Thuật Công Nghệ II", content = "Ở #1928# nhận nhiệm vụ Thuật Công Nghệ II, học Xảo Tượng cấp hai.", Ptype = 10},
-{pLv = 36, title = " Sản xuất", text = " Thuật Nấu Ăn IV", content = "Ở #1924# nhận nhiệm vụ Thuật Nấu Ăn IV, học Nấu Ăn cấp bốn.", Ptype = 10},
-{pLv = 40, title = " Sản xuất", text = " Thuật Cấp Cứu IV", content = "Ở #1930# nhận nhiệm vụ Thuật Cấp Cứu IV, học Cấp Cứu cấp bốn.", Ptype = 10},
-{pLv = 40, title = " Kỹ năng", text = " Có thể sử dụng tính năng PK", content = "Có thể tự do PK rồi, cài đặt cụ thể về bảo vệ PK và các cài đặt khác vui lòng nhấp vào nút kiếm bên cạnh hình đại diện của bạn.", Ptype = 0},
-{pLv = 44, title = " Sản xuất", text = " Thuật Chế Thuốc IV", content = "Ở #1926# nhận nhiệm vụ Thuật Chế Thuốc IV, học Dược Sư cấp bốn.", Ptype = 10},
-{pLv = 48, title = " Sản xuất", text = " Thuật Nấu Ăn V", content = "Ở #1924# nhận nhiệm vụ Thuật Nấu Ăn V, học Nấu Ăn cấp năm.", Ptype = 10},
-{pLv = 48, title = " Sản xuất", text = " Thuật Công Nghệ III", content = "Ở #1928# nhận nhiệm vụ Thuật Công Nghệ III, học Xảo Tượng cấp ba.", Ptype = 10},
-{pLv = 48, title = " Sản xuất", text = " Thuật Cấp Cứu V", content = "Ở #1930# nhận nhiệm vụ Thuật Cấp Cứu, học Cấp Cứu cấp năm.", Ptype = 10},
-{pLv = 53, title = " Sản xuất", text = " Thuật Chế Thuốc V", content = "Ở #1926# nhận nhiệm vụ Thuật Chế Thuốc, học Dược Sư cấp bốn.", Ptype = 10},
-{pLv = 58, title = " Sản xuất", text = " Thuật Công Nghệ IV", content = "Ở #1928# nhận nhiệm vụ Thuật Công Nghệ IV, học Xảo Tượng cấp bốn.", Ptype = 10},
-{pLv = 60, title = " Sản xuất", text = " Thuật May Vá I", content = "Ở #1920# nhận nhiệm vụ Thuật May Vá I, học May Vá sơ cấp.", Ptype = 10},
-{pLv = 60, title = " Sản xuất", text = " Thuật Rèn Đúc I", content = "Ở #1918# nhận nhiệm vụ Thuật Rèn Đúc I, học Thợ Rèn sơ cấp.", Ptype = 10},
-{pLv = 63, title = " Sản xuất", text = " Thuật Nấu Ăn VI", content = "Ở #1924# nhận nhiệm vụ Thuật Nấu Ăn VI, học Nấu Ăn cấp sáu.", Ptype = 10},
-{pLv = 65, title = " Sản xuất", text = " Thuật Cấp Cứu VI", content = "Ở #1930# nhận nhiệm vụ Thuật Cấp Cứu VI, học Cấp Cứu cấp sáu.", Ptype = 10},
-{pLv = 71, title = " Sản xuất", text = " Thuật Chế Thuốc VI", content = "Ở #1926# nhận nhiệm vụ Thuật Chế Thuốc, học Dược Sư cấp sáu.", Ptype = 10},
-{pLv = 81, title = " Sản xuất", text = " Thuật Chế Thuốc VII", content = "Ở #58520# nhận nhiệm vụ Thuật Chế Thuốc, học Dược Sư cấp bảy.", Ptype = 10},
-{pLv = 81, title = " Sản xuất", text = " Thuật Nấu Ăn VII", content = "Ở #58510# nhận nhiệm vụ Thuật Nấu Ăn VII, học Nấu Ăn cấp bảy.", Ptype = 10},
-{pLv = 81, title = " Sản xuất", text = " Thuật Cấp Cứu VII", content = "Ở #58522# nhận nhiệm vụ Thuật Cấp Cứu VII, học Cấp Cứu cấp bảy.", Ptype = 10},
-{pLv = 96, title = " Sản xuất", text = " Thuật Công Nghệ V", content = "Ở #65250# nhận nhiệm vụ Thuật Công Nghệ V, học Xảo Tượng cấp năm.", Ptype = 10},
-{pLv = 96, title = " Sản xuất", text = " Thuật Chế Tạo II", content = "Ở #64470# nhận nhiệm vụ Thuật Chế Tạo II, học Thợ Công cấp hai.", Ptype = 10},
-{pLv = 115, title = " Sản xuất", text = " Thuật Chế Thuốc VIII", content = "Ở #58520# nhận nhiệm vụ Thuật Chế Thuốc, học Dược Sư cấp tám.", Ptype = 10},
-{pLv = 115, title = " Sản xuất", text = " Thuật Nấu Ăn VIII", content = "Ở #58510# nhận nhiệm vụ Thuật Nấu Ăn VIII, học Nấu Ăn cấp tám.", Ptype = 10},
-{pLv = 115, title = " Sản xuất", text = " Thuật Cấp Cứu VIII", content = "Ở #58522# nhận nhiệm vụ Thuật Cấp Cứu VIII, học Cấp Cứu cấp tám.", Ptype = 10}
+{pLv = 1, title = " Equipment", text = " Get Newbie Fashion", content = "Go to #1649# to accept the Newbie Treasure Bag quest and receive your newbie fashion.", Ptype = 0},
+{pLv = 1, title = " Equipment (Xuyen Nam)", text = " Get Newbie Fashion", content = "Go to #64506# to accept the Newbie Treasure Bag quest and receive your newbie fashion.", Ptype = 1},
+{pLv = 2, title = " Skills (Xuyen Nam)", text = " Learn new skills", content = "Go to #64500# to learn new skills", Ptype = 1},
+{pLv = 2, title = " Skills", text = " Learn new skills", content = "Go to #3346# to learn new skills", Ptype = 0},
+{pLv = 3, title = " Skills", text = " Learn new skills", content = "Go to #3346# to learn new skills", Ptype = 0},
+{pLv = 4, title = " Skills", text = " Learn new skills", content = "Go to #3346# to learn new skills", Ptype = 0},
+{pLv = 4, title = " Skills (Xuyen Nam)", text = " Learn new skills", content = "Go to #64500# to learn new skills", Ptype = 1},
+{pLv = 5, title = " Crafting", text = " Cooking Skill I", content = "At #1923#, accept the Chef and Fisherman quest to learn Elementary Cooking.", Ptype = 0},
+{pLv = 5, title = " Crafting", text = " Gathering Skill I", content = "At #1921#, accept the Gathering Skill I quest to learn Elementary Gathering.", Ptype = 0},
+{pLv = 5, title = " Crafting (Xuyen Nam)", text = " Cooking Skill I", content = "At #64541#, accept the Cooking Skill I quest to learn Elementary Cooking.", Ptype = 1},
+{pLv = 5, title = " Crafting (Xuyen Nam)", text = " Gathering Skill I", content = "At #65169#, accept the Gathering Skill I quest to learn Elementary Gathering.", Ptype = 1},
+{pLv = 6, title = " Skills", text = " Learn new skills", content = "Go to #3346# to learn new skills", Ptype = 0},
+{pLv = 6, title = " Skills (Xuyen Nam)", text = " Learn new skills", content = "Go to #64501# to learn new skills", Ptype = 1},
+{pLv = 8, title = " Skills", text = " Learn new skills", content = "Go to #3346# to learn new skills", Ptype = 0},
+{pLv = 9, title = " Crafting", text = " First Aid Skill I", content = "At #1929#, accept the First Aid Skill I quest to learn Elementary First Aid.", Ptype = 0},
+{pLv = 9, title = " Crafting (Xuyen Nam)", text = " First Aid Skill I", content = "At #64543#, accept the First Aid Skill I quest to learn Elementary First Aid.", Ptype = 1},
+{pLv = 10, title = " Skills", text = " Learn new skills", content = "Go to #1882# to learn new skills", Ptype = 0},
+{pLv = 10, title = " Skills (Xuyen Nam)", text = " Learn new skills", content = "Go to #64501# to learn new skills", Ptype = 1},
+{pLv = 12, title = " Skills", text = " Learn new skills", content = "Go to #25444# to learn new skills", Ptype = 0},
+{pLv = 12, title = " Skills (Xuyen Nam)", text = " Learn new skills", content = "Go to #64501# to learn new skills", Ptype = 1},
+{pLv = 14, title = " Skills", text = " Learn new skills", content = "Go to #25444# to learn new skills", Ptype = 0},
+{pLv = 14, title = " Crafting (Xuyen Nam)", text = " First Aid Skill II", content = "At #64535#, accept the First Aid Skill II quest to learn Level 2 First Aid.", Ptype = 1},
+{pLv = 15, title = " Crafting", text = " Cooking Skill II", content = "At #1924#, accept the Cooking Skill II quest to learn Level 2 Cooking.", Ptype = 10},
+{pLv = 15, title = " Crafting", text = " First Aid Skill II", content = "At #1930#, accept the First Aid Skill II quest to learn Level 2 First Aid.", Ptype = 10},
+{pLv = 16, title = " Skills (Xuyen Nam)", text = " Learn new skills", content = "Go to #64502# or #64503# to learn new skills", Ptype = 1},
+{pLv = 18, title = " Skills (Xuyen Nam)", text = " Learn new skills", content = "Go to #64502# or #64503# to learn new skills", Ptype = 1},
+{pLv = 19, title = " Crafting", text = " Apothecary Skill I", content = "At #1925#, accept the Apothecary Skill I quest to learn Elementary Apothecary.", Ptype = 10},
+{pLv = 20, title = " Skills", text = " Riding Skill", content = "Go to #3352# to learn Riding skills", Ptype = 0},
+{pLv = 20, title = " Crafting", text = " Taming Skill I", content = "At #3352#, accept the Taming Skill I quest to learn Elementary Taming.", Ptype = 10},
+{pLv = 22, title = " Crafting", text = " Technology Skill I", content = "At #1927#, accept the Technology Skill I quest to learn Elementary Crafting.", Ptype = 10},
+{pLv = 22, title = " Crafting", text = " Artisan Skill I", content = "At #1932#, accept the Artisan Skill I quest to learn Elementary Artisan skills.", Ptype = 10},
+{pLv = 24, title = " Crafting", text = " Cooking Skill III", content = "At #1924#, accept the Cooking Skill III quest to learn Level 3 Cooking.", Ptype = 10},
+{pLv = 23, title = " Crafting", text = " Apothecary Skill II", content = "At #1926#, accept the Apothecary Skill II quest to learn Level 2 Apothecary.", Ptype = 10},
+{pLv = 28, title = " Crafting", text = " First Aid Skill III", content = "At #1930#, accept the First Aid Skill III quest to learn Level 3 First Aid.", Ptype = 10},
+{pLv = 34, title = " Crafting", text = " Technology Skill II", content = "At #1928#, accept the Technology Skill II quest to learn Level 2 Crafting.", Ptype = 10},
+{pLv = 36, title = " Crafting", text = " Cooking Skill IV", content = "At #1924#, accept the Cooking Skill IV quest to learn Level 4 Cooking.", Ptype = 10},
+{pLv = 40, title = " Crafting", text = " First Aid Skill IV", content = "At #1930#, accept the First Aid Skill IV quest to learn Level 4 First Aid.", Ptype = 10},
+{pLv = 40, title = " Skills", text = " PK Feature Available", content = "Free PK is now available. To adjust PK protection and other settings, please click the sword icon next to your avatar.", Ptype = 0},
+{pLv = 44, title = " Crafting", text = " Apothecary Skill IV", content = "At #1926#, accept the Apothecary Skill IV quest to learn Level 4 Apothecary.", Ptype = 10},
+{pLv = 48, title = " Crafting", text = " Cooking Skill V", content = "At #1924#, accept the Cooking Skill V quest to learn Level 5 Cooking.", Ptype = 10},
+{pLv = 48, title = " Crafting", text = " Technology Skill III", content = "At #1928#, accept the Technology Skill III quest to learn Level 3 Crafting.", Ptype = 10},
+{pLv = 48, title = " Crafting", text = " First Aid Skill V", content = "At #1930#, accept the First Aid Skill quest to learn Level 5 First Aid.", Ptype = 10},
+{pLv = 53, title = " Crafting", text = " Apothecary Skill V", content = "At #1926#, accept the Apothecary Skill quest to learn Level 4 Apothecary.", Ptype = 10},
+{pLv = 58, title = " Crafting", text = " Technology Skill IV", content = "At #1928#, accept the Technology Skill IV quest to learn Level 4 Crafting.", Ptype = 10},
+{pLv = 60, title = " Crafting", text = " Tailoring Skill I", content = "At #1920#, accept the Tailoring Skill I quest to learn Elementary Tailoring.", Ptype = 10},
+{pLv = 60, title = " Crafting", text = " Forging Skill I", content = "At #1918#, accept the Forging Skill I quest to learn Elementary Blacksmithing.", Ptype = 10},
+{pLv = 63, title = " Crafting", text = " Cooking Skill VI", content = "At #1924#, accept the Cooking Skill VI quest to learn Level 6 Cooking.", Ptype = 10},
+{pLv = 65, title = " Crafting", text = " First Aid Skill VI", content = "At #1930#, accept the First Aid Skill VI quest to learn Level 6 First Aid.", Ptype = 10},
+{pLv = 71, title = " Crafting", text = " Apothecary Skill VI", content = "At #1926#, accept the Apothecary Skill quest to learn Level 6 Apothecary.", Ptype = 10},
+{pLv = 81, title = " Crafting", text = " Apothecary Skill VII", content = "At #58520#, accept the Apothecary Skill quest to learn Level 7 Apothecary.", Ptype = 10},
+{pLv = 81, title = " Crafting", text = " Cooking Skill VII", content = "At #58510#, accept the Cooking Skill VII quest to learn Level 7 Cooking.", Ptype = 10},
+{pLv = 81, title = " Crafting", text = " First Aid Skill VII", content = "At #58522#, accept the First Aid Skill VII quest to learn Level 7 First Aid.", Ptype = 10},
+{pLv = 96, title = " Crafting", text = " Technology Skill V", content = "At #65250#, accept the Technology Skill V quest to learn Level 5 Crafting.", Ptype = 10},
+{pLv = 96, title = " Crafting", text = " Artisan Skill II", content = "At #64470#, accept the Artisan Skill II quest to learn Level 2 Artisan skills.", Ptype = 10},
+{pLv = 115, title = " Crafting", text = " Apothecary Skill VIII", content = "At #58520#, accept the Apothecary Skill quest to learn Level 8 Apothecary.", Ptype = 10},
+{pLv = 115, title = " Crafting", text = " Cooking Skill VIII", content = "At #58510#, accept the Cooking Skill VIII quest to learn Level 8 Cooking.", Ptype = 10},
+{pLv = 115, title = " Crafting", text = " First Aid Skill VIII", content = "At #58522#, accept the First Aid Skill VIII quest to learn Level 8 First Aid.", Ptype = 10}
 }
 
 LEVELHELP_TEXT1 = "^ff6fb3Tính năng bảo mật trong game：^ffffff\r^fedc40Tính năng Khóa An Toàn^ffffff\rĐề xuất sao: ★★★★\rTrong thời gian Khóa An Toàn có hiệu lực, sẽ chịu các giới hạn sau:\rKhông thể giao dịch với người chơi khác, không thể bày bán, không thể bán, không thể tiêu hủy, không thể gửi thư, không thể phân giải và cường hóa trang bị, không thể thao tác với Bí Văn và Phù Ngọc trên trang bị (gắn, xóa, chuyển, khảm và xóa), không thể sử dụng dịch vụ nâng cấp trang bị, không thể thực hiện thao tác khóa và mở khóa vật phẩm, không thể thực hiện thao tác giao dịch Nguyên Bảo (không thể gửi tiền và rút tiền, có thể thu mua và bán Nguyên Bảo)\r\r"
@@ -2756,216 +2756,216 @@ LEVELTIP_TYPELIST = {"Tất cả", "Nhiệm vụ", "Chỉ dẫn", "Danh hiệu"}
 LEVELTIP_EventTips = "^fff600Thanh Minh Tế Anh Hùng\r^fff600Thời gian:^ffffff 4 tháng 4 năm 2011 - 24 tháng 4 năm 2011\r^fff600Cấp độ:^ffffff 16+\r^fff600NPC: #71760#\r^ffffffMỗi ngày nhận nhiệm vụ ở Vân Thanh, đi đến Đại Vũ Miếu đối thoại với Ngu Kỳ, sau đó nhân vật nam có thể nhận được 2 “Hương Thanh Minh”, nhân vật nữ có thể nhận được 2 “Liễu Thanh Minh”, có thể giao dịch. Chuẩn bị đủ 1 “Hương Thanh Minh”, 1 “Liễu Thanh Minh”, mới có thể tế bái Anh Hồn Bi, có thể liên hệ với người khác giới để đổi vật phẩm.\r\r^fff600Lệ Anh Hùng\r^fff600Thời gian:^ffffff 4 tháng 4 năm 2011 - 24 tháng 4 năm 2011 (12:00 - 24:00)\r^fff600Cấp độ:^ffffff 16+\r^fff600NPC: #71760#\r^ffffffMỗi ngày có thể nhận nhiệm vụ ở Vân Thanh, yêu cầu đánh bại Anh Hùng Vong Hồn, nhiệm vụ giới hạn thời gian 1 giờ, tổ đội tiêu diệt hiệu quả hơn!\r^fff600Lưu ý:^ffffff Anh Hùng Vong Hồn sẽ lang thang ở Đại Vũ Miếu, ngoài cổng Nam Trường An và trong thành Trường An, làm mới ở địa điểm ngẫu nhiên, không dễ tìm!\r\r^fff600Bướm Lụa Gửi Tương Tư\r^fff600Thời gian:^ffffff 4 tháng 4 năm 2011 - 24 tháng 4 năm 2011 (12:00 - 24:00)\r^fff600Cấp độ:^ffffff 16+\rNgười chơi có “Bướm Lụa” có thể thả ở cổng Nam Trường An, người ở bên cạnh Bướm Lụa, cứ sau mỗi 15 giây sẽ nhận được một lần phần thưởng, mỗi ngày tối đa có thể nhận 10 lần phần thưởng!\rTrong lúc chờ phát thưởng mọi người có thể trò chuyện, bắn pháo hoa, kết bạn với nhau!! Biết đâu duyên phận sẽ đến với bạn ngay lúc này!\r\r^fff600Một Chén Say Giải Ngàn Sầu\r^fff600Thời gian:^ffffff 4 tháng 4 năm 2011 - 6 tháng 4 năm 2011 (18 giờ - 24 giờ)\r^fff600Cấp độ:^ffffff 16+\r^fff600NPC: #71760#\r^ffffffCó thể nhận Rượu ngon “Một Chén Say Giải Ngàn Sầu” ở Vân Thanh, giới hạn thời gian 2 giờ, đặt vật phẩm này trong túi đồ, cứ mỗi 10 phút có thể nhận được phần thưởng, người chơi cấp Anh Hùng còn có cơ hội nhận được Hỗn Độn Thần Thạch!!"
 LEVELTIP_EventTips = "^fff600Quan Tâm Xích Bích\r^fff600Thời gian:^ffffff 25 tháng 4 năm 2011 - 19 tháng 6 năm 2011\r^fff600Cấp độ:^ffffff 16+\r^fff600NPC: #71814#\r^ffffffHoàn thành nhiệm vụ Huyền Thạch Anh Hùng, có thể nhận được 1 Thẻ May Mắn! Mỗi ngày có thể nhận 1 cái!\rDùng Thẻ May Mắn có thể đổi thưởng ở Hạ Tịch Nhan, muốn phần thưởng gì, bạn có thể tự mình chọn哦 (nhé)! Bất kể chọn phần thưởng nào, đều sẽ nhận được 1 Thẻ Quan Tâm Xích Bích!\rTừ 20 tháng 6 - 3 tháng 7, có thể dùng Thẻ Quan Tâm Xích Bích đổi thưởng ở Hạ Tịch Nhan! 50 thẻ có thể đổi 100 Tinh Chi Vi Trần! 40 thẻ có thể đổi 67 Tinh Chi Vi Trần! 30 thẻ có thể đổi 33 Tinh Chi Vi Trần! Tuyệt đối đáng giá!\r\r^fff600Thử Thách Võ Thánh\r^fff600Thời gian:^ffffff 25 tháng 4 năm 2011 - 19 tháng 6 năm 2011\r^fff600Cấp độ:^ffffff 16+\r^fff600NPC: #71811#\r^ffffffThậm chí có người giả mạo Võ Thánh! Ở Quan Vũ Vị Ương Cung có thể nhận nhiệm vụ, đi đến so tài với kẻ tự xưng “Võ Thánh” đó, xem họ còn dám tự xưng là Võ Thánh không!!\r\r^fff600Một Đời Một Kiếp\r^fff600Thời gian:^ffffff 16 tháng 5 năm 2011 - 5 tháng 6 năm 2011 (18:00 - 23:59)\r^fff600Cấp độ:^ffffff 5+\r^fff600NPC: #71812#\r^ffffffCó thể nhận nhiệm vụ Duyên Phận Giáng Lâm ở Liễu Tiểu Nguyệt, nhận được 1 loại trạng thái duyên phận! Người chơi nam nữ mang trạng thái khác nhau tổ đội, nam giới làm đội trưởng, có thể tìm Liễu Tiểu Nguyệt nhận nhiệm vụ “Một Đời Một Kiếp”!\rHoàn thành nhiệm vụ có thể nhận được bó hoa hồng, tặng cho người khác, đối phương sẽ nhận được một Huy Chương Nổi Tiếng! Mỗi người mỗi ngày chỉ có thể nhận được 1 Huy Chương Nổi Tiếng! Trong thời gian hoạt động tối đa có thể nhận 21 cái!\rThu thập đủ 21 Huy Chương Nổi Tiếng, có thể đổi Danh Hiệu Quý Hiếm Phiên Bản Giới Hạn ở Hạ Tịch Nhan trước ngày 3 tháng 7! Ngoài ra còn có Đại Khải Hoàn Thư (cấp Anh Hùng), 7 Tinh Chi Vi Trần (cấp Anh Hùng), 3 Tinh Chi Bảo Ngọc (cấp Anh Hùng 16 trở lên), Tinh Chi Tiên Hoa (cấp Anh Hùng 31 trở lên), lượng lớn kinh nghiệm!!!\r^fff600Lưu ý: Phần thưởng đều là chắc chắn nhận được, chứ không phải ngẫu nhiên nhận! Cơ hội hiếm có, đừng bỏ lỡ nhé!\r\r^fff600Cùng Nhau Gói Bánh Ú Đi\r^fff600Thời gian:^ffffff 6 tháng 6 năm 2011 - 19 tháng 6 năm 2011\r^fff600Cấp độ:^ffffff 16+\r^fff600NPC: #71949#\r^ffffffNhận nhiệm vụ ở Đoan Tiểu Tông, nhận được một quả bom! Yêu cầu đánh bại Nặc Mễ Tiểu Tặc, sử dụng bom lên Nặc Mễ Tiểu Tặc, có thể khiến lượng máu của nó giảm ngay lập tức 20%! Nếu tổ đội, mỗi người trong đội đều có thể sử dụng bom lên Nặc Mễ Tiểu Tặc, khiến nó chết nhanh hơn!! Mời bạn bè người thân cùng nhau đánh Nặc Mễ Tiểu Tặc đi!\rTrong thời gian hoạt động hoàn thành Tiêu Dao Đồng Du, Thử Thách Võ Thánh, đổi thưởng Thẻ May Mắn, đều có thể ngẫu nhiên nhận được một phần Đậu Sa, Thịt Tươi, Táo Đỏ, có thể tìm Đoan Tiểu Tông gói bánh ú nhé!"
 --------------------------------------------------------------------
-petst = {} ---Lời thoại nhàn rỗi
-petst[1]="Dùng ba kiếp lửa khói của ta, đổi lấy một đời mờ ảo của bạn."
-petst[2]="$name ngài anh minh vô song, tôi nguyện theo ngài đến khi tôi chết!"
-petst[3]="Mệnh không thể tranh, vận có thể tạo, kẻ yếu chấp nhận mệnh, kẻ mạnh chống lại mệnh, người có năng lực cầu mệnh, người thông minh tạo ra mệnh."
-petst[4]="Giang hồ hỗn loạn, nguyện cùng ngài tiến thoái."
-petst[5]="Phong vân thiên hạ xuất từ đời ta, một khi bước vào giang hồ thì tháng năm thúc giục. Bá nghiệp đế vương nói cười giữa chừng, không bằng một cuộc say trong đời."
-petst[6]="$name ngài anh minh vô song, ai muốn động đến ngài trước hết phải qua cửa ải của tôi!"
-petst[7]="Được thì ca hát thua thì nghỉ, nhiều sầu nhiều hận cũng thế thôi. Hôm nay có rượu hôm nay say, ngày mai sầu đến ngày mai sầu."
-petst[8]="Thắng, không quá mừng; bại, không quá sợ hãi; người trong lòng có sấm sét mà mặt ngoài như hồ nước phẳng lặng, có thể thành đại sự! $name, ngài chính là người như vậy."
-petst[9]="Con đường dài đến mấy, từng bước cũng có thể đi hết; con đường ngắn đến mấy, không bước chân ra cũng không thể đến. $name, chúng ta cùng nhau bước đi mạnh mẽ nhé."
-petst[10]="$name, tối nay chúng ta đối ẩm nói chuyện dưới trăng được không?"
-petst[11]="Chúng ta cùng nhau mưu đồ thiên hạ, có phúc cùng hưởng, có họa cùng chịu, có cháo húp cháo, không có cháo cùng nhau chịu đói!"
-petst[12]="Quá khứ của bạn tôi không thể tham gia, tương lai của bạn tôi sẽ đồng hành đến cùng!"
-petst[13]="Một ý niệm nổi lên, vạn nước ngàn núi; một ý niệm tan biến, biển xanh hóa nương dâu."
-petst[14]="Vài đoạn tiếc nuối vài kiếp bi hoan, đáng cười ta mệnh do ta không do trời."
-petst[15]="Không chịu khổ luyện không phải hảo hán, không bị người ghen ghét là kẻ tầm thường."
-petst[16]="Chủ nhân, tôi đói rồi…"
-petst[17]="Chủ nhân, tôi đã mấy ngày không ăn thịt rồi…"
-petst[18]="Chủ nhân, tôi thấy mình lại đẹp trai rồi, con hổ cái kia cứ nhìn chằm chằm tôi."
-petst[19]="Tôi phát hiện hạnh phúc là một cấp độ so sánh, phải có thứ làm nền mới cảm nhận được."
-petst[20]="Đời người như ván cờ, tôi nguyện làm tốt, hành động tuy chậm, nhưng ai gặp tôi cũng phải lùi một bước."
-petst[21]="Có hẹn với ngài, mưa gió không đổi."
-petst[22]="$name, tôi sợ nước, không thể xuất chiến trong thủy chiến Xích Bích, nhưng tôi có thể bảo vệ ngài thông qua chế độ hộ vệ."
-petst[23]="$name, nếu thanh danh của tôi chưa đạt cấp tối đa, ngài có thể dùng Sách Công Trạng ở chỗ Bá Ngôn tại Vân Đài Trường An để nâng cao thanh danh của tôi."
-petst[24]="Vinh Diệu Thạch có thể làm cho lực tấn công, kế sách và sinh lực của tôi tái sinh, còn Dịch Cân Hoàn có thể làm cho tư chất võ lực, tư chất trí lực và tư chất gân cốt của tôi tái sinh, đừng nhầm lẫn nhé!"
-petst[25]="Khải Hoàn Thư có thể tăng một lượng sĩ khí hiện tại nhất định cho tôi."
-petst[26]="Nếu ngài muốn giao phó tôi cho người đáng tin cậy khác, có thể dùng Vạn Thế Bút ở chỗ Bá Ngôn tại Vân Đài Trường An để quy phục, sau đó giao Thư Quy Phục của tôi cho người cần giao phó là được."
-petst[27]="Thanh danh của tôi càng cao, thuộc tính tổng thể càng mạnh, và khi Dịch Cân càng có khả năng nhận được thiên tư cao hơn."
-petst[28]="Có một số chiến trường tôi không thể triệu hồi ra, nhưng tôi có thể bảo vệ ngài thông qua chế độ hộ vệ."
-petst[29]="Khi Quốc Chiến người đông mắt tạp, tôi sẽ không xuất chiến, nhưng tôi có thể bảo vệ ngài thông qua chế độ hộ vệ."
-petst[30]="Gói Thưởng Công có thể tăng lòng trung thành của tôi."
-petst[31]="Trong chế độ bị động, tôi sẽ không chủ động tấn công kẻ địch, nhưng nếu ngài hoặc tôi bị tấn công thì tôi đều sẽ phản công!"
-petst[32]="Trong chế độ chủ động, tôi sẽ chủ động tấn công kẻ địch trong tầm nhìn của tôi."
-petst[33]="Trong chế độ nghỉ ngơi, tôi sẽ không tấn công bất kỳ kẻ địch nào."
-petst[34]="Mỗi khi thêm một điểm võ lực sẽ tăng lực tấn công của tôi, lượng tăng do tư chất võ lực của tôi quyết định."
-petst[35]="Mỗi khi thêm một điểm trí lực sẽ tăng kế sách của tôi, lượng tăng do tư chất trí lực của tôi quyết định."
-petst[36]="Mỗi khi thêm một điểm gân cốt sẽ tăng sinh lực của tôi, lượng tăng do tư chất gân cốt của tôi quyết định."
-petst[37]="Mỗi khi tôi lên một cấp sẽ tăng 3 điểm tự do!"
-petst[38]="Người không phạm tôi, tôi không phạm người; người nếu phạm tôi, nhường nhịn ba phần; người lại phạm tôi, tôi trả lại một kim; người vẫn phạm tôi, nhổ cỏ tận gốc."
-petst[39]="Hoặc là tang lễ huy hoàng, hoặc là một bước lên trời."
-petst[40]="Thay vì lấy lòng người khác, chi bằng tự vũ trang bản thân; thay vì trốn tránh hiện thực, chi bằng cười đối diện với đời; thay vì nghe gió nghe mưa, chi bằng ngẩng cao đầu xuất kích!"
-petst[41]="Phong hoa là một chỉ cát trôi, già nua là một đoạn năm tháng."
-petst[42]="Người đi đường, nghe theo thiên mệnh."
-petst[43]="Nếu tên có thể quyết định vận mệnh, tôi muốn đổi tên là Tiền Đa Đa (Rất Nhiều Tiền)."
-petst[44]="Người không phạm tôi, tôi không phạm người. Người nếu phạm tôi, tôi sẽ tức giận!"
-petst[45]="Tôi phát hiện cái gọi là ngưỡng cửa, bước qua là cửa, không bước qua được sẽ thành rào cản."
-petst[46]="Tục ngữ nói ‘Im lặng là vàng’, tại sao tôi im lặng lâu như vậy rồi mà vẫn chưa thành phú ông?"
-petst[47]="Tự do không phải là muốn làm gì thì làm, mà là không muốn làm gì thì có thể không làm."
-petst[48]="Trong thuận cảnh đối xử bình thản, trong nghịch cảnh đối xử thản nhiên."
-petst[49]="Vạn trượng hồng trần ba chén rượu, ngàn thu đại nghiệp một ấm trà."
-petst[50]="$name, đợi ngài lĩnh bổng lộc, dẫn tôi đi quán rượu gọi vài món ngon ăn nhé!"
-petst[51]="Muốn học đánh nhau, phải học chịu đòn trước."
-petst[52]="Một hoa một thế giới, một lá một kiếm tìm. Một khúc một tiếng than, một đời vì một người."
-petst[53]="$name đi mệt rồi, chúng ta tìm một quán trọ nghỉ chân nhé? Vừa hay tôi hơi đói rồi…"
-petst[54]="Cảnh sắc ao Tình Trú ở Tụ Hiền Cốc rất đẹp, có thời gian chúng ta đi xem nhé!"
-petst[55]="Lâu rồi không đánh nhau, cũng nên hoạt động gân cốt một chút rồi!"
-petst[56]="Chủ nhân, khi nào chúng ta đi bắt… à không… lùa cừu?"
-petst[57]="Theo $name có thịt ăn!"
-petst[58]="Tôi thấy gấu trên toàn thế giới đều cùng một kiểu gấu."
-petst[59]="Thời tiết lạnh, $name nhớ mặc thêm quần áo khi ra ngoài nhé!"
-petst[60]="Hỏi hoa hoa không nói, vì ai rụng? Vì ai nở? Tính xuân sắc ba phần, một nửa theo nước chảy, một nửa vào bụi trần."
-petst[61]="Là hộ vệ của ngài, phải có chí khí và khí chất."
-petst[62]="$name ăn Tết thế nào?"
-petst[63]="Tết trôi qua nhanh quá, tôi còn chưa chơi đủ!"
-petst[64]="$name hôm nay tâm trạng thế nào?"
-petst[65]="$name phải vui vẻ mỗi ngày nhé!"
-petst[66]="Thỏ con trắng, trắng lại trắng, thích ăn củ cải và rau xanh, nhảy nhót thật đáng yêu!"
-petst[67]="Chủ nhân, tôi muốn ăn củ cải quá!"
-petst[68]="Chủ nhân chủ nhân, chị Hằng đẹp quá! Ngài đã gặp chưa?"
-petst[69]="Là một con thỏ, nhất định phải vác củ cải! Như vậy áp lực mới không lớn!"
-petst[70]="Chủ nhân, tôi không với tới củ cải sau lưng, ngài giúp tôi đi!"
-petst[71]="Chủ nhân, thực ra tôi cũng muốn nếm thử vị thịt là gì!"
-petst[72]="Theo $name có củ cải ăn!"
-petst[73]="Chủ nhân, tôi thấy mình lại đẹp trai rồi, con thỏ cái kia cứ nhìn chằm chằm tôi."
-petst[74]="Nói ra ngài có thể không tin, chị Hằng từng ôm tôi đấy!"
-petst[75]="Khi tôi còn là một chú thỏ nhỏ… từng có một cô bạn gái thanh mai trúc mã, sau này… thôi, không nói nữa…"
-petst[76]="Chủ nhân, tôi thấy hộ vệ của ai đó là hổ, đáng sợ quá đi mất!"
-petst[77]="Chủ nhân chủ nhân, có củ cải không?"
-petst[78]="Chủ nhân, ngài cao quá!"
-petst[79]="Nếu có ngày nào đó đi qua Thường Sơn, Tử Long nhất định sẽ mời ngài nếm bưởi Hồ, thưởng trà Ngân Hào."
-petst[80]="Tử Long nguyện thề chết đi theo $name."
-petst[81]="Tôi là người không bao giờ ghi hận, thường là có thù tôi báo ngay tại chỗ."
-petst[82]="Có người sống, nhưng họ đã chết; có người sống, nhưng họ đáng lẽ phải chết từ lâu rồi."
-petst[83]="Chuyện ngày mai, ngày kia chúng ta sẽ biết."
-petst[84]="Cầm kiếm uống rượu luận giang sơn, đừng nhận chí lớn là kiêu ngạo."
-petst[85]="Vân Trường nguyện thề chết đi theo $name."
-petst[86]="Hà Đông là một nơi tốt."
-petst[87]="$name có biết Hà Đông không? Đó là quê hương của Vân Trường."
-petst[88]="Như vậy vậy, như thế thế…"
-petst[89]="Ta là một võ phu, được $name đối đãi hậu hĩnh, Vân Trường nhất định không bội tín phản nghĩa!"
-petst[90]="Chủ nhân, tôi muốn ăn thịt quá!"
-petst[91]="Gầm gừ…"
-petst[92]="Chủ nhân, tôi thèm thịt rồi, khi nào làm cho tôi vài miếng?"
-petst[93]="Chủ nhân, tôi thấy mình lại đẹp trai rồi, con sói cái kia cứ nhìn chằm chằm tôi."
-petst[94]="Khi tôi còn là một chú sói nhỏ… từng có một cô bạn gái thanh mai trúc mã, sau này… thôi, không nói nữa…"
-petst[95]="Đừng nhìn vẻ ngoài hung dữ của tôi, thực ra tôi cũng có thể rất dịu dàng!"
-petst[96]="Chủ nhân, ngài dẫn tôi đi oai phong đi! Ngài xem những người kia sợ đến nỗi không dám lại gần tôi!"
-petst[97]="Tôi là một con sói đến từ phương Bắc…"
-petst[98]="Chủ nhân, nghe nói hộ vệ của ai đó tên là “Khai Minh Hổ”, thật muốn gặp thử xem!"
-petst[99]="Chủ nhân, thực ra tôi có thể làm bạn tốt với thỏ Tinh Hoa, thỏ Nguyệt Hoa… nhưng chúng hình như rất sợ tôi…"
-petst[100]="Một cung trong tay, ai có thể ngăn cản tôi!"
-petst[101]="Ai dám động đến một sợi lông của $name, cung của lão phu không cho phép đâu!"
-petst[102]="$name đã từng đến Nam Dương chưa? Đó là quê hương của lão phu đó…"
-petst[103]="Phong cảnh Nam Dương rất đẹp, $name có cơ hội nhất định phải đi xem."
-petst[104]="Ai cũng nói lão phu dũng mãnh vô song, nhiều thanh niên không bằng, ngài nghĩ sao?"
-petst[105]="Trong lòng lão phu $name mãi mãi là mạnh nhất!"
-petst[106]="Ta gầm lên một tiếng, là có thể dọa kẻ địch quay đầu bỏ chạy!"
-petst[107]="Ta Trương Dực Đức không sợ trời không sợ đất!"
-petst[108]="Ta thích nhất là ra tay giúp đỡ kẻ yếu, ha ha ha!"
-petst[109]="Ta ghét nhất cái bộ dạng chó săn ỷ thế hiếp người đó!"
-petst[110]="Ai dám động đến $name! Ta không đồng ý đâu!"
-petst[111]="$name, ta muốn uống rượu…"
-petst[112]="Tộc nhân của tôi? Không còn ai nữa rồi…"
-petst[113]="Tây Lương nằm ở nơi hẻo lánh, nhưng cát vàng vạn dặm, mang một vẻ hùng vĩ khác biệt."
-petst[114]="Trước đây tôi và một ông râu quai nón mặc áo choàng đỏ đánh nhau, tôi nói bắt kẻ mặc áo đỏ, ông ta ném áo đi, tôi nói bắt kẻ râu quai nón, ông ta cắt râu đi…"
-petst[115]="Hôm nay thời tiết đẹp quá!"
-petst[116]="Người ta đâu có bán manh đâu"
-petst[117]="Bụng đói rồi, ực…"
-petst[118]="Người ta ghét nhất là cái kiểu bán manh này."
-petst[119]="Nhìn gì mà nhìn, bạn là đồ nhà quê à?"
-petst[120]="Ăn gì đây? Phải đưa ra một quyết định khó khăn…"
-petst[121]="Tin Xuân Ca, được vĩnh sinh."
-petst[122]="Sao không thèm để ý đến người ta, hứ!"
-petst[123]="Nghỉ ngơi một ngày thật không dễ dàng, vừa tỉnh dậy, lại thấy đến lúc phải ngủ rồi."
-petst[124]="Hai con hổ, hai con hổ, hẹn hò, hẹn hò, cả hai đều là đực, cả hai đều là đực, thật biến thái, thật biến thái…"
-petst[125]="Tên mạng hay đến mấy cuối cùng cũng sẽ thua tên chú thích thôi."
-petst[126]="Tôi biết bạn rất thông minh, 1+1=3, bạn hiểu mà"
-petst[127]="Tôi ở đây, bạn sẽ không không có nhà đâu."
-petst[128]="Chuyện ngày mai, ngày kia sẽ biết thôi."
-petst[129]="Thời đại nào rồi, một chút ý thức lưu manh cũng không có…"
-petst[130]="Nếu không phải đánh không lại bạn, người ta đã trở mặt với bạn từ lâu rồi."
-petst[131]="Lời nói không kinh người chết không thôi."
-petst[132]="Từ khi mắc bệnh tâm thần, tinh thần của tôi tốt hơn nhiều rồi."
-petst[133]="Chỉ là đột nhiên có chút nhàm chán, nếu không đâu có bán manh, hix."
-petst[134]="Suỵt— tuyệt đối đừng nói cho họ biết tôi đã làm việc tốt, điều này sẽ ảnh hưởng đến hình tượng của tôi."
-petst[135]="Phiền phức của sô cô la là: bạn ăn nó, nó sẽ không còn nữa."
-petst[136]="Nói cho bạn một bí mật, người nói chúc ngủ ngon đi ngủ, thường nửa tiếng sau vẫn còn đang khoe khoang."
-petst[137]="Thế giới không nhìn rõ mới là đáng yêu nhất!"
-petst[138]="Có nghe câu chuyện 'Heo lớn nói có, heo nhỏ nói không' chưa??"
-petst[139]="Một tháng luôn có 30 ngày không muốn đọc sách…"
-petst[140]="Ôi, lẽ nào tôi là kẹo dẻo? Đột nhiên chân mềm nhũn."
-petst[141]="Có một hội chơi trốn tìm, hội trưởng của họ vẫn chưa được tìm thấy."
-petst[142]="Nhớ lại Chu Du năm nào, Tiểu Kiều mới gả, anh dũng hiên ngang. Quạt lông khăn lụa, nói cười giữa chừng, đầu gối trúng một mũi tên…"
-petst[143]="(*^__^*) Hi hi… Tôi đáng yêu không?"
-petst[144]="Tôi có moe không? Có không??"
-petst[145]="Sau này sinh con trai nhất định phải đặt tên là Lý Cương."
-petst[146]="Chim sẻ tuy nhỏ, nhưng nó chơi là cả bầu trời."
-petst[147]="Không ai nắm tay, người ta có thể đút túi mà."
-petst[148]="Nghe nói mỗi người trong đời đều sẽ gặp một người tên là Hoa Nương, còn bạn thì sao?"
-petst[149]="Bạn thích Gia Cát Lượng hay Gia Cát Ám (Tối)?"
-petst[150]="Bạn có biết không, năm xưa Tào Tháo để khích lệ binh sĩ, nói gần đây có rừng mơ, bảo mọi người kiên trì, sau đó cuối cùng phát hiện ra nguồn nước, nhưng các binh sĩ lại nói: Không đi! Nhất định phải tìm thấy quả mơ… Phụt."
-petst[151]="Có phải tôi nói nhiều quá không, người ta thích bạn mà O(∩_∩)O"
-petst[152]="Nghỉ ngơi, nghỉ ngơi một chút o(>﹏<)o"
-petst[153]="Bốn lý tưởng lớn của Đổng Trác: Lã Bố ngày ngày gọi cha, lão già Vương Doãn chết sớm. Điêu Thuyền không diễn Vô Gian Đạo, bách tính Trung Nguyên cười chào ta."
-petst[154]="Bốn lý tưởng lớn của Tào Tháo: Con dân thiên hạ đều họ Tào, quân đội nhiều đến nỗi không cần. Lưu Bị không còn hát lời chống đối, Khổng Minh ngày mai biến thành ngốc."
-petst[155]="Bốn lý tưởng lớn của Tôn Quyền: Đại Kiều không còn gây rối với ta, Tào Tháo đến nữa bị ta thiêu. Quan Vũ ngày mai chết toi, Kinh Châu trở về vòng tay ta."
-petst[156]="Bốn lý tưởng lớn của Lưu Bị: Mọi người thiên hạ đều nói ta tốt, A Đẩu không còn làm trò ngu ngốc. Hiến Đế ngày ngày ban chiếu thư, bảo ta khởi binh đánh Tào Tháo."
-petst[157]="Bốn lý tưởng lớn của Gia Cát Lượng: Vợ phẫu thuật thẩm mỹ cười trong mơ, giả ngầu phải phe phẩy quạt lông. Ngụy Diên phản xương ngày ngày gõ, Tư Mã biến thành đại yêu quái nữ."
-petst[158]="Bốn lý tưởng lớn của Quan Vũ: Mãnh tướng thiên hạ vào đao ta, Tôn Quyền Lã Mông vào nhà lao ta. Gia Cát Thôn Phu bị ta cười nhạo, còn phải giúp đại ca phục hưng nhà Hán."
-petst[159]="Bốn lý tưởng lớn của Chu Du: Khổng Minh bị ta cưỡi chạy, Tào Nhân giương cung gãy lưng. Mạnh Đức gặp nạn bị rơi xuống cỏ, Thiên Tử phái ta dẫn binh tiêu diệt."
-petst[160]="Bốn lý tưởng lớn của Trương Phi: Mọi người Tam Quốc đều là ngốc, Tào Tháo thấy ta liền chạy. Mã Siêu ngày mai liền già, con trai không phải đồ bỏ đi."
+petst = {} --- Idle Dialogues
+petst[1]="I would trade three lifetimes of my smoke and fire for one ethereal life with you."
+petst[2]="$name, your wisdom is matchless. I shall follow you until my dying breath!"
+petst[3]="Fate cannot be fought, but luck can be forged. The weak accept fate, the strong resist it, the capable pray for it, and the wise create it."
+petst[4]="The world is in chaos; I am willing to advance or retreat by your side."
+petst[5]="The world's storms arise from my generation; once you enter the martial world, the years urge you on. Emperor's ambitions are but talk and laughter; they pale in comparison to a lifetime's drunken revelry."
+petst[6]="$name, you are peerless in wisdom. Anyone who wants to touch you must pass through me first!"
+petst[7]="Sing when you win, rest when you lose; sorrows and regrets are all the same. Drink today and be merry; let tomorrow's worries come tomorrow."
+petst[8]="To be calm in victory and steady in defeat—to have thunder in one's heart but a face like a still lake—that is how great things are achieved! $name, you are exactly that kind of person."
+petst[9]="No matter how long the road, it can be finished step by step; no matter how short, it cannot be reached without moving. $name, let us walk forward boldly together."
+petst[10]="$name, shall we share a drink and talk under the moon tonight?"
+petst[11]="Let us plot for the world together! We share the blessings and the hardships. If there's porridge, we drink it; if not, we starve together!"
+petst[12]="I could not be part of your past, but I will accompany you to the very end of your future!"
+petst[13]="A single thought arises, crossing thousands of mountains; a single thought fades, and the blue seas turn into mulberry fields."
+petst[14]="A few moments of regret, a few lifetimes of joy and sorrow... it's laughable that my fate is mine to command, not heaven's."
+petst[15]="Without bitter practice, one is no hero; without being envied, one is but mediocre."
+petst[16]="Master, I'm hungry..."
+petst[17]="Master, I haven't eaten meat in days..."
+petst[18]="Master, I think I've become handsome again; that tigress over there keeps staring at me."
+petst[19]="I've discovered that happiness is a level of comparison; you need a background to truly feel it."
+petst[20]="Life is like a game of chess. I am willing to be a pawn; my moves are slow, but anyone who meets me must take a step back."
+petst[21]="I have a date with you; neither wind nor rain shall change it."
+petst[22]="$name, I am afraid of water, so I cannot fight in the Chibi naval battles, but I can protect you through Guardian Mode."
+petst[23]="$name, if my Reputation hasn't reached max level, you can use a Merit Book at Ba Yan's location in Chang'an's Cloud Terrace to increase it."
+petst[24]="Glory Stones can regenerate my Attack, Strategy, and Health, while Marrow Cleansing Pills can reset my Strength, Intelligence, and Constitution aptitudes. Don't mix them up!"
+petst[25]="Triumph Scrolls can increase my current Morale by a certain amount."
+petst[26]="If you wish to entrust me to another reliable person, you can use the Eternal Pen at Ba Yan's in Chang'an's Cloud Terrace to make me submit, then give my Submission Letter to them."
+petst[27]="The higher my Reputation, the stronger my overall attributes, and the better my chances of gaining higher talents when using Marrow Cleansing."
+petst[28]="There are some battlefields where I cannot be summoned, but I can still protect you via Guardian Mode."
+petst[29]="When the National War is crowded and chaotic, I will not join the fray, but I can protect you via Guardian Mode."
+petst[30]="Merit Reward Packs can increase my Loyalty."
+petst[31]="In Passive Mode, I won't initiate attacks, but I will counter-attack if you or I are hit!"
+petst[32]="In Active Mode, I will proactively attack any enemy within my sight."
+petst[33]="In Rest Mode, I will not attack any enemies."
+petst[34]="Each point in Strength increases my Attack Power; the amount is determined by my Strength Aptitude."
+petst[35]="Each point in Intelligence increases my Strategy; the amount is determined by my Intelligence Aptitude."
+petst[36]="Each point in Constitution increases my Health; the amount is determined by my Constitution Aptitude."
+petst[37]="Every time I level up, I gain 3 free attribute points!"
+petst[38]="If no one provokes me, I provoke no one; if provoked, I yield three times; if provoked again, I strike back; if provoked once more, I strike at the root."
+petst[39]="Either a glorious funeral or a leap to the heavens."
+petst[40]="Instead of pleasing others, arm yourself; instead of escaping reality, face life with a smile; instead of listening to the wind and rain, strike with your head held high!"
+petst[41]="Youth is but a grain of drifting sand; old age is but a fragment of time."
+petst[42]="A traveler on the road follows the mandate of heaven."
+petst[43]="If a name could decide fate, I'd change mine to 'Money Galore'."
+petst[44]="I don't mess with others if they don't mess with me. But if they do... I'll get angry!"
+petst[45]="I've realized that a 'threshold' is a door if you step over it, but a barrier if you don't."
+petst[46]="Proverb says 'Silence is gold.' Why have I been quiet for so long and I'm still not rich?"
+petst[47]="Freedom isn't about doing whatever you want; it's about being able to say no to what you don't want to do."
+petst[48]="Be calm in prosperity, be composed in adversity."
+petst[49]="Three cups of wine for the mortal world, a pot of tea for a thousand-year legacy."
+petst[50]="$name, when you get your salary, take me to a tavern and order some delicacies!"
+petst[51]="If you want to learn how to fight, you must first learn how to take a hit."
+petst[52]="One flower, one world; one leaf, one pursuit. One song, one sigh; one life for one person."
+petst[53]="$name, you look tired. Shall we find an inn to rest? I'm getting a bit hungry too..."
+petst[54]="The scenery at Tinh Tru Pond in Gathering Heroes Valley is beautiful. Let's visit sometime!"
+petst[55]="It's been a while since my last fight; time to stretch these bones!"
+petst[56]="Master, when are we going to catch... I mean... herding sheep?"
+petst[57]="Follow $name to get meat to eat!"
+petst[58]="I've noticed that bears all over the world are just... bear-like."
+petst[59]="It's cold outside; $name, remember to wear extra layers!"
+petst[60]="I ask the flower, but it stays silent. For whom does it fall? For whom does it bloom? Spring is split in three: half to the flowing water, half to the dust."
+petst[61]="As your guardian, I must have both ambition and style."
+petst[62]="How was your New Year, $name?"
+petst[63]="The New Year went by too fast; I haven't played enough!"
+petst[64]="How is your mood today, $name?"
+petst[65]="$name, you must stay happy every day!"
+petst[66]="Little white rabbit, so very white; loves eating radishes and greens, hopping so cutely!"
+petst[67]="Master, I really want to eat a radish!"
+petst[68]="Master, Master! Goddess Chang'e is so beautiful! Have you met her?"
+petst[69]="Being a rabbit, you must carry a radish! That way, the pressure isn't so heavy!"
+petst[70]="Master, I can't reach the radish on my back. Help me out!"
+petst[71]="Master, actually... I want to know what meat tastes like!"
+petst[72]="Follow $name to get radishes to eat!"
+petst[73]="Master, I think I'm handsome again; that female rabbit keeps staring at me."
+petst[74]="You might not believe it, but Goddess Chang'e once hugged me!"
+petst[75]="When I was just a little bunny... I had a childhood sweetheart. Later... well, never mind..."
+petst[76]="Master, I saw someone's guardian was a tiger. Terrifying!"
+petst[77]="Master, Master, got any radishes?"
+petst[78]="Master, you're so tall!"
+petst[79]="If you ever pass through Changshan, Zi Long will surely invite you to taste Hu pomelos and enjoy Yinhao tea."
+petst[80]="Zi Long swears to follow $name until death."
+petst[81]="I'm not one to hold grudges; usually, if there's a debt, I settle it on the spot."
+petst[82]="Some people live, but they are already dead; some people live, but they should have died long ago."
+petst[83]="Tomorrow's troubles? We'll find out the day after tomorrow."
+petst[84]="Hold the sword and drink wine to discuss the land; do not mistake great ambition for arrogance."
+petst[85]="Yun Chang swears to follow $name until death."
+petst[86]="Hedong is a fine place."
+petst[87]="$name, do you know Hedong? It's the hometown of Yun Chang."
+petst[88]="Like this, like that..."
+petst[89]="I am but a warrior, yet $name treats me with such kindness. Yun Chang shall never betray your trust!"
+petst[90]="Master, I want to eat meat so badly!"
+petst[91]="Grrr..."
+petst[92]="Master, I'm craving meat. When will you get me a few bites?"
+petst[93]="Master, I think I'm handsome again; that she-wolf keeps staring at me."
+petst[94]="When I was just a little wolf... I had a childhood sweetheart. Later... well, never mind..."
+petst[95]="Don't mind my fierce looks; I can actually be quite gentle!"
+petst[96]="Master, let's walk with pride! Look at how those people are too scared to come near me!"
+petst[97]="I am a wolf from the North..."
+petst[98]="Master, I heard someone's guardian is named 'Kaiming Tiger.' I'd really like to meet them!"
+petst[99]="Master, I could actually be good friends with the Essence and Moonlight Rabbits... but they seem terrified of me..."
+petst[100]="With a bow in hand, who can stop me!"
+petst[101]="Whoever dares touch a single hair on $name, my bow will not allow it!"
+petst[102]="$name, have you ever been to Nanyang? That is my hometown..."
+petst[103]="The scenery in Nanyang is beautiful; $name, you must go see it if you have the chance."
+petst[104]="Everyone says this old man is peerless in bravery, far surpassing the youth. What do you think?"
+petst[105]="In my heart, $name will always be the strongest!"
+petst[106]="With one roar, I can scare the enemy into turning tail and fleeing!"
+petst[107]="I, Zhang Yide, fear neither heaven nor earth!"
+petst[108]="I love helping the weak the most, hahaha!"
+petst[109]="I hate those lapdogs who bully others using someone else's power!"
+petst[110]="Who dares touch $name! I won't allow it!"
+petst[111]="$name, I want to drink wine..."
+petst[112]="My clansmen? There is no one left..."
+petst[113]="Xiliang is a remote place, but its ten thousand miles of golden sands have a different kind of majesty."
+petst[114]="Once I fought a bearded man in a red cloak. I said 'Capture the one in red' and he threw it away; I said 'Capture the bearded one' and he cut it off..."
+petst[115]="The weather is so nice today!"
+petst[116]="I'm not trying to be 'moe' (cute) or anything."
+petst[117]="My stomach is growling... *gulp*..."
+petst[118]="I really hate people who act 'moe' like this."
+petst[119]="What are you looking at? Are you some kind of hillbilly?"
+petst[120]="What should I eat? This is such a difficult decision..."
+petst[121]="Believe in Brother Spring, and you shall have eternal life."
+petst[122]="Why are you ignoring me? Hmph!"
+petst[123]="It’s not easy to get a day off. Just as I wake up, it's already time for bed again."
+petst[124]="Two tigers, two tigers, dating, dating... both are male, both are male... how weird, how weird..."
+petst[125]="No matter how good a player's name is, it will eventually lose to the 'Legend' description."
+petst[126]="I know you're smart. 1+1=3, you get it."
+petst[127]="As long as I'm here, you'll never be homeless."
+petst[128]="Tomorrow's troubles? We'll find out the day after tomorrow."
+petst[129]="What era is this? You don't even have a bit of 'rogue' spirit..."
+petst[130]="If I weren't unable to beat you, I would have turned my back on you long ago."
+petst[131]="If the words aren't shocking, they aren't worth dying for."
+petst[132]="Ever since I lost my mind, my spirit has been much better."
+petst[133]="I'm just suddenly bored. Otherwise, I wouldn't be acting cute. *sigh*."
+petst[134]="Shhh—don't tell them I did something good. It will ruin my image."
+petst[135]="The trouble with chocolate is: once you eat it, it's gone."
+petst[136]="Let me tell you a secret: people who say 'Goodnight, I'm going to sleep' are usually still scrolling half an hour later."
+petst[137]="The world is most lovely when it's not seen clearly!"
+petst[138]="Have you heard the story of 'Big Pig says yes, Small Pig says no'?"
+petst[139]="There are always 30 days in a month where I don't want to study..."
+petst[140]="Oh, am I a marshmallow? My legs suddenly felt so soft."
+petst[141]="There’s a Hide-and-Seek Club, but they still haven't found their president."
+petst[142]="Recalling Zhou Yu of old: Xiao Qiao had just married him, valiant and heroic. With a silk fan and scarf, laughing amidst the battle... then he took an arrow to the knee..."
+petst[143]="(*^__^*) Hehe... Am I cute?"
+petst[144]="Am I 'moe'? Am I??"
+petst[145]="When I have a son later, I'm definitely naming him Li Gang."
+petst[146]="A sparrow may be small, but it plays with the whole sky."
+petst[147]="If no one holds my hand, I'll just put them in my pockets."
+petst[148]="They say everyone meets someone named 'Flower Lady' in their life. What about you?"
+petst[149]="Do you like Zhuge Liang (Bright) or Zhuge An (Dark)?"
+petst[150]="Did you know? Cao Cao once motivated his troops by saying there was a plum forest nearby. They kept going and finally found water, but the soldiers said: 'No way! We MUST find the plums!'... Pfftt."
+petst[151]="Am I talking too much? It's just because I like you! O(∩_∩)O"
+petst[152]="Rest, let's rest a bit... o(>﹏<)o"
+petst[153]="Dong Zhuo's Four Great Dreams: Lu Bu calls me father daily; that old man Wang Yun dies early. Diao Chan doesn't play 'Infernal Affairs'; and the people of Zhongyuan smile as they greet me."
+petst[154]="Cao Cao's Four Great Dreams: All subjects share the Cao name; an army so large it's never needed. Liu Bei stops singing songs of opposition; and Kong Ming turns into a fool tomorrow."
+petst[155]="Sun Quan's Four Great Dreams: Da Qiao stops nagging me; Cao Cao gets burned again if he comes. Guan Yu drops dead tomorrow; and Jingzhou returns to my embrace."
+petst[156]="Liu Bei's Four Great Dreams: Everyone in the world says I'm good; A Dou stops acting like an idiot. Emperor Xian issues edicts daily, telling me to raise an army against Cao Cao."
+petst[157]="Zhuge Liang's Four Great Dreams: My wife gets plastic surgery and smiles in her sleep; acting cool requires waving a feather fan. Wei Yan's rebellious bone gets knocked daily; and Sima Yi turns into a great female monster."
+petst[158]="Guan Yu's Four Great Dreams: All the world's fierce generals fall to my blade; Sun Quan and Lu Meng end up in my jail. I laugh at 'Villager' Zhuge; and I still help my big brother restore the Han Dynasty."
+petst[159]="Zhou Yu's Four Great Dreams: I ride Kong Ming like a horse; Cao Ren's bow snaps as he tries to fire. Meng De falls into the grass in distress; and the Emperor sends me to lead the army to finish him."
+petst[160]="Zhang Phi's Four Great Dreams: Everyone in the Three Kingdoms is a fool; Cao Cao runs the moment he sees me. Ma Chao grows old tomorrow; and my son isn't a total loser."
 
-petbt={} ---Lời thoại chiến đấu
-petbt[1]="Đất trời mênh mông một kiếm hết đường lui, nơi nào phồn hoa tiếng ca rơi. Tựa nghiêng mây ngàn hồ che cô độc, mặc cho người khác cười nhạo ta."
-petbt[2]="$name, trận chiến này nếu thắng, ngài có nguyện dẫn tôi đi chợ mua một cây trâm không?"
-petbt[3]="Tôi một tay cũng có thể diệt hắn."
-petbt[4]="Cứu mạng, có người đánh tôi!"
-petbt[5]="Theo sự xem xét của tôi, hắn vô dụng!"
-petbt[6]="Ái chà, bảo hắn tránh xa tôi một chút!"
-petbt[7]="Cái hay hơn ở phía sau!"
-petbt[8]="Nguy hiểm quá, tôi đứng xa một chút vậy…"
-petbt[9]="Tôi giơ tay một cái chết một hàng, đẩy tay một cái chết một đống."
-petbt[10]="$name, trận chiến này nếu thắng, ngài có nguyện dẫn tôi đi chợ mua một bình rượu ngon không?"
-petbt[11]="Hắn không xứng so tài với ngài, để tôi đến gặp hắn một chút!"
-petbt[12]="Ngài lên trước, tôi yểm trợ ngài!"
-petbt[13]="Ai dám chọc giận ngài? Tôi sẽ khiến hắn chết một cách rất có tiết tấu."
-petbt[14]="Đến đây, cho kẻ địch biết tôi đáng sợ đến mức nào!"
-petbt[15]="Gầm gừ!"
-petbt[16]="Để tôi ra tay! Cho kẻ địch thấy cơn thịnh nộ của tôi, vị vua của muôn loài!"
-petbt[17]="Chủ nhân, trận chiến này mà thắng, ngài mua thêm thịt cho tôi ăn nhé!"
-petbt[18]="Bình thường nói về hắn cũng được rồi, cứ phải đợi tôi đánh hắn, hắn mới biết tôi văn võ song toàn."
-petbt[19]="Kẻ sĩ chết vì người tri kỷ."
-petbt[20]="Nhìn thấy hắn, tôi đột nhiên nhớ đến con heo nhà tôi nuôi trước đây."
-petbt[21]="Cứ để hắn cưỡi ngựa đến đây!"
-petbt[22]="Dám thách đấu ngài, hắn là muốn chết hay không muốn sống nữa?"
-petbt[23]="$name cẩn thận!"
-petbt[24]="Tôi sẽ đánh hắn từ nay không dám nhìn thẳng vào ngài!"
-petbt[25]="Hãy để tôi kết liễu hắn với thế nhanh như sét đánh không kịp bưng tai trộm chuông leng keng nhân từ không nhường nhịn thế giới tràn đầy tình yêu bạn không cần bàn cãi!"
-petbt[26]="Chủ nhân cẩn thận!"
-petbt[27]="Thỏ cũng sẽ nổi điên!"
-petbt[28]="Nói ít thôi, xem kiếm đây!"
-petbt[29]="Tử Long toàn thân là mật, nguyện vì $name xông pha lửa đạn."
-petbt[30]="$name yên tâm, có Triệu Vân ở đây!"
-petbt[31]="$name yên tâm, có Vân Trường ở đây!"
-petbt[32]="Quan Vũ tại đây, bọn ngươi chịu chết đi!"
-petbt[33]="Vân Trường nguyện vì $name xông pha lửa đạn!"
-petbt[34]="Nói ít thôi, xem đao đây!"
-petbt[35]="Đến đây! Cho kẻ địch thấy cơn thịnh nộ của tôi, con sói phương Bắc này!"
-petbt[36]="Tôi cắn! Tôi cào! Tôi đánh!"
-petbt[37]="Xem ta lợi hại đây!"
-petbt[38]="Gần đây ăn ít thịt, nếu không tôi có thể uy mãnh hơn!"
-petbt[39]="Sống là một đống thịt, chết là một đống đất."
-petbt[40]="Xem Bách Bộ Xuyên Dương của ta!"
-petbt[41]="Hừ, tôi không cần cung cũng có thể diệt hắn!"
+petbt={} --- Battle Dialogues
+petbt[1]="The world is vast, and with one sword, there is no turning back. Where prosperity reigns, songs shall fall. Leaning against the clouds to hide my solitude, I let others mock me as they wish."
+petbt[2]="$name, if we win this battle, would you be willing to take me to the market to buy a hairpin?"
+petbt[3]="I can take him down with one hand."
+petbt[4]="Help! Someone is hitting me!"
+petbt[5]="In my expert opinion, he's useless!"
+petbt[6]="Yikes! Tell him to stay away from me!"
+petbt[7]="The best part is yet to come!"
+petbt[8]="That's dangerous! I'll just stand over here..."
+petbt[9]="One wave of my hand and a whole row dies; one push and a whole crowd falls."
+petbt[10]="$name, if we win this battle, would you be willing to take me to the market to buy a jar of fine wine?"
+petbt[11]="He's not worthy of dueling you; let me handle him!"
+petbt[12]="You go first; I'll cover you!"
+petbt[13]="Who dares provoke you? I'll make sure he dies with a very rhythmic beat."
+petbt[14]="Step up! Let the enemy see just how terrifying I can be!"
+petbt[15]="Grrr!"
+petbt[16]="Let me handle this! Show the enemy the wrath of the King of Beasts!"
+petbt[17]="Master, if we win this battle, buy me some extra meat, okay?"
+petbt[18]="Talking about him is one thing, but once I hit him, he'll realize I'm a master of both the pen and the sword."
+petbt[19]="A scholar dies for the one who recognizes his worth."
+petbt[20]="Looking at him, I'm suddenly reminded of the pig I used to raise."
+petbt[21]="Let him charge in on his horse if he dares!"
+petbt[22]="Daring to challenge you? Does he have a death wish or is he just tired of living?"
+petbt[23]="Watch out, $name!"
+petbt[24]="I'll hit him so hard he'll never dare look you in the eye again!"
+petbt[25]="Allow me to finish him with a strike as fast as lightning-bolt-thief-ringing-bell-merciless-love-for-the-world-no-argument-needed!"
+petbt[26]="Be careful, Master!"
+petbt[27]="Even a rabbit will go crazy if pushed!"
+petbt[28]="Less talk, watch my sword!"
+petbt[29]="Zi Long is a man of pure courage; I am willing to charge through fire and brimstone for $name."
+petbt[30]="Don't worry, $name. Zhao Yun is here!"
+petbt[31]="Don't worry, $name. Yun Chang is here!"
+petbt[32]="Guan Yu is here! Prepare to meet your end!"
+petbt[33]="Yun Chang is willing to charge through fire and brimstone for $name!"
+petbt[34]="Less talk, watch my blade!"
+petbt[35]="Come on! Show the enemy the wrath of the Wolf of the North!"
+petbt[36]="I bite! I scratch! I strike!"
+petbt[37]="Witness my power!"
+petbt[38]="I haven't eaten much meat lately, otherwise I'd be even more fierce!"
+petbt[39]="In life, a pile of meat; in death, a pile of dust."
+petbt[40]="Behold my 'Hundred Paces Piercing the Willow' shot!"
+petbt[41]="Hmph, I don't even need a bow to destroy him!"
 petbt[42]="Oa ya ya ya ya ya!!!"
-petbt[43]="Ta là Yến Nhân Trương Dực Đức đây!"
-petbt[44]="$name yên tâm, có Mạnh Khởi ở đây!"
-petbt[45]="Toàn quân tấn công! Ơ, người đâu rồi?"
-petbt[46]="Cho hắn nếm thử đặc sản địa phương Tây Lương của chúng ta, đó chính là, một thương Hổ Đầu của Mã Mạnh Khởi tôi!"
-petbt[47]="Thương là trùm của trăm loại binh khí, đấu là sự biến hóa khôn lường, khó lường. Võ nghệ của tên này cứng nhắc không chịu được, xem tôi đùa giỡn hắn một phen."
+petbt[43]="I am Zhang Yide of Yan!"
+petbt[44]="Rest easy, $name. Meng Qi is here!"
+petbt[45]="All troops, attack! Wait... where did everyone go?"
+petbt[46]="Let him taste our Xiliang local specialty: a strike from my, Ma Meng Qi's, Tiger-Head Spear!"
+petbt[47]="The spear is the king of all weapons; combat is a dance of unpredictable changes. This guy's martial arts are stiff and pathetic; watch me toy with him."
 
 petsz={}----Lời thoại thời trang, trong ngoặc vuông điền id mô hình áo thời trang
 petsz[3112]="$name ngài mặc chiếc áo này, tựa như hoa sen thơm ngát đứng thẳng trong đêm hè mát mẻ!"
@@ -3071,82 +3071,82 @@ petsz[15882]="$name ngài mặc chiếc áo này, thanh nhã thoát tục, ung d
 
 
 
-petzq={}----Lời thoại tọa kỵ, trong ngoặc vuông điền id mô hình tọa kỵ
-petzq[4744]="$name tọa kỵ của ngài trắng như mỹ ngọc."
-petzq[4747]="$name tọa kỵ của ngài nâu như khói mây."
-petzq[4748]="$name tọa kỵ của ngài đen như sấm sét đêm."
-petzq[4749]="$name tọa kỵ của ngài đỏ như son."
-petzq[4750]="$name tọa kỵ của ngài vàng đen như sắt."
-petzq[4745]="$name tọa kỵ của ngài toàn thân đỏ rực như than hồng, không có nửa cọng lông tạp. Hí lên gầm thét, có trạng thái bay lên trời lặn xuống biển."
-petzq[4909]="$name tọa kỵ của ngài dưới mắt có rãnh lệ, trán có đốm trắng, là Lộc Mã trong truyền thuyết phải không?"
-petzq[4532]="$name tọa kỵ của ngài thật oai phong."
-petzq[4862]="$name con tuấn mã trắng này của ngài thật oai phong!"
-petzq[4865]="$name con tuấn mã đỏ này của ngài thật oai phong!"
-petzq[4863]="$name con tuấn mã nâu này của ngài thật oai phong!"
-petzq[4866]="$name con tuấn mã vàng này của ngài thật oai phong!"
-petzq[4864]="$name con tuấn mã đen này của ngài thật oai phong!"
-petzq[4908]="$name tọa kỵ của ngài đen như cực đêm, khi phi nước đại ngay cả bóng ngựa cũng không đuổi kịp."
-petzq[4746]="$name tọa kỵ của ngài móng dưới màu vàng đậm, phi như điện xẹt!"
-petzq[4872]="$name tọa kỵ của ngài không tồi."
-petzq[6030]="$name tọa kỵ của ngài là voi phải không? Thật là phong cách!"
-petzq[6031]="$name tọa kỵ của ngài uy mãnh nhanh nhẹn, thật có linh tính."
-petzq[6153]="Nghe nói tọa kỵ của ngài đến tối sẽ hóa thành mỹ nữ?"
-petzq[6154]="$name tọa kỵ của ngài thật có linh tính, nơi dốc đứng như vậy cũng có thể nhảy qua."
-petzq[6621]="Tọa kỵ của ngài thể hiện uy nghiêm của hỏa thần vượt trên mọi tuấn mã trên thế gian."
-petzq[7341]="Tọa kỵ của ngài thể hiện uy nghiêm của thủy thần vượt trên mọi tuấn mã trên thế gian."
-petzq[7340]="Tọa kỵ của ngài thể hiện uy nghiêm của lôi thần vượt trên mọi tuấn mã trên thế gian."
-petzq[6622]="Tọa kỵ của ngài thể hiện uy nghiêm của phong thần vượt trên mọi tuấn mã trên thế gian."
-petzq[7104]="$name chiến hùng của ngài thật lợi hại, xung phong vô cùng hung mãnh."
-petzq[7932]="$name tọa kỵ của ngài không tồi."
-petzq[8099]="$name tọa kỵ của ngài toàn thân phát ra ánh sáng vàng, thật đẹp trai!"
-petzq[8098]="$name tọa kỵ của ngài tính tình nhanh nhẹn khó thuần hóa, ngài có thể thuần phục nó thật lợi hại!"
-petzq[8177]="$name tọa kỵ của ngài tính khí nóng nảy khó thuần hóa, ngài có thể thuần phục nó thật lợi hại!"
-petzq[8178]="$name con Lộc Vương Tuyết này của ngài thật phong cách!"
-petzq[8392]="$name tọa kỵ của ngài là linh thú phải không? Thật là hiếm thấy."
-petzq[8507]="$name tọa kỵ của ngài toàn thân bao phủ trong ánh sáng bảy màu. Thật đẹp!"
-petzq[8671]="Trong truyền thuyết, sự xuất hiện của thánh thú Kỳ Lân của $name là điềm lành."
-petzq[8766]="$name nơi tọa kỵ của ngài đặt chân đến cỏ không mọc được, thật lợi hại!"
-petzq[8782]="$name tọa kỵ của ngài màu lông rực rỡ, đồng tử bao dung vạn vật, thân thể thần khí phi dương, nhìn là biết không đơn giản!"
-petzq[9224]="Tọa kỵ của ngài thể hiện uy nghiêm của vũ thần vượt trên mọi mãnh thú trên thế gian."
-petzq[9579]="Tọa kỵ của ngài thể hiện uy nghiêm của đông thần vượt trên mọi mãnh thú trên thế gian."
-petzq[9219]="Tọa kỵ của ngài thể hiện uy nghiêm của chiến thần vượt trên mọi mãnh thú trên thế gian."
-petzq[9671]="Tọa kỵ của ngài thể hiện uy nghiêm của thú vương vượt trên mọi mãnh thú trên thế gian"
-petzq[9399]="$name tọa kỵ của ngài là linh thú phải không? Thật là hiếm thấy."
-petzq[9398]="$name tọa kỵ của ngài là linh thú phải không? Thật là hiếm thấy."
-petzq[9814]="$name tọa kỵ của ngài là linh thú phải không? Thật là hiếm thấy."
-petzq[9815]="Nghe nói tọa kỵ của ngài đến tối sẽ hóa thành thiếu nữ trong trắng?"
-petzq[9816]="$name tọa kỵ của ngài thật có linh tính, nơi dốc đứng như vậy cũng có thể nhảy qua."
-petzq[9926]="Cảnh đẹp đêm dài uyên ương ngủ, lăng tuyết bay hoa bạch ngưu về."
-petzq[9927]="Giẫm nát Thiên Hà ba ngàn dặm, ô ngưu có thể mong chờ kỳ xích kiều."
-petzq[10066]="$name tọa kỵ của ngài là tiên thú phải không? Thật là dũng mãnh vô cùng!"
-petzq[10067]="Nghe nói tọa kỵ của ngài đến tối sẽ hóa thành tuyệt sắc nữ tử?"
-petzq[10068]="$name tọa kỵ của ngài thật có linh tính, nơi dốc đứng như vậy cũng có thể nhảy qua."
-petzq[10480]="$name tọa kỵ của ngài linh hoạt hiếu động, thật đáng yêu."
-petzq[10481]="$name tọa kỵ của ngài tứ chi khỏe mạnh, thật oai phong!"
-petzq[10486]="Quỷ khí không che được hồn tuấn mã, đạp nát Hoàng Tuyền U Minh đến."
-petzq[10633]="Một ngựa tuyệt trần hóa tuyết đi, chỉ còn mai hoa đầy sân thơm."
-petzq[10592]="Một ngựa tuyệt trần theo gió đi, tử mẫu đạp tuyết đón xuân về."
-petzq[10650]="$name tọa kỵ của ngài khoác trang phục diễn kịch, tràn đầy màu sắc vui vẻ."
-petzq[10698]="$name tọa kỵ của ngài khoác trang phục lễ hội, tràn đầy màu sắc vui vẻ."
-petzq[9194]="$name tọa kỵ của ngài cơ quan đầy đủ, một lần xuất phát không quay lại, thật oai phong!"
-petzq[10742]="$name tọa kỵ của ngài khoác giáp vàng, thể hiện uy nghiêm của vũ thần vượt trên mọi mãnh thú trên thế gian."
-petzq[10757]="$name sức mạnh thần thú của tọa kỵ của ngài đã hoàn toàn được phóng thích ra ngoài, vạn thú đều là con dân của nó!"
-petzq[10765]="$name sức mạnh thần thú của tọa kỵ của ngài đã hoàn toàn được phóng thích ra ngoài, vạn thú đều là con dân của nó!"
-petzq[10784]="Tọa kỵ của ngài thể hiện uy nghiêm của chiến thần vượt trên mọi mãnh thú trên thế gian."
-petzq[10785]="Tọa kỵ của ngài thể hiện uy nghiêm của đông thần vượt trên mọi mãnh thú trên thế gian."
-petzq[10890]="Tọa kỵ của ngài thể hiện uy nghiêm của hỏa thần vượt trên mọi tuấn mã trên thế gian."
-petzq[10893]="Tọa kỵ của ngài thể hiện uy nghiêm của thủy thần vượt trên mọi tuấn mã trên thế gian."
-petzq[10892]="Tọa kỵ của ngài thể hiện uy nghiêm của lôi thần vượt trên mọi tuấn mã trên thế gian."
-petzq[10891]="Tọa kỵ của ngài thể hiện uy nghiêm của phong thần vượt trên mọi tuấn mã trên thế gian."
-petzq[12566]="$name tọa kỵ của ngài không tồi."
-petzq[15009]="Tọa kỵ của ngài màu lông rực rỡ, đồng tử bao dung vạn vật, thân thể thần khí phi dương, còn có thần tốc mà vạn mã không thể sánh kịp."
-petzq[15627]="Tọa kỵ của ngài thể hiện uy nghiêm của dạ thần vượt trên mọi mãnh thú trên thế gian."
-petzq[15841]="Tọa kỵ của ngài thể hiện uy nghiêm của thú vương vượt trên mọi mãnh thú trên thế gian."
-petzq[15839]="Tọa kỵ của ngài thể hiện uy nghiêm của vũ thần vượt trên mọi mãnh thú trên thế gian."
-petzq[15840]="Tọa kỵ của ngài thể hiện uy nghiêm của chiến thần vượt trên mọi mãnh thú trên thế gian."
-petzq[15842]="Tọa kỵ của ngài thể hiện uy nghiêm của đông thần vượt trên mọi mãnh thú trên thế gian."
-petzq[15627]="Nghe nói tọa kỵ của ngài đến tối sẽ hóa thành tuyệt sắc nữ tử?"
-petzq[10900]="Tọa kỵ của ngài thể hiện uy nghiêm của sương hàn vượt trên mọi tuấn mã trên thế gian."
+petzq={}---- Mount Dialogues [id_model]
+petzq[4744]="$name, your mount is as white as fine jade."
+petzq[4747]="$name, your mount is as brown as drifting clouds."
+petzq[4748]="$name, your mount is as black as a midnight thunderbolt."
+petzq[4749]="$name, your mount is as red as cinnabar."
+petzq[4750]="$name, your mount is as dark and gold as iron."
+petzq[4745]="$name, your mount is a vibrant red like glowing embers, without a single stray hair. Its roar sounds like it could leap to the heavens and dive into the seas!"
+petzq[4909]="$name, your mount has tear tracks below its eyes and a white spot on its forehead. Is this the legendary Lu Ma (Hex Mark Horse)?"
+petzq[4532]="$name, your mount is truly majestic."
+petzq[4862]="$name, this white steed of yours is truly imposing!"
+petzq[4865]="$name, this red steed of yours is truly imposing!"
+petzq[4863]="$name, this brown steed of yours is truly imposing!"
+petzq[4866]="$name, this golden steed of yours is truly imposing!"
+petzq[4864]="$name, this black steed of yours is truly imposing!"
+petzq[4908]="$name, your mount is as black as the polar night; when it gallops, not even its own shadow can keep up."
+petzq[4746]="$name, your mount has deep golden hooves; it runs like a flash of lightning!"
+petzq[4872]="$name, your mount isn't bad at all."
+petzq[6030]="$name, is your mount an elephant? How stylish!"
+petzq[6031]="$name, your mount is fierce yet agile. It truly has a divine spirit."
+petzq[6153]="Is it true that your mount turns into a beautiful woman at night?"
+petzq[6154]="$name, your mount is so spirited; it can even leap across such steep cliffs."
+petzq[6621]="Your mount carries the majesty of the Fire God, surpassing all other steeds in this world."
+petzq[7341]="Your mount carries the majesty of the Water God, surpassing all other steeds in this world."
+petzq[7340]="Your mount carries the majesty of the Thunder God, surpassing all other steeds in this world."
+petzq[6622]="Your mount carries the majesty of the Wind God, surpassing all other steeds in this world."
+petzq[7104]="$name, your war bear is incredible! Its charge is exceptionally fierce."
+petzq[7932]="$name, your mount isn't bad at all."
+petzq[8099]="$name, your mount radiates a golden light. So handsome!"
+petzq[8098]="$name, your mount has a wild, untamable spirit. It's impressive that you could break it!"
+petzq[8177]="$name, your mount has a fiery temper. Your ability to tame it is truly remarkable!"
+petzq[8178]="$name, this Snow Deer King of yours is very classy!"
+petzq[8392]="$name, is your mount a spirit beast? It's quite a rare sight."
+petzq[8507]="$name, your mount is covered in a seven-colored radiance. Beautiful!"
+petzq[8671]="Legend says the appearance of $name's Qilin holy beast is a sign of great fortune."
+petzq[8766]="$name, where your mount treads, no grass can grow. Truly powerful!"
+petzq[8782]="$name, your mount's coat is brilliant, its eyes seem to hold the universe, and its body radiates divine energy. It is clearly no ordinary beast!"
+petzq[9224]="Your mount carries the majesty of the Rain God, surpassing all other beasts in this world."
+petzq[9579]="Your mount carries the majesty of the Winter God, surpassing all other beasts in this world."
+petzq[9219]="Your mount carries the majesty of the God of War, surpassing all other beasts in this world."
+petzq[9671]="Your mount carries the majesty of the Beast King, surpassing all other beasts in this world."
+petzq[9399]="$name, is your mount a spirit beast? How rare!"
+petzq[9398]="$name, is your mount a spirit beast? How rare!"
+petzq[9814]="$name, is your mount a spirit beast? How rare!"
+petzq[9815]="Is it true that your mount turns into a pure maiden at night?"
+petzq[9816]="$name, your mount is so spirited; it can even leap across such steep cliffs."
+petzq[9926]="A long night of beautiful scenery where mandarin ducks sleep; amidst the flying snow, the white ox returns."
+petzq[9927]="Treading across three thousand miles of the Milky Way, the black ox awaits the magpie bridge."
+petzq[10066]="$name, is your mount a celestial beast? Its bravery is boundless!"
+petzq[10067]="Is it true that your mount turns into a woman of peerless beauty at night?"
+petzq[10068]="$name, your mount is so spirited; it can even leap across such steep cliffs."
+petzq[10480]="$name, your mount is so nimble and playful. How adorable!"
+petzq[10481]="$name, your mount has such strong limbs. Truly majestic!"
+petzq[10486]="Ghostly energy cannot hide this steed's soul; it has come treading through the Underworld of the Yellow Springs."
+petzq[10633]="A lone horse disappears into the snow, leaving only the scent of plum blossoms in the courtyard."
+petzq[10592]="A lone horse gallops with the wind; mother and foal tread through the snow to welcome the spring."
+petzq[10650]="$name, your mount is dressed in opera attire; it looks so festive and colorful!"
+petzq[10698]="$name, your mount is wearing festival clothes; it's full of joy and color!"
+petzq[9194]="$name, your mechanical mount is fully equipped. Once it starts, there is no turning back. How imposing!"
+petzq[10742]="$name, your mount is clad in golden armor, showcasing the majesty of the Rain God above all other beasts."
+petzq[10757]="$name, your mount's divine beast power has been fully unleashed; all beasts are its subjects!"
+petzq[10765]="$name, your mount's divine beast power has been fully unleashed; all beasts are its subjects!"
+petzq[10784]="Your mount carries the majesty of the God of War, surpassing all other beasts in this world."
+petzq[10785]="Your mount carries the majesty of the Winter God, surpassing all other beasts in this world."
+petzq[10890]="Your mount carries the majesty of the Fire God, surpassing all other steeds in this world."
+petzq[10893]="Your mount carries the majesty of the Water God, surpassing all other steeds in this world."
+petzq[10892]="Your mount carries the majesty of the Thunder God, surpassing all other steeds in this world."
+petzq[10891]="Your mount carries the majesty of the Wind God, surpassing all other steeds in this world."
+petzq[12566]="$name, your mount isn't bad."
+petzq[15009]="Your mount's coat is brilliant, its eyes embrace all things, its body radiates divine aura, and it possesses a god-like speed that no other horse can match."
+petzq[15627]="Your mount carries the majesty of the Night God, surpassing all other beasts in this world."
+petzq[15841]="Your mount carries the majesty of the Beast King, surpassing all other beasts in this world."
+petzq[15839]="Your mount carries the majesty of the Rain God, surpassing all other beasts in this world."
+petzq[15840]="Your mount carries the majesty of the God of War, surpassing all other beasts in this world."
+petzq[15842]="Your mount carries the majesty of the Winter God, surpassing all other beasts in this world."
+petzq[15627]="Is it true that your mount turns into a woman of peerless beauty at night?"
+petzq[10900]="Your mount carries the majesty of the Frost God, surpassing all other steeds in this world."
 
 
 petfr={}----Lời thoại bạn bè, ký tự đại diện tên bạn bè $friend
@@ -3178,142 +3178,146 @@ l_defaultString[6] = "$name, bạn đời của ngài đã xuất hiện gần �
 --------------------------------------------------------------------
 
 ---控制台命令---
-ConsoleListType = {"常用","参数控制","军团","护卫","战魂","其他"}
+ConsoleListType = {"Common", "Parameter Control", "Legion", "Guardian", "War Soul", "Others"}
 
 ConsoleList = {}
---常用类--
-ConsoleList[1] = {title = "提升等级", cate = "常用", command = "d_c2scmd 2010 ", parameter = 1, desc = "参数1：提升到的等级，参数1可不填，即为升一级"}
-ConsoleList[2] = {title = "地图传送", cate = "常用", command = "d_c2scmd 2008 ", parameter = 3, desc = "参数1：地图ID；参数2：目标地图坐标X；参数3：目标地图坐标Z"}
-ConsoleList[3] = {title = "移动加速", cate = "常用", command = "d_runspeed ", parameter = 1, desc = "参数1：移动速度。默认速度为5"}
-ConsoleList[4] = {title = "获得一个物品", cate = "常用", command = "d_c2scmd 2001 ", parameter = 1, desc = "参数1：物品ID\r常用物品：GM武器134-151,千闪皮衣153,万血戒指166，其他防具154-165\r64884 测试_自杀药\r64885 测试_群怪药\r64886 测试_减CD药\r64887 测试_全加药\r64888 测试_减血10点\r64889 测试_减血100点\r64890 测试_减血1000点\r64891 测试_减血10000点\r64892 测试_直、间抗加10点\r64893 测试_加限制抗性5点\r64894 测试_加流失抗性5点\r64895 测试_加受伤抗性5点\r64896 测试_加暴击抗性5点\r64897 测试_加虚弱抗性5点\r64898 测试_加封印抗性5点\r64899 测试_加攻50点\r64900 测试_加防50点\r64901 测试_加命中10点\r64902 测试_加闪避10点\r64903 测试_加暴击5点"}
-ConsoleList[5] = {title = "获得一组物品", cate = "常用", command = "d_c2scmd 3022 ", parameter = 1, desc = "参数1：物品ID。"}
-ConsoleList[6] = {title = "重启单线", cate = "常用", command = "d_c2scmd 20000", parameter = 0, desc = "重启单线"}
-ConsoleList[7] = {title = "显示当前不存在的排队人数", cate = "常用", command = "d_delcmd 512 0", parameter = 0, desc = "显示当前不存在的排队人数"}
-ConsoleList[8] = {title = "给全服所有战场加n个排队人", cate = "常用", command = "d_delcmd 511 ", parameter = 1, desc = "参数1：人数"}
-ConsoleList[9] = {title = "主兵种升级", cate = "常用", command = "d_c2scmd 5000", parameter = 0, desc = " "}
-ConsoleList[10] = {title = "副兵种升级", cate = "常用", command = "d_c2scmd 5001", parameter = 0, desc = " "}
-ConsoleList[11] = {title = "转种族", cate = "常用", command = "d_c2scmd 4014 ", parameter = 1, desc = "参数1：种族ID（0华夏，1南蛮）"}
-ConsoleList[12] = {title = "转职", cate = "常用", command = "d_c2scmd 2011 ", parameter = 1, desc = "职业ID（1刀2枪3戟4钺5镗6棍7剑8斧9钩10锏11锤12爪13盾14环15杖16舞17扇18弓）"}
-ConsoleList[13] = {title = "加经验", cate = "常用", command = "d_c2scmd 2012 ", parameter = 1, desc = "参数1：经验数"}
-ConsoleList[14] = {title = "加阅历", cate = "常用", command = "d_c2scmd 2013 ", parameter = 1, desc = "参数1：阅历数"}
-ConsoleList[15] = {title = "招怪", cate = "常用", command = "d_c2scmd 3011 ", parameter = 3, desc = "参数1：怪物ID；参数2：0；参数3：召出数量，不填为1只"}
-ConsoleList[16] = {title = "加元宝", cate = "常用", command = "d_c2scmd 4012 ", parameter = 1, desc = "参数1：元宝数"}
-ConsoleList[17] = {title = "获得称号", cate = "常用", command = "d_c2scmd 2016 ", parameter = 1, desc = "参数1：称号ID"}
-ConsoleList[18] = {title = "转换阵营", cate = "常用", command = "d_c2scmd 3014 ", parameter = 1, desc = "参数1：0无,1魏,2蜀,3吴"}
-ConsoleList[19] = {title = "获得个人声望", cate = "常用", command = "d_c2scmd 7000 ", parameter = 2, desc = "参数1：声望序号；参数2：数值"}
---控制类--
-ConsoleList[20] = {title = "开关控制器", cate = "参数控制", command = "d_c2scmd 3020 ", parameter = 2, desc = "参数1：控制器ID；参数2：状态（0关闭，1打开）"}
-ConsoleList[21] = {title = "变动场景参数至指定值", cate = "参数控制", command = "d_c2scmd 10900 ", parameter = 2, desc = "参数1：场景参数序号；参数2：数值"}
-ConsoleList[22] = {title = "调整场景参数按数值", cate = "参数控制", command = "d_c2scmd 10901 ", parameter = 2, desc = "参数1：场景参数序号；参数2：数值"}
-ConsoleList[23] = {title = "查看场景参数", cate = "参数控制", command = "d_c2scmd 10902 ", parameter = 1, desc = "参数1：场景参数序号"}
-ConsoleList[24] = {title = "查看全局参数", cate = "参数控制", command = "d_c2scmd 8000 ", parameter = 1, desc = "参数1：index。"}
-ConsoleList[25] = {title = "设置全局参数", cate = "参数控制", command = "d_c2scmd 8001 ", parameter = 2, desc = "参数1：index；参数2：值"}
-ConsoleList[26] = {title = "获得或失去图鉴", cate = "常用", command = "d_c2scmd 11001 ", parameter = 2, desc = "参数1：index；参数2：值"}
-ConsoleList[27] = {title = "答题活动开始", cate = "其他", command = "d_delcmd 15 0", parameter = 0, desc = " "}
-ConsoleList[28] = {title = "答题活动结束", cate = "其他", command = "d_delcmd 16 0", parameter = 0, desc = " "}
---其他类--
-ConsoleList[29] = {title = "查看FPS", cate = "其他", command = "d_fps ", parameter = 1, desc = "参数1：0关,1开"}
-ConsoleList[30] = {title = "查看选中角色的ID", cate = "其他", command = "d_rtdebug ", parameter = 1, desc = "参数1：0关,1开"}
-ConsoleList[31] = {title = "查看角色位置坐标", cate = "其他", command = "d_showpos ", parameter = 1, desc = "参数1：0关,1开"}
-ConsoleList[32] = {title = "调整客户端游戏时间", cate = "其他", command = "d_settimeofday ", parameter = 2, desc = "参数1：小时；参数2：分钟"}
-ConsoleList[33] = {title = "获取服务器时间", cate = "其他", command = "d_getservertime", parameter = 0, desc = " "}
-ConsoleList[34] = {title = "清掉上次进战场时间", cate = "其他", command = "d_delcmd 103 1", parameter = 0, desc = " "}
-ConsoleList[35] = {title = "增加名望增量", cate = "其他", command = "d_c2scmd 2020 ", parameter = 1, desc = "参数1：值"}
-ConsoleList[36] = {title = "增加名望", cate = "其他", command = "d_c2scmd 7002 ", parameter = 1, desc = "参数1：值。物品：13141 增加军团统御度21818加10000名望"}
---军团类--
-ConsoleList[37] = {title = "设置基地时间", cate = "军团", command = "d_delcmd 503 ", parameter = 1, desc = "参数1：0 置内服基地时间为当前时间，1 18：00，2 18：30，3 19：00，4 19：30，5 20：00，6 22：00，7 22：30，8 增加24小时，9 增加10分钟，10 查询现在基地时间，11 时间往回拽一天"}
-ConsoleList[38] = {title = "军团基地刷新指令", cate = "军团", command = "d_c2scmd 7001 2 0 10000", parameter = 0, desc = " "}
-ConsoleList[39] = {title = "刷活跃度", cate = "军团", command = "d_c2scmd 7004 2 0", parameter = 0, desc = " "}
-ConsoleList[40] = {title = "查活跃度", cate = "军团", command = "d_c2scmd 7004 2 2", parameter = 0, desc = " "}
-ConsoleList[41] = {title = "刷资源", cate = "军团", command = "d_c2scmd 3020 87237 1", parameter = 0, desc = " "}
-ConsoleList[42] = {title = "资源置零", cate = "军团", command = "d_c2scmd 3020 93563 1", parameter = 0, desc = " "}
---护卫类--
-ConsoleList[43] = {title = "抓捕护卫", cate = "护卫", command = "d_c2scmd 18100 ", parameter = 2, desc = "参数1：目标怪id；参数2：抓捕道具普通包裹索引"}
-ConsoleList[44] = {title = "召唤护卫", cate = "护卫", command = "d_c2scmd 18101 ", parameter = 1, desc = " 参数1：护卫包裹索引"}
-ConsoleList[45] = {title = "召回护卫", cate = "护卫", command = "d_c2scmd 18102", parameter = 0, desc = " "}
-ConsoleList[46] = {title = "护卫升级", cate = "护卫", command = "d_c2scmd 18103 ", parameter = 2, desc = "参数1：护卫包裹索引；参数2：升级次数，不加默认升1级"}
-ConsoleList[47] = {title = "改变护卫状态", cate = "护卫", command = "d_c2scmd 18104 ", parameter = 2, desc = "参数1：护卫包裹索引；参数2：0休闲 1主动 2被动 3合体"}
-ConsoleList[48] = {title = "分配护卫自由属性点", cate = "护卫", command = "d_c2scmd 18105 ", parameter = 2, desc = "参数1：护卫包裹索引；参数2：0武力 1智力 2筋骨"}
-ConsoleList[49] = {title = "护卫消耗历练", cate = "护卫", command = "d_c2scmd 18106 ", parameter = 2, desc = "参数1：护卫包裹索引；参数2：历练"}
-ConsoleList[50] = {title = "护卫获得历练", cate = "护卫", command = "d_c2scmd 18107 ", parameter = 2, desc = "参数1：护卫包裹索引；参数2：历练"}
-ConsoleList[51] = {title = "护卫补充士气", cate = "护卫", command = "d_c2scmd 18108 ", parameter = 2, desc = "参数1：护卫包裹索引；参数2：要补充的士气值"}
-ConsoleList[52] = {title = "护卫补充缺损士气", cate = "护卫", command = "d_c2scmd 18109 ", parameter = 2, desc = "参数1：护卫包裹索引；参数2：要补充的缺损士气值"}
-ConsoleList[53] = {title = "护卫放生", cate = "护卫", command = "d_c2scmd 18110 ", parameter = 1, desc = "参数1：护卫包裹索引"}
-ConsoleList[54] = {title = "护卫私有", cate = "护卫", command = "d_c2scmd 18111 ", parameter = 1, desc = "参数1：护卫包裹索引"}
-ConsoleList[55] = {title = "护卫易筋", cate = "护卫", command = "d_c2scmd 18112 ", parameter = 2, desc = "参数1：护卫包裹索引；参数2：易筋丸或荣耀石普通包裹索引"}
-ConsoleList[56] = {title = "护卫=>投诚书", cate = "护卫", command = "d_c2scmd 18202 ", parameter = 4, desc = "参数1：护卫包裹索引；参数2：护卫模板ID；参数3：投诚道具普通包裹索引；参数4：投诚道具模板ID"}
-ConsoleList[57] = {title = "护卫束缚", cate = "护卫", command = "d_c2scmd 18203 ", parameter = 4, desc = "参数1：护卫包裹索引；参数2：护卫模板ID；参数3：束缚道具普通包裹索引；参数4：束缚道具模板ID"}
-ConsoleList[58] = {title = "护卫解除束缚", cate = "护卫", command = "d_c2scmd 18204 ", parameter = 4, desc = "参数1：护卫包裹索引；参数2：护卫模板ID；参数3：解除束缚道具普通包裹索引；参数4：解除束缚道具模板ID"}
-ConsoleList[59] = {title = "护卫卸甲", cate = "护卫", command = "d_c2scmd 18207 ", parameter = 4, desc = "参数1：护卫包裹索引；参数2：护卫模板ID；参数3：卸甲道具普通包裹索引；参数4：卸甲道具模板ID"}
-ConsoleList[60] = {title = "护卫成长（升官）", cate = "护卫", command = "d_c2scmd 18208 ", parameter = 4, desc = "参数1：护卫包裹索引；参数2：护卫模板ID；参数3：成长道具普通包裹索引；参数4：成长道具模板ID"}
-ConsoleList[61] = {title = "护卫升品", cate = "护卫", command = "d_c2scmd 18209 ", parameter = 4, desc = "参数1：护卫包裹索引；参数2：护卫模板ID；参数3：升品道具普通包裹索引；参数4：升品道具模板ID"}
-ConsoleList[62] = {title = "护卫学习技能", cate = "护卫", command = "d_c2scmd 18210 ", parameter = 4, desc = "参数1：护卫包裹索引；参数2：护卫模板ID；参数3：技能书普通包裹索引；参数4：技能书道具模板ID"}
-ConsoleList[63] = {title = "护卫升级技能", cate = "护卫", command = "d_c2scmd 18211 ", parameter = 3, desc = "参数1：护卫包裹索引；参数2：护卫模板ID；参数3：技能ID"}
-ConsoleList[64] = {title = "护卫遗忘技能", cate = "护卫", command = "d_c2scmd 18212 ", parameter = 3, desc = "参数1：护卫包裹索引；参数2：护卫模板ID；参数3：技能ID"}
-ConsoleList[65] = {title = "扩充护卫技能格数", cate = "护卫", command = "d_c2scmd 18213 ", parameter = 3, desc = "参数1：护卫包裹索引；参数2：护卫模板ID；参数3：技能格数"}
-ConsoleList[66] = {title = "护卫释放技能", cate = "护卫", command = "d_c2scmd 18300 ", parameter = 1, desc = "参数1：技能托盘索引"}
-ConsoleList[67] = {title = "打印护卫基础随机属性", cate = "护卫", command = "d_c2scmd 18400", parameter = 0, desc = " "}
-ConsoleList[68] = {title = "清掉护卫相关CD", cate = "护卫", command = "d_c2scmd 18401", parameter = 0, desc = " "}
---战魂类--
-ConsoleList[69] = {title = "装备、取消装备战魂", cate = "战魂", command = "d_c2scmd 10010 ", parameter = 1, desc = "参数1：战魂在包裹中的位置"}
-ConsoleList[70] = {title = "战魂觉醒", cate = "战魂", command = "d_c2scmd 10011", parameter = 0, desc = "要求战魂已装备，并且元神值达到上限的50%"}
-ConsoleList[71] = {title = "战魂取消觉醒", cate = "战魂", command = "d_c2scmd 10012", parameter = 0, desc = "要求战魂已装备。元神值衰减为0时自动触发，可手工执行"}
-ConsoleList[72] = {title = "增加元神值", cate = "战魂", command = "d_c2scmd 10013 ", parameter = 1, desc = "要求战魂已装备。参数1：增加的值：正为加；负为减"}
-ConsoleList[73] = {title = "查看战魂元神值/觉醒状态", cate = "战魂", command = "d_c2scmd 10014", parameter = 0, desc = "要求战魂已装备。在聊天窗口打印当前装备的战魂的觉醒状态、元神值、元神值上限"}
-ConsoleList[74] = {title = "战魂获得成长度", cate = "战魂", command = "d_c2scmd 10015 ", parameter = 2, desc = "要求战魂已装备。参数2：代表是否受模板每次获得成长度的限制。1受限制；0不受限制"}
-ConsoleList[75] = {title = "战魂服务测试命令", cate = "战魂", command = "d_c2scmd 10020 ", parameter = 3, desc = "参数1：0炼魂，1重修战魂，2洗战魂资质；参数2：战魂在包裹里的位置索引，0起始；参数3：必须材料在包裹里的位置索引，0起始"}
-ConsoleList[76] = {title = "战魂转化服务命令", cate = "战魂", command = "d_c2scmd 10021 ", parameter = 0, desc = "参数1：战魂在包裹里的位置索引，0起始"}
+-- COMMON CATEGORY --
+ConsoleList[1] = {title = "Increase Level", cate = "Common", command = "d_c2scmd 2010 ", parameter = 1, desc = "Param 1: Target Level. If left blank, level will increase by 1."}
+ConsoleList[2] = {title = "Map Teleport", cate = "Common", command = "d_c2scmd 2008 ", parameter = 3, desc = "Param 1: Map ID; Param 2: Target X Coordinate; Param 3: Target Z Coordinate"}
+ConsoleList[3] = {title = "Movement Speed", cate = "Common", command = "d_runspeed ", parameter = 1, desc = "Param 1: Speed value. Default speed is 5."}
+ConsoleList[4] = {title = "Get Single Item", cate = "Common", command = "d_c2scmd 2001 ", parameter = 1, desc = "Param 1: Item ID\rCommon Items: GM Weapons 134-151, Flash Leather 153, HP Ring 166, Other Armor 154-165\r64884 Test_Suicide Pill\r64885 Test_Mob Clear Pill\r64886 Test_Reduce CD Pill\r64887 Test_Full Buff Pill\r64888 Test_HP -10\r64889 Test_HP -100\r64890 Test_HP -1000\r64891 Test_HP -10000\r64892 Test_Resist +10\r64893 Test_Limit Resist +5\r64894 Test_Bleed Resist +5\r64895 Test_Injured Resist +5\r64896 Test_Crit Resist +5\r64897 Test_Weakness Resist +5\r64898 Test_Seal Resist +5\r64899 Test_ATK +50\r64900 Test_DEF +50\r64901 Test_Accuracy +10\r64902 Test_Dodge +10\r64903 Test_Crit Rate +5"}
+ConsoleList[5] = {title = "Get Item Stack", cate = "Common", command = "d_c2scmd 3022 ", parameter = 1, desc = "Param 1: Item ID."}
+ConsoleList[6] = {title = "Restart Single Line", cate = "Common", command = "d_c2scmd 20000", parameter = 0, desc = "Restarts the current channel/line."}
+ConsoleList[7] = {title = "Show Missing Queue Count", cate = "Common", command = "d_delcmd 512 0", parameter = 0, desc = "Displays the number of players in queue that do not exist."}
+ConsoleList[8] = {title = "Global Battlefield Queue", cate = "Common", command = "d_delcmd 511 ", parameter = 1, desc = "Adds N players to queue for all battlefields server-wide. Param 1: Number of people."}
+ConsoleList[9] = {title = "Upgrade Main Class", cate = "Common", command = "d_c2scmd 5000", parameter = 0, desc = " "}
+ConsoleList[10] = {title = "Upgrade Sub Class", cate = "Common", command = "d_c2scmd 5001", parameter = 0, desc = " "}
+ConsoleList[11] = {title = "Change Race", cate = "Common", command = "d_c2scmd 4014 ", parameter = 1, desc = "Param 1: Race ID (0: Huaxia, 1: Nanman)"}
+ConsoleList[12] = {title = "Change Job/Weapon", cate = "Common", command = "d_c2scmd 2011 ", parameter = 1, desc = "Job ID (1:Saber, 2:Spear, 3:Halberd, 4:Axe-V, 5:Tang, 6:Staff, 7:Sword, 8:Battleaxe, 9:Hook, 10:Mace, 11:Hammer, 12:Claw, 13:Shield, 14:Ring, 15:Scepter, 16:Dance, 17:Fan, 18:Bow)"}
+ConsoleList[13] = {title = "Add EXP", cate = "Common", command = "d_c2scmd 2012 ", parameter = 1, desc = "Param 1: EXP amount"}
+ConsoleList[14] = {title = "Add Experience/Lore", cate = "Common", command = "d_c2scmd 2013 ", parameter = 1, desc = "Param 1: Lore/Experience points"}
+ConsoleList[15] = {title = "Spawn Monster", cate = "Common", command = "d_c2scmd 3011 ", parameter = 3, desc = "Param 1: Monster ID; Param 2: 0; Param 3: Spawn Count (Default is 1)"}
+ConsoleList[16] = {title = "Add Gold Sycee (Yuanbao)", cate = "Common", command = "d_c2scmd 4012 ", parameter = 1, desc = "Param 1: Amount of Yuanbao"}
+ConsoleList[17] = {title = "Obtain Title", cate = "Common", command = "d_c2scmd 2016 ", parameter = 1, desc = "Param 1: Title ID"}
+ConsoleList[18] = {title = "Change Faction", cate = "Common", command = "d_c2scmd 3014 ", parameter = 1, desc = "Param 1: 0:None, 1:Wei, 2:Shu, 3:Wu"}
+ConsoleList[19] = {title = "Add Personal Prestige", cate = "Common", command = "d_c2scmd 7000 ", parameter = 2, desc = "Param 1: Prestige Index; Param 2: Value"}
 
-ConsoleList[77] = {title = "获得100玉", cate = "常用", command = "d_c2scmd 2988", parameter = 0, desc = "玉，就是玉。（此条应张薷心mm要求添加）"}
+-- CONTROL CATEGORY --
+ConsoleList[20] = {title = "Toggle Switch Controller", cate = "Parameter Control", command = "d_c2scmd 3020 ", parameter = 2, desc = "Param 1: Controller ID; Param 2: State (0:OFF, 1:ON)"}
+ConsoleList[21] = {title = "Set Scene Param to Value", cate = "Parameter Control", command = "d_c2scmd 10900 ", parameter = 2, desc = "Param 1: Scene Param Index; Param 2: Value"}
+ConsoleList[22] = {title = "Adjust Scene Param by Amount", cate = "Parameter Control", command = "d_c2scmd 10901 ", parameter = 2, desc = "Param 1: Scene Param Index; Param 2: Adjust Value"}
+ConsoleList[23] = {title = "Check Scene Param", cate = "Parameter Control", command = "d_c2scmd 10902 ", parameter = 1, desc = "Param 1: Scene Param Index"}
+ConsoleList[24] = {title = "Check Global Param", cate = "Parameter Control", command = "d_c2scmd 8000 ", parameter = 1, desc = "Param 1: Index."}
+ConsoleList[25] = {title = "Set Global Param", cate = "Parameter Control", command = "d_c2scmd 8001 ", parameter = 2, desc = "Param 1: Index; Param 2: Value"}
+ConsoleList[26] = {title = "Gain/Lose Illustration Card", cate = "Common", command = "d_c2scmd 11001 ", parameter = 2, desc = "Param 1: Index; Param 2: Value"}
+ConsoleList[27] = {title = "Start Quiz Event", cate = "Others", command = "d_delcmd 15 0", parameter = 0, desc = " "}
+ConsoleList[28] = {title = "End Quiz Event", cate = "Others", command = "d_delcmd 16 0", parameter = 0, desc = " "}
+
+-- OTHERS CATEGORY --
+ConsoleList[29] = {title = "Show FPS", cate = "Others", command = "d_fps ", parameter = 1, desc = "Param 1: 0:OFF, 1:ON"}
+ConsoleList[30] = {title = "Check Target ID", cate = "Others", command = "d_rtdebug ", parameter = 1, desc = "Param 1: 0:OFF, 1:ON. Shows ID of selected character."}
+ConsoleList[31] = {title = "Show Coordinates", cate = "Others", command = "d_showpos ", parameter = 1, desc = "Param 1: 0:OFF, 1:ON. Shows character position."}
+ConsoleList[32] = {title = "Set Client Game Time", cate = "Others", command = "d_settimeofday ", parameter = 2, desc = "Param 1: Hours; Param 2: Minutes"}
+ConsoleList[33] = {title = "Get Server Time", cate = "Others", command = "d_getservertime", parameter = 0, desc = " "}
+ConsoleList[34] = {title = "Clear Battlefield Cooldown", cate = "Others", command = "d_delcmd 103 1", parameter = 0, desc = "Clears the last entry time for battlefields."}
+ConsoleList[35] = {title = "Increase Fame Increment", cate = "Others", command = "d_c2scmd 2020 ", parameter = 1, desc = "Param 1: Value"}
+ConsoleList[36] = {title = "Increase Fame Points", cate = "Others", command = "d_c2scmd 7002 ", parameter = 1, desc = "Param 1: Value. Item 13141 adds Legion Dominion; 21818 adds 10,000 Fame."}
+
+-- LEGION CATEGORY --
+ConsoleList[37] = {title = "Set Base Time", cate = "Legion", command = "d_delcmd 503 ", parameter = 1, desc = "Param 1: 0:Current Time, 1:18:00, 2:18:30, 3:19:00, 4:19:30, 5:20:00, 6:22:00, 7:22:30, 8:+24 Hours, 9:+10 Minutes, 10:Query Time, 11:Back 1 Day"}
+ConsoleList[38] = {title = "Refresh Legion Base", cate = "Legion", command = "d_c2scmd 7001 2 0 10000", parameter = 0, desc = " "}
+ConsoleList[39] = {title = "Add Activity Points", cate = "Legion", command = "d_c2scmd 7004 2 0", parameter = 0, desc = " "}
+ConsoleList[40] = {title = "Check Activity Points", cate = "Legion", command = "d_c2scmd 7004 2 2", parameter = 0, desc = " "}
+ConsoleList[41] = {title = "Spawn Resources", cate = "Legion", command = "d_c2scmd 3020 87237 1", parameter = 0, desc = " "}
+ConsoleList[42] = {title = "Reset Resources to Zero", cate = "Legion", command = "d_c2scmd 3020 93563 1", parameter = 0, desc = " "}
+
+-- GUARDIAN CATEGORY --
+ConsoleList[43] = {title = "Capture Guardian", cate = "Guardian", command = "d_c2scmd 18100 ", parameter = 2, desc = "Param 1: Target Mob ID; Param 2: Capture Tool Bag Index"}
+ConsoleList[44] = {title = "Summon Guardian", cate = "Guardian", command = "d_c2scmd 18101 ", parameter = 1, desc = "Param 1: Guardian Bag Index"}
+ConsoleList[45] = {title = "Recall Guardian", cate = "Guardian", command = "d_c2scmd 18102", parameter = 0, desc = " "}
+ConsoleList[46] = {title = "Level Up Guardian", cate = "Guardian", command = "d_c2scmd 18103 ", parameter = 2, desc = "Param 1: Bag Index; Param 2: Levels to Increase (Default is 1)"}
+ConsoleList[47] = {title = "Change Guardian Mode", cate = "Guardian", command = "d_c2scmd 18104 ", parameter = 2, desc = "Param 1: Bag Index; Param 2: 0:Idle, 1:Active, 2:Passive, 3:Merge"}
+ConsoleList[48] = {title = "Allocate Guardian Stats", cate = "Guardian", command = "d_c2scmd 18105 ", parameter = 2, desc = "Param 1: Bag Index; Param 2: 0:Strength, 1:Intellect, 2:Constitution"}
+ConsoleList[49] = {title = "Guardian Consume Lore", cate = "Guardian", command = "d_c2scmd 18106 ", parameter = 2, desc = "Param 1: Bag Index; Param 2: Amount"}
+ConsoleList[50] = {title = "Guardian Gain Lore", cate = "Guardian", command = "d_c2scmd 18107 ", parameter = 2, desc = "Param 1: Bag Index; Param 2: Amount"}
+ConsoleList[51] = {title = "Refill Guardian Morale", cate = "Guardian", command = "d_c2scmd 18108 ", parameter = 2, desc = "Param 1: Bag Index; Param 2: Value"}
+ConsoleList[52] = {title = "Refill Morale Deficiency", cate = "Guardian", command = "d_c2scmd 18109 ", parameter = 2, desc = "Param 1: Bag Index; Param 2: Value"}
+ConsoleList[53] = {title = "Release Guardian", cate = "Guardian", command = "d_c2scmd 18110 ", parameter = 1, desc = "Param 1: Bag Index"}
+ConsoleList[54] = {title = "Set Guardian Private", cate = "Guardian", command = "d_c2scmd 18111 ", parameter = 1, desc = "Param 1: Bag Index"}
+ConsoleList[55] = {title = "Guardian Marrow Cleansing", cate = "Guardian", command = "d_c2scmd 18112 ", parameter = 2, desc = "Param 1: Bag Index; Param 2: Pill/Stone Bag Index"}
+ConsoleList[56] = {title = "Guardian => Submission Book", cate = "Guardian", command = "d_c2scmd 18202 ", parameter = 4, desc = "P1:Bag Index; P2:Guardian Template ID; P3:Item Bag Index; P4:Item Template ID"}
+ConsoleList[57] = {title = "Bind Guardian", cate = "Guardian", command = "d_c2scmd 18203 ", parameter = 4, desc = "P1:Bag Index; P2:Template ID; P3:Binding Tool Bag Index; P4:Tool ID"}
+ConsoleList[58] = {title = "Unbind Guardian", cate = "Guardian", command = "d_c2scmd 18204 ", parameter = 4, desc = "P1:Bag Index; P2:Template ID; P3:Unbind Tool Bag Index; P4:Tool ID"}
+ConsoleList[59] = {title = "Unequip Guardian Armor", cate = "Guardian", command = "d_c2scmd 18207 ", parameter = 4, desc = "P1:Bag Index; P2:Template ID; P3:Item Bag Index; P4:Item ID"}
+ConsoleList[60] = {title = "Guardian Promotion", cate = "Guardian", command = "d_c2scmd 18208 ", parameter = 4, desc = "P1:Bag Index; P2:Template ID; P3:Promo Item Bag Index; P4:Item ID"}
+ConsoleList[61] = {title = "Guardian Quality Upgrade", cate = "Guardian", command = "d_c2scmd 18209 ", parameter = 4, desc = "P1:Bag Index; P2:Template ID; P3:Quality Item Bag Index; P4:Item ID"}
+ConsoleList[62] = {title = "Learn Guardian Skill", cate = "Guardian", command = "d_c2scmd 18210 ", parameter = 4, desc = "P1:Bag Index; P2:Template ID; P3:Skill Book Bag Index; P4:Skill Book ID"}
+ConsoleList[63] = {title = "Upgrade Guardian Skill", cate = "Guardian", command = "d_c2scmd 18211 ", parameter = 3, desc = "P1:Bag Index; P2:Template ID; P3:Skill ID"}
+ConsoleList[64] = {title = "Forget Guardian Skill", cate = "Guardian", command = "d_c2scmd 18212 ", parameter = 3, desc = "P1:Bag Index; P2:Template ID; P3:Skill ID"}
+ConsoleList[65] = {title = "Expand Skill Slots", cate = "Guardian", command = "d_c2scmd 18213 ", parameter = 3, desc = "P1:Bag Index; P2:Template ID; P3:Slot Count"}
+ConsoleList[66] = {title = "Trigger Guardian Skill", cate = "Guardian", command = "d_c2scmd 18300 ", parameter = 1, desc = "Param 1: Skill Tray Index"}
+ConsoleList[67] = {title = "Print Random Stats", cate = "Guardian", command = "d_c2scmd 18400", parameter = 0, desc = "Prints guardian base random attributes to console."}
+ConsoleList[68] = {title = "Clear Guardian CDs", cate = "Guardian", command = "d_c2scmd 18401", parameter = 0, desc = "Clears all cooldowns related to guardians."}
+
+-- WAR SOUL CATEGORY --
+ConsoleList[69] = {title = "Equip/Unequip War Soul", cate = "War Soul", command = "d_c2scmd 10010 ", parameter = 1, desc = "Param 1: War Soul Bag Position"}
+ConsoleList[70] = {title = "Awaken War Soul", cate = "War Soul", command = "d_c2scmd 10011", parameter = 0, desc = "Requires War Soul equipped and Spirit Value ≥ 50% Max."}
+ConsoleList[71] = {title = "Cancel Awakening", cate = "War Soul", command = "d_c2scmd 10012", parameter = 0, desc = "Triggers automatically when Spirit reaches 0, or manual execution."}
+ConsoleList[72] = {title = "Add Spirit Value", cate = "War Soul", command = "d_c2scmd 10013 ", parameter = 1, desc = "Requires War Soul equipped. Positive = Add; Negative = Subtract."}
+ConsoleList[73] = {title = "Check War Soul Status", cate = "War Soul", command = "d_c2scmd 10014", parameter = 0, desc = "Prints Awakening State, Spirit Value, and Max Spirit to chat window."}
+ConsoleList[74] = {title = "Add Growth Value", cate = "War Soul", command = "d_c2scmd 10015 ", parameter = 2, desc = "Param 2: 1:Enforce template limit; 0:Ignore limit."}
+ConsoleList[75] = {title = "War Soul Service Test", cate = "War Soul", command = "d_c2scmd 10020 ", parameter = 3, desc = "P1: (0:Soul Refine, 1:Rebuild, 2:Reset Aptitude); P2: Bag Index; P3: Material Index"}
+ConsoleList[76] = {title = "Transform War Soul", cate = "War Soul", command = "d_c2scmd 10021 ", parameter = 0, desc = "Param 1: Bag Index (Starting from 0)"}
+
+ConsoleList[77] = {title = "Gain 100 Jade", cate = "Common", command = "d_c2scmd 2988", parameter = 0, desc = "Just Jade. Added by special request from Zhang Ruxin."}
 ---------------------------------------------------------------------
---竞技赛指引
+-- Tournament Guide (FightGuide)
 ---------------------------------------------------------------------
 FightGuide={}
---什么是竞技赛
-FightGuide[1] = {text="Nhà Hán suy tàn, quần hùng nổi dậy, thiên hạ chiến tranh liên miên. Thế hệ chúng ta tài năng xuất chúng, đều mong tỏa sáng trên sân khấu lịch sử này. Mười tám loại binh khí trong tay, ai có thể một ngựa địch ngàn, ai có thể vạn phu không địch lại. Hãy cùng nhau lập thành đội chiến, so tài võ nghệ, xem rốt cuộc ai là thiên hạ vô song thực sự.\rBây giờ vào chiều Chủ Nhật hàng tuần, sẽ tổ chức một trận đấu trường. Tất cả người chơi đạt cấp Anh Hùng đều có thể tham gia sự kiện này, thông qua việc lập thành đội chiến để so tài võ nghệ với các đội chiến khác tham gia. Thông qua từng vòng đấu, tranh giành chức vô địch cuối cùng.\rTất cả người chơi tham gia sự kiện này, không chỉ có thể nâng cao kỹ năng, chứng minh thực lực của mình, mà còn đều nhận được phần thưởng phong phú. Đừng chần chừ nữa, mau triệu tập chiến hữu mạnh mẽ bên cạnh, cầm vũ khí trong tay, tham gia vào sự kiện này đi."}
---Làm thế nào để tạo đội chiến
-FightGuide[2] = {text="^ff6fb3Điều kiện cần:^ffffff\rTừ 0 giờ thứ Hai đến 0 giờ thứ Bảy hàng tuần, người chơi nằm trong top 500 của Bảng Xếp Hạng Đánh Giá Tổng Hợp Cá Nhân và đạt cấp Anh Hùng, đều có quyền tạo một đội đấu trường.\r\r^ff6fb3NPC liên quan:^ffffff\rỞ Sân Võ Luyện Tây Thị Trường An, tìm Sứ Giả Đội Đấu Trường #72210#, đăng ký tạo đội đấu trường.\r\r^ff6fb3Chiêu mộ đồng đội:^ffffff\rSau khi có đội đấu trường, có thể chiêu mộ bất kỳ người chơi đạt cấp Anh Hùng nào làm đồng đội, mỗi đội tối đa 9 người. \rCách một: Chuột phải vào hình đại diện người chơi, chọn chiêu mộ.\rCách hai: Thông qua Chiêu Mộ Đồng Đội trong bảng điều khiển đội đấu trường, nhập tên đối phương.\rCách ba: Chuột phải vào tên người chơi trong cửa sổ chat, chọn chiêu mộ.\r\r^ff6fb3Giải tán đội đấu trường:^ffffff\rChỉ đội trưởng mới có thể thực hiện tính năng này, khi muốn giải tán đội đấu trường, ở Sân Võ Luyện Tây Thị Trường An, tìm Sứ Giả Đội Đấu Trường -#72210#, chọn giải tán đội đấu trường. Giải tán đội đấu trường có 7 ngày đệm. Trong thời gian này, đội trưởng có thể hủy bỏ yêu cầu này bất cứ lúc nào thông qua lệnh Hủy Giải Tán Đội Đấu Trường trên bảng điều khiển đội đấu trường. Sau 7 ngày, đội đấu trường sẽ bị giải tán.\r"}
---Làm thế nào để đăng ký Đấu Trường
-FightGuide[3] = {text="^ff6fb3Điều kiện cần:^ffffff\rKhi đội trưởng online, đội trưởng phụ trách xếp hàng; khi đội trưởng không online, phó đội trưởng thực hiện xếp hàng.\r\r^ff6fb3Thời gian đăng ký:^ffffff\rThứ Bảy 19:00 - Chủ Nhật 13:50, trong đó 19:00 Thứ Bảy - 13:00 Chủ Nhật là thời gian đăng ký thông thường, 13:00 - 13:50 Chủ Nhật là thời gian đăng ký nghiêm ngặt. Trong thời gian đăng ký nghiêm ngặt, đội có số người online dưới 3 người, sẽ bị hủy tư cách đăng ký. Cuộc thi chính thức bắt đầu lúc 14:00.\r\r^ff6fb3NPC liên quan:^ffffff\rỞ Sân Võ Luyện Tây Thị Trường An, tìm Quan Viên Đấu Trường #72209#. Chọn đăng ký đấu trường.\r\r^ff6fb3Liên quan đến xếp hàng:^ffffff\rĐấu trường tối đa có thể chấp nhận 128 đội tham gia, khi số đội đăng ký vượt quá 128 đội, sẽ căn cứ vào đánh giá tổng hợp của đội và thời gian xếp hàng, quyết định 128 đội được chọn cuối cùng.\r\r^ff6fb3Chọn thành viên tham chiến:^ffffff\rSau khi đăng ký thành công, có thể thông qua Chọn Thành Viên Tham Chiến trên giao diện, đánh dấu chọn người vào chiến đấu, tối thiểu 3 người, tối đa 6 người. ^ff0000Từ 13 giờ trưa Chủ Nhật đến khi kết thúc cuộc thi, cần có ít nhất 3 người online mới có thể tham gia cuộc thi. Nếu không sẽ bị hủy tư cách tham gia.\r\r^ff6fb3Xem bảng đấu:^ffffff\rSau 19:00 Thứ Bảy hàng tuần, có thể thông qua nút bên phải màn hình, mở Xem Bảng Đấu trên giao diện xếp hàng đấu trường, xem tình hình đối đầu cuối cùng.\rBảng đấu có thể xem tình hình thăng cấp và chi tiết chiến đấu của mỗi đội. Lưu ý: Trong chiến đấu, nhấn phím U, có thể xem chi tiết chiến đấu ngay lập tức.\r"}
---Quy trình Đấu Trường
-FightGuide[4] = {text="^ff6fb3Quy trình tổng thể:^ffffff\rĐấu trường gồm 128 đội, mỗi vòng tiến hành loại trực tiếp, thông qua tổng cộng 7 vòng đấu, tranh giành chức vô địch cuối cùng. Mỗi vòng đấu kéo dài 15 phút, đội được miễn đấu, sau khi vào sân sẽ thắng trực tiếp, vào vòng tiếp theo. \rKhi mỗi vòng đấu bắt đầu, hệ thống sẽ nhắc nhở đội đủ tư cách vào sân, hoặc thông qua nút Vào Đấu Trường trên bảng điều khiển.\r\r^ff6fb3Quy trình mỗi vòng:^ffffff\rMỗi vòng đấu lại được chia thành 3 ván nhỏ, mỗi ván tối đa 4 phút. Khi mỗi ván bắt đầu, hai bên đều được truyền tống đến điểm vào sân với trạng thái đầy máu để tiến hành ván đấu này. Cuối cùng căn cứ vào điều kiện thắng thua quyết định đội được vào vòng tiếp theo.\r"}
---Điều kiện thắng thua của cuộc thi
-FightGuide[5] = {text="^ff6fb3Điều kiện thắng thua của mỗi ván:^ffffff\r1. Giết chết tất cả thành viên đối phương, thì đội này thắng ván đấu này.\r2. Khi thời gian mỗi ván đấu kết thúc là 4 phút, nếu cả hai bên đều còn thành viên sống sót, thì so sánh lượng máu cờ đội của hai đội, đội có lượng máu nhiều hơn sẽ thắng.\r3. Nếu lượng máu cờ đội vẫn bằng nhau, thì so sánh số người sống sót, đội có số người sống sót nhiều hơn sẽ thắng.\r4. Nếu các điều kiện trên đều không thể phân định thắng thua của ván đấu này, thì phán định cả hai đội đều thua.\r\r^ff6fb3Điều kiện thắng thua của mỗi vòng:^ffffff\r1. Trong mỗi vòng đấu, tất cả thành viên đối phương đều rời chiến trường, thì phe ta thắng\r2. Đội giành được 2 trận thắng trước sẽ thắng vòng đấu.\r3. Khi 3 ván đấu kết thúc, đội có số ván thắng nhiều hơn sẽ thắng.\r4. Nếu thông qua 3 ván đấu vẫn không thể phân định thắng thua, thì phán định cả hai đội đều thua, đều không vào vòng tiếp theo.\r"}
---Thuộc tính đấu trường cá nhân
-FightGuide[6] = {text="^ff6fb3Xem thuộc tính đấu trường của bản thân:^ffffff\rThông qua nút tương ứng trên bảng điều khiển nhân vật, mở bảng điều khiển thuộc tính đấu trường cá nhân.\r\r^ff6fb3Xem thuộc tính đấu trường của người khác:^ffffff\rChuột phải vào hình đại diện đối phương, nhấp vào nút Đấu Trường, xem bảng điều khiển thuộc tính đấu trường của người khác.\r\r^ff6fb3Giải thích thuộc tính:^ffffff\r^fffd44Giá trị Võ Đấu:^ffffff Giá trị Võ Đấu của người chơi hiện tại, giá trị này nhận được thông qua việc tham gia cuộc thi, dùng để đổi thưởng.\r^fffd44Hạng cá nhân đấu trường:^ffffff Hạng cá nhân đấu trường của người chơi hiện tại, cũng có thể tra cứu thông qua bảng xếp hạng.\r^fffd44Đánh giá tổng hợp cá nhân:^ffffff Giá trị đánh giá tổng hợp trang bị cá nhân.\r^fffd44Kỷ lục chiến thắng cuối tuần:^ffffff Thành tích tốt nhất trong lịch sử nhận được khi tham gia đấu trường.\r^fffd44Tổng số lần tiêu diệt:^ffffff Tổng số kẻ địch đã tiêu diệt trong đấu trường.\r^fffd44Tổng tỷ lệ thắng:^ffffff Tỷ lệ thắng khi tham gia đấu trường.\r^fffd44Tổng số lần tham chiến:^ffffff Tổng số lần tham gia đấu trường.\r^fffd44Tổng số lần thắng:^ffffff Tổng số lần thắng khi tham gia đấu trường.\r^fffd44Tổng số lần thất bại:^ffffff Tổng số lần thất bại khi tham gia đấu trường.\r^fffd44Cấp độ đấu trường:^ffffff Cấp độ đấu trường cá nhân hiện tại.\r^fffd44Danh hiệu cấp độ:^ffffff Danh hiệu đấu trường cá nhân. Nhận được khi cấp độ đấu trường cá nhân tăng lên.\r^fffd44Kinh nghiệm hiện tại:^ffffff Kinh nghiệm đấu trường cá nhân hiện tại, nhận được thông qua việc tham gia đấu trường.\r^fffd44Tên đội đấu trường trực thuộc:^ffffff Tên đội đấu trường mà người chơi đang ở.\r"}
---Thuộc tính đấu trường đội
-FightGuide[7] = {text="^ff6fb3Xem thuộc tính đội:^ffffff\rThông qua Thuộc Tính Đội trong bảng điều khiển đấu trường cá nhân hoặc nút Đấu Trường trên giao diện.\r\r^fffd44Giải thích thuộc tính:^ffffff\r^fffd44Đội trưởng đội đấu trường:^ffffff Tên đội trưởng đội đấu trường này\r^fffd44Hạng đội đấu trường:^ffffff Hạng hiện tại của đội đấu trường. Cũng có thể tra cứu thông qua bảng xếp hạng.\r^fffd44Cấp độ đội đấu trường:^ffffff Cấp độ hiện tại của đội đấu trường.\r^fffd44Danh hiệu đội đấu trường:^ffffff Danh hiệu của đội đấu trường.\r^fffd44Đánh giá tổng hợp đội:^ffffff Đánh giá tổng hợp của đội. Điểm này do tổng điểm của 6 người có đánh giá tổng hợp cá nhân cao nhất quyết định. Điểm này cũng là một trong những căn cứ để xác định kết quả chia nhóm đăng ký cuối cùng.\r^fffd44Kinh nghiệm đội hiện tại:^ffffff Kinh nghiệm đội hiện tại, nhận được thông qua việc tham gia đấu trường.\r^fffd44Danh sách thành viên đội chiến:^ffffff Hiển thị thông tin đồng đội trong đội chiến.\r^fffd44Sửa đổi thông báo:^ffffff Mỗi đội đấu trường đều có thông báo riêng, đội trưởng có thể sửa đổi và phát hành.\r^fffd44Chiêu mộ đồng đội^ffffff: Nút này dùng để chiêu mộ chiến hữu bằng cách nhập tên.\r^fffd44Loại bỏ đồng đội:^ffffff Đội trưởng có thể sử dụng nút này để đá người chơi ra khỏi đội này.\r^fffd44Bổ nhiệm phó đội trưởng:^ffffff Chọn phó đội trưởng. Mỗi đội chỉ có một phó đội trưởng.\r^fffd44Hủy phó đội trưởng:^ffffff Hủy phó đội trưởng đã chọn.\r^fffd44Hủy giải tán đội đấu trường:^ffffff Trong thời gian đệm giải tán đội đấu trường, có thể thông qua nút này để hủy yêu cầu giải tán.\r^fffd44Rời đội:^ffffff Ngoài đội trưởng ra, các thành viên khác có thể nhấp vào nút này để rời đội đấu trường này.\r"}
---Phần thưởng và Đổi thưởng
-FightGuide[8] = {text="^ff6fb3Làm thế nào để nhận phần thưởng:^ffffff\rMỗi lần tham gia đấu trường, sẽ tự động phát thưởng cho người chơi dựa trên kết quả thi đấu của đội. Hạng cuối cùng càng cao, phần thưởng nhận được càng phong phú.\r\r^ff6fb3Nội dung phần thưởng:^ffffff\rGiá trị Võ Đấu: Điểm nhận được thông qua đấu trường, điểm này dùng để đổi thưởng.\rDanh hiệu: Khi cấp độ đấu trường cá nhân của người chơi tăng lên, sẽ nhận được phần thưởng danh hiệu, biểu tượng của thực lực.\rKinh nghiệm sống: Kinh nghiệm cần thiết để nâng cấp.\rKim tệ: Tiền tệ có thể lưu thông trong Xích Bích.\r\r^ff6fb3Làm thế nào để đổi thưởng:^ffffff\rThông qua Giá trị Võ Đấu nhận được, có thể tìm NPC Thương Nhân Đội Đấu Trường #72211# ở Sân Võ Luyện Tây Thị Trường An để xem và đổi phần thưởng.\r"}
---Bảng xếp hạng đấu trường
-FightGuide[9] = {text="^ff6fb3Cách xem:^ffffff\rThông qua nút Bảng Xếp Hạng trên thanh công cụ mở ra và chọn trang Bảng Xếp Hạng Đấu Trường.\r\r^ff6fb3Phần thưởng danh hiệu:^ffffff\r5 người chơi đứng đầu trên Bảng Xếp Hạng Kinh Nghiệm Đấu Trường Cá Nhân trong tháng sẽ nhận được phần thưởng danh hiệu.\r"}
+-- 1. What is the Tournament?
+FightGuide[1] = {text="The Han Dynasty declines, heroes rise, and the world is engulfed in constant warfare. Our generation of talent seeks to shine on this historical stage. With eighteen types of weapons in hand, who can single-handedly defeat thousands? Let us form war teams and compete to see who is truly peerless under heaven.\rEvery Sunday afternoon, a Tournament Arena is held. All players who have reached Hero Level can participate by forming a war team to compete against others. Fight through each round to claim the ultimate championship.\rAll participants will not only sharpen their skills and prove their strength but also receive rich rewards. Do not hesitate—summon your strongest allies, take up your weapons, and join the battle!"}
+-- 2. How to Create a War Team
+FightGuide[2] = {text="^ff6fb3Requirements:^ffffff\rFrom Monday 00:00 to Saturday 00:00, players ranked in the top 500 of the Individual Comprehensive Ranking and who have reached Hero Level have the right to create a Tournament Team.\r\r^ff6fb3Related NPC:^ffffff\rVisit the Changan West Market Drill Grounds and find the Tournament Team Envoy #72210# to register your team.\r\r^ff6fb3Recruiting Teammates:^ffffff\rOnce the team is created, you can recruit any Hero Level player as a teammate, with a maximum of 9 members per team. \rMethod 1: Right-click a player's avatar and select Recruit.\rMethod 2: Use the Recruit Teammate button in the team panel and enter the player's name.\rMethod 3: Right-click a player's name in the chat window and select Recruit.\r\r^ff6fb3Disbanding a Team:^ffffff\rOnly the Team Leader can disband. Visit the Tournament Team Envoy #72210# at Changan West Market. Disbanding has a 7-day grace period. During this time, the leader can cancel the request via the control panel. After 7 days, the team is permanently disbanded.\r"}
+-- 3. How to Register for the Arena
+FightGuide[3] = {text="^ff6fb3Requirements:^ffffff\rThe Team Leader is responsible for queuing when online; if the Leader is offline, the Vice Leader may perform the registration.\r\r^ff6fb3Registration Time:^ffffff\rSaturday 19:00 - Sunday 13:50. Regular registration is from Sat 19:00 to Sun 13:00. Strict registration is from 13:00 to 13:50 on Sunday. During strict registration, teams with fewer than 3 members online will be disqualified. The tournament officially starts at 14:00.\r\r^ff6fb3Related NPC:^ffffff\rFind the Arena Official #72209# at Changan West Market Drill Grounds to register.\r\r\r^ff6fb3Queuing:^ffffff\rThe Arena accepts a maximum of 128 teams. If more than 128 teams apply, selection is based on the Team's Comprehensive Rating and registration time.\r\r^ff6fb3Selecting Combatants:^ffffff\rAfter successful registration, use the 'Select Members' interface to choose participants (Min 3, Max 6). ^ff0000From 13:00 Sunday until the end of the tournament, at least 3 members must remain online to participate, or the team will be disqualified.\r\r^ff6fb3Viewing the Bracket:^ffffff\rAfter 19:00 on Saturday, click the button on the right of the screen to view the match brackets. You can track promotions and battle details here. Note: Press 'U' during battle to view real-time combat stats.\r"}
+-- 4. Tournament Process
+FightGuide[4] = {text="^ff6fb3Overall Flow:^ffffff\rThe tournament consists of 128 teams in a single-elimination format over 7 rounds to determine the champion. Each round lasts 15 minutes. Teams with a 'bye' (no opponent) win automatically and advance.\rWhen a round starts, the system will notify eligible teams to enter, or they can use the 'Enter Arena' button on the panel.\r\r^ff6fb3Round Structure:^ffffff\rEach round consists of 3 small matches, each lasting up to 4 minutes. At the start of each match, both sides are teleported to the starting point with full HP. Advancement is decided based on the win/loss conditions.\r"}
+-- 5. Victory and Defeat Conditions
+FightGuide[5] = {text="^ff6fb3Match Win Conditions:^ffffff\r1. Eliminate all enemy members to win the match.\r2. If the 4-minute timer ends and both sides have survivors, the team with higher 'Team Flag HP' wins.\r3. If Flag HP is equal, the team with more surviving members wins.\r4. If still tied, both teams are judged as losers.\r\r^ff6fb3Round Win Conditions:^ffffff\r1. If all enemy members leave the battlefield, your team wins.\r2. The first team to win 2 matches wins the round.\r3. After 3 matches, the team with more match wins advances.\r4. If a winner cannot be determined after 3 matches, both teams lose and are eliminated.\r"}
+-- 6. Individual Arena Attributes
+FightGuide[6] = {text="^ff6fb3View Your Stats:^ffffff\rOpen the Personal Arena Attributes panel via the character interface.\r\r^ff6fb3View Others' Stats:^ffffff\rRight-click a player's avatar and click the 'Arena' button.\r\r^ff6fb3Attribute Definitions:^ffffff\r^fffd44Combat Value:^ffffff Points earned from participating, used to exchange for rewards.\r^fffd44Individual Rank:^ffffff Your current ranking in the Arena (also visible on the Leaderboard).\r^fffd44Comprehensive Rating:^ffffff The total evaluation score of your personal equipment.\r^fffd44Weekend Record:^ffffff Your best historical performance in the tournament.\r^fffd44Total Kills:^ffffff Total enemies defeated in the Arena.\r^fffd44Win Rate:^ffffff Your overall percentage of victories.\r^fffd44Total Matches:^ffffff Total times you have entered the Arena.\r^fffd44Total Wins/Losses:^ffffff Your career win/loss count.\r^fffd44Arena Level:^ffffff Your current individual Arena Tier.\r^fffd44Level Title:^ffffff Your earned Arena Title based on your Tier.\r^fffd44Current EXP:^ffffff Arena Experience points needed to level up your Tier.\r^fffd44Current Team:^ffffff The name of the team you belong to.\r"}
+-- 7. Team Arena Attributes
+FightGuide[7] = {text="^ff6fb3View Team Stats:^ffffff\rAccessed via the 'Team Attributes' button in the Arena panel.\r\r^fffd44Attribute Definitions:^ffffff\r^fffd44Team Leader:^ffffff The name of the current Team Leader.\r^fffd44Team Rank:^ffffff Current ranking of the team on the leaderboard.\r^fffd44Team Level:^ffffff The current level/tier of the team.\r^fffd44Team Title:^ffffff The honorary title belonging to the team.\r^fffd44Team Rating:^ffffff Based on the combined scores of the top 6 members. This determines registration seeding.\r^fffd44Team EXP:^ffffff Experience points earned by the team through matches.\r^fffd44Member List:^ffffff Displays info of all teammates.\r^fffd44Modify Announcement:^ffffff Leaders can edit and publish a team message.\r^fffd44Recruit Teammate:^ffffff Button to invite players by name.\r^fffd44Remove Teammate:^ffffff Leaders can use this to kick a player from the team.\r^fffd44Appoint/Cancel Vice Leader:^ffffff Assign or remove the team's second-in-command.\r^fffd44Cancel Disband:^ffffff Rescind a disband request during the grace period.\r^fffd44Leave Team:^ffffff Non-leader members can use this to exit the team.\r"}
+-- 8. Rewards and Exchange
+FightGuide[8] = {text="^ff6fb3Claiming Rewards:^ffffff\rRewards are automatically distributed after each tournament based on the team's final rank. Higher ranks grant better rewards.\r\r^ff6fb3Reward Contents:^ffffff\rCombat Value: Points used to exchange for items.\rTitles: Earned as your Arena Level increases, symbolizing your strength.\rExperience: Standard XP needed for character leveling.\rGold: Currency used within the Red Cliff world.\r\r^ff6fb3How to Exchange:^ffffff\rTake your Combat Value to the Arena Merchant #72211# at Changan West Market Drill Grounds to redeem various rewards.\r"}
+-- 9. Arena Leaderboards
+FightGuide[9] = {text="^ff6fb3How to View:^ffffff\rOpen the Leaderboard panel and select the 'Arena Leaderboard' tab.\r\r^ff6fb3Title Rewards:^ffffff\rThe top 5 players on the Monthly Individual Arena EXP Leaderboard will receive exclusive honorary titles.\r"}
 
 --------------------------------------------------------------------
 
 --------------------------------------------------------------------
 
 ---------------------------------------------------------------------
---Chỉ dẫn Đấu Trường Thiên Hạ liên quan
+-- World Arena Guide (GangGuide)
 ---------------------------------------------------------------------
 GangGuide={}
---Đấu Trường Thiên Hạ là gì
-GangGuide[1] = {text="^ff6fb3Giải thích:^ffffff\rĐấu Trường Thiên Hạ là nơi tranh tài của người chơi từ các server khác nhau. Người chơi của các server có thể thông qua Sứ Giả Dịch Chuyển Đấu Trường Thiên Hạ Võ Thánh (83,110) ở thành Trường An để vào Đấu Trường Thiên Hạ.\r\r^ff6fb3Cách chơi:^ffffff\rMáy chủ Đấu Trường Thiên Hạ hiện tại bao gồm nhiều sự kiện đấu trường, có Hào Mông Quan nơi nhiều người tham gia tranh giành tài nguyên, Quần Anh Hội đấu trường cá nhân, và Giải Đấu Trường Quân Đoàn theo đơn vị quân đoàn.\r\rĐể thể hiện sự công bằng của đấu trường, hiện tại chiến trường Quần Anh Hội và chiến trường Hào Mông Quan đều áp dụng tính năng ghép đôi hoàn toàn mới để chia nhóm cho người tham gia, Giải Đấu Trường Quân Đoàn là một sự kiện quy mô lớn được tổ chức theo đơn vị quân đoàn.\r\rTin rằng bạn là người yêu thích đấu trường đã sớm nóng lòng muốn thử sức, vậy thì đừng chần chừ mà hãy bước lên hành trình chinh phục Đấu Trường Thiên Hạ đi."}
---Tính năng ghép đôi
-GangGuide[2] = {text="^ff6fb3Giải thích:^ffffff\rMục đích của tính năng ghép đôi là để người chơi khi tham gia chiến trường PVP, có thể cạnh tranh với người chơi có thực lực gần tương đương.\r\rKhi người chơi xếp hàng tham gia chiến trường, hệ thống sẽ ghép đôi chia phe cho người chơi, khi số người chơi trong hàng đợi ghép đôi đủ số người tham gia chiến trường, sẽ hoàn thành việc ghép đôi này, mở chiến trường. Hiện tại chế độ tham gia của các chiến trường áp dụng tính năng ghép đôi bao gồm ghép đôi đội, ghép đôi cá nhân, không giới hạn ghép đôi.\r\rHai chiến trường Quần Anh Hội và Hào Mông Quan trên Đấu Trường Thiên Hạ đều áp dụng tính năng ghép đôi để vào sân. Chiến trường Quần Anh Hội áp dụng cách mở giới hạn thời gian, người chơi sẽ tiến hành đối chiến ghép đôi trong khoảng thời gian cố định, chế độ của chiến trường này là ghép đôi cá nhân, người tham gia cần xếp hàng theo đơn vị cá nhân.\r\rHào Mông Quan là chiến trường mở cả ngày, do yêu cầu số lượng người chơi tham gia tương đối nhiều, trong trường hợp số người trong hàng đợi ghép đôi không đủ số người mở chiến trường, chiến trường sẽ không thể mở.\r\rĐề nghị người chơi tổ chức theo nhóm tham gia chiến trường vào một số khoảng thời gian nhất định, ví dụ như 9 giờ sáng - 11 giờ sáng, 3 giờ chiều - 5 giờ chiều, Hào Mông Quan áp dụng chế độ không giới hạn, người chơi có thể xếp hàng theo đơn vị cá nhân hoặc đội."}
---Thể lệ Giải Đấu Trường Quân Đoàn
-GangGuide[3] = {text="^ff6fb3Điều kiện đăng ký:^ffffff\rHoạt động Đấu Trường Quân Đoàn ^ffff00cách tuần^ffffff mở, mỗi lần mở, tuần đầu tiên là thời gian các quân đoàn chạy đua lên bảng xếp hạng, tuần thứ hai sẽ căn cứ vào bảng xếp hạng mức tăng cống hiến quân đoàn của tuần trước để xếp hạng, và bắt đầu đăng ký Đấu Trường Quân Đoàn vào tối thứ Hai. Đoàn trưởng của 100 quân đoàn đứng đầu bảng xếp hạng có quyền đăng ký, lấy 32 quân đoàn đăng ký trước vào chia nhóm.\r\r^ff6fb3Thời gian đăng ký và thi đấu mỗi vòng:^ffffff\rThứ Hai 19:00-20:00 đăng ký\rThứ Ba 21:00-23:00 vòng 1 32 vào 16\rThứ Tư 21:00-23:00 vòng 2 16 vào 8\rThứ Năm 21:00-23:00 vòng 3 8 vào 4\rThứ Sáu 21:00-23:00 vòng 4 4 vào 2\rThứ Bảy 21:00-23:00 vòng 5 chung kết\r\rĐấu Trường Quân Đoàn áp dụng thể thức loại trực tiếp một trận, sau năm vòng đấu sẽ chọn ra nhà vô địch cuối cùng, thành viên quân đoàn tham gia mỗi trận đấu kết thúc đều sẽ nhận được phần thưởng tương ứng và phần thưởng thêm khi thăng cấp."}
---Quy trình Chiến Trường Đấu Trường Quân Đoàn
-GangGuide[4] = {text="^ff6fb3Quy trình:^ffffff\rChiến trường Đấu Trường Quân Đoàn mỗi bên giao chiến có thể có 80 thành viên vào, trong thời gian 120 phút tiêu diệt chủ tướng đối phương hoặc gây sát thương cho hắn nhiều nhất có thể để giành chiến thắng chiến trường.\r\rKhu vực chính của chiến trường là căn cứ của hai bên công và thủ và ba khu vực chiến đấu trung tâm, người chơi hai bên có thể chiếm lĩnh ba đại doanh trong chiến trường bằng cách cướp cờ, nhưng chiếm lĩnh sẽ không tạo ra điểm tích lũy.\r\rNgười chơi thông qua việc chiếm lĩnh đại doanh làm mới Đăng Vân Xa để leo lên Đài Phong Hỏa trung tâm đại doanh, mở Phong Hỏa sẽ làm suy yếu các thuộc tính khác nhau của chủ tướng đối phương, từ đó đạt được mục đích tiêu diệt chủ tướng đối phương.\r\rĐăng Vân Xa sẽ đi từ căn cứ chính của bên chiếm lĩnh đến đại doanh đó, trên đường đi người chơi đối phương có thể phá hủy nó, ngăn cản Đăng Vân Xa tiếp cận Đài Phong Hỏa; tương tự nếu Đăng Vân Xa thành công đến dưới Đài Phong Hỏa, tinh binh phe ta ẩn náu trong Đăng Vân Xa cũng sẽ nhảy ra hỗ trợ người chơi phe ta tiêu diệt kẻ địch.\r\rMở Phong Hỏa ở các đại doanh khác nhau, sẽ làm suy yếu các thuộc tính khác nhau của chủ tướng đối phương, như giảm lực tấn công, tăng sát thương trực tiếp và sát thương gián tiếp phải chịu, người chơi có thể tùy tình hình mà lựa chọn.\r\rTrong chiến trường còn có các Thuyền Chiến qua lại giữa ba đại doanh, người chơi có thể lái nó để vận chuyển người chơi phe ta thực hiện bố trí chiến lược, tăng cường tính hợp tác và chiến lược chiến trường giữa người chơi."}
---Thể lệ Quần Anh Hội
-GangGuide[5] = {text="^ff6fb3Định vị binh chủng:^ffffff\rMỗi lần người chơi có thể chọn một binh chủng chính tham gia cuộc thi, một khi tiến hành ghép đôi lần đầu tiên, binh chủng chính tham gia của người chơi sẽ được định vị, trong tuần này tham gia Quần Anh Hội chỉ có thể sử dụng binh chủng đã định vị lần đầu. Tình hình binh chủng đã định vị sẽ hiển thị trong “Chi tiết xếp hạng điểm tích lũy” trên giao diện xếp hàng.\r\r^ff6fb3Sắp xếp lịch thi đấu:^ffffff\rQuy trình thi đấu chia làm ba vòng, thứ Tư, thứ Năm, thứ Bảy là ngày thi đấu, cách tuần là một chu kỳ, tuần sau sẽ xóa kết quả thi đấu của tuần trước. Thời gian sắp xếp cụ thể như sau\r1) Vòng sơ loại server đơn:\rMở cuộc thi vào tối thứ Tư 21:00-22:30. Người chơi theo đơn vị cá nhân ghép đôi đối thủ theo binh chủng trong khoảng thời gian này, sau khi ghép đôi thành công sẽ tiến hành thi đấu 1V1.\rSau 22:30, căn cứ vào điểm tích lũy thắng trận cá nhân chọn ra 5 người đứng đầu mỗi binh chủng trên server đơn, ngày hôm sau trên liên server sẽ gửi vé vào vòng phục đấu qua thư.\r2) Vòng phục đấu liên server:\rMở cuộc thi vào tối thứ Năm 21:00-22:30. Người chơi nhận được vé vào vòng phục đấu của mỗi server, sau khi vào liên server trong khoảng thời gian mở cuộc thi, tiến hành đối chiến ghép đôi theo binh chủng.\rSau 22:30, căn cứ vào điểm tích lũy thắng trận chọn ra 1 người đứng đầu mỗi binh chủng, khi liên server mở vào Thứ Bảy, sẽ gửi vé vào vòng chung kết qua thư.\r3) Vòng chung kết liên server:\rMở cuộc thi vào tối thứ Bảy 22:00-23:30. Người đứng đầu mỗi binh chủng tiến hành ghép đôi không giới hạn binh chủng trong khoảng thời gian này, trong trận chung kết cuối cùng, mỗi lần đều có khả năng gặp phải địch thủ mạnh mẽ của các binh chủng khác nhau, sau khi ghép đôi thành công, sẽ tiến hành thi đấu 1V1.\rSau 23:30 cuộc thi sẽ căn cứ vào điểm tích lũy thắng trận chọn ra quán quân, á quân, quý quân. Ngày hôm sau khi liên server mở, sẽ gửi thưởng qua thư cho họ. Cách tuần sẽ lặp lại quy trình thi đấu của tuần này."}
---Quy trình Chiến Trường Quần Anh Hội
-GangGuide[6] = {text= "^ff6fb3Giải thích:^ffffff\rMỗi thứ Hai, tại Võ Sư Đấu Trường Thiên Hạ thứ nhất #85961# ở thành Trường An, sẽ phát vé tham gia cuộc thi Quần Anh Hội. Sau khi sử dụng vé có thể xếp hàng tham gia cuộc thi trong thời gian quy định. Khi hoàn thành ghép đôi người chơi bằng tính năng ghép đôi, chiến trường sẽ được mở. Người chơi vào chiến trường tiến hành thi đấu 1 chọi 1, cuộc thi sẽ áp dụng thể thức ba ván thắng hai, quy tắc thắng thua như sau:\r\r1. Trong thời gian hiệp đấu, nếu một bên người chơi tử vong, thì phán định là thua, số hiệp thắng của người chơi đối phương cộng một.\r2. Khi thời gian hiệp đấu kết thúc, nếu cả hai bên người chơi đều chưa tử vong, thì phán định lượng sát thương tích lũy phải chịu, bên chịu sát thương nhiều hơn là thua, số hiệp thắng của người chơi đối phương cộng một.\r3. Nếu các điều kiện trên đều không thỏa mãn, thì cả hai bên đều thua, số hiệp thắng của cả hai bên đều không tăng.\r4. Người giành được hai ván thắng sẽ là người thắng cuộc cuối cùng."}
-
---Phần thưởng và Đổi thưởng Quần Anh Hội
-GangGuide[7] = {text="^ff6fb3Làm thế nào để nhận phần thưởng:^ffffff\rMỗi lần tham gia một trận đấu, người thắng và người thua đều sẽ nhận được một lượng Điểm Huân Quần Anh Hội nhất định. Vòng sơ loại trên mỗi server, chọn ra 5 người đứng đầu mỗi binh chủng, họ sẽ nhận được 100 Điểm Huân Quần Anh Hội và vé vào vòng phục đấu, hệ thống sẽ gửi qua thư khi liên server mở vào Thứ Năm. Vòng phục đấu Đấu Trường Thiên Hạ trên server liên server, sẽ chọn ra 1 người đứng đầu mỗi binh chủng, người đứng đầu sẽ nhận được 200 Điểm Huân và vé vào vòng chung kết, hệ thống sẽ gửi qua thư khi liên server mở vào Thứ Bảy, vòng chung kết Đấu Trường Thiên Hạ trên server liên server, sẽ chọn ra 3 người đứng đầu, họ sẽ nhận được 300 Điểm Huân.\rLàm thế nào để đổi thưởng:\r    Điểm Huân Quần Anh Hội có thể dùng để đổi thưởng, có thể xem chi tiết phần thưởng ở chỗ Võ Sư Đấu Trường Thiên Hạ thứ nhất #85961# ở thành Trường An."}
---Phần thưởng và Đổi thưởng
+-- 1. What is the World Arena?
+GangGuide[1] = {text="^ff6fb3Explanation:^ffffff\rThe World Arena is a competitive stage for players from different servers to test their skills. Players can enter by speaking to the World Arena Teleport Envoy - Martial Saint (83,110) in Changan City.\r\r^ff6fb3Gameplay:^ffffff\rThe World Arena server currently hosts several events: 'Haomong Pass' for large-scale resource battles, 'Elite Assembly' for individual duels, and the 'Legion Arena Championship' for guild-based warfare.\r\rTo ensure fairness, both the Elite Assembly and Haomong Pass utilize a brand-new matchmaking system to balance participants, while the Legion Arena is a grand event organized by Legion units.\r\rWe know you're eager to prove your worth—don't hesitate, step onto the path of conquest in the World Arena now!"}
+-- 2. Matchmaking System
+GangGuide[2] = {text="^ff6fb3Explanation:^ffffff\rThe purpose of the matchmaking system is to ensure that players are paired against opponents of similar strength in PvP battlefields.\r\rWhen queuing, the system balances players into factions. Once the queue reaches the required number of participants, the battlefield opens. Current modes include Team Matchmaking, Solo Matchmaking, and Unrestricted Matchmaking.\r\rThe 'Elite Assembly' and 'Haomong Pass' both use this system. Elite Assembly is time-limited and requires Solo Matchmaking (queuing individually).\r\rHaomong Pass is open all day, but due to the high player requirement, the field will not open if the queue is insufficient. It is recommended to join during peak hours, such as 09:00 - 11:00 or 15:00 - 17:00. Haomong Pass allows Unrestricted Matchmaking (Solo or Team queue)."}
+-- 3. Legion Arena Championship Rules
+GangGuide[3] = {text="^ff6fb3Registration Requirements:^ffffff\rThe Legion Arena opens ^ffff00every other week^ffffff. The first week is for Legions to race for ranking points; the second week uses the 'Legion Contribution Growth' ranking from the previous week. Registration starts Monday night. Leaders of the Top 100 ranked Legions are eligible, and the first 32 Legions to register will be bracketed.\r\r^ff6fb3Schedule:^ffffff\rMonday 19:00-20:00: Registration\rTuesday 21:00-23:00: Round 1 (Top 32 to 16)\rWednesday 21:00-23:00: Round 2 (Top 16 to 8)\rThursday 21:00-23:00: Round 3 (Top 8 to 4)\rFriday 21:00-23:00: Round 4 (Semifinals)\rSaturday 21:00-23:00: Round 5 (Finals)\r\rThe Legion Arena uses a single-elimination format. Members receive rewards after each match and bonus rewards for advancing."}
+-- 4. Legion Arena Battlefield Flow
+GangGuide[4] = {text="^ff6fb3Process:^ffffff\rEach match supports 80 members per side. Within 120 minutes, win by defeating the enemy General or dealing the most damage to him.\r\rThe battlefield consists of bases for attackers/defenders and three central combat zones. Players can capture the three Great Camps by seizing flags, though capturing them does not generate points.\r\rCapturing a camp spawns 'Cloud-Ladders' (Siege Towers) to reach the central Beacon Towers. Activating Beacons weakens the enemy General's attributes, making him easier to defeat.\r\rEnemy players can destroy Cloud-Ladders on their way to the Beacon Towers. If a Ladder reaches its destination, elite troops inside will jump out to assist your team.\r\rDifferent Beacons weaken different stats (e.g., reducing ATK, increasing direct/indirect damage taken). Strategy is key. Warships also travel between camps, allowing strategic transport of players for coordinated strikes."}
+-- 5. Elite Assembly Rules (Quần Anh Hội)
+GangGuide[5] = {text="^ff6fb3Class Lock:^ffffff\rPlayers choose one primary weapon class for the event. Once you enter your first match, your class is locked for the week. Your locked class status is shown in the 'Point Ranking Details' on the queue interface.\r\r^ff6fb3Competition Schedule (Bi-weekly cycle):^ffffff\r1) Single-Server Preliminaries:\rWednesday 21:00-22:30. Solo matchmaking against opponents of the same class (1v1). The Top 5 of each class per server receive an entry ticket for the next round via mail.\r2) Inter-server Repechage:\rThursday 21:00-22:30. Eligible ticket holders enter the cross-server arena for class-based matchmaking. The Top 1 of each class receives a Finals ticket via mail.\r3) Inter-server Finals:\rSaturday 22:00-23:30. Class leaders compete in 'Unrestricted Class' matchmaking. You may face powerful foes from any weapon class in 1v1 duels.\rWinners (1st, 2nd, 3rd) receive rewards by mail on Sunday. The cycle repeats every two weeks."}
+-- 6. Elite Assembly Battle Flow
+GangGuide[6] = {text= "^ff6fb3Explanation:^ffffff\rEvery Monday, visit the First World Arena Master #85961# in Changan to claim your entry ticket. Use it to queue during event times. Once matched, the 1v1 battlefield opens. Matches are Best of Three (Bo3) with the following rules:\r\r1. If a player dies, the opponent wins the round.\r2. If the round timer ends and both are alive, the player who took the least cumulative damage wins.\r3. If neither condition is met, both players lose the round.\r4. The first to win two rounds wins the match."}
+-- 7. Elite Assembly Rewards
+GangGuide[7] = {text="^ff6fb3Claiming Rewards:^ffffff\rBoth winners and losers earn 'Elite Assembly Merit Points' for every match. \r- Preliminaries (Single-server): Top 5 per class get 100 Merit Points and a Repechage Ticket.\r- Repechage (Cross-server): Top 1 per class gets 200 Merit Points and a Finals Ticket.\r- Finals (Cross-server): Top 3 winners receive 300 Merit Points.\r\rHow to Exchange:\rMerit Points can be redeemed for rare rewards at the First World Arena Master #85961# in Changan City."}
+-- 8. Rewards and Exchange (Miscellaneous)
 GangGuide[8] = {text="Null"}
---Bảng xếp hạng đấu trường
+-- 9. Arena Rankings
 GangGuide[9] = {text="Null"}
 
 --------------------------------------------------------------------
@@ -3321,172 +3325,172 @@ GangGuide[9] = {text="Null"}
 --------------------------------------------------------------------
 
 
---[[护卫百科全卷用表
-1,护卫遣散指引
-2,护卫绑定指引
-3,护卫易筋指引
-4,护卫训练指引
-5,护卫投诚指引
-6,护卫锁定指引
-7,护卫洗点指引
-8,护卫晋升官阶指引
-9,护卫提高声望服务指引
-10,护卫技能学习服务指引
-11,护卫技能升级服务指引
-12,护卫技能遗忘服务指引
-13,护卫士气系统指引
-14,护卫属性详细介绍
+--[[Guard Encyclopedia Table
+1, Guard Dismissal Guide
+2, Guard Binding Guide
+3, Guard Refinement Guide
+4, Guard Training Guide
+5, Guard Surrender Guide
+6, Guard Locking Guide
+7, Guard Stat Reset Guide
+8, Guard Rank Promotion Guide
+9, Guard Reputation Improvement Guide
+10, Guard Skill Learning Guide
+11, Guard Skill Upgrade Guide
+12, Guard Skill Forget Guide
+13, Guard Morale System Guide
+14, Detailed Guard Attributes Introduction
 --]]
 
 PetGuide = {}
-PetGuide[1] = {text="^ff6fb3Giải Tán Hộ Vệ\r\r^ffffffBạn có thể giải tán hộ vệ không còn cần thiết, hộ vệ bị giải tán sẽ biến mất vĩnh viễn, vui lòng sử dụng cẩn thận!\r\rNếu không gian hộ vệ của bạn không đủ nhưng lại không muốn giải tán, có thể sử dụng gửi hộ vệ, hoặc chuyển hộ vệ ở trạng thái chưa ràng buộc thành Thư Quy Phục.\r\rCó thể nhấp vào nút Giải Tán trên bảng điều khiển hộ vệ để giải tán hộ vệ.\r\r", image="CB\\图片\\护卫指引图片\\指引遣散.tga"}
-PetGuide[2] = {text="^ff6fb3Ràng Buộc Hộ Vệ\r\r^ffffffHộ vệ ở trạng thái chưa ràng buộc có thể chuyển thành Thư Quy Phục để trao đổi với người khác, nhưng không thể tấn thăng quan giai.\r\rHộ vệ ở trạng thái ràng buộc không thể chuyển thành Thư Quy Phục, nên không thể trao đổi với người khác, nhưng có thể tấn thăng quan giai.\r\rMột khi ràng buộc sẽ không thể trở lại trạng thái chưa ràng buộc.\r\rCó thể nhấp vào nút Ràng Buộc trên bảng điều khiển hộ vệ để tiến hành ràng buộc.\r\r", image="CB\\图片\\护卫指引图片\\指引绑定.tga"}
-PetGuide[3] = {text="^ff6fb3Dịch Cân Hộ Vệ\r\r^ffffffThiên tư hộ vệ được chia thành tám giai đoạn: ^a8a8a8Kém phẩm^ffffff, ^ffffffSơ phẩm^ffffff, ^72fe00Thứ phẩm^ffffff, ^0184ffTrân phẩm^ffffff, ^a800ffTuyệt phẩm^ffffff, ^ff7d2fTiên phẩm^ffffff, ^fff962Thần phẩm^ffffff, ^ff4ca4Hoàn mỹ^ffffff.\r\rThiên tư thuộc tính của hộ vệ càng cao, có nghĩa là không gian trưởng thành thuộc tính đó của hộ vệ càng lớn.\r\rDịch Cân hộ vệ sẽ thay đổi thiên tư của hộ vệ, và hộ vệ có thanh danh càng cao, càng có khả năng nhận được thiên tư cao hơn.\r\r^00ff00Vinh Diệu Thạch^ffffff có thể làm cho lực tấn công, kế sách và sinh lực của hộ vệ tái sinh, còn ^00ff00Dịch Cân Hoàn^ffffff có thể làm cho tư chất võ lực, tư chất trí lực và tư chất gân cốt của hộ vệ tái sinh.\r\rCó thể nhấp vào nút Dịch Cân trên bảng điều khiển hộ vệ để vào giao diện Dịch Cân.\r\r", image="CB\\图片\\护卫指引图片\\指引易筋.tga"}
-PetGuide[4] = {text="^ff6fb3Huấn Luyện Hộ Vệ\r\r^ffffffThông thường, hộ vệ có thể được chia thành bốn loại: ^8d76ffHướng Cân Bằng^ffffff, ^ff4ca4Hướng Võ Tướng^ffffff, ^40b4a0Hướng Kế Sách^ffffff và ^ceff8aHướng Trung Hậu^ffffff.\r\rHộ vệ Hướng Cân Bằng sẽ thể hiện các loại khác nhau trong khuynh hướng trưởng thành dựa trên các thiên tư khác nhau.\r\rBạn có thể huấn luyện hộ vệ của mình thành loại hướng khác.\r\rSau khi huấn luyện, thuộc tính, đánh giá và tính cách của hộ vệ sẽ thay đổi, trong khi kinh nghiệm, cấp độ, quan giai, thanh danh, phương án phân bổ thuộc tính và trạng thái sĩ khí sẽ giữ nguyên.\r\rChọn các hướng huấn luyện hộ vệ khác nhau có thể cần các vật phẩm khác nhau.\r\rMột số hộ vệ đặc biệt không có loại khác, nên không thể huấn luyện.\r\rCó thể sử dụng vật phẩm liên quan tại #69417# ở Vân Đài Trường An với một khoản tiền và kinh nghiệm nhân vật nhất định để tiến hành huấn luyện.\r\r", image="CB\\图片\\护卫指引图片\\指引训练.tga"}
-PetGuide[5] = {text="^ff6fb3Quy Phục Hộ Vệ\r\r^ffffffHộ vệ phải được chuyển thành Thư Quy Phục, mới có thể giao dịch với người khác.\r\rSau khi quy phục thuộc tính của hộ vệ sẽ không thay đổi, tên sẽ trở về tên ban đầu khi nhận được.\r\rHộ vệ ở trạng thái ràng buộc không thể quy phục.\r\rHộ vệ ở trạng thái khóa vui lòng giải khóa trước khi quy phục.\r\rHộ vệ chưa ràng buộc và chưa khóa có thể sử dụng ^00ff00Vạn Thế Bút^ffffff tại #69417# ở Vân Đài Trường An với một khoản tiền và kinh nghiệm nhân vật nhất định để tiến hành quy phục.\r\r", image="CB\\图片\\护卫指引图片\\指引投诚.tga"}
-PetGuide[6] = {text="^ff6fb3Khóa Hộ Vệ\r\r^ffffffHộ vệ sau khi khóa không thể quy phục và giải tán, và khi giải khóa cần nhập mật khẩu kho nhân vật.\r\rNếu hộ vệ bạn đã chọn hiện tại đang ở trạng thái khóa, dịch vụ này sẽ tự động chuyển thành dịch vụ giải khóa.\r\rNếu hiện tại chưa đặt mật khẩu kho, thì phải đặt trước khi khóa.\r\rGiải khóa hộ vệ không có thời gian chờ đợi.\r\rCó thể sử dụng ^00ff00Hồng Quân Tỏa^ffffff và ^00ff00Nữ Oa Thạch^ffffff tại #69417# ở Vân Đài Trường An để tiến hành khóa và giải khóa hộ vệ.\r\r", image="CB\\图片\\护卫指引图片\\指引锁定.tga"}
-PetGuide[7] = {text="^ff6fb3Đặt Lại Điểm Thuộc Tính Hộ Vệ\r\r^ffffffNếu bạn không hài lòng với việc phân bổ điểm thuộc tính của hộ vệ, có thể sử dụng Đặt Lại Điểm Thuộc Tính Hộ Vệ để khôi phục các điểm thuộc tính hộ vệ đã phân bổ cho võ lực, trí lực và gân cốt thành điểm thuộc tính tự do.\r\rCó thể sử dụng ^00ff00Hằng Hà Thủy^ffffff tại #69417# ở Vân Đài Trường An với một khoản tiền và kinh nghiệm nhân vật nhất định để tiến hành đặt lại điểm.\r\r", image="CB\\图片\\护卫指引图片\\指引洗点.tga"}
-PetGuide[8] = {text="^ff6fb3Tấn Thăng Quan Giai Hộ Vệ\r\r^ffffffHộ vệ ban đầu là quan giai cửu phẩm, sau đó mỗi lần hộ vệ đạt cấp 100 có thể tấn thăng.\r\rSau khi tấn thăng quan giai, sự trưởng thành thuộc tính của hộ vệ sẽ được nâng cao đáng kể, nhưng cấp độ, kinh nghiệm hiện tại, điểm thuộc tính đã phân bổ sẽ được đặt lại về 0, trong khi sĩ khí tổn thất sẽ được giữ lại, sĩ khí hiện tại trở thành 100 điểm, điểm thuộc tính tự do được thêm 20 điểm.\r\rSau khi tấn thăng quan giai, kinh nghiệm cần thiết để lên cấp của từng cấp độ hộ vệ sẽ tăng lên tương ứng, trong khi sĩ khí cần thiết để lên cấp không đổi.\r\rQuan giai hiện tại của hộ vệ càng cao, tiền và kinh nghiệm cần thiết để tấn thăng quan giai càng nhiều.\r\rHộ vệ ở trạng thái ràng buộc khi đạt cấp 100 có thể tấn thăng quan giai tại #69417# ở Vân Đài Trường An với một khoản tiền và kinh nghiệm nhân vật nhất định.\r\r", image="CB\\图片\\护卫指引图片\\指引晋升官阶.tga"}
-PetGuide[9] = {text="^ff6fb3Nâng Cao Thanh Danh Hộ Vệ\r\r^ffffffThanh danh hộ vệ hiện tại được chia thành sáu giai đoạn: Vô Danh Tiểu Tốt, ^72fe00Hơi Nổi Danh^ffffff, ^0184ffDanh Tiếng Một Vùng^ffffff, ^a800ffLừng Lẫy Danh Tiếng^ffffff, ^ff7d2fAnh Danh Lan Xa^ffffff, ^fff962Danh Tiếng Bốn Biển^ffffff.\r\rThanh danh hộ vệ càng cao, thuộc tính tổng thể càng mạnh, và khi Dịch Cân càng có khả năng nhận được thiên tư cao hơn.\r\rMỗi lần nâng cao thanh danh có thể tăng 1 điểm thanh danh cho hộ vệ, đồng thời còn có một xác suất nhất định trực tiếp nâng cấp thanh danh hộ vệ lên cấp tiếp theo. Sau khi trực tiếp nâng cấp thanh danh hiện tại của hộ vệ sẽ trở về 0.\r\rKhi thanh danh hộ vệ đạt đến giá trị tối đa của cấp độ hiện tại, lần nâng cao thanh danh tiếp theo chắc chắn sẽ làm thanh danh hộ vệ tăng lên một cấp.\r\rThanh danh hộ vệ sẽ không thay đổi do các thao tác khác như huấn luyện hộ vệ, tấn thăng quan giai.\r\rHộ vệ có thanh danh chưa đạt cấp tối đa có thể sử dụng ^00ff00Chiến Công Thư^ffffff tại #69417# ở Vân Đài Trường An với một khoản tiền nhất định để nâng cao thanh danh.\r\rHộ vệ quan chức cửu phẩm cao nhất chỉ có thể đạt đến Lừng Lẫy Danh Tiếng.", image="CB\\图片\\护卫指引图片\\指引提高声望.tga"}
-PetGuide[10] = {text="^ff6fb3Kỹ Năng Hộ Vệ\r\r^fffd441．Học Kỹ Năng Hộ Vệ:^ffffff\r\rThông qua dịch vụ học kỹ năng có thể làm cho hộ vệ lĩnh ngộ kỹ năng mới, có thực lực mạnh hơn.\r\rHọc kỹ năng cần Sách Kỹ Năng tương ứng, hiệu quả của kỹ năng đã học sẽ hiển thị trong khung bên phải giao diện.\r\rSách Kỹ Năng có thể nhận được thông qua tham gia hoạt động, nhiệm vụ, v.v.\r\rMột số kỹ năng có giới hạn đặc biệt, hộ vệ cận chiến không thể học kỹ năng giới hạn cận chiến có thể học, và ngược lại.\r\rKỹ năng đã học không thể học lại.\r\rHiệu quả kỹ năng có thể được nâng cao thông qua dịch vụ “Nâng cấp kỹ năng”.\r\rCó thể sử dụng vật phẩm liên quan tại #69417# ở Vân Đài Trường An với một khoản tiền và kinh nghiệm nhân vật nhất định để tiến hành học.\r\r^fffd442．Nâng Cấp Kỹ Năng Hộ Vệ:\r\r^ffffffNâng cấp kỹ năng có thể nâng cao hiệu quả của kỹ năng đã học.\r\rKéo kỹ năng cần nâng cấp vào khung tương ứng dưới “Kỹ Năng”, khung tương ứng dưới “Vật phẩm cần thiết” sẽ tự động điền vật phẩm cần thiết để nâng cấp kỹ năng đó.\r\rVật phẩm nâng cấp kỹ năng có thể nhận được thông qua tham gia nhiệm vụ, hoạt động, v.v.\r\rCó thể sử dụng vật phẩm liên quan tại #69417# ở Vân Đài Trường An với một khoản tiền và kinh nghiệm nhân vật nhất định để tiến hành nâng cấp.\r\r^fffd443．Quên Kỹ Năng Hộ Vệ:\r\r^ffffffThông qua dịch vụ quên kỹ năng, có thể loại bỏ kỹ năng không mong muốn.\r\rCó thể sử dụng ^00ff00Hương Mất Trí^ffffff tại #69417# ở Vân Đài Trường An với một khoản tiền nhất định để tiến hành quên.\r\r", image="CB\\图片\\护卫指引图片\\指引技能学习.tga"}
-PetGuide[11] = {text="^ff6fb3Truyền Thừa Hộ Vệ\r\r^ffffffTruyền thừa hộ vệ là chuyển một phần thuộc tính của một hộ vệ (người truyền thừa) cho một hộ vệ khác (người kế thừa), sử dụng các vật phẩm khác nhau có thể chuyển các thuộc tính khác nhau. Yêu cầu người truyền thừa và người kế thừa đều đã ràng buộc, và quan giai của người truyền thừa không thấp hơn bát phẩm.\r\r^fffd44 1．Truyền Thừa Cấp Độ:\r\r^ffffffKhi sử dụng ^00ff00Thụy Thiên Hoàn^ffffff, quan giai và cấp độ của người truyền thừa sẽ được chuyển cho người kế thừa. Yêu cầu quan giai của người truyền thừa cao hơn người kế thừa, hoặc quan giai của người truyền thừa bằng người kế thừa nhưng cấp độ cao hơn người kế thừa.\r\rSau khi truyền thừa, quan giai của người truyền thừa trở về cửu phẩm, cấp độ, tất cả điểm thuộc tính, sĩ khí tổn thất và kinh nghiệm hiện tại được đặt lại về 0, sĩ khí hiện tại trở thành 100 điểm; quan giai, cấp độ, tình trạng phân bổ điểm thuộc tính, sĩ khí tổn thất và kinh nghiệm hiện tại của người kế thừa kế thừa giá trị của người truyền thừa, sĩ khí hiện tại không đổi.\r\r^fffd44 2．Truyền Thừa Thanh Danh:\r\r^ffffffKhi sử dụng ^00ff00Tung Thiên Thạch^ffffff, cấp độ thanh danh và đánh giá thiên tư của người truyền thừa sẽ được chuyển cho người kế thừa. Yêu cầu cấp độ thanh danh của người truyền thừa không thấp hơn cấp độ thanh danh của người kế thừa.\r\rSau khi truyền thừa, cấp độ thanh danh của người truyền thừa trở về Vô Danh Tiểu Tốt, giá trị thanh danh trở thành 0, tất cả đánh giá thiên tư được đặt lại; cấp độ thanh danh, giá trị thanh danh và đánh giá thiên tư của người kế thừa kế thừa giá trị của người truyền thừa.\r\r", image="CB\\图片\\护卫指引图片\\指引技能升级.tga"}
+PetGuide[1] = {text="^ff6fb3Dismiss Guard\r\r^ffffffYou can dismiss guards that are no longer needed. Dismissed guards will disappear permanently, please use this feature carefully!\r\rIf your guard slots are full but you do not want to dismiss them, you can use guard storage or convert unbound guards into a Surrender Letter.\r\rYou can click the Dismiss button on the guard panel to dismiss a guard.\r\r", image="CB\\图片\\护卫指引图片\\指引遣散.tga"}
+PetGuide[2] = {text="^ff6fb3Bind Guard\r\r^ffffffGuards in an unbound state can be converted into a Surrender Letter to trade with others, but they cannot be promoted in rank.\r\rGuards in a bound state cannot be converted into a Surrender Letter and cannot be traded, but they can be promoted in rank.\r\rOnce bound, a guard cannot return to an unbound state.\r\rYou can click the Bind button on the guard panel to proceed with binding.\r\r", image="CB\\图片\\护卫指引图片\\指引绑定.tga"}
+PetGuide[3] = {text="^ff6fb3Guard Refinement\r\r^ffffffGuard Aptitude is divided into eight stages: ^a8a8a8Poor^ffffff, ^ffffffCommon^ffffff, ^72fe00Inferior^ffffff, ^0184ffPrecious^ffffff, ^a800ffExquisite^ffffff, ^ff7d2fCelestial^ffffff, ^fff962Divine^ffffff, ^ff4ca4Perfect^ffffff.\r\rThe higher the guard's attribute aptitude, the greater the growth potential for that attribute.\r\rRefinement will change the guard's aptitude. Guards with higher reputation have a better chance of obtaining higher aptitude.\r\r^00ff00Glory Stone^ffffff can reset the guard's Attack, Strategy, and Health, while ^00ff00Refinement Pill^ffffff can reset Power, Intellect, and Physique growth potential.\r\rClick the Refinement button on the guard panel to enter the Refinement interface.\r\r", image="CB\\图片\\护卫指引图片\\指引易筋.tga"}
+PetGuide[4] = {text="^ff6fb3Guard Training\r\r^ffffffGenerally, guards are divided into four types: ^8d76ffBalanced^ffffff, ^ff4ca4General^ffffff, ^40b4a0Strategist^ffffff, and ^ceff8aLoyalist^ffffff.\r\rBalanced guards will show different growth tendencies based on different aptitudes.\r\rYou can train your guard into a different type.\r\rAfter training, the guard's attributes, rating, and personality will change, while experience, level, rank, reputation, attribute distribution, and morale state remain the same.\r\rChoosing different training paths may require different items.\r\rSome special guards do not have other types and cannot be trained.\r\rYou can use relevant items at #69417# in Changan Yuntai with a certain amount of money and character experience to perform training.\r\r", image="CB\\图片\\护卫指引图片\\指引训练.tga"}
+PetGuide[5] = {text="^ff6fb3Guard Surrender\r\r^ffffffA guard must be converted into a Surrender Letter before it can be traded with others.\r\rAfter surrendering, the guard's attributes will not change, and the name will return to the original default name.\r\rGuards in a bound state cannot surrender.\r\rIf the guard is locked, please unlock it before surrendering.\r\rUnbound and unlocked guards can use a ^00ff00Pen of Ages^ffffff at #69417# in Changan Yuntai with a certain amount of money and character experience to surrender.\r\r", image="CB\\图片\\护卫指引图片\\指引投诚.tga"}
+PetGuide[6] = {text="^ff6fb3Lock Guard\r\r^ffffffLocked guards cannot surrender or be dismissed. Unlocking requires entering the character warehouse password.\r\rIf the selected guard is currently locked, this service will automatically switch to the unlock service.\r\rIf a warehouse password is not set, you must set one before locking.\r\rThere is no waiting time to unlock a guard.\r\rYou can use ^00ff00Red Army Lock^ffffff and ^00ff00Nuwa Stone^ffffff at #69417# in Changan Yuntai to lock and unlock guards.\r\r", image="CB\\图片\\护卫指引图片\\指引锁定.tga"}
+PetGuide[7] = {text="^ff6fb3Reset Guard Attributes\r\r^ffffffIf you are unsatisfied with your guard's attribute distribution, you can use the Reset service to return points spent on Power, Intellect, and Physique back into free attribute points.\r\rYou can use ^00ff00Ganges Water^ffffff at #69417# in Changan Yuntai with a certain amount of money and character experience to perform a reset.\r\r", image="CB\\图片\\护卫指引图片\\指引洗点.tga"}
+PetGuide[8] = {text="^ff6fb3Promote Guard Rank\r\r^ffffffGuards start at Rank 9. Every time a guard reaches Level 100, they can be promoted.\r\rAfter promotion, the guard's attribute growth will be significantly improved, but the level, current experience, and allocated attribute points will reset to 0. Lost morale is retained, current morale becomes 100 points, and 20 bonus free attribute points are added.\r\rAfter promotion, the experience required to level up will increase, while the morale required remains unchanged.\r\rThe higher the rank, the more money and experience required for promotion.\r\rBound guards at Level 100 can promote their rank at #69417# in Changan Yuntai with a certain amount of money and character experience.\r\r", image="CB\\图片\\护卫指引图片\\指引晋升官阶.tga"}
+PetGuide[9] = {text="^ff6fb3Improve Guard Reputation\r\r^ffffffGuard reputation is divided into six stages: Unknown, ^72fe00Slightly Known^ffffff, ^0184ffLocal Fame^ffffff, ^a800ffIllustrious^ffffff, ^ff7d2fFamous Far and Wide^ffffff, ^fff962World Renowned^ffffff.\r\rHigher reputation increases overall attributes and provides a better chance of gaining higher aptitude during Refinement.\r\rEach improvement increases reputation by 1 point, with a chance to skip directly to the next level. If skipped, the current reputation value resets to 0.\r\rWhen reputation reaches the maximum value of the current level, the next improvement is guaranteed to level up the reputation.\r\rReputation does not change through training or rank promotion.\r\rGuards who haven't reached max reputation can use ^00ff00Battle Merit Letter^ffffff at #69417# in Changan Yuntai with a certain amount of money to increase reputation.\r\rRank 9 guards can only reach Illustrious reputation at most.", image="CB\\图片\\护卫指引图片\\指引提高声望.tga"}
+PetGuide[10] = {text="^ff6fb3Guard Skills\r\r^fffd441．Learn Guard Skills:^ffffff\r\rThrough the skill learning service, guards can learn new skills to become stronger.\r\rLearning requires the corresponding Skill Book. The effect of learned skills will be displayed in the right frame of the interface.\r\rSkill Books can be obtained through activities, quests, etc.\r\rSome skills have restrictions; melee guards cannot learn ranged skills, and vice versa.\r\rLearned skills cannot be learned again.\r\rSkill effects can be improved via the \"Upgrade Skill\" service.\r\rUse relevant items at #69417# in Changan Yuntai with money and character experience to learn skills.\r\r^fffd442．Upgrade Guard Skills:\r\r^ffffffUpgrading skills improves the effect of learned skills.\r\rDrag the skill to be upgraded into the corresponding slot under \"Skills.\" The required items will automatically fill in the \"Required Items\" frame.\r\rUpgrade items can be obtained via quests and activities.\r\rUse relevant items at #69417# in Changan Yuntai with money and character experience to upgrade.\r\r^fffd443．Forget Guard Skills:\r\r^ffffffUse the forget service to remove unwanted skills.\r\rUse ^00ff00Amnesia Incense^ffffff at #69417# in Changan Yuntai with a certain amount of money to forget a skill.\r\r", image="CB\\图片\\护卫指引图片\\指引技能学习.tga"}
+PetGuide[11] = {text="^ff6fb3Guard Inheritance\r\r^ffffffInheritance transfers attributes from one guard (the donor) to another (the successor). Different items transfer different attributes. Both guards must be bound, and the donor's rank must be at least Rank 8.\r\r^fffd44 1．Level Inheritance:\r\r^ffffffUsing ^00ff00Heavenly Orb^ffffff transfers the rank and level of the donor to the successor. The donor's rank must be higher than the successor's, or the rank must be equal but the level higher.\r\rAfter inheritance, the donor resets to Rank 9, Level 0, and all attributes/morale/exp reset. The successor inherits the donor's rank, level, and attribute distribution.\r\r^fffd44 2．Reputation Inheritance:\r\r^ffffffUsing ^00ff00Sky Stone^ffffff transfers the reputation level and aptitude rating of the donor to the successor. The donor's reputation level must be equal to or higher than the successor's.\r\rAfter inheritance, the donor's reputation resets to Unknown and aptitude is reset. The successor inherits the donor's reputation level, value, and aptitude rating.\r\r", image="CB\\图片\\护卫指引图片\\指引技能升级.tga"}
 PetGuide[12] = {text="", image="CB\\图片\\护卫指引图片\\指引技能遗忘.tga"}
-PetGuide[13] = {text="^ff6fb3Hệ Thống Sĩ Khí Hộ Vệ\r\r^ffffffTrạng thái sĩ khí của hộ vệ sẽ ảnh hưởng nhất định đến thuộc tính tổng thể của hộ vệ.\r\r^fffd441．Sĩ Khí Hiện Tại:^ffffff\r\rMỗi lần hộ vệ lên cấp đều cần tiêu hao một lượng sĩ khí hiện tại nhất định.\r\rKhi sĩ khí hiện tại cao hơn sĩ khí cần thiết để lên cấp, hộ vệ lên cấp sẽ nhận thêm thuộc tính cộng thêm; khi sĩ khí hiện tại không đủ để lên cấp hộ vệ, giá trị sĩ khí thiếu hụt sẽ được tính vào sĩ khí tổn thất.\r\rKhi huấn luyện hộ vệ, sĩ khí hiện tại không đổi; khi tấn thăng quan giai, sĩ khí hiện tại trở thành 100 điểm.\r\rBạn có thể sử dụng ^00ff00Khải Hoàn Thư^ffffff để tăng giá trị sĩ khí hiện tại của hộ vệ, giới hạn trên là 1000 điểm.\r\r^fffd442．Sĩ Khí Cần Thiết Để Lên Cấp:^ffffff\r\rSĩ khí hiện tại cần tiêu hao khi hộ vệ lên cấp.\r\rCấp độ hộ vệ càng cao, sĩ khí cần thiết để lên cấp càng nhiều.\r\r^fffd443．Sĩ Khí Tổn Thất:^ffffff\r\rKhi sĩ khí hiện tại không đủ để lên cấp hộ vệ, giá trị sĩ khí thiếu hụt sẽ được tính vào sĩ khí tổn thất.\r\rBạn có thể sử dụng ^00ff00Huy Chương Vinh Dự^ffffff để tăng sĩ khí tổn thất của hộ vệ.\r\r", image="CB\\图片\\护卫指引图片\\指引士气系统.tga"}
-PetGuide[14] = {text="^ff6fb3Giải Thích Chi Tiết Thuộc Tính Hộ Vệ\r\r^fffd441．Giá Trị Thống Suất:^ffffff\r\rCó thể mua vật phẩm liên quan đến hộ vệ trong Cửa Hàng Thống Suất.\r\rCó thể nhận được trong hoạt động Tụ Hiền Cốc.\r\r^fffd442．Thanh Danh Hộ Vệ:^ffffff\r\rThanh danh hộ vệ hiện tại được chia thành sáu giai đoạn: Vô Danh Tiểu Tốt, ^72fe00Hơi Nổi Danh^ffffff, ^0184ffDanh Tiếng Một Vùng^ffffff, ^a800ffLừng Lẫy Danh Tiếng^ffffff, ^ff7d2fAnh Danh Lan Xa^ffffff, ^fff962Danh Tiếng Bốn Biển^ffffff.\r\rThanh danh hộ vệ càng cao, thuộc tính tổng thể càng mạnh, và khi Dịch Cân càng có khả năng nhận được thiên tư cao hơn.\r\rHộ vệ có thanh danh chưa đạt cấp tối đa có thể sử dụng ^00ff00Chiến Công Thư^ffffff tại #69417# ở Vân Đài Trường An với một khoản tiền nhất định để nâng cao thanh danh.\r\r^fffd443．Ràng Buộc:^ffffff\r\rHộ vệ ở trạng thái chưa ràng buộc có thể chuyển thành Thư Quy Phục để trao đổi với người khác, nhưng không thể tấn thăng quan giai.\r\rHộ vệ ở trạng thái ràng buộc không thể chuyển thành Thư Quy Phục, nên không thể trao đổi với người khác, nhưng có thể tấn thăng quan giai.\r\rMột khi ràng buộc sẽ không thể trở lại trạng thái chưa ràng buộc.\r\rCó thể nhấp vào nút Ràng Buộc trên bảng điều khiển hộ vệ để tiến hành ràng buộc.\r\r^fffd444．Khóa:^ffffff\r\rHộ vệ sau khi khóa không thể quy phục và giải tán, và khi giải khóa cần nhập mật khẩu kho nhân vật.\r\rNếu hiện tại chưa đặt mật khẩu kho, thì phải đặt trước khi khóa.\r\rGiải khóa hộ vệ không có thời gian chờ đợi.\r\rCó thể sử dụng ^00ff00Hồng Quân Tỏa^ffffff và ^00ff00Nữ Oa Thạch^ffffff tại #69417# ở Vân Đài Trường An để tiến hành khóa và giải khóa hộ vệ.\r\r^fffd445．Độ Quý Hiếm:^ffffff\r\rĐộ quý hiếm của hộ vệ hiện tại tổng cộng có năm loại: Tư Chất Bình Thường, ^72fe00Khó Tìm Với Giá Cao^ffffff, ^0184ffTrăm Năm Khó Gặp^ffffff, ^a800ffNgàn Năm Khó Gặp^ffffff, ^ff7d2fVạn Người Mới Có Một^ffffff.\r\rĐộ quý hiếm của hộ vệ càng cao, thuộc tính tổng thể của hộ vệ càng tốt.\r\rĐộ quý hiếm thuộc về thuộc tính bẩm sinh của hộ vệ, hiện tại không thể thay đổi.\r\r^fffd446．Cấp Độ:^ffffff\r\rCấp độ hiện tại của hộ vệ, tối đa 100 cấp.\r\rHộ vệ ở trạng thái ràng buộc khi đạt cấp 100 có thể tấn thăng quan giai, sau đó cấp độ trở về 0.\r\rKhi nâng cấp hộ vệ sẽ tiêu hao kinh nghiệm hiện tại và sĩ khí hiện tại.\r\r^fffd447．Quan Giai:^ffffff\r\rHộ vệ ban đầu là quan giai cửu phẩm, sau đó mỗi lần hộ vệ đạt cấp 100 có thể tấn thăng.\r\rSau khi tấn thăng quan giai, sự trưởng thành thuộc tính của hộ vệ sẽ được nâng cao đáng kể, nhưng cấp độ, kinh nghiệm hiện tại, điểm thuộc tính đã phân bổ sẽ được đặt lại về 0, trong khi sĩ khí tổn thất sẽ được giữ lại, sĩ khí hiện tại trở thành 100 điểm, điểm thuộc tính tự do được thêm 20 điểm.\r\rSau khi tấn thăng quan giai, kinh nghiệm cần thiết để lên cấp của từng cấp độ hộ vệ sẽ tăng lên tương ứng, trong khi sĩ khí cần thiết để lên cấp không đổi.\r\rHộ vệ ở trạng thái ràng buộc khi đạt cấp 100 có thể tấn thăng quan giai tại #69417# ở Vân Đài Trường An với một khoản tiền và kinh nghiệm nhân vật nhất định.\r\r^fffd448．Lòng Trung Thành:^ffffff\r\rTrong trạng thái hộ vệ được triệu hồi ra trận hoặc hộ vệ, lòng trung thành của hộ vệ sẽ giảm sau khi hộ vệ hoặc người chơi tử vong. Cấp độ hộ vệ càng cao, lòng trung thành giảm càng nhiều.\r\rKhi lòng trung thành bằng 0, hộ vệ không thể triệu hồi ra trận.\r\rKhi lòng trung thành dưới 100, hộ vệ không thể vào trạng thái hộ vệ.\r\rKhi lòng trung thành trên 100, tỷ lệ bạo kích của hộ vệ sẽ được tăng cường.\r\rCó thể bổ sung bằng cách sử dụng Gói Thưởng Công.\r\r^fffd449．Kinh Nghiệm Hiện Tại và Kinh Nghiệm Cần Thiết Để Lên Cấp:^ffffff\r\r^00fffcNhận Kinh Nghiệm^ffffff\r\rKhi hộ vệ đang ở trạng thái hộ vệ hoặc triệu hồi ra trận, bất kể chủ nhân hoàn thành hoạt động hàng ngày hay chủ nhân hoặc hộ vệ tiêu diệt quái vật, chủ nhân và hộ vệ đều có thể nhận được kinh nghiệm và kinh nghiệm sống giống nhau cũng như vật phẩm rơi ra.\r\rQuái vật bị giết có cấp độ chênh lệch càng lớn với chủ nhân, kinh nghiệm nhận được càng ít.\r\rGiết một số quái vật đặc biệt sẽ không nhận được kinh nghiệm.\r\r^00fffcTích Lũy Kinh Nghiệm^ffffff\r\rGiới hạn tích lũy kinh nghiệm của hộ vệ trước cấp 60 là 2 lần kinh nghiệm cần thiết để lên cấp cấp 60, giới hạn tích lũy của hộ vệ từ cấp 60 trở lên là 2 lần kinh nghiệm cần thiết để lên cấp cấp độ hiện tại.\r\rKhi kinh nghiệm hộ vệ bằng hoặc vượt quá giới hạn trên sẽ không nhận được thêm, đồng thời không thể sử dụng vật phẩm tăng kinh nghiệm cho nó.\r\r^fffd4410．Ô Kỹ Năng:^ffffff\r\rCác kỹ năng hộ vệ có thể sử dụng sẽ hiển thị ở ô kỹ năng.\r\rÔ kỹ năng chưa mở có thể được mở bằng cách sử dụng vật phẩm liên quan.\r\r^fffd4411．Sinh Lực:^ffffff\r\rKhi ở trạng thái hộ vệ sẽ được cộng thêm vào sinh lực của chủ nhân theo một tỷ lệ nhất định.\r\rCó thể xem đánh giá thiên tư trong giao diện Dịch Cân hộ vệ.\r\rSinh lực của hộ vệ có thể hồi phục nhanh hơn khi thu hồi, hồi phục chậm hơn khi xuất chiến, không hồi phục ở trạng thái hộ vệ.\r\rNếu muốn hồi phục nhanh chóng có thể sử dụng vật phẩm hồi máu hộ vệ.\r\r^fffd4412．Lực Tấn Công:^ffffff\r\rKhi ở trạng thái hộ vệ sẽ được cộng thêm vào sát thương phụ thêm của chủ nhân theo một tỷ lệ nhất định.\r\rCó thể xem đánh giá thiên tư trong giao diện Dịch Cân hộ vệ.\r\r^fffd4413．Kế Sách:^ffffff\r\rCứ mỗi 2 điểm kế sách sẽ tăng 1 điểm sát thương phụ thêm cho hộ vệ.\r\rKhi ở trạng thái hộ vệ sẽ được cộng thêm vào điểm trị liệu của chủ nhân theo một tỷ lệ nhất định.\r\rCó thể xem đánh giá thiên tư trong giao diện Dịch Cân hộ vệ.\r\r^fffd4414．Ba Tư Chất:^ffffff\r\rTư chất võ lực sẽ ảnh hưởng đến lực tấn công tăng lên của mỗi điểm võ lực\r\rTư chất trí lực sẽ ảnh hưởng đến kế sách tăng lên của mỗi điểm trí lực\r\rTư chất gân cốt sẽ ảnh hưởng đến sinh lực tăng lên của mỗi điểm gân cốt\r\rCó thể xem đánh giá thiên tư trong giao diện Dịch Cân hộ vệ.\r\r^fffd4415．Khuynh Hướng Trưởng Thành:^ffffff\r\rTổng cộng có ba hướng trưởng thành: ^ff4ca4Kiểu Võ Tướng^ffffff, ^40b4a0Kiểu Kế Sách^ffffff và ^ceff8aKiểu Trung Hậu^ffffff.\r\rKhuynh hướng trưởng thành của hộ vệ là hướng mà hộ vệ có không gian phát triển lớn nhất.\r\rVí dụ, hộ vệ kiểu võ tướng sẽ có lực tấn công tăng lên nhiều hơn khi mỗi lần lên cấp và mỗi lần phân bổ một điểm võ lực.\r\r^fffd4416．Võ Lực, Trí Lực, Gân Cốt:^ffffff\r\rCó thể tự do phân bổ điểm còn lại cho ba thuộc tính này\r\rMỗi điểm võ lực sẽ tăng lực tấn công, lượng tăng do tư chất võ lực quyết định\r\rMỗi điểm trí lực sẽ tăng kế sách, lượng tăng do tư chất trí lực quyết định\r\rMỗi điểm gân cốt sẽ tăng sinh lực, lượng tăng do tư chất gân cốt quyết định\r\rNếu không hài lòng với cách phân bổ, có thể sử dụng ^00ff00Hằng Hà Thủy^ffffff tại #69417# ở Vân Đài Trường An với một khoản tiền và kinh nghiệm nhân vật nhất định để tiến hành đặt lại điểm.\r\r^fffd4417．Điểm Còn Lại:^ffffff\r\rMỗi lần hộ vệ lên cấp sẽ tăng thêm 3 điểm tự do.\r\rSau khi hộ vệ tấn thăng quan giai sẽ xóa tất cả điểm đã phân bổ và chưa phân bổ, đồng thời mỗi lần tấn thăng quan giai được thêm 20 điểm tự do.\r\r^fffd4418．Điểm Thiên Tư:^ffffff\r\rTổng hợp từ đánh giá thiên tư của sáu thuộc tính: lực tấn công, kế sách, sinh lực, tư chất võ lực, tư chất trí lực, tư chất gân cốt.\r\rĐánh giá thiên tư khuynh hướng trưởng thành sẽ chiếm tỷ trọng tổng hợp lớn hơn.\r\rCó thể sử dụng Dịch Cân cho hộ vệ để đặt lại, hộ vệ có thanh danh cao hơn càng có khả năng nhận được điểm thiên tư cao hơn.\r\r^fffd4419．Tư Chất Cốt Lõi:^ffffff\r\rĐánh giá thiên tư trên khuynh hướng trưởng thành của hộ vệ, số sao càng cao, có nghĩa là thiên tư của hộ vệ ở khuynh hướng trưởng thành càng tốt.\r\rVí dụ, hộ vệ kiểu võ tướng có số sao tư chất cốt lõi càng cao, thiên tư của hắn ở lực tấn công và tư chất võ lực càng tốt.\r\r^fffd4420．Tiềm Lực Trưởng Thành:^ffffff\r\rTiềm lực trưởng thành của hộ vệ sẽ ảnh hưởng tổng thể đến sự trưởng thành của lực tấn công, kế sách, sinh lực của hộ vệ khi mỗi lần lên cấp và mỗi lần phân bổ một điểm thuộc tính.\r\rThanh danh hộ vệ càng cao, quan giai càng cao, số sao tiềm lực trưởng thành càng cao.\r\r^fffd4421．Sĩ Khí:^ffffff\r\rTrạng thái sĩ khí của hộ vệ sẽ ảnh hưởng nhất định đến thuộc tính tổng thể của hộ vệ.\r\r^fff600Sĩ Khí Hiện Tại:^ffffff\r\rMỗi lần hộ vệ lên cấp đều cần tiêu hao một lượng sĩ khí hiện tại nhất định.\r\rKhi sĩ khí hiện tại cao hơn sĩ khí cần thiết để lên cấp, hộ vệ lên cấp sẽ nhận thêm thuộc tính cộng thêm; khi sĩ khí hiện tại không đủ để lên cấp hộ vệ, giá trị sĩ khí thiếu hụt sẽ được tính vào sĩ khí tổn thất.\r\rKhi huấn luyện hộ vệ, sĩ khí hiện tại không đổi; khi tấn thăng quan giai, sĩ khí hiện tại trở thành 100 điểm.\r\rBạn có thể sử dụng ^00ff00Khải Hoàn Thư^ffffff để tăng giá trị sĩ khí hiện tại của hộ vệ, giới hạn trên là 1000 điểm.\r\r^fff600Sĩ Khí Cần Thiết Để Lên Cấp:^ffffff\r\rSĩ khí hiện tại cần tiêu hao khi hộ vệ lên cấp.\r\rCấp độ hộ vệ càng cao, sĩ khí cần thiết để lên cấp càng nhiều.\r\r^fff600Sĩ Khí Tổn Thất:^ffffff\r\rKhi sĩ khí hiện tại không đủ để lên cấp hộ vệ, giá trị sĩ khí thiếu hụt sẽ được tính vào sĩ khí tổn thất.\r\rBạn có thể sử dụng ^00ff00Huy Chương Vinh Dự^ffffff để tăng sĩ khí tổn thất của hộ vệ.\r\r^fffd4422．Tính Cách:^ffffff Tính cách hộ vệ chia làm năm loại: Dũng mãnh, Linh hoạt, Trí tuệ, Nhiệt huyết, Chuyên chú, tổng của năm tính cách này là 100%, mỗi hộ vệ đều đồng thời có đủ năm tính cách này, chỉ là khuynh hướng hơi khác nhau.\r\r^00fffcDũng Mãnh:^ffffff\rKhí nuốt vạn tượng, càn quét nghìn quân như cuốn chiếu. Khuynh hướng tăng lực tấn công bản thân hộ vệ và giới hạn lực tấn công đối với kẻ địch.\r\r^00fffcLinh Hoạt:^ffffff\rThân pháp linh hoạt, khiến kẻ địch trở tay không kịp. Khuynh hướng làm suy yếu kháng sát thương, kháng chế ngự, kháng phong ấn, kháng suy yếu, kháng mất máu đối với kẻ địch.\r\r^00fffcTrí Tuệ:^ffffff\rThần cơ diệu toán, mưu trí hơn người. Khuynh hướng trị liệu và ảnh hưởng hiệu quả trị liệu đối với kẻ địch.\r\r^00fffcNhiệt Huyết:^ffffff\rNhiệt huyết tràn đầy, biết khó mà tiến lên. Khuynh hướng bạo kích bản thân và ảnh hưởng bạo kích đối với kẻ địch.\r\r^00fffcChuyên Chú:^ffffff \rTập trung tinh thần, chuyên tâm chế địch. Khuynh hướng giới hạn phòng ngự và kháng trực gián tiếp đối với kẻ địch.\r\r", image="CB\\图片\\护卫指引图片\\指引属性详细.tga"}
-PetGuide[15] = {text="^ff6fb3Chiến Đấu Hộ Vệ\r\r^fffd441．Chế Độ Chiến Đấu Của Hộ Vệ:^ffffff\r\rChế độ chiến đấu của hộ vệ chia làm triệu hồi xuất chiến và hộ vệ.\r\r^00fffcTriệu Hồi Xuất Chiến:^ffffff\r\rSau khi hộ vệ được triệu hồi ra trận có ba chế độ chiến đấu—Chủ động, Bị động và Nghỉ ngơi.\r\rTrong chế độ Chủ động, hộ vệ sẽ chủ động tấn công kẻ địch trong tầm nhìn của mình;\r\rTrong chế độ Bị động, hộ vệ sẽ không chủ động tấn công kẻ địch, nhưng khi bị tấn công sẽ tự động phản công, còn sẽ hỗ trợ chủ nhân tấn công kẻ địch;\r\rTrong chế độ Nghỉ ngơi, hộ vệ sẽ không tấn công bất kỳ kẻ địch nào.\r\r^00fffcHộ Vệ:^ffffff\r\rTrong trạng thái hộ vệ, hộ vệ không trực tiếp xuất hiện, mà sẽ cộng thêm thuộc tính bản thân vào người chơi theo tỷ lệ.\r\rLực tấn công của hộ vệ cộng thêm thành sát thương phụ thêm của người chơi;\r\rKế sách của hộ vệ cộng thêm thành điểm trị liệu của người chơi;\r\rSinh lực của hộ vệ cộng thêm thành sinh lực của người chơi.\r\r^fffd442．Hộ Vệ và Chiến Đấu Giữa Người Chơi:^ffffff\r\rHộ vệ ở trạng thái triệu hồi xuất chiến gây sát thương cho người chơi là 30%, thuộc tính hộ vệ cộng thêm cho người chơi ở trạng thái hộ vệ sẽ không suy giảm khi PK\r\r^fffd443．Giới Hạn Triệu Hồi Xuất Chiến Hộ Vệ:^ffffff\r\rMột số bản đồ và chiến trường cấm triệu hồi xuất chiến hộ vệ, khi triệu hồi hộ vệ, hộ vệ sẽ tự động vào trạng thái hộ vệ.\r\r^00fffcBản đồ cấm triệu hồi xuất chiến hộ vệ:^ffffff\r\r^ff80ffBản đồ Quốc Chiến  Bản đồ Thủy Chiến Xích Bích  Sân Trường Quân^ffffff\r\r^00fffcChiến trường cấm triệu hồi xuất chiến hộ vệ:^ffffff\r\r^ff80ffTrường Đua Ngựa  Tôn Hương Truyện  Ma Vực Hạng Vương  Thương Sở Ly Ca  Cổ Điện Lâu Lan  Ảo Tưởng Bát Trận Đồ^ffffff\r\r", image="CB\\图片\\护卫指引图片\\指引护卫战斗.tga"}
+PetGuide[13] = {text="^ff6fb3Guard Morale System\r\r^ffffffThe guard's morale state affects their overall attributes.\r\r^fffd441．Current Morale:^ffffff\r\rEach time a guard levels up, a certain amount of current morale is consumed.\r\rIf current morale is higher than required for level up, the guard gains bonus attributes. If insufficient, the deficit is counted as Morale Loss.\r\rCurrent morale does not change during training. Upon rank promotion, it resets to 100 points.\r\rYou can use ^00ff00Triumphant Letter^ffffff to increase current morale, up to 1000 points.\r\r^fffd442．Morale Required for Level Up:^ffffff\r\rThe amount of morale consumed when leveling up.\r\rThe higher the guard level, the more morale is required.\r\r^fffd443．Morale Loss:^ffffff\r\rWhen current morale is insufficient for leveling up, the deficit is recorded here.\r\rYou can use ^00ff00Honor Medal^ffffff to reduce the guard's Morale Loss.\r\r", image="CB\\图片\\护卫指引图片\\指引士气 system.tga"}
+PetGuide[14] = {text="^ff6fb3Detailed Guard Attributes\r\r^fffd441．Command Value:^ffffff\r\rUsed to purchase guard-related items in the Command Shop. Obtained from Gathering Heroes Valley activities.\r\r^fffd442．Guard Reputation:^ffffff\r\nReputation levels: Unknown, ^72fe00Slightly Known^ffffff, ^0184ffLocal Fame^ffffff, ^a800ffIllustrious^ffffff, ^ff7d2fFamous Far and Wide^ffffff, ^fff962World Renowned^ffffff. Higher reputation increases overall strength and refinement potential.\r\r^fffd443．Binding:^ffffff\r\nUnbound guards can be traded via Surrender Letters but cannot promote. Bound guards can promote but cannot be traded.\r\r^fffd444．Locking:^ffffff\r\nLocked guards cannot surrender or be dismissed. Unlocking requires a warehouse password.\r\r^fffd445．Rarity:^ffffff\r\nFive types: Common, ^72fe00Rare^ffffff, ^0184ffCentury Rare^ffffff, ^a800ffMillennium Rare^ffffff, ^ff7d2fOne in Ten Thousand^ffffff. Higher rarity means better overall attributes. Rarity is innate and cannot be changed.\r\r^fffd446．Level:^ffffff\r\nMax level is 100. Leveling consumes EXP and Morale.\r\r^fffd447．Rank:^ffffff\r\nStarts at Rank 9. Promotes at level 100. Improves growth significantly.\r\r^fffd448．Loyalty:^ffffff\r\nLoyalty decreases if the guard or player dies. If 0, the guard cannot be summoned. Above 100, crit rate is increased. Restore with Reward Packages.\r\r^fffd449．EXP and Level Up:^ffffff\r\nGuards earn EXP while summoned or in guard mode. EXP gain is reduced if level difference with enemies is too large. Titled monsters may give no EXP. EXP storage limits apply based on level.\r\r^fffd4410．Skill Slots:^ffffff\r\nDisplays usable skills. Locked slots can be opened with specific items.\r\r^fffd4411．Health (HP):^ffffff\r\nAdds to player's HP in guard mode. Recovers faster when withdrawn.\r\r^fffd4412．Attack:^ffffff\r\nAdds to player's bonus damage in guard mode.\r\r^fffd4413．Strategy:^ffffff\r\nEvery 2 points increase bonus damage by 1. Adds to player's healing in guard mode.\r\r^fffd4414．Three Aptitudes:^ffffff\r\nPower affects ATK gain per point. Intellect affects Strategy gain per point. Physique affects HP gain per point.\r\r^fffd4415．Growth Tendency:^ffffff\r\nTypes: ^ff4ca4General^ffffff, ^40b4a0Strategist^ffffff, and ^ceff8aLoyalist^ffffff. Determines which stats grow most effectively.\r\r^fffd4416．Attributes:^ffffff\r\nPower (ATK), Intellect (Strategy), Physique (HP). Can be reset using Ganges Water.\r\r^fffd4417．Remaining Points:^ffffff\r\nGains 3 points per level. Gains 20 points per rank promotion.\r\r^fffd4418．Aptitude Points:^ffffff\r\nTotal score of all six aptitude ratings. Higher reputation increases reset potential.\r\r^fffd4419．Core Aptitude:^ffffff\r\nIndicated by stars on the growth tendency. More stars mean better specific growth.\r\r^fffd4420．Growth Potential:^ffffff\r\nAffects overall stat gains. Higher rank and reputation improve potential stars.\r\r^fffd4421．Morale:^ffffff\r\nCurrent, Required, and Lost morale states affect attribute growth during level ups.\r\r^fffd4422．Personality:^ffffff Five types: Bold, Nimble, Wise, Passionate, Focused. Total sum is 100%.\r\n^00fffcBold:^ffffff Increases ATK and limits enemy ATK.\r\n^00fffcNimble:^ffffff Weakens enemy resistances (Damage, Control, Seal, Weaken, Bleed).\r\n^00fffcWise:^ffffff Increases healing and affects enemy healing.\r\n^00fffcPassionate:^ffffff Increases self-crit and affects enemy crit.\r\n^00fffcFocused:^ffffff Limits enemy defense and resistances.\r\r", image="CB\\图片\\护卫指引图片\\指引属性详细.tga"}
+PetGuide[15] = {text="^ff6fb3Guard Combat\r\r^fffd441．Combat Modes:^ffffff\r\rTwo modes: Summoned Combat and Guard Mode.\r\r^00fffcSummoned Combat:^ffffff\r\rThree sub-modes: Active (attacks on sight), Passive (counters when attacked/assists master), Rest (no attacks).\r\r^00fffcGuard Mode:^ffffff\r\rThe guard is not visible but adds a percentage of their stats to the player: ATK adds to damage, Strategy to healing, HP to player HP.\r\r^fffd442．Guard and PVP:^ffffff\r\rSummoned guards deal 30% damage to players. Guard mode stat bonuses do not decay in PK.\r\r^fffd443．Summon Restrictions:^ffffff\r\rCertain maps and battlefields forbid summoned combat; guards will auto-switch to Guard Mode.\r\r^00fffcForbid Summon Maps:^ffffff\r\r^ff80ffNational War, Chibi Water Battle, Drill Grounds^ffffff\r\r^00fffcForbid Summon Battlefields:^ffffff\r\r^ff80ffRace Track, Sun Xiang Bio, King Xiang Devil Realm, Chu Song Lyre, Loulan Palace, Eight Diagrams Mirage^ffffff\r\r", image="CB\\图片\\护卫指引图片\\指引护卫战斗.tga"}
 
 --------------------------------------------------------------------
---Nội dung chữ chỉ dẫn chiến trường, tập tin giao diện BattleGuide.xml
---BattleGuide[X]：X là ID mẫu kịch bản
---903：Bát Trận Đồ Khai Môn
---905：Bát Trận Đồ Khai Môn Thủ Lĩnh
+--Battlefield Guide Text
+--Battlefield Template IDs
+--903: Eight Diagrams Opening
+--905: Eight Diagrams Boss Opening
 --------------------------------------------------------------------
 BattleGuide = {}
 BattleGuide[903] = {
-	{text = "Bước một: Thu thập rương báu, nhận ^0078f0Ngọc Bát Quái^3a1f01.\r\r\rLưu ý:\r1. Ngọc Bát Quái có thể giao dịch, nhưng rời chiến trường sẽ biến mất.\r2. Ngoài bên cạnh Hoàng Thừa Ngạn ra, trong các cửa ải cụ thể cũng sẽ rơi rương báu.\r3. Trong 3 ải sau, trồng cây hái tiền có thể tạo ra rương báu.", image = "CB\\图片\\战场指引图\\八阵开门1.tga"},
-	{text = "Bước hai: Sử dụng Ngọc Bát Quái, mua ^0078f0Linh Kiện Cơ Quan^3a1f01 ở chỗ tượng đá.\r\r\rLưu ý:\r1. Linh Kiện Cơ Quan rời chiến trường biến mất.\r2. Mỗi khi qua một ải, chỗ tượng đá sẽ có linh kiện mới được bán.", image = "CB\\图片\\战场指引图\\八阵开门2.tga"},
-	{text = "Bước ba: Sử dụng Linh Kiện Cơ Quan, biến ^0078f0Lệnh Kỳ Bát Trận^3a1f01 thành cơ quan, tấn công quân địch xông trận.\r\rLưu ý:\r1. Tất cả kẻ địch tử vong thì qua ải, tượng đá trấn trận tử vong thì thất bại.\r2. Thất bại thì thách đấu lại ải hiện tại là được.\r3. Giao một Ngọc Bát Quái cho cơ quan đã kích hoạt, có thể tháo dỡ cơ quan.", image = "CB\\图片\\战场指引图\\八阵开门3.tga"},
-	{text = "Giải thích khác:\r1. Mỗi ải có 4 đợt kẻ địch xâm phạm, mỗi đợt đến sẽ có một dấu hiệu cầm cờ.\r2. Tối đa có thể liên tục qua 4 ải, lần lượt là Trận Tốt, Trận Sĩ, Trận Pháo, Trận Tướng.\r3. Mỗi khi qua một ải đều có thể nhận thưởng kinh nghiệm sống.\r4. Sau khi qua 4 ải, số lần thất bại càng ít thì phần thưởng càng tốt.\r5. Mỗi ải đều có 2 phe quân địch xâm phạm, sẽ ngẫu nhiên vào một trong số đó.", image = ""}
+	{text = "Step One: Collect treasure chests to obtain ^0078f0Bagua Jade^3a1f01.\r\r\rNotes:\r1. Bagua Jade is tradable but disappears upon leaving the battlefield.\r2. Chests drop near Huang Cheng Yan and in specific stages.\r3. Planting money trees in the last 3 stages can produce chests.", image = "CB\\图片\\战场指引图\\八阵开门1.tga"},
+	{text = "Step Two: Use Bagua Jade to buy ^0078f0Mechanism Parts^3a1f01 from the stone statues.\r\r\rNotes:\r1. Parts disappear upon leaving.\r2. New parts are available after passing each stage.", image = "CB\\图片\\战场指引图\\八阵开门2.tga"},
+	{text = "Step Three: Use parts to turn ^0078f0Bagua Flags^3a1f01 into mechanisms to attack incoming enemies.\r\rNotes:\r1. Kill all enemies to pass. Failure occurs if the center statue is destroyed.\r2. If you fail, you can retry the current stage.\r3. Give a Bagua Jade to an active mechanism to dismantle it.", image = "CB\\图片\\战场指引图\\八阵开门3.tga"},
+	{text = "Other Explanations:\r1. Each stage has 4 waves. Flag bearers indicate wave arrival.\r2. Stages: Soldier, Sergeant, Cannon, General.\r3. Each clear rewards Life EXP.\r4. Fewer failures result in better final rewards.\r5. Each stage randomly selects one of two enemy factions.", image = ""}
 }
 BattleGuide[905] = {
-	{text = "Bước một: Thu thập rương báu, nhận ^0078f0Ngọc Bát Quái^3a1f01.\r\r\rLưu ý:\r1. Ngọc Bát Quái có thể giao dịch, nhưng rời chiến trường sẽ biến mất.\r2. Ngoài bên cạnh Hoàng Thừa Ngạn ra, trong các cửa ải cụ thể cũng sẽ rơi rương báu.\r3. Trong 3 ải sau, trồng cây hái tiền có thể tạo ra rương báu.", image = "CB\\图片\\战场指引图\\八阵开门1.tga"},
-	{text = "Bước hai: Sử dụng Ngọc Bát Quái, mua ^0078f0Linh Kiện Cơ Quan^3a1f01 ở chỗ tượng đá.\r\r\rLưu ý:\r1. Linh Kiện Cơ Quan rời chiến trường biến mất.\r2. Mỗi khi qua một ải, chỗ tượng đá sẽ có linh kiện mới được bán.", image = "CB\\图片\\战场指引图\\八阵开门2.tga"},
-	{text = "Bước ba: Sử dụng Linh Kiện Cơ Quan, biến ^0078f0Lệnh Kỳ Bát Trận^3a1f01 thành cơ quan, tấn công quân địch xông trận.\r\rLưu ý:\r1. Tất cả kẻ địch tử vong thì qua ải, tượng đá trấn trận tử vong thì thất bại.\r2. Thất bại thì thách đấu lại ải hiện tại là được.\r3. Giao một Ngọc Bát Quái cho cơ quan đã kích hoạt, có thể tháo dỡ cơ quan.", image = "CB\\图片\\战场指引图\\八阵开门3.tga"},
-	{text = "Giải thích khác:\r1. Mỗi ải có 4 đợt kẻ địch xâm phạm, mỗi đợt đến sẽ có một dấu hiệu cầm cờ.\r2. Tối đa có thể liên tục qua 4 ải, lần lượt là Trận Tốt, Trận Sĩ, Trận Pháo, Trận Tướng.\r3. Mỗi khi qua một ải đều có thể nhận thưởng kinh nghiệm sống.\r4. Sau khi qua 4 ải, số lần thất bại càng ít thì phần thưởng càng tốt.\r5. Mỗi ải đều có 2 phe quân địch xâm phạm, sẽ ngẫu nhiên vào một trong số đó.", image = ""}
+	{text = "Step One: Collect treasure chests to obtain ^0078f0Bagua Jade^3a1f01.\r\r\rNotes:\r1. Bagua Jade is tradable but disappears upon leaving the battlefield.\r2. Chests drop near Huang Cheng Yan and in specific stages.\r3. Planting money trees in the last 3 stages can produce chests.", image = "CB\\图片\\战场指引图\\八阵开门1.tga"},
+	{text = "Step Two: Use Bagua Jade to buy ^0078f0Mechanism Parts^3a1f01 from the stone statues.\r\r\rNotes:\r1. Parts disappear upon leaving.\r2. New parts are available after passing each stage.", image = "CB\\图片\\战场指引图\\八阵开门2.tga"},
+	{text = "Step Three: Use parts to turn ^0078f0Bagua Flags^3a1f01 into mechanisms to attack incoming enemies.\r\rNotes:\r1. Kill all enemies to pass. Failure occurs if the center statue is destroyed.\r2. If you fail, you can retry the current stage.\r3. Give a Bagua Jade to an active mechanism to dismantle it.", image = "CB\\图片\\战场指引图\\八阵开门3.tga"},
+	{text = "Other Explanations:\r1. Each stage has 4 waves. Flag bearers indicate wave arrival.\r2. Stages: Soldier, Sergeant, Cannon, General.\r3. Each clear rewards Life EXP.\r4. Fewer failures result in better final rewards.\r5. Each stage randomly selects one of two enemy factions.", image = ""}
 }
---Chỉ dẫn chiến trường Binh Xa Hành·Xe Chiến Vô Song
+--Battlefield Guide: War Chariot March·Matchless Chariot
 BattleGuide[947] = {
-	{text = "^dd006fChỉ dẫn chiến trường^3a1f01\r\rChào mừng đến với “Binh Xa Hành·Xe Chiến Vô Song”, chỉ dẫn chiến trường này không chỉ giới thiệu chi tiết mọi mặt của chiến trường PVP mới ra mắt của Xích Bích, mà còn giải thích về việc sử dụng xe chiến. Chỉ dẫn này bao gồm hai phần sau:\r\rMột、Chiến lược chiến trường\rHai、Giới thiệu xe chiến\r\rLưu ý: Bất cứ lúc nào cũng có thể nhấp vào nút “Chỉ Dẫn Chiến Trường” ở góc dưới bên trái để xem chỉ dẫn này.", image = "CB\\图片\\战车指引图\\封面.tga"},
-	{text = "^dd006fChiến lược chiến trường^3a1f01\r\r1, Chiếm lĩnh điểm mỏ để nhận tài nguyên\rSau khi chiến đấu bắt đầu, có thể đi chiếm lĩnh mỏ sắt và mỏ lưu huỳnh, khi điểm mỏ bị chiếm lĩnh thì tất cả người chơi phe ta sẽ nhận được tài nguyên định kỳ.\r2, Chiếm lĩnh bãi chế tạo xe để nhận xe chiến\r^00b800Tây Sơn Bảo^3a1f01 và ^00b800Đông Hồ Thiết Lô^3a1f01 có cách chiếm lĩnh giống nhau, sau khi chiếm lĩnh cờ sẽ lần lượt sản xuất hai chiếc ^a800ffDạ Ưng^3a1f01 và ^a800ffThần Công^3a1f01. ^00b800Đài Phong Hỏa^3a1f01 cần phải tiêu diệt tướng lĩnh lính canh trước, sau khi cờ Đài Phong Hỏa xuất hiện thì chiếm lĩnh có thể sản xuất hai chiếc ^e66700Thiên Binh^3a1f01.", image = "CB\\图片\\战车指引图\\战场攻略.tga"},
-	{text = "^3a1f013, Phá hủy kiến trúc đối phương\rCác kiến trúc có thể bị phá hủy bao gồm tháp tên, hàng rào ở cửa ải, tháp tên ngoài thành, tháp tên trung tâm, thủy tinh trung tâm, quản lý xe chiến trong thành. Trong đó:\r●Cung vệ phòng thủ ở cửa ải ở trạng thái vô địch trước khi hàng rào bị phá hủy;\r●Tháp tên ngoài thành ở trạng thái vô địch trước khi tháp tên ở cửa ải tương ứng bị phá hủy;\r●Sau khi bất kỳ tháp tên ngoài thành nào bị phá hủy, tháp tên trung tâm sẽ giải trừ trạng thái vô địch;\r●Sau khi cả hai tháp tên trung tâm đều bị phá hủy, thủy tinh trung tâm mới có thể bị tấn công.", image = "CB\\图片\\战车指引图\\战场攻略.tga"},
-	{text = "^3a1f014, Giành chiến thắng\rChiến trường áp dụng chế độ tính điểm, phá hủy kiến trúc đối phương sẽ nhận được phần thưởng điểm tích lũy, phá hủy thủy tinh trung tâm đối phương, chiến trường sẽ kết thúc ngay lập tức, nếu hết thời gian chiến trường, mà thủy tinh trung tâm của cả hai bên đều chưa bị phá hủy, thì sẽ căn cứ vào điểm tích lũy của hai bên để quyết định thắng thua hòa.", image = "CB\\图片\\战车指引图\\战场攻略.tga"},
-	{text = "^dd006fNhận tài nguyên^3a1f01\r\rTài nguyên chiến trường chia làm hai loại là mỏ sắt và mỏ lưu huỳnh, chúng có thể nhận được bằng các cách sau:\r1, Hoàn thành nhiệm vụ ^e66700Chỉ Dẫn Chiến Trường^3a1f01 và nhiệm vụ ^0184ffChiến Công Lừng Lẫy^3a1f01;\r2, Chiếm lĩnh điểm mỏ sắt và mỏ lưu huỳnh, tất cả thành viên phe ta có thể nhận được tài nguyên định kỳ. Chiếm lĩnh điểm mỏ sắt mỗi phút có thể nhận được 3 khối quặng sắt, điểm mỏ lưu huỳnh là 1 khối quặng lưu huỳnh mỗi phút;\r3, Lần đầu tiên chiếm lĩnh điểm mỏ, người chơi gần đó có thể nhận được phần thưởng tài nguyên;", image = "CB\\图片\\战车指引图\\战场资源.tga"},
-	{text = "^3a1f014, Giết chết người chơi và binh lính đối phương;\r5, Mở rương báu xuất hiện sau khi chiếm lĩnh Đài Phong Hỏa;\r6, Ngoài ra mỗi phút tất cả người chơi sẽ nhận được một lượng tài nguyên cố định.", image = "CB\\图片\\战车指引图\\战场资源.tga"},
-	{text = "^dd006fLái xe chiến^3a1f01\r\rTrong chiến trường tổng cộng có 5 loại xe chiến, mỗi phe tối đa có thể lái 14 chiếc xe chiến, trước khi xe chiến cũ bị phá hủy, sẽ không sản xuất xe chiến mới.\r\r^0184ffHổ Vương^3a1f01\rNơi sản xuất: Căn cứ chính phe ta\rTài nguyên tiêu tốn: 48 Quặng Sắt, 16 Quặng Lưu Huỳnh\r^0184ffHậu Nghệ^3a1f01\rNơi sản xuất: Căn cứ chính phe ta\rTài nguyên tiêu tốn: 48 Quặng Sắt, 16 Quặng Lưu Huỳnh", image = "CB\\图片\\战车指引图\\封面.tga"},
-	{text = "^a800ffDạ Ưng^3a1f01\rNơi sản xuất: Tây Sơn Bảo\rTài nguyên tiêu tốn: 30 Quặng Sắt, 10 Quặng Lưu Huỳnh\r^a800ffThần Công^3a1f01\rNơi sản xuất: Đông Hồ Thiết Lô\rTài nguyên tiêu tốn: 30 Quặng Sắt, 10 Quặng Lưu Huỳnh\r^e66700Thiên Binh^3a1f01\rNơi sản xuất: Đài Phong Hỏa\rTài nguyên tiêu tốn: 72 Quặng Sắt, 24 Quặng Lưu Huỳnh", image = "CB\\图片\\战车指引图\\封面.tga"},
-	{text = "^dd006fPhần thưởng chiến trường^3a1f01\r\rTrong chiến trường có thể nhận được “^00b800Điểm Huân Xe Chiến^3a1f01”, dùng nó có thể đổi phần thưởng chiến trường ở chỗ Xe Chiến Nương. “^00b800Điểm Huân Xe Chiến^3a1f01” có thể nhận được bằng các cách:\r1, Hoàn thành nhiệm vụ ^ffffffThắng Trận Đầu Tiên^3a1f01 (2 điểm)\r2, Người đầu tiên chiếm lĩnh điểm mỏ, bãi chế tạo xe (1 điểm)\r3, Người đầu tiên phá hủy tháp tên cửa ải (1 điểm)\r4, Người đầu tiên phá hủy tháp tên ngoài thành (1 điểm)\r5, Người đầu tiên phá hủy tháp tên trung tâm (1 điểm)\r6, Giành chiến thắng chiến trường (4 điểm)", image = "CB\\图片\\战车指引图\\战场物品.tga"},
-	{text = "^3a1f017, Mang theo 2 “Lệnh Chinh Chiến” và hoàn thành chiến trường (4 điểm)\r8, Mang theo 2 “Lệnh Chinh Chiến” và 1 “Tử Hà Thiểm Châu” và hoàn thành chiến trường (15 điểm)", image = "CB\\图片\\战车指引图\\战场物品.tga"},
-	{text = "^dd006fGiới thiệu xe chiến^3a1f01\r\rTrong phần này, sẽ giới thiệu giao diện lái xe chiến, thao tác, sử dụng kỹ năng và loại xe chiến, v.v.\rXe chiến là vũ khí mạnh mẽ trong chiến tranh, trong chiến trường Binh Xa Hành tổng cộng có 5 loại xe chiến, bao gồm 4 xe một người và 1 xe nhiều người, chúng là:\r^0184ffHổ Vương^3a1f01、^0184ffHậu Nghệ^3a1f01、^a800ffDạ Ưng^3a1f01、^a800ffThần Công^3a1f01、^e66700Thiên Binh^3a1f01", image = "CB\\图片\\战车指引图\\封面.tga"},
-	{text = "^dd006fGiao diện lái xe chiến^3a1f01\r\rSau khi thành công nhận được xe chiến, sẽ lập tức lên xe, và xuất hiện giao diện lái xe chiến, từ trái sang phải lần lượt là:\rKỹ năng: Tổng cộng 4 kỹ năng\rMời: Người lái Thiên Binh có thể sử dụng chức năng này, mời người chơi khác lên xe\rXuống xe: Nhấp vào là xuống xe, đối với xe chiến nhiều người, nếu người lái xuống xe thì tất cả mọi người đều xuống xe", image = "CB\\图片\\战车指引图\\战车驾驶界面.tga"},
-	{text = "^dd006fĐiều khiển xe chiến^3a1f01\r\rTiến lên lùi lại: Sử dụng các phím ^00b800W^3a1f01, ^00b800S^3a1f01 trên bàn phím để di chuyển\rQuay trái phải: Sử dụng các phím ^00b800A^3a1f01, ^00b800D^3a1f01 trên bàn phím để quay, cũng có thể dùng chuột phải kéo để quay\rTấn công: Nhấp vào kỹ năng tấn công, hoặc sử dụng phím tắt tương ứng ^3a1f011~4^3a1f01", image = "CB\\图片\\战车指引图\\战车操控.tga"},
-	{text = "^dd006fKỹ năng xe chiến^3a1f01\r\rMỗi loại xe chiến tối đa có 4 kỹ năng, kỹ năng xe chiến là chỉ số quan trọng phân biệt đặc điểm xe chiến, trong đó:\rKỹ năng 1: Kỹ năng tấn công thường, có thể chuột phải vào biểu tượng kỹ năng, làm cho nó ở ^00b800trạng thái tự động sử dụng^3a1f01, chuột phải lại lần nữa để hủy trạng thái này.\rKỹ năng 4: Kỹ năng kết liễu, có sát thương rất mạnh, nhưng thời gian hồi chiêu cũng dài hơn tương ứng.", image = "CB\\图片\\战车指引图\\战车技能.tga"},
-	{text = "^dd006fGiới hạn trên xe chiến^3a1f01\r\rKhi đang ở trên xe chiến, sẽ bị cấm sử dụng một số chức năng:\r●Không thể sử dụng kỹ năng ban đầu\r●Không thể sử dụng bất kỳ vật phẩm nào\r●Không thể bày bán, dựa vào nhau, quyết đấu, sử dụng biểu cảm hành động, giao dịch\r●Xe chiến nhiều người không thể truyền tống\r●Không thể sử dụng hộ vệ và chiến hồn", image = "CB\\图片\\战车指引图\\战车限制.tga"},
-	{text = "^0184ffHổ Vương^3a1f01 \rXe chiến một người\rXe chiến cận chiến mạnh mẽ, giáp dày, là lực lượng nòng cốt đáng tin cậy.\r\rHỏa lực: ^ffffffBình thường^3a1f01\rTầm bắn: ^ff0000Khá gần^3a1f01\rGiáp: ^00b800Rất cao^3a1f01\rCơ động: ^ffffffBình thường^3a1f01\r\rKỹ năng:\rLong Viêm Đạn, Yến Phản Xung, Hãn Địa Kích, Song Tập Xạ Kích", image = "CB\\图片\\战车指 dẫn图\\虎王.tga"},
-	{text = "^0184ffHậu Nghệ^3a1f01 \rXe chiến một người\rCó khả năng tấn công tầm xa xuất sắc, nhược điểm là tốc độ chậm, và dễ bị tổn thương.\r\rHỏa lực: ^00b800Xuất sắc^3a1f01\rTầm bắn: ^00b800Rất xa^3a1f01\rGiáp: ^ff0000Khá yếu^3a1f01\rCơ động: ^ff0000Khá kém^3a1f01\r\rKỹ năng:\rTốc Xạ, Tật Phong Xạ, Liên Hoàn Xạ, Thiên Nguyên Nhất Kích", image = "CB\\图片\\战车指引图\\后羿.tga"},
-	{text = "^a800ffDạ Ưng^3a1f01 \rXe chiến một người\rCó khả năng cơ động xuất sắc mà các xe chiến khác không thể sánh bằng,擅长 (giỏi) tấn công bất ngờ.\r\rHỏa lực: ^ffffffBình thường^3a1f01\rTầm bắn: ^ff0000Khá gần^3a1f01\rGiáp: ^ffffffBình thường^3a1f01\rCơ động: ^00b800Rất mạnh^3a1f01\r\rKỹ năng:\rPhi Trảm, Song Dực Tập, Dực Dương Trảm, Bát Phương Phong Vũ", image = "CB\\图片\\战车指引图\\夜鹰.tga"},
-	{text = "^a800ffThần Công^3a1f01 \rXe chiến một người\rXe chiến duy nhất có khả năng hồi phục và hỗ trợ, là cưng của chiến trường.\r\rHỏa lực: ^ff0000Rất kém^3a1f01\rTầm bắn: ^ffffffBình thường^3a1f01\rGiáp: ^ff0000Khá yếu^3a1f01\rCơ động: ^ffffffBình thường^3a1f01\r\rKỹ năng:\rCổ Vũ, Phấn Chiến Cổ, Nhiệt Huyết Minh, Phấn Khởi Xung Kích", image = "CB\\图片\\战车指引图\\神工.tga"},
-	{text = "^e66700Thiên Binh^3a1f01 \rXe chiến nhiều người\rVũ khí tối thượng có thể chở 3 người cùng lúc, mạnh mẽ về mọi mặt.\r\rHỏa lực: ^00b800Xuất sắc^3a1f01\rTầm bắn: ^00b800Khá xa^3a1f01\rGiáp: ^00b800Rất cao^3a1f01\rCơ động: ^ffffffBình thường^3a1f01\r\rKỹ năng người lái: Xung Phong\rKỹ năng pháo thủ: Tiễn Tập, Liên Hoàn Tập, Tật Phong Tập, Duệ Phong Điểm Xạ", image = "CB\\图片\\战车指引图\\天兵.tga"},
+	{text = "^dd006fBattlefield Guide^3a1f01\r\rWelcome to “War Chariot March·Matchless Chariot”, this battlefield guide not only introduces every aspect of the newly launched Chibi PVP battlefield in detail, but also explains the use of war chariots. This guide includes the following two parts:\r\r1. Battlefield Strategy\r2. Chariot Introduction\r\rNote: You can click the “Battlefield Guide” button at the bottom left at any time to view this guide.", image = "CB\\图片\\战车指引图\\封面.tga"},
+	{text = "^dd006fBattlefield Strategy^3a1f01\r\r1. Occupy mine points to receive resources\rAfter the battle begins, you can occupy iron mines and sulfur mines. When a mine point is captured, all players on our side will receive periodic resources.\r2. Occupy chariot workshops to obtain war chariots\r^00b800West Mountain Fort^3a1f01 and ^00b800East Lake Forge^3a1f01 share the same capture method; once occupied, the flag will produce two ^a800ffNight Hawk^3a1f01 and ^a800ffDivine Work^3a1f01 chariots. ^00b800Beacon Tower^3a1f01 requires defeating the guard general first; once the Beacon Tower flag appears, capturing it can produce two ^e66700Heavenly Soldier^3a1f01 chariots.", image = "CB\\图片\\战车指引图\\战场攻略.tga"},
+	{text = "^3a1f013. Destroy enemy structures\rDestroyable structures include arrow towers, gate barriers, outer city arrow towers, central arrow towers, central crystal, and the chariot manager in the city. Among them:\r●Gate guards are in an invincible state until the barrier is destroyed;\r●Outer city arrow towers are in an invincible state until the corresponding gate arrow tower is destroyed;\r●After any outer city arrow tower is destroyed, the central arrow tower will lose its invincibility;\r●After both central arrow towers are destroyed, the central crystal can be attacked.", image = "CB\\图片\\战车指引图\\战场攻略.tga"},
+	{text = "^3a1f014. Achieving Victory\rThe battlefield adopts a scoring mode. Destroying enemy structures grants points. Destroying the enemy's central crystal ends the battlefield immediately. If the time limit expires and neither central crystal is destroyed, the winner will be determined based on the accumulated points of both sides.", image = "CB\\图片\\战车指引图\\战场攻略.tga"},
+	{text = "^dd006fReceiving Resources^3a1f01\r\rBattlefield resources are divided into two types: iron ore and sulfur ore. They can be obtained in the following ways:\r1. Complete the ^e66700Battlefield Guide^3a1f01 quest and the ^0184ffIllustrious Military Merits^3a1f01 quest;\r2. Occupy iron and sulfur mine points. All members of our side will receive periodic resources. Iron mines provide 3 iron ore units per minute, sulfur mines provide 1 sulfur ore unit per minute;\r3. When a mine point is captured for the first time, nearby players receive resource rewards;", image = "CB\\图片\\战车指引图\\战场资源.tga"},
+	{text = "^3a1f014. Kill enemy players and soldiers;\r5. Open treasure chests that appear after capturing the Beacon Tower;\r6. Additionally, all players receive a fixed amount of resources every minute.", image = "CB\\图片\\战车指引图\\战场资源.tga"},
+	{text = "^dd006fDriving War Chariots^3a1f01\r\rThere are a total of 5 types of chariots on the battlefield. Each side can drive up to 14 chariots at most. New chariots will not be produced until the old ones are destroyed.\r\r^0184ffTiger King^3a1f01\rProduction: Our Main Base\rResource Cost: 48 Iron Ore, 16 Sulfur Ore\r^0184ffHou Yi^3a1f01\rProduction: Our Main Base\rResource Cost: 48 Iron Ore, 16 Sulfur Ore", image = "CB\\图片\\战车指引图\\封面.tga"},
+	{text = "^a800ffNight Hawk^3a1f01\rProduction: West Mountain Fort\rResource Cost: 30 Iron Ore, 10 Sulfur Ore\r^a800ffDivine Work^3a1f01\rProduction: East Lake Forge\rResource Cost: 30 Iron Ore, 10 Sulfur Ore\r^e66700Heavenly Soldier^3a1f01\rProduction: Beacon Tower\rResource Cost: 72 Iron Ore, 24 Sulfur Ore", image = "CB\\图片\\战车指引图\\封面.tga"},
+	{text = "^dd006fBattlefield Rewards^3a1f01\r\rIn the battlefield, you can obtain “^00b800Chariot Merit Points^3a1f01”, which can be used to exchange for rewards at the Chariot Maiden. “^00b800Chariot Merit Points^3a1f01” can be obtained by:\r1. Complete the ^ffffffFirst Victory of the Day^3a1f01 quest (2 points)\r2. First to occupy a mine point or workshop (1 point)\r3. First to destroy a gate arrow tower (1 point)\r4. First to destroy an outer city arrow tower (1 point)\r5. First to destroy a central arrow tower (1 point)\r6. Winning the battlefield (4 points)", image = "CB\\图片\\战车指引图\\战场物品.tga"},
+	{text = "^3a1f017. Carry 2 “Campaign Orders” and complete the battlefield (4 points)\r8. Carry 2 “Campaign Orders” and 1 “Purple Cloud Glimmer Pearl” and complete the battlefield (15 points)", image = "CB\\图片\\战车指引图\\战场物品.tga"},
+	{text = "^dd006fChariot Introduction^3a1f01\r\rIn this section, we will introduce the chariot driving interface, controls, skill usage, chariot types, etc.\rChariots are powerful weapons of war. There are a total of 5 types of chariots in the War Chariot March battlefield, including 4 single-player vehicles and 1 multi-player vehicle:\r^0184ffTiger King^3a1f01, ^0184ffHou Yi^3a1f01, ^a800ffNight Hawk^3a1f01, ^a800ffDivine Work^3a1f01, ^e66700Heavenly Soldier^3a1f01", image = "CB\\图片\\战车指引图\\封面.tga"},
+	{text = "^dd006fChariot Driving Interface^3a1f01\r\rAfter successfully obtaining a chariot, you will immediately board it, and the chariot driving interface will appear. From left to right:\rSkills: A total of 4 skills\rInvite: Heavenly Soldier drivers can use this function to invite other players to board\rDismount: Click to dismount. For multi-player chariots, if the driver dismounts, everyone dismounts.", image = "CB\\图片\\战车指引图\\战车驾驶界面.tga"},
+	{text = "^dd006fChariot Controls^3a1f01\r\rForward/Backward: Use the ^00b800W^3a1f01 and ^00b800S^3a1f01 keys on the keyboard to move\rTurning: Use the ^00b800A^3a1f01 and ^00b800D^3a1f01 keys on the keyboard to turn; you can also drag with the right mouse button to turn\rAttack: Click an attack skill, or use the corresponding shortcut keys ^3a1f011~4^3a1f01", image = "CB\\图片\\战车指引图\\战车操控.tga"},
+	{text = "^dd006fChariot Skills^3a1f01\r\rEach type of chariot has a maximum of 4 skills. Chariot skills are key indicators that distinguish chariot characteristics:\rSkill 1: Basic attack skill. You can right-click the skill icon to set it to ^00b800Auto-use state^3a1f01; right-click again to cancel.\rSkill 4: Finishing skill. It deals massive damage, but the cooldown time is correspondingly longer.", image = "CB\\图片\\战车指引图\\战车技能.tga"},
+	{text = "^dd006fChariot Restrictions^3a1f01\r\rWhile on a chariot, certain functions are restricted:\r●Cannot use original character skills\r●Cannot use any items\r●Cannot set up shops, lean, duel, use emotes, or trade\r●Multi-player chariots cannot teleport\r●Cannot use guards or battle spirits", image = "CB\\图片\\战车指引图\\战车限制.tga"},
+	{text = "^0184ffTiger King^3a1f01 \rSingle-player Chariot\rA powerful melee chariot with thick armor, serving as the reliable core force.\r\rFirepower: ^ffffffNormal^3a1f01\rRange: ^ff0000Short^3a1f01\rArmor: ^00b800Very High^3a1f01\rMobility: ^ffffffNormal^3a1f01\r\rSkills:\rDragon Flame Shell, Swallow Flip Dash, Ground Slam, Double Volley", image = "CB\\图片\\战车指 dẫn图\\虎王.tga"},
+	{text = "^0184ffHou Yi^3a1f01 \rSingle-player Chariot\rPossesses excellent long-range attack capabilities; disadvantages are slow speed and vulnerability.\r\rFirepower: ^00b800Excellent^3a1f01\rRange: ^00b800Very Long^3a1f01\rArmor: ^ff0000Weak^3a1f01\rMobility: ^ff0000Poor^3a1f01\r\rSkills:\rRapid Fire, Gale Shot, Continuous Shot, Heavenly Strike", image = "CB\\图片\\战车指引图\\后羿.tga"},
+	{text = "^a800ffNight Hawk^3a1f01 \rSingle-player Chariot\rHas excellent mobility unmatched by other chariots, specialized in surprise attacks.\r\rFirepower: ^ffffffNormal^3a1f01\rRange: ^ff0000Short^3a1f01\rArmor: ^ffffffNormal^3a1f01\rMobility: ^00b800Very Strong^3a1f01\r\rSkills:\rFlying Slash, Dual Wing Strike, Wing Solar Slash, Eight-Way Wind and Rain", image = "CB\\图片\\战车指引图\\夜鹰.tga"},
+	{text = "^a800ffDivine Work^3a1f01 \rSingle-player Chariot\rThe only chariot with healing and support capabilities, a favorite on the battlefield.\r\rFirepower: ^ff0000Very Poor^3a1f01\rRange: ^ffffffNormal^3a1f01\rArmor: ^ff0000Weak^3a1f01\rMobility: ^ffffffNormal^3a1f01\r\rSkills:\rEncouragement, Battle Drum, Passionate Anthem, Energetic Dash", image = "CB\\图片\\战车指引图\\神工.tga"},
+	{text = "^e66700Heavenly Soldier^3a1f01 \rMulti-player Chariot\rThe ultimate weapon that can carry 3 people simultaneously, powerful in all aspects.\r\rFirepower: ^00b800Excellent^3a1f01\rRange: ^00b800Long^3a1f01\rArmor: ^00b800Very High^3a1f01\rMobility: ^ffffffNormal^3a1f01\r\rDriver Skill: Charge\rGunner Skills: Arrow Strike, Chain Strike, Gale Strike, Sharp Wind Point Shooting", image = "CB\\图片\\战车指引图\\天兵.tga"},
 }
---Chỉ dẫn chiến trường Lái Thử Xe Chiến·Sa Hải Kỳ Binh
+
+--Battlefield Guide: Chariot Test Drive·Sand Sea Cavalry
 BattleGuide[948] = {
-	{text = "^dd006fChỉ dẫn xe chiến^3a1f01\r\rChào mừng bạn sử dụng chỉ dẫn xe chiến, trong cuốn chỉ dẫn này, sẽ giới thiệu giao diện lái xe chiến, thao tác, sử dụng kỹ năng và loại xe chiến, v.v.\rXe chiến là vũ khí mạnh mẽ trong chiến tranh, muốn trải nghiệm xe chiến có thể đến chiến trường Lái Thử Xe Chiến·Sa Hải Kỳ Binh và chiến trường Binh Xa Hành·Xe Chiến Vô Song mới ra mắt.\rNếu có thắc mắc về xe chiến và chiến trường, có thể nhấp vào nút Chỉ Dẫn Chiến Trường ở góc dưới bên trái bất cứ lúc nào để xem trợ giúp.", image = "CB\\图片\\战车指引图\\封面.tga"},
-	{text = "^dd006fGiao diện lái xe chiến^3a1f01\r\rSau khi thành công nhận được xe chiến, sẽ lập tức lên xe, và xuất hiện giao diện lái xe chiến, từ trái sang phải lần lượt là:\rKỹ năng: Tổng cộng 4 kỹ năng\rMời: Người lái Thiên Binh có thể sử dụng chức năng này, mời người chơi khác lên xe\rXuống xe: Nhấp vào là xuống xe, đối với xe chiến nhiều người, nếu người lái xuống xe thì tất cả mọi người đều xuống xe", image = "CB\\图片\\战车指引图\\战车驾驶界面.tga"},
-	{text = "^dd006fĐiều khiển xe chiến^3a1f01\r\rTiến lên lùi lại: Sử dụng các phím ^00b800W^3a1f01, ^00b800S^3a1f01 trên bàn phím để di chuyển\rQuay trái phải: Sử dụng các phím ^00b800A^3a1f01, ^00b800D^3a1f01 trên bàn phím để quay, cũng có thể dùng chuột phải kéo để quay\rTấn công: Nhấp vào kỹ năng tấn công, hoặc sử dụng phím tắt tương ứng ^3a1f011~4^3a1f01", image = "CB\\图片\\战车指引图\\战车操控.tga"},
-	{text = "^dd006fKỹ năng xe chiến^3a1f01\r\rMỗi loại xe chiến tối đa có 4 kỹ năng, kỹ năng xe chiến là chỉ số quan trọng phân biệt đặc điểm xe chiến, trong đó:\rKỹ năng 1: Kỹ năng tấn công thường, có thể chuột phải vào biểu tượng kỹ năng, làm cho nó ở ^00b800trạng thái tự động sử dụng^3a1f01, chuột phải lại lần nữa để hủy trạng thái này.\rKỹ năng 4: Kỹ năng kết liễu, có sát thương rất mạnh, nhưng thời gian hồi chiêu cũng dài hơn tương ứng.", image = "CB\\图片\\战车指引图\\战车技能.tga"},
-	{text = "^dd006fGiới hạn trên xe chiến^3a1f01\r\rKhi đang ở trên xe chiến, sẽ bị cấm sử dụng một số chức năng:\r●Không thể sử dụng kỹ năng ban đầu\r●Không thể sử dụng bất kỳ vật phẩm nào\r●Không thể bày bán, dựa vào nhau, quyết đấu, sử dụng biểu cảm hành động, giao dịch\r●Xe chiến nhiều người không thể truyền tống\r●Không thể sử dụng hộ vệ và chiến hồn", image = "CB\\图片\\战车指引图\\战车限制.tga"},
-	{text = "^0184ffHổ Vương^3a1f01 \rXe chiến một người\rXe chiến cận chiến mạnh mẽ, giáp dày, là lực lượng nòng cốt đáng tin cậy.\r\rHỏa lực: ^ffffffBình thường^3a1f01\rTầm bắn: ^ff0000Khá gần^3a1f01\rGiáp: ^00b800Rất cao^3a1f01\rCơ động: ^ffffffBình thường^3a1f01\r\rKỹ năng:\rLong Viêm Đạn, Yến Phản Xung, Hãn Địa Kích, Song Tập Xạ Kích", image = "CB\\图片\\战车指 dẫn图\\虎王.tga"},
-	{text = "^0184ffHậu Nghệ^3a1f01 \rXe chiến một người\rCó khả năng tấn công tầm xa xuất sắc, nhược điểm là tốc độ chậm, và dễ bị tổn thương.\r\rHỏa lực: ^00b800Xuất sắc^3a1f01\rTầm bắn: ^00b800Rất xa^3a1f01\rGiáp: ^ff0000Khá yếu^3a1f01\rCơ động: ^ff0000Khá kém^3a1f01\r\rKỹ năng:\rTốc Xạ, Tật Phong Xạ, Liên Hoàn Xạ, Thiên Nguyên Nhất Kích", image = "CB\\图片\\战车指引图\\后羿.tga"},
-	{text = "^a800ffDạ Ưng^3a1f01 \rXe chiến một người\rCó khả năng cơ động xuất sắc mà các xe chiến khác không thể sánh bằng, giỏi tấn công bất ngờ.\r\rHỏa lực: ^ffffffBình thường^3a1f01\rTầm bắn: ^ff0000Khá gần^3a1f01\rGiáp: ^ffffffBình thường^3a1f01\rCơ động: ^00b800Rất mạnh^3a1f01\r\rKỹ năng:\rPhi Trảm, Song Dực Tập, Dực Dương Trảm, Bát Phương Phong Vũ", image = "CB\\图片\\战车指引图\\夜鹰.tga"},
-	{text = "^a800ffThần Công^3a1f01 \rXe chiến một người\rXe chiến duy nhất có khả năng hồi phục và hỗ trợ, là cưng của chiến trường.\r\rHỏa lực: ^ff0000Rất kém^3a1f01\rTầm bắn: ^ffffffBình thường^3a1f01\rGiáp: ^ff0000Khá yếu^3a1f01\rCơ động: ^ffffffBình thường^3a1f01\r\rKỹ năng:\rCổ Vũ, Phấn Chiến Cổ, Nhiệt Huyết Minh, Phấn Khởi Xung Kích", image = "CB\\图片\\战车指引图\\神工.tga"},
-	{text = "^e66700Thiên Binh^3a1f01 \rXe chiến nhiều người\rVũ khí tối thượng có thể chở 3 người cùng lúc, mạnh mẽ về mọi mặt.\r\rHỏa lực: ^00b800Xuất sắc^3a1f01\rTầm bắn: ^00b800Khá xa^3a1f01\rGiáp: ^00b800Rất cao^3a1f01\rCơ động: ^ffffffBình thường^3a1f01\r\rKỹ năng người lái: Xung Phong\rKỹ năng pháo thủ: Tiễn Tập, Liên Hoàn Tập, Tật Phong Tập, Duệ Phong Điểm Xạ", image = "CB\\图片\\战车指引图\\天兵.tga"},
+	{text = "^dd006fChariot Guide^3a1f01\r\rWelcome to the chariot guide. This manual introduces the chariot driving interface, controls, skill usage, chariot types, etc.\rChariots are powerful weapons of war. If you want to experience chariots, you can visit the Chariot Test Drive·Sand Sea Cavalry and the newly launched War Chariot March·Matchless Chariot battlefields.\rIf you have questions about chariots and battlefields, you can click the Battlefield Guide button at the bottom left at any time for help.", image = "CB\\图片\\战车指引图\\封面.tga"},
+	{text = "^dd006fChariot Driving Interface^3a1f01\r\rAfter successfully obtaining a chariot, you will immediately board it, and the chariot driving interface will appear. From left to right:\rSkills: A total of 4 skills\rInvite: Heavenly Soldier drivers can use this function to invite other players to board\rDismount: Click to dismount. For multi-player chariots, if the driver dismounts, everyone dismounts.", image = "CB\\图片\\战车指引图\\战车驾驶界面.tga"},
+	{text = "^dd006fChariot Controls^3a1f01\r\rForward/Backward: Use the ^00b800W^3a1f01 and ^00b800S^3a1f01 keys on the keyboard to move\rTurning: Use the ^00b800A^3a1f01 and ^00b800D^3a1f01 keys on the keyboard to turn; you can also drag with the right mouse button to turn\rAttack: Click an attack skill, or use the corresponding shortcut keys ^3a1f011~4^3a1f01", image = "CB\\图片\\战车指引图\\战车操控.tga"},
+	{text = "^dd006fChariot Skills^3a1f01\r\rEach type of chariot has a maximum of 4 skills. Chariot skills are key indicators that distinguish chariot characteristics:\rSkill 1: Basic attack skill. You can right-click the skill icon to set it to ^00b800Auto-use state^3a1f01; right-click again to cancel.\rSkill 4: Finishing skill. It deals massive damage, but the cooldown time is correspondingly longer.", image = "CB\\图片\\战车指引图\\战车技能.tga"},
+	{text = "^dd006fChariot Restrictions^3a1f01\r\rWhile on a chariot, certain functions are restricted:\r●Cannot use original character skills\r●Cannot use any items\r●Cannot set up shops, lean, duel, use emotes, or trade\r●Multi-player chariots cannot teleport\r●Cannot use guards or battle spirits", image = "CB\\图片\\战车指引图\\战车限制.tga"},
+	{text = "^0184ffTiger King^3a1f01 \rSingle-player Chariot\rA powerful melee chariot with thick armor, serving as the reliable core force.\r\rFirepower: ^ffffffNormal^3a1f01\rRange: ^ff0000Short^3a1f01\rArmor: ^00b800Very High^3a1f01\rMobility: ^ffffffNormal^3a1f01\r\rSkills:\rDragon Flame Shell, Swallow Flip Dash, Ground Slam, Double Volley", image = "CB\\图片\\战车指 dẫn图\\虎王.tga"},
+	{text = "^0184ffHou Yi^3a1f01 \rSingle-player Chariot\rPossesses excellent long-range attack capabilities; disadvantages are slow speed and vulnerability.\r\rFirepower: ^00b800Excellent^3a1f01\rRange: ^00b800Very Long^3a1f01\rArmor: ^ff0000Weak^3a1f01\rMobility: ^ff0000Poor^3a1f01\r\rSkills:\rRapid Fire, Gale Shot, Continuous Shot, Heavenly Strike", image = "CB\\图片\\战车指引图\\后羿.tga"},
+	{text = "^a800ffNight Hawk^3a1f01 \rSingle-player Chariot\rHas excellent mobility unmatched by other chariots, specialized in surprise attacks.\r\rFirepower: ^ffffffNormal^3a1f01\rRange: ^ff0000Short^3a1f01\rArmor: ^ffffffNormal^3a1f01\rMobility: ^00b800Very Strong^3a1f01\r\rSkills:\rFlying Slash, Dual Wing Strike, Wing Solar Slash, Eight-Way Wind and Rain", image = "CB\\图片\\战车指引图\\夜鹰.tga"},
+	{text = "^a800ffDivine Work^3a1f01 \rSingle-player Chariot\rThe only chariot with healing and support capabilities, a favorite on the battlefield.\r\rFirepower: ^ff0000Very Poor^3a1f01\rRange: ^ffffffNormal^3a1f01\rArmor: ^ff0000Weak^3a1f01\rMobility: ^ffffffNormal^3a1f01\r\rSkills:\rEncouragement, Battle Drum, Passionate Anthem, Energetic Dash", image = "CB\\图片\\战车指引图\\神工.tga"},
+	{text = "^e66700Thiên Binh^3a1f01 \rMulti-player Chariot\rThe ultimate weapon that can carry 3 people simultaneously, powerful in all aspects.\r\rFirepower: ^00b800Excellent^3a1f01\rRange: ^00b800Long^3a1f01\rArmor: ^00b800Very High^3a1f01\rMobility: ^ffffffNormal^3a1f01\r\rDriver Skill: Charge\rGunner Skills: Arrow Strike, Chain Strike, Gale Strike, Sharp Wind Point Shooting", image = "CB\\图片\\战车指引图\\天兵.tga"},
 }
 
---英雄志许褚传
+	--Hero Chronicles: Xu Chu Biography
 BattleGuide[950] = {
-	{text = "^dd006fChọn độ khó^3a1f01\rChiến trường Hào Mông Quan áp dụng phương thức chiếm lĩnh điểm tài nguyên mới, khi số người sống sót của một bên trong khu vực điểm tài nguyên nhiều hơn bên kia, thanh chiếm lĩnh bắt đầu di chuyển, sau khi di chuyển đến điểm cuối thì bên đó chiếm lĩnh thành công, khi số người hai bên bằng nhau thì thanh chiếm lĩnh tạm dừng di chuyển, cho đến khi một bên giành lại ưu thế về số người.", image = "CB\\图片\\战场指引图\\许褚传1.tga"},
-	{text = "^dd006fThử thách độ khó ẩn 5 sao^3a1f01\r    1、Sau khi thành công thử thách bất kỳ 1 trận trong 4 sao độ khó trước của Hứa Chử Truyện, đều có cơ hội nhận được “Vé thần bí Hứa Chử Truyện”, vật phẩm này là vật phẩm then chốt để mở độ khó 5 sao.\r    2、Sau khi chọn độ khó 5 sao, sẽ xuất hiện người nhận nhiệm vụ thử thách—Mã Siêu, đối thoại với hắn, dựa vào “Vé thần bí Hứa Chử Truyện” có thể mở ải ẩn.\r    3、Khi chọn độ khó 5 sao, đội phải có ít nhất một người chơi sở hữu “Vé thần bí Hứa Chử Truyện” mới có thể hoàn thành nhiệm vụ thử thách lần này.", image = "CB\\图片\\战场指引图\\许褚传2.tga"},
+	{text = "^dd006fSelect Difficulty^3a1f01\rThe Jiameng Pass battlefield adopts a new resource point occupation method. When the number of survivors from one side in the resource point area is greater than the other, the occupation bar begins to move. Once it reaches the end, that side successfully occupies the point. When the number of players on both sides is equal, the bar stops moving until one side regains a numerical advantage.", image = "CB\\图片\\战场指引图\\许褚传1.tga"},
+	{text = "^dd006f5-Star Hidden Difficulty Challenge^3a1f01\r    1. After successfully challenging any of the 4-star difficulties in the Xu Chu Biography, there is a chance to obtain a “Xu Chu Biography Mystery Ticket,” which is the key item to unlock the 5-star difficulty.\r    2. After selecting the 5-star difficulty, the challenge NPC—Ma Chao—will appear. Speak with him; the hidden stage can be opened using the “Xu Chu Biography Mystery Ticket.”\r    3. When selecting the 5-star difficulty, the team must have at least one player who possesses the “Xu Chu Biography Mystery Ticket” to complete this challenge mission.", image = "CB\\图片\\战场指引图\\许褚传2.tga"},
 }
 
---Chí Anh Hùng Cam Ninh Truyện
+--Hero Chronicles: Gan Ning Biography
 BattleGuide[952] = {
-	{text = "^dd006f1、Ải độ khó thấp và ải độ khó ẩn^3a1f01\rThử thách lần này sau khi kết thúc 2 phút chuẩn bị, sẽ mở ngẫu nhiên một trong 4 ải độ khó thấp để đội người chơi thử thách, nếu nhận nhiệm vụ ải ẩn, sẽ mở thử thách ải ẩn.\r^dd006f2、Chỉ dẫn hoạt hình chuyển cảnh^3a1f01\rTất cả các ải của “Cam Ninh Truyện” lần này đều diễn ra trên ba thân thuyền, sau khi kết thúc 2 phút chờ đợi, con đường đội người chơi cần đi sẽ được chỉ dẫn bằng các hoạt hình mở màn khác nhau.\r", image ="CB\\图片\\战场指引图\\甘宁传1.tga"},
-	{text = "^dd006f3、Thử thách ải độ khó ẩn^3a1f01\rSau khi thông quan bất kỳ ải nào trong 4 ải độ khó thấp ngẫu nhiên trước của “Cam Ninh Truyện”, đều có cơ hội nhận được “Vé thần bí Cam Ninh Truyện”, mang vật phẩm này, có thể thông qua Tả Từ nhận nhiệm vụ thử thách độ khó ẩn.\rSau khi nhận nhiệm vụ, sẽ xuất hiện người nhận nhiệm vụ thử thách—Cam Ninh, đối thoại với hắn, dựa vào “Vé thần bí Cam Ninh Truyện” có thể mở ải ẩn.\rĐội phải có ít nhất một người chơi sở hữu “Vé thần bí Cam Ninh Truyện” mới có thể tiến hành nhiệm vụ thử thách lần này.", image = "CB\\图片\\战场指引图\\甘宁传2.tga"},
+	{text = "^dd006f1. Low Difficulty and Hidden Stages^3a1f01\rAfter the 2-minute preparation period ends, one of the 4 low-difficulty stages will randomly open for the team to challenge. If the hidden stage mission is accepted, the hidden stage challenge will open.\r^dd006f2. Transition Animation Guide^3a1f01\rAll stages of the “Gan Ning Biography” take place on three ship hulls. After the 2-minute waiting period, the path the team needs to take will be guided by various opening animations.\r", image ="CB\\图片\\战场指引图\\甘宁传1.tga"},
+	{text = "^dd006f3. Hidden Difficulty Stage Challenge^3a1f01\rAfter clearing any of the 4 random low-difficulty stages of “Gan Ning Biography,” there is a chance to receive a “Gan Ning Biography Mystery Ticket.” Carry this item and speak to Zuo Ci to accept the hidden difficulty mission.\rAfter accepting, the challenge NPC—Gan Ning—will appear. Speak with him; the hidden stage can be opened using the “Gan Ning Biography Mystery Ticket.”\rThe team must have at least one player possessing the “Gan Ning Biography Mystery Ticket” to proceed with this challenge.", image = "CB\\图片\\战场指引图\\甘宁传2.tga"},
 }
 
---Chí Anh Hùng Hoàng Trung Truyện
+--Hero Chronicles: Huang Zhong Biography
 BattleGuide[1007] = {
-	{text = "^dd006f1、Cách chơi khinh công^3a1f01\rHoàng Trung Truyện lần này sẽ giới thiệu khái niệm phụ bản khinh công, cách thao tác khinh công là kích hoạt tổ hợp bàn phím, nhấp đúp “w”, vào trạng thái khinh công, sau khi sử dụng phím cách, nhân vật sẽ thực hiện ba đoạn nhảy. Sau khi bay một đoạn khoảng cách, người chơi đáp xuống đất, lúc này có thể sử dụng khinh công lại.\rPhụ bản lần này kết hợp chặt chẽ cách chơi BOSS với đặc điểm khinh công, cho phép người chơi thông qua khinh công, né tránh tấn công của BOSS ngay lập tức, ngăn cản BOSS chạy trốn. Trải nghiệm cách chơi phụ bản mới lạ.\r", image ="CB\\图片\\战场指引图\\黄忠传1.tga"},
-	{text = "^dd006f2、Ải độ khó thấp và ải độ khó ẩn^3a1f01\rThử thách lần này sau khi kết thúc 2 phút chuẩn bị, sẽ mở ngẫu nhiên một trong 4 ải độ khó thấp để đội người chơi thử thách, nếu nhận nhiệm vụ ải ẩn, sẽ mở thử thách ải ẩn.", image = "CB\\图片\\战场指引图\\黄忠传2.tga"},
-	{text = "^dd006f3、Thử thách ải độ khó ẩn^3a1f01\rSau khi thông quan bất kỳ ải nào trong 4 ải độ khó thấp ngẫu nhiên trước của “Hoàng Trung Truyện”, đều có cơ hội nhận được “Vé thần bí Hoàng Trung Truyện”.\rSau khi chọn độ khó 5 sao xong, sẽ xuất hiện người nhận nhiệm vụ thử thách—Hoàng Trung, đối thoại với hắn, dựa vào “Vé thần bí Hoàng Trung Truyện” có thể mở ải ẩn.\rĐội phải có ít nhất một người chơi sở hữu “Vé thần bí Hoàng Trung Truyện” mới có thể tiến hành thử thách độ khó 5 sao.", image = "CB\\图片\\战场指引图\\黄忠传3.tga"},
+	{text = "^dd006f1. Qinggong Gameplay^3a1f01\rThe Huang Zhong Biography introduces the Qinggong (Lightfoot) dungeon concept. To operate Qinggong, trigger the keyboard combination by double-tapping “W” to enter the Qinggong state. After using the Spacebar, the character will perform a triple jump. After flying a certain distance and landing, the player can use Qinggong again.\rThis dungeon closely integrates BOSS mechanics with Qinggong features, allowing players to use Qinggong to instantly dodge BOSS attacks or prevent the BOSS from escaping. Experience a novel dungeon playstyle.\r", image ="CB\\图片\\战场指引图\\黄忠传1.tga"},
+	{text = "^dd006f2. Low Difficulty and Hidden Stages^3a1f01\rAfter the 2-minute preparation period, one of the 4 low-difficulty stages will randomly open for the team. If the hidden mission is accepted, the hidden challenge will open.", image = "CB\\图片\\战场指引图\\黄忠传2.tga"},
+	{text = "^dd006f3. Hidden Difficulty Stage Challenge^3a1f01\rAfter clearing any of the 4 random low-difficulty stages of “Huang Zhong Biography,” there is a chance to receive a “Huang Zhong Biography Mystery Ticket.”\rAfter selecting the 5-star difficulty, the challenge NPC—Huang Zhong—will appear. Speak with him; the hidden stage can be opened using the “Huang Zhong Biography Mystery Ticket.”\rThe team must have at least one player possessing the “Huang Zhong Biography Mystery Ticket” to attempt the 5-star challenge.", image = "CB\\图片\\战场指引图\\黄忠传3.tga"},
 }
 
---Chiến trường liên server Hào Mông Quan
+--Cross-Server Battlefield: Jiameng Pass
 BattleGuide[1009] = {
-	{text = "^dd006f1、Phương thức chiếm lĩnh^3a1f01\rChiến trường Hào Mông Quan áp dụng phương thức chiếm lĩnh điểm tài nguyên mới, khi số người sống sót của một bên trong khu vực điểm tài nguyên nhiều hơn bên kia, thanh chiếm lĩnh bắt đầu di chuyển, di chuyển đến điểm cuối thì bên đó chiếm lĩnh thành công, khi số người hai bên bằng nhau thì thanh chiếm lĩnh tạm dừng di chuyển, cho đến khi một bên giành lại ưu thế về số người.\r", image ="CB\\图片\\战场指引图\\葭萌关1.tga"},
-	{text = "^dd006f2、Chiếm lĩnh điểm tài nguyên^3a1f01\rĐiểm tài nguyên trung tâm sẽ cung cấp 1.5 lần điểm tích lũy so với các điểm tài nguyên xung quanh, đồng thời còn làm mới Xe Ngựa Vật Tư cung cấp điểm tích lũy thêm, điểm tài nguyên Kho Quân Khí và Thất Tinh Đàn ngoài việc cung cấp điểm tích lũy còn ảnh hưởng đến Cầu Phao và thời tiết, ngoài ra điểm buff làm mới ngẫu nhiên định kỳ trong chiến trường cũng ảnh hưởng nhất định đến thắng thua.", image = "CB\\图片\\战场指引图\\葭萌关2.tga"},
-	{text = "^dd006f3、Tiêu diệt kẻ địch^3a1f01\rTiêu diệt người chơi đối phương hoặc hỗ trợ đều nhận được phần thưởng Điểm Huân Hào Mông Quan, ngoài ra lần đầu tiên giết địch, giết mười kẻ địch và chiến thắng chiến trường đều sẽ nhận được lượng lớn Điểm Huân, sau khi chiến trường kết thúc có thể dựa vào Điểm Huân để đổi danh hiệu chiến trường và các phần thưởng đặc biệt khác ở chỗ NPC Đại Tướng Quân.", image = "CB\\图片\\战场指引图\\葭萌关3.tga"},
+	{text = "^dd006f1. Occupation Method^3a1f01\rThe Jiameng Pass battlefield adopts a new resource point occupation method. When one side has more survivors in the resource area, the bar moves toward their side. Once full, the point is captured. If numbers are equal, the bar pauses until one side gains the advantage.\r", image ="CB\\图片\\战场指引图\\葭萌关1.tga"},
+	{text = "^dd006f2. Occupying Resource Points^3a1f01\rThe central resource point provides 1.5 times the points of surrounding areas and refreshes Supply Wagons for extra points. The Armory and Seven-Star Altar points provide points and also affect the Pontoon Bridge and weather. Additionally, random buffs appearing periodically can significantly influence victory or defeat.", image = "CB\\图片\\战场指引图\\葭萌关2.tga"},
+	{text = "^dd006f3. Defeating Enemies^3a1f01\rDefeating or assisting in kills of enemy players rewards Jiameng Pass Merit Points. Large amounts of Merit are awarded for the first kill, reaching ten kills, and winning the battle. After the match, Merit can be exchanged for battlefield titles and special rewards at the Grand General NPC.", image = "CB\\图片\\战场指引图\\葭萌关3.tga"},
 }
 
-
---Chiến trường liên server Hào Mông Quan giới hạn thời gian
+--Cross-Server Battlefield: Jiameng Pass (Time Limited)
 BattleGuide[1068] = {
-	{text = "^dd006f1、Phương thức chiếm lĩnh^3a1f01\rChiến trường Hào Mông Quan áp dụng phương thức chiếm lĩnh điểm tài nguyên mới, khi số người sống sót của một bên trong khu vực điểm tài nguyên nhiều hơn bên kia, thanh chiếm lĩnh bắt đầu di chuyển, di chuyển đến điểm cuối thì bên đó chiếm lĩnh thành công, khi số người hai bên bằng nhau thì thanh chiếm lĩnh tạm dừng di chuyển, cho đến khi một bên giành lại ưu thế về số người.\r", image ="CB\\图片\\战场指引图\\葭萌关1.tga"},
-	{text = "^dd006f2、Chiếm lĩnh điểm tài nguyên^3a1f01\rĐiểm tài nguyên trung tâm sẽ cung cấp 1.5 lần điểm tích lũy so với các điểm tài nguyên xung quanh, đồng thời còn làm mới Xe Ngựa Vật Tư cung cấp điểm tích lũy thêm, điểm tài nguyên Kho Quân Khí và Thất Tinh Đàn ngoài việc cung cấp điểm tích lũy còn ảnh hưởng đến Cầu Phao và thời tiết, ngoài ra điểm buff làm mới ngẫu nhiên định kỳ trong chiến trường cũng ảnh hưởng nhất định đến thắng thua.", image = "CB\\图片\\战场指引图\\葭萌关2.tga"},
-	{text = "^dd006f3、Tiêu diệt kẻ địch^3a1f01\rTiêu diệt người chơi đối phương hoặc hỗ trợ đều nhận được phần thưởng Điểm Huân Hào Mông Quan, ngoài ra lần đầu tiên giết địch, giết mười kẻ địch và chiến thắng chiến trường đều sẽ nhận được lượng lớn Điểm Huân, sau khi chiến trường kết thúc có thể dựa vào Điểm Huân để đổi danh hiệu chiến trường và các phần thưởng đặc biệt khác ở chỗ NPC Đại Tướng Quân.", image = "CB\\图片\\战场指引图\\葭萌关3.tga"},
+	{text = "^dd006f1. Occupation Method^3a1f01\rThe Jiameng Pass battlefield adopts a new resource point occupation method. When one side has more survivors in the resource area, the bar moves toward their side. Once full, the point is captured. If numbers are equal, the bar pauses until one side gains the advantage.\r", image ="CB\\图片\\战场指引图\\葭萌关1.tga"},
+	{text = "^dd006f2. Occupying Resource Points^3a1f01\rThe central resource point provides 1.5 times the points of surrounding areas and refreshes Supply Wagons for extra points. The Armory and Seven-Star Altar points provide points and also affect the Pontoon Bridge and weather. Additionally, random buffs appearing periodically can significantly influence victory or defeat.", image = "CB\\图片\\战场指引图\\葭萌关2.tga"},
+	{text = "^dd006f3. Defeating Enemies^3a1f01\rDefeating or assisting in kills of enemy players rewards Jiameng Pass Merit Points. Large amounts of Merit are awarded for the first kill, reaching ten kills, and winning the battle. After the match, Merit can be exchanged for battlefield titles and special rewards at the Grand General NPC.", image = "CB\\图片\\战场指引图\\葭萌关3.tga"},
 }
 
---Chiến liên server
+--Cross-Server War
 BattleGuide[1036] = {
-	{text = "^3a1f01\rPhương thức thắng lợi mà chiến trường liên server áp dụng là tiêu diệt boss đối phương, nhưng thuộc tính ban đầu của chủ tướng hai bên khá cao, khó bị tiêu diệt.\r\rThông qua việc đốt các đống lửa phong hỏa trên đài cao ở ba điểm chiến trường trung tâm, có thể lần lượt giảm ba loại thuộc tính của chủ tướng đối phương, chủ tướng đối phương với sĩ khí thấp sẽ trở nên yếu ớt và dễ bị tiêu diệt hơn.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
-	{text = "^3a1f01\rBa đài cao ở ba điểm chiến trường trung tâm không thể leo lên trực tiếp, cần hai bên tranh giành cờ trong điểm chiến trường để đạt được sự chiếm lĩnh khu vực.\r\rSau khi nhổ cờ chiếm lĩnh khu vực thành công, căn cứ của bên đó sẽ làm mới Vân Thang (thang mây) chạy về phía đài cao tương ứng, trên đường đi chú ý người chơi đối phương phá hủy Vân Thang. Vân Thang đến đích sẽ trở nên vô địch, nhanh chóng leo lên Vân Thang mới có thể lên đài đốt lửa phong hỏa.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
-	{text = "^3a1f01\rThành trì trong chiến loạn tan hoang, hào bảo và tường thành đã thay đổi hoàn toàn, dẫn đến điểm chiến trường trung tâm và đại doanh đông tây không thể thông suốt, chỉ có thể qua lại bằng Thuyền Chiến ở bờ sông, Thuyền Chiến mỗi lần chỉ có thể chở 10 người, ghi nhớ vị trí neo đậu của Thuyền Chiến và tận dụng tốt, sẽ đạt được hiệu quả binh lính bất ngờ.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
+	{text = "^3a1f01\rThe victory condition for the cross-server battlefield is to defeat the enemy boss. However, the initial attributes of both commanders are very high, making them difficult to kill.\r\rBy lighting the signal fires on the high platforms at the three central battlefield points, you can reduce three types of attributes of the enemy commander. A commander with low morale becomes fragile and easier to defeat.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
+	{text = "^3a1f01\rThe three high platforms in the center cannot be climbed directly. Both sides must compete for flags in the battlefield points to gain area control.\r\rAfter successfully capturing an area, Cloud Ladders (siege ladders) will refresh at that side's base and move toward the corresponding platform. Guard your Cloud Ladders from enemy players along the way. Once a ladder reaches its destination, it becomes invincible; climb it quickly to reach the platform and light the signal fire.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
+	{text = "^3a1f01\rThe war-torn cities are in ruins, with moats and walls completely changed, making direct travel between the center and the East/West camps impossible. You must use Warships at the riverbank. Each Warship can only carry 10 people. Remembering the docking positions and using them wisely will yield the effect of a surprise attack.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
 }
 
---Chiến liên server
+--Cross-Server Battle
 BattleGuide[1047] = {
-	{text = "^3a1f01\rPhương thức thắng lợi mà chiến trường liên server áp dụng là tiêu diệt boss đối phương, nhưng thuộc tính ban đầu của chủ tướng hai bên khá cao, khó bị tiêu diệt.\r\rThông qua việc đốt các đống lửa phong hỏa trên đài cao ở ba điểm chiến trường trung tâm, có thể lần lượt giảm ba loại thuộc tính của chủ tướng đối phương, chủ tướng đối phương với sĩ khí thấp sẽ trở nên yếu ớt và dễ bị tiêu diệt hơn.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
-	{text = "^3a1f01\rBa đài cao ở ba điểm chiến trường trung tâm không thể leo lên trực tiếp, cần hai bên tranh giành cờ trong điểm chiến trường để đạt được sự chiếm lĩnh khu vực.\r\rSau khi nhổ cờ chiếm lĩnh khu vực thành công, căn cứ của bên đó sẽ làm mới Vân Thang chạy về phía đài cao tương ứng, trên đường đi chú ý người chơi đối phương phá hủy Vân Thang. Vân Thang đến đích sẽ trở nên vô địch, nhanh chóng leo lên Vân Thang mới có thể lên đài đốt lửa phong hỏa.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
-	{text = "^3a1f01\rThành trì trong chiến loạn tan hoang, hào bảo và tường thành đã thay đổi hoàn toàn, dẫn đến điểm chiến trường trung tâm và đại doanh đông tây không thể thông suốt, chỉ có thể qua lại bằng Thuyền Chiến ở bờ sông, Thuyền Chiến mỗi lần chỉ có thể chở 10 người, ghi nhớ vị trí neo đậu của Thuyền Chiến và tận dụng tốt, sẽ đạt được hiệu quả binh lính bất ngờ.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
+	{text = "^3a1f01\rThe victory condition for the cross-server battlefield is to defeat the enemy boss. However, the initial attributes of both commanders are very high, making them difficult to eliminate.\r\rBy lighting the signal fires on the high platforms at the three central battlefield points, you can significantly reduce three types of attributes for the enemy commander. An enemy commander with low morale becomes fragile and much easier to defeat.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
+	{text = "^3a1f01\rThe three high platforms at the central battlefield points cannot be climbed directly. Both sides must compete for the flags at these points to achieve area control.\r\rAfter successfully capturing the area by pulling the flag, that side's base will refresh Cloud Ladders that move toward the corresponding platform. Be careful of enemy players attempting to destroy the Cloud Ladders on the way. Once a Cloud Ladder reaches its destination, it becomes invincible; climb it quickly to reach the platform and light the signal fire.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
+	{text = "^3a1f01\rThe war-torn cities are in ruins, and the moats and walls have changed completely, meaning the central battlefield and the east/west main camps are no longer connected by land. You can only travel between them via Warships at the riverbank. Each Warship can carry only 10 people at a time. Remembering the docking positions and utilizing them effectively will grant you the element of surprise.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
 }
 
---Chiến liên server
+--Cross-Server Battle
 BattleGuide[1053] = {
-	{text = "^3a1f01\rPhương thức thắng lợi mà chiến trường liên server áp dụng là tiêu diệt boss đối phương, nhưng thuộc tính ban đầu của chủ tướng hai bên khá cao, khó bị tiêu diệt.\r\rThông qua việc đốt các đống lửa phong hỏa trên đài cao ở ba điểm chiến trường trung tâm, có thể lần lượt giảm ba loại thuộc tính của chủ tướng đối phương, chủ tướng đối phương với sĩ khí thấp sẽ trở nên yếu ớt và dễ bị tiêu diệt hơn.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
-	{text = "^3a1f01\rBa đài cao ở ba điểm chiến trường trung tâm không thể leo lên trực tiếp, cần hai bên tranh giành cờ trong điểm chiến trường để đạt được sự chiếm lĩnh khu vực.\r\rSau khi nhổ cờ chiếm lĩnh khu vực thành công, căn cứ của bên đó sẽ làm mới Vân Thang chạy về phía đài cao tương ứng, trên đường đi chú ý người chơi đối phương phá hủy Vân Thang. Vân Thang đến đích sẽ trở nên vô địch, nhanh chóng leo lên Vân Thang mới có thể lên đài đốt lửa phong hỏa.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
-	{text = "^3a1f01\rThành trì trong chiến loạn tan hoang, hào bảo và tường thành đã thay đổi hoàn toàn, dẫn đến điểm chiến trường trung tâm và đại doanh đông tây không thể thông suốt, chỉ có thể qua lại bằng Thuyền Chiến ở bờ sông, Thuyền Chiến mỗi lần chỉ có thể chở 10 người, ghi nhớ vị trí neo đậu của Thuyền Chiến và tận dụng tốt, sẽ đạt được hiệu quả binh lính bất ngờ.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
+	{text = "^3a1f01\rThe victory condition for the cross-server battlefield is to defeat the enemy boss. However, the initial attributes of both commanders are very high, making them difficult to eliminate.\r\rBy lighting the signal fires on the high platforms at the three central battlefield points, you can significantly reduce three types of attributes for the enemy commander. An enemy commander with low morale becomes fragile and much easier to defeat.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
+	{text = "^3a1f01\rThe three high platforms at the central battlefield points cannot be climbed directly. Both sides must compete for the flags at these points to achieve area control.\r\rAfter successfully capturing the area by pulling the flag, that side's base will refresh Cloud Ladders that move toward the corresponding platform. Be careful of enemy players attempting to destroy the Cloud Ladders on the way. Once a Cloud Ladder reaches its destination, it becomes invincible; climb it quickly to reach the platform and light the signal fire.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
+	{text = "^3a1f01\rThe war-torn cities are in ruins, and the moats and walls have changed completely, meaning the central battlefield and the east/west main camps are no longer connected by land. You can only travel between them via Warships at the riverbank. Each Warship can carry only 10 people at a time. Remembering the docking positions and utilizing them effectively will grant you the element of surprise.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
 }
 
 
---Chiến liên server
+--Cross-Server Battle
 BattleGuide[1054] = {
-	{text = "^3a1f01\rPhương thức thắng lợi mà chiến trường liên server áp dụng là tiêu diệt boss đối phương, nhưng thuộc tính ban đầu của chủ tướng hai bên khá cao, khó bị tiêu diệt.\r\rThông qua việc đốt các đống lửa phong hỏa trên đài cao ở ba điểm chiến trường trung tâm, có thể lần lượt giảm ba loại thuộc tính của chủ tướng đối phương, chủ tướng đối phương với sĩ khí thấp sẽ trở nên yếu ớt và dễ bị tiêu diệt hơn.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
-	{text = "^3a1f01\rBa đài cao ở ba điểm chiến trường trung tâm không thể leo lên trực tiếp, cần hai bên tranh giành cờ trong điểm chiến trường để đạt được sự chiếm lĩnh khu vực.\r\rSau khi nhổ cờ chiếm lĩnh khu vực thành công, căn cứ của bên đó sẽ làm mới Vân Thang chạy về phía đài cao tương ứng, trên đường đi chú ý người chơi đối phương phá hủy Vân Thang. Vân Thang đến đích sẽ trở nên vô địch, nhanh chóng leo lên Vân Thang mới có thể lên đài đốt lửa phong hỏa.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
-	{text = "^3a1f01\rThành trì trong chiến loạn tan hoang, hào bảo và tường thành đã thay đổi hoàn toàn, dẫn đến điểm chiến trường trung tâm và đại doanh đông tây không thể thông suốt, chỉ có thể qua lại bằng Thuyền Chiến ở bờ sông, Thuyền Chiến mỗi lần chỉ có thể chở 10 người, ghi nhớ vị trí neo đậu của Thuyền Chiến và tận dụng tốt, sẽ đạt được hiệu quả binh lính bất ngờ.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
+	{text = "^3a1f01\rThe victory condition for the cross-server battlefield is to defeat the enemy boss. However, the initial attributes of both commanders are very high, making them difficult to eliminate.\r\rBy lighting the signal fires on the high platforms at the three central battlefield points, you can significantly reduce three types of attributes for the enemy commander. An enemy commander with low morale becomes fragile and much easier to defeat.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
+	{text = "^3a1f01\rThe three high platforms at the central battlefield points cannot be climbed directly. Both sides must compete for the flags at these points to achieve area control.\r\rAfter successfully capturing the area by pulling the flag, that side's base will refresh Cloud Ladders that move toward the corresponding platform. Be careful of enemy players attempting to destroy the Cloud Ladders on the way. Once a Cloud Ladder reaches its destination, it becomes invincible; climb it quickly to reach the platform and light the signal fire.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
+	{text = "^3a1f01\rThe war-torn cities are in ruins, and the moats and walls have changed completely, meaning the central battlefield and the east/west main camps are no longer connected by land. You can only travel between them via Warships at the riverbank. Each Warship can carry only 10 people at a time. Remembering the docking positions and utilizing them effectively will grant you the element of surprise.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
 }
 
---Chiến liên server
+--Cross-Server Battle
 BattleGuide[1055] = {
-	{text = "^3a1f01\rPhương thức thắng lợi mà chiến trường liên server áp dụng là tiêu diệt boss đối phương, nhưng thuộc tính ban đầu của chủ tướng hai bên khá cao, khó bị tiêu diệt.\r\rThông qua việc đốt các đống lửa phong hỏa trên đài cao ở ba điểm chiến trường trung tâm, có thể lần lượt giảm ba loại thuộc tính của chủ tướng đối phương, chủ tướng đối phương với sĩ khí thấp sẽ trở nên yếu ớt và dễ bị tiêu diệt hơn.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
-	{text = "^3a1f01\rBa đài cao ở ba điểm chiến trường trung tâm không thể leo lên trực tiếp, cần hai bên tranh giành cờ trong điểm chiến trường để đạt được sự chiếm lĩnh khu vực.\r\rSau khi nhổ cờ chiếm lĩnh khu vực thành công, căn cứ của bên đó sẽ làm mới Vân Thang chạy về phía đài cao tương ứng, trên đường đi chú ý người chơi đối phương phá hủy Vân Thang. Vân Thang đến đích sẽ trở nên vô địch, nhanh chóng leo lên Vân Thang mới có thể lên đài đốt lửa phong hỏa.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
-	{text = "^3a1f01\rThành trì trong chiến loạn tan hoang, hào bảo và tường thành đã thay đổi hoàn toàn, dẫn đến điểm chiến trường trung tâm và đại doanh đông tây không thể thông suốt, chỉ có thể qua lại bằng Thuyền Chiến ở bờ sông, Thuyền Chiến mỗi lần chỉ có thể chở 10 người, ghi nhớ vị trí neo đậu của Thuyền Chiến và tận dụng tốt, sẽ đạt được hiệu quả binh lính bất ngờ.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
+	{text = "^3a1f01\rThe victory condition for the cross-server battlefield is to defeat the enemy boss. However, the initial attributes of both commanders are very high, making them difficult to eliminate.\r\rBy lighting the signal fires on the high platforms at the three central battlefield points, you can significantly reduce three types of attributes for the enemy commander. An enemy commander with low morale becomes fragile and much easier to defeat.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
+	{text = "^3a1f01\rThe three high platforms at the central battlefield points cannot be climbed directly. Both sides must compete for the flags at these points to achieve area control.\r\rAfter successfully capturing the area by pulling the flag, that side's base will refresh Cloud Ladders that move toward the corresponding platform. Be careful of enemy players attempting to destroy the Cloud Ladders on the way. Once a Cloud Ladder reaches its destination, it becomes invincible; climb it quickly to reach the platform and light the signal fire.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
+	{text = "^3a1f01\rThe war-torn cities are in ruins, and the moats and walls have changed completely, meaning the central battlefield and the east/west main camps are no longer connected by land. You can only travel between them via Warships at the riverbank. Each Warship can carry only 10 people at a time. Remembering the docking positions and utilizing them effectively will grant you the element of surprise.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
 }
 
 
---Chiến liên server
+--Cross-Server Battle
 BattleGuide[1056] = {
-	{text = "^3a1f01\rPhương thức thắng lợi mà chiến trường liên server áp dụng là tiêu diệt boss đối phương, nhưng thuộc tính ban đầu của chủ tướng hai bên khá cao, khó bị tiêu diệt.\r\rThông qua việc đốt các đống lửa phong hỏa trên đài cao ở ba điểm chiến trường trung tâm, có thể lần lượt giảm ba loại thuộc tính của chủ tướng đối phương, chủ tướng đối phương với sĩ khí thấp sẽ trở nên yếu ớt và dễ bị tiêu diệt hơn.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
-	{text = "^3a1f01\rBa đài cao ở ba điểm chiến trường trung tâm không thể leo lên trực tiếp, cần hai bên tranh giành cờ trong điểm chiến trường để đạt được sự chiếm lĩnh khu vực.\r\rSau khi nhổ cờ chiếm lĩnh khu vực thành công, căn cứ của bên đó sẽ làm mới Vân Thang chạy về phía đài cao tương ứng, trên đường đi chú ý người chơi đối phương phá hủy Vân Thang. Vân Thang đến đích sẽ trở nên vô địch, nhanh chóng leo lên Vân Thang mới có thể lên đài đốt lửa phong hỏa.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
-	{text = "^3a1f01\rThành trì trong chiến loạn tan hoang, hào bảo và tường thành đã thay đổi hoàn toàn, dẫn đến điểm chiến trường trung tâm và đại doanh đông tây không thể thông suốt, chỉ có thể qua lại bằng Thuyền Chiến ở bờ sông, Thuyền Chiến mỗi lần chỉ có thể chở 10 người, ghi nhớ vị trí neo đậu của Thuyền Chiến và tận dụng tốt, sẽ đạt được hiệu quả binh lính bất ngờ.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
+	{text = "^3a1f01\rThe victory condition for the cross-server battlefield is to defeat the enemy boss. However, the initial attributes of both commanders are very high, making them difficult to eliminate.\r\rBy lighting the signal fires on the high platforms at the three central battlefield points, you can significantly reduce three types of attributes for the enemy commander. An enemy commander with low morale becomes fragile and much easier to defeat.\r", image ="CB\\图片\\战场指引图\\跨服战场1.tga"},
+	{text = "^3a1f01\rThe three high platforms at the central battlefield points cannot be climbed directly. Both sides must compete for the flags at these points to achieve area control.\r\rAfter successfully capturing the area by pulling the flag, that side's base will refresh Cloud Ladders that move toward the corresponding platform. Be careful of enemy players attempting to destroy the Cloud Ladders on the way. Once a Cloud Ladder reaches its destination, it becomes invincible; climb it quickly to reach the platform and light the signal fire.", image = "CB\\图片\\战场指引图\\跨服战场2.tga"},
+	{text = "^3a1f01\rThe war-torn cities are in ruins, and the moats and walls have changed completely, meaning the central battlefield and the east/west main camps are no longer connected by land. You can only travel between them via Warships at the riverbank. Each Warship can carry only 10 people at a time. Remembering the docking positions and utilizing them effectively will grant you the element of surprise.", image = "CB\\图片\\战场指引图\\跨服战场3.tga"},
 }
 
 
@@ -3502,51 +3506,50 @@ HelpEvent2 = "1, Trong hoạt động thành viên có thể cùng nhau nỗ l�
 
 
 --------------------------------
---五虎将资料片公告，寻径用文字
+-- Five Tigers General Expansion Announcement, Pathfinding Text
 --------------------------------
 Board1 = "#72209#"
-Board2 = "Ở #27047# nhận Lệnh Thám Hiểm Bắc Mang sau đó có thể đi thám hiểm."
-Board3 = "Ở #72211# và những người khác có thể đổi phần thưởng phong phú bằng điểm tích lũy nhận được khi tham gia cuộc thi!"
+Board2 = "At #27047#, obtain the Beimang Exploration Order to begin your adventure."
+Board3 = "At #72211# and other locations, you can exchange points earned from competitions for rich rewards!"
 
 
 --------------------------------
---角色交易说明文字
+-- Character Trade Instruction Text
 --------------------------------
 TradeCharGuide =
 {
-	"^ff6fb31. 角色出售条件^ffffff\r出售角色需满足以下条件：\r^fffd44◆等级不低于英雄1级\r◆有结义长职位的必须先传给别人\r◆有军团长职位的必须先传给别人\r◆没有师徒关系\r◆不在竞技队中\r◆账号或角色未处于封禁或被禁言状态\r◆脱离跨服竞技军团\r^ffffff\r\r^ff6fb32. 登记角色^ffffff\r首先，卖方需先在我这里选择“登记出售该角色”，我们会检测该角色是否满足出售条件，如果不满足条件则给与相应提示。售出条件均满足则角色进入登记期，登记期长为7天。\r在登记期间该角色可以正常游戏，玩家的角色选择列表上会显示该角色处于“已登记”状态。您如果想取消登记，可随时回来找我，选择“取消登记该角色”来终止出售登记。\r\r^ff6fb33. 出售角色^ffffff\r登记期满7天之后，便可在我这里正式出售您的角色了。如果超过3天的缓冲期仍未选择“出售角色”，则该角色会自动取消登记状态。\r当选择“出售角色”且验证满足条件后，该名角色便正式进入了“公示期”。此时会自动返回角色选择画面，看到该角色处于“待售中”状态。\r\r^ff6fb34. 公示期^ffffff\r处于“公示期”的角色将被冻结，无法登录。这时可以在《赤壁》的寻宝天行官方寄售页面上查看处于公示期的角色。公示期持续3天。\r进入公示期后，将给以下关系发送消息，告知您的角色开始出售：\r^fffd44◆结义、军团在线的人收到在线消息\r◆对应夫妻收到邮件通知\r◆好友收到邮件通知^ffffff\r\r^ff6fb35. 出售期^ffffff\r经过3天公示期后，如果没有收到申诉举报等，则将该角色进入正式可交易的“出售期”，进入出售期后便可以在寻宝天行上操作出售该角色了。但若该角色始终没有被购买走，则出售期结束后，网站自动将角色取消出售，稍后便可在游戏内登录使用了。\r^fffd44总寄售期=缓冲期+公示期+出售期^ffffff。缓冲期是从登记期结束后开始计算的3天时间，公示期是选择“出售角色”后开始计算的3天，正式出售期公示期结束后开始计算的最长7天，所以总寄售期最长为^fffd443+3+7=13^ffffff天。\r\r^ff6fb36. 取消寄售^ffffff\r处于寄售期的角色，在角色选择画面会始终以“待售中”状态显示。在此期间，如果希望取消寄售该角色，则需要先登录《赤壁》寻宝天行主页手动下架该角色，然后在角色选择画面通过点击角色旁边的“取消寄售”按钮来取消寄售。",
-"要购买某角色，买方需登录《赤壁》寻宝天行页面，浏览“角色”目录下的待售角色，然后指定给买方账号下的“被覆盖角色”，来完成角色购买。\r卖方角色的大部分属性会转移给买方“被覆盖角色”，而未被覆盖的属性保持不变。卖方角色在交易结束后，还将进行一些处理。\r\r^ff6fb31. 准备买方角色^ffffff\r首先买方需在游戏中有一名角色，该角色被称为“被覆盖角色”，他必须符合以下条件：\r^fffd44◆等级不高于15级\r◆包裹和仓库中总金钱数不超过5玉\r◆包裹中总物品数少于10件\r◆仓库中不得有任何物品\r◆性别与购买的角色需一致\r◆种族不限（会被覆盖）^ffffff\r买方通过寻宝天行官方网页，浏览商品“角色”，选中想购买的角色后，指定给自己账号下的一名可被覆盖的角色，此时判断该角色是否满足以上条件，如果满足，则购买成功。\r\r^ff6fb32. 属性转移^ffffff\r卖方角色的大部分属性将转移至买方“被覆盖角色”身上，但也会保留一小部分属性。买方角色同样，大部分属性将被覆盖，但仍保留部分属性。\r卖方角色保留的属性包括：\r^fffd44◆角色名\r◆性别、种族\r◆好友、仇人\r◆结义、军团、夫妻\r◆消费积分、军团结义贡献、元宝、军团参数^ffffff\r除了以上所列的属性，其他所有属性均从卖方角色转移至买方被覆盖角色身上。\r\r^ff6fb33. 角色交易后的处理^ffffff\r角色交易成功后，卖方角色变为15级低级号，买方角色被覆盖成出售的角色。\r\r^ff6fb34. 手续费的计算^ffffff\r^fffd44手续费 = 售价×10%+50^ffffff\r举例：售价100元的角色，手续费 = 100×10%+50 = 60\r注意：这60元手续费由卖方支付，买方只支付100元的角色售价，卖方扣除手续费后，实际到手为40元。\r\r^ff6fb35. 购买失败处理^ffffff\r如果买方角色不符合要求，则视为购买失败，支付款项后会通知该情况。此时请等待系统退款，交易结束。",
-	"^ff6fb3卖方（出售方）：^ffffff\r出售角色的玩家，实际上出售的是该账号下的指定角色。\r\r^ff6fb3买方（购买方）：^ffffff\r购买角色的玩家，买方玩家需要指定一名用于交易的低级号角色，即“被覆盖角色”。\r\r^ff6fb3角色出售登记：^ffffff\r玩家在游戏功能NPC处提交“角色出售登记”的行为。\r\r^ff6fb3登记期：^ffffff\r用来给卖方反悔以及盗号安全方面考虑的时期，该时期内玩家并未实际开始贩卖角色。此时段中玩家可以登录和正常游戏。玩家上线后系统会通知该角色距离登记期结束的倒计时提醒。登记期最少7天，最多10天（加上缓冲期），玩家进行角色出售登记后第7天开始可以进行“角色出售”出售该角色。如果玩家进行角色出售登记后第10天仍没有出售该角色，则该角色自动解除登记状态。\r\r^ff6fb3角色出售：^ffffff\r玩家在游戏功能NPC处提交“角色出售”的行为。玩家角色出售时将做出售合法性检查，检查不合法则不允许出售，退回到未登记状态。检查合法则进入“公示期”。\r\r^ff6fb3冻结期：^ffffff\r指出售角色处于公示期和出售期这一段时间，此时段中，该角色不能登陆游戏。\r\r^ff6fb3公示期：^ffffff\r在网站上显示角色资料给大众，供其他玩家浏览和举报用。角色还在展示期，还没有开始出售。\r\r^ff6fb3出售期：^ffffff\r角色正式出售，处于随时可以被购买的时期，可以进行实际的现金买卖。\r\r^ff6fb3出售角色：^ffffff\r将角色从游戏内转移至交易中心，卖家可在网站上进行特定操作。\r\r^ff6fb3上架：^ffffff\r将角色设定好价格进行出售的过程。\r\r^ff6fb3下架：^ffffff\r将角色取消上架状态，停止出售，但此时角色仍在交易中心存放。\r\r^ff6fb3取消寄售：^ffffff\r将存放在交易中心中未上架的角色取回游戏的操作。\r\r^ff6fb3角色出售成功：^ffffff\r角色出售成功时将进行数据的转移。"
+	"^ff6fb31. Character Sale Requirements^ffffff\rThe following conditions must be met to sell a character:\r^fffd44◆ Level must be at least Hero Level 1\r◆ Sworn Brotherhood leadership must be transferred to someone else\r◆ Legion leadership must be transferred to someone else\r◆ No Master-Apprentice relationship\r◆ Not in a competitive team\r◆ Account or character is not banned or muted\r◆ Must have left cross-server competitive Legions\r^ffffff\r\r^ff6fb32. Character Registration^ffffff\rFirst, the seller must select 'Register Character for Sale' at my location. We will check if the requirements are met. If not, a prompt will appear. If met, the character enters a 7-day Registration Period.\rDuring this time, you can play normally. The character will be marked as 'Registered' on the selection screen. You can cancel this at any time by selecting 'Cancel Registration'.\r\r^ff6fb33. Selling the Character^ffffff\rAfter the 7-day Registration Period, you can officially list the character. If you do not select 'Sell Character' within the 3-day grace period, the registration will automatically expire.\rOnce 'Sell Character' is confirmed, the character enters the 'Publicity Period'. You will be returned to the character selection screen, and the status will show 'For Sale'.\r\r^ff6fb34. Publicity Period^ffffff\rCharacters in the 'Publicity Period' are frozen and cannot log in. You can view them on the official 'Xunbao Tianxing' consignment page. This period lasts 3 days.\rNotifications will be sent to the following:\r^fffd44◆ Online Sworn Brothers and Legion members\r◆ Spouse (via mail)\r◆ Friends (via mail)^ffffff\r\r^ff6fb35. Sale Period^ffffff\rAfter the 3-day Publicity Period (if no appeals are made), the character enters the 'Sale Period' and can be purchased on the website. If not sold, the character will be automatically de-listed and become playable again.\r^fffd44Total Consignment Time = Grace Period + Publicity Period + Sale Period^ffffff. The Grace Period is 3 days after registration ends, Publicity is 3 days after listing, and the Sale Period lasts up to 7 days. Total maximum time is ^fffd443+3+7=13^ffffff days.\r\r^ff6fb36. Cancel Consignment^ffffff\rCharacters for sale will show as 'For Sale' on the selection screen. To cancel, you must first manually take the character off the 'Xunbao Tianxing' homepage, then click 'Cancel Consignment' on the game selection screen.",
+"To buy a character, the buyer must log into the 'Xunbao Tianxing' page, browse 'Characters', and specify a 'Target Character' on their account to be overwritten.\rMost attributes will transfer to the buyer's character. After the trade, the seller's original character will undergo processing.\r\r^ff6fb31. Prepare Buyer Character^ffffff\rThe buyer must have a 'Target Character' that meets these requirements:\r^fffd44◆ Level no higher than Level 15\r◆ Total gold in inventory/warehouse not exceeding 5 Jade\r◆ Less than 10 total items in inventory\r◆ Warehouse must be empty\r◆ Gender must match the purchased character\r◆ Race is not restricted (will be overwritten)^ffffff\rIf the buyer selects a character and meets these conditions, the purchase is successful.\r\r^ff6fb32. Attribute Transfer^ffffff\rMost attributes from the seller transfer to the buyer's target, though a small portion is retained. \rAttributes retained by the seller's identity include:\r^fffd44◆ Character Name\r◆ Gender and Race\r◆ Friends and Enemies list\r◆ Sworn Brotherhood, Legion, and Marriage status\r◆ Spending Points, Contribution, Yuanbao, and Legion parameters^ffffff\rAll other attributes are transferred from the seller to the buyer's target character.\r\r^ff6fb33. Post-Trade Processing^ffffff\rAfter success, the seller's original slot becomes a Level 15 character, and the buyer's character is overwritten with all the sold character's stats.\r\r^ff6fb34. Fee Calculation^ffffff\r^fffd44Transaction Fee = Sale Price × 10% + 50^ffffff\rExample: For a 100 Yuan sale, Fee = 100 × 10% + 50 = 60.\rNote: The seller pays the fee. The buyer pays 100, the seller receives 40 after fees.\r\r^ff6fb35. Purchase Failure^ffffff\rIf the buyer's character does not meet requirements, the purchase fails. A refund will be processed and the transaction will end.",
+	"^ff6fb3Seller:^ffffff\rThe player selling a specific character under their account.\r\r^ff6fb3Buyer:^ffffff\rThe player purchasing a character using a low-level 'Target Character'.\r\r^ff6fb3Sale Registration:^ffffff\rThe act of submitting a character for sale via the NPC.\r\r^ff6fb3Registration Period:^ffffff\rA security period (7-10 days) allowing the seller to change their mind. The character is still playable. A countdown timer will appear upon login.\r\r^ff6fb3Character Sale:^ffffff\rThe official submission to the 'Publicity Period' after legality checks are passed.\r\r^ff6fb3Frozen Period:^ffffff\rThe combined time of Publicity and Sale periods where the character cannot log in.\r\r^ff6fb3Publicity Period:^ffffff\rThe 3-day display period on the website for browsing and reporting purposes.\r\r^ff6fb3Sale Period:^ffffff\rThe period where the character is officially available for cash purchase.\r\r^ff6fb3Selling Character:^ffffff\rTransferring the character from the game to the Trading Center.\r\r^ff6fb3Listing:^ffffff\rSetting the price for the character on the website.\r\r^ff6fb3Delisting:^ffffff\rStopping the sale and setting the status to 'Off-shelf', though the character remains in the Trading Center.\r\r^ff6fb3Cancel Consignment:^ffffff\rRetrieving the character from the Trading Center back into the game.\r\r^ff6fb3Trade Success:^ffffff\rThe final step where data transfer is completed."
 }
 
 
---游戏已开放信息--
---等级上限
+-- Game Information --
+-- Level Cap
 Max_Level = 80
---职业等级上限
+-- Job Level Cap
 Max_ProfLevel = 72
---职业阶段上限
+-- Job Stage Cap
 Max_iLevel = 9
---可以选副职业的最低主职业等级
+-- Minimum Main Job Level to select Sub-Job
 SelSubLv = 52
---开始获得专精点数的最低副职业等级
+-- Minimum Sub-Job Level to start gaining Specialization Points
 DowerSubLv = 37
---已开放装备为几阶（0为初阶，1为一阶）
+-- Max Equipment Rank (0 is Basic, 1 is Rank 1)
 Max_EquipLevel = 8
---已开放官品的level（参考position_desc.lua，军队为0，九品为1）
 
---等级封印信息
+-- Level Seal Information
 SealInfo = {
 
-{ Level = 81, Stage = "Kiêu Hùng Loạn Thế", Detail = "Trong loạn thế, ai có thể độc bá một phương? Tranh giành kiêu hùng, kéo màn mở ra!", Next = 95},
-{ Level = 95, Stage = "Quần Hùng Nổi Dậy", Detail = "Đây là thời đại quần hùng nổi dậy, các anh hùng hào kiệt bắt đầu tỏa sáng, cạnh tranh gia tăng!", Next = 110},
-{ Level = 110, Stage = "Chư Hầu Tranh Đấu", Detail = "Đấu đá nội bộ, lừa đảo dối trá, ai có thể cười đến cuối cùng trong loạn thế này?", Next = 125},
-{ Level = 125, Stage = "Thiên Hạ Vô Song", Detail = "Thành vương bại khấu, từ xưa đến nay đều như vậy, vậy thì, ai sẽ là vương, ai sẽ là cướp?", Next = 130},
-{ Level = 130, Stage = "Ngạo Thị Cửu Châu", Detail = "Ngạo nghễ thiên hạ, khinh thường Cửu Châu, tất cả đã nằm trong tầm kiểm soát!", Next = -1},
+{ Level = 81, Stage = "Warlords of Chaos", Detail = "In a world of chaos, who can dominate? The struggle for supremacy begins now!", Next = 95},
+{ Level = 95, Stage = "Rise of Heroes", Detail = "An era where heroes shine and competition intensifies!", Next = 110},
+{ Level = 110, Stage = "Feuding Lords", Detail = "Internal strife and deception; who will have the last laugh in this chaotic world?", Next = 125},
+{ Level = 125, Stage = "Unrivaled Under Heaven", Detail = "Kings are made and losers fall; so, who shall be the King and who shall be the outlaw?", Next = 130},
+{ Level = 130, Stage = "Lord of the Nine Provinces", Detail = "Looking down upon the world, everything is now under your control!", Next = -1},
 
 }
 
---Touch 充值奖励信息
+-- Touch Recharge Reward Info
 TouchInfo = {
 {Money = 100, RPoint = 5000},
 {Money = 300, RPoint = 15000},
@@ -3557,99 +3560,87 @@ TouchInfo = {
 {Money = 10000, RPoint = 200000},
 }
 
-
-
---Max_PositionLevel = 9
---LDG_PicNum：“aX.dds”格式的loading图数量
-
-
-
-
-
-
 LDG_PicNum = 14
 
---未整理文本
 
 
 
 
 
+TEXT_ENTERWAIT = "Game: Entering Red Cliff…";
 
-TEXT_ENTERWAIT = "LouLx Game: Đang vào Xích Bích…";
 
-
--- 资料片公告弹版
+-- Expansion pack announcement popup
 if showBoardMain == nil then
 	showBoardMain = true
 end
 
 
--- 普通的花娘引导文本
+-- Common Flower Girl guide text
 
 FlowerGuide = {}
-FlowerGuide[1] 	  = "花娘：欢迎来到赤壁的世界，点击受伤的NPC-安何生开始游戏吧！"
-FlowerGuide[10]   = "花娘：你升级好快呀！继续加油哦！我会陪着你一起升级！"
-FlowerGuide[20]   = "花娘：装备的品质分为，劣品，良品，珍品，最高是神品，遇到好装备一定要赶紧装备！"
-FlowerGuide[30]   = "花娘：你“上”了坐骑，看起来萌！萌！哒！"
-FlowerGuide[40]   = "花娘：穿上时装一下就高大上了~高级时装不光好看，还有属性哟！"
-FlowerGuide[41]   = "花娘：穿上时装一下就高大上了~高级时装不光好看，还有属性哟！"
-FlowerGuide[50]   = "花娘：听说你还不会轻功呀？快速按两下W，之后按空格键就能使用轻功啦！"
-FlowerGuide[60]   = "花娘：恭喜你达到9级！再升1级，你就可以获得官职了！官阶俸禄每日领取！更有特殊属性加成的官阶称号哦！"
-FlowerGuide[70]   = "花娘：主兵种升级后就可以升级专精技能啦，快来看看吧！^tip"
-FlowerGuide[80]   = "花娘：哟呵~一不小心就升官啦！以后多做一些功勋任务，官职不同还有不同称号哟~"
-FlowerGuide[90]   = "花娘：恭喜你达到11级！将等级提升至17级，就可以获得一个奖励哦！"
-FlowerGuide[100]  = "花娘：当前适合的挂机地图为：河北，通过点击迷你地图上的挂机按钮即可开始挂机哦！"
-FlowerGuide[110]  = "花娘：恭喜你达到15级！再升1级，你就可以参加英雄玄石活动啦！还有缤纷的节日活动等你参与，海量奖励拿到手软！"
-FlowerGuide[120]  = "花娘：恭喜你达到16级！你现在可以参加英雄玄石、桃园告急等等高奖励日常活动啦！点击下面的活动日历即可知道详情哦！"
-FlowerGuide[130]  = "花娘：英雄玄石活动为每日12点后，领取英雄玄石，完成任务获得丰富奖励！"
-FlowerGuide[140]  = "花娘：桃园告急活动为每日14:00、16:00、18:00、20:00、22:00，完成任务获得海量奖励！"
-FlowerGuide[150]  = "花娘：当前适合的挂机地图为：西凉，通过点击迷你地图上的挂机按钮即可开始挂机哦！"
-FlowerGuide[160]  = "花娘：恭喜你达到21级！一个人升级是否觉得无聊呢？你可以拜个师傅，有他的帮助，你可以更快的升级哦！"
-FlowerGuide[170]  = "花娘：恭喜你达到22级！可以找到各地巧匠了解装备相关功能哦！"
-FlowerGuide[180]  = "花娘：恭喜你达到28级！乱世不平，何不找个伴侣，携伴江湖？"
-FlowerGuide[190]  = "花娘：当前适合的挂机地图为：巴蜀，通过点击迷你地图上的挂机按钮即可开始挂机哦！"
-FlowerGuide[200]  = "花娘：恭喜你达到32级！你可以查看你的成就列表哦！"
-FlowerGuide[210]  = "花娘：恭喜你达到35级！觉得升级慢吗？参加桃园告急活动可获得海量历练哦！"
-FlowerGuide[220]  = "花娘：你有军团吗？花娘推荐你加入军团哦！这样可以和朋友们一起去更快的完成任务和活动！可点击交友平台寻找军团哦！"
-FlowerGuide[230]  = "花娘：当前适合的挂机地图为：南蛮，通过点击迷你地图上的挂机按钮即可开始挂机哦！"
-FlowerGuide[240]  = "花娘：现在你可以学习如何招纳护卫了，若有缘，你可以招纳花娘作为你的护卫！帮你一起战斗，共闯天下！乱世——有你不寂寞。"
-FlowerGuide[250]  = "花娘：装备是有耐久的，不要光顾挂机，忽略了装备的感受哟~"
+FlowerGuide[1] 	  = "Flower Girl: Welcome to the world of Red Cliff! Click on the injured NPC-An Hesheng to start the game!"
+FlowerGuide[10]   = "Flower Girl: You're leveling up so fast! Keep it up! I’ll be right here with you!"
+FlowerGuide[20]   = "Flower Girl: Equipment quality is divided into: Poor, Common, Rare, and the highest is Divine. Equipping good gear as soon as you find it is a must!"
+FlowerGuide[30]   = "Flower Girl: You are now 'on' your mount. You look so cute!"
+FlowerGuide[40]   = "Flower Girl: Putting on a fashion outfit instantly makes you look high-class~ High-end fashions don't just look good, they have attributes too!"
+FlowerGuide[41]   = "Flower Girl: Putting on a fashion outfit instantly makes you look high-class~ High-end fashions don't just look good, they have attributes too!"
+FlowerGuide[50]   = "Flower Girl: I heard you don't know Qinggong yet? Quickly press W twice, then press Space to use your light body skills!"
+FlowerGuide[60]   = "Flower Girl: Congratulations on reaching Level 9! Just 1 more level and you can obtain an Official Position! Collect your rank salary daily! There are even special attribute titles for your rank!"
+FlowerGuide[70]   = "Flower Girl: Once your main unit upgrades, you can upgrade your specialization skills! Come take a look!^tip"
+FlowerGuide[80]   = "Flower Girl: Oho~ You’ve been promoted! Do more Merit Quests in the future; different ranks come with different titles~"
+FlowerGuide[90]   = "Flower Girl: Congratulations on reaching Level 11! Reach Level 17 to receive a special reward!"
+FlowerGuide[100]  = "Flower Girl: The current suitable AFK map is: Hebei. You can start AFK training by clicking the AFK button on the mini-map!"
+FlowerGuide[110]  = "Flower Girl: Congratulations on reaching Level 15! One more level and you can join the Heroic Mystic Stone event! There are also colorful festival events waiting for you with massive rewards!"
+FlowerGuide[120]  = "Flower Girl: Congratulations on reaching Level 16! You can now participate in high-reward daily activities like Heroic Mystic Stone and Taoyuan Emergency! Click the Event Calendar below for details!"
+FlowerGuide[130]  = "Flower Girl: The Heroic Mystic Stone event starts daily after 12:00. Collect the stone and complete the quest for rich rewards!"
+FlowerGuide[140]  = "Flower Girl: The Taoyuan Emergency event is held daily at 14:00, 16:00, 18:00, 20:00, and 22:00. Complete it for massive rewards!"
+FlowerGuide[150]  = "Flower Girl: The current suitable AFK map is: Xiliang. You can start AFK training by clicking the AFK button on the mini-map!"
+FlowerGuide[160]  = "Flower Girl: Congratulations on reaching Level 21! Is leveling alone getting boring? You can find a Master; with their help, you'll level up even faster!"
+FlowerGuide[170]  = "Flower Girl: Congratulations on reaching Level 22! You can find Craftsmen in various places to learn about equipment-related features!"
+FlowerGuide[180]  = "Flower Girl: Congratulations on reaching Level 28! In these troubled times, why not find a partner to travel the world with?"
+FlowerGuide[190]  = "Flower Girl: The current suitable AFK map is: Bashu. You can start AFK training by clicking the AFK button on the mini-map!"
+FlowerGuide[200]  = "Flower Girl: Congratulations on reaching Level 32! You can now check your Achievement List!"
+FlowerGuide[210]  = "Flower Girl: Congratulations on reaching Level 35! Feel like leveling is slow? Join the Taoyuan Emergency event for massive experience!"
+FlowerGuide[220]  = "Flower Girl: Do you have a Legion? Flower Girl recommends joining one! This way, you can complete quests and events faster with friends! Click the Social Platform to find a Legion!"
+FlowerGuide[230]  = "Flower Girl: The current suitable AFK map is: Nanman. You can start AFK training by clicking the AFK button on the mini-map!"
+FlowerGuide[240]  = "Flower Girl: Now you can learn how to recruit Guards. If fate allows, you can even recruit Flower Girl as your Guard! I'll fight by your side and roam the world together! In this chaotic world—you are not alone."
+FlowerGuide[250]  = "Flower Girl: Equipment has durability. Don't just focus on AFK training and ignore your gear's feelings~"
 
--- 与玩家等级对比，不满足时出提示，对比内容是玩家等级和兵种等级
+-- Comparison with player level, prompt appears if not met. Compares player level and unit level.
 
-FlowerGuide[1000] = "花娘：亲~你的兵种等级有点低了哟~平时除了升级偶尔也要升级一下兵种~"
-FlowerGuide[1010] = "花娘：亲~你的兵种等级有点低了哟~平时除了升级偶尔也要升级一下兵种~"
-FlowerGuide[1020] = "花娘：亲~你的兵种等级有点低了哟~平时除了升级偶尔也要升级一下兵种~"
-FlowerGuide[1030] = "花娘：亲~你的兵种等级有点低了哟~平时除了升级偶尔也要升级一下兵种~"
-FlowerGuide[1040] = "花娘：亲~你的兵种等级有点低了哟~平时除了升级偶尔也要升级一下兵种~"
-FlowerGuide[1050] = "花娘：亲~你的兵种等级有点低了哟~平时除了升级偶尔也要升级一下兵种~"
-FlowerGuide[1060] = "花娘：亲~你的兵种等级有点低了哟~平时除了升级偶尔也要升级一下兵种~"
-FlowerGuide[1070] = "花娘：亲~你的兵种等级有点低了哟~平时除了升级偶尔也要升级一下兵种~"
-FlowerGuide[1080] = "花娘：亲~你的兵种等级有点低了哟~平时除了升级偶尔也要升级一下兵种~"
+FlowerGuide[1000] = "Flower Girl: Dear~ Your unit level is a bit low~ Besides leveling up, you should upgrade your unit level once in a while~"
+FlowerGuide[1010] = "Flower Girl: Dear~ Your unit level is a bit low~ Besides leveling up, you should upgrade your unit level once in a while~"
+FlowerGuide[1020] = "Flower Girl: Dear~ Your unit level is a bit low~ Besides leveling up, you should upgrade your unit level once in a while~"
+FlowerGuide[1030] = "Flower Girl: Dear~ Your unit level is a bit low~ Besides leveling up, you should upgrade your unit level once in a while~"
+FlowerGuide[1040] = "Flower Girl: Dear~ Your unit level is a bit low~ Besides leveling up, you should upgrade your unit level once in a while~"
+FlowerGuide[1050] = "Flower Girl: Dear~ Your unit level is a bit low~ Besides leveling up, you should upgrade your unit level once in a while~"
+FlowerGuide[1060] = "Flower Girl: Dear~ Your unit level is a bit low~ Besides leveling up, you should upgrade your unit level once in a while~"
+FlowerGuide[1070] = "Flower Girl: Dear~ Your unit level is a bit low~ Besides leveling up, you should upgrade your unit level once in a while~"
+FlowerGuide[1080] = "Flower Girl: Dear~ Your unit level is a bit low~ Besides leveling up, you should upgrade your unit level once in a while~"
 
---以下是与玩家等级对比，不满足时出提示，对比内容是玩家等级和官职等级
+-- Comparison with player level, prompt appears if not met. Compares player level and official rank level.
 
-FlowerGuide[2010] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-FlowerGuide[2020] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-FlowerGuide[2030] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-FlowerGuide[2040] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-FlowerGuide[2050] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-FlowerGuide[2060] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-FlowerGuide[2070] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-FlowerGuide[2080] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-FlowerGuide[2090] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-FlowerGuide[2100] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-FlowerGuide[2110] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-FlowerGuide[2120] = "花娘：亲~你的官职等级有点低了哟~官职越高每日俸禄就越高哟~"
-
-
+FlowerGuide[2010] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
+FlowerGuide[2020] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
+FlowerGuide[2030] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
+FlowerGuide[2040] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
+FlowerGuide[2050] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
+FlowerGuide[2060] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
+FlowerGuide[2070] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
+FlowerGuide[2080] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
+FlowerGuide[2090] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
+FlowerGuide[2100] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
+FlowerGuide[2110] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
+FlowerGuide[2120] = "Flower Girl: Dear~ Your official rank is a bit low~ The higher the rank, the higher your daily salary~"
 
 
---图鉴翻牌获得次数途径
+
+
+-- Ways to obtain card flips in the Illustrated Handbook
 CardAssist =
-"^ffffff前往#6243#处完成^fffd44结义任务\r^ffffff前往#3355#处完成^fffd44惩凶平叛^ffffff任务\r在各地寻找分局镖头完成^fffd44押镖护送^ffffff任务\r前往#69297#处完成^fffd44聚贤谷密函^ffffff任务\r前往洛阳、草原、东海完成^fffd44神舟探宝^ffffff任务\r前往#12820#处完成^fffd44每日红豆采摘^ffffff任务\r完成^fffd44每日点卯\r^ffffff前往#51467#处完成^fffd44煮酒舞剑莫问今朝^ffffff任务\r前往白帝城完成^fffd44振奋斗志^ffffff任务\r参与^fffd44濮阳之战（英雄级）\r参与^fffd44虎牢关之战（英雄级）\r参与^fffd44合肥之战（英雄级）\r参与^fffd44英雄志系列战场"
+"^ffffffGo to #6243# to complete the ^fffd44Sworn Brotherhood Quest\r^ffffffGo to #3355# to complete the ^fffd44Punish Evil & Suppress Rebellion^ffffff Quest\rFind Escort Masters in various places to complete the ^fffd44Dart Escort^ffffff Quest\rGo to #69297# to complete the ^fffd44Juxian Valley Secret Letter^ffffff Quest\rGo to Luoyang, Grasslands, or East Sea to complete the ^fffd44Divine Ship Treasure Hunt^ffffff Quest\rGo to #12820# to complete the ^fffd44Daily Red Bean Picking^ffffff Quest\rComplete ^fffd44Daily Check-in\r^ffffffGo to #51467# to complete the ^fffd44Wine & Sword Dance Quest^ffffff\rGo to Baidi City to complete the ^fffd44Boost Morale^ffffff Quest\rParticipate in ^fffd44Battle of Puyang (Hero Grade)\rParticipate in ^fffd44Battle of Hulao Pass (Hero Grade)\rParticipate in ^fffd44Battle of Hefei (Hero Grade)\rParticipate in ^fffd44Heroic Chronicles Series Battlefields"
 
---图鉴翻牌获得次数途径
+-- Illustrated Handbook flip info
 CardInfo =
-"^ea8015翻牌次数：\r^ffffff达到^fffd44英雄1级^ffffff之后，完成特定每日任务和活动即可获得翻牌次数。^fffd44某些任务快捷完成时不会获得次数奖励^ffffff。\r^ea8015获得奖励：\r^ffffff翻开两张图鉴之后，如果图案一致，则配对成功。如果图案不一致，则匹配失败，图鉴扣回。\r^ea8015刷新:\r^ffffff图鉴每天0点重置，重置后所有图鉴扣回，但是翻牌次数不变。玩家也可以使用道具^fffd44图鉴至宝^ffffff刷新图鉴。\r^ea8015对对碰积分:\r^ffffff每成功配对一次，即可获得对对碰积分，配对数量越多，获得积分也越多。对对碰积分可在#95704#处购买各种图鉴礼包。\r^ea8015其他：\r如果任务列表已满，可能会导致积分无法获得。请玩家在进行对对碰之前，适当清理任务列表。"
+"^ea8015Flip Attempts:\r^ffffffAfter reaching ^fffd44Hero Level 1^ffffff, complete specific daily tasks and events to obtain flip attempts. ^fffd44Some tasks completed via Quick-Finish will not grant flip rewards^ffffff.\r^ea8015Obtain Rewards:\r^ffffffAfter flipping two cards, if the patterns match, the pairing is successful. If they do not match, the pairing fails and the cards are flipped back.\r^ea8015Refresh:\r^ffffffThe handbook resets daily at 00:00. All cards are flipped back upon reset, but flip attempts remain unchanged. Players can also use the item ^fffd44Handbook Treasure^ffffff to refresh the cards.\r^ea8015Matching Points:\r^ffffffEach successful match grants Matching Points. The more matches you make, the more points you earn. Matching Points can be used at #95704# to purchase various Handbook Gift Packs.\r^ea8015Other:\rIf your quest list is full, it may cause points to not be obtained. Please clear your quest list appropriately before playing the matching game."

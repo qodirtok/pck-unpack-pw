@@ -12,9 +12,9 @@ RANK_TYPE_ARENA = 5
 RANK_TYPE_GANG = 6
 
 RANK_TYPE_WORDNULL = ""
-RANK_TYPE_WORDLEVEL = "级"
-RANK_TYPE_WORDGOLD = "金"
-RANK_TYPE_WORDPOPULATION = "人"
+RANK_TYPE_WORDLEVEL = "Lv"
+RANK_TYPE_WORDGOLD = "Gold"
+RANK_TYPE_WORDPOPULATION = "Pop"
 
 rank_list = {}
 rank_list[1] = {id = 1 , type = RANK_TYPE_PERSON , word = RANK_TYPE_WORDLEVEL}--个人等级
@@ -357,216 +357,251 @@ rank_list[364] = {id = 364 , type = RANK_TYPE_PERSON , word = RANK_TYPE_WORDNULL
 ---传出参数：5个值用\t分开
 
 local award_Alltitle = {}
+-- Civil Official Titles (Group 1)
 award_Alltitle[353] = {
-				[1] = {Rank = "正一品 大丞相", high = 1, low = 0},
-				[2] = {Rank = "从一品 司空", high = 2, low = 0},
-				[3] = {Rank = "从一品 司徒", high = 3, low = 0},
-				[4] = {Rank = "从一品 太尉", high = 4, low = 0},
-				[5] = {Rank = "正二品 太仆", high = 5, low = 0},
-				[6] = {Rank = "正二品 太常", high = 6, low = 0},
-				[7] = {Rank = "正二品 卫尉", high = 7, low = 0},
-				[8] = {Rank = "正二品 大鸿胪", high = 8, low = 0},
-				[9] = {Rank = "正二品 大司农", high = 9, low = 0},
-				[10] = {Rank = "从二品 左冯翊", high = 10, low = 0},
-				[11] = {Rank = "从二品 右扶风", high = 11, low = 0},
-				[12] = {Rank = "从二品 京兆尹", high = 12, low = 0},
-				[13] = {Rank = "从二品 大长秋", high = 13, low = 0},
-				[14] = {Rank = "从二品 宗正", high = 14, low = 0},
-				[15] = {Rank = "从二品 廷尉", high = 15, low = 0},
-				[16] = {Rank = "从二品 光禄勋", high = 16, low = 0},
-				[17] = {Rank = "从二品 少府", high = 17, low = 0},
-				[18] = {Rank = "从二品 前监军", high = 18, low = 30},
-				[19] = {Rank = "从二品 后监军", high = 31, low = 50},
-				[20] = {Rank = "从二品 左监军", high = 51, low = 100},
-				[21] = {Rank = "从二品 右监军", high = 101, low = 1000},
+				[1] = {Rank = "1st Grade: Grand Chancellor", high = 1, low = 0},
+				[2] = {Rank = "Junior 1st Grade: Minister of Works", high = 2, low = 0},
+				[3] = {Rank = "Junior 1st Grade: Minister of Education", high = 3, low = 0},
+				[4] = {Rank = "Junior 1st Grade: Grand Marshal", high = 4, low = 0},
+				[5] = {Rank = "2nd Grade: Minister of Coachmen", high = 5, low = 0},
+				[6] = {Rank = "2nd Grade: Minister of Ceremonies", high = 6, low = 0},
+				[7] = {Rank = "2nd Grade: Minister of the Guard", high = 7, low = 0},
+				[8] = {Rank = "2nd Grade: Minister of Herald", high = 8, low = 0},
+				[9] = {Rank = "2nd Grade: Minister of Finance", high = 9, low = 0},
+				[10] = {Rank = "Junior 2nd Grade: Left Fufeng", high = 10, low = 0},
+				[11] = {Rank = "Junior 2nd Grade: Right Fufeng", high = 11, low = 0},
+				[12] = {Rank = "Junior 2nd Grade: Governor of Jingzhao", high = 12, low = 0},
+				[13] = {Rank = "Junior 2nd Grade: Grand Palace Matron", high = 13, low = 0},
+				[14] = {Rank = "Junior 2nd Grade: Minister of Clan", high = 14, low = 0},
+				[15] = {Rank = "Junior 2nd Grade: Minister of Justice", high = 15, low = 0},
+				[16] = {Rank = "Junior 2nd Grade: Minister of Household", high = 16, low = 0},
+				[17] = {Rank = "Junior 2nd Grade: Minister of Steward", high = 17, low = 0},
+				[18] = {Rank = "Junior 2nd Grade: Front Inspector", high = 18, low = 30},
+				[19] = {Rank = "Junior 2nd Grade: Rear Inspector", high = 31, low = 50},
+				[20] = {Rank = "Junior 2nd Grade: Left Inspector", high = 51, low = 100},
+				[21] = {Rank = "Junior 2nd Grade: Right Inspector", high = 101, low = 1000},
 					  }
+
+-- Military General Titles (Group 1)
 award_Alltitle[356] = {
-				[1] = {Rank = "正一品 大将军", high = 1, low = 0},
-				[2] = {Rank = "从一品 卫将军", high = 2, low = 0},
-				[3] = {Rank = "从一品 车骑将军", high = 3, low = 0},
-				[4] = {Rank = "从一品 骠骑将军", high = 4, low = 0},
-				[5] = {Rank = "正二品 抚军大将军", high = 5, low = 0},
-				[6] = {Rank = "正二品 镇军大将军", high = 6, low = 0},
-				[7] = {Rank = "正二品 辅国大将军", high = 7, low = 0},
-				[8] = {Rank = "正二品 中军大将军", high = 8, low = 0},
-				[9] = {Rank = "正二品 上军大将军", high = 9, low = 0},
-				[10] = {Rank = "从二品 镇北将军", high = 10, low = 0},
-				[11] = {Rank = "从二品 镇西将军", high = 11, low = 0},
-				[12] = {Rank = "从二品 镇南将军", high = 12, low = 0},
-				[13] = {Rank = "从二品 镇东将军", high = 13, low = 0},
-				[14] = {Rank = "从二品 征北将军", high = 14, low = 0},
-				[15] = {Rank = "从二品 征西将军", high = 15, low = 0},
-				[16] = {Rank = "从二品 征南将军", high = 16, low = 0},
-				[17] = {Rank = "从二品 征东将军", high = 17, low = 0},
-				[18] = {Rank = "从二品 前领军将军", high = 18, low = 30},
-				[19] = {Rank = "从二品 后领军将军", high = 31, low = 50},
-				[20] = {Rank = "从二品 左领军将军", high = 51, low = 100},
-				[21] = {Rank = "从二品 右领军将军", high = 101, low = 1000},
+				[1] = {Rank = "1st Grade: Grand General", high = 1, low = 0},
+				[2] = {Rank = "Junior 1st Grade: General of the Guards", high = 2, low = 0},
+				[3] = {Rank = "Junior 1st Grade: General of Chariots and Cavalry", high = 3, low = 0},
+				[4] = {Rank = "Junior 1st Grade: General of Flying Cavalry", high = 4, low = 0},
+				[5] = {Rank = "2nd Grade: Grand General Who Pacifies the Army", high = 5, low = 0},
+				[6] = {Rank = "2nd Grade: Grand General Who Guards the Army", high = 6, low = 0},
+				[7] = {Rank = "2nd Grade: Grand General Who Assists the State", high = 7, low = 0},
+				[8] = {Rank = "2nd Grade: Grand General of the Central Army", high = 8, low = 0},
+				[9] = {Rank = "2nd Grade: Grand General of the Upper Army", high = 9, low = 0},
+				[10] = {Rank = "Junior 2nd Grade: General Who Guards the North", high = 10, low = 0},
+				[11] = {Rank = "Junior 2nd Grade: General Who Guards the West", high = 11, low = 0},
+				[12] = {Rank = "Junior 2nd Grade: General Who Guards the South", high = 12, low = 0},
+				[13] = {Rank = "Junior 2nd Grade: General Who Guards the East", high = 13, low = 0},
+				[14] = {Rank = "Junior 2nd Grade: General Who Conquers the North", high = 14, low = 0},
+				[15] = {Rank = "Junior 2nd Grade: General Who Conquers the West", high = 15, low = 0},
+				[16] = {Rank = "Junior 2nd Grade: General Who Conquers the South", high = 16, low = 0},
+				[17] = {Rank = "Junior 2nd Grade: General Who Conquers the East", high = 17, low = 0},
+				[18] = {Rank = "Junior 2nd Grade: Front Commanding General", high = 18, low = 30},
+				[19] = {Rank = "Junior 2nd Grade: Rear Commanding General", high = 31, low = 50},
+				[20] = {Rank = "Junior 2nd Grade: Left Commanding General", high = 51, low = 100},
+				[21] = {Rank = "Junior 2nd Grade: Right Commanding General", high = 101, low = 1000},
 					  }
+
+-- Award All Title 354 (Duplicate of 353 - Civil)
 award_Alltitle[354] = {
-				[1] = {Rank = "正一品 大丞相", high = 1, low = 0},
-				[2] = {Rank = "从一品 司空", high = 2, low = 0},
-				[3] = {Rank = "从一品 司徒", high = 3, low = 0},
-				[4] = {Rank = "从一品 太尉", high = 4, low = 0},
-				[5] = {Rank = "正二品 太仆", high = 5, low = 0},
-				[6] = {Rank = "正二品 太常", high = 6, low = 0},
-				[7] = {Rank = "正二品 卫尉", high = 7, low = 0},
-				[8] = {Rank = "正二品 大鸿胪", high = 8, low = 0},
-				[9] = {Rank = "正二品 大司农", high = 9, low = 0},
-				[10] = {Rank = "从二品 左冯翊", high = 10, low = 0},
-				[11] = {Rank = "从二品 右扶风", high = 11, low = 0},
-				[12] = {Rank = "从二品 京兆尹", high = 12, low = 0},
-				[13] = {Rank = "从二品 大长秋", high = 13, low = 0},
-				[14] = {Rank = "从二品 宗正", high = 14, low = 0},
-				[15] = {Rank = "从二品 廷尉", high = 15, low = 0},
-				[16] = {Rank = "从二品 光禄勋", high = 16, low = 0},
-				[17] = {Rank = "从二品 少府", high = 17, low = 0},
-				[18] = {Rank = "从二品 前监军", high = 18, low = 30},
-				[19] = {Rank = "从二品 后监军", high = 31, low = 50},
-				[20] = {Rank = "从二品 左监军", high = 51, low = 100},
-				[21] = {Rank = "从二品 右监军", high = 101, low = 1000},
+				[1] = {Rank = "1st Grade: Grand Chancellor", high = 1, low = 0},
+				[2] = {Rank = "Junior 1st Grade: Minister of Works", high = 2, low = 0},
+				[3] = {Rank = "Junior 1st Grade: Minister of Education", high = 3, low = 0},
+				[4] = {Rank = "Junior 1st Grade: Grand Marshal", high = 4, low = 0},
+				[5] = {Rank = "2nd Grade: Minister of Coachmen", high = 5, low = 0},
+				[6] = {Rank = "2nd Grade: Minister of Ceremonies", high = 6, low = 0},
+				[7] = {Rank = "2nd Grade: Minister of the Guard", high = 7, low = 0},
+				[8] = {Rank = "2nd Grade: Minister of Herald", high = 8, low = 0},
+				[9] = {Rank = "2nd Grade: Minister of Finance", high = 9, low = 0},
+				[10] = {Rank = "Junior 2nd Grade: Left Fufeng", high = 10, low = 0},
+				[11] = {Rank = "Junior 2nd Grade: Right Fufeng", high = 11, low = 0},
+				[12] = {Rank = "Junior 2nd Grade: Governor of Jingzhao", high = 12, low = 0},
+				[13] = {Rank = "Junior 2nd Grade: Grand Palace Matron", high = 13, low = 0},
+				[14] = {Rank = "Junior 2nd Grade: Minister of Clan", high = 14, low = 0},
+				[15] = {Rank = "Junior 2nd Grade: Minister of Justice", high = 15, low = 0},
+				[16] = {Rank = "Junior 2nd Grade: Minister of Household", high = 16, low = 0},
+				[17] = {Rank = "Junior 2nd Grade: Minister of Steward", high = 17, low = 0},
+				[18] = {Rank = "Junior 2nd Grade: Front Inspector", high = 18, low = 30},
+				[19] = {Rank = "Junior 2nd Grade: Rear Inspector", high = 31, low = 50},
+				[20] = {Rank = "Junior 2nd Grade: Left Inspector", high = 51, low = 100},
+				[21] = {Rank = "Junior 2nd Grade: Right Inspector", high = 101, low = 1000},
 					  }
+
+-- Award All Title 357 (General variant)
 award_Alltitle[357] = {
-				[1] = {Rank = "正一品 大将军", high = 1, low = 0},
-				[2] = {Rank = "从一品 卫将军", high = 2, low = 0},
-				[3] = {Rank = "从一品 车骑将军", high = 3, low = 0},
-				[4] = {Rank = "从一品 骠骑将军", high = 4, low = 0},
-				[5] = {Rank = "正二品 抚军大将军", high = 5, low = 0},
-				[6] = {Rank = "正二品 镇军大将军", high = 6, low = 0},
-				[7] = {Rank = "正二品 右车骑将军", high = 7, low = 0},
-				[8] = {Rank = "正二品 右骠骑将军", high = 8, low = 0},
-				[9] = {Rank = "正二品 右大将军", high = 9, low = 0},
-				[10] = {Rank = "从二品 镇北将军", high = 10, low = 0},
-				[11] = {Rank = "从二品 镇西将军", high = 11, low = 0},
-				[12] = {Rank = "从二品 镇南将军", high = 12, low = 0},
-				[13] = {Rank = "从二品 镇东将军", high = 13, low = 0},
-				[14] = {Rank = "从二品 征北将军", high = 14, low = 0},
-				[15] = {Rank = "从二品 征西将军", high = 15, low = 0},
-				[16] = {Rank = "从二品 征南将军", high = 16, low = 0},
-				[17] = {Rank = "从二品 征东将军", high = 17, low = 0},
-				[18] = {Rank = "从二品 前领军将军", high =18, low = 30},
-				[19] = {Rank = "从二品 后领军将军", high = 31, low = 50},
-				[20] = {Rank = "从二品 左领军将军", high = 51, low = 100},
-				[21] = {Rank = "从二品 右领军将军", high = 101, low = 1000},
+				[1] = {Rank = "1st Grade: Grand General", high = 1, low = 0},
+				[2] = {Rank = "Junior 1st Grade: General of the Guards", high = 2, low = 0},
+				[3] = {Rank = "Junior 1st Grade: General of Chariots and Cavalry", high = 3, low = 0},
+				[4] = {Rank = "Junior 1st Grade: General of Flying Cavalry", high = 4, low = 0},
+				[5] = {Rank = "2nd Grade: Grand General Who Pacifies the Army", high = 5, low = 0},
+				[6] = {Rank = "2nd Grade: Grand General Who Guards the Army", high = 6, low = 0},
+				[7] = {Rank = "2nd Grade: Right General of Chariots and Cavalry", high = 7, low = 0},
+				[8] = {Rank = "2nd Grade: Right General of Flying Cavalry", high = 8, low = 0},
+				[9] = {Rank = "2nd Grade: Right Grand General", high = 9, low = 0},
+				[10] = {Rank = "Junior 2nd Grade: General Who Guards the North", high = 10, low = 0},
+				[11] = {Rank = "Junior 2nd Grade: General Who Guards the West", high = 11, low = 0},
+				[12] = {Rank = "Junior 2nd Grade: General Who Guards the South", high = 12, low = 0},
+				[13] = {Rank = "Junior 2nd Grade: General Who Guards the East", high = 13, low = 0},
+				[14] = {Rank = "Junior 2nd Grade: General Who Conquers the North", high = 14, low = 0},
+				[15] = {Rank = "Junior 2nd Grade: General Who Conquers the West", high = 15, low = 0},
+				[16] = {Rank = "Junior 2nd Grade: General Who Conquers the South", high = 16, low = 0},
+				[17] = {Rank = "Junior 2nd Grade: General Who Conquers the East", high = 17, low = 0},
+				[18] = {Rank = "Junior 2nd Grade: Front Commanding General", high = 18, low = 30},
+				[19] = {Rank = "Junior 2nd Grade: Rear Commanding General", high = 31, low = 50},
+				[20] = {Rank = "Junior 2nd Grade: Left Commanding General", high = 51, low = 100},
+				[21] = {Rank = "Junior 2nd Grade: Right Commanding General", high = 101, low = 1000},
 					  }
+
+-- Award All Title 355 (Duplicate of 353 - Civil)
 award_Alltitle[355] = {
-				[1] = {Rank = "正一品 大丞相", high = 1, low = 0},
-				[2] = {Rank = "从一品 司空", high = 2, low = 0},
-				[3] = {Rank = "从一品 司徒", high = 3, low = 0},
-				[4] = {Rank = "从一品 太尉", high = 4, low = 0},
-				[5] = {Rank = "正二品 太仆", high = 5, low = 0},
-				[6] = {Rank = "正二品 太常", high = 6, low = 0},
-				[7] = {Rank = "正二品 卫尉", high = 7, low = 0},
-				[8] = {Rank = "正二品 大鸿胪", high = 8, low = 0},
-				[9] = {Rank = "正二品 大司农", high = 9, low = 0},
-				[10] = {Rank = "从二品 左冯翊", high = 10, low = 0},
-				[11] = {Rank = "从二品 右扶风", high = 11, low = 0},
-				[12] = {Rank = "从二品 京兆尹", high = 12, low = 0},
-				[13] = {Rank = "从二品 大长秋", high = 13, low = 0},
-				[14] = {Rank = "从二品 宗正", high = 14, low = 0},
-				[15] = {Rank = "从二品 廷尉", high = 15, low = 0},
-				[16] = {Rank = "从二品 光禄勋", high = 16, low = 0},
-				[17] = {Rank = "从二品 少府", high = 17, low = 0},
-				[18] = {Rank = "从二品 前监军", high = 18, low = 30},
-				[19] = {Rank = "从二品 后监军", high = 31, low = 50},
-				[20] = {Rank = "从二品 左监军", high = 51, low = 100},
-				[21] = {Rank = "从二品 右监军", high = 101, low = 1000},
+				[1] = {Rank = "1st Grade: Grand Chancellor", high = 1, low = 0},
+				[2] = {Rank = "Junior 1st Grade: Minister of Works", high = 2, low = 0},
+				[3] = {Rank = "Junior 1st Grade: Minister of Education", high = 3, low = 0},
+				[4] = {Rank = "Junior 1st Grade: Grand Marshal", high = 4, low = 0},
+				[5] = {Rank = "2nd Grade: Minister of Coachmen", high = 5, low = 0},
+				[6] = {Rank = "2nd Grade: Minister of Ceremonies", high = 6, low = 0},
+				[7] = {Rank = "2nd Grade: Minister of the Guard", high = 7, low = 0},
+				[8] = {Rank = "2nd Grade: Minister of Herald", high = 8, low = 0},
+				[9] = {Rank = "2nd Grade: Minister of Finance", high = 9, low = 0},
+				[10] = {Rank = "Junior 2nd Grade: Left Fufeng", high = 10, low = 0},
+				[11] = {Rank = "Junior 2nd Grade: Right Fufeng", high = 11, low = 0},
+				[12] = {Rank = "Junior 2nd Grade: Governor of Jingzhao", high = 12, low = 0},
+				[13] = {Rank = "Junior 2nd Grade: Grand Palace Matron", high = 13, low = 0},
+				[14] = {Rank = "Junior 2nd Grade: Minister of Clan", high = 14, low = 0},
+				[15] = {Rank = "Junior 2nd Grade: Minister of Justice", high = 15, low = 0},
+				[16] = {Rank = "Junior 2nd Grade: Minister of Household", high = 16, low = 0},
+				[17] = {Rank = "Junior 2nd Grade: Minister of Steward", high = 17, low = 0},
+				[18] = {Rank = "Junior 2nd Grade: Front Inspector", high = 18, low = 30},
+				[19] = {Rank = "Junior 2nd Grade: Rear Inspector", high = 31, low = 50},
+				[20] = {Rank = "Junior 2nd Grade: Left Inspector", high = 51, low = 100},
+				[21] = {Rank = "Junior 2nd Grade: Right Inspector", high = 101, low = 1000},
 					  }
+
+-- Award All Title 358 (Grand Commander variant)
 award_Alltitle[358] = {
-				[1] = {Rank = "正一品 大都督", high = 1, low = 0},
-				[2] = {Rank = "从一品 卫将军", high = 2, low = 0},
-				[3] = {Rank = "从一品 车骑将军", high = 3, low = 0},
-				[4] = {Rank = "从一品 骠骑将军", high = 4, low = 0},
-				[5] = {Rank = "正二品 抚军大将军", high = 5, low = 0},
-				[6] = {Rank = "正二品 镇军大将军", high = 6, low = 0},
-				[7] = {Rank = "正二品 辅国大将军", high = 7, low = 0},
-				[8] = {Rank = "正二品 右都护", high = 8, low = 0},
-				[9] = {Rank = "正二品 左都护", high = 9, low = 0},
-				[10] = {Rank = "从二品 镇北将军", high = 10, low = 0},
-				[11] = {Rank = "从二品 镇西将军", high = 11, low = 0},
-				[12] = {Rank = "从二品 镇南将军", high = 12, low = 0},
-				[13] = {Rank = "从二品 镇东将军", high = 13, low = 0},
-				[14] = {Rank = "从二品 征北将军", high = 14, low = 0},
-				[15] = {Rank = "从二品 征西将军", high = 15, low = 0},
-				[16] = {Rank = "从二品 征南将军", high = 16, low = 0},
-				[17] = {Rank = "从二品 征东将军", high = 17, low = 0},
-				[18] = {Rank = "从二品 前领军将军", high = 18, low = 30},
-				[19] = {Rank = "从二品 后领军将军", high = 31, low = 50},
-				[20] = {Rank = "从二品 左领军将军", high = 51, low = 100},
-				[21] = {Rank = "从二品 右领军将军", high = 101, low = 1000},
+				[1] = {Rank = "1st Grade: Grand Commander", high = 1, low = 0},
+				[2] = {Rank = "Junior 1st Grade: General of the Guards", high = 2, low = 0},
+				[3] = {Rank = "Junior 1st Grade: General of Chariots and Cavalry", high = 3, low = 0},
+				[4] = {Rank = "Junior 1st Grade: General of Flying Cavalry", high = 4, low = 0},
+				[5] = {Rank = "2nd Grade: Grand General Who Pacifies the Army", high = 5, low = 0},
+				[6] = {Rank = "2nd Grade: Grand General Who Guards the Army", high = 6, low = 0},
+				[7] = {Rank = "2nd Grade: Grand General Who Assists the State", high = 7, low = 0},
+				[8] = {Rank = "2nd Grade: Right Protector General", high = 8, low = 0},
+				[9] = {Rank = "2nd Grade: Left Protector General", high = 9, low = 0},
+				[10] = {Rank = "Junior 2nd Grade: General Who Guards the North", high = 10, low = 0},
+				[11] = {Rank = "Junior 2nd Grade: General Who Guards the West", high = 11, low = 0},
+				[12] = {Rank = "Junior 2nd Grade: General Who Guards the South", high = 12, low = 0},
+				[13] = {Rank = "Junior 2nd Grade: General Who Guards the East", high = 13, low = 0},
+				[14] = {Rank = "Junior 2nd Grade: General Who Conquers the North", high = 14, low = 0},
+				[15] = {Rank = "Junior 2nd Grade: General Who Conquers the West", high = 15, low = 0},
+				[16] = {Rank = "Junior 2nd Grade: General Who Conquers the South", high = 16, low = 0},
+				[17] = {Rank = "Junior 2nd Grade: General Who Conquers the East", high = 17, low = 0},
+				[18] = {Rank = "Junior 2nd Grade: Front Commanding General", high = 18, low = 30},
+				[19] = {Rank = "Junior 2nd Grade: Rear Commanding General", high = 31, low = 50},
+				[20] = {Rank = "Junior 2nd Grade: Left Commanding General", high = 51, low = 100},
+				[21] = {Rank = "Junior 2nd Grade: Right Commanding General", high = 101, low = 1000},
 					  }
+
+-- Martial Arts Titles
 award_Alltitle[50] = {
-				[1] = {Rank = "一骑当千", high = 1, low = 30},
-				[2] = {Rank = "武艺大师", high = 31, low = 100},
-				[3] = {Rank = "武艺高手", high = 101, low = 200},
-				[4] = {Rank = "习武之人", high = 201, low = 500},
+				[1] = {Rank = "One Against a Thousand", high = 1, low = 30},
+				[2] = {Rank = "Martial Arts Grandmaster", high = 31, low = 100},
+				[3] = {Rank = "Martial Arts Expert", high = 101, low = 200},
+				[4] = {Rank = "Martial Arts Practitioner", high = 201, low = 500},
 					  }
+
+-- Renowned Scholars/Lords
 award_Alltitle[24] = {
-				[1] = {Rank = "天下第一仁君", high = 1, low = 0},
-				[2] = {Rank = "三君贤师", high = 2, low = 4},
-				[3] = {Rank = "八骏名士", high = 5, low = 12},
-				[4] = {Rank = "八顾名士", high = 13, low = 20},
-				[5] = {Rank = "八及君子", high = 21, low = 28},
-				[6] = {Rank = "八厨君子", high = 29, low = 36},
+				[1] = {Rank = "World's First Benevolent Ruler", high = 1, low = 0},
+				[2] = {Rank = "Sage Master of Three Sovereigns", high = 2, low = 4},
+				[3] = {Rank = "Eight Steeds: Elite Scholar", high = 5, low = 12},
+				[4] = {Rank = "Eight Gazes: Elite Scholar", high = 13, low = 20},
+				[5] = {Rank = "Eight Reaches: Gentleman", high = 21, low = 28},
+				[6] = {Rank = "Eight Kitchens: Gentleman", high = 29, low = 36},
 					  }
+
+-- Wei Kingdom Overlords
 award_Alltitle[450] = {
-				[1] = {Rank = "大魏霸主", high = 1, low = 0},
-				[2] = {Rank = "大魏英主", high = 2, low = 0},
-				[3] = {Rank = "大魏明主", high = 3, low = 0},
-				[4] = {Rank = "大魏雄主", high = 4, low = 0},
-				[5] = {Rank = "大魏强主", high = 5, low = 0},
+				[1] = {Rank = "Great Wei Hegemon", high = 1, low = 0},
+				[2] = {Rank = "Great Wei Heroic Lord", high = 2, low = 0},
+				[3] = {Rank = "Great Wei Wise Lord", high = 3, low = 0},
+				[4] = {Rank = "Great Wei Mighty Lord", high = 4, low = 0},
+				[5] = {Rank = "Great Wei Powerful Lord", high = 5, low = 0},
 					  }
+
+-- Shu Kingdom Overlords
 award_Alltitle[451] = {
-				[1] = {Rank = "大蜀霸主", high = 1, low = 0},
-				[2] = {Rank = "大蜀英主", high = 2, low = 0},
-				[3] = {Rank = "大蜀明主", high = 3, low = 0},
-				[4] = {Rank = "大蜀雄主", high = 4, low = 0},
-				[5] = {Rank = "大蜀强主", high = 5, low = 0},
+				[1] = {Rank = "Great Shu Hegemon", high = 1, low = 0},
+				[2] = {Rank = "Great Shu Heroic Lord", high = 2, low = 0},
+				[3] = {Rank = "Great Shu Wise Lord", high = 3, low = 0},
+				[4] = {Rank = "Great Shu Mighty Lord", high = 4, low = 0},
+				[5] = {Rank = "Great Shu Powerful Lord", high = 5, low = 0},
 					  }
+
+-- Wu Kingdom Overlords
 award_Alltitle[452] = {
-				[1] = {Rank = "大吴霸主", high = 1, low = 0},
-				[2] = {Rank = "大吴英主", high = 2, low = 0},
-				[3] = {Rank = "大吴明主", high = 3, low = 0},
-				[4] = {Rank = "大吴雄主", high = 4, low = 0},
-				[5] = {Rank = "大吴强主", high = 5, low = 0},
+				[1] = {Rank = "Great Wu Hegemon", high = 1, low = 0},
+				[2] = {Rank = "Great Wu Heroic Lord", high = 2, low = 0},
+				[3] = {Rank = "Great Wu Wise Lord", high = 3, low = 0},
+				[4] = {Rank = "Great Wu Mighty Lord", high = 4, low = 0},
+				[5] = {Rank = "Great Wu Powerful Lord", high = 5, low = 0},
 					  }
+
+-- Mentor Title
 award_Alltitle[360] = {
-				[1] = {Rank = "天朝良师", high = 1, low = 100},
+				[1] = {Rank = "Good Mentor of the Empire", high = 1, low = 100},
 					  }
+
+-- Chamber of Commerce Titles
 award_Alltitle[562] = {
-				[1] = {Rank = "商会大当家", high = 1, low = 0},
-				[2] = {Rank = "商会长老", high = 2, low = 10},
-				[3] = {Rank = "商会执事", high = 11, low = 30},
+				[1] = {Rank = "Commerce Guild Head", high = 1, low = 0},
+				[2] = {Rank = "Commerce Guild Elder", high = 2, low = 10},
+				[3] = {Rank = "Commerce Guild Deacon", high = 11, low = 30},
 					  }
+
+-- Fortune/Luck Titles
 award_Alltitle[359] = {
-				[1] = {Rank = "^FFFD44天禄小福神", high = 1, low = 0},
-				[2] = {Rank = "^FF9C00天禄小福星", high = 2, low = 10},
+				[1] = {Rank = "^FFFD44Celestial Blessing Child", high = 1, low = 0},
+				[2] = {Rank = "^FF9C00Celestial Lucky Star", high = 2, low = 10},
 					  }
+
+-- Martial Saint (Guan Yu) Titles
 award_Alltitle[255] = {
-				[1] = {Rank = "^FF7D2F武圣衣钵传人", high = 1, low = 0},
-				[2] = {Rank = "^FF7D2F武圣门徒", high = 2, low = 3},
-				[3] = {Rank = "^FF7D2F武圣小徒", high = 4, low = 10},
-				[4] = {Rank = "^FF7D2F武圣小友", high = 11, low = 100},
-				[5] = {Rank = "^FF7D2F武圣崇拜者", high = 101, low = 500},
+				[1] = {Rank = "^FF7D2FSuccessor of the Martial Saint", high = 1, low = 0},
+				[2] = {Rank = "^FF7D2FDisciple of the Martial Saint", high = 2, low = 3},
+				[3] = {Rank = "^FF7D2FApprentice of the Martial Saint", high = 4, low = 10},
+				[4] = {Rank = "^FF7D2FJunior Friend of the Martial Saint", high = 11, low = 100},
+				[5] = {Rank = "^FF7D2FAdmirer of the Martial Saint", high = 101, low = 500},
 					  }
+
+-- Heroic Poetic Titles
 award_Alltitle[361] = {
-				[1] = {Rank = "义薄云天荡九州", high = 1, low = 0},
-				[2] = {Rank = "阵前一喝破人胆", high = 2, low = 0},
-				[3] = {Rank = "龙吟虎啸贯千秋", high = 3, low = 0},
-				[4] = {Rank = "狮盔银铠冠三军", high = 4, low = 0},
-				[5] = {Rank = "长弓满月惊风雷", high = 5, low = 0},
+				[1] = {Rank = "Loyalty Shakes the Nine Provinces", high = 1, low = 0},
+				[2] = {Rank = "A Single Roar Shatters the Enemy's Heart", high = 2, low = 0},
+				[3] = {Rank = "Roar of the Dragon and Tiger Through Ages", high = 3, low = 0},
+				[4] = {Rank = "Lion Helmet and Silver Armor Leads the Army", high = 4, low = 0},
+				[5] = {Rank = "Longbow Drawn Like Full Moon Shakes the Storm", high = 5, low = 0},
 					  }
+
+-- Brave Official Titles
 award_Alltitle[362] = {
-				[1] = {Rank = "战群僚一人勇", high = 1, low = 3},
-				[2] = {Rank = "精锐将臣", high = 4, low = 50},
+				[1] = {Rank = "Bravest Among All Officials", high = 1, low = 3},
+				[2] = {Rank = "Elite General-Minister", high = 4, low = 50},
 					  }
+
 award_Alltitle[363] = {
-				[1] = {Rank = "战群僚一人勇", high = 1, low = 3},
-				[2] = {Rank = "精锐将臣", high = 4, low = 50},
+				[1] = {Rank = "Bravest Among All Officials", high = 1, low = 3},
+				[2] = {Rank = "Elite General-Minister", high = 4, low = 50},
 					  }
+
 award_Alltitle[364] = {
-				[1] = {Rank = "战群僚一人勇", high = 1, low = 3},
-				[2] = {Rank = "精锐将臣", high = 4, low = 50},
+				[1] = {Rank = "Bravest Among All Officials", high = 1, low = 3},
+				[2] = {Rank = "Elite General-Minister", high = 4, low = 50},
 					  }
 					  
 rank_disp = {};
@@ -606,7 +641,7 @@ function rank_disp:GetDescription(id, rank, last_rank, name, prof, val)
 
 --整理并返回排行版显示内容ranktext
 	if last_rank <= 0 and last_rank ~= -1 then
-		trend = "^FFFD44新"
+		trend = "^FFFD44new"
 	elseif last_rank == -1 then
 		trend = "^8eb9ff--"
 	else
@@ -621,7 +656,7 @@ function rank_disp:GetDescription(id, rank, last_rank, name, prof, val)
 --转生后排行榜等级显示
 	if id == 1 then
 		if val > 80 then
-			now_val = string.format("%s%s", "英雄", val - 80)
+			now_val = string.format("%s%s", "hero", val - 80)
 		else
 			now_val = val
 		end
