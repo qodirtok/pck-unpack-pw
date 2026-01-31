@@ -1,153 +1,153 @@
 #_begin
 
 // 0
-Standing
-Combat Stand
-walk
-run
-take-off
+站立
+战斗站立
+行走
+奔跑
+起跳
     
 // 5                                          
-Jumping in the air
-Jump and land
-swimming
-float
-Wings Take Off
+跳跃空中循环
+跳跃落地
+游动
+漂浮
+翅膀起飞
     
 // 10                                          
-Wings hovering
-Wings forward
-Wings descending from high altitude
-Wings descending at low altitude
-Wings land
+翅膀悬停
+翅膀前进
+翅膀高空下降
+翅膀低空下降
+翅膀落地
     
 // 15                                          
-Flying sword takes off                                      
-Flying sword hover                                      
-Flying Sword Advance                                      
-Flying sword descends from high altitude                                  
-Flying sword descends at low altitude                                  
+飞剑起飞                                      
+飞剑悬停                                      
+飞剑前进                                      
+飞剑高空下降                                  
+飞剑低空下降                                  
       
 // 20                                        
-Flying sword lands                                      
-meditation                                          
-Meditation Cycle                                      
-Standing up after sitting in meditation                                      
-Injuried                                          
+飞剑落地                                      
+打坐                                          
+打坐循环                                      
+打坐站起                                      
+受伤                                          
     
 // 25                                          
-Ground death                                      
-Ground death loop                                  
-Death in water                                      
-Dead Water Circulation                                  
-Death in the air                                      
+地面死亡                                      
+地面死亡循环                                  
+水中死亡                                      
+死亡水中循环                                  
+空中死亡                                      
       
 // 30                                        
-In-flight death fall loop                              
-Death in the air                                  
-Death landing loop                                  
-resurrection                                          
-Entrance                                    
+空中死亡下落循环                              
+空中死亡落地                                  
+死亡落地循环                                  
+复活                                          
+入场                                    
       
 // 35                                        
-Knocked back
-Knocked down
-Knocked down in a loop
-Knocked down and got up
-Picking                                          
+被击退                                        
+被击倒                                        
+被击倒倒地循环                                
+被击倒站起                                    
+采摘                                          
       
 // 40                                        
-Plant harvesting cycle
-Picking up
-Picking things up
-Stretching
-Looking around                                      
+采摘植物循环                                  
+采摘站起                                      
+捡东西                                        
+伸懒腰                                        
+四处张望                                      
       
 // 45                                        
-Turning a weapon
-Beckoning
-Nodding
-Shaking one's head
-Shrugs                                        
+转动兵器                                      
+招手                                          
+点头                                          
+摇头                                          
+耸肩膀                                        
       
 // 50                                        
-laughing out loud                                          
-angry                                          
-faint                                          
-Frustration                                          
-Flying kiss                                          
+大笑                                          
+生气                                          
+晕倒                                          
+沮丧                                          
+飞吻                                          
     
 // 55                                          
-Shy
-Clenched fists
-Sit down
-Sit down repeatedly
-Sit down and stand up                                      
+害羞                                          
+抱拳                                          
+坐下                                          
+坐下循环                                      
+坐下站起                                      
       
 // 60                                        
-Charge
-Think
-Provoke
-Victory
-Kiss                                        
+冲锋                                          
+思考                                          
+挑衅                                          
+胜利                                          
+亲吻                                          
       
 // 65                                        
-Kissing loop
-Kiss ends
-Normal attack 1
-Normal attack 2
-Normal attack 3                                         
+亲吻循环                                      
+亲吻结束                                      
+普攻1                                         
+普攻2                                         
+普攻3                                         
       
 // 70                                        
-Basic Attack 4
-Throw a projectile
-Fancy run
-Fancy jump
-Glide with wings
+普攻4                                        
+放暗器 
+花招跑
+花招跳
+翅膀滑翔
 
 // 75
-Flying Sword Gliding
-Combat
-Attack 1
-Attack 2
-Attack 3
+飞剑滑翔
+战斗
+攻击1
+攻击2
+攻击3
 
 // 80
-Attack 4
-Defense
-Fall down
-Fall to the ground
-Look around
+攻击4
+防御
+摔倒
+倒地
+张望
 
 // 85
-Dance
-Use Items
-Item Use Cycle
-Two-Person Kiss
-Wink
+舞蹈
+使用物品
+使用物品循环
+双人亲吻
+眨眼
 
 // 90
-Victory
-Lightness Skill Takes Off
-Lightness Skill Cycle
-Combat Jump
-Combat Jump Aerial Cycle
+胜利
+轻功起
+轻功循环
+战斗起跳
+战斗跳跃空中循环
 
 // 95
-Combat jump landing
-Combat running
-Combat light footwork loop
+战斗跳跃落地
+战斗奔跑
+战斗轻功循环
 
 // suffix, total number is 10
-Empty
-Sword
-Knife
-Wheel
-Staff
+空
+剑
+刀
+轮
+杖
 
-Empty
-Empty
-Empty
-Empty
-Empty
+空
+空
+空
+空
+空
 

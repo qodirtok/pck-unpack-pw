@@ -1,100 +1,96 @@
 #_begin
-None
-1s1d_Short Weapon a
-1s1d_Short Weapon b
-1s1d_Long Weapon a
-1s1d_Long Weapon b
-1s1d_Short Spell
-1s1d_Long Spell
-1s1d_Dagger a
-1s1d_Dagger b
-BF1s_Short Weapon
-BF1s_Short Spell
-BF1s_Long Weapon
-BF1s_Long Spell
-BF1s_Dagger
-Charge
-Small Hammer
-Draw aggro
-Magic Shield
-2s1d_Short Weapon
-2s1d_Long Weapon
-2s1d_Short Magic
-2s1d_Long Magic
-2s2d_Short Weapon
-2s2d_Long Weapon a
-2s2d_Long Weapon b
-2s1d_Dagger
-2s2d_Dagger
-BF2s_Short Weapon
-BF2s_Short Magic
-BF2s_Long Weapon
-BF2s_Long Magic
-BF2s_Dagger
-Short Weapon 2s AoE a
-Short Weapon 2s AoE b
-Long Weapon 2s AoE
-3s1d_Short Weapon a
-3s1d_Short Weapon b
-3s1d_Long Weapon a
-3s1 d_long weapon b
-3s1d_dagger a
-3s1d_dagger b
-3s1d_short weapon
-3s1d_long weapon
-3s3d_short weapon a
-3s3d_short weapon b
-3s3d_long weapon a
-3s3d_long weapon b
-3s3d_dagger a
-3s3d_dagger b
-BF3s_short weapon
-BF3s_short weapon
-BF3s_long weapon
-BF3s_long weapon
-BF3s_dagger
-Short weapon 3s AoE attack
-Long weapon 3s AoE attack
-Dagger 3s AoE attack
-Short weapon 3s AoE attack
-Long weapon 3s AoE attack
-Short weapon 3s AoE attack
-Long weapon 3s AoE attack
-Protective Shield
-Cyclic Actions
-1s1d_Mounted Short Weapon
-1s1d_Mounted Long Weapon
-1s1d_Mounted Short Spell
-1s1d_Mounted Long Spell
-1s1d_Mounted Dagger
-1s1d_Mounted Buff
-2s1d_Mounted Short Weapon
-2s2d_Mounted Short Weapon
-2s1d_Mounted Long Weapon
-2s2d_Mounted Long Weapon
-2s1d_Mounted Short Spell
-2s2d_Mounted Short Spell
-2s2d_Mounted Short Spell
-2s1d_Mounted Long Spell
-2s2d_Mounted Long Spell
-2s2d_Mounted Long Spell
-2s1d_Mounted Dagger
-2s2d_Mounted Dagger
-2s_Mounted BUFF
-3s1d_Mounted Short Weapon
-3s3d_Mounted Short Weapon
-3s1d_Mounted Long Weapon
-3s3d_Mounted Long Weapon
-3s1d_Mounted Short Spell
-3s3d_Mounted Short Spell
-3s1d_Mounted Long Spell
-3s3d_Mounted Long Spell
-3s1d_Mounted Dagger
-3s3d_Mounted Dagger
-3s_Mounted BUFF
-Skill Attack 1
-Skill Attack 2
-Skill Attack 3
-Monster-Specific Skill 1
-Monster-Specific Skill 2
-Monster-Specific Skill 3
+无
+1s1d_短兵a
+1s1d_短兵b
+1s1d_长兵a
+1s1d_长兵b
+1s1d_短法
+1s1d_长法
+1s1d_匕首a
+1s1d_匕首b
+BF1s_短兵
+BF1s_短法
+BF1s_长兵
+BF1s_长法
+BF1s_匕首
+冲锋
+小锤
+拉仇恨
+魔法盾
+2s1d_短兵
+2s1d_长兵
+2s1d_短法
+2s1d_长法
+2s2d_短兵
+2s2d_长兵a
+2s2d_长兵b
+2s1d_匕首
+2s2d_匕首
+BF2s_短兵
+BF2s_短法
+BF2s_长兵
+BF2s_长法
+BF2s_匕首
+短兵2s群攻a
+短兵2s群攻b
+长兵2s群攻
+3s1d_短兵a
+3s1d_短兵b
+3s1d_长兵a
+3s1d_长兵b
+3s1d_匕首a
+3s1d_匕首b
+3s1d_短法
+3s1d_长法
+3s3d_短兵a
+3s3d_短兵b
+3s3d_长兵a
+3s3d_长兵b
+3s3d_匕首a
+3s3d_匕首b
+BF3s_短兵
+BF3s_短法
+BF3s_长兵
+BF3s_长法
+BF3s_匕首
+短兵3s群攻
+长兵3s群攻
+匕首3s群攻
+短法3s群攻
+长法3s群攻
+保护罩
+循环动作
+1s1d_马上短兵
+1s1d_马上长兵
+1s1d_马上短法
+1s1d_马上长法
+1s1d_马上匕首
+1s1d_马上BUFF
+2s1d_马上短兵
+2s2d_马上短兵
+2s1d_马上长兵
+2s2d_马上长兵
+2s1d_马上短法
+2s2d_马上短法
+2s1d_马上长法
+2s2d_马上长法
+2s1d_马上匕首
+2s2d_马上匕首
+2s_马上BUFF
+3s1d_马上短兵
+3s3d_马上短兵
+3s1d_马上长兵
+3s3d_马上长兵
+3s1d_马上短法
+3s3d_马上短法
+3s1d_马上长法
+3s3d_马上长法
+3s1d_马上匕首
+3s3d_马上匕首
+3s_马上BUFF
+技能攻击1
+技能攻击2
+技能攻击3
+怪物专用技能1
+怪物专用技能2
+怪物专用技能3

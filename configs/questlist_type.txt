@@ -1,33 +1,33 @@
-27 Activities
-31 Rainforest
-30 Desert
-29 Valley
-28 Snow Mountain
-12 Guanzhong
-11 Jingxiang
-10 Jiangnan
-9 Nanman
-8 Bashu
-7 Xiliang
-6 Hebei
-13 Professions
-4 Official Positions
-1 Wei Kingdom
-2 Shu Kingdom
-3 Wu Kingdom
-15 Battlefield
-17 Martial Arts Competition
-18 Legendary
-19 Anecdotes
-24 Legion
-22 Sworn Brotherhood
-25 Daily Activities
-26 Escort Missions
-23 Marriage
-5 Tavern
-0 Normal
-14 Commerce
-16 Heroes
-20 Encyclopedia
-21 Southern Sichuan
-32 Red Cliffs
+27    活动
+31    雨林  
+30    沙漠
+29    幽谷
+28    雪山
+12    关中
+11    荆襄
+10    江南
+9     南蛮
+8     巴蜀
+7     西凉
+6     河北
+13    职业
+4     官职
+1     魏国
+2     蜀国
+3     吴国
+15    战场
+17    演武
+18    传奇
+19    逸闻
+24    军团
+22    结义
+25    日常
+26    押镖
+23    姻缘
+5     酒馆
+0     普通
+14    商业
+16    英雄
+20    图鉴
+21    川南
+32    赤壁

@@ -1,10 +1,10 @@
-#Format: Activity Level TAB Prize ID
+#格式：活跃度 TAB 奖品ID
 
-#Unclaimable prize
+#不可领奖
 0	0
-#Third Prize
+#三等奖
 2000	74592
-#Second Prize
+#二等奖
 3500	74591
-#First Prize
+#一等奖
 5000	74590
