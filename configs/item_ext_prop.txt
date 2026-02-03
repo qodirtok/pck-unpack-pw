@@ -1,69 +1,69 @@
 /*  Element 附加属性表
 
-附加属性类型定义：
+// Additional Attribute Type Definitions:
 
- 0: 物理攻击
- 1: 物理攻击上限
- 2: 物理攻击(%)
- 3: 魔法攻击
- 4: 魔法攻击上限
- 5: 魔法攻击(%)
- 6: +物防-物攻
- 7: +物攻-物防
- 8: +魔攻-魔防
- 9: 攻击速度
-10: 攻击距离
-11: 吟唱时间
+ 0: "Physical Attack"
+ 1: "Max Physical Attack"
+ 2: "Physical Attack (%)"
+ 3: "Magic Attack"
+ 4: "Max Magic Attack"
+ 5: "Magic Attack (%)"
+ 6: "+Phys Def / -Phys Atk"
+ 7: "+Phys Atk / -Phys Def"
+ 8: "+Mag Atk / -Mag Def"
+ 9: "Attack Speed"
+10: "Attack Range"
+11: "Channeling Time"
 
-12: 物理防御
-13: 物理防御(%)
-14: 五行防御
-15: 金防
-16: 金防(%)
-17: 木防
-18: 木防(%)
-19: 水防
-20: 水防(%)
-21: 火防
-22: 火防(%)
-23: 土防
-24: 土防(%)
-25: +金防(%)-火防(%)
-26: +木防(%)-金防(%)
-27: +水防(%)-土防(%)
-28: +火防(%)-水防(%)
-29: +土防(%)-木防(%)
-30: +金防-火防
-31: +木防-金防
-32: +水防-土防
-33: +火防-水防
-34: +土防-木防
+12: "Physical Defense"
+13: "Physical Defense (%)"
+14: "Elemental Defense"
+15: "Metal Resistance"
+16: "Metal Resistance (%)"
+17: "Wood Resistance"
+18: "Wood Resistance (%)"
+19: "Water Resistance"
+20: "Water Resistance (%)"
+21: "Fire Resistance"
+22: "Fire Resistance (%)"
+23: "Earth Resistance"
+24: "Earth Resistance (%)"
+25: "+Metal Res (%) / -Fire Res (%)"
+26: "+Wood Res (%) / -Metal Res (%)"
+27: "+Water Res (%) / -Earth Res (%)"
+28: "+Fire Res (%) / -Water Res (%)"
+29: "+Earth Res (%) / -Wood Res (%)"
+30: "+Metal Res / -Fire Res"
+31: "+Wood Res / -Metal Res"
+32: "+Water Res / -Earth Res"
+33: "+Fire Res / -Water Res"
+34: "+Earth Res / -Wood Res"
 
-35: HP
-36: MP
-37: HP(%)
-38: MP(%)
-39: HP恢复速度
-40: MP恢复速度
-41: 力量
-42: 敏捷
-43: 灵力
-44: 体力
+35: "HP"
+36: "MP"
+37: "HP (%)"
+38: "MP (%)"
+39: "HP Recovery Rate"
+40: "MP Recovery Rate"
+41: "Strength"
+42: "Agility"
+43: "Intelligence / Spirit"
+44: "Constitution / Vitality"
 
-45: 致命一击率
-46: 命中
-47: 命中(%)
-48: 移动速度
-49: 移动速度(%)
-50: 躲闪
-51: 躲闪(%)
-52: 耐久度
-53: 耐久度(%)
-54: 物理免疫
-55: 附加技能
-56: 装备需求
-57: 未知属性
-58: 经验值加成
+45: "Critical Hit Rate"
+46: "Accuracy"
+47: "Accuracy (%)"
+48: "Movement Speed"
+49: "Movement Speed (%)"
+50: "Evasion"
+51: "Evasion (%)"
+52: "Durability"
+53: "Durability (%)"
+54: "Physical Immunity"
+55: "Bonus Skill"
+56: "Equip Requirement"
+57: "Unknown Attribute"
+58: "Experience Bonus"
 */
 
 //  0: 物理攻击
